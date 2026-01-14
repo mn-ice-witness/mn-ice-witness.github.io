@@ -2,6 +2,7 @@ const Lightbox = {
     element: null,
     bodyElement: null,
     currentSlug: null,
+    cameFromAbout: false,
 
     init() {
         this.element = document.getElementById('lightbox');
@@ -61,6 +62,7 @@ const Lightbox = {
         document.body.style.overflow = 'hidden';
 
         this.currentSlug = 'about';
+        this.cameFromAbout = false;
         history.pushState({ lightbox: true, slug: 'about' }, '', '#about');
 
         const response = await fetch('about.md');
@@ -82,6 +84,30 @@ const Lightbox = {
         this.bodyElement.innerHTML = shareButton + '<div class="about-content">' + bodyHtml + '</div>';
 
         this.bodyElement.querySelector('.share-btn')?.addEventListener('click', () => this.copyShareLink());
+
+        // Add click handlers for incident links within about content
+        this.bodyElement.querySelectorAll('a[href^="#"]').forEach(link => {
+            const slug = link.getAttribute('href').slice(1);
+            if (slug && slug !== 'about') {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    this.openIncidentBySlug(slug);
+                });
+            }
+        });
+    },
+
+    async openIncidentBySlug(slug) {
+        // Find the incident by slug
+        const incident = App.incidents.find(i => {
+            const incidentSlug = i.filePath.split('/').pop().replace('.md', '');
+            return incidentSlug === slug;
+        });
+
+        if (incident) {
+            this.cameFromAbout = true;
+            await this.open(incident);
+        }
     },
 
     close() {
@@ -91,6 +117,13 @@ const Lightbox = {
     },
 
     closeWithoutHistory() {
+        // If we came from about, go back to about instead of closing completely
+        if (this.cameFromAbout) {
+            this.cameFromAbout = false;
+            this.openAbout();
+            return;
+        }
+
         this.element.setAttribute('aria-hidden', 'true');
         document.body.style.overflow = '';
         this.currentSlug = null;
