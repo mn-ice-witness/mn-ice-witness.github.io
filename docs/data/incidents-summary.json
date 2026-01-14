@@ -1,5 +1,37 @@
 [
   {
+    "filePath": "incidents/2026-01/2026-01-13-mankato-women-sprayed.md",
+    "title": "Two Young Women Sprayed with Chemical Irritant by ICE Agent in Mankato",
+    "summary": "Two young women were sprayed with a chemical irritant by a uniformed federal agent on Monday afternoon in Mankato. State Sen. Aric Putnam placed himself between the crowd and federal agents during the \"really intense confrontation.\"",
+    "date": "2026-01-13",
+    "time": "afternoon",
+    "location": "Near Mankato East High School",
+    "city": "Mankato",
+    "type": "bystanders-attacked",
+    "status": "resolved",
+    "victimCitizenship": "unknown",
+    "injuries": "chemical irritant exposure",
+    "trustworthiness": "medium-high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0
+  },
+  {
+    "filePath": "incidents/2026-01/2026-01-13-la-mexicana-st-peter.md",
+    "title": "Customer Arrested While Buying Drink at St. Peter Grocery Store",
+    "summary": "ICE agents arrested a customer at La Mexicana Market and Restaurant in St. Peter moments after he biked to the store and while he was paying for a drink. When asked for a warrant, agents said they didn't need one in a public area. Business reported significant drop in customers due to fear.",
+    "date": "2026-01-13",
+    "time": "afternoon",
+    "location": "La Mexicana Market and Restaurant, downtown St. Peter",
+    "city": "St. Peter",
+    "type": "community-member-detained",
+    "status": "ongoing",
+    "victimCitizenship": "undocumented",
+    "injuries": "none",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0
+  },
+  {
     "filePath": "incidents/2026-01/2026-01-13-disabled-woman-car-window.md",
     "title": "Disabled Woman Dragged Through Car Window by ICE Agents",
     "summary": "A woman claiming to be disabled was pulled out of her car by eight ICE agents after they smashed her window. She was reportedly trying to drive past an ICE operation to reach a doctor's appointment when agents blocked her path and forcibly removed her from her vehicle.",
@@ -51,6 +83,22 @@
     "mediaCount": 1
   },
   {
+    "filePath": "incidents/2026-01/2026-01-13-shearers-foods-perham.md",
+    "title": "ICE Detains Single Employee at Shearer's Foods Factory in Perham; Agent Claims No Warrant Needed",
+    "summary": "ICE agents detained a single employee at Shearer's Foods manufacturing facility in Perham. A witness reported that an ICE agent acknowledged having no warrant and claimed they didn't need one. The agents' vehicles were unmarked and officers were not wearing badges.",
+    "date": "2026-01-13",
+    "time": "daytime",
+    "location": "Shearer's Foods manufacturing facility",
+    "city": "Perham",
+    "type": "workplace-detention",
+    "status": "ongoing",
+    "victimCitizenship": "unknown",
+    "injuries": "none",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0
+  },
+  {
     "filePath": "incidents/2026-01/2026-01-13-lyn-lake-tear-gas.md",
     "title": "Federal Agents Deploy Tear Gas at Busy Lyn-Lake Intersection",
     "summary": "Federal agents deployed tear gas as their convoy passed through one of Minneapolis' busiest commercial intersections at Lyndale Avenue South and West Lake Street. A large crowd had gathered around the agents, blowing whistles and shouting. Agents dropped a gas canister as they prepared to exit the scene.",
@@ -100,6 +148,22 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 1
+  },
+  {
+    "filePath": "incidents/2026-01/2026-01-12-detroit-lakes-china-buffet.md",
+    "title": "Honduran Man Arrested at Detroit Lakes Restaurant; Partner Documents on Video",
+    "summary": "ICE agents arrested a Honduran man outside the China Buffet restaurant in Detroit Lakes. His partner, Grace Waawaate-Ikwe Roberts (a White Earth woman), documented the arrest on video. The detained man was taken to the ICE Field Office at Fort Snelling.",
+    "date": "2026-01-12",
+    "time": "morning",
+    "location": "China Buffet restaurant, 317 Frazee Street",
+    "city": "Detroit Lakes",
+    "type": "community-member-detained",
+    "status": "ongoing",
+    "victimCitizenship": "undocumented",
+    "injuries": "none",
+    "trustworthiness": "medium-high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0
   },
   {
     "filePath": "incidents/2026-01/2026-01-12-christina-rank-teacher.md",
@@ -297,6 +361,22 @@
     "mediaCount": 0
   },
   {
+    "filePath": "incidents/2026-01/2026-01-08-rochester-gates-complex.md",
+    "title": "Multiple ICE Arrests in Rochester; Activist Documents Agent Using Hammer on Car Window",
+    "summary": "ICE conducted enforcement operations across Rochester on January 8-9, 2026, with at least 5 confirmed arrests (27 total arrests in Rochester according to DHS). Activists witnessed concerning tactics including an agent using a hammer to try to open a car window during a warrantless detention. Mayor Kim Norton said the city did not ask for or want ICE presence.",
+    "date": "2026-01-08",
+    "time": "daytime",
+    "location": "Gates of Rochester complex and various locations",
+    "city": "Rochester",
+    "type": "community-members-detained",
+    "status": "ongoing",
+    "victimCitizenship": "various",
+    "injuries": "possible (hammer used on window)",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0
+  },
+  {
     "filePath": "incidents/2026-01/2026-01-08-little-earth-native-americans.md",
     "title": "Four Homeless Oglala Sioux Citizens Detained Near Little Earth",
     "summary": "At least four Oglala Sioux Tribe members, all U.S. citizens who were homeless, were detained while sheltering under a bridge near Little Earth. Unable to provide documentation. At least one held 12 hours.",
@@ -444,6 +524,22 @@
     "mediaCount": 0
   },
   {
+    "filePath": "incidents/2026-01/2026-01-02-trunorth-solar-arden-hills.md",
+    "title": "ICE Raids TruNorth Solar Factory in Arden Hills - \"First Big One of 2026\"",
+    "summary": "ICE agents raided TruNorth Solar factory in Arden Hills, Minnesota on January 2, 2026, described as \"the first big one of 2026.\" Protesters gathered outside the facility blowing whistles, honking horns, and yelling at agents to leave.",
+    "date": "2026-01-02",
+    "time": "unknown",
+    "location": "TruNorth Solar factory",
+    "city": "Arden Hills",
+    "type": "workplace-raid",
+    "status": "unknown",
+    "victimCitizenship": "undocumented",
+    "injuries": "unknown",
+    "trustworthiness": "medium",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0
+  },
+  {
     "filePath": "incidents/2026-01/2026-01-unknown-rosemount-gun-threat.md",
     "title": "ICE Agent Waves Gun at Motorist in Rosemount",
     "summary": "An ICE agent reportedly waved a gun sideways at a motorist in a threatening manner in Rosemount, Minnesota. The exact date and circumstances are unclear.",
@@ -540,6 +636,22 @@
     "injuries": "unknown",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
+    "mediaCount": 0
+  },
+  {
+    "filePath": "incidents/2025-12/2025-12-14-adnan-hisri-omars-son.md",
+    "title": "U.S. Citizen Son of Rep. Ilhan Omar Stopped by ICE, Released After Showing Passport",
+    "summary": "Adnan Hisri, the 20-year-old U.S.-born son of Rep. Ilhan Omar, was stopped by federal agents after leaving a Target store in Minneapolis. He was released after showing his passport. Rep. Omar said her son \"always carries\" his passport due to fears of racial profiling. DHS denied any record of the stop.",
+    "date": "2025-12-14",
+    "time": "unknown",
+    "location": "Near Target store",
+    "city": "Minneapolis",
+    "type": "racial-profiling",
+    "status": "resolved-released",
+    "victimCitizenship": "us-citizen",
+    "injuries": "none",
+    "trustworthiness": "medium-high",
+    "lastUpdated": "2026-01-14",
     "mediaCount": 0
   },
   {
@@ -726,5 +838,21 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 1
+  },
+  {
+    "filePath": "incidents/2025-11/2025-11-18-brotex-st-paul-raid.md",
+    "title": "14 Workers Detained in Major ICE Workplace Raid at Bro-Tex",
+    "summary": "Federal agents raided Bro-Tex Inc., a cleaning products manufacturer in St. Paul, detaining 14 workers in what organizers called the largest ICE workplace raid in Minnesota in 2025. Protesters who attempted to block agents' vehicles were pepper sprayed. Gov. Walz said the state received \"no heads up\" from federal authorities.",
+    "date": "2025-11-18",
+    "time": "daytime",
+    "location": "Bro-Tex Inc., 830 N. Hampden Ave (off University Ave)",
+    "city": "St. Paul",
+    "type": "workplace-raid",
+    "status": "resolved-detained",
+    "victimCitizenship": "undocumented",
+    "injuries": "protesters pepper-sprayed",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0
   }
 ]
