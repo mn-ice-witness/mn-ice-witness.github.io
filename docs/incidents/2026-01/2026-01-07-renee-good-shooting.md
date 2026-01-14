@@ -3,7 +3,7 @@ date: 2026-01-07
 time: morning
 location: 34th Street, Powderhorn Park area
 city: Minneapolis
-type: fatal-shooting
+type: bystander-arrested
 status: under-investigation
 victim_citizenship: us-citizen
 injuries: fatal
