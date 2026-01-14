@@ -4,7 +4,7 @@
 
 The Trump administration contends that Operation Metro Surge and its broader immigration enforcement targets "the worst of the worst" — criminals, gang members, and individuals with serious criminal histories.
 
-DHS Secretary Kristi Noem [directed ICE](https://www.dhs.gov/news/2025/12/19/under-president-trump-and-secretary-noem-department-homeland-security-has-historic) "to target the worst of the worst—including gang members, murderers, and rapists." DHS press releases highlight arrests of individuals with criminal records.
+DHS Secretary Kristi Noem [directed ICE](https://www.dhs.gov/news/2025/12/19/under-president-trump-and-secretary-noem-department-homeland-security-has-historic) "to target the worst of the worst—including gang members, murderers, and rapists." DHS press releases highlight arrests of individuals with criminal records. ICE's main [recruitment page](https://www.ice.gov/join) states: "America has been invaded by criminals and predators. We need YOU to get them out."
 
 ## The Data
 
