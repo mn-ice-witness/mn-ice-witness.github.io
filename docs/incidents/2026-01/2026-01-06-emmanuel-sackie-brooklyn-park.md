@@ -3,7 +3,7 @@ date: 2026-01-06
 time: afternoon
 location: Family Dollar parking lot
 city: Brooklyn Park
-type: citizen-detained
+type: citizen-legal-detained-beaten
 status: resolved
 victim_citizenship: us-citizen
 injuries: serious
