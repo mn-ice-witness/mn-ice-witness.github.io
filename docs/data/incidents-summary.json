@@ -1,5 +1,21 @@
 [
   {
+    "filePath": "incidents/2026-01/2026-01-14-oglala-sioux-still-detained.md",
+    "title": "Three Oglala Sioux U.S. Citizens Still Detained at Fort Snelling",
+    "summary": "Four days after ICE detained four Oglala Sioux tribal members from a Minneapolis homeless encampment, three remain in custody at Fort Snelling. Tribal President Frank Star Comes Out issued a formal memorandum to DHS Secretary Kristi Noem and Interior Secretary Doug Burgum demanding immediate release, calling the detention \"a treaty violation\" and stating \"tribal citizens are not aliens\" and are \"categorically outside immigration jurisdiction.\" DHS refused to provide information unless tribe enters immigration agreement with ICE.",
+    "date": "2026-01-14",
+    "time": "unknown",
+    "location": "Fort Snelling ICE Facility",
+    "city": "Minneapolis",
+    "type": "citizen-legal-detained-beaten",
+    "status": "ongoing",
+    "victimCitizenship": "us-citizen",
+    "injuries": "unknown",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0
+  },
+  {
     "filePath": "incidents/2026-01/2026-01-13-faribault-hs-walkout.md",
     "title": "Over 100 Faribault High School Students Walk Out to Protest ICE",
     "summary": "Over 100 students at Faribault High School walked out at 12:30 p.m. to protest ICE operations in Minnesota, joining students at Roosevelt High School and schools across the state. Students carried homemade signs reading \"abolish ICE,\" \"no one is illegal on stolen land,\" and \"ICE should be in my drinks, not my town.\"",
