@@ -345,6 +345,25 @@
     "mediaCount": 0
   },
   {
+    "filePath": "incidents/2026-01/2026-01-07-pastor-callaghan-detained.md",
+    "title": "White Pastor Detained, Told He Was Released Because \"You're White. You Wouldn't Be Fun Anyway\"",
+    "summary": "Rev. Kenny Callaghan, a Minneapolis pastor, was detained by ICE agents on January 7, 2026, the same day Renee Good was shot and killed. After positioning himself beside a Hispanic woman to protect her from agents, Callaghan was handcuffed at gunpoint and placed in an SUV for 30 minutes. Upon release, agents told him: \"Well, you're White. You wouldn't be fun anyway.\" The incident has been cited as evidence of racial profiling in ICE operations.",
+    "date": "2026-01-07",
+    "time": "afternoon",
+    "location": "Portland Avenue",
+    "city": "Minneapolis",
+    "type": [
+      "bystander-detained",
+      "racial-profiling"
+    ],
+    "status": "resolved-released",
+    "victimCitizenship": "us-citizen",
+    "injuries": "none-physical",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0
+  },
+  {
     "filePath": "incidents/2026-01/2026-01-07-renee-good-shooting.md",
     "title": "Renee Nicole Good Shot and Killed by ICE Agent",
     "summary": "Renee Nicole Good, a 37-year-old U.S. citizen, was fatally shot by ICE agent Jonathan Ross after she stopped her SUV in the street near where agents were conducting immigration enforcement. Good had just dropped her 6-year-old son off at school.",
@@ -359,6 +378,22 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
     "mediaCount": 6
+  },
+  {
+    "filePath": "incidents/2026-01/2026-01-07-clergy-pepper-sprayed.md",
+    "title": "Clergy Pepper Sprayed at Scene of Renee Good Shooting",
+    "summary": "At least two pastors were shoved, shot at with pepper rounds, and exposed to pepper spray while protesting ICE actions in Minneapolis on January 7, 2026. Rev. Susie Hayward (United Church of Christ) was shoved by a DHS agent and exposed to drifting pepper spray. Rev. Ashley Horan (Unitarian Universalist Association) was livestreaming when an agent fired a pepper round just feet from her head.",
+    "date": "2026-01-07",
+    "time": "afternoon",
+    "location": "Portland Avenue (scene of Renee Good shooting)",
+    "city": "Minneapolis",
+    "type": "bystander-injured",
+    "status": "resolved",
+    "victimCitizenship": "us-citizens",
+    "injuries": "pepper-spray-exposure",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 1
   },
   {
     "filePath": "incidents/2026-01/2026-01-07-roosevelt-high-school.md",
