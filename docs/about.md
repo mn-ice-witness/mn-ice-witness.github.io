@@ -68,6 +68,8 @@ The incidents documented here raise questions about the scope and conduct of enf
 
 Every incident on this site includes source links to news reports, videos, official statements, and court documents. Readers can verify each claim independently.
 
+<p style="font-style: italic; font-weight: bold; color: #666; margin-top: 1.5em;">Note: Even non-citizens accused of crimes have the right to have their civil rights respected, to be given due process under the law, and to have their humanity honored. As the <a href="https://www.aclu.org/issues/immigrants-rights">ACLU states</a>: "The fundamental constitutional protections of due process and equal protection embodied in the Constitution and Bill of Rights apply to every person."</p>
+
 ## Sources Used
 
 All incidents are documented using publicly available sources including:
