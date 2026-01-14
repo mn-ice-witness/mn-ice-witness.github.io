@@ -1,5 +1,7 @@
 # About This Site
 
+To report an incident, submit a correction, or provide additional documentation, contact us at [mnicewitness@gmail.com](mailto:mnicewitness@gmail.com).
+
 ## The Federal Position
 
 The Trump administration contends that Operation Metro Surge and its broader immigration enforcement targets "the worst of the worst" — criminals, gang members, and individuals with serious criminal histories.
@@ -61,6 +63,3 @@ All incidents are documented using publicly available sources including:
 
 Incidents are rated for trustworthiness (HIGH, MEDIUM, LOW, UNVERIFIED) based on the number and reliability of confirming sources.
 
----
-
-*Contact: [mnicewitness@gmail.com](mailto:mnicewitness@gmail.com)*
