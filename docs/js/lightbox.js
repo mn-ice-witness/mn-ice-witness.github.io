@@ -21,8 +21,9 @@ const Lightbox = {
         window.addEventListener('popstate', (e) => {
             if (this.isOpen()) {
                 if (e.state && e.state.lightbox && e.state.slug === 'about') {
-                    // Going back to about page - re-render it without pushing history
                     this.openAbout(true);
+                } else if (e.state && e.state.lightbox && e.state.slug) {
+                    this.openIncidentBySlugWithoutHistory(e.state.slug);
                 } else if (!e.state || !e.state.lightbox) {
                     this.closeWithoutHistory();
                 }
@@ -129,6 +130,40 @@ const Lightbox = {
                 this.cameFromAbout = true;
             }
             await this.open(incident, fromSlug);
+        }
+    },
+
+    async openIncidentBySlugWithoutHistory(slug) {
+        const incident = App.incidents.find(i => {
+            const incidentSlug = i.filePath.split('/').pop().replace('.md', '');
+            return incidentSlug === slug;
+        });
+
+        if (incident) {
+            this.bodyElement.innerHTML = '<div class="table-loading">Loading...</div>';
+
+            this.currentSlug = slug;
+            this.previousSlug = null;
+            this.cameFromAbout = false;
+
+            const response = await fetch(incident.filePath);
+            const content = await response.text();
+            const fullIncident = IncidentParser.parseIncident(content, incident.filePath);
+
+            const html = this.renderIncident(fullIncident);
+            this.bodyElement.innerHTML = html;
+
+            this.bodyElement.querySelector('.share-btn')?.addEventListener('click', () => this.copyShareLink());
+
+            this.bodyElement.querySelectorAll('a[href^="#"]').forEach(link => {
+                const linkSlug = link.getAttribute('href').slice(1);
+                if (linkSlug && linkSlug !== 'about' && linkSlug !== this.currentSlug) {
+                    link.addEventListener('click', (e) => {
+                        e.preventDefault();
+                        this.openIncidentBySlug(linkSlug, this.currentSlug);
+                    });
+                }
+            });
         }
     },
 
