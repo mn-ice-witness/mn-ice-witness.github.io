@@ -119,6 +119,17 @@ Analysis of source reliability and what can be confidently stated vs. disputed.
 
 ## Development Workflow
 
+### Setup (First Time)
+
+```bash
+# Install git hooks
+./scripts/setup-hooks.sh
+```
+
+This installs a pre-commit hook that automatically:
+1. Regenerates `docs/data/incidents-summary.json` from markdown files
+2. Cache busts `docs/index.html` with a timestamp
+
 ### Local Development
 
 ```bash
