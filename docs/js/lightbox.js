@@ -3,6 +3,7 @@ const Lightbox = {
     bodyElement: null,
     currentSlug: null,
     cameFromAbout: false,
+    previousSlug: null,
 
     init() {
         this.element = document.getElementById('lightbox');
@@ -43,10 +44,14 @@ const Lightbox = {
         return this.element.getAttribute('aria-hidden') === 'false';
     },
 
-    async open(incident) {
+    async open(incident, fromSlug = null) {
         this.bodyElement.innerHTML = '<div class="table-loading">Loading...</div>';
         this.element.setAttribute('aria-hidden', 'false');
         document.body.style.overflow = 'hidden';
+
+        if (fromSlug) {
+            this.previousSlug = fromSlug;
+        }
 
         this.currentSlug = this.getSlugFromFilePath(incident.filePath);
         history.pushState({ lightbox: true, slug: this.currentSlug }, '', '#' + this.currentSlug);
@@ -59,6 +64,16 @@ const Lightbox = {
         this.bodyElement.innerHTML = html;
 
         this.bodyElement.querySelector('.share-btn')?.addEventListener('click', () => this.copyShareLink());
+
+        this.bodyElement.querySelectorAll('a[href^="#"]').forEach(link => {
+            const slug = link.getAttribute('href').slice(1);
+            if (slug && slug !== 'about' && slug !== this.currentSlug) {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    this.openIncidentBySlug(slug, this.currentSlug);
+                });
+            }
+        });
     },
 
     async openAbout(skipHistory = false) {
@@ -92,28 +107,28 @@ const Lightbox = {
 
         this.bodyElement.querySelector('.share-btn')?.addEventListener('click', () => this.copyShareLink());
 
-        // Add click handlers for incident links within about content
         this.bodyElement.querySelectorAll('a[href^="#"]').forEach(link => {
             const slug = link.getAttribute('href').slice(1);
             if (slug && slug !== 'about') {
                 link.addEventListener('click', (e) => {
                     e.preventDefault();
-                    this.openIncidentBySlug(slug);
+                    this.openIncidentBySlug(slug, 'about');
                 });
             }
         });
     },
 
-    async openIncidentBySlug(slug) {
-        // Find the incident by slug
+    async openIncidentBySlug(slug, fromSlug = null) {
         const incident = App.incidents.find(i => {
             const incidentSlug = i.filePath.split('/').pop().replace('.md', '');
             return incidentSlug === slug;
         });
 
         if (incident) {
-            this.cameFromAbout = true;
-            await this.open(incident);
+            if (fromSlug === 'about') {
+                this.cameFromAbout = true;
+            }
+            await this.open(incident, fromSlug);
         }
     },
 
@@ -124,16 +139,24 @@ const Lightbox = {
     },
 
     closeWithoutHistory() {
-        // If we came from about, go back to about instead of closing completely
         if (this.cameFromAbout) {
             this.cameFromAbout = false;
+            this.previousSlug = null;
             this.openAbout();
+            return;
+        }
+
+        if (this.previousSlug) {
+            const prevSlug = this.previousSlug;
+            this.previousSlug = null;
+            this.openIncidentBySlug(prevSlug);
             return;
         }
 
         this.element.setAttribute('aria-hidden', 'true');
         document.body.style.overflow = '';
         this.currentSlug = null;
+        this.previousSlug = null;
         history.replaceState({ lightbox: false }, '', window.location.pathname);
     },
 

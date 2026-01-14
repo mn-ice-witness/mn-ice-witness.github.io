@@ -1,0 +1,51 @@
+---
+date: 2026-01-11
+time: unknown
+location: DHS Official Statement
+city: St. Paul
+type: official-response
+status: resolved
+victim_citizenship: us-citizen
+injuries: none
+trustworthiness: high
+last_updated: 2026-01-14
+---
+
+# DHS Response: Speedway Bystander "Hit an Officer"
+
+## Summary
+DHS posted on X claiming a U.S. citizen bystander at the Speedway gas station arrest "did not comply with the lawfully given order, and instead responded by hitting an officer." Multiple video angles contradict this claim, showing the citizen complying before being tackled.
+
+## Sources
+1. [DHS X Post](https://x.com/DHSgov/status/2010802240517521519) - @DHSgov
+
+## Related Incident
+See full incident details: [Bystander Filming ICE Arrest Tackled and Detained at Speedway](#2026-01-11-speedway-st-paul)
+
+## Official Statement
+
+Posted on X (@DHSgov):
+
+> "One U.S. citizen did not comply with the lawfully given order, and instead responded by hitting an officer and was arrested."
+
+## Video Evidence
+
+Multiple videos from the scene show:
+- Agent tells bystander to "back up"
+- Bystander complies and moves back
+- Agent then shoves bystander
+- Bystander is tackled to ground
+- While being restrained, bystander repeatedly says "I'm not resisting"
+
+Video sources: FOX 9, CNN, BlueSky, Getty Images
+
+## Fact Check
+
+**Claim:** Citizen "hit an officer"
+**Video Evidence:** Shows citizen complying with backup order, then being shoved by agent first
+
+**Claim:** Citizen "did not comply with the lawfully given order"
+**Video Evidence:** Shows citizen backing up as instructed before physical contact
+
+## Editorial Assessment
+**HIGH** - Official DHS statement directly contradicted by extensive video evidence from multiple independent sources including FOX 9 and CNN.
