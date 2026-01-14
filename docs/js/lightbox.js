@@ -18,8 +18,13 @@ const Lightbox = {
         });
 
         window.addEventListener('popstate', (e) => {
-            if (this.isOpen() && (!e.state || !e.state.lightbox)) {
-                this.closeWithoutHistory();
+            if (this.isOpen()) {
+                if (e.state && e.state.lightbox && e.state.slug === 'about') {
+                    // Going back to about page - re-render it without pushing history
+                    this.openAbout(true);
+                } else if (!e.state || !e.state.lightbox) {
+                    this.closeWithoutHistory();
+                }
             }
         });
 
@@ -56,14 +61,16 @@ const Lightbox = {
         this.bodyElement.querySelector('.share-btn')?.addEventListener('click', () => this.copyShareLink());
     },
 
-    async openAbout() {
+    async openAbout(skipHistory = false) {
         this.bodyElement.innerHTML = '<div class="table-loading">Loading...</div>';
         this.element.setAttribute('aria-hidden', 'false');
         document.body.style.overflow = 'hidden';
 
         this.currentSlug = 'about';
         this.cameFromAbout = false;
-        history.pushState({ lightbox: true, slug: 'about' }, '', '#about');
+        if (!skipHistory) {
+            history.pushState({ lightbox: true, slug: 'about' }, '', '#about');
+        }
 
         const response = await fetch('about.md');
         const content = await response.text();
