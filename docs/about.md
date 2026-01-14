@@ -20,7 +20,23 @@ Aaron Reichlin-Melnick of the American Immigration Council noted: "DHS is implic
 
 ## What This Site Documents
 
-This site compiles sourced, verified incidents from Minnesota during Operation Metro Surge (December 2025 – present). Examples include:
+This site compiles sourced, verified incidents from Minnesota during Operation Metro Surge (December 2025 – present).
+
+### Legend
+
+<div style="background: #f8f9fa; border: 1px solid #e2e2e2; border-radius: 6px; padding: 16px; margin: 16px 0;">
+
+**<span style="color: #4a90d9;">★</span> Notable** — Incidents that exemplify patterns in enforcement operations: wrongful detention of citizens, excessive force, or civil rights concerns.
+
+**Trustworthiness Ratings:**
+- <span style="background: #1a7f37; color: white; padding: 2px 6px; border-radius: 2px; font-size: 0.75em; font-weight: 700;">HIGH</span> — 3+ independent sources with video/photo evidence
+- <span style="background: #bf8700; color: white; padding: 2px 6px; border-radius: 2px; font-size: 0.75em; font-weight: 700;">MEDIUM</span> — 2 sources or official statements
+- <span style="background: #cf222e; color: white; padding: 2px 6px; border-radius: 2px; font-size: 0.75em; font-weight: 700;">LOW</span> — Single source or social media only
+- <span style="background: #999; color: white; padding: 2px 6px; border-radius: 2px; font-size: 0.75em; font-weight: 700;">UNVERIFIED</span> — Reported but not yet confirmed
+
+</div>
+
+### Examples
 
 **U.S. Citizens:**
 - [Latino U.S. citizen's car rammed by ICE; released after confirming identity](#2026-01-12-christian-molina-car-rammed)

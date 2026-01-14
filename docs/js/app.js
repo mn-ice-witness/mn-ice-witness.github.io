@@ -127,6 +127,7 @@ const App = {
 
         const isCitizen = incident.victimCitizenship === 'us-citizen';
         const mediaCount = incident.mediaCount || 0;
+        const notableStar = incident.notable ? '<span class="notable-star">★</span>' : '';
 
         return `
             <article class="incident-row" role="button" tabindex="0">
@@ -140,6 +141,7 @@ const App = {
                 </div>
                 <div class="row-meta">
                     <span class="trust-badge trust-${incident.trustworthiness}" data-tooltip="${this.getTrustTooltip(incident.trustworthiness)}">${incident.trustworthiness.toUpperCase()}</span>
+                    ${notableStar}
                 </div>
             </article>
         `;

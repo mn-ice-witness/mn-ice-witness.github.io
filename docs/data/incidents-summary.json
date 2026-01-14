@@ -13,7 +13,8 @@
     "injuries": "unknown",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": true
   },
   {
     "filePath": "incidents/2026-01/2026-01-13-mankato-women-sprayed.md",
@@ -29,7 +30,8 @@
     "injuries": "chemical irritant exposure",
     "trustworthiness": "medium-high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-13-la-mexicana-st-peter.md",
@@ -45,7 +47,8 @@
     "injuries": "none",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-13-dhs-response-native-americans.md",
@@ -61,7 +64,8 @@
     "injuries": "none",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-13-disabled-woman-car-window.md",
@@ -77,7 +81,8 @@
     "injuries": "minor",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 4
+    "mediaCount": 4,
+    "notable": true
   },
   {
     "filePath": "incidents/2026-01/2026-01-13-willmar-student-arrested.md",
@@ -96,7 +101,8 @@
     "injuries": "none",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": true
   },
   {
     "filePath": "incidents/2026-01/2026-01-13-elliott-payne-pushed.md",
@@ -112,7 +118,25 @@
     "injuries": "none",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 1
+    "mediaCount": 1,
+    "notable": false
+  },
+  {
+    "filePath": "incidents/2026-01/2026-01-13-dhs-response-detainer-demands.md",
+    "title": "DHS Demands Minnesota Honor 1,360+ ICE Detainers",
+    "summary": "DHS issued a statement demanding Governor Tim Walz and Minneapolis Mayor Jacob Frey honor ICE arrest detainers for \"more than 1,360 criminal illegal aliens\" in state custody. DHS claimed Walz has \"released nearly 470 criminal illegal aliens back onto the streets\" since President Trump took office. The Walz administration disputed these numbers, stating only 207 people are on ICE detainers in the Minnesota prison system.",
+    "date": "2026-01-13",
+    "time": "unknown",
+    "location": "DHS Official Statement",
+    "city": "Minneapolis",
+    "type": "official-response",
+    "status": "ongoing",
+    "victimCitizenship": "various",
+    "injuries": "none",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-13-shearers-foods-perham.md",
@@ -128,7 +152,8 @@
     "injuries": "none",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-13-doj-response-renee-good.md",
@@ -144,7 +169,8 @@
     "injuries": "fatal",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-13-lyn-lake-tear-gas.md",
@@ -160,7 +186,8 @@
     "injuries": "minor",
     "trustworthiness": "medium",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-12-siguenza-okeefe-detained.md",
@@ -176,7 +203,8 @@
     "injuries": "minor",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 2
+    "mediaCount": 2,
+    "notable": true
   },
   {
     "filePath": "incidents/2026-01/2026-01-12-st-cloud-star-city-mall.md",
@@ -195,7 +223,8 @@
     "injuries": "minor",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 1
+    "mediaCount": 1,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-12-detroit-lakes-china-buffet.md",
@@ -211,7 +240,8 @@
     "injuries": "none",
     "trustworthiness": "medium-high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-12-christina-rank-teacher.md",
@@ -230,7 +260,8 @@
     "injuries": "none",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-12-christian-molina-car-rammed.md",
@@ -246,7 +277,8 @@
     "injuries": "minor",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": true
   },
   {
     "filePath": "incidents/2026-01/2026-01-12-pilllar-forum-musicians.md",
@@ -262,7 +294,8 @@
     "injuries": "minor",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-12-garrison-gibson-battering-ram.md",
@@ -278,7 +311,8 @@
     "injuries": "none",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 1
+    "mediaCount": 1,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-11-dhs-response-speedway-bystander.md",
@@ -294,7 +328,8 @@
     "injuries": "none",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-11-speedway-st-paul.md",
@@ -310,7 +345,8 @@
     "injuries": "minor",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 7
+    "mediaCount": 7,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-11-hani-duglof-medical.md",
@@ -326,7 +362,8 @@
     "injuries": "serious",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 1
+    "mediaCount": 1,
+    "notable": true
   },
   {
     "filePath": "incidents/2026-01/2026-01-10-maple-grove-walmart.md",
@@ -342,7 +379,25 @@
     "injuries": "unknown",
     "trustworthiness": "medium",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 1
+    "mediaCount": 1,
+    "notable": false
+  },
+  {
+    "filePath": "incidents/2026-01/2026-01-second-week-general-mills-chanhassen.md",
+    "title": "Contractor Detained at General Mills Chanhassen Facility",
+    "summary": "ICE agents detained a contractor in the parking lot behind General Mills' Chanhassen manufacturing facility during the second week of January 2026. A 27-second video circulated on social media showing federal immigration officers placing a worker into a gray pickup truck. General Mills confirmed they followed safety protocols and requested agent identification.",
+    "date": "2026-01-10",
+    "time": "unknown",
+    "location": "General Mills manufacturing facility parking lot",
+    "city": "Chanhassen",
+    "type": "workplace-detention",
+    "status": "unknown",
+    "victimCitizenship": "undocumented",
+    "injuries": "none",
+    "trustworthiness": "medium-high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-10-msp-airport-employees.md",
@@ -358,7 +413,8 @@
     "injuries": "none",
     "trustworthiness": "medium",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-09-valleyview-elementary-absences.md",
@@ -374,7 +430,8 @@
     "injuries": "none",
     "trustworthiness": "medium",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-09-hopkins-bryam-escobar.md",
@@ -390,7 +447,8 @@
     "injuries": "none",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-09-juan-carlos-brutality.md",
@@ -406,7 +464,8 @@
     "injuries": "serious",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 2
+    "mediaCount": 2,
+    "notable": true
   },
   {
     "filePath": "incidents/2026-01/2026-01-08-ahmed-hassan-uber-driver.md",
@@ -422,7 +481,8 @@
     "injuries": "none",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-08-rochester-gates-complex.md",
@@ -438,7 +498,8 @@
     "injuries": "possible (hammer used on window)",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-08-little-earth-native-americans.md",
@@ -454,7 +515,8 @@
     "injuries": "unknown",
     "trustworthiness": "medium",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-08-jesse-ventura-roosevelt.md",
@@ -470,7 +532,8 @@
     "injuries": "none",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 1
+    "mediaCount": 1,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-08-dhs-response-jan8-arrests.md",
@@ -486,7 +549,8 @@
     "injuries": "none",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-08-target-richfield-employees.md",
@@ -502,7 +566,8 @@
     "injuries": "minor",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 3
+    "mediaCount": 3,
+    "notable": true
   },
   {
     "filePath": "incidents/2026-01/2026-01-08-jose-ramirez-native-american.md",
@@ -518,7 +583,8 @@
     "injuries": "minor",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": true
   },
   {
     "filePath": "incidents/2026-01/2026-01-07-pastor-callaghan-detained.md",
@@ -537,7 +603,8 @@
     "injuries": "none-physical",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-07-renee-good-shooting.md",
@@ -553,7 +620,8 @@
     "injuries": "fatal",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 6
+    "mediaCount": 6,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-07-clergy-pepper-sprayed.md",
@@ -569,7 +637,8 @@
     "injuries": "pepper-spray-exposure",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 1
+    "mediaCount": 1,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-07-dhs-response-renee-good.md",
@@ -585,7 +654,8 @@
     "injuries": "fatal",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-07-roosevelt-high-school.md",
@@ -601,7 +671,8 @@
     "injuries": "minor",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 5
+    "mediaCount": 5,
+    "notable": true
   },
   {
     "filePath": "incidents/2026-01/2026-01-06-bloomington-wilderness-inquiry.md",
@@ -617,7 +688,8 @@
     "injuries": "none",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 1
+    "mediaCount": 1,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-06-el-fresco-restaurant-owner.md",
@@ -633,7 +705,8 @@
     "injuries": "none",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-02-trunorth-solar-arden-hills.md",
@@ -649,7 +722,8 @@
     "injuries": "unknown",
     "trustworthiness": "medium",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-unknown-rosemount-gun-threat.md",
@@ -665,7 +739,8 @@
     "injuries": "none",
     "trustworthiness": "low",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2025-12/2025-12-31-hcmc-patient-shackled.md",
@@ -681,7 +756,8 @@
     "injuries": "unknown",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2025-12/2025-12-26-joseph-boman-observer.md",
@@ -697,7 +773,8 @@
     "injuries": "none",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2025-12/2025-12-21-st-paul-westminster-shooting.md",
@@ -713,7 +790,8 @@
     "injuries": "minor",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2025-12/2025-12-16-abdikadir-noor-karmel-mall.md",
@@ -732,7 +810,8 @@
     "injuries": "none-physical",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2025-12/2025-12-15-karmel-mall-pregnant-woman.md",
@@ -748,7 +827,8 @@
     "injuries": "unknown",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2025-12/2025-12-14-adnan-hisri-omars-son.md",
@@ -764,7 +844,8 @@
     "injuries": "none",
     "trustworthiness": "medium-high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2025-12/2025-12-13-chanhassen-rooftop-standoff.md",
@@ -780,7 +861,8 @@
     "injuries": "none",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2025-12/2025-12-12-brooklyn-park-cook.md",
@@ -796,7 +878,8 @@
     "injuries": "none",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2025-12/2025-12-11-eden-prairie-13-year-old.md",
@@ -815,7 +898,8 @@
     "injuries": "serious",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": true
   },
   {
     "filePath": "incidents/2025-12/2025-12-10-mubashir-wrongful-detention.md",
@@ -831,7 +915,8 @@
     "injuries": "minor",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 2
+    "mediaCount": 2,
+    "notable": true
   },
   {
     "filePath": "incidents/2025-12/2025-12-09-sue-tincher-detained.md",
@@ -847,7 +932,8 @@
     "injuries": "minor",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2025-12/2025-12-07-biestman-lee-guns-pointed.md",
@@ -863,7 +949,8 @@
     "injuries": "none",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2025-12/2025-12-06-burnsville-family-separated.md",
@@ -882,7 +969,8 @@
     "injuries": "none-physical",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": true
   },
   {
     "filePath": "incidents/2025-12/2025-12-04-francisco-paredes-church.md",
@@ -901,7 +989,8 @@
     "injuries": "none",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2025-12/2025-12-04-dhs-response-abdulkadir-abdi.md",
@@ -917,7 +1006,8 @@
     "injuries": "none",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2025-12/2025-12-04-abdulkadir-abdi-detained.md",
@@ -933,7 +1023,8 @@
     "injuries": "none",
     "trustworthiness": "medium",
     "lastUpdated": "2026-01-13",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2025-12/2025-12-early-lomabonita-jose.md",
@@ -949,7 +1040,8 @@
     "injuries": "none",
     "trustworthiness": "medium-high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2025-11/2025-11-25-jeffrey-suazo-st-paul.md",
@@ -965,7 +1057,8 @@
     "injuries": "none-physical",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 1
+    "mediaCount": 1,
+    "notable": false
   },
   {
     "filePath": "incidents/2025-11/2025-11-18-brotex-st-paul-raid.md",
@@ -981,7 +1074,8 @@
     "injuries": "protesters pepper-sprayed",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2025-02/2025-02-12-nupa-rochester-workers.md",
@@ -997,6 +1091,7 @@
     "injuries": "none",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
-    "mediaCount": 0
+    "mediaCount": 0,
+    "notable": false
   }
 ]

@@ -547,6 +547,39 @@ body {
     gap: 4px;
 }
 
+/* Notable Star Badge */
+.notable-star {
+    color: #4a90d9;
+    font-size: 0.85rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.notable-star::after {
+    content: 'Notable';
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 400;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s, visibility 0.2s;
+    margin-top: 6px;
+    z-index: 10;
+}
+
+.notable-star:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
 .trust-badge {
     font-size: 0.5rem;
     font-weight: 700;

@@ -9,6 +9,7 @@ victim_citizenship: us-citizen
 injuries: unknown
 trustworthiness: high
 last_updated: 2026-01-14
+notable: true
 ---
 
 # Three Oglala Sioux U.S. Citizens Still Detained at Fort Snelling

@@ -59,6 +59,9 @@ def process_incident(file_path, docs_dir):
 
     relative_path = str(file_path.relative_to(docs_dir))
 
+    notable_value = meta.get('notable', 'false').lower()
+    is_notable = notable_value in ('true', 'yes', '1')
+
     return {
         'filePath': relative_path,
         'title': extract_title(body),
@@ -73,7 +76,8 @@ def process_incident(file_path, docs_dir):
         'injuries': meta.get('injuries', 'unknown'),
         'trustworthiness': meta.get('trustworthiness', 'unverified'),
         'lastUpdated': meta.get('last_updated', meta.get('date', 'Unknown')),
-        'mediaCount': count_media(content)
+        'mediaCount': count_media(content),
+        'notable': is_notable
     }
 
 

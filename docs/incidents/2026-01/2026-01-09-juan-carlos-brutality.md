@@ -9,6 +9,7 @@ victim_citizenship: legal-resident
 injuries: serious
 trustworthiness: high
 last_updated: 2026-01-13
+notable: true
 ---
 
 # Border Patrol Agents Brutalize Legal Resident, Hospitalizing Him

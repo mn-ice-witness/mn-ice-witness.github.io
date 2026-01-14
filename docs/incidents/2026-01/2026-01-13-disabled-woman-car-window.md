@@ -9,6 +9,7 @@ victim_citizenship: unknown
 injuries: minor
 trustworthiness: high
 last_updated: 2026-01-13
+notable: true
 ---
 
 # Disabled Woman Dragged Through Car Window by ICE Agents
