@@ -1,5 +1,21 @@
 [
   {
+    "filePath": "incidents/2026-01/2026-01-13-faribault-hs-walkout.md",
+    "title": "Over 100 Faribault High School Students Walk Out to Protest ICE",
+    "summary": "Over 100 students at Faribault High School walked out at 12:30 p.m. to protest ICE operations in Minnesota, joining students at Roosevelt High School and schools across the state. Students carried homemade signs reading \"abolish ICE,\" \"no one is illegal on stolen land,\" and \"ICE should be in my drinks, not my town.\"",
+    "date": "2026-01-13",
+    "time": "12:30",
+    "location": "Faribault High School",
+    "city": "Faribault",
+    "type": "school-incident",
+    "status": "resolved",
+    "victimCitizenship": "n/a",
+    "injuries": "none",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0
+  },
+  {
     "filePath": "incidents/2026-01/2026-01-13-mankato-women-sprayed.md",
     "title": "Two Young Women Sprayed with Chemical Irritant by ICE Agent in Mankato",
     "summary": "Two young women were sprayed with a chemical irritant by a uniformed federal agent on Monday afternoon in Mankato. State Sen. Aric Putnam placed himself between the crowd and federal agents during the \"really intense confrontation.\"",
