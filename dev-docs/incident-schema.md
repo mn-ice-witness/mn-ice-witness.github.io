@@ -91,7 +91,14 @@ Statements from mayor, governor, police, etc.
 Direct quotes or summaries.
 
 ## Editorial Assessment
-**TRUSTWORTHINESS_LEVEL** - Brief explanation of why this rating.
+**TRUSTWORTHINESS_LEVEL** - Brief explanation of why this rating, citing the specific criteria met.
+
+Examples:
+- **HIGH** - 3 independent sources (Star Tribune, MPR, Fox 9)
+- **HIGH** - Detailed Intercept investigation with named victim and direct quotes
+- **HIGH** - Video evidence shows incident clearly
+- **MEDIUM** - 2 sources (local news + union statement)
+- **LOW** - Single community paper report, needs corroboration
 ```
 
 ## DHS Response Section (within incidents)

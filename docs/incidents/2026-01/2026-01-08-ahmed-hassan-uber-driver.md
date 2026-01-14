@@ -31,4 +31,4 @@ Hassan was in airport parking lot when agents knocked on his window. He later sa
 He remained defiant, refused ID, and mocked their use of unit designations instead of real names.
 
 ## Editorial Assessment
-**HIGH** - Detailed first-person account in The Intercept.
+**HIGH** - Detailed investigative report from The Intercept (nationally recognized outlet) with named victim, direct quotes, and specific details of the encounter.

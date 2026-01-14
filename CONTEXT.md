@@ -165,11 +165,27 @@ This site is deployed via GitHub Pages from the `docs/` folder on the `main` bra
 2. **Neutral Language:** Describe facts, not emotions
 3. **Multiple Perspectives:** Include official statements even if disputed
 4. **Update Regularly:** Mark `last_updated` when new information emerges
-5. **Trustworthiness Ratings:**
-   - `high` = 3+ independent sources, video/photo evidence
-   - `medium` = 2 sources or official statements
-   - `low` = Single source or social media only
+5. **Trustworthiness Ratings:** (see `dev-docs/adding-incidents.md` for full criteria)
+   - `high` = Strong evidence (see criteria below)
+   - `medium` = Moderate evidence
+   - `low` = Limited evidence, needs corroboration
    - `unverified` = Reported but not confirmed
+
+   **HIGH** requires ANY of:
+   - 3+ independent sources
+   - Video/photo evidence from the incident
+   - Detailed investigative report from nationally recognized outlet (The Intercept, ProPublica, major newspaper) with named sources
+   - Single source with official corroboration (ICE/DHS confirmation, lawsuit filing, elected official statement)
+   - Single source with credible primary sources (named attorneys, direct victim interviews, public records)
+
+   **MEDIUM** requires ANY of:
+   - 2 independent sources
+   - Official statement only (DHS press release, without independent verification)
+   - Single source from established local outlet without additional corroboration
+
+   **LOW:**
+   - Single source from smaller outlet without corroboration
+   - Social media posts with limited news pickup
 6. **Research Official Responses:** When documenting any incident, always search for DHS/ICE official responses and add them to the Response tab. See `dev-docs/incident-schema.md` for the `official-response` format.
 
 ## Researching Official Responses

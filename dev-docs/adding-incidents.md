@@ -11,9 +11,50 @@ Step-by-step guide for adding new incidents to the site.
 Before adding, ensure:
 
 1. **At least one credible source** (news outlet, official statement)
-2. **For "high" trust**: 3+ independent sources OR video evidence
-3. **For "medium" trust**: 2 sources OR official statements
-4. **Avoid**: Single social media posts without corroboration
+2. **Assign trustworthiness based on criteria below**
+3. **Avoid**: Single social media posts without corroboration
+
+## Trustworthiness Rating Criteria
+
+### HIGH - Strong Evidence
+Assign HIGH when ANY of these conditions are met:
+
+| Condition | Example |
+|-----------|---------|
+| 3+ independent sources | Star Tribune + MPR + Fox 9 all covering incident |
+| Video/photo evidence | Bystander video shows incident, news embeds footage |
+| Investigative report from major outlet | The Intercept, ProPublica, major newspaper with named sources and direct quotes |
+| Single source + official corroboration | News report + ICE confirms arrest, or + lawsuit filed |
+| Single source + credible primary sources | Article with named elected officials, attorneys, or direct victim interviews |
+
+**Examples of HIGH with single source:**
+- The Intercept detailed account with named victim and direct quotes → HIGH
+- Sahan Journal report with city council member as witness → HIGH
+- Local paper report + ICE confirmation of arrest → HIGH
+
+### MEDIUM - Moderate Evidence
+Assign MEDIUM when:
+
+| Condition | Example |
+|-----------|---------|
+| 2 independent sources | Two separate news outlets cover incident |
+| Official statement only | DHS press release without independent verification |
+| Single established local source | Star Tribune or Pioneer Press report, no corroboration |
+| Social media + one news pickup | Facebook video + one news article citing it |
+
+### LOW - Limited Evidence
+Assign LOW when:
+
+| Condition | Example |
+|-----------|---------|
+| Single smaller outlet | Community paper or blog only |
+| Social media with limited pickup | Facebook/X post, minimal news coverage |
+| Conflicting details | Sources disagree on key facts |
+
+### UNVERIFIED
+- Reported but not independently confirmed
+- Anonymous tips without supporting evidence
+- Rumor or speculation
 
 ### Good Sources
 - Local news: KARE11, Fox9, KSTP, MPR News, Star Tribune, Pioneer Press

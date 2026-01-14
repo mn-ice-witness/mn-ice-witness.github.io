@@ -29,9 +29,9 @@ This site compiles sourced, verified incidents from Minnesota during Operation M
 **<span style="color: #4a90d9;">★</span> Notable** — Incidents that exemplify patterns in enforcement operations: wrongful detention of citizens, excessive force, or civil rights concerns.
 
 **Trustworthiness Ratings:**
-- <span style="background: #1a7f37; color: white; padding: 2px 6px; border-radius: 2px; font-size: 0.75em; font-weight: 700;">HIGH</span> — 3+ independent sources with video/photo evidence
-- <span style="background: #bf8700; color: white; padding: 2px 6px; border-radius: 2px; font-size: 0.75em; font-weight: 700;">MEDIUM</span> — 2 sources or official statements
-- <span style="background: #cf222e; color: white; padding: 2px 6px; border-radius: 2px; font-size: 0.75em; font-weight: 700;">LOW</span> — Single source or social media only
+- <span style="background: #1a7f37; color: white; padding: 2px 6px; border-radius: 2px; font-size: 0.75em; font-weight: 700;">HIGH</span> — Strong evidence: 3+ sources, video/photo evidence, or detailed investigative reporting from major outlets with named sources
+- <span style="background: #bf8700; color: white; padding: 2px 6px; border-radius: 2px; font-size: 0.75em; font-weight: 700;">MEDIUM</span> — Moderate evidence: 2 sources, official statements, or single established source
+- <span style="background: #cf222e; color: white; padding: 2px 6px; border-radius: 2px; font-size: 0.75em; font-weight: 700;">LOW</span> — Limited evidence: single smaller source, needs corroboration
 - <span style="background: #999; color: white; padding: 2px 6px; border-radius: 2px; font-size: 0.75em; font-weight: 700;">UNVERIFIED</span> — Reported but not yet confirmed
 
 </div>
@@ -77,5 +77,5 @@ All incidents are documented using publicly available sources including:
 - Court filings and legal documents
 - Video evidence and eyewitness accounts
 
-Incidents are rated for trustworthiness (HIGH, MEDIUM, LOW, UNVERIFIED) based on the number and reliability of confirming sources.
+Incidents are rated for trustworthiness (HIGH, MEDIUM, LOW, UNVERIFIED) based on source quantity, quality, and corroboration — including whether reports come from major investigative outlets, include video/photo evidence, or feature official confirmations and named witnesses.
 
