@@ -91,8 +91,8 @@ body {
     top: 5%;
     left: -5%;
     transform: rotate(-6deg) scale(0.8);
-    animation: splash-in-1 1.9s ease-out forwards;
-    animation-delay: 0.4s;
+    animation: splash-in-1 0.6s ease-out forwards;
+    animation-delay: 0.1s;
 }
 
 .splash-2 {
@@ -100,8 +100,8 @@ body {
     bottom: 5%;
     right: -5%;
     transform: rotate(4deg) scale(0.8);
-    animation: splash-in-2 1.9s ease-out forwards;
-    animation-delay: 1.4s;
+    animation: splash-in-2 0.6s ease-out forwards;
+    animation-delay: 0.5s;
 }
 
 .splash-3 {
@@ -109,8 +109,8 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.8);
-    animation: splash-in-4 1.9s ease-out forwards;
-    animation-delay: 2.4s;
+    animation: splash-in-4 0.6s ease-out forwards;
+    animation-delay: 0.9s;
     z-index: 15;
 }
 
@@ -119,8 +119,8 @@ body {
     top: 5%;
     right: -5%;
     transform: rotate(5deg) scale(0.8);
-    animation: splash-in-3 1.9s ease-out forwards;
-    animation-delay: 0.9s;
+    animation: splash-in-3 0.6s ease-out forwards;
+    animation-delay: 0.3s;
     z-index: 2;
 }
 
@@ -129,38 +129,33 @@ body {
     bottom: 5%;
     left: -5%;
     transform: rotate(-4deg) scale(0.8);
-    animation: splash-in-5 1.9s ease-out forwards;
-    animation-delay: 1.9s;
+    animation: splash-in-5 0.6s ease-out forwards;
+    animation-delay: 0.7s;
     z-index: 3;
 }
 
 @keyframes splash-in-1 {
     0% { opacity: 0; transform: rotate(-6deg) scale(0.5) translateY(-30px); }
-    30% { opacity: 1; transform: rotate(-6deg) scale(1) translateY(0); }
     100% { opacity: 1; transform: rotate(-6deg) scale(1) translateY(0); }
 }
 
 @keyframes splash-in-2 {
     0% { opacity: 0; transform: rotate(4deg) scale(0.5) translateY(30px); }
-    30% { opacity: 1; transform: rotate(4deg) scale(1) translateY(0); }
     100% { opacity: 1; transform: rotate(4deg) scale(1) translateY(0); }
 }
 
 @keyframes splash-in-3 {
     0% { opacity: 0; transform: rotate(5deg) scale(0.5) translateY(-30px); }
-    30% { opacity: 1; transform: rotate(5deg) scale(1) translateY(0); }
     100% { opacity: 1; transform: rotate(5deg) scale(1) translateY(0); }
 }
 
 @keyframes splash-in-4 {
     0% { opacity: 0; transform: translate(-50%, -50%) scale(0.5); }
-    30% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
     100% { opacity: 1; transform: translate(-50%, -50%) scale(1); }
 }
 
 @keyframes splash-in-5 {
     0% { opacity: 0; transform: rotate(-4deg) scale(0.5) translateY(30px); }
-    30% { opacity: 1; transform: rotate(-4deg) scale(1) translateY(0); }
     100% { opacity: 1; transform: rotate(-4deg) scale(1) translateY(0); }
 }
 
@@ -231,7 +226,7 @@ body {
     left: 0;
     height: 3px;
     background: rgba(255,255,255,0.9);
-    animation: progress-bar 3s linear forwards;
+    animation: progress-bar 2.5s linear forwards;
 }
 
 @keyframes progress-bar {
@@ -274,6 +269,25 @@ body {
     letter-spacing: -0.02em;
     color: var(--color-text);
     margin-bottom: 0;
+}
+
+.title-link {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.15s ease;
+}
+
+.title-link:hover {
+    color: #7ba3c9;
+    text-decoration: none;
+}
+
+.title-link:visited,
+.title-link:active,
+.title-link:focus {
+    color: inherit;
+    text-decoration: none;
 }
 
 .about-link {

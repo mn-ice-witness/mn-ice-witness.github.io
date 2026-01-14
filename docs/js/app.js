@@ -34,13 +34,42 @@ const App = {
         const splash = document.getElementById('splash');
         if (!splash) return;
 
-        setTimeout(() => {
-            splash.classList.add('hidden');
-        }, 6100);
-
         const closeSplash = () => {
             splash.classList.add('hidden');
         };
+
+        const showSplash = () => {
+            document.documentElement.classList.remove('skip-splash');
+            const animated = splash.querySelectorAll('.splash-image, .splash-overlay, .splash-progress');
+            animated.forEach(el => {
+                el.style.animation = 'none';
+                el.offsetHeight;
+                el.style.animation = '';
+            });
+            splash.classList.remove('hidden');
+            setTimeout(closeSplash, 2600);
+        };
+
+        const titleLink = document.getElementById('title-link');
+        if (titleLink) {
+            titleLink.addEventListener('click', (e) => {
+                e.preventDefault();
+                showSplash();
+            });
+        }
+
+        const lastSplash = localStorage.getItem('splashLastShown');
+        const now = Date.now();
+        const oneDay = 24 * 60 * 60 * 1000;
+
+        if (lastSplash && (now - parseInt(lastSplash, 10)) < oneDay) {
+            splash.classList.add('hidden');
+            return;
+        }
+
+        localStorage.setItem('splashLastShown', now.toString());
+
+        setTimeout(closeSplash, 2600);
 
         splash.addEventListener('click', closeSplash);
 
