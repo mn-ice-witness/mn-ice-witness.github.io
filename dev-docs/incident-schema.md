@@ -33,15 +33,19 @@ last_updated: YYYY-MM-DD      # Required. When file was last updated
 
 ### Type Values
 
+**IMPORTANT: There are exactly 5 incident types. Use ONLY these values:**
+
 | Value | Use For |
 |-------|---------|
-| `fatal-shooting` | Deaths caused by ICE/CBP |
-| `citizen-detained` | U.S. citizens wrongly detained/arrested |
-| `bystander-arrested` | Observers/protesters arrested |
-| `community-member-detained` | Non-criminal immigrants detained |
+| `citizen-legal-detained-beaten` | U.S. citizens or legal residents wrongly detained/arrested/beaten |
+| `bystander-arrested` | Observers/protesters arrested or attacked |
+| `community-member-detained` | Non-criminal immigrants detained (includes workplace raids) |
 | `school-incident` | Actions at/near schools |
-| `workplace-raid` | Raids at businesses |
 | `official-response` | DHS/ICE official statements justifying specific incidents/arrests |
+
+**Notes:**
+- Workplace raids of non-U.S. citizens → use `community-member-detained`
+- Do NOT use `citizen-detained`, `workplace-raid`, or other variant types
 
 ### Victim Citizenship Values
 

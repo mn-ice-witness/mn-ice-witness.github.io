@@ -74,13 +74,22 @@ date: YYYY-MM-DD
 time: HH:MM (if known, else "unknown")
 location: Specific location
 city: Minneapolis/St. Paul/etc
-type: citizen-detained | bystander-arrested | community-member-detained | fatal-shooting | school-incident | workplace-raid | official-response
+type: citizen-legal-detained-beaten | bystander-arrested | community-member-detained | school-incident | official-response  # ONLY these 5 types!
 status: ongoing | resolved | under-investigation
 victim_citizenship: us-citizen | legal-resident | undocumented | asylum-seeker | unknown
 injuries: none | minor | serious | fatal
 trustworthiness: high | medium | low | unverified
 last_updated: YYYY-MM-DD
 ---
+
+### Type Categories (exactly 5)
+| Type | Website Section | Use For |
+|------|-----------------|---------|
+| `citizen-legal-detained-beaten` | Citizens | U.S. citizens or legal residents wrongly detained/beaten |
+| `bystander-arrested` | Bystanders | Observers/protesters arrested or attacked |
+| `community-member-detained` | Immigrants | Non-criminal immigrants detained, **including workplace raids** |
+| `school-incident` | Schools | Actions at/near schools |
+| `official-response` | Response | DHS/ICE official statements |
 
 # Incident Title
 

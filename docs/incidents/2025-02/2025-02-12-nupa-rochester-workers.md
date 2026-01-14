@@ -3,7 +3,7 @@ date: 2025-02-12
 time: morning
 location: Nupa Restaurant, Civic Center Drive
 city: Rochester
-type: workplace-raid
+type: community-member-detained
 status: resolved
 victim_citizenship: undocumented
 injuries: none
