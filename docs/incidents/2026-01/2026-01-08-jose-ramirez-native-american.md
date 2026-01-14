@@ -1,0 +1,40 @@
+---
+date: 2026-01-08
+time: 11:00
+location: Hy-Vee, Robbinsdale
+city: Robbinsdale
+type: citizen-legal-detained-beaten
+status: resolved
+victim_citizenship: us-citizen
+injuries: minor
+trustworthiness: high
+last_updated: 2026-01-13
+---
+
+# Native American U.S. Citizen Punched and Detained by ICE
+
+## Summary
+Jose Roberto "Beto" Ramirez, 20, U.S. citizen and Red Lake Nation descendant, was punched and detained by ICE while driving to visit his aunt. Told he "wasn't from here." Released after family brought passport/birth certificate.
+
+## Sources
+1. [Star Tribune](https://www.startribune.com/us-citizen-arrested-ice-day-after-fatal-shooting-renee-good-twin-cities-immigration-operation/601560460)
+2. [ICT - Indian Country Today](https://ictnews.org/news/i-felt-like-i-was-kidnapped-ojibwe-man-recounts-ice-detainment/)
+3. [Native News Online](https://nativenewsonline.net/currents/red-lake-man-kidnapped-by-ice)
+
+## Victim(s)
+- **Name:** Jose Roberto "Beto" Ramirez
+- **Age:** 20
+- **Citizenship:** U.S. Citizen (born Minneapolis)
+- **Heritage:** Red Lake Nation (Ojibwe) descendant
+
+## What Happened
+- Followed by blacked-out SUV
+- ~20 agents swarmed vehicle at Hy-Vee
+- Punched while face being scanned
+- Told "You're gonna see your family, some of your cousins in here"
+- Threatened with federal prison for "assaulting officer" (no charges filed)
+- Handcuffs tightened when asked to loosen
+- Still bruised 24+ hours later
+
+## Editorial Assessment
+**HIGH** - Family provided birth certificate to Star Tribune. Multiple sources.
