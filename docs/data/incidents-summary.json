@@ -131,6 +131,22 @@
     "mediaCount": 0
   },
   {
+    "filePath": "incidents/2026-01/2026-01-13-doj-response-renee-good.md",
+    "title": "DOJ Declines Civil Rights Investigation into Good Shooting",
+    "summary": "Deputy Attorney General Todd Blanche announced there is \"no basis for a criminal civil rights investigation\" into the killing of Renee Good by ICE agent Jonathan Ross. Six federal prosecutors in Minnesota resigned in protest, citing DOJ pressure to investigate Good's activist ties rather than the shooting itself.",
+    "date": "2026-01-13",
+    "time": "unknown",
+    "location": "DOJ Official Statement",
+    "city": "Minneapolis",
+    "type": "official-response",
+    "status": "ongoing",
+    "victimCitizenship": "us-citizen",
+    "injuries": "fatal",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0
+  },
+  {
     "filePath": "incidents/2026-01/2026-01-13-lyn-lake-tear-gas.md",
     "title": "Federal Agents Deploy Tear Gas at Busy Lyn-Lake Intersection",
     "summary": "Federal agents deployed tear gas as their convoy passed through one of Minneapolis' busiest commercial intersections at Lyndale Avenue South and West Lake Street. A large crowd had gathered around the agents, blowing whistles and shouting. Agents dropped a gas canister as they prepared to exit the scene.",
@@ -439,6 +455,22 @@
     "trustworthiness": "medium",
     "lastUpdated": "2026-01-13",
     "mediaCount": 0
+  },
+  {
+    "filePath": "incidents/2026-01/2026-01-08-jesse-ventura-roosevelt.md",
+    "title": "Jesse Ventura Visits Roosevelt High School, Condemns ICE Actions",
+    "summary": "Former Minnesota Governor Jesse Ventura, a 1969 graduate of Roosevelt High School, visited the school the day after the Border Patrol incident to show support. Ventura praised the school for \"standing up\" against ICE and compared federal immigration enforcement tactics to 1930s Germany. He hinted at a potential gubernatorial run, saying \"Maybe it's time for Jesse. I only did one term. I'm owed a second.\"",
+    "date": "2026-01-08",
+    "time": "daytime",
+    "location": "Roosevelt High School",
+    "city": "Minneapolis",
+    "type": "school-incident",
+    "status": "resolved",
+    "victimCitizenship": "n/a",
+    "injuries": "none",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 1
   },
   {
     "filePath": "incidents/2026-01/2026-01-08-dhs-response-jan8-arrests.md",
@@ -866,6 +898,22 @@
     ],
     "status": "resolved-deported",
     "victimCitizenship": "undocumented",
+    "injuries": "none",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0
+  },
+  {
+    "filePath": "incidents/2025-12/2025-12-04-dhs-response-abdulkadir-abdi.md",
+    "title": "DHS Response: Abdulkadir Abdi \"Gang Member\"",
+    "summary": "In the first Operation Metro Surge press release, DHS labeled Abdulkadir Sharif Abdi as a current gang member, directly contradicting a 2018 federal court finding that he had \"turned his life around\" and his family's statements that he is not currently in a gang.",
+    "date": "2025-12-04",
+    "time": "unknown",
+    "location": "DHS Press Release",
+    "city": "Minneapolis",
+    "type": "official-response",
+    "status": "ongoing",
+    "victimCitizenship": "legal-resident",
     "injuries": "none",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",

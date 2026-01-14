@@ -65,7 +65,7 @@ Significant dispute over: (1) whether tear gas was used; (2) whether staffer ass
 
 ## Aftermath
 - Schools closed Jan 8-9
-- Jesse Ventura (Roosevelt graduate) condemned actions
+- [Jesse Ventura visited school next day](/incidents/2026-01/2026-01-08-jesse-ventura-roosevelt.md), condemned actions
 - State lawsuit filed
 
 ## Editorial Assessment
