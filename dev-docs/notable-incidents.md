@@ -30,6 +30,7 @@ Incidents marked with the blue star (★) represent cases that exemplify pattern
 
 | Date | Incident | File |
 |------|----------|------|
+| 2026-01-13 | U.S. citizen detained 9 hours for filming ICE agents | `2026-01-13-ryan-ecklund-filming-detained.md` |
 | 2026-01-13 | Disabled woman dragged through car window | `2026-01-13-disabled-woman-car-window.md` |
 | 2026-01-12 | Two observers detained 8 hours, pressured to name organizers | `2026-01-12-siguenza-okeefe-detained.md` |
 

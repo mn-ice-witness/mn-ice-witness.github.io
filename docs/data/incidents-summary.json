@@ -51,6 +51,23 @@
     "notable": false
   },
   {
+    "filePath": "incidents/2026-01/2026-01-13-ryan-ecklund-filming-detained.md",
+    "title": "U.S. Citizen Detained 9 Hours for Filming ICE Agents",
+    "summary": "Ryan Ecklund, a U.S. citizen and real estate agent, was detained by ICE for over nine hours after following and recording agents from a grocery store parking lot. He was stopped and warned by agents not to follow them or face arrest. When he continued, five agents boxed in his vehicle, forcibly removed him, and held him at the Whipple Federal Building without charges. Constitutional scholars assert that following and recording law enforcement are protected under the First Amendment, and just one week prior, a federal district judge found a Trump administration policy unconstitutional for considering recording as \"unlawful civil unrest.\"",
+    "date": "2026-01-13",
+    "time": "10:15",
+    "location": "Cub Foods parking lot, Tamarack Village",
+    "city": "Woodbury",
+    "type": "bystander-arrested",
+    "status": "resolved",
+    "victimCitizenship": "us-citizen",
+    "injuries": "minor",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0,
+    "notable": true
+  },
+  {
     "filePath": "incidents/2026-01/2026-01-13-dhs-response-native-americans.md",
     "title": "DHS Response: Native American Detentions",
     "summary": "After four Oglala Sioux Tribe members (U.S. citizens) were detained near Little Earth, DHS refused to provide information unless the tribe entered into an ICE cooperation agreement. The tribe declined, citing treaty violations. ICE and DHS did not respond to media requests for comment.",
