@@ -709,6 +709,23 @@
     "notable": true
   },
   {
+    "filePath": "incidents/2026-01/2026-01-06-emmanuel-sackie-brooklyn-park.md",
+    "title": "Naturalized U.S. Citizen Hospitalized After ICE Encounter",
+    "summary": "Emmanuel Sackie, a Liberian-born naturalized U.S. citizen, was detained by ICE agents in a Family Dollar parking lot in Brooklyn Park. Despite showing his driver's license, agents demanded additional proof of citizenship. The encounter turned physical; Sackie was handcuffed, placed in a federal vehicle, and later hospitalized with significant bruising.",
+    "date": "2026-01-06",
+    "time": "afternoon",
+    "location": "Family Dollar parking lot",
+    "city": "Brooklyn Park",
+    "type": "citizen-detained",
+    "status": "resolved",
+    "victimCitizenship": "us-citizen",
+    "injuries": "serious",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 1,
+    "notable": true
+  },
+  {
     "filePath": "incidents/2026-01/2026-01-06-bloomington-wilderness-inquiry.md",
     "title": "Man Seeks Refuge in Bloomington Office During 2-Hour ICE Standoff",
     "summary": "A man being pursued by ICE agents fled on foot and took refuge inside the Wilderness Inquiry office building in Bloomington. Staff allowed him to remain in the vestibule and denied ICE entry, citing lack of a judicial warrant. After a two-hour standoff with negotiations through an interpreter, the man voluntarily surrendered after ICE presented a felony arrest warrant.",
