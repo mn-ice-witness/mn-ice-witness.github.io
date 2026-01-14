@@ -276,6 +276,26 @@ body {
     margin-bottom: 0;
 }
 
+.about-link {
+    font-family: var(--font-sans);
+    font-size: 0.7rem;
+    font-weight: 600;
+    color: var(--type-bystanders);
+    text-decoration: none;
+    padding: 3px 10px;
+    border: 1px solid var(--type-bystanders);
+    border-radius: 100px;
+    margin-left: 12px;
+    vertical-align: middle;
+    transition: all 0.15s ease;
+    letter-spacing: 0.02em;
+}
+
+.about-link:hover {
+    background: var(--type-bystanders);
+    color: white;
+}
+
 .site-tagline {
     font-size: 0.75rem;
     color: var(--color-text-secondary);
@@ -738,6 +758,71 @@ body {
 
 .share-icon {
     flex-shrink: 0;
+}
+
+.about-content {
+    max-width: 700px;
+}
+
+.about-content h1 {
+    font-family: var(--font-serif);
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    padding-right: 36px;
+}
+
+.about-content h2 {
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-secondary);
+    margin-top: 32px;
+    margin-bottom: 16px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--color-border);
+}
+
+.about-content p {
+    margin-bottom: 16px;
+    line-height: 1.7;
+}
+
+.about-content ul {
+    margin-bottom: 16px;
+    padding-left: 20px;
+}
+
+.about-content li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+}
+
+.about-content a {
+    color: var(--type-bystanders);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.15s;
+}
+
+.about-content a:hover {
+    border-bottom-color: var(--type-bystanders);
+}
+
+.about-content strong {
+    font-weight: 600;
+}
+
+.about-content hr {
+    border: none;
+    border-top: 1px solid var(--color-border);
+    margin: 32px 0;
+}
+
+.about-content em {
+    color: var(--color-text-secondary);
 }
 
 .lightbox-meta {

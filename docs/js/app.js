@@ -13,6 +13,12 @@ const App = {
         const hash = window.location.hash.slice(1);
         if (!hash) return;
 
+        if (hash === 'about') {
+            document.getElementById('splash')?.classList.add('hidden');
+            Lightbox.openAbout();
+            return;
+        }
+
         const incident = this.incidents.find(i => {
             const slug = i.filePath.split('/').pop().replace('.md', '');
             return slug === hash;

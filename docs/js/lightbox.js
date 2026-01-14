@@ -21,6 +21,11 @@ const Lightbox = {
                 this.closeWithoutHistory();
             }
         });
+
+        document.getElementById('about-link')?.addEventListener('click', (e) => {
+            e.preventDefault();
+            this.openAbout();
+        });
     },
 
     getSlugFromFilePath(filePath) {
@@ -46,6 +51,35 @@ const Lightbox = {
 
         const html = this.renderIncident(fullIncident);
         this.bodyElement.innerHTML = html;
+
+        this.bodyElement.querySelector('.share-btn')?.addEventListener('click', () => this.copyShareLink());
+    },
+
+    async openAbout() {
+        this.bodyElement.innerHTML = '<div class="table-loading">Loading...</div>';
+        this.element.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+
+        this.currentSlug = 'about';
+        history.pushState({ lightbox: true, slug: 'about' }, '', '#about');
+
+        const response = await fetch('about.md');
+        const content = await response.text();
+
+        const shareButton = `
+            <div class="lightbox-header">
+                <button class="share-btn" aria-label="Copy link to share">
+                    <svg class="share-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                    </svg>
+                    Copy Link
+                </button>
+            </div>
+        `;
+
+        const bodyHtml = marked.parse(content);
+        this.bodyElement.innerHTML = shareButton + '<div class="about-content">' + bodyHtml + '</div>';
 
         this.bodyElement.querySelector('.share-btn')?.addEventListener('click', () => this.copyShareLink());
     },
