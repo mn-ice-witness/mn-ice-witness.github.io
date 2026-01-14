@@ -226,7 +226,7 @@ body {
     left: 0;
     height: 3px;
     background: rgba(255,255,255,0.9);
-    animation: progress-bar 2.5s linear forwards;
+    animation: progress-bar 2.8s linear forwards;
 }
 
 @keyframes progress-bar {
