@@ -83,6 +83,25 @@
     "mediaCount": 2
   },
   {
+    "filePath": "incidents/2026-01/2026-01-12-st-cloud-star-city-mall.md",
+    "title": "50+ ICE Agents Swarm Somali Mall in St. Cloud; Chemical Irritants Used on Protesters",
+    "summary": "More than 50 ICE agents descended on Star City Mall, a strip mall with numerous Somali-owned businesses, to arrest one man leaving a deli. Hundreds of protesters gathered and blocked ICE vehicles, leading to a tense standoff. Agents deployed chemical irritants on the crowd. Three total arrests: one ICE target, two protesters. The incident came two days after Somali business owners at the same location successfully shouted ICE agents into leaving.",
+    "date": "2026-01-12",
+    "time": "midday",
+    "location": "Star City Mall, Division Street",
+    "city": "St. Cloud",
+    "type": [
+      "community-member-detained",
+      "protest-response"
+    ],
+    "status": "resolved",
+    "victimCitizenship": "unknown",
+    "injuries": "minor",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 1
+  },
+  {
     "filePath": "incidents/2026-01/2026-01-12-christina-rank-teacher.md",
     "title": "Special Education Teacher Detained for Nearly 12 Hours",
     "summary": "Christina Rank, a 25-year-old special education paraprofessional and U.S. citizen, was detained by ICE for nearly 12 hours after an apparent vehicle collision with a federal agent's car in the parking lot of Concord Education Center, a school serving students with special needs.",
@@ -226,6 +245,22 @@
     "victimCitizenship": "unknown",
     "injuries": "none",
     "trustworthiness": "medium",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0
+  },
+  {
+    "filePath": "incidents/2026-01/2026-01-09-hopkins-bryam-escobar.md",
+    "title": "Hopkins Father Detained Going to Work; Later Released by Court Order",
+    "summary": "Bryam Escobar Martinez, a father of two from Hopkins, was detained by ICE while on his way to work. His wife Estefany Escobar spoke publicly about the family's disruption. Martinez successfully challenged his detention in court and was ordered released within days, becoming one of dozens of detainees to win release through legal challenges.",
+    "date": "2026-01-09",
+    "time": "morning",
+    "location": "En route to work",
+    "city": "Hopkins",
+    "type": "community-member-detained",
+    "status": "resolved-released",
+    "victimCitizenship": "undocumented",
+    "injuries": "none",
+    "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0
   },
@@ -502,6 +537,25 @@
     "mediaCount": 0
   },
   {
+    "filePath": "incidents/2025-12/2025-12-06-burnsville-family-separated.md",
+    "title": "Parents Separated from 7-Year-Old in Burnsville Raid; Ring Camera Captures Forced Entry",
+    "summary": "ICE agents raided a home on McAndrews Road in Burnsville, breaking down doors and detaining four people including both parents of a 7-year-old child. Ring camera footage captured agents following a couple home from grocery shopping and the subsequent forced entry. U.S. citizens in the home reported guns pointed at them. One detained father had a valid work permit.",
+    "date": "2025-12-06",
+    "time": "unknown",
+    "location": "McAndrews Road",
+    "city": "Burnsville",
+    "type": [
+      "community-member-detained",
+      "family-separation"
+    ],
+    "status": "ongoing",
+    "victimCitizenship": "mixed-status-household",
+    "injuries": "none-physical",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0
+  },
+  {
     "filePath": "incidents/2025-12/2025-12-04-francisco-paredes-church.md",
     "title": "Church Employee Deported, Parish Later Surveilled by ICE",
     "summary": "Francisco Paredes, a 46-year-old church maintenance worker and choir member who had lived in the U.S. for 25 years, was arrested by ICE in the parking lot of St. Gabriel the Archangel Catholic Church in Hopkins. He spent a month in detention, including Christmas without religious services, before being deported to Mexico. On January 4, 2026, ICE agents were observed surveilling the church during Spanish Mass.",
@@ -535,5 +589,21 @@
     "trustworthiness": "medium",
     "lastUpdated": "2026-01-13",
     "mediaCount": 0
+  },
+  {
+    "filePath": "incidents/2025-11/2025-11-25-jeffrey-suazo-st-paul.md",
+    "title": "House Painter Arrested After 5-Hour Standoff; Family Reports Humiliation, No Warrant Shown",
+    "summary": "Jeffrey Suazo, a 26-year-old house painter from Honduras, was arrested after a 5-hour standoff with ICE agents on St. Paul's East Side. Federal agents pursuing a different man (Victor Rodriguez) followed Suazo when he fled upon seeing federal activity. Family members report agents entered without showing a warrant and taunted/humiliated them during the standoff. Over 200 protesters gathered, leading to deployment of pepper spray and nonlethal munitions.",
+    "date": "2025-11-25",
+    "time": "morning",
+    "location": "600 block of Rose Avenue",
+    "city": "St. Paul",
+    "type": "community-member-detained",
+    "status": "ongoing",
+    "victimCitizenship": "undocumented",
+    "injuries": "none-physical",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 1
   }
 ]
