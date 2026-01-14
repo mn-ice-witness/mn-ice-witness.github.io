@@ -476,6 +476,22 @@
     "mediaCount": 0
   },
   {
+    "filePath": "incidents/2025-12/2025-12-26-joseph-boman-observer.md",
+    "title": "U.S. Citizen Observer Photographed, Followed, and Arrested",
+    "summary": "Joseph Boman, a U.S. citizen and activist observer, was photographed by federal agents at a Minnoco gas station in Richfield. Agents then followed him and coordinated with Hennepin County Sheriff's deputies, who arrested him in a private parking lot across from the Whipple Federal Building after he observed ICE operations.",
+    "date": "2025-12-26",
+    "time": "unknown",
+    "location": "Minnoco gas station, Penn Avenue and West 68th Street",
+    "city": "Richfield",
+    "type": "bystander-arrested",
+    "status": "resolved",
+    "victimCitizenship": "us-citizen",
+    "injuries": "none",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0
+  },
+  {
     "filePath": "incidents/2025-12/2025-12-21-st-paul-westminster-shooting.md",
     "title": "ICE Agent Fires Shots During St. Paul Arrest After Being Struck by Vehicle",
     "summary": "An ICE agent fired two shots during an arrest attempt in St. Paul after being struck by the suspect's vehicle. Two ICE officers were hospitalized with non-life-threatening injuries. No one was hit by gunfire. The suspect, a Cuban national, was apprehended after ramming multiple vehicles and attempting to flee on foot.",
@@ -524,6 +540,57 @@
     "injuries": "unknown",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
+    "mediaCount": 0
+  },
+  {
+    "filePath": "incidents/2025-12/2025-12-13-chanhassen-rooftop-standoff.md",
+    "title": "Construction Workers Take Refuge on Roof During Hours-Long ICE Standoff",
+    "summary": "Two construction workers, Edgar and Marco Chicaiza Dutan, took refuge on a roof at a Chanhassen construction site as ICE agents surrounded them. The standoff lasted several hours in cold weather. State Rep. Alex Falconer reported that agents lacked a judicial warrant and \"didn't know who they were trying to find.\" Community members were denied permission to provide blankets or assistance.",
+    "date": "2025-12-13",
+    "time": "unknown",
+    "location": "Construction site",
+    "city": "Chanhassen",
+    "type": "community-member-detained",
+    "status": "resolved-detained",
+    "victimCitizenship": "unknown",
+    "injuries": "none",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0
+  },
+  {
+    "filePath": "incidents/2025-12/2025-12-12-brooklyn-park-cook.md",
+    "title": "Brooklyn Park Cook Arrested Outside Workplace; Restaurant Forced to Close",
+    "summary": "Jorge Vergara Rubio, an Ecuadorian cook, was arrested by ICE outside his employer Crumbs and Coffee in Brooklyn Park. His employer claims Rubio was legally authorized to work at the time of arrest, though ICE states his employment authorization application was denied in September 2025. The restaurant was forced to close following the arrest.",
+    "date": "2025-12-12",
+    "time": "unknown",
+    "location": "Crumbs and Coffee restaurant",
+    "city": "Brooklyn Park",
+    "type": "community-member-detained",
+    "status": "ongoing",
+    "victimCitizenship": "undocumented",
+    "injuries": "none",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0
+  },
+  {
+    "filePath": "incidents/2025-12/2025-12-11-eden-prairie-13-year-old.md",
+    "title": "13-Year-Old Boy Handcuffed, Thrown to Ground by ICE Agents",
+    "summary": "ICE agents detained Gomez outside an Eden Prairie apartment complex while his 13-year-old son Jose was handcuffed, allegedly thrown to the ground, and struck by officers. Jose was later released but experienced medical complications including abnormal heartbeat that required hospitalization at St. Francis Hospital.",
+    "date": "2025-12-11",
+    "time": "10:20",
+    "location": "Apartment complex",
+    "city": "Eden Prairie",
+    "type": [
+      "child-detained",
+      "community-member-detained"
+    ],
+    "status": "ongoing",
+    "victimCitizenship": "asylum-seeker",
+    "injuries": "serious",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
     "mediaCount": 0
   },
   {
@@ -626,6 +693,22 @@
     "injuries": "none",
     "trustworthiness": "medium",
     "lastUpdated": "2026-01-13",
+    "mediaCount": 0
+  },
+  {
+    "filePath": "incidents/2025-12/2025-12-early-lomabonita-jose.md",
+    "title": "Man With Legal Protection Status Detained at Restaurant; Vehicle Abandoned",
+    "summary": "Jose, a Salvadoran immigrant with legal withholding-of-removal protection status (a form of legal protection meant to prevent deportation), was detained by federal agents during lunch at Lomabonita restaurant on St. Paul's East Side. Agents abandoned his vehicle with construction tools on Margaret Street and White Bear Avenue.",
+    "date": "2025-12-01",
+    "time": "lunchtime",
+    "location": "Lomabonita restaurant, Margaret Street and White Bear Avenue",
+    "city": "St. Paul (East Side)",
+    "type": "community-member-detained",
+    "status": "ongoing",
+    "victimCitizenship": "legal-status",
+    "injuries": "none",
+    "trustworthiness": "medium-high",
+    "lastUpdated": "2026-01-14",
     "mediaCount": 0
   },
   {

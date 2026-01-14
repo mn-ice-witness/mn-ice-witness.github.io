@@ -1,0 +1,44 @@
+---
+date: 2025-12-26
+time: unknown
+location: Minnoco gas station, Penn Avenue and West 68th Street
+city: Richfield
+type: bystander-arrested
+status: resolved
+victim_citizenship: us-citizen
+injuries: none
+trustworthiness: high
+last_updated: 2026-01-14
+---
+
+# U.S. Citizen Observer Photographed, Followed, and Arrested
+
+## Summary
+Joseph Boman, a U.S. citizen and activist observer, was photographed by federal agents at a Minnoco gas station in Richfield. Agents then followed him and coordinated with Hennepin County Sheriff's deputies, who arrested him in a private parking lot across from the Whipple Federal Building after he observed ICE operations.
+
+## Sources
+1. [ICE Agents Alter Tactics, Work With Impunity While Violating US Citizen's Rights in Minnesota](https://unicornriot.ninja/2026/ice-agents-alter-tactics-work-with-impunity-while-violating-us-citizens-rights-in-minnesota/) - Unicorn Riot
+- **Photos:** Unicorn Riot obtained photos showing black Nissan trailing Boman
+
+## Victim(s)
+- **Name:** Joseph Boman
+- **Citizenship:** U.S. Citizen
+- **Role:** Activist/observer monitoring ICE operations
+
+## Timeline
+1. **Minnoco gas station** - Federal agents photograph Boman at Penn Avenue and West 68th Street
+2. **Following** - Black Nissan trails Boman as he leaves
+3. **Whipple area** - Boman observed ICE operations near Whipple Federal Building
+4. **Arrest** - Hennepin County Sheriff's deputies arrest Boman in private parking lot across from Whipple
+
+## Significance
+This incident demonstrates:
+- Federal agents photographing and tracking observers
+- Coordination between federal agents and local sheriff's deputies
+- Targeting of U.S. citizen activists exercising First Amendment rights
+
+## Context
+The incident occurred during "Operation Metro Surge" when federal agents appeared to be using tactics to sidestep a Minneapolis ordinance that restricts city police from cooperating with ICE. By coordinating with Hennepin County Sheriff instead, agents circumvented the city's restrictions.
+
+## Editorial Assessment
+**HIGH** - Unicorn Riot documentation with photos showing surveillance. Named U.S. citizen victim. Demonstrates pattern of targeting observers and coordination with county law enforcement to avoid city restrictions.
