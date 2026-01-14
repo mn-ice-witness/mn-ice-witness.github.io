@@ -22,6 +22,33 @@ Stories are excluded when they don't meet the project's core focus:
 - Reason: Protest coverage only - no direct ICE enforcement incident or civil rights violation
 - Date evaluated: 2026-01-14
 
+**Fort Snelling Historical Site Closure (Jan 10)**
+- Source: Bring Me The News
+- Date: January 10, 2026
+- Details: Minnesota Historical Society closed Historic Fort Snelling on a free admission day due to ICE activity and protests in the area.
+- Reason: Community impact/closure story - not a direct civil rights incident or enforcement action
+- Date evaluated: 2026-01-14
+
+**MSP Airport Deportation Flights Increasing**
+- Source: MPR News (2026-01-14)
+- Details: Story about increased ICE detainee flights leaving MSP airport, concerns about "erroneous deportations."
+- Reason: Trend/policy story - no specific incident with identifiable victim or civil rights violation
+- Date evaluated: 2026-01-14
+
+**Lake Street Detention Video (Jan 14)**
+- Source: Mercado Media social media post
+- Date: January 14, 2026
+- Details: Video showing ICE agents detaining someone on Lake Street opposite Chicago & Lake Liquors.
+- Reason: Insufficient details - single social media video, no victim identification, no corroborating news sources yet
+- Date evaluated: 2026-01-14
+
+**Cedar Knolls Apple Valley Raid (Jan 14)**
+- Source: Bring Me The News mention
+- Date: January 14, 2026
+- Details: Witness footage of ICE operation at Cedar Knolls mobile home park in Apple Valley, home raided, two males taken.
+- Reason: Could not find corroborating news sources - may be worth revisiting if more coverage emerges
+- Date evaluated: 2026-01-14
+
 ### October 2025
 
 **ICE Raids Two Hibbing Mexican Restaurants (El Charro, La Tequila Taco Shop)**
