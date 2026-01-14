@@ -1,0 +1,58 @@
+---
+date: 2026-01-13
+time: afternoon
+location: Downtown Willmar
+city: Willmar
+type: school-incident, community-member-detained
+status: unknown
+victim_citizenship: legal-resident
+injuries: none
+trustworthiness: high
+last_updated: 2026-01-14
+---
+
+# High School Student with Legal Status Arrested in Downtown Willmar
+
+## Summary
+A 19-year-old Somali woman who is currently an 11th-grade student at Willmar Public Schools was arrested by ICE agents in downtown Willmar. She had legal refugee status (Form I-94) and her family had applied for Green Card status. The arrest caused approximately 90% of Somali students to miss school the following day.
+
+## Sources
+1. [Federal immigration agents make arrests Monday in Willmar](https://www.wctrib.com/news/local/federal-immigration-agents-make-arrests-monday-in-willmar) - West Central Tribune
+2. [Ugly rhetoric, fears of ICE raids test an 'All-America City'](https://www.minnpost.com/greater-minnesota/2026/01/ugly-rhetoric-fears-of-ice-raids-test-an-all-america-city-with-criticism-of-willmars-somali-community/) - MinnPost
+
+## Victim(s)
+- **Name:** Not disclosed
+- **Age:** 19
+- **Occupation:** High school student (11th grade, Willmar Public Schools)
+- **Citizenship:** Legal refugee status (Form I-94), Green Card application pending
+- **Background:** Came to the U.S. as a refugee with legal documentation
+
+## Timeline
+- **Monday afternoon** - 6-8 ICE agents conduct operations in downtown Willmar
+- **Afternoon** - 19-year-old woman arrested while in her vehicle downtown, dragged to unmarked vehicle
+- **Same day** - Male arrested at Jennie-O Turkey Store during shift change
+- **Tuesday** - ~90% of Somali students absent from Willmar schools
+- **Tuesday afternoon** - Community protest organized downtown
+
+## Witness Accounts
+Liz Reyes, after seeing video of the arrest: "I don't feel safe sending my son to school."
+
+Witnesses reported the woman was "dragged" into an unmarked vehicle by agents.
+
+## Official Accounts
+
+### Willmar Public Schools
+Shafia Abdullahi, cultural liaison at Willmar Public Schools, stated: "She came here as a refugee. She does have legal status... It's not someone that came here illegally. It's not someone that smuggled their way here. They were someone that came here with legal papers."
+
+Abdullahi added: "You're treating her like she's a felon, like she's a criminal, like she killed someone. Even murderers are innocent until proven guilty, and she's not even committed any crime, except be a Somalian."
+
+## School Impact
+- Approximately 90% of Somali students absent from Willmar schools on Tuesday
+- Many Somali staff members stayed home to care for their children
+- School district sent letters to staffers and students offering support and information about their rights
+
+## Related Incident
+During the Tuesday protest against ICE actions, agents deployed chemical irritant at the crowd, which included children. Emergency medical services was called to evaluate at least one child.
+
+## Editorial Assessment
+**HIGH** - Multiple local news sources (West Central Tribune, MinnPost), named school official providing statements, documented community response and school impact. Legal status claims come from school cultural liaison with knowledge of the family's situation.

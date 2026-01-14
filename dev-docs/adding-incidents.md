@@ -71,17 +71,17 @@ What happened in 2-3 sentences.
 **MEDIUM** - Why this rating.
 ```
 
-## Step 4: Update app.js
+## Step 4: Generate Summary JSON
 
-**Critical step!** Add the new file to the `incidentFiles` array in `docs/js/app.js`:
+**Critical step!** Run the summary generator to update the JSON file:
 
-```javascript
-incidentFiles: [
-    'incidents/2026-01/2026-01-15-new-incident.md',  // Add here
-    'incidents/2026-01/2026-01-12-siguenza-okeefe-detained.md',
-    // ... rest of files
-],
+```bash
+python-main scripts/generate_summary.py
 ```
+
+This reads all markdown files in `docs/incidents/` and generates `docs/data/incidents-summary.json`.
+
+**IMPORTANT:** Do NOT edit `incidents-summary.json` directly - it will be overwritten by the script.
 
 ## Step 5: Test Locally
 
@@ -100,7 +100,7 @@ Verify:
 
 ```bash
 git add docs/incidents/2026-01/2026-01-15-new-incident.md
-git add docs/js/app.js
+git add docs/data/incidents-summary.json
 git commit -m "Add incident: Title of incident"
 git push
 ```

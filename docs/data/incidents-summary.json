@@ -16,6 +16,25 @@
     "mediaCount": 4
   },
   {
+    "filePath": "incidents/2026-01/2026-01-13-willmar-student-arrested.md",
+    "title": "High School Student with Legal Status Arrested in Downtown Willmar",
+    "summary": "A 19-year-old Somali woman who is currently an 11th-grade student at Willmar Public Schools was arrested by ICE agents in downtown Willmar. She had legal refugee status (Form I-94) and her family had applied for Green Card status. The arrest caused approximately 90% of Somali students to miss school the following day.",
+    "date": "2026-01-13",
+    "time": "afternoon",
+    "location": "Downtown Willmar",
+    "city": "Willmar",
+    "type": [
+      "school-incident",
+      "community-member-detained"
+    ],
+    "status": "unknown",
+    "victimCitizenship": "legal-resident",
+    "injuries": "none",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0
+  },
+  {
     "filePath": "incidents/2026-01/2026-01-13-elliott-payne-pushed.md",
     "title": "City Council President Pushed by ICE Agent While Legally Observing",
     "summary": "Minneapolis City Council President Elliott Payne was shoved by a masked ICE agent while legally observing federal immigration enforcement outside the Eastside Co-op in Northeast Minneapolis. Payne shared video of the incident, highlighting concerns about treatment of all residents.",
@@ -176,6 +195,22 @@
     "injuries": "none",
     "trustworthiness": "medium",
     "lastUpdated": "2026-01-13",
+    "mediaCount": 0
+  },
+  {
+    "filePath": "incidents/2026-01/2026-01-09-valleyview-elementary-absences.md",
+    "title": "142 Students Absent from Valleyview Elementary Due to ICE Fears",
+    "summary": "At Valleyview Elementary School in Bloomington, 142 students did not attend class on Thursday, January 9, 2026. The president of the Bloomington Federation of Teachers attributed the absences to fear of ICE presence near schools following the Roosevelt High School incident and the shooting of Renee Nicole Good.",
+    "date": "2026-01-09",
+    "time": "unknown",
+    "location": "Valleyview Elementary School",
+    "city": "Bloomington",
+    "type": "school-incident",
+    "status": "resolved",
+    "victimCitizenship": "unknown",
+    "injuries": "none",
+    "trustworthiness": "medium",
+    "lastUpdated": "2026-01-14",
     "mediaCount": 0
   },
   {
