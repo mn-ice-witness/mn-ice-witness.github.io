@@ -342,6 +342,22 @@
     "mediaCount": 5
   },
   {
+    "filePath": "incidents/2026-01/2026-01-06-bloomington-wilderness-inquiry.md",
+    "title": "Man Seeks Refuge in Bloomington Office During 2-Hour ICE Standoff",
+    "summary": "A man being pursued by ICE agents fled on foot and took refuge inside the Wilderness Inquiry office building in Bloomington. Staff allowed him to remain in the vestibule and denied ICE entry, citing lack of a judicial warrant. After a two-hour standoff with negotiations through an interpreter, the man voluntarily surrendered after ICE presented a felony arrest warrant.",
+    "date": "2026-01-06",
+    "time": "09:00",
+    "location": "Wilderness Inquiry, 930 E., Bloomington",
+    "city": "Bloomington",
+    "type": "community-member-detained",
+    "status": "resolved-detained",
+    "victimCitizenship": "unknown",
+    "injuries": "none",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 1
+  },
+  {
     "filePath": "incidents/2026-01/2026-01-06-el-fresco-restaurant-owner.md",
     "title": "Restaurant Owner Reported Missing, Confirmed Detained by ICE",
     "summary": "Juan Manuel Arellano Zepeda, 48, owner of El Fresco restaurant in Bloomington, was detained by ICE after leaving his Apple Valley home for work. His family initially reported him missing after ICE declined to confirm his detention. They only confirmed he was in custody after seeing him in a DHS social media video.",
@@ -483,6 +499,25 @@
     "injuries": "none",
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
+    "mediaCount": 0
+  },
+  {
+    "filePath": "incidents/2025-12/2025-12-04-francisco-paredes-church.md",
+    "title": "Church Employee Deported, Parish Later Surveilled by ICE",
+    "summary": "Francisco Paredes, a 46-year-old church maintenance worker and choir member who had lived in the U.S. for 25 years, was arrested by ICE in the parking lot of St. Gabriel the Archangel Catholic Church in Hopkins. He spent a month in detention, including Christmas without religious services, before being deported to Mexico. On January 4, 2026, ICE agents were observed surveilling the church during Spanish Mass.",
+    "date": "2025-12-04",
+    "time": "morning",
+    "location": "St. Gabriel the Archangel Catholic Church, 13th Avenue South",
+    "city": "Hopkins",
+    "type": [
+      "community-member-detained",
+      "church-surveillance"
+    ],
+    "status": "resolved-deported",
+    "victimCitizenship": "undocumented",
+    "injuries": "none",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
     "mediaCount": 0
   },
   {
