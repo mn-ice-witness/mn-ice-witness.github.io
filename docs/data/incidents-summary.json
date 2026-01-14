@@ -48,6 +48,22 @@
     "mediaCount": 0
   },
   {
+    "filePath": "incidents/2026-01/2026-01-13-dhs-response-native-americans.md",
+    "title": "DHS Response: Native American Detentions",
+    "summary": "After four Oglala Sioux Tribe members (U.S. citizens) were detained near Little Earth, DHS refused to provide information unless the tribe entered into an ICE cooperation agreement. The tribe declined, citing treaty violations. ICE and DHS did not respond to media requests for comment.",
+    "date": "2026-01-13",
+    "time": "unknown",
+    "location": "DHS Non-Response",
+    "city": "Minneapolis",
+    "type": "official-response",
+    "status": "ongoing",
+    "victimCitizenship": "us-citizen",
+    "injuries": "none",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0
+  },
+  {
     "filePath": "incidents/2026-01/2026-01-13-disabled-woman-car-window.md",
     "title": "Disabled Woman Dragged Through Car Window by ICE Agents",
     "summary": "A woman claiming to be disabled was pulled out of her car by eight ICE agents after they smashed her window. She was reportedly trying to drive past an ICE operation to reach a doctor's appointment when agents blocked her path and forcibly removed her from her vehicle.",
@@ -249,6 +265,22 @@
     "mediaCount": 1
   },
   {
+    "filePath": "incidents/2026-01/2026-01-11-dhs-response-speedway-bystander.md",
+    "title": "DHS Response: Speedway Bystander \"Hit an Officer\"",
+    "summary": "DHS posted on X claiming a U.S. citizen bystander at the Speedway gas station arrest \"did not comply with the lawfully given order, and instead responded by hitting an officer.\" Multiple video angles contradict this claim, showing the citizen complying before being tackled.",
+    "date": "2026-01-11",
+    "time": "unknown",
+    "location": "DHS Official Statement",
+    "city": "St. Paul",
+    "type": "official-response",
+    "status": "resolved",
+    "victimCitizenship": "us-citizen",
+    "injuries": "none",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0
+  },
+  {
     "filePath": "incidents/2026-01/2026-01-11-speedway-st-paul.md",
     "title": "Bystander Filming ICE Arrest Tackled and Detained at Speedway",
     "summary": "At a Speedway gas station, federal agents smashed a man's car window to arrest him after he refused to show citizenship documents. A bystander filming the arrest was told to back up, complied, but was then shoved, tackled, and detained by agents. Border Patrol Commander Gregory Bovino was present at the scene.",
@@ -409,6 +441,22 @@
     "mediaCount": 0
   },
   {
+    "filePath": "incidents/2026-01/2026-01-08-dhs-response-jan8-arrests.md",
+    "title": "DHS Statement: \"Worst of the Worst\" Arrests Jan 8",
+    "summary": "DHS issued a press release highlighting 13 individuals arrested in Minneapolis, claiming all had serious criminal histories including sexual assault, drug trafficking, and violent crimes. This was part of their daily \"worst of the worst\" communications strategy.",
+    "date": "2026-01-08",
+    "time": "unknown",
+    "location": "DHS Press Release",
+    "city": "Minneapolis",
+    "type": "official-response",
+    "status": "resolved",
+    "victimCitizenship": "unknown",
+    "injuries": "none",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0
+  },
+  {
     "filePath": "incidents/2026-01/2026-01-08-target-richfield-employees.md",
     "title": "Two U.S. Citizen Target Employees Detained and Injured",
     "summary": "Two Target drive-up employees, both U.S. citizens, were aggressively detained by CBP agents at the Richfield Target store. Both sustained injuries. According to witnesses, agents asked the workers if they were citizens; when they didn't answer and tried to go inside, they were grabbed and pinned to the ground.",
@@ -490,6 +538,22 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 1
+  },
+  {
+    "filePath": "incidents/2026-01/2026-01-07-dhs-response-renee-good.md",
+    "title": "DHS Response: Good \"Weaponized Her Vehicle\"",
+    "summary": "Hours after ICE agent Jonathan Ross shot and killed Renee Good, DHS Secretary Kristi Noem and spokesperson Tricia McLaughlin claimed Good \"weaponized her vehicle\" in an attempt to run over officers, calling it \"an act of domestic terrorism.\" Multiple independent video analyses have questioned these claims.",
+    "date": "2026-01-07",
+    "time": "unknown",
+    "location": "DHS Official Statement",
+    "city": "Minneapolis",
+    "type": "official-response",
+    "status": "under-investigation",
+    "victimCitizenship": "us-citizen",
+    "injuries": "fatal",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0
   },
   {
     "filePath": "incidents/2026-01/2026-01-07-roosevelt-high-school.md",
