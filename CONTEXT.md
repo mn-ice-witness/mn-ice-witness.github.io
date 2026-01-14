@@ -16,7 +16,9 @@ If ~/.context.md doesn't exist, notify the user.
 2. `dev-docs/incident-schema.md` - Exact markdown format for incidents
 3. `dev-docs/adding-incidents.md` - Step-by-step guide to add incidents
 4. `dev-docs/research-sources.md` - Where to find and verify incidents
-5. `dev-docs/project-status.md` - Current state and pending work
+5. `dev-docs/researching-responses.md` - How to find and document official federal responses
+6. `dev-docs/project-status.md` - Current state and pending work
+7. `dev-docs/not_use.md` - Stories evaluated and rejected (check before adding new incidents)
 
 These docs are the source of truth for how this project works.
 
@@ -72,7 +74,7 @@ date: YYYY-MM-DD
 time: HH:MM (if known, else "unknown")
 location: Specific location
 city: Minneapolis/St. Paul/etc
-type: citizen-detained | bystander-arrested | community-member-detained | fatal-shooting | school-incident | workplace-raid
+type: citizen-detained | bystander-arrested | community-member-detained | fatal-shooting | school-incident | workplace-raid | official-response
 status: ongoing | resolved | under-investigation
 victim_citizenship: us-citizen | legal-resident | undocumented | asylum-seeker | unknown
 injuries: none | minor | serious | fatal
@@ -168,3 +170,15 @@ This site is deployed via GitHub Pages from the `docs/` folder on the `main` bra
    - `medium` = 2 sources or official statements
    - `low` = Single source or social media only
    - `unverified` = Reported but not confirmed
+6. **Research Official Responses:** When documenting any incident, always search for DHS/ICE official responses and add them to the Response tab. See `dev-docs/incident-schema.md` for the `official-response` format.
+
+## Researching Official Responses
+
+When documenting incidents, ALWAYS search for and document official federal responses:
+
+1. **DHS Press Releases:** https://www.dhs.gov/news-releases/press-releases
+2. **ICE News Releases:** https://www.ice.gov/news/releases
+3. **X/Twitter accounts:** @DHSgov, @ICEgov
+4. **Major news coverage:** Search "[incident] DHS statement" or "ICE response [location]"
+
+Document responses even when claims are disputed. Include the official position and note discrepancies with other evidence.

@@ -2,6 +2,10 @@
 
 Step-by-step guide for adding new incidents to the site.
 
+## Step 0: Check Not-Use List
+
+**BEFORE researching a story**, check `dev-docs/not_use.md` to see if it was already evaluated and rejected. This prevents re-adding stories that don't fit the project scope.
+
 ## Step 1: Verify the Incident
 
 Before adding, ensure:

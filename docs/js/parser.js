@@ -73,7 +73,8 @@ const IncidentParser = {
             'community-member-detained': 'Community Member',
             'fatal-shooting': 'Fatal Shooting',
             'school-incident': 'School Incident',
-            'workplace-raid': 'Workplace Raid'
+            'workplace-raid': 'Workplace Raid',
+            'official-response': 'Official Response'
         };
         return labels[type] || type;
     },

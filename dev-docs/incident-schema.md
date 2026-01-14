@@ -41,6 +41,7 @@ last_updated: YYYY-MM-DD      # Required. When file was last updated
 | `community-member-detained` | Non-criminal immigrants detained |
 | `school-incident` | Actions at/near schools |
 | `workplace-raid` | Raids at businesses |
+| `official-response` | DHS/ICE official statements justifying specific incidents/arrests |
 
 ### Victim Citizenship Values
 
@@ -93,9 +94,9 @@ Direct quotes or summaries.
 **TRUSTWORTHINESS_LEVEL** - Brief explanation of why this rating.
 ```
 
-## DHS Response Section
+## DHS Response Section (within incidents)
 
-When DHS/ICE posts an official response (especially on X @DHSgov), include it:
+When DHS/ICE posts an official response to a specific incident (especially on X @DHSgov), include it in the incident file:
 
 ```markdown
 ## DHS Response
@@ -105,6 +106,62 @@ Posted on X (@DHSgov):
 
 **Note:** [Your factual analysis of whether evidence supports their claim]
 ```
+
+## Official Response Documents (standalone)
+
+For DHS/ICE press releases and statements justifying specific arrests, create standalone documents with type `official-response`:
+
+```markdown
+---
+date: YYYY-MM-DD
+time: unknown
+location: DHS Press Release
+city: Minneapolis
+type: official-response
+status: resolved
+victim_citizenship: unknown
+injuries: none
+trustworthiness: high
+last_updated: YYYY-MM-DD
+---
+
+# DHS Statement: [Title describing what they're justifying]
+
+## Summary
+Brief description of what DHS/ICE claims and who they claim to have arrested.
+
+## Sources
+1. [DHS Press Release](URL) - DHS.gov
+2. [X Post](URL) - @DHSgov or @ICEgov
+
+## Official Statement
+Full quote or detailed summary of their justification.
+
+### Criminal History Cited
+List the specific criminal history claims made by DHS/ICE:
+- **Name:** Crime claimed
+
+## Fact Check
+Analysis of whether the claims can be independently verified.
+
+## Editorial Assessment
+Assessment of whether DHS claims match available evidence.
+```
+
+### Researching Official Responses
+
+When documenting incidents, search for DHS/ICE official responses:
+
+1. **DHS Press Releases:** https://www.dhs.gov/news-releases/press-releases
+2. **ICE News Releases:** https://www.ice.gov/news/releases
+3. **X/Twitter accounts:**
+   - @DHSgov
+   - @ICEgov
+   - @DHSBlueCampaign
+   - @Abordar (CBP)
+4. **Major news coverage:** Search "[incident name] DHS response" or "ICE statement [location]"
+
+Include responses even when claims are disputed - document the official position and note discrepancies.
 
 ## Example Minimal Incident
 

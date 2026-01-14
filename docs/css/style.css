@@ -21,6 +21,7 @@
     --type-citizens: #bf3989;
     --type-fatal: #cf222e;
     --type-schools: #bc4c00;
+    --type-response: #6e7781;
 
     --shadow-sm: 0 1px 2px rgba(0,0,0,0.04);
     --shadow-md: 0 2px 8px rgba(0,0,0,0.08);
@@ -394,6 +395,7 @@ body {
 .nav-citizens { background: #ffeff7; color: var(--type-citizens); border-color: #ff80c833; }
 .nav-fatal { background: #ffebe9; color: var(--type-fatal); border-color: #ff818433; }
 .nav-schools { background: #fff1e5; color: var(--type-schools); border-color: #fb8f4433; }
+.nav-response { background: #f0f0f0; color: var(--type-response); border-color: #8c959f33; }
 
 .nav-pill:hover {
     transform: translateY(-1px);
@@ -431,6 +433,7 @@ body {
 .marker-citizens { background: var(--type-citizens); }
 .marker-fatal { background: var(--type-fatal); }
 .marker-schools { background: var(--type-schools); }
+.marker-response { background: var(--type-response); }
 
 .section-title {
     font-family: var(--font-serif);
