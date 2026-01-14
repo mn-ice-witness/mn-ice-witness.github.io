@@ -24,8 +24,8 @@
     "location": "Downtown Willmar",
     "city": "Willmar",
     "type": [
-      "school-incident",
-      "community-member-detained"
+      "citizen-legal-detained-beaten",
+      "school-incident"
     ],
     "status": "unknown",
     "victimCitizenship": "legal-resident",
@@ -132,6 +132,22 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
     "mediaCount": 0
+  },
+  {
+    "filePath": "incidents/2026-01/2026-01-12-garrison-gibson-battering-ram.md",
+    "title": "Liberian Man Arrested With Battering Ram, No Judicial Warrant",
+    "summary": "Garrison Gibson, a 38-year-old Liberian citizen who has lived in the U.S. for approximately 20 years, was arrested by ICE agents who used a battering ram to enter his north Minneapolis home. His family demanded to see a judicial warrant, but agents presented only an administrative warrant signed by an immigration officer. A 9-year-old child was inside the home during the raid. Gibson's attorneys have filed a habeas petition challenging the arrest.",
+    "date": "2026-01-12",
+    "time": "morning",
+    "location": "49th and Russell Avenue North",
+    "city": "Minneapolis",
+    "type": "community-member-detained",
+    "status": "ongoing",
+    "victimCitizenship": "legal-resident",
+    "injuries": "none",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 1
   },
   {
     "filePath": "incidents/2026-01/2026-01-11-speedway-st-paul.md",
@@ -355,6 +371,22 @@
     "injuries": "none",
     "trustworthiness": "low",
     "lastUpdated": "2026-01-13",
+    "mediaCount": 0
+  },
+  {
+    "filePath": "incidents/2025-12/2025-12-31-hcmc-patient-shackled.md",
+    "title": "Patient Shackled to Hospital Bed by ICE for 28 Hours Without Warrant",
+    "summary": "ICE agents entered Hennepin County Medical Center's emergency department without a judicial warrant and remained at a patient's bedside for approximately 28 hours. The patient was handcuffed and shackled to their bed despite medical staff objections. Agents were eventually removed after county commissioners and hospital leadership intervened.",
+    "date": "2025-12-31",
+    "time": "unknown",
+    "location": "Hennepin County Medical Center (HCMC)",
+    "city": "Minneapolis",
+    "type": "community-member-detained",
+    "status": "resolved",
+    "victimCitizenship": "undocumented",
+    "injuries": "unknown",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
     "mediaCount": 0
   },
   {
