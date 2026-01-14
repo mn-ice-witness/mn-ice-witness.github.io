@@ -298,6 +298,23 @@
     "notable": true
   },
   {
+    "filePath": "incidents/2026-01/2026-01-12-nimco-omar-citizen-check.md",
+    "title": "Citizen Check: U.S. Citizen Confronted by ICE Agents While Walking",
+    "summary": "Nimco Omar, a U.S. citizen and Somali American, was surrounded by four masked federal agents who demanded her identification during what they called a \"citizen check\" while she was walking near 24 Somali Mall in Minneapolis. Omar refused to show ID, asserting her constitutional rights. After repeatedly asking \"Where were you born?\" and photographing her without permission, the agents eventually walked away.",
+    "date": "2026-01-12",
+    "time": "unknown",
+    "location": "Near 24 Somali Mall",
+    "city": "Minneapolis",
+    "type": "citizen-legal-detained-beaten",
+    "status": "resolved",
+    "victimCitizenship": "us-citizen",
+    "injuries": "none",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 3,
+    "notable": false
+  },
+  {
     "filePath": "incidents/2026-01/2026-01-12-pilllar-forum-musicians.md",
     "title": "Musicians and Fans Pepper Sprayed Outside NE Minneapolis Venue",
     "summary": "Musicians and concert attendees were pepper-sprayed and hit with batons by ICE agents outside Pilllar Forum, an all-ages rock venue in Northeast Minneapolis. The incident forced cancellation of that night's show, with proceeds intended to benefit families affected by ICE detainments.",
