@@ -47,7 +47,7 @@ const App = {
                 el.style.animation = '';
             });
             splash.classList.remove('hidden');
-            setTimeout(closeSplash, 2800);
+            setTimeout(closeSplash, 3000);
         };
 
         const titleLink = document.getElementById('title-link');
@@ -69,7 +69,7 @@ const App = {
 
         localStorage.setItem('splashLastShown', now.toString());
 
-        setTimeout(closeSplash, 2800);
+        setTimeout(closeSplash, 3000);
 
         splash.addEventListener('click', closeSplash);
 
