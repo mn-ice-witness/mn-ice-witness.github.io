@@ -1,7 +1,7 @@
 const App = {
     incidents: [],
     mediaVersion: '',
-    currentView: 'list',
+    currentView: 'media',
     viewedIncidents: new Set(),
 
     async init() {
@@ -19,23 +19,21 @@ const App = {
 
     loadViewFromUrl() {
         const hash = window.location.hash.slice(1);
-        if (hash === 'media') {
-            this.currentView = 'media';
+        if (hash === 'list') {
+            this.currentView = 'list';
         }
     },
 
     updateUrlView(view) {
-        if (view === 'media') {
-            window.history.replaceState({}, '', '#media');
+        if (view === 'list') {
+            window.history.replaceState({}, '', '#list');
         } else {
             window.history.replaceState({}, '', window.location.pathname);
         }
     },
 
     applyInitialView() {
-        if (this.currentView === 'media') {
-            this.switchView('media');
-        }
+        this.switchView(this.currentView);
     },
 
     loadViewedState() {
