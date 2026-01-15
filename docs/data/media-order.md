@@ -2,6 +2,8 @@
 # List incident slugs in display order (one per line)
 
 
+
+siguenza-okeefe-detained
 speedway-st-paul
 disabled-woman-car-window
 target-richfield-employees

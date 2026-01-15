@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768510460,
+  "mediaVersion": 1768511020,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-14-circle-pines-restaurant-worker.md",
@@ -340,9 +340,9 @@
       "lastUpdated": "2026-01-13",
       "mediaCount": 2,
       "notable": true,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-12-siguenza-okeefe-detained.mp4"
     },
     {
       "filePath": "incidents/2026-01/2026-01-12-irma-escoto-citizen-check.md",
