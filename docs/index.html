@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css?v=1768513057">
+    <link rel="stylesheet" href="css/style.css?v=1768513097">
     <script>
         (function() {
             var last = localStorage.getItem('splashLastShown');
@@ -72,15 +72,15 @@
     <main class="main-content">
         <!-- View Toggle -->
         <div class="view-toggle" id="view-toggle">
-            <button class="view-btn active" data-view="list">List</button>
-            <button class="view-btn" data-view="media">Media</button>
+            <button class="view-btn active" data-view="media">Media</button>
+            <button class="view-btn" data-view="list">List</button>
         </div>
 
-        <!-- Media Gallery View (hidden by default) -->
-        <div class="media-gallery" id="media-gallery" style="display: none;"></div>
+        <!-- Media Gallery View (default) -->
+        <div class="media-gallery" id="media-gallery"></div>
 
-        <!-- List View (default) -->
-        <div class="list-view" id="list-view">
+        <!-- List View (hidden by default) -->
+        <div class="list-view" id="list-view" style="display: none;">
         <section class="incident-section" id="citizens">
             <div class="section-header">
                 <div class="section-marker marker-citizens"></div>
@@ -167,8 +167,8 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="js/parser.js?v=1768513057"></script>
-    <script src="js/lightbox.js?v=1768513057"></script>
-    <script src="js/app.js?v=1768513057"></script>
+    <script src="js/parser.js?v=1768513097"></script>
+    <script src="js/lightbox.js?v=1768513097"></script>
+    <script src="js/app.js?v=1768513097"></script>
 </body>
 </html>
