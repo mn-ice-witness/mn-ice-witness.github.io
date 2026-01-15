@@ -117,6 +117,7 @@ const App = {
         const mediaGallery = document.getElementById('media-gallery');
         const toggle = document.getElementById('view-toggle');
         const clearViewedBtn = document.getElementById('clear-viewed-btn');
+        const sectionNav = document.getElementById('section-nav');
 
         toggle.querySelectorAll('.view-btn').forEach(btn => {
             btn.classList.toggle('active', btn.dataset.view === view);
@@ -124,6 +125,10 @@ const App = {
 
         if (clearViewedBtn) {
             clearViewedBtn.style.display = view === 'media' ? 'none' : '';
+        }
+
+        if (sectionNav) {
+            sectionNav.style.display = view === 'media' ? 'none' : '';
         }
 
         if (view === 'list') {
