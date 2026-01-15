@@ -528,7 +528,8 @@ body {
     transition: opacity 0.2s;
 }
 
-.media-card:hover .media-card-play-icon {
+.media-card:hover .media-card-play-icon,
+.media-card.playing .media-card-play-icon {
     opacity: 0;
 }
 

@@ -179,6 +179,11 @@ const App = {
     setupScrollToPlay(gallery) {
         const videos = gallery.querySelectorAll('.media-card-video');
 
+        videos.forEach(video => {
+            video.addEventListener('play', () => video.closest('.media-card').classList.add('playing'));
+            video.addEventListener('pause', () => video.closest('.media-card').classList.remove('playing'));
+        });
+
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 const video = entry.target;
