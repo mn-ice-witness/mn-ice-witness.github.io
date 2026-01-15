@@ -91,10 +91,13 @@ const App = {
     },
 
     initClearViewed() {
-        const btn = document.getElementById('clear-viewed-btn');
-        if (btn) {
-            btn.addEventListener('click', () => this.clearViewed());
-        }
+        document.addEventListener('click', (e) => {
+            if (e.target.matches('a[href="#clear-viewed"]')) {
+                e.preventDefault();
+                this.clearViewed();
+                alert('Viewed history cleared');
+            }
+        });
     },
 
     initViewToggle() {
@@ -116,16 +119,11 @@ const App = {
         const listView = document.getElementById('list-view');
         const mediaGallery = document.getElementById('media-gallery');
         const toggle = document.getElementById('view-toggle');
-        const clearViewedBtn = document.getElementById('clear-viewed-btn');
         const sectionNav = document.getElementById('section-nav');
 
         toggle.querySelectorAll('.view-btn').forEach(btn => {
             btn.classList.toggle('active', btn.dataset.view === view);
         });
-
-        if (clearViewedBtn) {
-            clearViewedBtn.style.display = view === 'media' ? 'none' : '';
-        }
 
         if (sectionNav) {
             sectionNav.style.display = view === 'media' ? 'none' : '';

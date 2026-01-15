@@ -450,23 +450,6 @@ body {
     margin: 0 8px;
 }
 
-.clear-viewed-btn {
-    padding: 6px 16px;
-    font-size: 0.75rem;
-    font-weight: 600;
-    color: var(--color-text-secondary);
-    background: #dae1e8;
-    border: 1px solid #c5cdd6;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: all 0.15s;
-    margin-left: 12px;
-}
-
-.clear-viewed-btn:hover {
-    background: var(--color-bg);
-}
-
 /* ==================== MEDIA GALLERY ==================== */
 
 .media-gallery {
