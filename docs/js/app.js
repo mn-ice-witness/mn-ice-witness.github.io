@@ -1,12 +1,165 @@
 const App = {
     incidents: [],
+    currentView: 'list',
 
     async init() {
         this.initSplash();
+        this.initViewToggle();
         Lightbox.init();
         await this.loadIncidents();
         this.render();
         this.openFromHash();
+    },
+
+    initViewToggle() {
+        const toggle = document.getElementById('view-toggle');
+        if (!toggle) return;
+
+        toggle.querySelectorAll('.view-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const view = btn.dataset.view;
+                this.switchView(view);
+            });
+        });
+    },
+
+    switchView(view) {
+        this.currentView = view;
+        const listView = document.getElementById('list-view');
+        const mediaGallery = document.getElementById('media-gallery');
+        const toggle = document.getElementById('view-toggle');
+
+        toggle.querySelectorAll('.view-btn').forEach(btn => {
+            btn.classList.toggle('active', btn.dataset.view === view);
+        });
+
+        if (view === 'list') {
+            listView.style.display = '';
+            mediaGallery.style.display = 'none';
+        } else {
+            listView.style.display = 'none';
+            mediaGallery.style.display = '';
+            this.renderMediaGallery();
+        }
+    },
+
+    async renderMediaGallery() {
+        const gallery = document.getElementById('media-gallery');
+        let mediaIncidents = this.incidents.filter(i => i.hasLocalMedia);
+
+        if (mediaIncidents.length === 0) {
+            gallery.innerHTML = '<div class="gallery-empty">No media available yet. Check back soon.</div>';
+            return;
+        }
+
+        // Try to load custom order from media-order.md
+        mediaIncidents = await this.sortMediaByOrder(mediaIncidents);
+
+        gallery.innerHTML = mediaIncidents.map(incident => this.renderMediaCard(incident)).join('');
+
+        // Add click handlers
+        gallery.querySelectorAll('.media-card').forEach((card, index) => {
+            card.addEventListener('click', () => {
+                Lightbox.open(mediaIncidents[index]);
+            });
+        });
+
+        // Set up video behavior
+        const isMobile = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+
+        if (isMobile) {
+            // Mobile: play on scroll into view
+            this.setupScrollToPlay(gallery);
+        } else {
+            // Desktop: play on hover
+            gallery.querySelectorAll('.media-card-video').forEach(video => {
+                const card = video.closest('.media-card');
+                card.addEventListener('mouseenter', () => video.play());
+                card.addEventListener('mouseleave', () => {
+                    video.pause();
+                    video.currentTime = 0;
+                });
+            });
+        }
+    },
+
+    setupScrollToPlay(gallery) {
+        const videos = gallery.querySelectorAll('.media-card-video');
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                const video = entry.target;
+                if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        }, { threshold: 0.5 });
+
+        videos.forEach(video => observer.observe(video));
+    },
+
+    async sortMediaByOrder(mediaIncidents) {
+        try {
+            const response = await fetch('data/media-order.md');
+            if (!response.ok) return mediaIncidents;
+
+            const text = await response.text();
+            const lines = text.split('\n')
+                .map(line => line.trim())
+                .filter(line => line && !line.startsWith('#'));
+
+            // Sort by order in file
+            return mediaIncidents.sort((a, b) => {
+                const slugA = a.filePath.split('/').pop().replace('.md', '');
+                const slugB = b.filePath.split('/').pop().replace('.md', '');
+                const indexA = lines.findIndex(line => slugA.includes(line) || line.includes(slugA));
+                const indexB = lines.findIndex(line => slugB.includes(line) || line.includes(slugB));
+
+                // Items in the order file come first, in order
+                if (indexA >= 0 && indexB >= 0) return indexA - indexB;
+                if (indexA >= 0) return -1;
+                if (indexB >= 0) return 1;
+                return 0; // Keep original order for items not in file
+            });
+        } catch {
+            return mediaIncidents;
+        }
+    },
+
+    renderMediaCard(incident) {
+        const shortTitle = incident.title.length > 60
+            ? incident.title.substring(0, 57) + '...'
+            : incident.title;
+
+        let mediaElement;
+        if (incident.localMediaType === 'video') {
+            mediaElement = `
+                <video class="media-card-video" muted loop playsinline preload="metadata">
+                    <source src="${incident.localMediaPath}" type="video/mp4">
+                </video>
+                <div class="media-card-play-icon">
+                    <svg viewBox="0 0 24 24" width="32" height="32" fill="white">
+                        <polygon points="5,3 19,12 5,21"/>
+                    </svg>
+                </div>
+            `;
+        } else {
+            mediaElement = `<img class="media-card-image" src="${incident.localMediaPath}" alt="${shortTitle}">`;
+        }
+
+        return `
+            <article class="media-card" role="button" tabindex="0">
+                <div class="media-card-media">
+                    ${mediaElement}
+                </div>
+                <div class="media-card-info">
+                    <h3 class="media-card-title">${shortTitle}</h3>
+                    <span class="media-card-location">${incident.city}</span>
+                </div>
+            </article>
+        `;
     },
 
     openFromHash() {
