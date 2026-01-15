@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768499347,
+  "mediaVersion": 1768501912,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-14-circle-pines-restaurant-worker.md",
@@ -866,9 +866,9 @@
       "lastUpdated": "2026-01-13",
       "mediaCount": 0,
       "notable": true,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null
+      "hasLocalMedia": true,
+      "localMediaType": "image",
+      "localMediaPath": "media/2026-01-08-jose-ramirez-native-american.jpg"
     },
     {
       "filePath": "incidents/2026-01/2026-01-07-pastor-callaghan-detained.md",
