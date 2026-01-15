@@ -1180,6 +1180,23 @@
     "notable": false
   },
   {
+    "filePath": "incidents/2025-10/2025-10-30-noem-no-citizens-arrested-claim.md",
+    "title": "DHS Secretary Noem: \"No American Citizens Have Been Arrested or Detained\"",
+    "summary": "DHS Secretary Kristi Noem stated at a press conference that \"no American citizens have been arrested or detained\" by immigration agents. PolitiFact rated this claim \"Pants on Fire\" (their lowest truthfulness rating), and NPR and Poynter also found it to be inaccurate. ProPublica documented over 170 cases of U.S. citizens detained by immigration agents nationwide.",
+    "date": "2025-10-30",
+    "time": "unknown",
+    "location": "DHS Press Conference, Gary, Indiana",
+    "city": "Minneapolis",
+    "type": "official-response",
+    "status": "resolved",
+    "victimCitizenship": "us-citizen",
+    "injuries": "none",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 2,
+    "notable": false
+  },
+  {
     "filePath": "incidents/2025-02/2025-02-12-nupa-rochester-workers.md",
     "title": "Two Cooks Detained at Rochester Greek Restaurant; Business Forced to Close",
     "summary": "ICE officers detained two brothers\u2014both cooks at Nupa Mediterranean restaurant\u2014in the parking lot as they arrived for their morning shifts. The restaurant was forced to temporarily close one of its two Rochester locations due to the loss of staff. The owner stated the workers had no criminal record as far as they knew.",

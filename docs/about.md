@@ -8,6 +8,8 @@ The Trump administration contends that Operation Metro Surge and its broader imm
 
 DHS Secretary Kristi Noem [directed ICE](https://www.dhs.gov/news/2025/12/19/under-president-trump-and-secretary-noem-department-homeland-security-has-historic) "to target the worst of the worst—including gang members, murderers, and rapists." DHS press releases highlight arrests of individuals with criminal records. ICE's main [recruitment page](https://www.ice.gov/join) states: "America has been invaded by criminals and predators. We need YOU to get them out."
 
+**DHS claims about U.S. citizens have been fact-checked as false.** Secretary Noem stated on October 30, 2025: "No American citizens have been arrested or detained." [PolitiFact rated this claim "Pants on Fire"](https://www.politifact.com/factchecks/2025/oct/31/kristi-noem/immigration-ICE-arrest-US-citizen-Chicago/) — their lowest truthfulness rating. [NPR](https://www.npr.org/2025/11/05/nx-s1-5598373/npr-fact-checks-kristi-noem-on-ice-detaining-us-citizens) and [Poynter](https://www.poynter.org/fact-checking/2025/has-ice-arrested-american-citizens/) also debunked the claim. ProPublica documented over 170 cases of U.S. citizens detained by immigration agents. [See full details](#2025-10-30-noem-no-citizens-arrested-claim).
+
 ## The Data
 
 Independent analyses present different figures.
