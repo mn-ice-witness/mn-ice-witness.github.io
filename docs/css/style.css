@@ -458,6 +458,8 @@ body {
     padding: 16px;
     max-width: 1400px;
     margin: 0 auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-behavior: auto;
 }
 
 .gallery-empty {
@@ -476,6 +478,9 @@ body {
     transition: transform 0.15s, box-shadow 0.15s;
     break-inside: avoid;
     margin-bottom: 16px;
+    contain: layout style paint;
+    content-visibility: auto;
+    contain-intrinsic-size: auto 300px;
 }
 
 .media-card:hover {
@@ -487,6 +492,8 @@ body {
     position: relative;
     background: #000;
     overflow: hidden;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
 }
 
 .media-card-video,
@@ -494,13 +501,22 @@ body {
     width: 100%;
     height: auto;
     display: block;
+    transform: translateZ(0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.media-card-video {
+    will-change: contents;
 }
 
 .media-card-play-icon {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) translateZ(0);
+    -webkit-transform: translate(-50%, -50%) translateZ(0);
     width: 56px;
     height: 56px;
     background: rgba(0, 0, 0, 0.6);
@@ -509,7 +525,8 @@ body {
     align-items: center;
     justify-content: center;
     pointer-events: none;
-    transition: opacity 0.2s;
+    transition: opacity 0.15s ease-out;
+    will-change: opacity;
 }
 
 .media-card:hover .media-card-play-icon,

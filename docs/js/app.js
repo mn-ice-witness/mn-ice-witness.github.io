@@ -210,22 +210,48 @@ const App = {
 
     setupScrollToPlay(gallery) {
         const videos = gallery.querySelectorAll('.media-card-video');
+        const pendingActions = new Map();
 
         videos.forEach(video => {
             video.addEventListener('play', () => video.closest('.media-card').classList.add('playing'));
             video.addEventListener('pause', () => video.closest('.media-card').classList.remove('playing'));
         });
 
+        const scheduleAction = (video, action) => {
+            const existing = pendingActions.get(video);
+            if (existing) {
+                cancelAnimationFrame(existing.raf);
+                clearTimeout(existing.timeout);
+            }
+
+            if (action === 'play') {
+                const raf = requestAnimationFrame(() => {
+                    video.play().catch(() => {});
+                    pendingActions.delete(video);
+                });
+                pendingActions.set(video, { raf, timeout: null });
+            } else {
+                const timeout = setTimeout(() => {
+                    const raf = requestAnimationFrame(() => {
+                        video.pause();
+                        pendingActions.delete(video);
+                    });
+                    pendingActions.set(video, { raf, timeout: null });
+                }, 100);
+                pendingActions.set(video, { raf: null, timeout });
+            }
+        };
+
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 const video = entry.target;
-                if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
-                    video.play();
+                if (entry.isIntersecting && entry.intersectionRatio >= 0.4) {
+                    scheduleAction(video, 'play');
                 } else {
-                    video.pause();
+                    scheduleAction(video, 'pause');
                 }
             });
-        }, { threshold: 0.5 });
+        }, { threshold: [0, 0.4, 0.6, 1] });
 
         videos.forEach(video => observer.observe(video));
     },
