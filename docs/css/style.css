@@ -445,6 +445,26 @@ body {
     border-color: #6b7c93;
 }
 
+.view-toggle-sep {
+    color: var(--color-text-muted);
+    margin: 0 8px;
+}
+
+.clear-viewed-btn {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 6px 0;
+    transition: color 0.15s;
+}
+
+.clear-viewed-btn:hover {
+    color: var(--color-text);
+}
+
 /* ==================== MEDIA GALLERY ==================== */
 
 .media-gallery {
@@ -709,6 +729,26 @@ body {
 .notable-star:hover::after {
     opacity: 1;
     visibility: visible;
+}
+
+/* Viewed Icon */
+.viewed-icon {
+    font-size: 0.5rem;
+    color: transparent;
+    transition: color 0.15s;
+}
+
+.viewed-icon.is-viewed {
+    color: #6b7c93;
+}
+
+/* Viewed Row State */
+.incident-row.viewed {
+    opacity: 0.55;
+}
+
+.incident-row.viewed:hover {
+    opacity: 0.75;
 }
 
 .trust-badge {

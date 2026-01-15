@@ -2,14 +2,68 @@ const App = {
     incidents: [],
     mediaVersion: '',
     currentView: 'list',
+    viewedIncidents: new Set(),
 
     async init() {
+        this.loadViewedState();
         this.initSplash();
         this.initViewToggle();
+        this.initClearViewed();
         Lightbox.init();
         await this.loadIncidents();
         this.render();
         this.openFromHash();
+    },
+
+    loadViewedState() {
+        const stored = localStorage.getItem('viewedIncidents');
+        if (stored) {
+            this.viewedIncidents = new Set(JSON.parse(stored));
+        }
+    },
+
+    saveViewedState() {
+        localStorage.setItem('viewedIncidents', JSON.stringify([...this.viewedIncidents]));
+    },
+
+    getIncidentId(incident) {
+        return incident.filePath.split('/').pop().replace('.md', '');
+    },
+
+    markAsViewed(incident) {
+        const id = this.getIncidentId(incident);
+        if (!this.viewedIncidents.has(id)) {
+            this.viewedIncidents.add(id);
+            this.saveViewedState();
+            this.updateViewedUI(id);
+        }
+    },
+
+    updateViewedUI(id) {
+        const row = document.querySelector(`.incident-row[data-incident-id="${id}"]`);
+        if (row) {
+            row.classList.add('viewed');
+            const icon = row.querySelector('.viewed-icon');
+            if (icon) icon.classList.add('is-viewed');
+        }
+    },
+
+    clearViewed() {
+        this.viewedIncidents.clear();
+        this.saveViewedState();
+        document.querySelectorAll('.incident-row.viewed').forEach(row => {
+            row.classList.remove('viewed');
+        });
+        document.querySelectorAll('.viewed-icon.is-viewed').forEach(icon => {
+            icon.classList.remove('is-viewed');
+        });
+    },
+
+    initClearViewed() {
+        const btn = document.getElementById('clear-viewed-btn');
+        if (btn) {
+            btn.addEventListener('click', () => this.clearViewed());
+        }
     },
 
     initViewToggle() {
@@ -274,6 +328,7 @@ const App = {
 
             table.querySelectorAll('.incident-row').forEach((row, index) => {
                 row.addEventListener('click', () => {
+                    this.markAsViewed(typeIncidents[index]);
                     Lightbox.open(typeIncidents[index]);
                 });
             });
@@ -287,12 +342,14 @@ const App = {
         const monthStr = monthNames[parseInt(month, 10) - 1];
         const dayNum = parseInt(day, 10);
 
-        const isCitizen = incident.victimCitizenship === 'us-citizen';
-        const mediaCount = incident.mediaCount || 0;
         const notableStar = incident.notable ? '<span class="notable-star">★</span>' : '';
+        const incidentId = this.getIncidentId(incident);
+        const isViewed = this.viewedIncidents.has(incidentId);
+        const viewedClass = isViewed ? 'viewed' : '';
+        const viewedIconClass = isViewed ? 'is-viewed' : '';
 
         return `
-            <article class="incident-row" role="button" tabindex="0">
+            <article class="incident-row ${viewedClass}" role="button" tabindex="0" data-incident-id="${incidentId}">
                 <div class="row-date">
                     <span class="row-date-day">${dayNum}</span>
                     ${monthStr}
@@ -302,6 +359,7 @@ const App = {
                     <p class="row-location">${incident.location}, ${incident.city}</p>
                 </div>
                 <div class="row-meta">
+                    <span class="viewed-icon ${viewedIconClass}" title="Viewed">●</span>
                     <span class="trust-badge trust-${incident.trustworthiness}" data-tooltip="${this.getTrustTooltip(incident.trustworthiness)}">${incident.trustworthiness.toUpperCase()}</span>
                     ${notableStar}
                 </div>
