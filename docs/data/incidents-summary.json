@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768501912,
+  "mediaVersion": 1768502680,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-14-circle-pines-restaurant-worker.md",
@@ -989,9 +989,9 @@
       "lastUpdated": "2026-01-14",
       "mediaCount": 1,
       "notable": true,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-06-emmanuel-sackie-brooklyn-park.mp4"
     },
     {
       "filePath": "incidents/2026-01/2026-01-06-bloomington-wilderness-inquiry.md",
@@ -1273,11 +1273,11 @@
       "injuries": "minor",
       "trustworthiness": "high",
       "lastUpdated": "2026-01-13",
-      "mediaCount": 2,
+      "mediaCount": 3,
       "notable": true,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2025-12-10-mubashir-wrongful-detention.mp4"
     },
     {
       "filePath": "incidents/2025-12/2025-12-09-sue-tincher-detained.md",

@@ -123,6 +123,45 @@ def process_incident(file_path, docs_dir, media_dir):
     }
 
 
+def extract_slug_from_filename(filename):
+    """Extract slug from filename, removing date prefix (YYYY-MM-DD-)."""
+    stem = Path(filename).stem
+    # Remove date prefix if present (e.g., 2026-01-11-speedway-st-paul -> speedway-st-paul)
+    if re.match(r'^\d{4}-\d{2}-\d{2}-', stem):
+        return stem[11:]
+    return stem
+
+
+def update_media_order(incidents_with_media, data_dir):
+    """Update media-order.md with any new media items."""
+    order_file = data_dir / 'media-order.md'
+
+    existing_slugs = []
+    header_lines = []
+
+    if order_file.exists():
+        lines = order_file.read_text().strip().split('\n')
+        for line in lines:
+            stripped = line.strip()
+            if stripped.startswith('#') or not stripped:
+                header_lines.append(line)
+            else:
+                existing_slugs.append(stripped)
+
+    media_slugs = set()
+    for incident in incidents_with_media:
+        slug = extract_slug_from_filename(incident['filePath'])
+        media_slugs.add(slug)
+
+    new_slugs = [s for s in media_slugs if s not in existing_slugs]
+    new_slugs.sort()
+
+    if new_slugs:
+        all_slugs = new_slugs + existing_slugs
+        content = '\n'.join(header_lines) + '\n\n' + '\n'.join(all_slugs) + '\n'
+        order_file.write_text(content)
+
+
 def main():
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
@@ -141,7 +180,11 @@ def main():
     incidents.sort(key=lambda x: x['date'], reverse=True)
 
     # Count media for summary
-    media_count = sum(1 for i in incidents if i['hasLocalMedia'])
+    incidents_with_media = [i for i in incidents if i['hasLocalMedia']]
+    media_count = len(incidents_with_media)
+
+    # Update media order file with new items
+    update_media_order(incidents_with_media, docs_dir / 'data')
 
     # Create output with mediaVersion for cache busting
     output_data = {
