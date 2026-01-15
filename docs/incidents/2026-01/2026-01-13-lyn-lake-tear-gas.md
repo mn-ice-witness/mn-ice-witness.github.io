@@ -22,6 +22,7 @@ Federal agents attempted to enter Wrecktangle Pizza at one of Minneapolis' busie
 3. [Federal agents chased off from Minneapolis restaurant helping people impacted by increased ICE presence](https://www.cbsnews.com/minnesota/news/wrecktangle-pizza-stop-ice-south-minneapolis/) - CBS Minnesota
 4. [Minneapolis pizza shop workers, community members chase off ICE agents](https://www.cbsnews.com/minnesota/video/minneapolis-pizza-shop-workers-community-members-chase-off-ice-agents/) - CBS Minnesota (Video)
 5. [Minneapolis businesses, residents resist federal immigration enforcement surge](https://dailyplanetdc.com/2026/01/14/minneapolis-ice-resistance-businesses/) - Daily Planet
+- **Video:** [Wrecktangle Pizza owners interview](https://www.youtube.com/watch?v=Ku0uriNTvTg) - KARE11
 - **Video:** Surveillance footage shows agents exiting SUV and approaching Wrecktangle Pizza - CBS Minnesota
 
 ## Victim(s)
