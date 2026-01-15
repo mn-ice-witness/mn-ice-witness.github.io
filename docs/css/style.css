@@ -93,7 +93,7 @@ body {
     left: -5%;
     transform: rotate(-6deg) scale(0.8);
     animation: splash-in-1 0.6s ease-out forwards;
-    animation-delay: 0.45s;
+    animation-delay: 0.75s;
 }
 
 .splash-2 {
@@ -102,7 +102,7 @@ body {
     right: -5%;
     transform: rotate(4deg) scale(0.8);
     animation: splash-in-2 0.6s ease-out forwards;
-    animation-delay: 0.85s;
+    animation-delay: 1.15s;
 }
 
 .splash-3 {
@@ -111,7 +111,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%) scale(0.8);
     animation: splash-in-4 0.6s ease-out forwards;
-    animation-delay: 1.25s;
+    animation-delay: 1.55s;
     z-index: 15;
 }
 
@@ -121,7 +121,7 @@ body {
     right: -5%;
     transform: rotate(5deg) scale(0.8);
     animation: splash-in-3 0.6s ease-out forwards;
-    animation-delay: 0.65s;
+    animation-delay: 0.95s;
     z-index: 2;
 }
 
@@ -131,7 +131,7 @@ body {
     left: -5%;
     transform: rotate(-4deg) scale(0.8);
     animation: splash-in-5 0.6s ease-out forwards;
-    animation-delay: 1.05s;
+    animation-delay: 1.35s;
     z-index: 3;
 }
 
