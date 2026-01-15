@@ -7,6 +7,7 @@ eliminating the need to fetch individual markdown files on page load.
 
 import json
 import re
+import time
 from pathlib import Path
 
 
@@ -142,7 +143,13 @@ def main():
     # Count media for summary
     media_count = sum(1 for i in incidents if i['hasLocalMedia'])
 
-    output_file.write_text(json.dumps(incidents, indent=2))
+    # Create output with mediaVersion for cache busting
+    output_data = {
+        'mediaVersion': int(time.time()),
+        'incidents': incidents
+    }
+
+    output_file.write_text(json.dumps(output_data, indent=2))
 
     print(f"Generated {output_file} with {len(incidents)} incidents ({media_count} with local media)")
 

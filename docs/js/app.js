@@ -1,5 +1,6 @@
 const App = {
     incidents: [],
+    mediaVersion: '',
     currentView: 'list',
 
     async init() {
@@ -133,11 +134,13 @@ const App = {
             ? incident.title.substring(0, 57) + '...'
             : incident.title;
 
+        const mediaUrl = this.getMediaUrl(incident.localMediaPath);
+
         let mediaElement;
         if (incident.localMediaType === 'video') {
             mediaElement = `
                 <video class="media-card-video" muted loop playsinline preload="metadata">
-                    <source src="${incident.localMediaPath}" type="video/mp4">
+                    <source src="${mediaUrl}" type="video/mp4">
                 </video>
                 <div class="media-card-play-icon">
                     <svg viewBox="0 0 24 24" width="32" height="32" fill="white">
@@ -146,7 +149,7 @@ const App = {
                 </div>
             `;
         } else {
-            mediaElement = `<img class="media-card-image" src="${incident.localMediaPath}" alt="${shortTitle}">`;
+            mediaElement = `<img class="media-card-image" src="${mediaUrl}" alt="${shortTitle}">`;
         }
 
         return `
@@ -242,7 +245,13 @@ const App = {
 
     async loadIncidents() {
         const response = await fetch('data/incidents-summary.json');
-        this.incidents = await response.json();
+        const data = await response.json();
+        this.incidents = data.incidents;
+        this.mediaVersion = data.mediaVersion || '';
+    },
+
+    getMediaUrl(path) {
+        return this.mediaVersion ? `${path}?v=${this.mediaVersion}` : path;
     },
 
     render() {

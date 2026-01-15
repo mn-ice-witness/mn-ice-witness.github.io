@@ -261,11 +261,13 @@ const Lightbox = {
     renderLocalMedia(summaryData) {
         if (!summaryData || !summaryData.hasLocalMedia) return '';
 
+        const mediaUrl = App.getMediaUrl(summaryData.localMediaPath);
+
         if (summaryData.localMediaType === 'video') {
             return `
                 <div class="local-media-container">
                     <video class="local-media-video" autoplay muted playsinline>
-                        <source src="${summaryData.localMediaPath}" type="video/mp4">
+                        <source src="${mediaUrl}" type="video/mp4">
                     </video>
                     <button class="media-overlay-btn" aria-label="Play/Pause">
                         <svg class="media-icon-pause" viewBox="0 0 24 24" width="28" height="28" fill="white">
@@ -281,7 +283,7 @@ const Lightbox = {
         } else if (summaryData.localMediaType === 'image') {
             return `
                 <div class="local-media-container">
-                    <img class="local-media-image" src="${summaryData.localMediaPath}" alt="Incident media">
+                    <img class="local-media-image" src="${mediaUrl}" alt="Incident media">
                 </div>
             `;
         }
