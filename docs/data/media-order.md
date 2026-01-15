@@ -2,11 +2,11 @@
 # List incident slugs in display order (one per line)
 
 
-ryan-ecklund-filming-detained
 speedway-st-paul
 disabled-woman-car-window
 target-richfield-employees
 observer-shoved-into-traffic
+ryan-ecklund-filming-detained
 nimco-omar-citizen-check
 mubashir-wrongful-detention
 emmanuel-sackie-brooklyn-park
