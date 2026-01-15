@@ -210,26 +210,12 @@ const App = {
 
     setupScrollToPlay(gallery) {
         const videos = gallery.querySelectorAll('.media-card-video');
-        const pendingActions = new Map();
 
         const scheduleAction = (video, action) => {
-            const existing = pendingActions.get(video);
-            if (existing) {
-                clearTimeout(existing.timeout);
-            }
-
             if (action === 'play') {
-                const timeout = setTimeout(() => {
-                    video.play().catch(() => {});
-                    pendingActions.delete(video);
-                }, 100);
-                pendingActions.set(video, { timeout });
+                video.play().catch(() => {});
             } else {
-                const timeout = setTimeout(() => {
-                    video.pause();
-                    pendingActions.delete(video);
-                }, 50);
-                pendingActions.set(video, { timeout });
+                video.pause();
             }
         };
 
