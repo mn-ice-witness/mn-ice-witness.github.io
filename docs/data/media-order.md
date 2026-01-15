@@ -2,6 +2,7 @@
 # List incident slugs in display order (one per line)
 # Items not listed will appear after these, in default order
 
+speedway-st-paul
 disabled-woman-car-window
 target-richfield-employees
 observer-shoved-into-traffic
