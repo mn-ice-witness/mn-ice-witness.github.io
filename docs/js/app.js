@@ -21,10 +21,16 @@ const App = {
         const hash = window.location.hash.slice(1);
         if (hash === 'list') {
             this.currentView = 'list';
+        } else if (!hash) {
+            const stored = localStorage.getItem('preferredView');
+            if (stored === 'list') {
+                this.currentView = 'list';
+            }
         }
     },
 
     updateUrlView(view) {
+        localStorage.setItem('preferredView', view);
         if (view === 'list') {
             window.history.replaceState({}, '', '#list');
         } else {
