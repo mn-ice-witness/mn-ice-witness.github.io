@@ -11,7 +11,7 @@ trustworthiness: high
 last_updated: 2026-01-14
 ---
 
-# Federal Agents Deploy Tear Gas at Busy Lyn-Lake Intersection
+# Federal Agents Deploy Tear Gas at Wrecktangle Pizza
 
 ## Summary
 Federal agents attempted to enter Wrecktangle Pizza at one of Minneapolis' busiest commercial intersections. Surveillance video shows agents exiting an unmarked SUV and storming the restaurant's door. Employees and community members chased off the agents, who deployed chemical agents (tear gas) as they retreated. The crowd kicked the gas canister back at the agents.
