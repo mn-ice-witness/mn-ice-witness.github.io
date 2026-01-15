@@ -564,9 +564,9 @@
     "lastUpdated": "2026-01-13",
     "mediaCount": 1,
     "notable": true,
-    "hasLocalMedia": false,
-    "localMediaType": null,
-    "localMediaPath": null
+    "hasLocalMedia": true,
+    "localMediaType": "image",
+    "localMediaPath": "media/2026-01-11-hani-duglof-medical.jpg"
   },
   {
     "filePath": "incidents/2026-01/2026-01-11-rogelio-jimenez-brooklyn-park.md",
