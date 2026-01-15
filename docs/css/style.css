@@ -695,9 +695,9 @@ body {
 /* Meta Column */
 .row-meta {
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 4px;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
 }
 
 /* Notable Star Badge */
@@ -735,7 +735,7 @@ body {
 
 /* Viewed Icon */
 .viewed-icon {
-    color: #c0c0c0;
+    color: #666666;
     flex-shrink: 0;
 }
 
