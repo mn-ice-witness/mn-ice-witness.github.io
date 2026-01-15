@@ -27,6 +27,9 @@ Federal agents descended on Roosevelt High School during dismissal, tackled seve
 - **Video:** [CBS Minnesota coverage](https://www.cbsnews.com/minnesota/news/roosevelt-high-school-federal-clash-mps-cancels-classes/) - Chaotic scenes
 - **Video:** [Daniel's footage](https://www.mprnews.org/story/2026/01/08/after-border-patrol-clash-at-roosevelt-minneapolis-schools-cancel-classes) - Snowball thrown, agent responds with chemical irritant
 - **Video:** [Residents cursing at Border Patrol](https://www.nbcnews.com/news/us-news/minneapolis-schools-cancel-classes-ice-raid-high-school-day-renee-nico-rcna253081) - Local resident footage
+- **Video:** [Roosevelt High School official speaks](https://www.reddit.com/r/altmpls/comments/1q741a1/an_official_from_roosevelt_high_school_in/) - Reddit r/altmpls
+- **Video:** [Roosevelt incident footage](https://www.youtube.com/watch?v=CwhoLYREvYw) - YouTube
+- **Video:** [Roosevelt incident footage](https://www.youtube.com/shorts/v17loDNkAnQ) - KARE11
 
 ## Victim(s)
 - **Name:** Not publicly disclosed

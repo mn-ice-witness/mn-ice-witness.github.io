@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768509371,
+  "mediaVersion": 1768509845,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-14-circle-pines-restaurant-worker.md",
@@ -220,9 +220,9 @@
       "lastUpdated": "2026-01-13",
       "mediaCount": 1,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-13-elliott-payne-pushed.mp4"
     },
     {
       "filePath": "incidents/2026-01/2026-01-13-dhs-response-detainer-demands.md",
@@ -806,9 +806,9 @@
       "lastUpdated": "2026-01-14",
       "mediaCount": 1,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-08-jesse-ventura-roosevelt.mp4"
     },
     {
       "filePath": "incidents/2026-01/2026-01-08-wes-prince-detained.md",
@@ -987,11 +987,11 @@
       "injuries": "minor",
       "trustworthiness": "high",
       "lastUpdated": "2026-01-13",
-      "mediaCount": 5,
+      "mediaCount": 8,
       "notable": true,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-07-roosevelt-high-school.mp4"
     },
     {
       "filePath": "incidents/2026-01/2026-01-06-emmanuel-sackie-brooklyn-park.md",
