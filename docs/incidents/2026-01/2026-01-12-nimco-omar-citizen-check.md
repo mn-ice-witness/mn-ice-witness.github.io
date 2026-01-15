@@ -24,6 +24,7 @@ Nimco Omar, a U.S. citizen and Somali American, was surrounded by four masked fe
 - **Video:** [Original Instagram video posted by Nimco Omar](https://www.instagram.com/reel/DTb0H8iAQTe/) - Instagram
 - **Video:** [FOX 9 coverage on X](https://x.com/FOX9/status/2010898391388000482) - FOX 9 / X
 - **Video:** [Facebook reel of encounter](https://www.facebook.com/reel/853406107488988) - Facebook
+- **Video:** [NBC News coverage](https://www.youtube.com/watch?v=Rsy6FDbOa3U&t=92) - NBC News / YouTube
 
 ## Victim(s)
 - **Name:** Nimco Omar
