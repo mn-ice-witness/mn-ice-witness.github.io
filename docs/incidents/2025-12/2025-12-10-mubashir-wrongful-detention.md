@@ -31,7 +31,7 @@ Mubashir, a 20-year-old U.S. citizen and Somali American, was tackled, placed in
 11. [City of Minneapolis shares video of ICE arresting US citizen in Cedar-Riverside](https://bringmethenews.com/minnesota-news/city-of-minneapolis-shares-video-of-ice-arresting-us-citizen-in-cedar-riverside) - Bring Me The News
 - **Video:** City of Minneapolis released video of arrest showing ICE agents forcefully detaining Mubashir in Cedar-Riverside
 - **Video:** Press conference with Mubashir, Mayor Frey, and Chief O'Hara on December 11, 2025
-- **Video:** [Mubashir interview](https://www.instagram.com/reels/DThKBtWjiiK/) - Instagram
+- **Video:** [Mubashir press conference](https://www.youtube.com/watch?v=ceMKgxnhmHA) - YouTube
 
 ## Victim(s)
 - **Name:** Mubashir (requested first name only)
