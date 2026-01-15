@@ -11,7 +11,7 @@ trustworthiness: high
 last_updated: 2026-01-14
 ---
 
-# U.S. Citizen Surrounded by ICE Agents at West St. Paul Restaurant
+# Citizen Check: U.S. Citizen Surrounded by ICE Agents at West St. Paul Restaurant
 
 ## Summary
 Irma Escoto, a U.S. citizen born in New Mexico, was surrounded by ICE agents while sitting in her car outside El Taquito Taco Shop in West St. Paul. Her husband Luis Escoto, a naturalized citizen since 1992, rushed outside with her passport card to prove her citizenship. The couple co-owns the restaurant and believes she was targeted based on her appearance.

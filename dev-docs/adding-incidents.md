@@ -18,6 +18,11 @@ Before adding, ensure:
 
 Well-sourced stories from major news outlets documenting U.S. citizens being stopped and subjected to citizenship checks are valid incidents, even if the citizen was not ultimately detained. These incidents demonstrate the pattern of racial profiling affecting American citizens. If a citizen was surrounded, stopped, questioned, or had to prove their citizenship, that qualifies as an incident.
 
+**Title format:** Prefix the title with "Citizen Check:" for these incidents. Example:
+```
+# Citizen Check: U.S. Citizen Surrounded by ICE Agents at West St. Paul Restaurant
+```
+
 ## Trustworthiness Rating Criteria
 
 ### HIGH - Strong Evidence
