@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css?v=1768491212">
+    <link rel="stylesheet" href="css/style.css?v=1768492893">
     <script>
         (function() {
             var last = localStorage.getItem('splashLastShown');
@@ -54,7 +54,7 @@
             <div class="masthead">
                 <span class="dateline">Minneapolis-St. Paul-Greater MN</span>
                 <h1 class="site-title"><a href="#" id="title-link" class="title-link">MN ICE Witness</a> <a href="#about" class="about-link" id="about-link">About</a></h1>
-                <p class="site-tagline">A Sourced Listing of Operation Metro Surge Incidents</p>
+                <p class="site-tagline">A Sourced Listing of ICE Abuse Incidents in MN</p>
             </div>
         </div>
     </header>
@@ -70,6 +70,17 @@
     </nav>
 
     <main class="main-content">
+        <!-- View Toggle -->
+        <div class="view-toggle" id="view-toggle">
+            <button class="view-btn active" data-view="list">List</button>
+            <button class="view-btn" data-view="media">Media</button>
+        </div>
+
+        <!-- Media Gallery View (hidden by default) -->
+        <div class="media-gallery" id="media-gallery" style="display: none;"></div>
+
+        <!-- List View (default) -->
+        <div class="list-view" id="list-view">
         <section class="incident-section" id="citizens">
             <div class="section-header">
                 <div class="section-marker marker-citizens"></div>
@@ -134,6 +145,7 @@
                 <div class="table-loading">Loading...</div>
             </div>
         </section>
+        </div><!-- end list-view -->
     </main>
 
     <div class="lightbox" id="lightbox" aria-hidden="true">
@@ -155,8 +167,8 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="js/parser.js?v=1768491212"></script>
-    <script src="js/lightbox.js?v=1768491212"></script>
-    <script src="js/app.js?v=1768491212"></script>
+    <script src="js/parser.js?v=1768492893"></script>
+    <script src="js/lightbox.js?v=1768492893"></script>
+    <script src="js/app.js?v=1768492893"></script>
 </body>
 </html>

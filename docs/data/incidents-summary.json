@@ -14,7 +14,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-15",
     "mediaCount": 1,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-14-oglala-sioux-still-detained.md",
@@ -31,7 +34,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": true
+    "notable": true,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-14-crystal-bus-stop-parent.md",
@@ -48,7 +54,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-15",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-13-mankato-women-sprayed.md",
@@ -65,7 +74,10 @@
     "trustworthiness": "medium-high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-13-la-mexicana-st-peter.md",
@@ -82,7 +94,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-13-ryan-ecklund-filming-detained.md",
@@ -99,7 +114,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": true
+    "notable": true,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-13-dhs-response-native-americans.md",
@@ -116,7 +134,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-13-disabled-woman-car-window.md",
@@ -133,7 +154,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
     "mediaCount": 5,
-    "notable": true
+    "notable": true,
+    "hasLocalMedia": true,
+    "localMediaType": "video",
+    "localMediaPath": "media/2026-01-13-disabled-woman-car-window.mp4"
   },
   {
     "filePath": "incidents/2026-01/2026-01-13-willmar-student-arrested.md",
@@ -153,7 +177,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-13-elliott-payne-pushed.md",
@@ -170,7 +197,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
     "mediaCount": 1,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-13-dhs-response-detainer-demands.md",
@@ -187,7 +217,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-13-shearers-foods-perham.md",
@@ -204,7 +237,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-13-doj-response-renee-good.md",
@@ -221,7 +257,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-13-carondelet-school-lockdown.md",
@@ -238,7 +277,10 @@
     "trustworthiness": "medium",
     "lastUpdated": "2026-01-15",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-13-lyn-lake-tear-gas.md",
@@ -255,7 +297,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 2,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-12-siguenza-okeefe-detained.md",
@@ -272,7 +317,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
     "mediaCount": 2,
-    "notable": true
+    "notable": true,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-12-irma-escoto-citizen-check.md",
@@ -289,7 +337,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 2,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-12-st-cloud-star-city-mall.md",
@@ -309,7 +360,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 1,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-12-detroit-lakes-china-buffet.md",
@@ -326,7 +380,10 @@
     "trustworthiness": "medium-high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-12-christina-rank-teacher.md",
@@ -346,7 +403,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-12-christian-molina-car-rammed.md",
@@ -363,7 +423,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
     "mediaCount": 0,
-    "notable": true
+    "notable": true,
+    "hasLocalMedia": true,
+    "localMediaType": "image",
+    "localMediaPath": "media/2026-01-12-christian-molina-car-rammed.jpg"
   },
   {
     "filePath": "incidents/2026-01/2026-01-12-nimco-omar-citizen-check.md",
@@ -380,7 +443,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 4,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": true,
+    "localMediaType": "video",
+    "localMediaPath": "media/2026-01-12-nimco-omar-citizen-check.mp4"
   },
   {
     "filePath": "incidents/2026-01/2026-01-12-pilllar-forum-musicians.md",
@@ -397,7 +463,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-12-garrison-gibson-battering-ram.md",
@@ -414,7 +483,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-15",
     "mediaCount": 1,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-11-dhs-response-speedway-bystander.md",
@@ -431,7 +503,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-11-observer-shoved-into-traffic.md",
@@ -448,7 +523,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 2,
-    "notable": true
+    "notable": true,
+    "hasLocalMedia": true,
+    "localMediaType": "video",
+    "localMediaPath": "media/2026-01-11-observer-shoved-into-traffic.mp4"
   },
   {
     "filePath": "incidents/2026-01/2026-01-11-speedway-st-paul.md",
@@ -465,7 +543,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
     "mediaCount": 7,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-11-hani-duglof-medical.md",
@@ -482,7 +563,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
     "mediaCount": 1,
-    "notable": true
+    "notable": true,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-11-rogelio-jimenez-brooklyn-park.md",
@@ -499,7 +583,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 3,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-10-maple-grove-walmart.md",
@@ -516,7 +603,10 @@
     "trustworthiness": "medium",
     "lastUpdated": "2026-01-13",
     "mediaCount": 1,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-second-week-general-mills-chanhassen.md",
@@ -533,7 +623,10 @@
     "trustworthiness": "medium-high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-10-msp-airport-employees.md",
@@ -550,7 +643,10 @@
     "trustworthiness": "medium",
     "lastUpdated": "2026-01-13",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-09-valleyview-elementary-absences.md",
@@ -567,7 +663,10 @@
     "trustworthiness": "medium",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-09-hopkins-bryam-escobar.md",
@@ -584,7 +683,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-09-juan-carlos-brutality.md",
@@ -601,7 +703,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
     "mediaCount": 2,
-    "notable": true
+    "notable": true,
+    "hasLocalMedia": true,
+    "localMediaType": "image",
+    "localMediaPath": "media/2026-01-09-juan-carlos-brutality.jpg"
   },
   {
     "filePath": "incidents/2026-01/2026-01-08-ahmed-hassan-uber-driver.md",
@@ -618,7 +723,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-08-rochester-gates-complex.md",
@@ -635,7 +743,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-08-little-earth-native-americans.md",
@@ -652,7 +763,10 @@
     "trustworthiness": "medium",
     "lastUpdated": "2026-01-13",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-08-jesse-ventura-roosevelt.md",
@@ -669,7 +783,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 1,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-08-wes-prince-detained.md",
@@ -686,7 +803,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-08-dhs-response-jan8-arrests.md",
@@ -703,7 +823,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-08-target-richfield-employees.md",
@@ -720,7 +843,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
     "mediaCount": 3,
-    "notable": true
+    "notable": true,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-08-jose-ramirez-native-american.md",
@@ -737,7 +863,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
     "mediaCount": 0,
-    "notable": true
+    "notable": true,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-07-pastor-callaghan-detained.md",
@@ -757,7 +886,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-07-renee-good-shooting.md",
@@ -774,7 +906,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
     "mediaCount": 6,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-07-clergy-pepper-sprayed.md",
@@ -791,7 +926,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 1,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-07-dhs-response-renee-good.md",
@@ -808,7 +946,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-07-roosevelt-high-school.md",
@@ -825,7 +966,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
     "mediaCount": 5,
-    "notable": true
+    "notable": true,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-06-emmanuel-sackie-brooklyn-park.md",
@@ -842,7 +986,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 1,
-    "notable": true
+    "notable": true,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-06-bloomington-wilderness-inquiry.md",
@@ -859,7 +1006,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 1,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-06-el-fresco-restaurant-owner.md",
@@ -876,7 +1026,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-02-trunorth-solar-arden-hills.md",
@@ -893,7 +1046,10 @@
     "trustworthiness": "medium",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2026-01/2026-01-unknown-rosemount-gun-threat.md",
@@ -910,7 +1066,10 @@
     "trustworthiness": "low",
     "lastUpdated": "2026-01-13",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2025-12/2025-12-31-hcmc-patient-shackled.md",
@@ -927,7 +1086,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-15",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2025-12/2025-12-26-joseph-boman-observer.md",
@@ -944,7 +1106,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2025-12/2025-12-21-st-paul-westminster-shooting.md",
@@ -961,7 +1126,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2025-12/2025-12-16-abdikadir-noor-karmel-mall.md",
@@ -981,7 +1149,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2025-12/2025-12-15-karmel-mall-pregnant-woman.md",
@@ -998,7 +1169,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2025-12/2025-12-14-adnan-hisri-omars-son.md",
@@ -1015,7 +1189,10 @@
     "trustworthiness": "medium-high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2025-12/2025-12-13-chanhassen-rooftop-standoff.md",
@@ -1032,7 +1209,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2025-12/2025-12-12-brooklyn-park-cook.md",
@@ -1049,7 +1229,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2025-12/2025-12-11-eden-prairie-13-year-old.md",
@@ -1069,7 +1252,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": true
+    "notable": true,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2025-12/2025-12-10-mubashir-wrongful-detention.md",
@@ -1086,7 +1272,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
     "mediaCount": 2,
-    "notable": true
+    "notable": true,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2025-12/2025-12-09-sue-tincher-detained.md",
@@ -1103,7 +1292,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2025-12/2025-12-07-biestman-lee-guns-pointed.md",
@@ -1120,7 +1312,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-13",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2025-12/2025-12-06-burnsville-family-separated.md",
@@ -1140,7 +1335,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": true
+    "notable": true,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2025-12/2025-12-04-francisco-paredes-church.md",
@@ -1160,7 +1358,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2025-12/2025-12-04-dhs-response-abdulkadir-abdi.md",
@@ -1177,7 +1378,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2025-12/2025-12-04-abdulkadir-abdi-detained.md",
@@ -1194,7 +1398,10 @@
     "trustworthiness": "medium",
     "lastUpdated": "2026-01-13",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2025-12/2025-12-early-lomabonita-jose.md",
@@ -1211,7 +1418,10 @@
     "trustworthiness": "medium-high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2025-11/2025-11-25-jeffrey-suazo-st-paul.md",
@@ -1228,7 +1438,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 1,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2025-11/2025-11-18-brotex-st-paul-raid.md",
@@ -1245,7 +1458,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2025-10/2025-10-30-noem-no-citizens-arrested-claim.md",
@@ -1262,7 +1478,10 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 2,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   },
   {
     "filePath": "incidents/2025-02/2025-02-12-nupa-rochester-workers.md",
@@ -1279,6 +1498,9 @@
     "trustworthiness": "high",
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
-    "notable": false
+    "notable": false,
+    "hasLocalMedia": false,
+    "localMediaType": null,
+    "localMediaPath": null
   }
 ]
