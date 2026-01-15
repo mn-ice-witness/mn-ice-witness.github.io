@@ -26,6 +26,7 @@ A woman claiming to be disabled was pulled out of her car by eight ICE agents af
 - **Video:** [Sahan Journal footage](https://sahanjournal.com/public-safety/minneapolis-ice-confront-observers-door-knocking-powderhorn/) - Shows full arrest sequence
 - **Video:** [Raw Story coverage with video](https://www.rawstory.com/ice-disabled-woman/) - Multiple angles
 - **Video:** [The Mirror coverage](https://www.themirror.com/news/us-news/shocking-moment-8-ice-agents-1616280) - Detailed breakdown
+- **Video:** [NBC News](https://www.youtube.com/watch?v=Rsy6FDbOa3U&t=7s) - Starts at key moment
 - **Social:** [Reuters Facebook post](https://archive.ph/helw8) - 6.6K reactions, 3K comments (archived)
 
 ## Victim(s)
