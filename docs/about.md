@@ -30,6 +30,8 @@ This site compiles sourced, verified incidents from Minnesota during Operation M
 
 **<span style="color: #4a90d9;">★</span> Notable** — Incidents that exemplify patterns in enforcement operations: wrongful detention of citizens, excessive force, or civil rights concerns.
 
+**<svg viewBox="0 0 24 24" width="14" height="14" style="vertical-align: middle; color: #c0c0c0;"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" fill="currentColor"/></svg> Viewed** — Incidents you've clicked on are greyed out and show an eye icon to help you keep track of which stories you've already read. Use the "Clear Viewed" button to reset.
+
 **Trustworthiness Ratings:**
 - <span style="background: #1a7f37; color: white; padding: 2px 6px; border-radius: 2px; font-size: 0.75em; font-weight: 700;">HIGH</span> — Strong evidence: 3+ sources, video/photo evidence, or detailed investigative reporting from major outlets with named sources
 - <span style="background: #bf8700; color: white; padding: 2px 6px; border-radius: 2px; font-size: 0.75em; font-weight: 700;">MEDIUM</span> — Moderate evidence: 2 sources, official statements, or single established source

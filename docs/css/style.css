@@ -407,7 +407,7 @@ body {
 .view-toggle {
     display: flex;
     justify-content: center;
-    gap: 4px;
+    gap: 0;
     padding: 12px 0;
     border-bottom: 1px solid var(--color-border);
     margin-bottom: 8px;
@@ -419,8 +419,8 @@ body {
     font-size: 0.75rem;
     font-weight: 600;
     color: var(--color-text-secondary);
-    background: transparent;
-    border: 1px solid var(--color-border);
+    background: #dae1e8;
+    border: 1px solid #c5cdd6;
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.15s;
@@ -428,11 +428,11 @@ body {
 
 .view-btn:first-child {
     border-radius: 4px 0 0 4px;
+    border-right: none;
 }
 
-.view-btn:last-child {
+.view-btn:nth-child(2) {
     border-radius: 0 4px 4px 0;
-    margin-left: -1px;
 }
 
 .view-btn:hover {
@@ -440,9 +440,9 @@ body {
 }
 
 .view-btn.active {
-    background: #6b7c93;
+    background: #5a7a9e;
     color: white;
-    border-color: #6b7c93;
+    border-color: #5a7a9e;
 }
 
 .view-toggle-sep {
@@ -451,18 +451,20 @@ body {
 }
 
 .clear-viewed-btn {
+    padding: 6px 16px;
     font-size: 0.75rem;
     font-weight: 600;
     color: var(--color-text-secondary);
-    background: transparent;
-    border: none;
+    background: #dae1e8;
+    border: 1px solid #c5cdd6;
+    border-radius: 4px;
     cursor: pointer;
-    padding: 6px 0;
-    transition: color 0.15s;
+    transition: all 0.15s;
+    margin-left: 12px;
 }
 
 .clear-viewed-btn:hover {
-    color: var(--color-text);
+    background: var(--color-bg);
 }
 
 /* ==================== MEDIA GALLERY ==================== */
@@ -733,22 +735,17 @@ body {
 
 /* Viewed Icon */
 .viewed-icon {
-    font-size: 0.5rem;
-    color: transparent;
-    transition: color 0.15s;
-}
-
-.viewed-icon.is-viewed {
-    color: #6b7c93;
+    color: #c0c0c0;
+    flex-shrink: 0;
 }
 
 /* Viewed Row State */
 .incident-row.viewed {
-    opacity: 0.55;
+    opacity: 0.6;
 }
 
 .incident-row.viewed:hover {
-    opacity: 0.75;
+    opacity: 0.8;
 }
 
 .trust-badge {

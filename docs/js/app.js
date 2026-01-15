@@ -43,8 +43,16 @@ const App = {
         const row = document.querySelector(`.incident-row[data-incident-id="${id}"]`);
         if (row) {
             row.classList.add('viewed');
-            const icon = row.querySelector('.viewed-icon');
-            if (icon) icon.classList.add('is-viewed');
+            const meta = row.querySelector('.row-meta');
+            if (meta && !meta.querySelector('.viewed-icon')) {
+                const eyeIcon = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+                eyeIcon.setAttribute('class', 'viewed-icon');
+                eyeIcon.setAttribute('viewBox', '0 0 24 24');
+                eyeIcon.setAttribute('width', '14');
+                eyeIcon.setAttribute('height', '14');
+                eyeIcon.innerHTML = '<path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" fill="currentColor"/>';
+                meta.appendChild(eyeIcon);
+            }
         }
     },
 
@@ -54,8 +62,8 @@ const App = {
         document.querySelectorAll('.incident-row.viewed').forEach(row => {
             row.classList.remove('viewed');
         });
-        document.querySelectorAll('.viewed-icon.is-viewed').forEach(icon => {
-            icon.classList.remove('is-viewed');
+        document.querySelectorAll('.viewed-icon').forEach(icon => {
+            icon.remove();
         });
     },
 
@@ -359,9 +367,9 @@ const App = {
                     <p class="row-location">${incident.location}, ${incident.city}</p>
                 </div>
                 <div class="row-meta">
-                    <span class="viewed-icon ${viewedIconClass}" title="Viewed">●</span>
                     <span class="trust-badge trust-${incident.trustworthiness}" data-tooltip="${this.getTrustTooltip(incident.trustworthiness)}">${incident.trustworthiness.toUpperCase()}</span>
                     ${notableStar}
+                    ${isViewed ? '<svg class="viewed-icon" viewBox="0 0 24 24" width="14" height="14"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" fill="currentColor"/></svg>' : ''}
                 </div>
             </article>
         `;
