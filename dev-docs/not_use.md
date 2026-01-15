@@ -49,6 +49,20 @@ Stories are excluded when they don't meet the project's core focus:
 - Reason: Could not find corroborating news sources - may be worth revisiting if more coverage emerges
 - Date evaluated: 2026-01-14
 
+**ICE Agent Slipping on Ice Video (Jan 9)**
+- Source: TikTok (@jensosweet), Snopes investigation
+- Date: Posted January 9, 2026 (recording date unknown)
+- Details: 9-second video shows two agents slipping on icy sidewalk, one falls and a flash appears. Debate over whether rifle discharged or flashlight activated.
+- Reason: Snopes could not geolocate or verify location. Not a civil rights incident - no victim, no detention. Viral moment only.
+- Date evaluated: 2026-01-14
+
+**Aquila Elementary St. Louis Park ICE Presence (Jan 14)**
+- Source: Bring Me The News mention
+- Date: January 14, 2026
+- Details: Footage shared showing ICE conducting operation at apartment building across from Aquila Elementary School around dismissal time.
+- Reason: No victim identified, no detention documented at school. ICE near school but no direct incident with students or families. May revisit if more details emerge.
+- Date evaluated: 2026-01-14
+
 ### October 2025
 
 **ICE Raids Two Hibbing Mexican Restaurants (El Charro, La Tequila Taco Shop)**

@@ -14,6 +14,10 @@ Before adding, ensure:
 2. **Assign trustworthiness based on criteria below**
 3. **Avoid**: Single social media posts without corroboration
 
+### Citizen Checks Are Valid Incidents
+
+Well-sourced stories from major news outlets documenting U.S. citizens being stopped and subjected to citizenship checks are valid incidents, even if the citizen was not ultimately detained. These incidents demonstrate the pattern of racial profiling affecting American citizens. If a citizen was surrounded, stopped, questioned, or had to prove their citizenship, that qualifies as an incident.
+
 ## Trustworthiness Rating Criteria
 
 ### HIGH - Strong Evidence

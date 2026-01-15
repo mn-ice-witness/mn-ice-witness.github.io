@@ -224,6 +224,23 @@
     "notable": true
   },
   {
+    "filePath": "incidents/2026-01/2026-01-12-irma-escoto-citizen-check.md",
+    "title": "U.S. Citizen Surrounded by ICE Agents at West St. Paul Restaurant",
+    "summary": "Irma Escoto, a U.S. citizen born in New Mexico, was surrounded by ICE agents while sitting in her car outside El Taquito Taco Shop in West St. Paul. Her husband Luis Escoto, a naturalized citizen since 1992, rushed outside with her passport card to prove her citizenship. The couple co-owns the restaurant and believes she was targeted based on her appearance.",
+    "date": "2026-01-12",
+    "time": "afternoon",
+    "location": "El Taquito Taco Shop, West St. Paul",
+    "city": "West St. Paul",
+    "type": "citizen-legal-detained-beaten",
+    "status": "resolved",
+    "victimCitizenship": "us-citizen",
+    "injuries": "none",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 2,
+    "notable": false
+  },
+  {
     "filePath": "incidents/2026-01/2026-01-12-st-cloud-star-city-mall.md",
     "title": "50+ ICE Agents Swarm Somali Mall in St. Cloud; Chemical Irritants Used on Protesters",
     "summary": "More than 50 ICE agents descended on Star City Mall, a strip mall with numerous Somali-owned businesses, to arrest one man leaving a deli. Hundreds of protesters gathered and blocked ICE vehicles, leading to a tense standoff. Agents deployed chemical irritants on the crowd. Three total arrests: one ICE target, two protesters. The incident came two days after Somali business owners at the same location successfully shouted ICE agents into leaving.",
@@ -415,6 +432,23 @@
     "lastUpdated": "2026-01-13",
     "mediaCount": 1,
     "notable": true
+  },
+  {
+    "filePath": "incidents/2026-01/2026-01-11-rogelio-jimenez-brooklyn-park.md",
+    "title": "U.S. Citizen Detained by ICE in Brooklyn Park, Told to \"Prove\" Citizenship",
+    "summary": "Rogelio Jimenez, a U.S. citizen, was forcibly removed from his car by masked ICE agents on Brooklyn Boulevard in Brooklyn Park. Despite repeatedly screaming that he was a citizen, an agent demanded he \"prove it.\" He was handcuffed, placed in a federal vehicle, and driven around for approximately 20 minutes before being released. Agents claimed they were looking for someone with the same name.",
+    "date": "2026-01-11",
+    "time": "unknown",
+    "location": "Brooklyn Boulevard",
+    "city": "Brooklyn Park",
+    "type": "citizen-legal-detained-beaten",
+    "status": "resolved",
+    "victimCitizenship": "us-citizen",
+    "injuries": "minor",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 3,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-10-maple-grove-walmart.md",

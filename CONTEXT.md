@@ -28,9 +28,12 @@ These docs are the source of truth for how this project works.
 
 **Purpose:** To provide factual, well-sourced documentation of incidents where:
 1. U.S. citizens are detained, arrested, or harmed by federal immigration agents
-2. Bystanders or observers are arrested for exercising First Amendment rights
-3. Non-criminal immigrants who are positive community members are detained
-4. Other egregious civil rights violations occur
+2. U.S. citizens are subjected to citizenship checks (stopped, surrounded, questioned) even if not detained
+3. Bystanders or observers are arrested for exercising First Amendment rights
+4. Non-criminal immigrants who are positive community members are detained
+5. Other egregious civil rights violations occur
+
+**Note on Citizen Checks:** Well-sourced stories from major news outlets documenting U.S. citizens being stopped and subjected to citizenship checks are valid incidents, even if the citizen was not ultimately detained. These incidents demonstrate the pattern of racial profiling affecting American citizens.
 
 **Design Philosophy:**
 - Fact-based and credible presentation
