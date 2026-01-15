@@ -212,11 +212,6 @@ const App = {
         const videos = gallery.querySelectorAll('.media-card-video');
         const pendingActions = new Map();
 
-        videos.forEach(video => {
-            video.addEventListener('play', () => video.closest('.media-card').classList.add('playing'));
-            video.addEventListener('pause', () => video.closest('.media-card').classList.remove('playing'));
-        });
-
         const scheduleAction = (video, action) => {
             const existing = pendingActions.get(video);
             if (existing) {
@@ -290,14 +285,7 @@ const App = {
         let mediaElement;
         if (incident.localMediaType === 'video') {
             const videoSrc = mediaUrl + '#t=0.001';
-            mediaElement = `
-                <video class="media-card-video" src="${videoSrc}" muted loop playsinline preload="auto"></video>
-                <div class="media-card-play-icon">
-                    <svg viewBox="0 0 24 24" width="32" height="32" fill="white">
-                        <polygon points="5,3 19,12 5,21"/>
-                    </svg>
-                </div>
-            `;
+            mediaElement = `<video class="media-card-video" src="${videoSrc}" muted loop playsinline preload="auto"></video>`;
         } else {
             mediaElement = `<img class="media-card-image" src="${mediaUrl}" alt="${shortTitle}">`;
         }

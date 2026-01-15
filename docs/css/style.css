@@ -511,29 +511,6 @@ body {
     background: #1a1a1a;
 }
 
-.media-card-play-icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) translateZ(0);
-    -webkit-transform: translate(-50%, -50%) translateZ(0);
-    width: 56px;
-    height: 56px;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    pointer-events: none;
-    transition: opacity 0.15s ease-out;
-    will-change: opacity;
-}
-
-.media-card:hover .media-card-play-icon,
-.media-card.playing .media-card-play-icon {
-    opacity: 0;
-}
-
 .media-card-info {
     padding: 12px;
 }
