@@ -22,6 +22,7 @@ Ryan Ecklund, a U.S. citizen and real estate agent, was detained by ICE for over
 2. [Woodbury man says ICE detained him after he followed and recorded](https://www.twincities.com/2026/01/14/woodbury-resident-detained-recording-ice/) - Pioneer Press
 3. [Twin Cities realtor, a US citizen, held by ICE for almost 10 hours](https://bringmethenews.com/minnesota-news/twin-cities-realtor-a-us-citizen-held-by-ice-for-almost-10-hours) - Bring Me The News
 4. [ICE says it's illegal to record agents, but is DHS policy actually unlawful?](https://www.ktvu.com/news/ice-says-recording-agents-illegal-federal-judge-says-dhs-policy-unlawful-jan-2026) - FOX National (syndicated)
+- **Video:** [Tamara Ecklund Instagram reel](https://www.instagram.com/reels/DTduvCcgWGa/) - Instagram
 
 ## Victim(s)
 - **Name:** Ryan Ecklund

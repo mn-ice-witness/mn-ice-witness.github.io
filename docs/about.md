@@ -8,6 +8,12 @@ The Trump administration contends that Operation Metro Surge and its broader imm
 
 DHS Secretary Kristi Noem [directed ICE](https://www.dhs.gov/news/2025/12/19/under-president-trump-and-secretary-noem-department-homeland-security-has-historic) "to target the worst of the worst—including gang members, murderers, and rapists." DHS press releases highlight arrests of individuals with criminal records. ICE's main [recruitment page](https://www.ice.gov/join) states: "America has been invaded by criminals and predators. We need YOU to get them out."
 
+### Sanctuary City Justification
+
+The administration has repeatedly cited sanctuary city policies in Minneapolis and St. Paul as justification for the scale and tactics of its enforcement operations in Minnesota. In a January 14, 2026 statement, DHS claimed that Mayor Frey's policies have resulted in the release of ["nearly 470 criminal illegal aliens"](https://www.dhs.gov/news/2026/01/14/mayor-freys-sanctuary-policies-release-criminal-illegal-aliens-jails-back) onto Minnesota streets, characterizing sanctuary policies as "dangerous."
+
+This messaging pattern — highlighting individual criminal cases to justify broader operations — appears consistently in DHS responses to criticism of enforcement tactics. When incidents documented on this site have drawn public scrutiny, DHS has responded by pointing to sanctuary policies and criminal cases rather than addressing the specific circumstances of those incidents.
+
 ## The Data
 
 Independent analyses present different figures.
