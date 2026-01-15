@@ -621,6 +621,23 @@
     "notable": false
   },
   {
+    "filePath": "incidents/2026-01/2026-01-08-wes-prince-detained.md",
+    "title": "Protester Wes Prince Detained 9 Hours at Whipple Building",
+    "summary": "Wes Prince, a U.S. citizen protesting at the Whipple Building, was detained approximately 9 hours without charges. He documented serious security and procedural failures including agents sharing badges, using personal cell phones for mugshots, and losing track of detainees.",
+    "date": "2026-01-08",
+    "time": "08:00",
+    "location": "Bishop Henry Whipple Federal Building",
+    "city": "Fort Snelling",
+    "type": "bystander-arrested",
+    "status": "resolved",
+    "victimCitizenship": "us-citizen",
+    "injuries": "none",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 0,
+    "notable": true
+  },
+  {
     "filePath": "incidents/2026-01/2026-01-08-dhs-response-jan8-arrests.md",
     "title": "DHS Statement: \"Worst of the Worst\" Arrests Jan 8",
     "summary": "DHS issued a press release highlighting 13 individuals arrested in Minneapolis, claiming all had serious criminal histories including sexual assault, drug trafficking, and violent crimes. This was part of their daily \"worst of the worst\" communications strategy.",
