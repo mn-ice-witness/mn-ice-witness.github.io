@@ -1,7 +1,11 @@
-.DS_Store
+.
+S_Store
 *.swp
 *.swo
 *~
 .idea/
 .vscode/
 node_modules/
+raw_media/
+raw_media
+raw_media/*
