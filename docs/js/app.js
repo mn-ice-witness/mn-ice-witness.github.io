@@ -160,23 +160,8 @@ const App = {
             });
         });
 
-        // Set up video behavior
-        const isMobile = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
-
-        if (isMobile) {
-            // Mobile: play on scroll into view
-            this.setupScrollToPlay(gallery);
-        } else {
-            // Desktop: play on hover
-            gallery.querySelectorAll('.media-card-video').forEach(video => {
-                const card = video.closest('.media-card');
-                card.addEventListener('mouseenter', () => video.play());
-                card.addEventListener('mouseleave', () => {
-                    video.pause();
-                    video.currentTime = 0;
-                });
-            });
-        }
+        // Set up video behavior - autoplay on scroll for both mobile and desktop
+        this.setupScrollToPlay(gallery);
     },
 
     setupScrollToPlay(gallery) {

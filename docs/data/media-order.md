@@ -2,7 +2,6 @@
 # List incident slugs in display order (one per line)
 
 
-
 speedway-st-paul
 disabled-woman-car-window
 target-richfield-employees

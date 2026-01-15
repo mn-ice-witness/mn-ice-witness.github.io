@@ -453,11 +453,11 @@ body {
 /* ==================== MEDIA GALLERY ==================== */
 
 .media-gallery {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 16px;
-    padding: 16px 0;
-    max-width: 300px;
+    padding: 16px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
@@ -535,6 +535,7 @@ body {
 
 @media (max-width: 600px) {
     .media-gallery {
+        grid-template-columns: 1fr;
         max-width: 80%;
     }
 }
