@@ -291,9 +291,7 @@ const App = {
         if (incident.localMediaType === 'video') {
             const videoSrc = mediaUrl + '#t=0.001';
             mediaElement = `
-                <video class="media-card-video" muted loop playsinline preload="metadata">
-                    <source src="${videoSrc}" type="video/mp4">
-                </video>
+                <video class="media-card-video" src="${videoSrc}" muted loop playsinline preload="auto"></video>
                 <div class="media-card-play-icon">
                     <svg viewBox="0 0 24 24" width="32" height="32" fill="white">
                         <polygon points="5,3 19,12 5,21"/>
