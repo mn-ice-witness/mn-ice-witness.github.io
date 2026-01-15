@@ -193,13 +193,15 @@ const App = {
         // Set up video behavior - autoplay on scroll for both mobile and desktop
         this.setupScrollToPlay(gallery);
 
-        // Handle resize to re-render with correct order
+        // Handle resize - only re-render if column count changes
+        this.lastColumnCount = columnCount;
         if (!this.resizeHandler) {
             let resizeTimeout;
             this.resizeHandler = () => {
                 clearTimeout(resizeTimeout);
                 resizeTimeout = setTimeout(() => {
-                    if (this.currentView === 'media') {
+                    const newColumnCount = this.getColumnCount();
+                    if (this.currentView === 'media' && newColumnCount !== this.lastColumnCount) {
                         this.renderMediaGallery();
                     }
                 }, 150);
