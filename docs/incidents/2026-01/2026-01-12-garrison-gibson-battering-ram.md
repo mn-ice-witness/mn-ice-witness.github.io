@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: legal-resident
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-14
+last_updated: 2026-01-15
 ---
 
 # Liberian Man Arrested With Battering Ram, No Judicial Warrant
@@ -20,17 +20,20 @@ Garrison Gibson, a 38-year-old Liberian citizen who has lived in the U.S. for ap
 1. [Minneapolis family demands judicial warrant as federal agents bust door](https://www.fox9.com/news/minneapolis-family-demands-judicial-warrant-federal-agents-raid-jan-2026) - FOX 9
 2. [Minneapolis family raises questions about the warrant](https://kstp.com/kstp-news/top-news/minneapolis-family-raises-questions-about-the-warrant-given-to-them-by-federal-agents/) - KSTP
 3. [Warrantless ICE entry in Minneapolis heightens fears](https://www.mprnews.org/episode/2026/01/13/warrantless-ice-entry-in-minneapolis-heightens-fears-amid-statewide-enforcement-surge) - MPR News
+4. [Liberian man arrested in Minneapolis raid was regularly checking in with authorities, lawyer says](https://abcnews.go.com/Politics/wireStory/liberian-man-arrested-minneapolis-raid-regularly-checking-authorities-129225651) - ABC News / AP
+5. [Attorney: No proper warrant for Minneapolis man's arrest in home](https://www.minnpost.com/public-safety/2026/01/attorney-federal-agents-had-no-proper-warrant-to-arrest-minneapolis-man-who-fled-to-u-s-from-liberia-as-a-child-ice-garrison-gibson/) - MinnPost
+6. [Immigration agents used a battering ram to enter Minneapolis home without a valid warrant](https://reason.com/2026/01/14/federal-agents-used-a-battering-ram-to-enter-a-minneapolis-home-without-valid-warrant-video-shows/) - Reason
 - **Video:** Family livestreamed the raid on Facebook showing agents breaking down door
 - **Legal Filing:** Habeas petition filed in federal court
 
 ## Victim(s)
 - **Name:** Garrison Gibson
-- **Age:** 38
-- **Origin:** Liberia
-- **Citizenship:** Under ICE supervision for 15+ years
-- **Status:** Final immigration removal order from 2009; lived under ICE supervision with regular check-ins
-- **Criminal History:** Past drug conviction that has been cleared from his record
-- **Family:** Wife and 9-year-old child in the home
+- **Age:** 37
+- **Origin:** Liberia (fled civil war as a child)
+- **Citizenship:** Under ICE supervision
+- **Status:** Final immigration removal order from 2008; lived under order of supervision with regular check-ins
+- **Criminal History:** 2008 third-degree narcotics sales conviction was later dismissed by courts. Court records show legal history dominated by traffic violations, minor drug arrests, and one arrest for riding public transit without paying fare.
+- **Family:** Wife Teyana Gibson Brown (nurse) and 9-year-old child in the home during raid
 
 ## Background
 According to court filings, Gibson has resided in the U.S. for approximately two decades. Four years prior, immigration officials placed him under supervision. The filing notes: "At no point has he ever been deemed a danger to his community, a flight risk, or has he been convicted of any new crime warranting his detention."
@@ -46,6 +49,8 @@ He had checked in with ICE officials approximately two weeks before the arrest.
 - **Entry** - Agents use battering ram to break down door
 - **Arrest** - Gibson taken into custody
 - **Within 24 hours** - Habeas petition filed in federal court
+- **After arrest** - Gibson flown to Fort Bliss Army base in El Paso, Texas
+- **After habeas filing** - Judge ordered DHS to return Gibson to Minnesota
 - **Current** - Detained at Freeborn County jail in Albert Lea, MN
 
 ## The Warrant Issue
@@ -57,7 +62,9 @@ He had checked in with ICE officials approximately two weeks before the arrest.
 ## Official Accounts
 
 ### DHS Statement
-The Department of Homeland Security said Gibson is a "criminal illegal alien" with a felony record. His attorney disputes this characterization, noting the conviction has been cleared.
+DHS spokeswoman Tricia McLaughlin claimed Gibson has a "lengthy rap sheet (that) includes robbery, drug possession with intent to sell, possession of a deadly weapon, malicious destruction and theft." She did not indicate whether those were arrests, charges, or convictions.
+
+Court records contradict this characterization, showing his legal history is dominated by traffic violations, minor drug arrests, and one fare evasion charge. His only felony—the 2008 third-degree narcotics conviction—was later dismissed by the courts.
 
 ### Family Statement
 Abena Abraham, speaking on behalf of the family: "This is unacceptable; this trauma to the family was really unnecessary."

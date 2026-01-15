@@ -2,9 +2,38 @@
 
 Step-by-step guide for adding new incidents to the site.
 
-## Step 0: Check Not-Use List
+## Step 0: Check for Duplicates and Not-Use List
 
-**BEFORE researching a story**, check `dev-docs/not_use.md` to see if it was already evaluated and rejected. This prevents re-adding stories that don't fit the project scope.
+**BEFORE adding a new incident**, perform these checks:
+
+### A. Check Not-Use List
+Check `dev-docs/not_use.md` to see if the story was already evaluated and rejected. This prevents re-adding stories that don't fit the project scope.
+
+### B. Check for Existing Incident Files
+Search existing incident files in `docs/incidents/` to ensure the incident isn't already documented:
+
+1. **Search by location** - Same address, intersection, or business name
+2. **Search by date** - Same day, even if different details emerged
+3. **Search by victim name** - If known
+4. **Search by keywords** - Key phrases from the incident
+
+```bash
+# Example searches
+grep -r "Circle Pines" docs/incidents/
+grep -r "2026-01-14" docs/incidents/
+grep -r "bus stop" docs/incidents/
+```
+
+### C. If You Find a Potential Duplicate
+**Do NOT create a new file.** Instead:
+
+1. Open the existing incident file
+2. Add new sources to the Sources section
+3. Add new details to relevant sections (Timeline, Victim info, etc.)
+4. Update `last_updated` in frontmatter
+5. Update Editorial Assessment if trustworthiness improves
+
+This keeps all information about an incident in one place and prevents fragmentation.
 
 ## Step 1: Verify the Incident
 
