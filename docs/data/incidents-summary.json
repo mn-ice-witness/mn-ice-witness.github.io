@@ -1,6 +1,26 @@
 {
-  "mediaVersion": 1768511731,
+  "mediaVersion": 1768511983,
   "incidents": [
+    {
+      "filePath": "incidents/2026-01/2026-01-14-shawn-jackson-children-tear-gas.md",
+      "title": "Six Children Hospitalized After ICE Deploys Flashbangs and Tear Gas on Family SUV",
+      "summary": "Shawn Jackson and his family were leaving a relative's home after his son's basketball game when ICE agents deployed flashbang grenades and tear gas under their SUV. His six children, ranging from 6 months to 11 years old, were inside the vehicle. The 6-month-old baby stopped breathing and required CPR. Three children were hospitalized.",
+      "date": "2026-01-14",
+      "time": "19:00",
+      "location": "600 block of 24th Avenue North",
+      "city": "Minneapolis",
+      "type": "bystander-arrested",
+      "status": "resolved",
+      "victimCitizenship": "us-citizen",
+      "injuries": "serious",
+      "trustworthiness": "high",
+      "lastUpdated": "2026-01-15",
+      "mediaCount": 1,
+      "notable": false,
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-14-shawn-jackson-children-tear-gas.mp4"
+    },
     {
       "filePath": "incidents/2026-01/2026-01-14-circle-pines-restaurant-worker.md",
       "title": "Restaurant Worker with Legal Visa Detained by Plain-Clothed Agents",
@@ -1295,9 +1315,9 @@
       "lastUpdated": "2026-01-13",
       "mediaCount": 3,
       "notable": true,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2025-12-10-mubashir-wrongful-detention.mp4"
     },
     {
       "filePath": "incidents/2025-12/2025-12-09-sue-tincher-detained.md",
