@@ -490,7 +490,7 @@ body {
 
 .media-card-media {
     position: relative;
-    background: #000;
+    background: #1a1a1a;
     overflow: hidden;
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
@@ -508,7 +508,7 @@ body {
 }
 
 .media-card-video {
-    will-change: contents;
+    background: #1a1a1a;
 }
 
 .media-card-play-icon {
@@ -562,6 +562,11 @@ body {
         column-count: 1;
         max-width: 90%;
         padding: 16px 0;
+    }
+
+    .media-card {
+        content-visibility: visible;
+        contain-intrinsic-size: auto;
     }
 }
 

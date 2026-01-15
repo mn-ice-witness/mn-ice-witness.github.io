@@ -220,25 +220,21 @@ const App = {
         const scheduleAction = (video, action) => {
             const existing = pendingActions.get(video);
             if (existing) {
-                cancelAnimationFrame(existing.raf);
                 clearTimeout(existing.timeout);
             }
 
             if (action === 'play') {
-                const raf = requestAnimationFrame(() => {
+                const timeout = setTimeout(() => {
                     video.play().catch(() => {});
                     pendingActions.delete(video);
-                });
-                pendingActions.set(video, { raf, timeout: null });
+                }, 100);
+                pendingActions.set(video, { timeout });
             } else {
                 const timeout = setTimeout(() => {
-                    const raf = requestAnimationFrame(() => {
-                        video.pause();
-                        pendingActions.delete(video);
-                    });
-                    pendingActions.set(video, { raf, timeout: null });
-                }, 100);
-                pendingActions.set(video, { raf: null, timeout });
+                    video.pause();
+                    pendingActions.delete(video);
+                }, 50);
+                pendingActions.set(video, { timeout });
             }
         };
 
@@ -293,9 +289,10 @@ const App = {
 
         let mediaElement;
         if (incident.localMediaType === 'video') {
+            const videoSrc = mediaUrl + '#t=0.001';
             mediaElement = `
                 <video class="media-card-video" muted loop playsinline preload="metadata">
-                    <source src="${mediaUrl}" type="video/mp4">
+                    <source src="${videoSrc}" type="video/mp4">
                 </video>
                 <div class="media-card-play-icon">
                     <svg viewBox="0 0 24 24" width="32" height="32" fill="white">
