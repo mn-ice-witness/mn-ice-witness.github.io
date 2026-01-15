@@ -192,18 +192,18 @@
   {
     "filePath": "incidents/2026-01/2026-01-13-lyn-lake-tear-gas.md",
     "title": "Federal Agents Deploy Tear Gas at Busy Lyn-Lake Intersection",
-    "summary": "Federal agents deployed tear gas as their convoy passed through one of Minneapolis' busiest commercial intersections at Lyndale Avenue South and West Lake Street. A large crowd had gathered around the agents, blowing whistles and shouting. Agents dropped a gas canister as they prepared to exit the scene.",
+    "summary": "Federal agents attempted to enter Wrecktangle Pizza at one of Minneapolis' busiest commercial intersections. Surveillance video shows agents exiting an unmarked SUV and storming the restaurant's door. Employees and community members chased off the agents, who deployed chemical agents (tear gas) as they retreated. The crowd kicked the gas canister back at the agents.",
     "date": "2026-01-13",
     "time": "afternoon",
-    "location": "Lyndale Avenue South & West Lake Street",
+    "location": "Lyndale Avenue South & West Lake Street (in front of Wrecktangle Pizza)",
     "city": "Minneapolis",
     "type": "bystander-arrested",
     "status": "resolved",
     "victimCitizenship": "unknown",
     "injuries": "minor",
-    "trustworthiness": "medium",
-    "lastUpdated": "2026-01-13",
-    "mediaCount": 0,
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-14",
+    "mediaCount": 1,
     "notable": false
   },
   {
