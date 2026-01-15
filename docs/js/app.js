@@ -139,6 +139,31 @@ const App = {
         }
     },
 
+    getColumnCount() {
+        const width = window.innerWidth;
+        if (width <= 600) return 1;
+        if (width <= 900) return 2;
+        return 3;
+    },
+
+    reorderForColumns(items, columnCount) {
+        if (columnCount <= 1) return items;
+
+        const rows = Math.ceil(items.length / columnCount);
+        const reordered = [];
+
+        for (let i = 0; i < items.length; i++) {
+            const col = Math.floor(i / rows);
+            const row = i % rows;
+            const readingPos = row * columnCount + col;
+            if (readingPos < items.length) {
+                reordered[i] = items[readingPos];
+            }
+        }
+
+        return reordered.filter(Boolean);
+    },
+
     async renderMediaGallery() {
         const gallery = document.getElementById('media-gallery');
         let mediaIncidents = this.incidents.filter(i => i.hasLocalMedia);
@@ -151,17 +176,38 @@ const App = {
         // Try to load custom order from media-order.md
         mediaIncidents = await this.sortMediaByOrder(mediaIncidents);
 
-        gallery.innerHTML = mediaIncidents.map(incident => this.renderMediaCard(incident)).join('');
+        // Store for resize handler
+        this.mediaIncidents = mediaIncidents;
 
-        // Add click handlers
+        // Reorder for CSS columns layout (reading order left-to-right)
+        const columnCount = this.getColumnCount();
+        const displayOrder = this.reorderForColumns(mediaIncidents, columnCount);
+
+        gallery.innerHTML = displayOrder.map(incident => this.renderMediaCard(incident)).join('');
+
+        // Add click handlers (use displayOrder for correct mapping)
         gallery.querySelectorAll('.media-card').forEach((card, index) => {
             card.addEventListener('click', () => {
-                Lightbox.open(mediaIncidents[index]);
+                Lightbox.open(displayOrder[index]);
             });
         });
 
         // Set up video behavior - autoplay on scroll for both mobile and desktop
         this.setupScrollToPlay(gallery);
+
+        // Handle resize to re-render with correct order
+        if (!this.resizeHandler) {
+            let resizeTimeout;
+            this.resizeHandler = () => {
+                clearTimeout(resizeTimeout);
+                resizeTimeout = setTimeout(() => {
+                    if (this.currentView === 'media') {
+                        this.renderMediaGallery();
+                    }
+                }, 150);
+            };
+            window.addEventListener('resize', this.resizeHandler);
+        }
     },
 
     setupScrollToPlay(gallery) {

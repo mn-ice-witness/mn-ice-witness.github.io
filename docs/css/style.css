@@ -453,9 +453,8 @@ body {
 /* ==================== MEDIA GALLERY ==================== */
 
 .media-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 16px;
+    column-count: 3;
+    column-gap: 16px;
     padding: 16px;
     max-width: 1400px;
     margin: 0 auto;
@@ -475,6 +474,8 @@ body {
     overflow: hidden;
     cursor: pointer;
     transition: transform 0.15s, box-shadow 0.15s;
+    break-inside: avoid;
+    margin-bottom: 16px;
 }
 
 .media-card:hover {
@@ -533,9 +534,15 @@ body {
     color: var(--color-text-muted);
 }
 
+@media (max-width: 900px) {
+    .media-gallery {
+        column-count: 2;
+    }
+}
+
 @media (max-width: 600px) {
     .media-gallery {
-        grid-template-columns: 1fr;
+        column-count: 1;
         max-width: 90%;
         padding: 16px 0;
     }
