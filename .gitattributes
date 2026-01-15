@@ -1,0 +1,10 @@
+# Mark media files as binary (no line-ending conversion, no diff)
+*.mp4 binary
+*.mov binary
+*.m4v binary
+*.webm binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.webp binary
