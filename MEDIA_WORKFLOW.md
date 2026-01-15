@@ -2,22 +2,43 @@
 
 This document describes how to capture, process, and serve media for MN ICE Files.
 
+## LLM Quick Reference
+
+When the user says "run the media pipeline" or adds new media, run these commands:
+
+```bash
+# 1. Process all raw media (compresses video, removes audio, optimizes images)
+python3 scripts/process_media.py
+
+# 2. Regenerate the incidents summary JSON (detects new media)
+python3 scripts/generate_summary.py
+
+# 3. Commit and push
+git add -A && git commit -m "Add new media" && git push
+```
+
 ## Directory Structure
 
 ```
-raw_media/           # Source files (gitignored, local only)
-  └── YYYY-MM-DD-incident-slug.raw.mov
-  └── YYYY-MM-DD-incident-slug.jpg
+raw_media/                    # Source files (gitignored, local only)
+  └── YYYY-MM-DD-slug.raw.mov   # Raw video recordings
+  └── YYYY-MM-DD-slug.png       # Raw images
 
-docs/media/          # Processed files (served to website)
-  └── YYYY-MM-DD-incident-slug.mp4    # Compressed, muted video
-  └── YYYY-MM-DD-incident-slug.webp   # Optimized image
+docs/media/                   # Processed files (served to website, tracked in git)
+  └── YYYY-MM-DD-slug.mp4       # Compressed, muted video
+  └── YYYY-MM-DD-slug.jpg       # Optimized image
+
+docs/data/media-order.md      # Controls gallery display order (edit to reorder)
 ```
 
 ## Naming Convention
 
-Media files MUST start with the incident date-slug to link to incidents:
-- `2026-01-11-observer-shoved-into-traffic.raw.mov` → links to incident `2026-01-11-observer-shoved-into-traffic.md`
+Media files MUST match the incident markdown filename (without .md):
+- Incident: `docs/incidents/2026-01/2026-01-11-observer-shoved-into-traffic.md`
+- Media: `raw_media/2026-01-11-observer-shoved-into-traffic.raw.mov`
+- Output: `docs/media/2026-01-11-observer-shoved-into-traffic.mp4`
+
+The `.raw` suffix is optional but recommended for videos to distinguish source files.
 
 ## Capturing Screen Video
 
@@ -29,74 +50,86 @@ Media files MUST start with the incident date-slug to link to incidents:
 5. Play the source video
 6. Click Stop when done
 7. File saves to Desktop as `.mov`
-
-### Recommended: Kap (lightweight)
-```bash
-brew install --cask kap
-```
-- Click menu bar icon → drag to select area → record → export as MP4
+8. Rename to `YYYY-MM-DD-incident-slug.raw.mov`
+9. Move to `raw_media/`
 
 ## Processing Media
 
 ### Prerequisites
 ```bash
 brew install ffmpeg
-pip3 install pillow
 ```
 
 ### Process All Media
-Run from project root:
 ```bash
 python3 scripts/process_media.py
 ```
 
 This script:
-1. Scans `raw_media/` for source files
-2. Checks if processed version exists in `docs/media/`
-3. If missing or older, processes the file:
-   - **Videos**: Strips audio, compresses with H.264, outputs `.mp4`
-   - **Images**: Converts to WebP with quality optimization
+1. Scans `raw_media/` for video and image files
+2. Compares timestamps with `docs/media/`
+3. Only processes new or updated files:
+   - **Videos**: Strips audio, compresses with H.264 (CRF 28), outputs `.mp4`
+   - **Images**: Converts to optimized JPEG, max 1200px width
 
-### Manual Processing
-
-**Video (strip audio + compress)**:
+### Regenerate Summary
+After processing, always regenerate the JSON:
 ```bash
-ffmpeg -i raw_media/file.mov -an -vcodec libx264 -crf 28 -preset medium docs/media/file.mp4
+python3 scripts/generate_summary.py
 ```
 
-**Image (convert to WebP)**:
-```bash
-ffmpeg -i raw_media/file.jpg -quality 80 docs/media/file.webp
+This updates `docs/data/incidents-summary.json` with `hasLocalMedia: true` for incidents with media.
+
+## Controlling Gallery Order
+
+Edit `docs/data/media-order.md` to control the order of media in the gallery view:
+
+```markdown
+# Media Gallery Order
+# List incident slugs in display order (one per line)
+
+disabled-woman-car-window
+observer-shoved-into-traffic
+nimco-omar-citizen-check
 ```
+
+Items listed first appear first. Items not listed appear after, in default order.
 
 ## Video Specifications
 
-Target specs for web delivery:
 - **Format**: MP4 (H.264)
-- **Audio**: None (muted)
-- **CRF**: 28 (balance of quality/size)
-- **Resolution**: Source resolution (no scaling)
-- **Max duration**: ~30 seconds recommended
+- **Audio**: None (stripped)
+- **CRF**: 28 (good quality/size balance)
+- **Resolution**: Source resolution preserved
+- **Typical compression**: 80-90% size reduction
 
 ## Image Specifications
 
-- **Format**: WebP (with JPG fallback)
-- **Quality**: 80%
-- **Max width**: 1200px (scaled down if larger)
+- **Format**: JPEG
+- **Quality**: High (q:v 3)
+- **Max width**: 1200px (auto-scaled)
 
-## Adding Media to Incidents
+## Troubleshooting
 
-Once processed, media auto-displays in the incident lightbox if:
-1. File exists in `docs/media/`
-2. Filename matches incident slug pattern
+### Video shows black/corrupted
+Delete the output and reprocess:
+```bash
+rm docs/media/YYYY-MM-DD-slug.mp4
+python3 scripts/process_media.py
+```
 
-The JSON summary includes `hasLocalMedia: true` for incidents with media.
+### Media not appearing in gallery
+1. Check filename matches incident slug exactly
+2. Run `python3 scripts/generate_summary.py`
+3. Check `docs/data/incidents-summary.json` for `hasLocalMedia: true`
 
-## Workflow Summary
+## Full Pipeline Summary
 
-1. **Capture**: Screen record the compelling video
+1. **Capture**: Screen record compelling video (Cmd+Shift+5)
 2. **Rename**: `YYYY-MM-DD-incident-slug.raw.mov`
 3. **Place**: Move to `raw_media/`
-4. **Process**: Run `python3 scripts/process_media.py`
-5. **Verify**: Media appears in incident lightbox
-6. **Commit**: Only `docs/media/` files are tracked in git
+4. **Process**: `python3 scripts/process_media.py`
+5. **Regenerate**: `python3 scripts/generate_summary.py`
+6. **Order** (optional): Edit `docs/data/media-order.md`
+7. **Commit**: `git add -A && git commit -m "Add media" && git push`
+8. **Verify**: Check gallery view on live site
