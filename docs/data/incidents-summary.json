@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768495422,
+  "mediaVersion": 1768496259,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-14-circle-pines-restaurant-worker.md",
@@ -843,12 +843,12 @@
       "victimCitizenship": "us-citizen",
       "injuries": "minor",
       "trustworthiness": "high",
-      "lastUpdated": "2026-01-13",
+      "lastUpdated": "2026-01-15",
       "mediaCount": 3,
       "notable": true,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-08-target-richfield-employees.mp4"
     },
     {
       "filePath": "incidents/2026-01/2026-01-08-jose-ramirez-native-american.md",

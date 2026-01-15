@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
-last_updated: 2026-01-13
+last_updated: 2026-01-15
 notable: true
 ---
 
@@ -25,6 +25,7 @@ Two Target drive-up employees, both U.S. citizens, were aggressively detained by
 - **Video:** [Border agents descend on Richfield Target](https://bringmethenews.com/minnesota-news/video-border-agents-descend-on-richfield-target-store-arrest-drive-up-workers) - Bring Me The News
 - **Video:** [KARE 11 coverage](https://www.kare11.com/article/news/local/ice-in-minnesota/federal-agents-richfield-target/89-074f28c7-c04f-4392-9165-08ca304b0f39) - Shows large number of CBP agents
 - **Video:** [Newsweek coverage](https://www.newsweek.com/us-citizens-aggressively-detained-border-patrol-working-target-11349481) - Workers pinned in entranceway
+- **Social:** [Witness account](https://x.com/Peace_within_00/status/2010857759957229693) - X/Twitter
 
 ## Victim(s)
 - **Names:** Not fully disclosed (one shouted his name on video)

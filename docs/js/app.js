@@ -6,13 +6,36 @@ const App = {
 
     async init() {
         this.loadViewedState();
+        this.loadViewFromUrl();
         this.initSplash();
         this.initViewToggle();
         this.initClearViewed();
         Lightbox.init();
         await this.loadIncidents();
         this.render();
+        this.applyInitialView();
         this.openFromHash();
+    },
+
+    loadViewFromUrl() {
+        const hash = window.location.hash.slice(1);
+        if (hash === 'media') {
+            this.currentView = 'media';
+        }
+    },
+
+    updateUrlView(view) {
+        if (view === 'media') {
+            window.history.replaceState({}, '', '#media');
+        } else {
+            window.history.replaceState({}, '', window.location.pathname);
+        }
+    },
+
+    applyInitialView() {
+        if (this.currentView === 'media') {
+            this.switchView('media');
+        }
     },
 
     loadViewedState() {
@@ -88,13 +111,20 @@ const App = {
 
     switchView(view) {
         this.currentView = view;
+        this.updateUrlView(view);
+
         const listView = document.getElementById('list-view');
         const mediaGallery = document.getElementById('media-gallery');
         const toggle = document.getElementById('view-toggle');
+        const clearViewedBtn = document.getElementById('clear-viewed-btn');
 
         toggle.querySelectorAll('.view-btn').forEach(btn => {
             btn.classList.toggle('active', btn.dataset.view === view);
         });
+
+        if (clearViewedBtn) {
+            clearViewedBtn.style.display = view === 'media' ? 'none' : '';
+        }
 
         if (view === 'list') {
             listView.style.display = '';
@@ -229,7 +259,7 @@ const App = {
 
     openFromHash() {
         const hash = window.location.hash.slice(1);
-        if (!hash) return;
+        if (!hash || hash === 'media') return;
 
         if (hash === 'about') {
             document.getElementById('splash')?.classList.add('hidden');
