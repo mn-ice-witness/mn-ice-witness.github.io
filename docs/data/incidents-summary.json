@@ -1,5 +1,22 @@
 [
   {
+    "filePath": "incidents/2026-01/2026-01-14-circle-pines-restaurant-worker.md",
+    "title": "Restaurant Worker with Legal Visa Detained by Plain-Clothed Agents",
+    "summary": "A restaurant worker in Circle Pines with a valid legal work visa was detained by two plain-clothed federal agents lying in wait outside the business. The worker has no criminal record and fled to the U.S. under asylum protections after a cartel took over his family's factory in his home country.",
+    "date": "2026-01-14",
+    "time": "unknown",
+    "location": "Restaurant in Circle Pines",
+    "city": "Circle Pines",
+    "type": "community-member-detained",
+    "status": "ongoing",
+    "victimCitizenship": "legal-resident",
+    "injuries": "none",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-15",
+    "mediaCount": 1,
+    "notable": false
+  },
+  {
     "filePath": "incidents/2026-01/2026-01-14-oglala-sioux-still-detained.md",
     "title": "Three Oglala Sioux U.S. Citizens Still Detained at Fort Snelling",
     "summary": "Four days after ICE detained four Oglala Sioux tribal members from a Minneapolis homeless encampment, three remain in custody at Fort Snelling. Tribal President Frank Star Comes Out issued a formal memorandum to DHS Secretary Kristi Noem and Interior Secretary Doug Burgum demanding immediate release, calling the detention \"a treaty violation\" and stating \"tribal citizens are not aliens\" and are \"categorically outside immigration jurisdiction.\" DHS refused to provide information unless tribe enters immigration agreement with ICE.",
@@ -15,6 +32,23 @@
     "lastUpdated": "2026-01-14",
     "mediaCount": 0,
     "notable": true
+  },
+  {
+    "filePath": "incidents/2026-01/2026-01-14-crystal-bus-stop-parent.md",
+    "title": "Parent Detained by ICE at School Bus Stop While Waiting with Child",
+    "summary": "ICE agents detained the parent of a Northport Elementary School student at a school bus stop in Crystal as they waited with their child. The child witnessed the arrest before safely boarding the school bus. Multiple schools in the area switched to remote learning in response.",
+    "date": "2026-01-14",
+    "time": "morning",
+    "location": "Northport Elementary School bus stop",
+    "city": "Crystal",
+    "type": "school-incident",
+    "status": "under-investigation",
+    "victimCitizenship": "unknown",
+    "injuries": "none",
+    "trustworthiness": "high",
+    "lastUpdated": "2026-01-15",
+    "mediaCount": 0,
+    "notable": false
   },
   {
     "filePath": "incidents/2026-01/2026-01-13-mankato-women-sprayed.md",
@@ -190,6 +224,23 @@
     "notable": false
   },
   {
+    "filePath": "incidents/2026-01/2026-01-13-carondelet-school-lockdown.md",
+    "title": "Carondelet Catholic School Lockdown During ICE Arrest Outside Building",
+    "summary": "Carondelet Catholic School in southwest Minneapolis placed its Upper Campus on lockdown while federal ICE agents made an arrest outside the school building. The school notified parents at 2:44 PM that the lockdown was enacted \"out of an abundance of caution.\" All students and faculty were inside the building and safe.",
+    "date": "2026-01-13",
+    "time": "14:44",
+    "location": "Carondelet Catholic School, Upper Campus",
+    "city": "Minneapolis",
+    "type": "school-incident",
+    "status": "resolved",
+    "victimCitizenship": "unknown",
+    "injuries": "none",
+    "trustworthiness": "medium",
+    "lastUpdated": "2026-01-15",
+    "mediaCount": 0,
+    "notable": false
+  },
+  {
     "filePath": "incidents/2026-01/2026-01-13-lyn-lake-tear-gas.md",
     "title": "Federal Agents Deploy Tear Gas at Wrecktangle Pizza",
     "summary": "Federal agents attempted to enter Wrecktangle Pizza at one of Minneapolis' busiest commercial intersections. Surveillance video shows agents exiting an unmarked SUV and storming the restaurant's door. Employees and community members chased off the agents, who deployed chemical agents (tear gas) as they retreated. The crowd kicked the gas canister back at the agents.",
@@ -361,7 +412,7 @@
     "victimCitizenship": "legal-resident",
     "injuries": "none",
     "trustworthiness": "high",
-    "lastUpdated": "2026-01-14",
+    "lastUpdated": "2026-01-15",
     "mediaCount": 1,
     "notable": false
   },
@@ -874,7 +925,7 @@
     "victimCitizenship": "undocumented",
     "injuries": "unknown",
     "trustworthiness": "high",
-    "lastUpdated": "2026-01-14",
+    "lastUpdated": "2026-01-15",
     "mediaCount": 0,
     "notable": false
   },

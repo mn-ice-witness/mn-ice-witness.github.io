@@ -173,11 +173,12 @@ This site is deployed via GitHub Pages from the `docs/` folder on the `main` bra
 
 ## Key Guidelines
 
-1. **Sources First:** Never add an incident without at least one credible source
-2. **Neutral Language:** Describe facts, not emotions
-3. **Multiple Perspectives:** Include official statements even if disputed
-4. **Update Regularly:** Mark `last_updated` when new information emerges
-5. **Trustworthiness Ratings:** (see `dev-docs/adding-incidents.md` for full criteria)
+1. **Check for Duplicates First:** Before adding a new incident, search existing files in `docs/incidents/` by location, date, victim name, and keywords. If the incident is already documented, **merge new information into the existing file** rather than creating a duplicate.
+2. **Sources First:** Never add an incident without at least one credible source
+3. **Neutral Language:** Describe facts, not emotions
+4. **Multiple Perspectives:** Include official statements even if disputed
+5. **Update Regularly:** Mark `last_updated` when new information emerges
+6. **Trustworthiness Ratings:** (see `dev-docs/adding-incidents.md` for full criteria)
    - `high` = Strong evidence (see criteria below)
    - `medium` = Moderate evidence
    - `low` = Limited evidence, needs corroboration

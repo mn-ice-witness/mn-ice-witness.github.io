@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: undocumented
 injuries: unknown
 trustworthiness: high
-last_updated: 2026-01-14
+last_updated: 2026-01-15
 ---
 
 # Patient Shackled to Hospital Bed by ICE for 28 Hours Without Warrant
@@ -21,7 +21,10 @@ ICE agents entered Hennepin County Medical Center's emergency department without
 2. [Advocates, health care workers demand change at HCMC](https://sahanjournal.com/immigration/hcmc-patient-arrested-immigration-agents-ice-unidos-mn/) - Sahan Journal
 3. [Health care workers push for changes as ICE causes fear at HCMC](https://sahanjournal.com/health/ice-agents-hospitals-hennepin-county-medical-center/) - Sahan Journal
 4. [ICE agents shackled patient to bed at HCMC](https://www.fox9.com/news/ice-agents-shackled-patient-bed-hcmc-advocacy-group-says) - FOX 9
+5. [ICE agents appear at Twin Cities hospitals, alarming health care workers](https://www.mprnews.org/story/2026/01/14/ice-agents-at-twin-cities-hospitals-alarm-medical-staff) - MPR News
+6. [Workers describe 'disruptive' ICE presence inside Minneapolis' Hennepin County Medical Center](https://www.ormanager.com/briefs/workers-describe-disruptive-ice-presence-inside-minneapolis-hennepin-county-medical-center/) - OR Manager
 - **Rally:** Jan 6, 2026 - ~100 healthcare workers and advocates gathered outside HCMC ER
+- **Testimony:** Jan 14, 2026 - Dozens of healthcare workers testified at Hennepin County Board meeting
 
 ## Victim(s)
 - **Name:** Not disclosed (patient confidentiality)
@@ -64,6 +67,14 @@ Later added: "In light of heightened public concern and evolving federal guidanc
 - Advocates calling for "separation ordinance" prohibiting county resources from federal immigration enforcement
 - Healthcare workers report patients delaying care due to fear of ICE
 - Dr. Janna Gewirtz O'Brien: "We are seeing a rash of appendicitis that should have been treated earlier, but people have been delaying care because of fear"
+
+## Ongoing Issues (Jan 13-14, 2026)
+Dozens of healthcare workers testified at a Hennepin County Board meeting on January 14, describing ongoing ICE presence as creating "immense fear for patients and hospital staff alike" and making it difficult to do their jobs.
+
+- Dr. Dillon Kurila, surgical resident, reported caring for a new patient in ICE custody whose legs were shackled together
+- Agents told staff they believed patient was trying to escape; medical providers disagreed
+- Healthcare workers described ICE presence as "disruptive"
+- Multiple staff reported patients refusing to seek care over fears of encountering ICE
 
 ## Editorial Assessment
 **HIGH** - Multiple independent sources including CBS Minnesota, Sahan Journal, and FOX 9. Healthcare worker accounts corroborate incident. Hospital issued official statement acknowledging agents were present and left after being asked for documentation. State legislators confirmed intervention.
