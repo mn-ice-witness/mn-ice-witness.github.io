@@ -24,6 +24,7 @@ Federal agents attempted to enter Wrecktangle Pizza at one of Minneapolis' busie
 5. [Minneapolis businesses, residents resist federal immigration enforcement surge](https://dailyplanetdc.com/2026/01/14/minneapolis-ice-resistance-businesses/) - Daily Planet
 - **Video:** [Wrecktangle Pizza owners interview](https://www.youtube.com/watch?v=Ku0uriNTvTg) - KARE11
 - **Video:** Surveillance footage shows agents exiting SUV and approaching Wrecktangle Pizza - CBS Minnesota
+- **Video:** [Surveillance footage of incident](https://bsky.app/profile/wedge.live/post/3mcb6afwogs2b) - Wedge Live (Bluesky)
 
 ## Victim(s)
 - **Names:** Unknown (multiple bystanders, protesters, and restaurant staff)
