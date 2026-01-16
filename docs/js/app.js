@@ -270,8 +270,8 @@ const App = {
     },
 
     renderMediaCard(incident) {
-        const shortTitle = incident.title.length > 60
-            ? incident.title.substring(0, 57) + '...'
+        const shortTitle = incident.title.length > 107
+            ? incident.title.substring(0, 104) + '...'
             : incident.title;
 
         const mediaUrl = this.getMediaUrl(incident.localMediaPath);
