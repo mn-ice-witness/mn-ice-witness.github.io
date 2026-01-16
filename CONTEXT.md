@@ -94,6 +94,8 @@ last_updated: YYYY-MM-DD
 | `school-incident` | Schools | Actions at/near schools |
 | `official-response` | Response | DHS/ICE official statements |
 
+**Note:** Multiple types ARE allowed. Use comma-separated values when an incident fits multiple categories (e.g., `type: citizen-legal-detained-beaten, school-incident`).
+
 # Incident Title
 
 ## Summary
