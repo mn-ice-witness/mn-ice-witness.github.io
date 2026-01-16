@@ -220,7 +220,7 @@ const Lightbox = {
         const video = this.bodyElement.querySelector('.local-media-video');
         if (!video) return;
 
-        const overlayBtn = this.bodyElement.querySelector('.media-overlay-btn');
+        const playPauseBtn = this.bodyElement.querySelector('.play-pause-btn');
         const iconPlay = this.bodyElement.querySelector('.media-icon-play');
         const iconPause = this.bodyElement.querySelector('.media-icon-pause');
 
@@ -234,7 +234,7 @@ const Lightbox = {
             if (iconPause) iconPause.style.display = '';
         };
 
-        const toggle = () => {
+        const togglePlayPause = () => {
             if (video.paused) {
                 video.play();
                 showPauseIcon();
@@ -244,15 +244,20 @@ const Lightbox = {
             }
         };
 
-        if (overlayBtn) overlayBtn.addEventListener('click', toggle);
-        video.addEventListener('click', toggle);
+        if (playPauseBtn) playPauseBtn.addEventListener('click', togglePlayPause);
+        video.addEventListener('click', togglePlayPause);
 
-        video.addEventListener('ended', () => {
-            showPlayIcon();
-        });
-
+        video.addEventListener('ended', showPlayIcon);
         video.addEventListener('play', showPauseIcon);
         video.addEventListener('pause', showPlayIcon);
+
+        const audioToggle = this.bodyElement.querySelector('.audio-toggle');
+        if (audioToggle) {
+            audioToggle.addEventListener('click', () => {
+                video.muted = !video.muted;
+                audioToggle.classList.toggle('muted', video.muted);
+            });
+        }
     },
 
     renderLocalMedia(summaryData) {
@@ -287,15 +292,26 @@ const Lightbox = {
                 <video class="local-media-video" autoplay muted playsinline>
                     <source src="${mediaUrl}" type="video/mp4">
                 </video>
-                <button class="media-overlay-btn" aria-label="Play/Pause">
-                    <svg class="media-icon-pause" viewBox="0 0 24 24" width="28" height="28" fill="white">
-                        <rect x="6" y="4" width="4" height="16" rx="1"/>
-                        <rect x="14" y="4" width="4" height="16" rx="1"/>
-                    </svg>
-                    <svg class="media-icon-play" viewBox="0 0 24 24" width="28" height="28" fill="white" style="display:none">
-                        <polygon points="6,4 20,12 6,20"/>
-                    </svg>
-                </button>
+                <div class="media-controls">
+                    <button class="media-control-btn play-pause-btn" aria-label="Play/Pause">
+                        <svg class="media-icon-pause" viewBox="0 0 24 24" width="30" height="30">
+                            <rect x="6" y="4" width="4" height="16" rx="1" fill="currentColor"/>
+                            <rect x="14" y="4" width="4" height="16" rx="1" fill="currentColor"/>
+                        </svg>
+                        <svg class="media-icon-play" viewBox="0 0 24 24" width="30" height="30" style="display:none">
+                            <polygon points="6,4 20,12 6,20" fill="currentColor"/>
+                        </svg>
+                    </button>
+                    <button class="media-control-btn audio-toggle muted" aria-label="Toggle sound">
+                        <svg class="speaker-icon" viewBox="0 0 24 24" width="30" height="30">
+                            <path d="M3 9v6h4l5 5V4L7 9H3z" fill="currentColor"/>
+                            <path class="speaker-waves" d="M18 12c0-2.05-1.18-3.82-2.9-4.68v9.36c1.72-.86 2.9-2.63 2.9-4.68z" fill="currentColor"/>
+                        </svg>
+                        <svg class="mute-x" viewBox="0 0 24 24" width="30" height="30">
+                            <path d="M24 10.5l-2.5-2.5-2.5 2.5-2.5-2.5-2 2 2.5 2.5-2.5 2.5 2 2 2.5-2.5 2.5 2.5 2-2-2.5-2.5 2.5-2.5z" fill="currentColor"/>
+                        </svg>
+                    </button>
+                </div>
             </div>
         `;
     },

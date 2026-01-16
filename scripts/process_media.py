@@ -43,18 +43,17 @@ def needs_processing(raw_path: Path, output_path: Path) -> bool:
 
 
 def process_video(input_path: Path, output_path: Path) -> bool:
-    """Process video: strip audio, compress with H.264, optimize for web."""
+    """Process video: compress with H.264, crop edges, optimize for web."""
     print(f"  Processing video: {input_path.name}")
 
     cmd = [
         'ffmpeg',
         '-y',  # Overwrite output
         '-i', str(input_path),
-        '-an',  # No audio
         '-vcodec', 'libx264',
         '-crf', '30',  # Quality (higher = smaller, 30 is good for web)
         '-preset', 'slow',  # Better compression
-        '-vf', 'scale=-2:min(720\\,ih),fps=30',  # Max 720p height, 30fps
+        '-vf', 'crop=iw-10:ih-10:5:5,scale=-2:min(720\\,ih),fps=30',  # Crop 5px edges, max 720p height, 30fps
         '-movflags', '+faststart',  # Web optimization
         str(output_path)
     ]

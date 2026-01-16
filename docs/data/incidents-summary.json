@@ -1,6 +1,27 @@
 {
-  "mediaVersion": 1768598197,
+  "mediaVersion": 1768600967,
   "incidents": [
+    {
+      "filePath": "incidents/2026-01/2026-01-15-porter-wrong-address-raid.md",
+      "title": "Federal Agents Execute Search Warrant at Wrong Address",
+      "summary": "FBI, ATF, and Hennepin County Sheriff's Office agents used a battering ram to enter Alisa Porter's South Minneapolis apartment, handcuffing her daughter and searching the home. The warrant was for a different address\u2014the man they sought had lived in the unit above Porter's but moved out two months prior. The search was connected to items stolen from FBI vehicles during protests over recent ICE shootings.",
+      "date": "2026-01-15",
+      "time": "13:00",
+      "location": "2928 Apartment, South Minneapolis",
+      "city": "Minneapolis",
+      "type": "citizens",
+      "status": "resolved",
+      "victimCitizenship": "us-citizen",
+      "injuries": "none",
+      "trustworthiness": "high",
+      "lastUpdated": "2026-01-16",
+      "mediaCount": 1,
+      "notable": false,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": []
+    },
     {
       "filePath": "incidents/2026-01/2026-01-15-st-paul-school-vans-pulled-over.md",
       "title": "Two St. Paul School Vans Pulled Over by ICE With Students and Teachers Aboard",
@@ -428,15 +449,10 @@
       "lastUpdated": "2026-01-15",
       "mediaCount": 5,
       "notable": true,
-      "hasLocalMedia": true,
-      "localMediaType": "video",
-      "localMediaPath": "media/2026-01-13-aliya-rahman-car-window-hospitalized.mp4",
-      "localMediaFiles": [
-        {
-          "type": "video",
-          "path": "media/2026-01-13-aliya-rahman-car-window-hospitalized.mp4"
-        }
-      ]
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": []
     },
     {
       "filePath": "incidents/2026-01/2026-01-13-lyn-lake-tear-gas.md",

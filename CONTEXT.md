@@ -180,15 +180,24 @@ python-main -m http.server 8000 --directory docs
 1. **Add raw media to `raw_media/`** with naming: `<incident-id>.raw.mov` or `<incident-id>.raw.png`
    - The incident-id matches the markdown filename (without `.md`)
    - Example: `2026-01-13-bovino-cbs-interview.raw.mov` → matches `2026-01-13-bovino-cbs-interview.md`
+   - **IMPORTANT:** Files in `raw_media/` are NEVER modified by the pipeline - they are read-only source files
 2. **Run the media pipeline:**
    ```bash
    python3 scripts/process_media.py
    ```
-   This compresses videos and outputs to `docs/media/<incident-id>.mp4`
+   This reads from `raw_media/` and creates compressed versions in `docs/media/<incident-id>.mp4`
+   - Crops 5px from edges (removes screen recording artifacts)
+   - Preserves audio if present in source file
+   - Compresses for web delivery
 3. **Update `docs/data/media-order.md`** to control gallery display order
    - Add the slug (the part after YYYY-MM-DD-) to desired position
    - Example: add `bovino-cbs-interview` (not the full incident-id)
 4. **Commit** - the pre-commit hook auto-regenerates `incidents-summary.json`
+
+**IMPORTANT - Raw media is never modified:**
+- `raw_media/` contains original source files that are NEVER touched
+- `docs/media/` contains processed web-optimized versions
+- If source has no audio, output has no audio (macOS Cmd+Shift+5 requires enabling audio capture)
 
 **IMPORTANT - Never manually edit `incidents-summary.json`:**
 - The pre-commit hook runs `scripts/generate_summary.py` automatically
@@ -203,7 +212,13 @@ This site is deployed via Cloudflare Pages from the `docs/` folder.
 
 1. **Check for Duplicates First:** Before adding a new incident, search existing files in `docs/incidents/` by location, date, victim name, and keywords. If the incident is already documented, **merge new information into the existing file** rather than creating a duplicate.
 2. **Sources First:** Never add an incident without at least one credible source
-3. **Neutral Language:** Describe facts, not emotions
+3. **Neutral, Objective Language:** Use factual terminology, not emotional or partisan language:
+   - Use "search" not "raid" or "ransack"
+   - Use "enter" not "storm" or "invade"
+   - Use "detained" not "kidnapped"
+   - Avoid editorializing words like "terrorize," "brutalize," "horrific"
+   - Report what happened factually; let readers draw their own conclusions
+   - Quotes from witnesses/victims can contain emotional language, but narrative text should not
 4. **Multiple Perspectives:** Include official statements even if disputed
 5. **Update Regularly:** Mark `last_updated` when new information emerges
 6. **Trustworthiness Ratings:** (see `dev-docs/adding-incidents.md` for full criteria)

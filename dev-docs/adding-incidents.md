@@ -146,6 +146,23 @@ Assign LOW when:
 
 ## Step 3: Write the Content
 
+### Language Guidelines
+
+**Use neutral, objective terminology throughout:**
+
+| Avoid (Emotional/Loaded) | Use Instead (Neutral) |
+|--------------------------|----------------------|
+| raid, ransack | search |
+| storm, invade | enter |
+| kidnapped, snatched | detained, arrested |
+| terrorize, brutalize | use force on |
+| horrific, shocking | (omit - describe facts) |
+| innocent victim | person, resident, citizen |
+
+- Report facts and let readers draw conclusions
+- Witness/victim quotes may contain emotional language, but narrative text should not
+- Describe actions objectively: "agents used a battering ram to enter" not "agents violently smashed through the door"
+
 Use the schema from `incident-schema.md`. At minimum include:
 
 ```markdown

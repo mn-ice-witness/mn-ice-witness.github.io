@@ -525,6 +525,52 @@ body {
     background: #1a1a1a;
 }
 
+/* Audio Toggle Button - standalone on media cards */
+.media-card-media .audio-toggle {
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    width: 36px;
+    height: 36px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.4);
+    transition: color 0.15s;
+    z-index: 5;
+}
+
+.media-card-media .audio-toggle:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Audio toggle icons */
+.audio-toggle .speaker-icon {
+    position: absolute;
+}
+
+.audio-toggle .mute-x {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+.audio-toggle.muted .mute-x {
+    opacity: 1;
+}
+
+.audio-toggle .speaker-waves {
+    opacity: 1;
+    transition: opacity 0.15s;
+}
+
+.audio-toggle.muted .speaker-waves {
+    opacity: 0.3;
+}
+
 .media-card-info {
     padding: 12px;
 }
@@ -1113,26 +1159,57 @@ body {
     cursor: pointer;
 }
 
-.media-overlay-btn {
+.media-controls {
     position: absolute;
-    bottom: 12px;
-    right: 12px;
-    width: 48px;
-    height: 48px;
-    background: rgba(0, 0, 0, 0.5);
-    border: 2px solid rgba(255, 255, 255, 0.8);
-    border-radius: 50%;
+    bottom: 8px;
+    right: 8px;
+    display: flex;
+    gap: 2px;
+    z-index: 10;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    padding: 2px;
+}
+
+.media-control-btn {
+    width: 36px;
+    height: 36px;
+    background: transparent;
+    border: none;
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.2s;
-    backdrop-filter: blur(4px);
+    color: rgba(255, 255, 255, 0.4);
+    transition: color 0.15s;
+    position: relative;
 }
 
-.media-overlay-btn:hover {
-    background: rgba(0, 0, 0, 0.7);
-    transform: scale(1.1);
+.media-control-btn:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.media-control-btn .speaker-icon,
+.media-control-btn .mute-x {
+    position: absolute;
+}
+
+.media-control-btn.muted .mute-x {
+    opacity: 1;
+}
+
+.media-control-btn .mute-x {
+    opacity: 0;
+    transition: opacity 0.15s;
+}
+
+.media-control-btn .speaker-waves {
+    opacity: 1;
+    transition: opacity 0.15s;
+}
+
+.media-control-btn.muted .speaker-waves {
+    opacity: 0.3;
 }
 
 /* Mobile: stack media above content */

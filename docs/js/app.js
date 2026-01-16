@@ -208,6 +208,20 @@ const App = {
             const card = document.createElement('div');
             card.innerHTML = this.renderMediaCard(incident);
             const cardEl = card.firstElementChild;
+
+            // Handle audio toggle clicks separately
+            const audioToggle = cardEl.querySelector('.audio-toggle');
+            if (audioToggle) {
+                audioToggle.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    const video = cardEl.querySelector('.media-card-video');
+                    if (video) {
+                        video.muted = !video.muted;
+                        audioToggle.classList.toggle('muted', video.muted);
+                    }
+                });
+            }
+
             cardEl.addEventListener('click', () => Lightbox.open(incident));
             columns[columnIndex].appendChild(cardEl);
         });
@@ -292,9 +306,21 @@ const App = {
         const mediaUrl = this.getMediaUrl(incident.localMediaPath);
 
         let mediaElement;
+        let audioControl = '';
         if (incident.localMediaType === 'video') {
             const videoSrc = mediaUrl + '#t=0.001';
             mediaElement = `<video class="media-card-video" src="${videoSrc}" muted loop playsinline preload="auto"></video>`;
+            audioControl = `
+                <button class="audio-toggle muted" aria-label="Toggle sound">
+                    <svg class="speaker-icon" viewBox="0 0 24 24" width="30" height="30">
+                        <path d="M3 9v6h4l5 5V4L7 9H3z" fill="currentColor"/>
+                        <path class="speaker-waves" d="M18 12c0-2.05-1.18-3.82-2.9-4.68v9.36c1.72-.86 2.9-2.63 2.9-4.68z" fill="currentColor"/>
+                    </svg>
+                    <svg class="mute-x" viewBox="0 0 24 24" width="30" height="30">
+                        <path d="M24 10.5l-2.5-2.5-2.5 2.5-2.5-2.5-2 2 2.5 2.5-2.5 2.5 2 2 2.5-2.5 2.5 2.5 2-2-2.5-2.5 2.5-2.5z" fill="currentColor"/>
+                    </svg>
+                </button>
+            `;
         } else {
             mediaElement = `<img class="media-card-image" src="${mediaUrl}" alt="${shortTitle}">`;
         }
@@ -303,6 +329,7 @@ const App = {
             <article class="media-card" role="button" tabindex="0">
                 <div class="media-card-media">
                     ${mediaElement}
+                    ${audioControl}
                 </div>
                 <div class="media-card-info">
                     <h3 class="media-card-title">${shortTitle}</h3>
