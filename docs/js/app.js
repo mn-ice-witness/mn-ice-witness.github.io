@@ -312,11 +312,11 @@ const App = {
             mediaElement = `<video class="media-card-video" src="${videoSrc}" muted loop playsinline preload="auto"></video>`;
             audioControl = `
                 <button class="audio-toggle muted" aria-label="Toggle sound">
-                    <svg class="speaker-icon" viewBox="0 0 24 24" width="30" height="30">
+                    <svg class="speaker-icon" viewBox="0 0 24 24" width="24" height="24">
                         <path d="M3 9v6h4l5 5V4L7 9H3z" fill="currentColor"/>
                         <path class="speaker-waves" d="M18 12c0-2.05-1.18-3.82-2.9-4.68v9.36c1.72-.86 2.9-2.63 2.9-4.68z" fill="currentColor"/>
                     </svg>
-                    <svg class="mute-x" viewBox="0 0 24 24" width="30" height="30">
+                    <svg class="mute-x" viewBox="0 0 24 24" width="24" height="24">
                         <path d="M24 10.5l-2.5-2.5-2.5 2.5-2.5-2.5-2 2 2.5 2.5-2.5 2.5 2 2 2.5-2.5 2.5 2.5 2-2-2.5-2.5 2.5-2.5z" fill="currentColor"/>
                     </svg>
                 </button>
@@ -457,6 +457,15 @@ const App = {
 
     getMediaUrl(path) {
         return this.mediaVersion ? `${path}?v=${this.mediaVersion}` : path;
+    },
+
+    muteAllGalleryVideos() {
+        document.querySelectorAll('.media-card-video').forEach(video => {
+            video.muted = true;
+        });
+        document.querySelectorAll('.media-card .audio-toggle').forEach(btn => {
+            btn.classList.add('muted');
+        });
     },
 
     render() {

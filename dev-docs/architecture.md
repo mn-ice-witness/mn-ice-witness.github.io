@@ -96,6 +96,33 @@ GIT_MN_ICE_FILES/
 - Contains all incident metadata for fast loading
 - See [scaling-strategy.md](scaling-strategy.md) for data architecture decisions
 
+## Media Pipeline
+
+### Directory Structure
+- `raw_media/` - **Original source files (NEVER modified)**
+- `docs/media/` - Processed web-optimized files
+
+### How It Works
+
+1. **Source files are read-only**: The `raw_media/` folder contains original recordings. These files are NEVER touched or modified by the pipeline.
+
+2. **Processing creates new files**: `scripts/process_media.py` reads from `raw_media/` and creates new compressed files in `docs/media/`.
+
+3. **What the pipeline does**:
+   - Crops 5px from all edges (removes screen recording artifacts)
+   - Compresses video with H.264 (CRF 30)
+   - Scales to max 720p height
+   - Preserves audio if present in source
+   - Optimizes for web streaming (faststart)
+
+4. **Naming convention**:
+   - Raw: `<incident-id>.raw.mov` (or .mp4, .png, etc.)
+   - Output: `<incident-id>.mp4` (videos) or `<incident-id>.jpg` (images)
+
+### Audio Note
+
+If your source video has no audio, the processed video will have no audio. The pipeline preserves audio when present but cannot create it. When recording with macOS screen recording (Cmd+Shift+5), you must explicitly enable microphone/audio capture in the recording options.
+
 ## Related Documentation
 
 - [scaling-strategy.md](scaling-strategy.md) - Data scaling decisions and future considerations
