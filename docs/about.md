@@ -1,6 +1,6 @@
 # About This Site
 
-<p style="font-size: 0.9em; color: #666; font-style: italic;">To report an incident, submit a correction, or provide additional documentation, contact us at <a href="mailto:mnicewitness@gmail.com">mnicewitness@gmail.com</a>.</p>
+<p style="font-size: 0.9em; color: #666; font-style: italic;">To report an incident (must be sourced by a reputable media outlet), submit a correction, or share additional media for a listed incident, contact us at <a href="mailto:mnicewitness@gmail.com">mnicewitness@gmail.com</a>.</p>
 
 ## The Federal Position
 
