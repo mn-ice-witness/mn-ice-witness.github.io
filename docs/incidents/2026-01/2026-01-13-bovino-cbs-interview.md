@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: various
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-15
+last_updated: 2026-01-16
 ---
 
 # Border Patrol Commander Bovino CBS Interview
@@ -21,7 +21,10 @@ U.S. Border Patrol Commander Gregory Bovino sat down with WCCO's Esme Murphy for
 2. [Full interview video](https://www.youtube.com/watch?v=ZDfQ-N4zXz8) - CBS Minnesota YouTube
 3. [Immigration officers agitate Minneapolis protesters despite Bovino claiming de-escalation efforts](https://www.cbsnews.com/video/immigration-officers-agitate-minneapolis-protesters-despite-bovino-claiming-de-escalation-efforts/) - CBS News
 4. [Bovino says "hats off" to ICE agent who shot Renee Good](https://meidasnews.com/news/border-patrol-commander-bovino-says-hats-off-to-ice-agent-who-shot-renee-good) - MeidasTouch News
-5. [More Americans view ICE shooting as unjustified](https://today.yougov.com/politics/articles/53878-more-americans-view-ice-shooting-minnesota-unjustified-than-justified-january-9-12-2026-economist-yougov-poll) - YouGov
+5. [More Americans view ICE shooting as unjustified](https://today.yougov.com/politics/articles/53878-more-americans-view-ice-shooting-minnesota-unjustified-than-justified-january-9-12-2026-economist-yougov-poll) - YouGov/Economist
+6. [Poll: Americans say ICE is "too forceful"](https://www.axios.com/2026/01/09/ice-approval-rating-plummets-trump-immigration) - Axios (citing YouGov data)
+7. [Majority say Good shooting was inappropriate use of force](https://abcnews.go.com/Politics/majority-americans-ice-agents-shooting-good-unjustified-inappropriate/story?id=129253596) - ABC News (citing CNN/SSRS poll)
+8. [Trump's Top Goon Sparks Outrage by Praising ICE Agent](https://www.thedailybeast.com/donald-trumps-top-goon-sparks-outrage-by-praising-ice-agent-who-shot-mom-hats-off/) - Daily Beast
 - **Video:** [Local copy](media/2026-01-13-bovino-cbs-interview.mp4) - CBS Minnesota interview excerpt
 
 ## Key Claims and Context
@@ -32,10 +35,10 @@ U.S. Border Patrol Commander Gregory Bovino sat down with WCCO's Esme Murphy for
 **CBS News Response:** "CBS News Minnesota could not find any recent Minnesota-centered polling to verify Bovino's claim."
 
 **Actual Polling (January 2026):**
-- YouGov national poll: 52% of Americans disapprove of how ICE is handling its job
-- 51% say ICE tactics are "too forceful" vs. 27% who say "about right"
-- 56% of Americans say ICE agent's use of force in Good shooting was "inappropriate"
-- ICE net approval fell 30 percentage points in one year
+- [YouGov/Economist poll](https://www.axios.com/2026/01/09/ice-approval-rating-plummets-trump-immigration) (Jan 8, 2026): 52% of Americans disapprove of how ICE is handling its job
+- [YouGov/Economist](https://www.axios.com/2026/01/09/ice-approval-rating-plummets-trump-immigration): 51% say ICE tactics are "too forceful" vs. 27% who say "about right"
+- [CNN/SSRS poll](https://abcnews.go.com/Politics/majority-americans-ice-agents-shooting-good-unjustified-inappropriate/story?id=129253596) (Jan 9-12, 2026): 56% say ICE agent's use of force in Good shooting was "inappropriate"
+- [YouGov tracking data](https://www.axios.com/2026/01/09/ice-approval-rating-plummets-trump-immigration): ICE net approval fell 30 percentage points in one year (from +16 in Feb 2025 to -14 in Nov 2025)
 
 ### Claim: Citizens have "no reason to be scared" (at 0:18)
 > "Those individuals that are worried, if they're United States citizens or legal permanent residents, or have some type of legal status to be or remain here in the United States, there's no reason to be scared."
@@ -70,7 +73,7 @@ In a separate Fox News interview with Sean Hannity, Bovino praised the agent who
 
 He described Good's Honda Pilot as "a 4,000-pound missile" and characterized the shooting as justified.
 
-**Public Response:** The comment drew widespread criticism on social media. Author Don Winslow posted: "Listen very carefully to this. This is who they are and this is the world they want."
+**Public Response:** The comment [drew widespread criticism on social media](https://www.thedailybeast.com/donald-trumps-top-goon-sparks-outrage-by-praising-ice-agent-who-shot-mom-hats-off/). Author Don Winslow posted: "Listen very carefully to this. This is who they are and this is the world they want."
 
 ### On Duration of Operations
 > "We'll be here til the mission is complete... as long as it takes."
@@ -86,4 +89,4 @@ The interview did not address:
 - Reports from multiple news outlets documenting citizen detentions
 
 ## Editorial Assessment
-**HIGH** - Interview documented by CBS Minnesota. Bovino's claims recorded on video. CBS News noted inability to verify polling claim. Citizen detention cases documented separately with sources. Polling data from YouGov/Economist and other outlets contradicts support claims.
+**HIGH** - Interview documented by CBS Minnesota. Bovino's claims recorded on video. CBS News noted inability to verify polling claim. Citizen detention cases documented separately with sources. Polling data from YouGov/Economist and CNN/SSRS contradicts support claims.

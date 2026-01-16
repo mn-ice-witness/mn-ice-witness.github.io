@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768574107,
+  "mediaVersion": 1768574545,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-14-shawn-jackson-children-tear-gas.md",
@@ -129,7 +129,7 @@
       "victimCitizenship": "various",
       "injuries": "none",
       "trustworthiness": "high",
-      "lastUpdated": "2026-01-15",
+      "lastUpdated": "2026-01-16",
       "mediaCount": 1,
       "notable": false,
       "hasLocalMedia": true,
