@@ -123,6 +123,14 @@ GIT_MN_ICE_FILES/
 
 If your source video has no audio, the processed video will have no audio. The pipeline preserves audio when present but cannot create it. When recording with macOS screen recording (Cmd+Shift+5), you must explicitly enable microphone/audio capture in the recording options.
 
+### Local Media in Incidents
+
+**Do NOT add "Local copy" links in incident markdown files.** The media displays automatically in the lightbox based on filename matching. Users can right-click the video to save it if needed. Example of what NOT to do:
+
+```markdown
+- **Video:** [Local copy](media/incident-id.mp4) - Description
+```
+
 ## Related Documentation
 
 - [scaling-strategy.md](scaling-strategy.md) - Data scaling decisions and future considerations

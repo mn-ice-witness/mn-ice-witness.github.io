@@ -962,6 +962,7 @@ body {
     margin-bottom: 12px;
     padding-bottom: 8px;
     border-bottom: 2px solid var(--color-border);
+    overflow: hidden;
 }
 
 .lightbox-body h3 {
@@ -1141,7 +1142,7 @@ body {
     float: right;
     width: 45%;
     max-width: 400px;
-    margin: 0 0 16px 20px;
+    margin: 0 0 21px 25px;
     border-radius: 8px;
     overflow: hidden;
     background: #000;
@@ -1157,6 +1158,28 @@ body {
 
 .local-media-video {
     cursor: pointer;
+    transition: filter 0.3s;
+}
+
+.video-ended-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.video-ended-overlay span {
+    color: #ccc;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 8px 16px;
 }
 
 .media-controls {

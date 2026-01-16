@@ -242,6 +242,9 @@ const Lightbox = {
 
         const togglePlayPause = () => {
             if (video.paused) {
+                video.style.filter = '';
+                const overlay = video.closest('.local-media-container')?.querySelector('.video-ended-overlay');
+                if (overlay) overlay.remove();
                 video.play();
                 showPauseIcon();
             } else {
@@ -253,7 +256,17 @@ const Lightbox = {
         if (playPauseBtn) playPauseBtn.addEventListener('click', togglePlayPause);
         video.addEventListener('click', togglePlayPause);
 
-        video.addEventListener('ended', showPlayIcon);
+        video.addEventListener('ended', () => {
+            showPlayIcon();
+            const container = video.closest('.local-media-container');
+            if (container && !container.querySelector('.video-ended-overlay')) {
+                video.style.filter = 'grayscale(80%) brightness(0.7)';
+                const overlay = document.createElement('div');
+                overlay.className = 'video-ended-overlay';
+                overlay.innerHTML = '<span>scroll for sources below</span>';
+                container.appendChild(overlay);
+            }
+        });
         video.addEventListener('play', showPauseIcon);
         video.addEventListener('pause', showPlayIcon);
 

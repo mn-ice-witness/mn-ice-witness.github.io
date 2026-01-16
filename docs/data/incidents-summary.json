@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768603271,
+  "mediaVersion": 1768603793,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-15-porter-wrong-address-raid.md",
@@ -172,7 +172,7 @@
       "injuries": "none",
       "trustworthiness": "high",
       "lastUpdated": "2026-01-16",
-      "mediaCount": 1,
+      "mediaCount": 0,
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",

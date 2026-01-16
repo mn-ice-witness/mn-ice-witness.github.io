@@ -17,15 +17,14 @@ last_updated: 2026-01-16
 U.S. Border Patrol Commander Gregory Bovino sat down with WCCO's Esme Murphy for an interview defending ICE operations in Minnesota. During the interview, Bovino claimed "90% to 95% of Minnesotans" support the immigration crackdown and stated U.S. citizens have "no reason to be scared." CBS News noted they could not find any polling to support the 90-95% claim. Bovino's assurance to citizens is contradicted by documented cases of U.S. citizens detained, injured, and hospitalized during Minnesota operations.
 
 ## Sources
-1. [Border Patrol Commander Bovino says "90% to 95% of Minnesotans" support immigration crackdown](https://www.cbsnews.com/minnesota/news/border-patrol-greg-bovino-interview-ice-end-immigration-crackdown-minneapolis/) - CBS Minnesota
-2. [Full interview video](https://www.youtube.com/watch?v=ZDfQ-N4zXz8) - CBS Minnesota YouTube
+1. [Full interview video](https://www.youtube.com/watch?v=ZDfQ-N4zXz8) - CBS Minnesota YouTube
+2. [Border Patrol Commander Bovino says "90% to 95% of Minnesotans" support immigration crackdown](https://www.cbsnews.com/minnesota/news/border-patrol-greg-bovino-interview-ice-end-immigration-crackdown-minneapolis/) - CBS Minnesota
 3. [Immigration officers agitate Minneapolis protesters despite Bovino claiming de-escalation efforts](https://www.cbsnews.com/video/immigration-officers-agitate-minneapolis-protesters-despite-bovino-claiming-de-escalation-efforts/) - CBS News
 4. [Bovino says "hats off" to ICE agent who shot Renee Good](https://meidasnews.com/news/border-patrol-commander-bovino-says-hats-off-to-ice-agent-who-shot-renee-good) - MeidasTouch News
 5. [More Americans view ICE shooting as unjustified](https://today.yougov.com/politics/articles/53878-more-americans-view-ice-shooting-minnesota-unjustified-than-justified-january-9-12-2026-economist-yougov-poll) - YouGov/Economist
 6. [Poll: Americans say ICE is "too forceful"](https://www.axios.com/2026/01/09/ice-approval-rating-plummets-trump-immigration) - Axios (citing YouGov data)
 7. [Majority say Good shooting was inappropriate use of force](https://abcnews.go.com/Politics/majority-americans-ice-agents-shooting-good-unjustified-inappropriate/story?id=129253596) - ABC News (citing CNN/SSRS poll)
 8. [Trump's Top Goon Sparks Outrage by Praising ICE Agent](https://www.thedailybeast.com/donald-trumps-top-goon-sparks-outrage-by-praising-ice-agent-who-shot-mom-hats-off/) - Daily Beast
-- **Video:** [Local copy](media/2026-01-13-bovino-cbs-interview.mp4) - CBS Minnesota interview excerpt
 
 ## Key Claims and Context
 
