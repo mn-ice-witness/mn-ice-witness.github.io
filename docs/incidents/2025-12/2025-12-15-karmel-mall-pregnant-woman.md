@@ -3,7 +3,7 @@ date: 2025-12-15
 time: afternoon
 location: Karmel Mall, Lake Street
 city: Minneapolis
-type: community-member-detained
+type: immigrants
 status: unknown
 victim_citizenship: unknown
 injuries: unknown

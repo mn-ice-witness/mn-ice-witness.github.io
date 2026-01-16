@@ -3,7 +3,7 @@ date: 2026-01-14
 time: unknown
 location: Restaurant in Circle Pines
 city: Circle Pines
-type: community-member-detained
+type: immigrants
 status: ongoing
 victim_citizenship: legal-resident
 injuries: none

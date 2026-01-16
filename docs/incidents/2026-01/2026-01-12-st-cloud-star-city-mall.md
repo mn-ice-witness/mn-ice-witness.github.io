@@ -3,7 +3,7 @@ date: 2026-01-12
 time: midday
 location: Star City Mall, Division Street
 city: St. Cloud
-type: community-member-detained
+type: immigrants
 status: resolved
 victim_citizenship: unknown
 injuries: minor

@@ -3,7 +3,7 @@ date: 2025-12-14
 time: unknown
 location: Near Target store
 city: Minneapolis
-type: citizen-legal-detained-beaten
+type: citizens
 status: resolved-released
 victim_citizenship: us-citizen
 injuries: none

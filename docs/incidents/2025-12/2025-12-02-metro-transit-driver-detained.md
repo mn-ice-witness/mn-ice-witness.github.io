@@ -3,7 +3,7 @@ date: 2025-12-02
 time: morning
 location: Minneapolis area (en route to work)
 city: Minneapolis
-type: community-member-detained
+type: immigrants
 status: resolved
 victim_citizenship: legal-resident
 injuries: none

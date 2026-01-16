@@ -3,7 +3,7 @@ date: 2025-12-09
 time: 06:20
 location: 2100 block of Oliver Avenue N
 city: Minneapolis
-type: bystander-arrested
+type: observers
 status: resolved
 victim_citizenship: us-citizen
 injuries: minor

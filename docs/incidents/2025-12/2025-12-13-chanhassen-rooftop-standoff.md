@@ -3,7 +3,7 @@ date: 2025-12-13
 time: unknown
 location: Construction site
 city: Chanhassen
-type: community-member-detained
+type: immigrants
 status: resolved-detained
 victim_citizenship: unknown
 injuries: none

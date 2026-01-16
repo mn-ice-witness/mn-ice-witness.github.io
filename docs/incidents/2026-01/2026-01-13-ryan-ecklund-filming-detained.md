@@ -3,7 +3,7 @@ date: 2026-01-13
 time: 10:15
 location: Cub Foods parking lot, Tamarack Village
 city: Woodbury
-type: bystander-arrested
+type: observers
 status: resolved
 victim_citizenship: us-citizen
 injuries: minor

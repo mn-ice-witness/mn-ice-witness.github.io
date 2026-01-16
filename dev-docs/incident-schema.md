@@ -37,15 +37,15 @@ last_updated: YYYY-MM-DD      # Required. When file was last updated
 
 | Value | Use For |
 |-------|---------|
-| `citizen-legal-detained-beaten` | U.S. citizens or legal residents wrongly detained/arrested/beaten |
-| `bystander-arrested` | Observers/protesters arrested or attacked |
-| `community-member-detained` | Non-criminal immigrants detained (includes workplace raids) |
+| `citizens` | U.S. citizens or legal residents wrongly detained/arrested/beaten |
+| `observers` | Observers/protesters arrested or attacked |
+| `immigrants` | Non-criminal immigrants detained (includes workplace raids) |
 | `schools-hospitals` | Actions at/near schools or hospitals, including patient targeting and workplace audits |
-| `official-response` | DHS/ICE official statements justifying specific incidents/arrests |
+| `response` | DHS/ICE official statements justifying specific incidents/arrests |
 
 **Notes:**
-- **Multiple types ARE allowed** - use comma-separated values (e.g., `type: citizen-legal-detained-beaten, schools-hospitals`) when an incident fits multiple categories
-- Workplace raids of non-U.S. citizens → use `community-member-detained`
+- **Multiple types ARE allowed** - use comma-separated values (e.g., `type: citizens, schools-hospitals`) when an incident fits multiple categories
+- Workplace raids of non-U.S. citizens → use `immigrants`
 - Do NOT use `citizen-detained`, `workplace-raid`, or other variant types
 
 ### Victim Citizenship Values
@@ -124,7 +124,7 @@ Posted on X (@DHSgov):
 
 ## Official Response Documents (standalone)
 
-For DHS/ICE press releases and statements justifying specific arrests, create standalone documents with type `official-response`:
+For DHS/ICE press releases and statements justifying specific arrests, create standalone documents with type `response`:
 
 ```markdown
 ---
@@ -132,7 +132,7 @@ date: YYYY-MM-DD
 time: unknown
 location: DHS Press Release
 city: Minneapolis
-type: official-response
+type: response
 status: resolved
 victim_citizenship: unknown
 injuries: none
@@ -186,7 +186,7 @@ date: 2026-01-11
 time: afternoon
 location: Speedway, Snelling & Portland
 city: St. Paul
-type: bystander-arrested
+type: observers
 status: resolved
 victim_citizenship: us-citizen
 injuries: minor

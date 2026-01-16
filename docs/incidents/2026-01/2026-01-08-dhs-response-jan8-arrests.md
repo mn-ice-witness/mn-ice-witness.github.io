@@ -3,7 +3,7 @@ date: 2026-01-08
 time: unknown
 location: DHS Press Release
 city: Minneapolis
-type: official-response
+type: response
 status: resolved
 victim_citizenship: unknown
 injuries: none

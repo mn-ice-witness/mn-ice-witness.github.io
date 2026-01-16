@@ -3,7 +3,7 @@ date: 2026-01-12
 time: morning
 location: Concord Education Center, Inver Grove Heights
 city: Inver Grove Heights
-type: citizen-legal-detained-beaten, schools-hospitals
+type: citizens, schools-hospitals
 status: resolved
 victim_citizenship: us-citizen
 injuries: none

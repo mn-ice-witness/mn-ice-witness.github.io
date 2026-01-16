@@ -3,7 +3,7 @@ date: 2025-12-10
 time: morning
 location: Fridley (residential area)
 city: Fridley
-type: citizen-legal-detained-beaten
+type: citizens
 status: resolved
 victim_citizenship: us-citizen
 injuries: none

@@ -3,7 +3,7 @@ date: 2026-01-10
 time: unknown
 location: General Mills manufacturing facility parking lot
 city: Chanhassen
-type: community-member-detained
+type: immigrants
 status: unknown
 victim_citizenship: undocumented
 injuries: none

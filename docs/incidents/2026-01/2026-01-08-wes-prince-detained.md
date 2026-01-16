@@ -3,7 +3,7 @@ date: 2026-01-08
 time: 08:00
 location: Bishop Henry Whipple Federal Building
 city: Fort Snelling
-type: bystander-arrested
+type: observers
 status: resolved
 victim_citizenship: us-citizen
 injuries: none

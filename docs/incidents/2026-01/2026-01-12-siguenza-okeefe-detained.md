@@ -3,7 +3,7 @@ date: 2026-01-12
 time: unknown
 location: 16th Ave S & E 42nd Street
 city: Minneapolis
-type: bystander-arrested
+type: observers
 status: resolved
 victim_citizenship: us-citizen
 injuries: minor

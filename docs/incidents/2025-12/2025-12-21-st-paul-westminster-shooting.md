@@ -3,7 +3,7 @@ date: 2025-12-21
 time: 08:20
 location: 1300 block of Westminster Street
 city: St. Paul
-type: community-member-detained
+type: immigrants
 status: under-investigation
 victim_citizenship: unknown
 injuries: minor

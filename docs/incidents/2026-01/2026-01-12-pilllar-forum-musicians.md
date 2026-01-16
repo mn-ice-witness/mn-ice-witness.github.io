@@ -3,7 +3,7 @@ date: 2026-01-12
 time: evening
 location: Pilllar Forum, 2300 Central Ave NE
 city: Minneapolis
-type: bystander-arrested
+type: observers
 status: resolved
 victim_citizenship: us-citizen
 injuries: minor

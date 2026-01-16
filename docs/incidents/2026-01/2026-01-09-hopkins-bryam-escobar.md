@@ -3,7 +3,7 @@ date: 2026-01-09
 time: morning
 location: En route to work
 city: Hopkins
-type: community-member-detained
+type: immigrants
 status: resolved-released
 victim_citizenship: undocumented
 injuries: none

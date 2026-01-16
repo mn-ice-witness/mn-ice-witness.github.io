@@ -3,7 +3,7 @@ date: 2026-01-13
 time: daytime
 location: El Burrito Mercado, Cesar Chavez and State Streets, District del Sol
 city: St. Paul
-type: community-member-detained
+type: immigrants
 status: ongoing
 victim_citizenship: various
 injuries: none

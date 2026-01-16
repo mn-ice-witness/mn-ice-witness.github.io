@@ -3,7 +3,7 @@ date: 2025-12-16
 time: unknown
 location: Karmel Mall, Lake Street
 city: Minneapolis
-type: citizen-legal-detained-beaten
+type: citizens
 status: resolved-released
 victim_citizenship: us-citizen
 injuries: none-physical

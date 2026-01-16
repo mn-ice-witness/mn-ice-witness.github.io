@@ -3,7 +3,7 @@ date: 2025-10-30
 time: unknown
 location: DHS Press Conference, Gary, Indiana
 city: Minneapolis
-type: official-response
+type: response
 status: resolved
 victim_citizenship: us-citizen
 injuries: none

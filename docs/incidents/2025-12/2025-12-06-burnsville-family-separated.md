@@ -3,7 +3,7 @@ date: 2025-12-06
 time: unknown
 location: McAndrews Road
 city: Burnsville
-type: community-member-detained
+type: immigrants
 status: ongoing
 victim_citizenship: mixed-status-household
 injuries: none-physical

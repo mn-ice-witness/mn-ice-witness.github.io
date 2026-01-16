@@ -3,7 +3,7 @@ date: 2026-01-11
 time: afternoon
 location: Speedway Gas Station, Snelling Ave & Portland Ave
 city: St. Paul
-type: bystander-arrested
+type: observers
 status: resolved
 victim_citizenship: us-citizen
 injuries: minor

@@ -3,7 +3,7 @@ date: 2025-11-25
 time: morning
 location: 600 block of Rose Avenue
 city: St. Paul
-type: community-member-detained
+type: immigrants
 status: ongoing
 victim_citizenship: undocumented
 injuries: none-physical

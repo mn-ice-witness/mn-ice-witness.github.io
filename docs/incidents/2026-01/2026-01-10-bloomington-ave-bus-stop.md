@@ -3,7 +3,7 @@ date: 2026-01-10
 time: daytime
 location: Bus stop at 31st Street and Bloomington Avenue South
 city: Minneapolis
-type: community-member-detained
+type: immigrants
 status: ongoing
 victim_citizenship: unknown
 injuries: unknown

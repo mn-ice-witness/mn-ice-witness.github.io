@@ -3,7 +3,7 @@ date: 2026-01-08
 time: unknown
 location: Under bridge near Little Earth Housing Project
 city: Minneapolis
-type: citizen-legal-detained-beaten
+type: citizens
 status: resolved-released
 victim_citizenship: us-citizen
 injuries: none

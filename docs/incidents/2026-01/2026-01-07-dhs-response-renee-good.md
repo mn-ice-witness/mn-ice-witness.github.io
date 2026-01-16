@@ -3,7 +3,7 @@ date: 2026-01-07
 time: unknown
 location: DHS Official Statement
 city: Minneapolis
-type: official-response
+type: response
 status: under-investigation
 victim_citizenship: us-citizen
 injuries: fatal

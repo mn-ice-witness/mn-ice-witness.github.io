@@ -3,7 +3,7 @@ date: 2026-01-13
 time: afternoon
 location: Lyndale Avenue South & West Lake Street (in front of Wrecktangle Pizza)
 city: Minneapolis
-type: bystander-arrested
+type: observers
 status: resolved
 victim_citizenship: unknown
 injuries: minor

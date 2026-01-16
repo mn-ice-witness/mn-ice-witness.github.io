@@ -79,7 +79,7 @@ date: YYYY-MM-DD
 time: HH:MM (if known, else "unknown")
 location: Specific location
 city: Minneapolis/St. Paul/etc
-type: citizen-legal-detained-beaten | bystander-arrested | community-member-detained | schools-hospitals | official-response  # These 5 types only; comma-separate for multiple (e.g., "citizen-legal-detained-beaten, schools-hospitals")
+type: citizens | observers | immigrants | schools-hospitals | response  # These 5 types only; comma-separate for multiple (e.g., "citizens, schools-hospitals")
 status: ongoing | resolved | under-investigation
 victim_citizenship: us-citizen | legal-resident | undocumented | asylum-seeker | unknown
 injuries: none | minor | serious | fatal
@@ -90,13 +90,13 @@ last_updated: YYYY-MM-DD
 ### Type Categories (exactly 5)
 | Type | Website Section | Use For |
 |------|-----------------|---------|
-| `citizen-legal-detained-beaten` | Citizens | U.S. citizens or legal residents wrongly detained/beaten |
-| `bystander-arrested` | Bystanders | Observers/protesters arrested or attacked |
-| `community-member-detained` | Immigrants | Non-criminal immigrants detained, **including workplace raids** |
+| `citizens` | Citizens | U.S. citizens or legal residents wrongly detained/beaten |
+| `observers` | Observers | Observers/protesters arrested or attacked |
+| `immigrants` | Immigrants | Non-criminal immigrants detained, **including workplace raids** |
 | `schools-hospitals` | Schools/Hospitals | Actions at/near schools or hospitals, including patient targeting and workplace audits |
-| `official-response` | Response | DHS/ICE official statements |
+| `response` | Response | DHS/ICE official statements |
 
-**Note:** Multiple types ARE allowed. Use comma-separated values when an incident fits multiple categories (e.g., `type: citizen-legal-detained-beaten, schools-hospitals`).
+**Note:** Multiple types ARE allowed. Use comma-separated values when an incident fits multiple categories (e.g., `type: citizens, schools-hospitals`).
 
 # Incident Title
 
@@ -232,7 +232,7 @@ This site is deployed via Cloudflare Pages from the `docs/` folder.
    - The account relies solely on the victim's or their family's statement
    - The agency disputes the incident occurred (e.g., "zero record")
 
-7. **Research Official Responses:** When documenting any incident, always search for DHS/ICE official responses and add them to the Response tab. See `dev-docs/incident-schema.md` for the `official-response` format.
+7. **Research Official Responses:** When documenting any incident, always search for DHS/ICE official responses and add them to the Response tab. See `dev-docs/incident-schema.md` for the `response` type format.
 
 ## Researching Official Responses
 

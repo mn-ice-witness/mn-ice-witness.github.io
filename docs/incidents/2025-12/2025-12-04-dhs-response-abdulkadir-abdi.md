@@ -3,7 +3,7 @@ date: 2025-12-04
 time: unknown
 location: DHS Press Release
 city: Minneapolis
-type: official-response
+type: response
 status: ongoing
 victim_citizenship: legal-resident
 injuries: none

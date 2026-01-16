@@ -3,7 +3,7 @@ date: 2026-01-10
 time: unknown
 location: Minneapolis-St. Paul International Airport
 city: Minneapolis
-type: community-member-detained
+type: immigrants
 status: unknown
 victim_citizenship: unknown
 injuries: none

@@ -3,7 +3,7 @@ date: 2026-01-11
 time: unknown
 location: Woodbury
 city: Woodbury
-type: community-member-detained
+type: immigrants
 status: ongoing
 victim_citizenship: asylum-seeker
 injuries: serious

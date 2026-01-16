@@ -59,11 +59,11 @@ GIT_MN_ICE_FILES/
 
 | Type | Section | Color |
 |------|---------|-------|
-| `citizen-legal-detained-beaten` | U.S. Citizens Detained | Purple |
-| `bystander-arrested` | Bystanders & Observers | Blue |
-| `community-member-detained` | Community Members | Cyan |
+| `citizens` | U.S. Citizens Detained | Purple |
+| `observers` | Bystanders & Observers | Blue |
+| `immigrants` | Community Members | Cyan |
 | `schools-hospitals` | Schools/Hospitals | Orange |
-| `official-response` | Official Responses | Gray |
+| `response` | Official Responses | Gray |
 
 ## Trustworthiness Ratings
 

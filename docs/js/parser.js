@@ -67,11 +67,11 @@ const IncidentParser = {
 
     formatTypeLabel(type) {
         const labels = {
-            'citizen-legal-detained-beaten': 'Citizen/Resident Detained',
-            'bystander-arrested': 'Bystander Arrested',
-            'community-member-detained': 'Community Member',
+            'citizens': 'Citizen/Resident',
+            'observers': 'Observer/Protester',
+            'immigrants': 'Immigrant',
             'schools-hospitals': 'Schools/Hospitals',
-            'official-response': 'Official Response'
+            'response': 'Official Response'
         };
         return labels[type] || type;
     },

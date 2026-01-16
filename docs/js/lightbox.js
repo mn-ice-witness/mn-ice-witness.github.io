@@ -194,7 +194,7 @@ const Lightbox = {
         this.savedScrollPositions = {};
 
         const hash = window.location.hash.slice(1);
-        const listViewHashes = ['list', 'citizens', 'bystanders', 'community', 'schools', 'response'];
+        const listViewHashes = ['list', 'citizens', 'observers', 'immigrants', 'schools', 'response'];
         if (listViewHashes.includes(hash)) {
             // Preserve list view section anchors - URL is already correct after back()
         } else if (hash && hash !== 'media') {

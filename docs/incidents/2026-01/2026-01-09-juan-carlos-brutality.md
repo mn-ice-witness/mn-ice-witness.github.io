@@ -3,7 +3,7 @@ date: 2026-01-09
 time: unknown
 location: Chicago Avenue near 24th Street
 city: Minneapolis
-type: citizen-legal-detained-beaten
+type: citizens
 status: under-investigation
 victim_citizenship: legal-resident
 injuries: serious

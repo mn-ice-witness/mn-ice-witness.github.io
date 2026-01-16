@@ -3,7 +3,7 @@ date: 2026-01-08
 time: 11:00
 location: Hy-Vee, Robbinsdale
 city: Robbinsdale
-type: citizen-legal-detained-beaten
+type: citizens
 status: resolved
 victim_citizenship: us-citizen
 injuries: minor

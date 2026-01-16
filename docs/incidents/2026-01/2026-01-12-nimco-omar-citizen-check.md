@@ -3,7 +3,7 @@ date: 2026-01-12
 time: unknown
 location: Near 24 Somali Mall
 city: Minneapolis
-type: citizen-legal-detained-beaten
+type: citizens
 status: resolved
 victim_citizenship: us-citizen
 injuries: none

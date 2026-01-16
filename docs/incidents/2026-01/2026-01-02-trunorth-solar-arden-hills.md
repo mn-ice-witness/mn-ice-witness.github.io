@@ -3,7 +3,7 @@ date: 2026-01-02
 time: unknown
 location: TruNorth Solar factory
 city: Arden Hills
-type: community-member-detained
+type: immigrants
 status: unknown
 victim_citizenship: undocumented
 injuries: unknown

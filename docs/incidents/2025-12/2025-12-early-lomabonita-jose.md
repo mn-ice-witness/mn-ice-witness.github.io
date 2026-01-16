@@ -3,7 +3,7 @@ date: 2025-12-01
 time: lunchtime
 location: Lomabonita restaurant, Margaret Street and White Bear Avenue
 city: St. Paul (East Side)
-type: community-member-detained
+type: immigrants
 status: ongoing
 victim_citizenship: legal-status
 injuries: none

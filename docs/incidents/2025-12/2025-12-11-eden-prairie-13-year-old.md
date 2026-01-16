@@ -3,7 +3,7 @@ date: 2025-12-11
 time: 10:20
 location: Apartment complex
 city: Eden Prairie
-type: community-member-detained
+type: immigrants
 status: ongoing
 victim_citizenship: asylum-seeker
 injuries: serious

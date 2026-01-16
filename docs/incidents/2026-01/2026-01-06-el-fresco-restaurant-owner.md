@@ -3,7 +3,7 @@ date: 2026-01-06
 time: 09:30
 location: Apple Valley / El Fresco Restaurant, Bloomington
 city: Bloomington
-type: community-member-detained
+type: immigrants
 status: ongoing
 victim_citizenship: undocumented
 injuries: none

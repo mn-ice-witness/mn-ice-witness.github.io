@@ -3,7 +3,7 @@ date: 2025-12-04
 time: unknown
 location: Twin Cities area
 city: Minneapolis
-type: community-member-detained
+type: immigrants
 status: ongoing
 victim_citizenship: legal-resident
 injuries: none

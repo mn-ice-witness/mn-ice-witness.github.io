@@ -3,7 +3,7 @@ date: 2026-01-13
 time: unknown
 location: Eastside Co-op, 2551 Central Ave NE
 city: Minneapolis
-type: bystander-arrested
+type: observers
 status: resolved
 victim_citizenship: us-citizen
 injuries: none

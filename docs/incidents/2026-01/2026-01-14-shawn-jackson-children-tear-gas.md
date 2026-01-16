@@ -3,7 +3,7 @@ date: 2026-01-14
 time: 19:00
 location: 600 block of 24th Avenue North
 city: Minneapolis
-type: bystander-arrested
+type: observers
 status: resolved
 victim_citizenship: us-citizen
 injuries: serious

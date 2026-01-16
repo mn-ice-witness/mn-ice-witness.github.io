@@ -3,7 +3,7 @@ date: 2026-01-12
 time: afternoon
 location: El Taquito Taco Shop, West St. Paul
 city: West St. Paul
-type: citizen-legal-detained-beaten
+type: citizens
 status: resolved
 victim_citizenship: us-citizen
 injuries: none

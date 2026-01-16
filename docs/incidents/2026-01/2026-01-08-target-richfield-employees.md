@@ -3,7 +3,7 @@ date: 2026-01-08
 time: unknown
 location: Target Store, 6445 Richfield Pkwy
 city: Richfield
-type: citizen-legal-detained-beaten
+type: citizens
 status: resolved
 victim_citizenship: us-citizen
 injuries: serious

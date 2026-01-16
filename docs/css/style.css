@@ -16,8 +16,8 @@
     --trust-medium: #bf8700;
     --trust-low: #cf222e;
 
-    --type-bystanders: #0969da;
-    --type-community: #8250df;
+    --type-observers: #0969da;
+    --type-immigrants: #8250df;
     --type-citizens: #bf3989;
     --type-fatal: #cf222e;
     --type-schools: #bc4c00;
@@ -295,10 +295,10 @@ body {
     font-family: var(--font-sans);
     font-size: 0.7rem;
     font-weight: 600;
-    color: var(--type-bystanders);
+    color: var(--type-observers);
     text-decoration: none;
     padding: 3px 10px;
-    border: 1px solid var(--type-bystanders);
+    border: 1px solid var(--type-observers);
     border-radius: 100px;
     margin-left: 12px;
     vertical-align: middle;
@@ -307,7 +307,7 @@ body {
 }
 
 .about-link:hover {
-    background: var(--type-bystanders);
+    background: var(--type-observers);
     color: white;
 }
 
@@ -390,8 +390,8 @@ body {
     border: 1.5px solid transparent;
 }
 
-.nav-bystanders { background: #ddf4ff; color: var(--type-bystanders); border-color: #54aeff33; }
-.nav-community { background: #fbefff; color: var(--type-community); border-color: #a475f933; }
+.nav-observers { background: #ddf4ff; color: var(--type-observers); border-color: #54aeff33; }
+.nav-immigrants { background: #fbefff; color: var(--type-immigrants); border-color: #a475f933; }
 .nav-citizens { background: #ffeff7; color: var(--type-citizens); border-color: #ff80c833; }
 .nav-fatal { background: #ffebe9; color: var(--type-fatal); border-color: #ff818433; }
 .nav-schools { background: #fff1e5; color: var(--type-schools); border-color: #fb8f4433; }
@@ -572,8 +572,8 @@ body {
     flex-shrink: 0;
 }
 
-.marker-bystanders { background: var(--type-bystanders); }
-.marker-community { background: var(--type-community); }
+.marker-observers { background: var(--type-observers); }
+.marker-immigrants { background: var(--type-immigrants); }
 .marker-citizens { background: var(--type-citizens); }
 .marker-fatal { background: var(--type-fatal); }
 .marker-schools { background: var(--type-schools); }
@@ -911,18 +911,18 @@ body {
 }
 
 .lightbox-body a {
-    color: var(--type-bystanders);
+    color: var(--type-observers);
     text-decoration: none;
     border-bottom: 1px solid transparent;
     transition: border-color 0.15s;
 }
 
 .lightbox-body a:hover {
-    border-color: var(--type-bystanders);
+    border-color: var(--type-observers);
 }
 
 .lightbox-body blockquote {
-    border-left: 3px solid var(--type-bystanders);
+    border-left: 3px solid var(--type-observers);
     padding-left: 16px;
     margin: 16px 0;
     color: var(--color-text-secondary);
@@ -1010,14 +1010,14 @@ body {
 }
 
 .about-content a {
-    color: var(--type-bystanders);
+    color: var(--type-observers);
     text-decoration: none;
     border-bottom: 1px solid transparent;
     transition: border-color 0.15s;
 }
 
 .about-content a:hover {
-    border-bottom-color: var(--type-bystanders);
+    border-bottom-color: var(--type-observers);
 }
 
 .about-content strong {

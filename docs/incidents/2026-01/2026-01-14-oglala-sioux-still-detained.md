@@ -3,7 +3,7 @@ date: 2026-01-14
 time: unknown
 location: Fort Snelling ICE Facility
 city: Minneapolis
-type: citizen-legal-detained-beaten
+type: citizens
 status: ongoing
 victim_citizenship: us-citizen
 injuries: unknown

@@ -3,7 +3,7 @@ date: 2026-01-11
 time: unknown
 location: Minneapolis street
 city: Minneapolis
-type: bystander-arrested
+type: observers
 status: resolved
 victim_citizenship: unknown
 injuries: minor

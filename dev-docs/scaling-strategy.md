@@ -14,10 +14,10 @@ This document tracks our data scaling decisions, current metrics, and future con
 ### By Category
 | Category | Count | Est. Size |
 |----------|-------|-----------|
-| community-member-detained | 31 | ~29 KB |
-| bystander-arrested | 18 | ~16 KB |
-| citizen-legal-detained-beaten | 17 | ~17 KB |
-| official-response | 9 | ~7 KB |
+| immigrants | 31 | ~29 KB |
+| observers | 18 | ~16 KB |
+| citizens | 17 | ~17 KB |
+| response | 9 | ~7 KB |
 | schools-hospitals | 9 | ~8 KB |
 
 ## Current Architecture Decision
@@ -29,7 +29,7 @@ This document tracks our data scaling decisions, current metrics, and future con
 - Single HTTP request is faster than 5 on HTTP/2
 - LLMs can consume entire dataset in one context window
 - Simple architecture, fewer moving parts
-- Incidents with dual categories (e.g., HCMC patient incident is both `community-member-detained` and `schools-hospitals`) don't require duplication or complex handling
+- Incidents with dual categories (e.g., HCMC patient incident is both `immigrants` and `schools-hospitals`) don't require duplication or complex handling
 
 ## Future Thresholds
 
@@ -50,7 +50,7 @@ Create 5 separate JSON files:
 - `incidents-bystanders.json`
 - `incidents-community.json`
 - `incidents-schools-hospitals.json`
-- `incidents-official-response.json`
+- `incidents-response.json`
 
 **Pros:** Progressive loading, smaller individual fetches, LLMs can request single category
 **Cons:** 5 HTTP requests, dual-category incidents need duplication, more complex code

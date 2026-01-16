@@ -3,7 +3,7 @@ date: 2025-12-07
 time: 11:30
 location: Church of the Assumption of the Blessed Mary, Richfield
 city: Richfield
-type: bystander-arrested
+type: observers
 status: resolved
 victim_citizenship: us-citizen
 injuries: none

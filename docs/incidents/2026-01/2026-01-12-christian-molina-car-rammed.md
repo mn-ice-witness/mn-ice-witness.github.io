@@ -3,7 +3,7 @@ date: 2026-01-12
 time: 12:00
 location: East 35th Street near Park Avenue
 city: Minneapolis
-type: citizen-legal-detained-beaten
+type: citizens
 status: resolved
 victim_citizenship: us-citizen
 injuries: minor

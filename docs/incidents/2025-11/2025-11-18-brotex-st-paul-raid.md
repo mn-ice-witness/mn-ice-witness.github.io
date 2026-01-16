@@ -3,7 +3,7 @@ date: 2025-11-18
 time: daytime
 location: Bro-Tex Inc., 830 N. Hampden Ave (off University Ave)
 city: St. Paul
-type: community-member-detained
+type: immigrants
 status: resolved-detained
 victim_citizenship: undocumented
 injuries: protesters pepper-sprayed

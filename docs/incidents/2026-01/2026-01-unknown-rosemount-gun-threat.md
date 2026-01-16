@@ -3,7 +3,7 @@ date: 2026-01-01
 time: unknown
 location: Rosemount
 city: Rosemount
-type: bystander-arrested
+type: observers
 status: unknown
 victim_citizenship: unknown
 injuries: none

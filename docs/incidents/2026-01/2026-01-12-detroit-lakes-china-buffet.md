@@ -3,7 +3,7 @@ date: 2026-01-12
 time: morning
 location: China Buffet restaurant, 317 Frazee Street
 city: Detroit Lakes
-type: community-member-detained
+type: immigrants
 status: ongoing
 victim_citizenship: undocumented
 injuries: none

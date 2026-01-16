@@ -3,7 +3,7 @@ date: 2026-01-06
 time: 09:00
 location: Wilderness Inquiry, 930 E., Bloomington
 city: Bloomington
-type: community-member-detained
+type: immigrants
 status: resolved-detained
 victim_citizenship: unknown
 injuries: none

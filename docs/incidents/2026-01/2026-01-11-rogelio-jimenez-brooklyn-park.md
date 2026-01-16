@@ -3,7 +3,7 @@ date: 2026-01-11
 time: unknown
 location: Brooklyn Boulevard
 city: Brooklyn Park
-type: citizen-legal-detained-beaten
+type: citizens
 status: resolved
 victim_citizenship: us-citizen
 injuries: minor

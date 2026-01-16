@@ -53,7 +53,7 @@ For each official response, document:
 
 When a response relates to a documented incident:
 1. Add a `## DHS Response` section to the incident file
-2. Create a separate `official-response` type file for the Response tab
+2. Create a separate `response` type file for the Response tab
 3. Cross-reference between them
 
 ## Fact-Checking Claims

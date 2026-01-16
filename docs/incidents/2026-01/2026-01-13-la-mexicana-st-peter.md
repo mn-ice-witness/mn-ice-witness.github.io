@@ -3,7 +3,7 @@ date: 2026-01-13
 time: afternoon
 location: La Mexicana Market and Restaurant, downtown St. Peter
 city: St. Peter
-type: community-member-detained
+type: immigrants
 status: ongoing
 victim_citizenship: undocumented
 injuries: none

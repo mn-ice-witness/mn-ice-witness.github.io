@@ -3,7 +3,7 @@ date: 2026-01-13
 time: unknown
 location: DHS Official Statement
 city: Minneapolis
-type: official-response
+type: response
 status: ongoing
 victim_citizenship: various
 injuries: none

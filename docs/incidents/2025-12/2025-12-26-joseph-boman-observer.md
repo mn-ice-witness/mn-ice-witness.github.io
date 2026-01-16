@@ -3,7 +3,7 @@ date: 2025-12-26
 time: unknown
 location: Minnoco gas station, Penn Avenue and West 68th Street
 city: Richfield
-type: bystander-arrested
+type: observers
 status: resolved
 victim_citizenship: us-citizen
 injuries: none

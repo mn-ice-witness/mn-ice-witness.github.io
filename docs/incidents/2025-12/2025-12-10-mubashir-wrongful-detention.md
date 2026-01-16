@@ -3,7 +3,7 @@ date: 2025-12-10
 time: afternoon
 location: Cedar-Riverside neighborhood, near restaurant
 city: Minneapolis
-type: citizen-legal-detained-beaten
+type: citizens
 status: resolved
 victim_citizenship: us-citizen
 injuries: minor

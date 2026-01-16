@@ -3,7 +3,7 @@ date: 2025-12-12
 time: unknown
 location: Crumbs and Coffee restaurant
 city: Brooklyn Park
-type: community-member-detained
+type: immigrants
 status: ongoing
 victim_citizenship: undocumented
 injuries: none

@@ -3,7 +3,7 @@ date: 2025-12-31
 time: unknown
 location: Hennepin County Medical Center (HCMC)
 city: Minneapolis
-type: community-member-detained, schools-hospitals
+type: immigrants, schools-hospitals
 status: resolved
 victim_citizenship: undocumented
 injuries: unknown

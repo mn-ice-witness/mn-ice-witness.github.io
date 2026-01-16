@@ -3,7 +3,7 @@ date: 2026-01-11
 time: unknown
 location: DHS Official Statement
 city: St. Paul
-type: official-response
+type: response
 status: resolved
 victim_citizenship: us-citizen
 injuries: none

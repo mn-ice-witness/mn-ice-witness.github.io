@@ -3,7 +3,7 @@ date: 2026-01-10
 time: evening
 location: Walmart, Maple Grove
 city: Maple Grove
-type: community-member-detained
+type: immigrants
 status: unknown
 victim_citizenship: unknown
 injuries: unknown

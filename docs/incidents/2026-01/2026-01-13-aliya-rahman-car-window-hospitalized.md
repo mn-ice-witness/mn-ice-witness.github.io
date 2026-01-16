@@ -3,7 +3,7 @@ date: 2026-01-13
 time: morning
 location: 34th Street and Park Avenue
 city: Minneapolis
-type: bystander-arrested
+type: observers
 status: under-investigation
 victim_citizenship: us-citizen
 injuries: serious

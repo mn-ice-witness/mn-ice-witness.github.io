@@ -3,7 +3,7 @@ date: 2026-01-13
 time: daytime
 location: Shearer's Foods manufacturing facility
 city: Perham
-type: community-member-detained
+type: immigrants
 status: ongoing
 victim_citizenship: unknown
 injuries: none

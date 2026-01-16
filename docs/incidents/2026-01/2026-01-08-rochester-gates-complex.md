@@ -3,7 +3,7 @@ date: 2026-01-08
 time: daytime
 location: Gates of Rochester complex and various locations
 city: Rochester
-type: community-member-detained
+type: immigrants
 status: ongoing
 victim_citizenship: various
 injuries: possible (hammer used on window)

@@ -3,7 +3,7 @@ date: 2026-01-07
 time: afternoon
 location: Portland Avenue
 city: Minneapolis
-type: bystander-arrested
+type: observers
 status: resolved-released
 victim_citizenship: us-citizen
 injuries: none-physical
