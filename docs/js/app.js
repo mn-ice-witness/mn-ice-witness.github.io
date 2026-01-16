@@ -134,6 +134,8 @@ const App = {
             btn.classList.toggle('active', btn.dataset.view === view);
         });
 
+        toggle.classList.toggle('list-active', view === 'list');
+
         if (sectionNav) {
             sectionNav.style.display = view === 'media' ? 'none' : '';
         }
@@ -190,6 +192,17 @@ const App = {
         // Clear gallery and add columns
         gallery.innerHTML = '';
         columns.forEach(col => gallery.appendChild(col));
+
+        // Add footer link
+        const footer = document.createElement('div');
+        footer.className = 'media-gallery-footer';
+        footer.innerHTML = '<a href="#list">Click here for a list of all incidents</a>';
+        footer.querySelector('a').addEventListener('click', (e) => {
+            e.preventDefault();
+            this.switchView('list');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+        gallery.appendChild(footer);
 
         // Set up video behavior - autoplay on scroll
         this.setupScrollToPlay(gallery);
