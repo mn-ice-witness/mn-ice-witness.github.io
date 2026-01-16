@@ -1,0 +1,96 @@
+# Scaling Strategy
+
+This document tracks our data scaling decisions, current metrics, and future considerations.
+
+## Current State (Jan 15, 2026)
+
+**Project age:** 2 days (launched Dec 2025, active documentation started Jan 13, 2026)
+
+### Data Metrics
+- **Total incidents:** 81
+- **Summary file size:** 88 KB (`docs/data/incidents-summary.json`)
+- **Individual incident files:** 81 markdown files in `docs/incidents/`
+
+### By Category
+| Category | Count | Est. Size |
+|----------|-------|-----------|
+| community-member-detained | 31 | ~29 KB |
+| bystander-arrested | 18 | ~16 KB |
+| citizen-legal-detained-beaten | 17 | ~17 KB |
+| official-response | 9 | ~7 KB |
+| schools-hospitals | 9 | ~8 KB |
+
+## Current Architecture Decision
+
+**Decision:** Keep single `incidents-summary.json` file
+
+**Rationale (Jan 15, 2026):**
+- 88KB is easily handled by browsers (50-100ms fetch)
+- Single HTTP request is faster than 5 on HTTP/2
+- LLMs can consume entire dataset in one context window
+- Simple architecture, fewer moving parts
+- Incidents with dual categories (e.g., HCMC patient incident is both `community-member-detained` and `schools-hospitals`) don't require duplication or complex handling
+
+## Future Thresholds
+
+Consider revisiting architecture when:
+
+| Metric | Current | Threshold | Action |
+|--------|---------|-----------|--------|
+| Total incidents | 81 | 500+ | Consider splitting by category |
+| File size | 88 KB | 500 KB+ | Consider splitting or pagination |
+| Single category | 31 | 200+ | Consider sub-categorization |
+| Load time | ~100ms | 1s+ | Add loading indicators, consider lazy load |
+
+## Future Options (Not Implemented)
+
+### Option A: Split by Category
+Create 5 separate JSON files:
+- `incidents-citizens.json`
+- `incidents-bystanders.json`
+- `incidents-community.json`
+- `incidents-schools-hospitals.json`
+- `incidents-official-response.json`
+
+**Pros:** Progressive loading, smaller individual fetches, LLMs can request single category
+**Cons:** 5 HTTP requests, dual-category incidents need duplication, more complex code
+
+### Option B: Add Index File
+Keep full file, add lightweight `incidents-index.json` (~5KB) with just:
+- file paths
+- titles
+- dates
+- types
+- notable flag
+
+**Pros:** LLMs can fetch just metadata, best of both worlds
+**Cons:** Two files to maintain, marginal benefit at current scale
+
+### Option C: Pagination
+Load incidents in batches (e.g., 20 at a time) with infinite scroll.
+
+**Pros:** Fast initial load regardless of total count
+**Cons:** Complex implementation, poor for LLM consumption, harder to search
+
+## LLM Consumption Notes
+
+The `incidents-summary.json` file is designed to be LLM-friendly:
+- Single file, single fetch
+- Structured JSON with consistent schema
+- Each incident has: title, summary, date, location, type, sources
+- Full incident markdown files available at `filePath` for deep dives
+
+LLMs can:
+1. Fetch entire summary for overview analysis
+2. Request specific incident markdown files for full details
+3. Filter by type, date, or other fields
+
+## Decision Log
+
+| Date | Decision | Rationale |
+|------|----------|-----------|
+| 2026-01-15 | Keep single JSON file | 88KB is small, splitting adds complexity without meaningful benefit |
+
+---
+
+*Last updated: 2026-01-15*
