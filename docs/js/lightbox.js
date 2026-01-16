@@ -2,8 +2,6 @@ const Lightbox = {
     element: null,
     bodyElement: null,
     currentSlug: null,
-    cameFromAbout: false,
-    previousSlug: null,
     currentIncidentData: null,
 
     init() {
@@ -19,22 +17,24 @@ const Lightbox = {
             }
         });
 
-        window.addEventListener('popstate', (e) => {
-            if (this.isOpen()) {
-                if (e.state && e.state.lightbox && e.state.slug === 'about') {
-                    this.openAbout(true);
-                } else if (e.state && e.state.lightbox && e.state.slug) {
-                    this.openIncidentBySlugWithoutHistory(e.state.slug);
-                } else if (!e.state || !e.state.lightbox) {
-                    this.closeWithoutHistory();
-                }
-            }
-        });
+        window.addEventListener('popstate', (e) => this.handlePopState(e));
 
         document.getElementById('about-link')?.addEventListener('click', (e) => {
             e.preventDefault();
             this.openAbout();
         });
+    },
+
+    handlePopState(e) {
+        if (e.state && e.state.lightbox) {
+            if (e.state.slug === 'about') {
+                this.showAbout();
+            } else if (e.state.slug) {
+                this.showIncident(e.state.slug);
+            }
+        } else if (this.isOpen()) {
+            this.closeLightbox();
+        }
     },
 
     getSlugFromFilePath(filePath) {
@@ -46,21 +46,71 @@ const Lightbox = {
         return this.element.getAttribute('aria-hidden') === 'false';
     },
 
-    async open(incident, fromSlug = null) {
+    async open(incident) {
         this.bodyElement.innerHTML = '<div class="table-loading">Loading...</div>';
         this.element.setAttribute('aria-hidden', 'false');
         document.body.style.overflow = 'hidden';
 
-        if (fromSlug) {
-            this.previousSlug = fromSlug;
-        }
-
-        // Store incident data for media rendering
         this.currentIncidentData = incident;
-
         this.currentSlug = this.getSlugFromFilePath(incident.filePath);
         history.pushState({ lightbox: true, slug: this.currentSlug }, '', '#' + this.currentSlug);
 
+        await this.renderIncidentContent(incident);
+    },
+
+    async openAbout() {
+        this.bodyElement.innerHTML = '<div class="table-loading">Loading...</div>';
+        this.element.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+
+        this.currentSlug = 'about';
+        history.pushState({ lightbox: true, slug: 'about' }, '', '#about');
+
+        await this.renderAboutContent();
+    },
+
+    async openIncidentBySlug(slug) {
+        const incident = App.incidents.find(i => {
+            const incidentSlug = i.filePath.split('/').pop().replace('.md', '');
+            return incidentSlug === slug;
+        });
+
+        if (incident) {
+            await this.open(incident);
+        }
+    },
+
+    async showIncident(slug) {
+        const incident = App.incidents.find(i => {
+            const incidentSlug = i.filePath.split('/').pop().replace('.md', '');
+            return incidentSlug === slug;
+        });
+
+        if (incident) {
+            this.bodyElement.innerHTML = '<div class="table-loading">Loading...</div>';
+            this.element.setAttribute('aria-hidden', 'false');
+            document.body.style.overflow = 'hidden';
+
+            this.currentIncidentData = incident;
+            this.currentSlug = slug;
+
+            await this.renderIncidentContent(incident);
+        } else {
+            this.closeLightbox();
+        }
+    },
+
+    async showAbout() {
+        this.bodyElement.innerHTML = '<div class="table-loading">Loading...</div>';
+        this.element.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+
+        this.currentSlug = 'about';
+
+        await this.renderAboutContent();
+    },
+
+    async renderIncidentContent(incident) {
         const response = await fetch(incident.filePath);
         const content = await response.text();
         const fullIncident = IncidentParser.parseIncident(content, incident.filePath);
@@ -68,7 +118,6 @@ const Lightbox = {
         const html = this.renderIncident(fullIncident, incident);
         this.bodyElement.innerHTML = html;
 
-        // Set up video controls if present
         this.setupMediaControls();
 
         this.bodyElement.querySelector('.share-btn')?.addEventListener('click', () => this.copyShareLink());
@@ -78,23 +127,13 @@ const Lightbox = {
             if (slug && slug !== 'about' && slug !== this.currentSlug) {
                 link.addEventListener('click', (e) => {
                     e.preventDefault();
-                    this.openIncidentBySlug(slug, this.currentSlug);
+                    this.openIncidentBySlug(slug);
                 });
             }
         });
     },
 
-    async openAbout(skipHistory = false) {
-        this.bodyElement.innerHTML = '<div class="table-loading">Loading...</div>';
-        this.element.setAttribute('aria-hidden', 'false');
-        document.body.style.overflow = 'hidden';
-
-        this.currentSlug = 'about';
-        this.cameFromAbout = false;
-        if (!skipHistory) {
-            history.pushState({ lightbox: true, slug: 'about' }, '', '#about');
-        }
-
+    async renderAboutContent() {
         const response = await fetch('about.md');
         const content = await response.text();
 
@@ -120,58 +159,10 @@ const Lightbox = {
             if (slug && slug !== 'about') {
                 link.addEventListener('click', (e) => {
                     e.preventDefault();
-                    this.openIncidentBySlug(slug, 'about');
+                    this.openIncidentBySlug(slug);
                 });
             }
         });
-    },
-
-    async openIncidentBySlug(slug, fromSlug = null) {
-        const incident = App.incidents.find(i => {
-            const incidentSlug = i.filePath.split('/').pop().replace('.md', '');
-            return incidentSlug === slug;
-        });
-
-        if (incident) {
-            if (fromSlug === 'about') {
-                this.cameFromAbout = true;
-            }
-            await this.open(incident, fromSlug);
-        }
-    },
-
-    async openIncidentBySlugWithoutHistory(slug) {
-        const incident = App.incidents.find(i => {
-            const incidentSlug = i.filePath.split('/').pop().replace('.md', '');
-            return incidentSlug === slug;
-        });
-
-        if (incident) {
-            this.bodyElement.innerHTML = '<div class="table-loading">Loading...</div>';
-
-            this.currentSlug = slug;
-            this.previousSlug = null;
-            this.cameFromAbout = false;
-
-            const response = await fetch(incident.filePath);
-            const content = await response.text();
-            const fullIncident = IncidentParser.parseIncident(content, incident.filePath);
-
-            const html = this.renderIncident(fullIncident);
-            this.bodyElement.innerHTML = html;
-
-            this.bodyElement.querySelector('.share-btn')?.addEventListener('click', () => this.copyShareLink());
-
-            this.bodyElement.querySelectorAll('a[href^="#"]').forEach(link => {
-                const linkSlug = link.getAttribute('href').slice(1);
-                if (linkSlug && linkSlug !== 'about' && linkSlug !== this.currentSlug) {
-                    link.addEventListener('click', (e) => {
-                        e.preventDefault();
-                        this.openIncidentBySlug(linkSlug, this.currentSlug);
-                    });
-                }
-            });
-        }
     },
 
     close() {
@@ -180,30 +171,17 @@ const Lightbox = {
         }
     },
 
-    closeWithoutHistory() {
-        if (this.cameFromAbout) {
-            this.cameFromAbout = false;
-            this.previousSlug = null;
-            this.openAbout();
-            return;
-        }
-
-        if (this.previousSlug) {
-            const prevSlug = this.previousSlug;
-            this.previousSlug = null;
-            this.openIncidentBySlug(prevSlug);
-            return;
-        }
-
+    closeLightbox() {
         this.element.setAttribute('aria-hidden', 'true');
         document.body.style.overflow = '';
         this.currentSlug = null;
-        this.previousSlug = null;
+        this.currentIncidentData = null;
+
         const hash = window.location.hash.slice(1);
         if (hash === 'list') {
-            history.replaceState({ lightbox: false }, '', '#list');
-        } else {
-            history.replaceState({ lightbox: false }, '', window.location.pathname);
+            history.replaceState(null, '', '#list');
+        } else if (hash && hash !== 'media') {
+            history.replaceState(null, '', window.location.pathname);
         }
     },
 
@@ -239,7 +217,6 @@ const Lightbox = {
             if (iconPause) iconPause.style.display = '';
         };
 
-        // Click overlay or video to toggle
         const toggle = () => {
             if (video.paused) {
                 video.play();
@@ -253,12 +230,10 @@ const Lightbox = {
         if (overlayBtn) overlayBtn.addEventListener('click', toggle);
         video.addEventListener('click', toggle);
 
-        // When video ends, show play icon
         video.addEventListener('ended', () => {
             showPlayIcon();
         });
 
-        // Sync icon with video state
         video.addEventListener('play', showPauseIcon);
         video.addEventListener('pause', showPlayIcon);
     },
@@ -268,7 +243,6 @@ const Lightbox = {
 
         const mediaFiles = summaryData.localMediaFiles || [];
         if (mediaFiles.length === 0) {
-            // Fallback to single media for backwards compatibility
             const mediaUrl = App.getMediaUrl(summaryData.localMediaPath);
             if (summaryData.localMediaType === 'video') {
                 return this.renderVideoElement(mediaUrl);
@@ -278,7 +252,6 @@ const Lightbox = {
             return '';
         }
 
-        // Render all media files
         let html = '';
         for (const media of mediaFiles) {
             const mediaUrl = App.getMediaUrl(media.path);
@@ -348,14 +321,12 @@ const Lightbox = {
         bodyHtml = this.embedVideos(bodyHtml);
         bodyHtml = this.reorderSections(bodyHtml);
 
-        // Insert media after the title (h1) but before summary
         bodyHtml = bodyHtml.replace(/(<\/h1>)/, `$1${localMedia}`);
 
         return header + bodyHtml;
     },
 
     reorderSections(html) {
-        // No reordering - preserve markdown order (Summary -> Sources -> Victim(s) -> ...)
         return html;
     },
 

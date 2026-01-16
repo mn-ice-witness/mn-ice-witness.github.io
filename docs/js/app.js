@@ -277,6 +277,10 @@ const App = {
     },
 
     openFromHash() {
+        if (Lightbox.isOpen()) {
+            return;
+        }
+
         const hash = window.location.hash.slice(1);
         if (!hash || hash === 'media') {
             if (this.currentView !== 'media') this.switchView('media');
