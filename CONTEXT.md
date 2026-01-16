@@ -90,11 +90,15 @@ last_updated: YYYY-MM-DD
 ### Type Categories (exactly 5)
 | Type | Website Section | Use For |
 |------|-----------------|---------|
-| `citizens` | Citizens | U.S. citizens or legal residents wrongly detained/beaten |
-| `observers` | Observers | Observers/protesters arrested or attacked |
+| `citizens` | Citizens | U.S. citizens or legal residents **racially profiled or mistakenly targeted while going about daily life** (working, driving, shopping, walking) — targeted for who they are |
+| `observers` | Observers | People **detained or attacked for filming, observing, or protesting** ICE operations — targeted for what they were doing (First Amendment activity) |
 | `immigrants` | Immigrants | Non-criminal immigrants detained, **including workplace raids** |
 | `schools-hospitals` | Schools/Hospitals | Actions at/near schools or hospitals, including patient targeting and workplace audits |
 | `response` | Response | DHS/ICE official statements |
+
+**Citizens vs Observers:** Both may involve U.S. citizens being detained. The key distinction:
+- **Citizens** = Targeted for WHO THEY ARE (racial profiling, mistaken identity, just living their lives)
+- **Observers** = Targeted for WHAT THEY WERE DOING (actively filming, following, observing, protesting ICE)
 
 **Note:** Multiple types ARE allowed. Use comma-separated values when an incident fits multiple categories (e.g., `type: citizens, schools-hospitals`).
 

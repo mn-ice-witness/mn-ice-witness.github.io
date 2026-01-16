@@ -30,6 +30,18 @@ Aaron Reichlin-Melnick of the American Immigration Council noted: "DHS is implic
 
 This site compiles sourced, verified incidents from Minnesota during Operation Metro Surge (December 2025 – present).
 
+### Categories
+
+Incidents are organized into five categories:
+
+- **Citizens** — U.S. citizens/legal residents randomly targeted while going about daily life (working, driving, shopping)
+- **Observers** — People targeted for filming, observing, or protesting ICE operations
+- **Immigrants** — Non-criminal immigrants detained, including workplace raids
+- **Schools/Hospitals** — Actions at or near schools, hospitals, and healthcare institutions
+- **Response** — Official DHS/ICE statements about specific incidents
+
+*Note: "Citizens" and "Observers" may both involve U.S. citizens. The distinction is whether they were randomly targeted (Citizens) or targeted for their First Amendment activity (Observers).*
+
 ### Legend
 
 <div style="background: #f8f9fa; border: 1px solid #e2e2e2; border-radius: 6px; padding: 16px; margin: 16px 0;">

@@ -37,11 +37,16 @@ last_updated: YYYY-MM-DD      # Required. When file was last updated
 
 | Value | Use For |
 |-------|---------|
-| `citizens` | U.S. citizens or legal residents wrongly detained/arrested/beaten |
-| `observers` | Observers/protesters arrested or attacked |
+| `citizens` | U.S. citizens or legal residents **racially profiled or mistakenly targeted while going about daily life** — targeted for who they are |
+| `observers` | People **detained or attacked for filming, observing, or protesting** ICE — targeted for what they were doing |
 | `immigrants` | Non-criminal immigrants detained (includes workplace raids) |
 | `schools-hospitals` | Actions at/near schools or hospitals, including patient targeting and workplace audits |
 | `response` | DHS/ICE official statements justifying specific incidents/arrests |
+
+**Citizens vs Observers — Key Distinction:**
+Both categories may involve U.S. citizens being detained. Choose based on WHY they were targeted:
+- **`citizens`** = Racial profiling or mistaken identity. Person was just living their life (working, driving, shopping, walking).
+- **`observers`** = First Amendment retaliation. Person was actively filming, following, watching, or protesting ICE.
 
 **Notes:**
 - **Multiple types ARE allowed** - use comma-separated values (e.g., `type: citizens, schools-hospitals`) when an incident fits multiple categories

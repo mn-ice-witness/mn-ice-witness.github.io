@@ -52,6 +52,17 @@ Well-sourced stories from major news outlets documenting U.S. citizens being sto
 # Citizen Check: U.S. Citizen Surrounded by ICE Agents at West St. Paul Restaurant
 ```
 
+### Citizens vs Observers — Choosing the Right Type
+
+Both `citizens` and `observers` may involve U.S. citizens being detained. Choose based on **WHY they were targeted**:
+
+| Type | Use When | Examples |
+|------|----------|----------|
+| `citizens` | Person was **racially profiled or mistakenly targeted** while going about daily life | On lunch break, driving, shopping, shoveling snow, leaving work |
+| `observers` | Person was **targeted for filming, observing, or protesting** ICE operations | Following ICE vehicles, responding to alerts, filming arrests, at protests |
+
+**Key question:** Was the person targeted for WHO THEY ARE (citizens) or WHAT THEY WERE DOING (observers)?
+
 ## Trustworthiness Rating Criteria
 
 **IMPORTANT:** Use exactly one of these four values: `high`, `medium`, `low`, `unverified`. Do NOT use compound ratings like "medium-high" or "low-medium".
@@ -143,7 +154,7 @@ date: 2026-01-15
 time: unknown
 location: Specific location
 city: Minneapolis
-type: citizen-detained
+type: citizens
 status: resolved
 victim_citizenship: us-citizen
 injuries: none
