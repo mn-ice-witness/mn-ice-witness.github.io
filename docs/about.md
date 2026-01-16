@@ -93,11 +93,20 @@ All incidents are documented using publicly available sources including:
 
 Incidents are rated for trustworthiness (HIGH, MEDIUM, LOW, UNVERIFIED) based on source quantity, quality, and corroboration — including whether reports come from major investigative outlets, include video/photo evidence, or feature official confirmations and named witnesses.
 
-## National Media Coverage
+## Investigations & Analysis
 
-Major news outlet analysis of Operation Metro Surge and ICE enforcement tactics:
+In-depth reporting and analysis of ICE enforcement patterns and civil rights concerns:
 
-- [DHS Immigration Crackdown: ICE Arrests and Protests](https://www.cnn.com/interactive/2026/01/09/us/dhs-immigration-crackdown-ice-arrests-protests-vis/index.html) - CNN Interactive (Jan 9, 2026)
-- [2,000 federal agents sent to Minneapolis area to carry out 'largest immigration operation ever,' ICE says](https://www.pbs.org/newshour/politics/2000-federal-agents-sent-to-minneapolis-area-to-carry-out-largest-immigration-operation-ever-ice-says) - PBS NewsHour (Jan 12, 2026)
-- [ICE Videos Minnesota: What the footage shows](https://www.nytimes.com/2026/01/13/us/ice-videos-minnesota-trump-immigration.html) - New York Times (Jan 13, 2026)
+**National Investigations:**
+- [Immigration Agents Have Often Grabbed and Mistreated Citizens, Congressional Investigators Find](https://www.propublica.org/article/immigration-agents-detained-mistreated-citizens-congressional-investigation) - ProPublica
+- [More Than 170 U.S. Citizens Detained by ICE Agents](https://www.propublica.org/article/immigration-dhs-american-citizens-arrested-detained-against-will) - ProPublica
+- [Immigration Agents Using Banned Chokeholds on U.S. Citizens](https://www.propublica.org/article/videos-ice-dhs-immigration-agents-using-chokeholds-citizens) - ProPublica
+
+**Minnesota Coverage:**
+- [Federal agents target observers in the aftermath of Good shooting](https://www.startribune.com/have-yall-not-learned-federal-agents-target-legal-observers-in-the-aftermath-of-good-shooting/601562804) - Star Tribune
+- [ICE agent who shot Renee Nicole Good identified](https://theintercept.com/2026/01/08/ice-agent-identified-shooting-minneapolis-jonathan-ross/) - The Intercept
+- [What ICE agents can and can't do — and what legal rights the public has](https://www.startribune.com/what-ice-agents-can-and-cant-do-and-what-legal-rights-the-public-has-during-encounters/601560316) - Star Tribune
+- [DHS Immigration Crackdown: ICE Arrests and Protests](https://www.cnn.com/interactive/2026/01/09/us/dhs-immigration-crackdown-ice-arrests-protests-vis/index.html) - CNN Interactive
+- [2,000 federal agents sent to Minneapolis area to carry out 'largest immigration operation ever'](https://www.pbs.org/newshour/politics/2000-federal-agents-sent-to-minneapolis-area-to-carry-out-largest-immigration-operation-ever-ice-says) - PBS NewsHour
+- [ICE Videos Minnesota: What the footage shows](https://www.nytimes.com/2026/01/13/us/ice-videos-minnesota-trump-immigration.html) - New York Times
 
