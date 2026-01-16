@@ -19,9 +19,9 @@ emmanuel-sackie-brooklyn-park
 elliott-payne-pushed
 rogelio-jimenez-brooklyn-park
 jesse-ventura-roosevelt
+mankato-women-sprayed
 lyn-lake-tear-gas
 jose-ramirez-native-american
 shawn-jackson-children-tear-gas
 hani-duglof-medical
 christian-molina-car-rammed
-mankato-women-sprayed
