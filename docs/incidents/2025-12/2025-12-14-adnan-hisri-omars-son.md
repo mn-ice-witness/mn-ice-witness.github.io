@@ -7,7 +7,7 @@ type: citizen-legal-detained-beaten
 status: resolved-released
 victim_citizenship: us-citizen
 injuries: none
-trustworthiness: medium-high
+trustworthiness: medium
 last_updated: 2026-01-14
 ---
 
@@ -55,4 +55,4 @@ This incident highlights concerns about:
 - Minnesota being home to the largest Somali community in the U.S.
 
 ## Editorial Assessment
-**MEDIUM-HIGH** - Multiple national news sources. Named U.S. citizen victim. Rep. Omar's account is disputed by DHS, but her son's previous encounters with ICE (including at a mosque) add credibility. The pattern of U.S. citizens being stopped and asked for proof of citizenship is consistent with other documented incidents.
+**MEDIUM** - While well reported by multiple national news sources, there were no other firsthand witnesses present on scene to corroborate the account. The incident relies solely on Rep. Omar's statement about her son's experience. DHS disputes the incident occurred and claims "zero record" of the stop. Named U.S. citizen victim and the pattern of U.S. citizens being stopped is consistent with other documented incidents, but the lack of independent witnesses or corroborating evidence warrants medium rather than higher trustworthiness.
