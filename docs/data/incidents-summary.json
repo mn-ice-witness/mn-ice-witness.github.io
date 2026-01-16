@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768530103,
+  "mediaVersion": 1768530159,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-14-shawn-jackson-children-tear-gas.md",
@@ -260,7 +260,10 @@
       "time": "afternoon",
       "location": "Downtown Willmar",
       "city": "Willmar",
-      "type": "citizen-legal-detained-beaten",
+      "type": [
+        "citizen-legal-detained-beaten",
+        "school-incident"
+      ],
       "status": "unknown",
       "victimCitizenship": "legal-resident",
       "injuries": "none",
@@ -527,7 +530,10 @@
       "time": "morning",
       "location": "Concord Education Center, Inver Grove Heights",
       "city": "Inver Grove Heights",
-      "type": "citizen-legal-detained-beaten",
+      "type": [
+        "citizen-legal-detained-beaten",
+        "school-incident"
+      ],
       "status": "resolved",
       "victimCitizenship": "us-citizen",
       "injuries": "none",

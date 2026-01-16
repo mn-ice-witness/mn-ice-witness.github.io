@@ -77,7 +77,7 @@ date: YYYY-MM-DD
 time: HH:MM (if known, else "unknown")
 location: Specific location
 city: Minneapolis/St. Paul/etc
-type: citizen-legal-detained-beaten | bystander-arrested | community-member-detained | school-incident | official-response  # ONLY these 5 types!
+type: citizen-legal-detained-beaten | bystander-arrested | community-member-detained | school-incident | official-response  # These 5 types only; comma-separate for multiple (e.g., "citizen-legal-detained-beaten, school-incident")
 status: ongoing | resolved | under-investigation
 victim_citizenship: us-citizen | legal-resident | undocumented | asylum-seeker | unknown
 injuries: none | minor | serious | fatal

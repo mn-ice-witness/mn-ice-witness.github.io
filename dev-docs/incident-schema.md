@@ -44,6 +44,7 @@ last_updated: YYYY-MM-DD      # Required. When file was last updated
 | `official-response` | DHS/ICE official statements justifying specific incidents/arrests |
 
 **Notes:**
+- **Multiple types ARE allowed** - use comma-separated values (e.g., `type: citizen-legal-detained-beaten, school-incident`) when an incident fits multiple categories
 - Workplace raids of non-U.S. citizens → use `community-member-detained`
 - Do NOT use `citizen-detained`, `workplace-raid`, or other variant types
 
