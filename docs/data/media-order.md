@@ -12,6 +12,7 @@ mubashir-wrongful-detention
 siguenza-okeefe-detained
 juan-carlos-brutality
 nimco-omar-citizen-check
+garrison-gibson-battering-ram
 ryan-ecklund-filming-detained
 emmanuel-sackie-brooklyn-park
 elliott-payne-pushed

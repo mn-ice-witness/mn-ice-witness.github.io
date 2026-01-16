@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768526962,
+  "mediaVersion": 1768527272,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-14-shawn-jackson-children-tear-gas.md",
@@ -526,9 +526,9 @@
       "lastUpdated": "2026-01-15",
       "mediaCount": 1,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-12-garrison-gibson-battering-ram.mp4"
     },
     {
       "filePath": "incidents/2026-01/2026-01-11-dhs-response-speedway-bystander.md",
