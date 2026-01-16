@@ -227,7 +227,7 @@ const App = {
 
     async sortMediaByOrder(mediaIncidents) {
         try {
-            const response = await fetch('data/media-order.md');
+            const response = await fetch(this.getMediaUrl('data/media-order.md'));
             if (!response.ok) return mediaIncidents;
 
             const text = await response.text();
