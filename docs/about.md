@@ -1,6 +1,6 @@
 # About This Site
 
-<p style="font-size: 0.9em; color: #666; font-style: italic;">To report an incident (must be sourced by a reputable media outlet), submit a correction, or share additional media for a listed incident, contact us at <a href="mailto:mnicewitness@gmail.com">mnicewitness@gmail.com</a>.</p>
+<p style="font-size: 0.9em; color: #666; font-style: italic;"><span style="font-weight: bold; color: #aaa;">Last updated: January 16, 2026</span> | To report an incident (must be sourced by a reputable media outlet), submit a correction, or share additional media for a listed incident, contact us at <a href="mailto:mnicewitness@gmail.com">mnicewitness@gmail.com</a>.</p>
 
 ## The Federal Position
 
@@ -122,4 +122,3 @@ In-depth reporting and analysis of ICE enforcement patterns and civil rights con
 - [2,000 federal agents sent to Minneapolis area to carry out 'largest immigration operation ever'](https://www.pbs.org/newshour/politics/2000-federal-agents-sent-to-minneapolis-area-to-carry-out-largest-immigration-operation-ever-ice-says) - PBS NewsHour
 - [ICE Videos Minnesota: What the footage shows](https://www.nytimes.com/2026/01/13/us/ice-videos-minnesota-trump-immigration.html) - New York Times
 
-<p style="font-style: italic; font-weight: bold; color: #aaa; margin-top: 3em; font-size: 0.85em;">Last updated: January 16, 2026</p>
