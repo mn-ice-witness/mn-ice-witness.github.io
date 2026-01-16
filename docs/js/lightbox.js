@@ -3,6 +3,7 @@ const Lightbox = {
     bodyElement: null,
     currentSlug: null,
     currentIncidentData: null,
+    savedScrollPositions: {},
 
     init() {
         this.element = document.getElementById('lightbox');
@@ -70,6 +71,10 @@ const Lightbox = {
     },
 
     async openIncidentBySlug(slug) {
+        if (this.currentSlug) {
+            this.savedScrollPositions[this.currentSlug] = this.bodyElement.scrollTop;
+        }
+
         const incident = App.incidents.find(i => {
             const incidentSlug = i.filePath.split('/').pop().replace('.md', '');
             return incidentSlug === slug;
@@ -95,6 +100,11 @@ const Lightbox = {
             this.currentSlug = slug;
 
             await this.renderIncidentContent(incident);
+
+            if (this.savedScrollPositions[slug]) {
+                this.bodyElement.scrollTop = this.savedScrollPositions[slug];
+                delete this.savedScrollPositions[slug];
+            }
         } else {
             this.closeLightbox();
         }
@@ -108,6 +118,11 @@ const Lightbox = {
         this.currentSlug = 'about';
 
         await this.renderAboutContent();
+
+        if (this.savedScrollPositions['about']) {
+            this.bodyElement.scrollTop = this.savedScrollPositions['about'];
+            delete this.savedScrollPositions['about'];
+        }
     },
 
     async renderIncidentContent(incident) {
@@ -176,6 +191,7 @@ const Lightbox = {
         document.body.style.overflow = '';
         this.currentSlug = null;
         this.currentIncidentData = null;
+        this.savedScrollPositions = {};
 
         const hash = window.location.hash.slice(1);
         if (hash === 'list') {
