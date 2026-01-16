@@ -164,40 +164,35 @@ const App = {
             return;
         }
 
-        // Sort by media-order.md (reading order: row by row)
+        // Sort by media-order.md
         mediaIncidents = await this.sortMediaByOrder(mediaIncidents);
 
-        // Transform to column-first order for CSS columns layout
         const columnCount = this.getColumnCount();
-        const displayOrder = this.toColumnOrder(mediaIncidents, columnCount);
 
-        gallery.innerHTML = displayOrder.map(incident => this.renderMediaCard(incident)).join('');
+        // Create column containers
+        const columns = [];
+        for (let i = 0; i < columnCount; i++) {
+            const col = document.createElement('div');
+            col.className = 'gallery-column';
+            columns.push(col);
+        }
 
-        // Add click handlers
-        gallery.querySelectorAll('.media-card').forEach((card, index) => {
-            card.addEventListener('click', () => {
-                Lightbox.open(displayOrder[index]);
-            });
+        // Distribute cards round-robin into columns
+        mediaIncidents.forEach((incident, index) => {
+            const columnIndex = index % columnCount;
+            const card = document.createElement('div');
+            card.innerHTML = this.renderMediaCard(incident);
+            const cardEl = card.firstElementChild;
+            cardEl.addEventListener('click', () => Lightbox.open(incident));
+            columns[columnIndex].appendChild(cardEl);
         });
+
+        // Clear gallery and add columns
+        gallery.innerHTML = '';
+        columns.forEach(col => gallery.appendChild(col));
 
         // Set up video behavior - autoplay on scroll
         this.setupScrollToPlay(gallery);
-    },
-
-    // Transform reading order (row by row) to column-first order for CSS columns
-    toColumnOrder(items, columnCount) {
-        if (columnCount <= 1) return items;
-        const result = [];
-        const rowCount = Math.ceil(items.length / columnCount);
-        for (let col = 0; col < columnCount; col++) {
-            for (let row = 0; row < rowCount; row++) {
-                const readingIdx = row * columnCount + col;
-                if (readingIdx < items.length) {
-                    result.push(items[readingIdx]);
-                }
-            }
-        }
-        return result;
     },
 
     setupScrollToPlay(gallery) {

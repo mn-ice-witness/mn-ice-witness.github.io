@@ -453,13 +453,20 @@ body {
 /* ==================== MEDIA GALLERY ==================== */
 
 .media-gallery {
-    column-count: 3;
-    column-gap: 16px;
+    display: flex;
+    gap: 16px;
     padding: 16px;
     max-width: 1400px;
     margin: 0 auto;
     -webkit-overflow-scrolling: touch;
     scroll-behavior: auto;
+}
+
+.gallery-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .gallery-empty {
@@ -476,8 +483,6 @@ body {
     overflow: hidden;
     cursor: pointer;
     transition: transform 0.15s, box-shadow 0.15s;
-    break-inside: avoid;
-    margin-bottom: 16px;
     contain: layout style paint;
     content-visibility: auto;
     contain-intrinsic-size: auto 300px;
@@ -528,15 +533,8 @@ body {
     color: var(--color-text-muted);
 }
 
-@media (max-width: 900px) {
-    .media-gallery {
-        column-count: 2;
-    }
-}
-
 @media (max-width: 600px) {
     .media-gallery {
-        column-count: 1;
         max-width: 90%;
         padding: 16px 0;
     }
