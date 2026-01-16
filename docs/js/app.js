@@ -3,12 +3,14 @@ const App = {
     mediaVersion: '',
     currentView: 'media',
     viewedIncidents: new Set(),
+    sectionHashes: ['citizens', 'observers', 'immigrants', 'schools', 'response'],
 
     async init() {
         this.loadViewedState();
         this.loadViewFromUrl();
         this.initSplash();
         this.initViewToggle();
+        this.initSectionNav();
         this.initClearViewed();
         Lightbox.init();
         await this.loadIncidents();
@@ -20,7 +22,7 @@ const App = {
 
     loadViewFromUrl() {
         const hash = window.location.hash.slice(1);
-        if (hash === 'list') {
+        if (hash === 'list' || this.sectionHashes.includes(hash)) {
             this.currentView = 'list';
         } else if (!hash) {
             const stored = localStorage.getItem('preferredView');
@@ -41,8 +43,12 @@ const App = {
 
     applyInitialView() {
         const hash = window.location.hash.slice(1);
-        const isDeepLink = hash && hash !== 'list' && hash !== 'media';
-        this.switchView(this.currentView, isDeepLink);
+        const isSectionHash = this.sectionHashes.includes(hash);
+        const isDeepLink = hash && hash !== 'list' && hash !== 'media' && !isSectionHash;
+        this.switchView(this.currentView, isDeepLink || isSectionHash);
+        if (isSectionHash) {
+            requestAnimationFrame(() => this.scrollToSection(hash));
+        }
     },
 
     loadViewedState() {
@@ -115,6 +121,23 @@ const App = {
             btn.addEventListener('click', () => {
                 const view = btn.dataset.view;
                 this.switchView(view);
+            });
+        });
+    },
+
+    initSectionNav() {
+        const nav = document.getElementById('section-nav');
+        if (!nav) return;
+
+        nav.querySelectorAll('.nav-pill').forEach(pill => {
+            pill.addEventListener('click', (e) => {
+                e.preventDefault();
+                const hash = pill.getAttribute('href').slice(1);
+                if (this.currentView !== 'list') {
+                    this.switchView('list', true);
+                }
+                history.pushState(null, '', '#' + hash);
+                requestAnimationFrame(() => this.scrollToSection(hash));
             });
         });
     },
@@ -305,6 +328,14 @@ const App = {
             return;
         }
 
+        if (this.sectionHashes.includes(hash)) {
+            if (this.currentView !== 'list') {
+                this.switchView('list', true);
+            }
+            this.scrollToSection(hash);
+            return;
+        }
+
         if (hash === 'about') {
             document.getElementById('splash')?.classList.add('hidden');
             Lightbox.openAbout();
@@ -319,6 +350,17 @@ const App = {
         if (incident) {
             document.getElementById('splash')?.classList.add('hidden');
             Lightbox.open(incident);
+        }
+    },
+
+    scrollToSection(sectionId) {
+        const section = document.getElementById(sectionId);
+        if (section) {
+            const navHeight = document.querySelector('.section-nav')?.offsetHeight || 0;
+            const toggleHeight = document.querySelector('.view-toggle')?.offsetHeight || 0;
+            const offset = navHeight + toggleHeight + 8;
+            const sectionTop = section.getBoundingClientRect().top + window.scrollY - offset;
+            window.scrollTo({ top: sectionTop, behavior: 'smooth' });
         }
     },
 
