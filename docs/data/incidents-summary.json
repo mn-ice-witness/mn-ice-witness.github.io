@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768575652,
+  "mediaVersion": 1768575787,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-14-shawn-jackson-children-tear-gas.md",
@@ -985,17 +985,17 @@
     {
       "filePath": "incidents/2026-01/2026-01-08-little-earth-native-americans.md",
       "title": "Four Homeless Oglala Sioux Citizens Detained Near Little Earth",
-      "summary": "At least four Oglala Sioux Tribe members, all U.S. citizens who were homeless, were detained while sheltering under a bridge near Little Earth. Unable to provide documentation. At least one held 12 hours.",
+      "summary": "Four homeless men, all enrolled members of the Oglala Sioux Tribe and U.S. citizens, were detained by ICE while sheltering under a bridge near the Little Earth Housing Project in the East Phillips neighborhood. They were taken into custody without their names being recorded by authorities. At least one was held for 12 hours before release. The tribe sent attorneys and leadership to Minneapolis to locate the men.",
       "date": "2026-01-08",
       "time": "unknown",
-      "location": "Under bridge near Little Earth",
+      "location": "Under bridge near Little Earth Housing Project",
       "city": "Minneapolis",
       "type": "citizen-legal-detained-beaten",
-      "status": "unknown",
+      "status": "resolved-released",
       "victimCitizenship": "us-citizen",
-      "injuries": "unknown",
-      "trustworthiness": "medium",
-      "lastUpdated": "2026-01-13",
+      "injuries": "none",
+      "trustworthiness": "high",
+      "lastUpdated": "2026-01-16",
       "mediaCount": 0,
       "notable": false,
       "hasLocalMedia": false,
