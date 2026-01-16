@@ -5,6 +5,7 @@
 speedway-st-paul
 disabled-woman-car-window
 target-richfield-employees
+circle-pines-restaurant-worker
 observer-shoved-into-traffic
 roosevelt-high-school
 mubashir-wrongful-detention

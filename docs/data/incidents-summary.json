@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768526077,
+  "mediaVersion": 1768526962,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-14-shawn-jackson-children-tear-gas.md",
@@ -37,9 +37,9 @@
       "lastUpdated": "2026-01-15",
       "mediaCount": 1,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-14-circle-pines-restaurant-worker.mp4"
     },
     {
       "filePath": "incidents/2026-01/2026-01-14-dhs-response-frey-sanctuary.md",
@@ -1145,7 +1145,7 @@
       "status": "resolved",
       "victimCitizenship": "us-citizen",
       "injuries": "none",
-      "trustworthiness": "high",
+      "trustworthiness": "medium",
       "lastUpdated": "2026-01-14",
       "mediaCount": 0,
       "notable": false,

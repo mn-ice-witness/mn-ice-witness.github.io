@@ -7,7 +7,7 @@ type: bystander-arrested
 status: resolved
 victim_citizenship: us-citizen
 injuries: none
-trustworthiness: high
+trustworthiness: medium
 last_updated: 2026-01-14
 ---
 
@@ -41,4 +41,4 @@ This incident demonstrates:
 The incident occurred during "Operation Metro Surge" when federal agents appeared to be using tactics to sidestep a Minneapolis ordinance that restricts city police from cooperating with ICE. By coordinating with Hennepin County Sheriff instead, agents circumvented the city's restrictions.
 
 ## Editorial Assessment
-**HIGH** - Unicorn Riot documentation with photos showing surveillance. Named U.S. citizen victim. Demonstrates pattern of targeting observers and coordination with county law enforcement to avoid city restrictions.
+**MEDIUM** - Single source (Unicorn Riot) with photos showing surveillance. Named U.S. citizen victim. Demonstrates pattern of targeting observers and coordination with county law enforcement to avoid city restrictions.
