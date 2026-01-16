@@ -3,7 +3,7 @@ date: 2026-01-13
 time: 14:44
 location: Carondelet Catholic School, Upper Campus
 city: Minneapolis
-type: school-incident
+type: schools-hospitals
 status: resolved
 victim_citizenship: unknown
 injuries: none

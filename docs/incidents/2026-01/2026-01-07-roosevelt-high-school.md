@@ -3,7 +3,7 @@ date: 2026-01-07
 time: 15:30
 location: Roosevelt High School
 city: Minneapolis
-type: school-incident
+type: schools-hospitals
 status: resolved
 victim_citizenship: us-citizen
 injuries: minor

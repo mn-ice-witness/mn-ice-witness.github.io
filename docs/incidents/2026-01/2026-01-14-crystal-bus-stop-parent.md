@@ -3,7 +3,7 @@ date: 2026-01-14
 time: morning
 location: Northport Elementary School bus stop
 city: Crystal
-type: school-incident
+type: schools-hospitals
 status: under-investigation
 victim_citizenship: unknown
 injuries: none

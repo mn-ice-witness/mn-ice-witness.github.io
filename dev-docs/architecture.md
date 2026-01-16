@@ -59,12 +59,11 @@ GIT_MN_ICE_FILES/
 
 | Type | Section | Color |
 |------|---------|-------|
-| `fatal-shooting` | Fatal Incidents | Red |
-| `citizen-detained` | U.S. Citizens Detained | Purple |
+| `citizen-legal-detained-beaten` | U.S. Citizens Detained | Purple |
 | `bystander-arrested` | Bystanders & Observers | Blue |
 | `community-member-detained` | Community Members | Cyan |
-| `school-incident` | School Incidents | Orange |
-| `workplace-raid` | Workplace Incidents | Indigo |
+| `schools-hospitals` | Schools/Hospitals | Orange |
+| `official-response` | Official Responses | Gray |
 
 ## Trustworthiness Ratings
 

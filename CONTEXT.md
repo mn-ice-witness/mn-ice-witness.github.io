@@ -77,7 +77,7 @@ date: YYYY-MM-DD
 time: HH:MM (if known, else "unknown")
 location: Specific location
 city: Minneapolis/St. Paul/etc
-type: citizen-legal-detained-beaten | bystander-arrested | community-member-detained | school-incident | official-response  # These 5 types only; comma-separate for multiple (e.g., "citizen-legal-detained-beaten, school-incident")
+type: citizen-legal-detained-beaten | bystander-arrested | community-member-detained | schools-hospitals | official-response  # These 5 types only; comma-separate for multiple (e.g., "citizen-legal-detained-beaten, schools-hospitals")
 status: ongoing | resolved | under-investigation
 victim_citizenship: us-citizen | legal-resident | undocumented | asylum-seeker | unknown
 injuries: none | minor | serious | fatal
@@ -91,10 +91,10 @@ last_updated: YYYY-MM-DD
 | `citizen-legal-detained-beaten` | Citizens | U.S. citizens or legal residents wrongly detained/beaten |
 | `bystander-arrested` | Bystanders | Observers/protesters arrested or attacked |
 | `community-member-detained` | Immigrants | Non-criminal immigrants detained, **including workplace raids** |
-| `school-incident` | Schools | Actions at/near schools |
+| `schools-hospitals` | Schools/Hospitals | Actions at/near schools or hospitals, including patient targeting and workplace audits |
 | `official-response` | Response | DHS/ICE official statements |
 
-**Note:** Multiple types ARE allowed. Use comma-separated values when an incident fits multiple categories (e.g., `type: citizen-legal-detained-beaten, school-incident`).
+**Note:** Multiple types ARE allowed. Use comma-separated values when an incident fits multiple categories (e.g., `type: citizen-legal-detained-beaten, schools-hospitals`).
 
 # Incident Title
 

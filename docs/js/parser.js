@@ -70,7 +70,7 @@ const IncidentParser = {
             'citizen-legal-detained-beaten': 'Citizen/Resident Detained',
             'bystander-arrested': 'Bystander Arrested',
             'community-member-detained': 'Community Member',
-            'school-incident': 'School Incident',
+            'schools-hospitals': 'Schools/Hospitals',
             'official-response': 'Official Response'
         };
         return labels[type] || type;

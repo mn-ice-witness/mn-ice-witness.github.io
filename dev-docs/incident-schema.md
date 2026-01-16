@@ -40,11 +40,11 @@ last_updated: YYYY-MM-DD      # Required. When file was last updated
 | `citizen-legal-detained-beaten` | U.S. citizens or legal residents wrongly detained/arrested/beaten |
 | `bystander-arrested` | Observers/protesters arrested or attacked |
 | `community-member-detained` | Non-criminal immigrants detained (includes workplace raids) |
-| `school-incident` | Actions at/near schools |
+| `schools-hospitals` | Actions at/near schools or hospitals, including patient targeting and workplace audits |
 | `official-response` | DHS/ICE official statements justifying specific incidents/arrests |
 
 **Notes:**
-- **Multiple types ARE allowed** - use comma-separated values (e.g., `type: citizen-legal-detained-beaten, school-incident`) when an incident fits multiple categories
+- **Multiple types ARE allowed** - use comma-separated values (e.g., `type: citizen-legal-detained-beaten, schools-hospitals`) when an incident fits multiple categories
 - Workplace raids of non-U.S. citizens → use `community-member-detained`
 - Do NOT use `citizen-detained`, `workplace-raid`, or other variant types
 

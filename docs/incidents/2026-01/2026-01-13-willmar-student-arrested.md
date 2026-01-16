@@ -3,7 +3,7 @@ date: 2026-01-13
 time: afternoon
 location: Downtown Willmar
 city: Willmar
-type: citizen-legal-detained-beaten, school-incident
+type: citizen-legal-detained-beaten, schools-hospitals
 status: unknown
 victim_citizenship: legal-resident
 injuries: none

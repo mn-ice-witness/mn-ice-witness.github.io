@@ -380,9 +380,9 @@ body {
 }
 
 .nav-pill {
-    padding: 3px 8px;
+    padding: 3px 6px;
     border-radius: 100px;
-    font-size: 0.7rem;
+    font-size: 0.68rem;
     font-weight: 600;
     text-decoration: none;
     white-space: nowrap;
@@ -557,6 +557,7 @@ body {
 
 .incident-section {
     margin-top: 16px;
+    scroll-margin-top: 50px;
 }
 
 .section-header {

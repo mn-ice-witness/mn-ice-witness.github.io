@@ -3,7 +3,7 @@ date: 2026-01-09
 time: unknown
 location: Valleyview Elementary School
 city: Bloomington
-type: school-incident
+type: schools-hospitals
 status: resolved
 victim_citizenship: unknown
 injuries: none

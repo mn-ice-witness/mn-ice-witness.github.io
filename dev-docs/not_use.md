@@ -17,6 +17,14 @@ Stories are excluded when they don't meet the project's core focus:
 
 ### January 2026
 
+**ICE Agent Shoots Venezuelan Man in North Minneapolis (Jan 14)**
+- Sources: NPR, CNN, Fox News, CBS Minnesota, Fox 9
+- Date: January 14, 2026
+- Details: ICE agent shot Venezuelan man (Julio Cesar Sosa-Celis) in the leg during arrest operation. DHS claims agent was "ambushed" by three men with shovels after a traffic stop. Hundreds of protesters gathered; tear gas deployed.
+- Reason: **Not a clear abuse of power case.** While tragic, this incident does not demonstrate an obvious unlawful use of authority. DHS claims agent was attacked with shovels during the arrest—this is disputed but not clearly disproven. Project incidents should document clear abuses or unconstitutional actions by ICE, not contested use-of-force cases where the facts are still under investigation. Note: The tear gas impact on children is documented separately in `2026-01-14-shawn-jackson-children-tear-gas.md`.
+- Date evaluated: 2026-01-15
+- File removed: `incidents/2026-01/2026-01-14-north-minneapolis-venezuelan-shooting.md`
+
 **Over 100 Faribault High School Students Walk Out to Protest ICE**
 - Source: Faribault Daily News (2026-01-13)
 - Reason: Protest coverage only - no direct ICE enforcement incident or civil rights violation

@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768533198,
+  "mediaVersion": 1768538753,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-14-shawn-jackson-children-tear-gas.md",
@@ -75,27 +75,6 @@
       "localMediaFiles": []
     },
     {
-      "filePath": "incidents/2026-01/2026-01-14-north-minneapolis-venezuelan-shooting.md",
-      "title": "ICE Agent Shoots Venezuelan Man in North Minneapolis; Tear Gas Deployed on Protesters, Children Hospitalized",
-      "summary": "On January 14, 2026, exactly one week after the fatal shooting of Renee Good, an ICE agent shot a Venezuelan man in the leg during an arrest operation in north Minneapolis. DHS claims the agent was \"ambushed\" by three men with shovels after a traffic stop. Hundreds of protesters gathered at the scene, leading to clashes with law enforcement who deployed tear gas, flash bangs, and pepper balls. Two children, including a 6-month-old infant, were hospitalized after exposure to tear gas. President Trump threatened to invoke the Insurrection Act in response.",
-      "date": "2026-01-14",
-      "time": "18:50",
-      "location": "600 block of 24th Avenue North, Hawthorne Neighborhood",
-      "city": "Minneapolis",
-      "type": "community-member-detained",
-      "status": "under-investigation",
-      "victimCitizenship": "undocumented",
-      "injuries": "serious",
-      "trustworthiness": "high",
-      "lastUpdated": "2026-01-15",
-      "mediaCount": 1,
-      "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": []
-    },
-    {
       "filePath": "incidents/2026-01/2026-01-14-oglala-sioux-still-detained.md",
       "title": "Three Oglala Sioux U.S. Citizens Still Detained at Fort Snelling",
       "summary": "Four days after ICE detained four Oglala Sioux tribal members from a Minneapolis homeless encampment, three remain in custody at Fort Snelling. Tribal President Frank Star Comes Out issued a formal memorandum to DHS Secretary Kristi Noem and Interior Secretary Doug Burgum demanding immediate release, calling the detention \"a treaty violation\" and stating \"tribal citizens are not aliens\" and are \"categorically outside immigration jurisdiction.\" DHS refused to provide information unless tribe enters immigration agreement with ICE.",
@@ -124,7 +103,7 @@
       "time": "morning",
       "location": "Northport Elementary School bus stop",
       "city": "Crystal",
-      "type": "school-incident",
+      "type": "schools-hospitals",
       "status": "under-investigation",
       "victimCitizenship": "unknown",
       "injuries": "none",
@@ -262,7 +241,7 @@
       "city": "Willmar",
       "type": [
         "citizen-legal-detained-beaten",
-        "school-incident"
+        "schools-hospitals"
       ],
       "status": "unknown",
       "victimCitizenship": "legal-resident",
@@ -394,7 +373,7 @@
       "time": "14:44",
       "location": "Carondelet Catholic School, Upper Campus",
       "city": "Minneapolis",
-      "type": "school-incident",
+      "type": "schools-hospitals",
       "status": "resolved",
       "victimCitizenship": "unknown",
       "injuries": "none",
@@ -532,7 +511,7 @@
       "city": "Inver Grove Heights",
       "type": [
         "citizen-legal-detained-beaten",
-        "school-incident"
+        "schools-hospitals"
       ],
       "status": "resolved",
       "victimCitizenship": "us-citizen",
@@ -862,7 +841,7 @@
       "time": "unknown",
       "location": "Valleyview Elementary School",
       "city": "Bloomington",
-      "type": "school-incident",
+      "type": "schools-hospitals",
       "status": "resolved",
       "victimCitizenship": "unknown",
       "injuries": "none",
@@ -990,6 +969,27 @@
       "localMediaFiles": []
     },
     {
+      "filePath": "incidents/2026-01/2026-01-08-hennepin-healthcare-i9-subpoena.md",
+      "title": "DHS Subpoenas Hennepin Healthcare Employee Records for 7,000+ Workers",
+      "summary": "The Department of Homeland Security issued a subpoena to Hennepin Healthcare on January 8, 2026, demanding I-9 employment verification forms for more than 7,000 employees. The subpoena came less than a week after county commissioners and legislators confronted ICE agents who had shackled a patient at HCMC for 28 hours without a warrant. County Commissioner Angela Conley called the audit a \"retaliatory move.\"",
+      "date": "2026-01-08",
+      "time": "unknown",
+      "location": "Hennepin Healthcare",
+      "city": "Minneapolis",
+      "type": "schools-hospitals",
+      "status": "ongoing",
+      "victimCitizenship": "unknown",
+      "injuries": "none",
+      "trustworthiness": "high",
+      "lastUpdated": "2026-01-15",
+      "mediaCount": 0,
+      "notable": true,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": []
+    },
+    {
       "filePath": "incidents/2026-01/2026-01-08-jesse-ventura-roosevelt.md",
       "title": "Jesse Ventura Visits Roosevelt High School, Condemns ICE Actions",
       "summary": "Former Minnesota Governor Jesse Ventura, a 1969 graduate of Roosevelt High School, visited the school the day after the Border Patrol incident to show support. Ventura praised the school for \"standing up\" against ICE and compared federal immigration enforcement tactics to 1930s Germany. He hinted at a potential gubernatorial run, saying \"Maybe it's time for Jesse. I only did one term. I'm owed a second.\"",
@@ -997,7 +997,7 @@
       "time": "daytime",
       "location": "Roosevelt High School",
       "city": "Minneapolis",
-      "type": "school-incident",
+      "type": "schools-hospitals",
       "status": "resolved",
       "victimCitizenship": "n/a",
       "injuries": "none",
@@ -1201,7 +1201,7 @@
       "time": "15:30",
       "location": "Roosevelt High School",
       "city": "Minneapolis",
-      "type": "school-incident",
+      "type": "schools-hospitals",
       "status": "resolved",
       "victimCitizenship": "us-citizen",
       "injuries": "minor",
@@ -1337,7 +1337,10 @@
       "time": "unknown",
       "location": "Hennepin County Medical Center (HCMC)",
       "city": "Minneapolis",
-      "type": "community-member-detained",
+      "type": [
+        "community-member-detained",
+        "schools-hospitals"
+      ],
       "status": "resolved",
       "victimCitizenship": "undocumented",
       "injuries": "unknown",
