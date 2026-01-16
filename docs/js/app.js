@@ -304,7 +304,15 @@ const App = {
 
     openFromHash() {
         const hash = window.location.hash.slice(1);
-        if (!hash || hash === 'media') return;
+        if (!hash || hash === 'media') {
+            if (this.currentView !== 'media') this.switchView('media');
+            return;
+        }
+
+        if (hash === 'list') {
+            if (this.currentView !== 'list') this.switchView('list');
+            return;
+        }
 
         if (hash === 'about') {
             document.getElementById('splash')?.classList.add('hidden');
