@@ -26,7 +26,7 @@ type: enum                    # Required. See types below
 status: enum                  # Required. ongoing | resolved | under-investigation
 victim_citizenship: enum      # Required. See values below
 injuries: enum                # Required. none | minor | serious | fatal
-trustworthiness: enum         # Required. high | medium | low | unverified
+trustworthiness: enum         # Required. EXACTLY ONE OF: high | medium | low | unverified (no compound values like "medium-high")
 last_updated: YYYY-MM-DD      # Required. When file was last updated
 ---
 ```
@@ -98,11 +98,14 @@ Direct quotes or summaries.
 ## Editorial Assessment
 **TRUSTWORTHINESS_LEVEL** - Brief explanation of why this rating, citing the specific criteria met.
 
+**IMPORTANT:** Use exactly one rating value. Do NOT use compound ratings like "medium-high".
+
 Examples:
 - **HIGH** - 3 independent sources (Star Tribune, MPR, Fox 9)
 - **HIGH** - Detailed Intercept investigation with named victim and direct quotes
 - **HIGH** - Video evidence shows incident clearly
 - **MEDIUM** - 2 sources (local news + union statement)
+- **MEDIUM** - Well reported but no independent firsthand witnesses on scene to corroborate; account relies on victim/family statement
 - **LOW** - Single community paper report, needs corroboration
 ```
 

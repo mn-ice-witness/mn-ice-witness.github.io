@@ -54,6 +54,8 @@ Well-sourced stories from major news outlets documenting U.S. citizens being sto
 
 ## Trustworthiness Rating Criteria
 
+**IMPORTANT:** Use exactly one of these four values: `high`, `medium`, `low`, `unverified`. Do NOT use compound ratings like "medium-high" or "low-medium".
+
 ### HIGH - Strong Evidence
 Assign HIGH when ANY of these conditions are met:
 
@@ -93,6 +95,18 @@ Assign LOW when:
 - Reported but not independently confirmed
 - Anonymous tips without supporting evidence
 - Rumor or speculation
+
+### Witness Corroboration Rule
+
+**IMPORTANT:** Even well-reported incidents should be rated MEDIUM (not HIGH) if:
+
+| Condition | Why It Limits Rating |
+|-----------|---------------------|
+| No independent firsthand witnesses on scene | Cannot corroborate the account beyond victim's word |
+| Account relies solely on victim/family statement | No third-party verification of events |
+| Agency disputes incident occurred (e.g., "zero record") | Creates he-said/she-said without independent evidence |
+
+**Example:** A U.S. citizen claims they were stopped by ICE. Multiple news outlets report the story based on the citizen's account. However, no bystanders witnessed the stop, no video exists, and ICE claims "zero record" of the incident. This should be rated **MEDIUM** despite widespread media coverage, because the coverage is all sourced from a single account without independent corroboration.
 
 ### Good Sources
 - Local news: KARE11, Fox9, KSTP, MPR News, Star Tribune, Pioneer Press

@@ -201,6 +201,8 @@ This site is deployed via Cloudflare Pages from the `docs/` folder.
 4. **Multiple Perspectives:** Include official statements even if disputed
 5. **Update Regularly:** Mark `last_updated` when new information emerges
 6. **Trustworthiness Ratings:** (see `dev-docs/adding-incidents.md` for full criteria)
+
+   **IMPORTANT:** Use exactly one of these four values. Do NOT use compound ratings like "medium-high".
    - `high` = Strong evidence (see criteria below)
    - `medium` = Moderate evidence
    - `low` = Limited evidence, needs corroboration
@@ -221,7 +223,14 @@ This site is deployed via Cloudflare Pages from the `docs/` folder.
    **LOW:**
    - Single source from smaller outlet without corroboration
    - Social media posts with limited news pickup
-6. **Research Official Responses:** When documenting any incident, always search for DHS/ICE official responses and add them to the Response tab. See `dev-docs/incident-schema.md` for the `official-response` format.
+
+   **Witness Corroboration Rule:**
+   Even well-reported incidents should be rated MEDIUM (not HIGH) if:
+   - No independent firsthand witnesses were present on scene to corroborate
+   - The account relies solely on the victim's or their family's statement
+   - The agency disputes the incident occurred (e.g., "zero record")
+
+7. **Research Official Responses:** When documenting any incident, always search for DHS/ICE official responses and add them to the Response tab. See `dev-docs/incident-schema.md` for the `official-response` format.
 
 ## Researching Official Responses
 
