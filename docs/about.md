@@ -4,7 +4,7 @@
 
 ## The Federal Position
 
-The Trump administration contends that Operation Metro Surge and its broader immigration enforcement targets "the worst of the worst" — criminals, gang members, and individuals with serious criminal histories.
+[Operation Metro Surge](https://www.pbs.org/newshour/politics/minnesota-and-the-twin-cities-sue-the-federal-government-to-stop-trumps-immigration-crackdown) was launched by the Trump administration in December 2025, deploying roughly 3,000 federal agents to Minnesota in what DHS has called its largest operation in history. The Trump administration contends that Operation Metro Surge targets "the worst of the worst" — criminals, gang members, and individuals with serious criminal histories.
 
 DHS Secretary Kristi Noem [directed ICE](https://www.dhs.gov/news/2025/12/19/under-president-trump-and-secretary-noem-department-homeland-security-has-historic) "to target the worst of the worst—including gang members, murderers, and rapists." DHS press releases highlight arrests of individuals with criminal records. ICE's main [recruitment page](https://www.ice.gov/join) states: "America has been invaded by criminals and predators. We need YOU to get them out."
 
