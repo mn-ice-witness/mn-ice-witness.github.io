@@ -199,7 +199,12 @@ const Lightbox = {
         document.body.style.overflow = '';
         this.currentSlug = null;
         this.previousSlug = null;
-        history.replaceState({ lightbox: false }, '', window.location.pathname);
+        const hash = window.location.hash.slice(1);
+        if (hash === 'list') {
+            history.replaceState({ lightbox: false }, '', '#list');
+        } else {
+            history.replaceState({ lightbox: false }, '', window.location.pathname);
+        }
     },
 
     copyShareLink() {
