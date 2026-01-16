@@ -1,10 +1,9 @@
 # Media Gallery Order
 # List incident slugs in display order (one per line)
 
-
-speedway-st-paul
-aliya-rahman-car-window-hospitalized
 juan-carlos-brutality
+aliya-rahman-car-window-hospitalized
+speedway-st-paul
 target-richfield-employees
 observer-shoved-into-traffic
 bovino-cbs-interview
