@@ -24,3 +24,4 @@ jose-ramirez-native-american
 shawn-jackson-children-tear-gas
 hani-duglof-medical
 christian-molina-car-rammed
+mankato-women-sprayed

@@ -18,6 +18,7 @@ Two young women were sprayed with a chemical irritant by a uniformed federal age
 
 ## Sources
 1. [ICE activity, increasing in rural Minnesota and cities outside metro, increases anxiety](https://www.startribune.com/with-ice-surge-spreading-across-state-rumors-and-anxiety-grow-in-greater-minnesota/601562255) - Star Tribune
+- **Video:** [Women sprayed with chemical irritant](https://www.facebook.com/reel/3898161177152426) - Facebook
 
 ## Victim(s)
 - Two young women (names not disclosed)
