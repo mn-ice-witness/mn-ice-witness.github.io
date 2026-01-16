@@ -202,6 +202,29 @@ git commit -m "Add incident: Title of incident"
 git push
 ```
 
+## Starring Incidents (Notable)
+
+After creating an incident, consider if it should be **starred** (`notable: true`). Starred incidents appear with visual prominence in the UI.
+
+**Star an incident if it has:**
+- Fatal or life-threatening outcome
+- Video evidence of physical abuse (agent kneeing, choking, beating)
+- Hospitalization from assault by agents
+- U.S. citizen held for hours despite showing ID
+- Schools directly impacted with students present
+- Lead plaintiff in civil rights lawsuit
+
+**See `dev-docs/starring-criteria.md` for full guidelines.**
+
+To star an incident, add `notable: true` to the frontmatter:
+
+```yaml
+trustworthiness: high
+last_updated: 2026-01-16
+notable: true
+---
+```
+
 ## Updating Existing Incidents
 
 When new information emerges:
@@ -210,7 +233,8 @@ When new information emerges:
 2. Update `last_updated` in frontmatter
 3. Add new sources to Sources section
 4. Update Editorial Assessment if trustworthiness changes
-5. Commit with message like "Update: New video evidence for Speedway incident"
+5. **Consider starring** if new video evidence or lawsuit filed
+6. Commit with message like "Update: New video evidence for Speedway incident"
 
 ## Cache Busting (Important!)
 
