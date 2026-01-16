@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768580457,
+  "mediaVersion": 1768582365,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-15-st-paul-school-vans-pulled-over.md",
@@ -35,7 +35,7 @@
       "victimCitizenship": "us-citizen",
       "injuries": "serious",
       "trustworthiness": "high",
-      "lastUpdated": "2026-01-15",
+      "lastUpdated": "2026-01-16",
       "mediaCount": 1,
       "notable": true,
       "hasLocalMedia": true,

@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: serious
 trustworthiness: high
-last_updated: 2026-01-15
+last_updated: 2026-01-16
 notable: true
 ---
 
@@ -22,6 +22,10 @@ Shawn Jackson and his family were leaving a relative's home after his son's bask
 2. [6 children hospitalized after flash bang, tear gas hits van](https://www.fox9.com/news/6-children-hospitalized-after-flash-bang-hits-van) - FOX 9
 3. [Harrowing moment ICE refuse to call 911 after tear gassing car full of children](https://www.themirror.com/news/us-news/harrowing-moment-ice-refuse-call-1620605) - The Mirror
 4. [ICE 'throw flash-bang at family car' as 6 kids hospitalized including a 6-month-old baby](https://www.themirror.com/news/us-news/ice-immigration-flash-bang-shooting-1619545) - The Mirror
+5. [Couple Says ICE Agents Gassed Them as They Drove With 6 Children](https://www.nytimes.com/2026/01/15/us/minneapolis-couple-ice-tear-gas-6-children.html) - The New York Times
+6. [Minneapolis family says ICE threw flashbangs, tear gas near and under car with their six kids inside](https://www.kare11.com/article/news/local/ice-in-minnesota/minneapolis-family-says-ice-threw-flashbangs-tear-gas-near-under-car-six-kids-inside/89-d9877975-b320-4a57-aedb-c8c539fe9795) - KARE 11
+7. [Minneapolis couple says ICE released tear gas under their family vehicle with 6 children inside](https://www.cbsnews.com/minnesota/news/ice-tear-gassed-family-vehicle-with-6-children-inside/) - CBS Minnesota
+8. [Minneapolis ICE shooting live updates: Infant hospitalized after fed agents deployed tear gas](https://abc7.com/live-updates/minneapolis-ice-shooting-live-updates-infant-hospitalized-fed-agents-deployed-tear-gas/18410867/) - ABC7
 - **Video:** [Shawn Jackson interview](https://www.instagram.com/reels/DThKBtWjiiK/) - Instagram
 
 ## Victim(s)
