@@ -7,6 +7,7 @@ aliya-rahman-car-window-hospitalized
 juan-carlos-brutality
 target-richfield-employees
 observer-shoved-into-traffic
+bovino-cbs-interview
 roosevelt-high-school
 mubashir-wrongful-detention
 siguenza-okeefe-detained
@@ -21,6 +22,5 @@ jesse-ventura-roosevelt
 lyn-lake-tear-gas
 jose-ramirez-native-american
 shawn-jackson-children-tear-gas
-bovino-cbs-interview
 hani-duglof-medical
 christian-molina-car-rammed
