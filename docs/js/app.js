@@ -155,24 +155,6 @@ const App = {
         return 3;
     },
 
-    reorderForColumns(items, columnCount) {
-        if (columnCount <= 1) return items;
-
-        const rows = Math.ceil(items.length / columnCount);
-        const reordered = [];
-
-        for (let i = 0; i < items.length; i++) {
-            const col = Math.floor(i / rows);
-            const row = i % rows;
-            const readingPos = row * columnCount + col;
-            if (readingPos < items.length) {
-                reordered[i] = items[readingPos];
-            }
-        }
-
-        return reordered.filter(Boolean);
-    },
-
     async renderMediaGallery() {
         const gallery = document.getElementById('media-gallery');
         let mediaIncidents = this.incidents.filter(i => i.hasLocalMedia);
@@ -182,43 +164,40 @@ const App = {
             return;
         }
 
-        // Try to load custom order from media-order.md
+        // Sort by media-order.md (reading order: row by row)
         mediaIncidents = await this.sortMediaByOrder(mediaIncidents);
 
-        // Store for resize handler
-        this.mediaIncidents = mediaIncidents;
-
-        // Reorder for CSS columns layout (reading order left-to-right)
+        // Transform to column-first order for CSS columns layout
         const columnCount = this.getColumnCount();
-        const displayOrder = this.reorderForColumns(mediaIncidents, columnCount);
+        const displayOrder = this.toColumnOrder(mediaIncidents, columnCount);
 
         gallery.innerHTML = displayOrder.map(incident => this.renderMediaCard(incident)).join('');
 
-        // Add click handlers (use displayOrder for correct mapping)
+        // Add click handlers
         gallery.querySelectorAll('.media-card').forEach((card, index) => {
             card.addEventListener('click', () => {
                 Lightbox.open(displayOrder[index]);
             });
         });
 
-        // Set up video behavior - autoplay on scroll for both mobile and desktop
+        // Set up video behavior - autoplay on scroll
         this.setupScrollToPlay(gallery);
+    },
 
-        // Handle resize - only re-render if column count changes
-        this.lastColumnCount = columnCount;
-        if (!this.resizeHandler) {
-            let resizeTimeout;
-            this.resizeHandler = () => {
-                clearTimeout(resizeTimeout);
-                resizeTimeout = setTimeout(() => {
-                    const newColumnCount = this.getColumnCount();
-                    if (this.currentView === 'media' && newColumnCount !== this.lastColumnCount) {
-                        this.renderMediaGallery();
-                    }
-                }, 150);
-            };
-            window.addEventListener('resize', this.resizeHandler);
+    // Transform reading order (row by row) to column-first order for CSS columns
+    toColumnOrder(items, columnCount) {
+        if (columnCount <= 1) return items;
+        const result = [];
+        const rowCount = Math.ceil(items.length / columnCount);
+        for (let col = 0; col < columnCount; col++) {
+            for (let row = 0; row < rowCount; row++) {
+                const readingIdx = row * columnCount + col;
+                if (readingIdx < items.length) {
+                    result.push(items[readingIdx]);
+                }
+            }
         }
+        return result;
     },
 
     setupScrollToPlay(gallery) {
