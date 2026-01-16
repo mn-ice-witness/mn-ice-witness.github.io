@@ -3,7 +3,7 @@
 
 
 speedway-st-paul
-disabled-woman-car-window
+aliya-rahman-car-window-hospitalized
 juan-carlos-brutality
 target-richfield-employees
 observer-shoved-into-traffic
@@ -21,5 +21,6 @@ jesse-ventura-roosevelt
 lyn-lake-tear-gas
 jose-ramirez-native-american
 shawn-jackson-children-tear-gas
+bovino-cbs-interview
 hani-duglof-medical
 christian-molina-car-rammed

@@ -64,7 +64,7 @@ This site compiles sourced, verified incidents from Minnesota during Operation M
 - [Parents separated from 7-year-old; forced entry captured on Ring camera](#2025-12-06-burnsville-family-separated)
 
 **Observers and Bystanders:**
-- [Disabled woman dragged through car window](#2026-01-13-disabled-woman-car-window)
+- [Aliya Rahman dragged from car, hospitalized](#2026-01-13-aliya-rahman-car-window-hospitalized)
 - [Two observers detained 8 hours, pressured to name organizers](#2026-01-12-siguenza-okeefe-detained)
 
 **Schools:**

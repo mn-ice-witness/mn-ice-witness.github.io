@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768539527,
+  "mediaVersion": 1768541007,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-14-shawn-jackson-children-tear-gas.md",
@@ -117,6 +117,32 @@
       "localMediaFiles": []
     },
     {
+      "filePath": "incidents/2026-01/2026-01-13-bovino-cbs-interview.md",
+      "title": "Border Patrol Commander Bovino CBS Interview",
+      "summary": "U.S. Border Patrol Commander Gregory Bovino sat down with WCCO's Esme Murphy for an interview defending ICE operations in Minnesota. During the interview, Bovino claimed \"90% to 95% of Minnesotans\" support the immigration crackdown and stated U.S. citizens have \"no reason to be scared.\" CBS News noted they could not find any polling to support the 90-95% claim. Bovino's assurance to citizens is contradicted by documented cases of U.S. citizens detained, injured, and hospitalized during Minnesota operations.",
+      "date": "2026-01-13",
+      "time": "unknown",
+      "location": "WCCO-TV Interview",
+      "city": "Minneapolis",
+      "type": "official-response",
+      "status": "ongoing",
+      "victimCitizenship": "various",
+      "injuries": "none",
+      "trustworthiness": "high",
+      "lastUpdated": "2026-01-15",
+      "mediaCount": 1,
+      "notable": false,
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-13-bovino-cbs-interview.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-13-bovino-cbs-interview.mp4"
+        }
+      ]
+    },
+    {
       "filePath": "incidents/2026-01/2026-01-13-mankato-women-sprayed.md",
       "title": "Two Young Women Sprayed with Chemical Irritant by ICE Agent in Mankato",
       "summary": "Two young women were sprayed with a chemical irritant by a uniformed federal agent on Monday afternoon in Mankato. State Sen. Aric Putnam placed himself between the crowd and federal agents during the \"really intense confrontation.\"",
@@ -204,32 +230,6 @@
       "localMediaType": null,
       "localMediaPath": null,
       "localMediaFiles": []
-    },
-    {
-      "filePath": "incidents/2026-01/2026-01-13-disabled-woman-car-window.md",
-      "title": "Disabled Woman Dragged Through Car Window by ICE Agents",
-      "summary": "A woman claiming to be disabled was pulled out of her car by eight ICE agents after they smashed her window. She was reportedly trying to drive past an ICE operation to reach a doctor's appointment when agents blocked her path and forcibly removed her from her vehicle.",
-      "date": "2026-01-13",
-      "time": "morning",
-      "location": "34th Street and Park Avenue",
-      "city": "Minneapolis",
-      "type": "bystander-arrested",
-      "status": "under-investigation",
-      "victimCitizenship": "unknown",
-      "injuries": "minor",
-      "trustworthiness": "high",
-      "lastUpdated": "2026-01-13",
-      "mediaCount": 5,
-      "notable": true,
-      "hasLocalMedia": true,
-      "localMediaType": "video",
-      "localMediaPath": "media/2026-01-13-disabled-woman-car-window.mp4",
-      "localMediaFiles": [
-        {
-          "type": "video",
-          "path": "media/2026-01-13-disabled-woman-car-window.mp4"
-        }
-      ]
     },
     {
       "filePath": "incidents/2026-01/2026-01-13-willmar-student-arrested.md",
@@ -385,6 +385,32 @@
       "localMediaType": null,
       "localMediaPath": null,
       "localMediaFiles": []
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-13-aliya-rahman-car-window-hospitalized.md",
+      "title": "Aliya Rahman Dragged From Car, Hospitalized After ICE Assault",
+      "summary": "Aliya Rahman, a 43-year-old U.S. citizen and software engineer, was dragged from her car by ICE agents after they smashed her window. She was driving to an appointment at the Traumatic Brain Injury Center when agents blocked her path. After being taken into custody, Rahman repeatedly requested medical attention but was denied. She lost consciousness in her cell and was finally taken to a hospital, where she was treated for injuries consistent with assault. The video went viral with millions of views.",
+      "date": "2026-01-13",
+      "time": "morning",
+      "location": "34th Street and Park Avenue",
+      "city": "Minneapolis",
+      "type": "bystander-arrested",
+      "status": "under-investigation",
+      "victimCitizenship": "us-citizen",
+      "injuries": "serious",
+      "trustworthiness": "high",
+      "lastUpdated": "2026-01-15",
+      "mediaCount": 5,
+      "notable": true,
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-13-aliya-rahman-car-window-hospitalized.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-13-aliya-rahman-car-window-hospitalized.mp4"
+        }
+      ]
     },
     {
       "filePath": "incidents/2026-01/2026-01-13-lyn-lake-tear-gas.md",

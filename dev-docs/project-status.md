@@ -21,7 +21,7 @@ Current state of the MN ICE Files project.
 ### Bystanders Arrested (4)
 | Date | Incident | Victim | Trust |
 |------|----------|--------|-------|
-| Jan 13, 2026 | Disabled woman dragged from car | Unknown | High |
+| Jan 13, 2026 | Aliya Rahman dragged from car, hospitalized | U.S. Citizen | High |
 | Jan 12, 2026 | Sigüenza & O'Keefe (8hr detention) | U.S. Citizens | High |
 | Jan 11, 2026 | Speedway St. Paul (filming) | U.S. Citizen | High |
 | Dec 9, 2025 | North Mpls observer | U.S. Citizen | High |

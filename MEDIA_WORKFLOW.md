@@ -88,7 +88,7 @@ Edit `docs/data/media-order.md` to control the order of media in the gallery vie
 # Media Gallery Order
 # List incident slugs in display order (one per line)
 
-disabled-woman-car-window
+aliya-rahman-car-window-hospitalized
 observer-shoved-into-traffic
 nimco-omar-citizen-check
 ```
