@@ -18,6 +18,7 @@ Rogelio Jimenez, a U.S. citizen, was forcibly removed from his car by masked ICE
 
 ## Sources
 1. [U.S. citizens recount being detained by ICE during Minnesota operation](https://www.cbsnews.com/minnesota/news/us-citizens-arrested-by-ice-minneapolis/) - CBS Minnesota/WCCO
+2. [During Minneapolis operation, ICE has repeatedly arrested U.S. citizens](https://www.cbsnews.com/minnesota/video/during-minneapolis-operation-ice-has-repeatedly-arrested-u-s-citizens/) - CBS Minnesota (Video Report)
 - **Video:** Dashcam footage from Jimenez's vehicle - CBS Minnesota
 - **Video:** Cell phone footage from Jimenez - CBS Minnesota
 - **Video:** Bystander cell phone footage - CBS Minnesota

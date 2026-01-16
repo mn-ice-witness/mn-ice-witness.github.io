@@ -3,7 +3,7 @@ date: 2026-01-07
 time: afternoon
 location: Portland Avenue (scene of Renee Good shooting)
 city: Minneapolis
-type: bystander-injured
+type: bystander-arrested
 status: resolved
 victim_citizenship: us-citizens
 injuries: pepper-spray-exposure

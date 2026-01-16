@@ -3,7 +3,7 @@ date: 2026-01-13
 time: afternoon
 location: Near Mankato East High School
 city: Mankato
-type: bystanders-attacked
+type: bystander-arrested
 status: resolved
 victim_citizenship: unknown
 injuries: chemical irritant exposure

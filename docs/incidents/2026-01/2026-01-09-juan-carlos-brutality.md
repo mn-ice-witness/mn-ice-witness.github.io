@@ -21,6 +21,9 @@ U.S. Border Patrol agents violently arrested Juan Carlos, a legal U.S. resident 
 1. [U.S. Border Patrol agent knees man in face in Minneapolis as other agents hold him down](https://minnesotareformer.com/2026/01/12/u-s-border-patrol-knees-man-in-face-in-minneapolis-as-other-agents-hold-him-down/) - Minnesota Reformer
 2. [Support Juan Carlos After Assault and Hospitalization](https://www.gofundme.com/f/support-juan-carlos-after-assault-and-hospitalization) - GoFundMe (Ismael Cordova-Clough)
 3. [Josh Helfgott Facebook Post](https://www.facebook.com/joshhelfgott1/posts/pfbid032rBE8GN4tLDPHWkGRRX2atX1prMLtPYcJZvtcAxaKXwTFHNV113WdwNm1A8Hdr7gl) - Facebook (original viral post)
+4. [U.S. Border Patrol agent knees man in face](https://www.yahoo.com/news/articles/u-border-patrol-knees-man-231145132.html) - Yahoo News
+- **Video:** [Threads video - agent kneeing Juan Carlos](https://www.threads.com/@hereswhykevin/post/DTWJwHNiYw8) - @hereswhykevin
+- **Video:** [X/Twitter - aftermath and injuries](https://x.com/cbarbermd/status/2010836926841176191) - @cbarbermd
 - **Video:** Multiple bystander videos showing agents pinning Juan Carlos down and kneeing him in the face
 - **Video:** Shows masked agent with vest reading "Border Patrol Federal Agent" threatening to arrest bystander filming
 - **Photos:** Images show Juan Carlos's facial injuries after the assault

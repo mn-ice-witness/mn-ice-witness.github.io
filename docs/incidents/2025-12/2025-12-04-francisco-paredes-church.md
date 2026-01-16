@@ -3,7 +3,7 @@ date: 2025-12-04
 time: morning
 location: St. Gabriel the Archangel Catholic Church, 13th Avenue South
 city: Hopkins
-type: community-member-detained, church-surveillance
+type: community-member-detained
 status: resolved-deported
 victim_citizenship: undocumented
 injuries: none

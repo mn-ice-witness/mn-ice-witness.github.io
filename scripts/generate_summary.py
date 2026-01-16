@@ -18,27 +18,37 @@ IMAGE_EXTENSIONS = {'.webp', '.jpg', '.jpeg', '.png'}
 
 def get_local_media(slug: str, media_dir: Path) -> dict:
     """Check for local media files matching the incident slug."""
-    result = {'hasLocalMedia': False, 'localMediaType': None, 'localMediaPath': None}
+    result = {
+        'hasLocalMedia': False,
+        'localMediaType': None,
+        'localMediaPath': None,
+        'localMediaFiles': []
+    }
 
     if not media_dir.exists():
         return result
 
-    # Look for video first, then image
+    media_files = []
+
+    # Collect all matching video files
     for ext in VIDEO_EXTENSIONS:
         media_path = media_dir / f"{slug}{ext}"
         if media_path.exists():
-            result['hasLocalMedia'] = True
-            result['localMediaType'] = 'video'
-            result['localMediaPath'] = f"media/{slug}{ext}"
-            return result
+            media_files.append({'type': 'video', 'path': f"media/{slug}{ext}"})
 
+    # Collect all matching image files
     for ext in IMAGE_EXTENSIONS:
         media_path = media_dir / f"{slug}{ext}"
         if media_path.exists():
-            result['hasLocalMedia'] = True
-            result['localMediaType'] = 'image'
-            result['localMediaPath'] = f"media/{slug}{ext}"
-            return result
+            media_files.append({'type': 'image', 'path': f"media/{slug}{ext}"})
+
+    if media_files:
+        result['hasLocalMedia'] = True
+        result['localMediaFiles'] = media_files
+        # Primary media (video preferred) for backwards compatibility
+        primary = next((m for m in media_files if m['type'] == 'video'), media_files[0])
+        result['localMediaType'] = primary['type']
+        result['localMediaPath'] = primary['path']
 
     return result
 
@@ -119,7 +129,8 @@ def process_incident(file_path, docs_dir, media_dir):
         'notable': is_notable,
         'hasLocalMedia': local_media['hasLocalMedia'],
         'localMediaType': local_media['localMediaType'],
-        'localMediaPath': local_media['localMediaPath']
+        'localMediaPath': local_media['localMediaPath'],
+        'localMediaFiles': local_media['localMediaFiles']
     }
 
 

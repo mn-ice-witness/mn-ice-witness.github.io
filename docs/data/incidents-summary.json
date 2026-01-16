@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768530056,
+  "mediaVersion": 1768530103,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-14-shawn-jackson-children-tear-gas.md",
@@ -754,10 +754,15 @@
       "lastUpdated": "2026-01-14",
       "mediaCount": 3,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": []
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-11-rogelio-jimenez-brooklyn-park.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-11-rogelio-jimenez-brooklyn-park.mp4"
+        }
+      ]
     },
     {
       "filePath": "incidents/2026-01/2026-01-10-bloomington-ave-bus-stop.md",
@@ -902,9 +907,13 @@
       "mediaCount": 4,
       "notable": true,
       "hasLocalMedia": true,
-      "localMediaType": "image",
-      "localMediaPath": "media/2026-01-09-juan-carlos-brutality.jpg",
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-09-juan-carlos-brutality.mp4",
       "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-09-juan-carlos-brutality.mp4"
+        },
         {
           "type": "image",
           "path": "media/2026-01-09-juan-carlos-brutality.jpg"

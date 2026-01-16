@@ -261,33 +261,56 @@ const Lightbox = {
     renderLocalMedia(summaryData) {
         if (!summaryData || !summaryData.hasLocalMedia) return '';
 
-        const mediaUrl = App.getMediaUrl(summaryData.localMediaPath);
-
-        if (summaryData.localMediaType === 'video') {
-            return `
-                <div class="local-media-container">
-                    <video class="local-media-video" autoplay muted playsinline>
-                        <source src="${mediaUrl}" type="video/mp4">
-                    </video>
-                    <button class="media-overlay-btn" aria-label="Play/Pause">
-                        <svg class="media-icon-pause" viewBox="0 0 24 24" width="28" height="28" fill="white">
-                            <rect x="6" y="4" width="4" height="16" rx="1"/>
-                            <rect x="14" y="4" width="4" height="16" rx="1"/>
-                        </svg>
-                        <svg class="media-icon-play" viewBox="0 0 24 24" width="28" height="28" fill="white" style="display:none">
-                            <polygon points="6,4 20,12 6,20"/>
-                        </svg>
-                    </button>
-                </div>
-            `;
-        } else if (summaryData.localMediaType === 'image') {
-            return `
-                <div class="local-media-container">
-                    <img class="local-media-image" src="${mediaUrl}" alt="Incident media">
-                </div>
-            `;
+        const mediaFiles = summaryData.localMediaFiles || [];
+        if (mediaFiles.length === 0) {
+            // Fallback to single media for backwards compatibility
+            const mediaUrl = App.getMediaUrl(summaryData.localMediaPath);
+            if (summaryData.localMediaType === 'video') {
+                return this.renderVideoElement(mediaUrl);
+            } else if (summaryData.localMediaType === 'image') {
+                return this.renderImageElement(mediaUrl);
+            }
+            return '';
         }
-        return '';
+
+        // Render all media files
+        let html = '';
+        for (const media of mediaFiles) {
+            const mediaUrl = App.getMediaUrl(media.path);
+            if (media.type === 'video') {
+                html += this.renderVideoElement(mediaUrl);
+            } else if (media.type === 'image') {
+                html += this.renderImageElement(mediaUrl);
+            }
+        }
+        return html;
+    },
+
+    renderVideoElement(mediaUrl) {
+        return `
+            <div class="local-media-container">
+                <video class="local-media-video" autoplay muted playsinline>
+                    <source src="${mediaUrl}" type="video/mp4">
+                </video>
+                <button class="media-overlay-btn" aria-label="Play/Pause">
+                    <svg class="media-icon-pause" viewBox="0 0 24 24" width="28" height="28" fill="white">
+                        <rect x="6" y="4" width="4" height="16" rx="1"/>
+                        <rect x="14" y="4" width="4" height="16" rx="1"/>
+                    </svg>
+                    <svg class="media-icon-play" viewBox="0 0 24 24" width="28" height="28" fill="white" style="display:none">
+                        <polygon points="6,4 20,12 6,20"/>
+                    </svg>
+                </button>
+            </div>
+        `;
+    },
+
+    renderImageElement(mediaUrl) {
+        return `
+            <div class="local-media-container">
+                <img class="local-media-image" src="${mediaUrl}" alt="Incident media">
+            </div>
+        `;
     },
 
     renderIncident(incident, summaryData = null) {
