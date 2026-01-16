@@ -42,6 +42,8 @@ Incidents are organized into five categories:
 
 *Note: "Citizens" and "Observers" may both involve U.S. citizens. The distinction is whether they were randomly targeted (Citizens) or targeted for their First Amendment activity (Observers).*
 
+<p style="color: #8a9aaf; font-weight: bold; font-style: italic; margin-top: 1.5em;">For real-time, crowd-sourced ICE sighting reports and alerts, visit <a href="https://iceout.org/en/" style="color: #7ba3c9;">iceout.org</a> (People Over Papers).</p>
+
 ### Legend
 
 <div style="background: #f8f9fa; border: 1px solid #e2e2e2; border-radius: 6px; padding: 16px; margin: 16px 0;">
