@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768542205,
+  "mediaVersion": 1768542469,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-14-shawn-jackson-children-tear-gas.md",
@@ -565,12 +565,16 @@
       "injuries": "minor",
       "trustworthiness": "high",
       "lastUpdated": "2026-01-13",
-      "mediaCount": 0,
+      "mediaCount": 1,
       "notable": true,
       "hasLocalMedia": true,
-      "localMediaType": "image",
-      "localMediaPath": "media/2026-01-12-christian-molina-car-rammed.jpg",
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-12-christian-molina-car-rammed.mp4",
       "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-12-christian-molina-car-rammed.mp4"
+        },
         {
           "type": "image",
           "path": "media/2026-01-12-christian-molina-car-rammed.jpg"

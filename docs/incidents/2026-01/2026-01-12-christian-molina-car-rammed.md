@@ -19,6 +19,7 @@ ICE agents followed and rammed into the car of Christian Molina, a 40-year-old L
 
 ## Sources
 1. [ICE rams car in south Minneapolis while profiling Latino driver](https://sahanjournal.com/public-safety/ice-rams-latino-man-car-south-minneapolis-immigration/) - Sahan Journal
+- **Video:** [Bystander video of confrontation](https://www.facebook.com/reel/25653722154282706) - Facebook
 
 ## Victim(s)
 - **Name:** Christian Molina
