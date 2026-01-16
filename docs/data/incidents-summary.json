@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768530167,
+  "mediaVersion": 1768530652,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-14-shawn-jackson-children-tear-gas.md",
@@ -1060,7 +1060,7 @@
     {
       "filePath": "incidents/2026-01/2026-01-08-target-richfield-employees.md",
       "title": "Two U.S. Citizen Target Employees Detained and Injured",
-      "summary": "Two Target drive-up employees, both U.S. citizens, were aggressively detained by CBP agents at the Richfield Target store. Both sustained injuries. According to witnesses, agents asked the workers if they were citizens; when they didn't answer and tried to go inside, they were grabbed and pinned to the ground.",
+      "summary": "Two Target drive-up employees, both U.S. citizens, were aggressively detained by CBP agents at the Richfield Target store. Both sustained injuries. According to witnesses, agents asked the workers if they were citizens; when they didn't answer and tried to go inside, they were grabbed and pinned to the ground. One victim, a 22-year-old Latino man identified in court documents as \"Javier Doe,\" had a knee pressed into his neck, was driven around in an SUV while agents played loud music, and was eventually dumped in a Walmart parking lot in Bloomington. He required emergency medical care and is now a plaintiff in the ACLU class-action lawsuit against ICE.",
       "date": "2026-01-08",
       "time": "unknown",
       "location": "Target Store, 6445 Richfield Pkwy",
@@ -1068,7 +1068,7 @@
       "type": "citizen-legal-detained-beaten",
       "status": "resolved",
       "victimCitizenship": "us-citizen",
-      "injuries": "minor",
+      "injuries": "serious",
       "trustworthiness": "high",
       "lastUpdated": "2026-01-15",
       "mediaCount": 3,
@@ -1082,27 +1082,6 @@
           "path": "media/2026-01-08-target-richfield-employees.mp4"
         }
       ]
-    },
-    {
-      "filePath": "incidents/2026-01/2026-01-early-javier-doe-brutalized.md",
-      "title": "Latino U.S. Citizen Tackled, Knee Pressed Into Neck, Driven Around and Dumped in Parking Lot",
-      "summary": "A 22-year-old Latino U.S. citizen, identified in court documents as \"Javier Doe,\" was brutally detained by Border Patrol agents near his workplace at a Target store in Richfield in early January 2026. After telling agents he did not have to answer questions about his citizenship, they tackled him, handcuffed him, pressed a knee into his neck, drove him around in an SUV while playing loud music, and eventually released him in a Walmart parking lot in Bloomington after reviewing his passport. He required emergency medical care for his injuries. He is now a plaintiff in the ACLU class-action lawsuit against ICE.",
-      "date": "2026-01-08",
-      "time": "unknown",
-      "location": "Richfield (near Target store)",
-      "city": "Richfield",
-      "type": "citizen-legal-detained-beaten",
-      "status": "resolved",
-      "victimCitizenship": "us-citizen",
-      "injuries": "serious",
-      "trustworthiness": "high",
-      "lastUpdated": "2026-01-15",
-      "mediaCount": 0,
-      "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": []
     },
     {
       "filePath": "incidents/2026-01/2026-01-08-jose-ramirez-native-american.md",
