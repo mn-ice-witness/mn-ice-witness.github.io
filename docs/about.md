@@ -49,10 +49,12 @@ This site compiles sourced, verified incidents from Minnesota during Operation M
 ### Examples
 
 **U.S. Citizens:**
-- [Latino U.S. citizen's car rammed by ICE; released after confirming identity](#2026-01-12-christian-molina-car-rammed)
-- [Two Target employees, both U.S. citizens, detained and injured](#2026-01-08-target-richfield-employees)
-- [Native American U.S. citizen punched and detained](#2026-01-08-jose-ramirez-native-american)
 - [U.S. citizen tackled and detained during lunch break](#2025-12-10-mubashir-wrongful-detention)
+- [Two Target employees, both U.S. citizens, detained and injured](#2026-01-08-target-richfield-employees)
+- [Woodbury man detained 9 hours for filming ICE agents](#2026-01-13-ryan-ecklund-filming-detained)
+- [Brandon Sigüenza detained, pepper-sprayed, interrogated about organizers](#2026-01-12-siguenza-okeefe-detained)
+- [Native American U.S. citizen punched and detained](#2026-01-08-jose-ramirez-native-american)
+- [Latino U.S. citizen's car rammed by ICE; released after confirming identity](#2026-01-12-christian-molina-car-rammed)
 
 **Legal Residents:**
 - [Legal resident brutalized by Border Patrol, hospitalized](#2026-01-09-juan-carlos-brutality)
