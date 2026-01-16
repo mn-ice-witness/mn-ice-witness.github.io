@@ -213,7 +213,7 @@ When updating HTML, CSS, or JS files, **bump the version number** to force brows
    background: url('../images/splash-1.jpg?v=4') center/cover;
    ```
 
-**Why?** GitHub Pages and browsers cache aggressively. Without version bumps, users may see stale content.
+**Why?** Cloudflare and browsers cache aggressively. Without version bumps, users may see stale content.
 
 ## Bulk Research Tips
 

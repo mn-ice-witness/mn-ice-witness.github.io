@@ -49,7 +49,7 @@ GIT_MN_ICE_FILES/
 ├── CONTEXT.md           # This file
 ├── bin/
 │   └── run-server.sh    # Local development server
-├── docs/                # GitHub Pages deployment folder (ALL content here)
+├── docs/                # Website content folder (ALL content here)
 │   ├── index.html       # Main entry point
 │   ├── css/
 │   │   └── style.css    # Mobile-first styles
@@ -171,7 +171,7 @@ python-main -m http.server 8000 --directory docs
 
 ### Deployment
 
-This site is deployed via GitHub Pages from the `docs/` folder on the `main` branch.
+This site is deployed via Cloudflare Pages from the `docs/` folder.
 
 ## Key Guidelines
 

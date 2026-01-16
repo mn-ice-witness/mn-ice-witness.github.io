@@ -60,11 +60,10 @@ From user's links, need corroboration:
 - [x] dev-docs documentation
 
 ### Todo
-- [ ] Move files to docs/ folder (for GitHub Pages)
-- [ ] Create bin/run-server.sh
-- [ ] Set up GitHub repo
-- [ ] Create GitHub organization account
-- [ ] Deploy to GitHub Pages
+- [x] Move files to docs/ folder
+- [x] Create bin/run-server.sh
+- [x] Set up GitHub repo
+- [x] Deploy to Cloudflare Pages
 - [ ] Add MCP browser access for social media research
 
 ## Name Candidates

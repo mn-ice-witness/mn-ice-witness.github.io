@@ -8,13 +8,13 @@ MN ICE Files is a static documentation website that tracks civil rights incident
 
 1. **Factual & Credible** - Multiple sources, neutral language, include official responses
 2. **Mobile-First** - Optimized for phones, works on desktop
-3. **Fast Loading** - Static files, no backend, GitHub Pages hosting
+3. **Fast Loading** - Static files, no backend, Cloudflare Pages hosting
 4. **Easy to Update** - Add incidents via markdown files
 5. **Immersive** - Videos, images, sources at fingertips
 
 ## Technology Stack
 
-- **Hosting**: GitHub Pages (from `docs/` folder)
+- **Hosting**: Cloudflare Pages (from `docs/` folder)
 - **Frontend**: Vanilla HTML/CSS/JavaScript
 - **Content**: Markdown files parsed client-side
 - **Markdown Parser**: marked.js (CDN)
@@ -32,7 +32,7 @@ GIT_MN_ICE_FILES/
 │   └── research-sources.md # Where to find/verify incidents
 ├── bin/
 │   └── run-server.sh       # Local dev server script
-└── docs/                   # GitHub Pages deployment (ALL content here)
+└── docs/                   # Website content (ALL content here)
     ├── index.html          # Main entry point
     ├── css/style.css       # Styles
     ├── js/

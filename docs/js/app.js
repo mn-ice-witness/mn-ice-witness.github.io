@@ -15,6 +15,7 @@ const App = {
         this.render();
         this.applyInitialView();
         this.openFromHash();
+        window.addEventListener('hashchange', () => this.openFromHash());
     },
 
     loadViewFromUrl() {
