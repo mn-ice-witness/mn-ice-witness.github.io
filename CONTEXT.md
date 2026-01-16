@@ -171,16 +171,23 @@ python-main -m http.server 8000 --directory docs
 
 ### Adding Media (Videos/Images)
 
-1. **Add raw media to `raw_media/`** with naming: `YYYY-MM-DD-slug.raw.mov` (or `.raw.png`)
+1. **Add raw media to `raw_media/`** with naming: `<incident-id>.raw.mov` or `<incident-id>.raw.png`
+   - The incident-id matches the markdown filename (without `.md`)
+   - Example: `2026-01-13-bovino-cbs-interview.raw.mov` → matches `2026-01-13-bovino-cbs-interview.md`
 2. **Run the media pipeline:**
    ```bash
    python3 scripts/process_media.py
    ```
-   This compresses videos and copies them to `docs/media/` with proper naming.
-3. **Update `docs/data/media-order.md`** to control gallery display order (add slug to desired position)
-4. **Commit** - the pre-commit hook auto-detects media files by matching slugs and updates `incidents-summary.json`
+   This compresses videos and outputs to `docs/media/<incident-id>.mp4`
+3. **Update `docs/data/media-order.md`** to control gallery display order
+   - Add the slug (the part after YYYY-MM-DD-) to desired position
+   - Example: add `bovino-cbs-interview` (not the full incident-id)
+4. **Commit** - the pre-commit hook auto-regenerates `incidents-summary.json`
 
-**Media is auto-detected:** The `generate_summary.py` script automatically finds media files in `docs/media/` that match incident slugs (e.g., `docs/media/2026-01-13-bovino-cbs-interview.mp4` matches incident `2026-01-13-bovino-cbs-interview.md`). You do NOT need to manually update the JSON.
+**IMPORTANT - Never manually edit `incidents-summary.json`:**
+- The pre-commit hook runs `scripts/generate_summary.py` automatically
+- Media files are auto-detected by matching incident-id to files in `docs/media/`
+- Only edit markdown incident files; the JSON is regenerated from them
 
 ### Deployment
 
