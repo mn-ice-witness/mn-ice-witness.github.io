@@ -39,7 +39,9 @@ const App = {
     },
 
     applyInitialView() {
-        this.switchView(this.currentView);
+        const hash = window.location.hash.slice(1);
+        const isDeepLink = hash && hash !== 'list' && hash !== 'media';
+        this.switchView(this.currentView, isDeepLink);
     },
 
     loadViewedState() {
@@ -116,9 +118,11 @@ const App = {
         });
     },
 
-    switchView(view) {
+    switchView(view, skipUrlUpdate) {
         this.currentView = view;
-        this.updateUrlView(view);
+        if (!skipUrlUpdate) {
+            this.updateUrlView(view);
+        }
 
         const listView = document.getElementById('list-view');
         const mediaGallery = document.getElementById('media-gallery');
