@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768610555,
+  "mediaVersion": 1768618350,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-15-porter-wrong-address-raid.md",
@@ -15,12 +15,17 @@
       "injuries": "none",
       "trustworthiness": "high",
       "lastUpdated": "2026-01-16",
-      "mediaCount": 0,
+      "mediaCount": 1,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": []
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-15-porter-wrong-address-raid.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-15-porter-wrong-address-raid.mp4"
+        }
+      ]
     },
     {
       "filePath": "incidents/2026-01/2026-01-15-st-paul-school-vans-pulled-over.md",
@@ -316,7 +321,7 @@
       "injuries": "none",
       "trustworthiness": "high",
       "lastUpdated": "2026-01-13",
-      "mediaCount": 0,
+      "mediaCount": 1,
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",

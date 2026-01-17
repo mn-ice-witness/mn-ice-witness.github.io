@@ -136,7 +136,9 @@ const App = {
                 if (this.currentView !== 'list') {
                     this.switchView('list', true);
                 }
-                history.pushState(null, '', '#' + hash);
+                if (window.location.hash !== '#' + hash) {
+                    history.pushState(null, '', '#' + hash);
+                }
                 requestAnimationFrame(() => this.scrollToSection(hash));
             });
         });
@@ -309,7 +311,7 @@ const App = {
         let audioControl = '';
         if (incident.localMediaType === 'video') {
             const videoSrc = mediaUrl + '#t=0.001';
-            mediaElement = `<video class="media-card-video" src="${videoSrc}" muted loop playsinline preload="auto"></video>`;
+            mediaElement = `<video class="media-card-video" src="${videoSrc}" muted loop playsinline preload="auto" disableRemotePlayback></video>`;
             audioControl = `
                 <button class="audio-toggle muted" aria-label="Toggle sound">
                     <svg class="speaker-icon" viewBox="0 0 24 24" width="24" height="24">

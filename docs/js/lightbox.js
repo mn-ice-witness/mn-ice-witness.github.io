@@ -55,7 +55,9 @@ const Lightbox = {
 
         this.currentIncidentData = incident;
         this.currentSlug = this.getSlugFromFilePath(incident.filePath);
-        history.pushState({ lightbox: true, slug: this.currentSlug }, '', '#' + this.currentSlug);
+        if (window.location.hash !== '#' + this.currentSlug) {
+            history.pushState({ lightbox: true, slug: this.currentSlug }, '', '#' + this.currentSlug);
+        }
 
         await this.renderIncidentContent(incident);
     },
@@ -66,7 +68,9 @@ const Lightbox = {
         document.body.style.overflow = 'hidden';
 
         this.currentSlug = 'about';
-        history.pushState({ lightbox: true, slug: 'about' }, '', '#about');
+        if (window.location.hash !== '#about') {
+            history.pushState({ lightbox: true, slug: 'about' }, '', '#about');
+        }
 
         await this.renderAboutContent();
     },
@@ -308,7 +312,7 @@ const Lightbox = {
     renderVideoElement(mediaUrl) {
         return `
             <div class="local-media-container">
-                <video class="local-media-video" autoplay muted playsinline>
+                <video class="local-media-video" autoplay muted playsinline disableRemotePlayback>
                     <source src="${mediaUrl}" type="video/mp4">
                 </video>
                 <div class="media-controls">
