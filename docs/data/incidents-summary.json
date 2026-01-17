@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768622875,
+  "mediaVersion": 1768624103,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-15-el-tapatio-willmar.md",
@@ -125,6 +125,27 @@
           "path": "media/2026-01-14-circle-pines-restaurant-worker.mp4"
         }
       ]
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-14-nasra-ahmed-st-paul-citizen.md",
+      "title": "U.S. Citizen Born in Minnesota Detained by ICE, Still Held Without Bail",
+      "summary": "Nasra Mohamed Ahmed, a 23-year-old U.S. citizen born in Hennepin County, was detained by ICE agents on January 14 in the parking lot of her St. Paul apartment complex. Despite telling agents she was born in Minnesota and has never been to Somalia, she remains in custody at Sherburne County Jail without bail. She has no criminal history.",
+      "date": "2026-01-14",
+      "time": "11:00",
+      "location": "Lower Afton Road apartment complex",
+      "city": "St. Paul",
+      "type": "citizens",
+      "status": "ongoing",
+      "victimCitizenship": "us-citizen",
+      "injuries": "none",
+      "trustworthiness": "medium",
+      "lastUpdated": "2026-01-16",
+      "mediaCount": 0,
+      "notable": true,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": []
     },
     {
       "filePath": "incidents/2026-01/2026-01-14-dhs-response-frey-sanctuary.md",
@@ -1266,6 +1287,27 @@
       "localMediaFiles": []
     },
     {
+      "filePath": "incidents/2026-01/2026-01-07-luis-ramirez-orozco-shakopee.md",
+      "title": "U.S. Citizen Tackled by ICE at Shakopee Construction Site, Hospitalized",
+      "summary": "Luis Ramirez Orozco, a Latino U.S. citizen, was tackled and detained by ICE agents at a construction site in Shakopee on the same morning Renee Good was shot by an ICE agent in Minneapolis. Despite identifying himself as a citizen, agents surrounded him and slammed his head on the floor. He suffered bruised ribs and a concussion, requiring medical attention.",
+      "date": "2026-01-07",
+      "time": "morning",
+      "location": "Construction site",
+      "city": "Shakopee",
+      "type": "citizens",
+      "status": "resolved",
+      "victimCitizenship": "us-citizen",
+      "injuries": "serious",
+      "trustworthiness": "medium",
+      "lastUpdated": "2026-01-16",
+      "mediaCount": 0,
+      "notable": true,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": []
+    },
+    {
       "filePath": "incidents/2026-01/2026-01-07-renee-good-shooting.md",
       "title": "Renee Nicole Good Shot and Killed by ICE Agent",
       "summary": "Renee Nicole Good, a 37-year-old U.S. citizen, was fatally shot by ICE agent Jonathan Ross after she stopped her SUV in the street near where agents were conducting immigration enforcement. Good had just dropped her 6-year-old son off at school.",
@@ -1564,7 +1606,7 @@
       "victimCitizenship": "unknown",
       "injuries": "unknown",
       "trustworthiness": "high",
-      "lastUpdated": "2026-01-13",
+      "lastUpdated": "2026-01-16",
       "mediaCount": 0,
       "notable": false,
       "hasLocalMedia": false,

@@ -4,6 +4,7 @@ const Lightbox = {
     currentSlug: null,
     currentIncidentData: null,
     savedScrollPositions: {},
+    openedViaPushState: false,
 
     init() {
         this.element = document.getElementById('lightbox');
@@ -57,6 +58,10 @@ const Lightbox = {
         this.currentSlug = this.getSlugFromFilePath(incident.filePath);
         if (window.location.hash !== '#' + this.currentSlug) {
             history.pushState({ lightbox: true, slug: this.currentSlug }, '', '#' + this.currentSlug);
+            this.openedViaPushState = true;
+        } else {
+            // Came directly via URL - no history to go back to
+            this.openedViaPushState = false;
         }
 
         await this.renderIncidentContent(incident);
@@ -70,6 +75,9 @@ const Lightbox = {
         this.currentSlug = 'about';
         if (window.location.hash !== '#about') {
             history.pushState({ lightbox: true, slug: 'about' }, '', '#about');
+            this.openedViaPushState = true;
+        } else {
+            this.openedViaPushState = false;
         }
 
         await this.renderAboutContent();
@@ -187,7 +195,14 @@ const Lightbox = {
 
     close() {
         if (this.isOpen()) {
-            history.back();
+            if (this.openedViaPushState) {
+                // Navigated from within the site - go back in history
+                history.back();
+            } else {
+                // Came directly via URL - go to home page
+                this.closeLightbox();
+                history.replaceState(null, '', window.location.pathname);
+            }
         }
     },
 
@@ -202,6 +217,7 @@ const Lightbox = {
         this.currentSlug = null;
         this.currentIncidentData = null;
         this.savedScrollPositions = {};
+        this.openedViaPushState = false;
 
         const hash = window.location.hash.slice(1);
         const isListViewHash = hash === 'list' || App.sectionHashes.includes(hash);

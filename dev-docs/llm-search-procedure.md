@@ -52,6 +52,17 @@ ACLU ICE Minnesota lawsuit [month year]
 ICE Minnesota lawsuit citizen detained
 ```
 
+### Step 5: Search the General Web
+
+In addition to specific news sites, always search the general web for incidents:
+```
+"victim full name" ICE detained
+"victim full name" Minnesota
+incident location ICE arrest [date]
+```
+
+This catches coverage from smaller outlets, syndicated stories, and social media that may not appear in site-specific searches. If a story only appears in ONE source after general web searches, flag it as needing corroboration and rate trustworthiness as MEDIUM at best.
+
 ## Evaluating Search Results
 
 ### Cross-Reference Against Existing Files

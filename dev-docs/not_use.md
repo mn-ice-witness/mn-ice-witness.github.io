@@ -10,6 +10,7 @@ Stories are excluded when they don't meet the project's core focus:
 3. **Duplicate coverage** - Same incident already documented under different headline
 4. **Criminal investigations** - Raids tied to drug trafficking, weapons, or other criminal investigations (not immigration-only enforcement)
 5. **Detainees with criminal convictions** - Cases where majority of those detained had prior criminal records
+6. **Political/institutional stories** - Stories about political responses, resignations, investigations, or institutional actions that don't document a specific civil rights incident (e.g., prosecutors resigning, DOJ investigations, legislative hearings)
 
 ---
 
@@ -70,6 +71,55 @@ Stories are excluded when they don't meet the project's core focus:
 - Details: Footage shared showing ICE conducting operation at apartment building across from Aquila Elementary School around dismissal time.
 - Reason: No victim identified, no detention documented at school. ICE near school but no direct incident with students or families. May revisit if more details emerge.
 - Date evaluated: 2026-01-14
+
+**Federal Prosecutors Resign Over ICE Shooting Investigation (Jan 14)**
+- Sources: [NPR](https://www.npr.org/2026/01/14/nx-s1-5676293/several-federal-prosecutors-in-minnesota-resign-over-ice-shooting-investigation), [NBC News](https://www.nbcnews.com/news/justice-department/least-3-prosecutors-resign-concerns-probe-minneapolis-ice-shooting-sou-rcna253876), [PBS](https://www.pbs.org/newshour/show/doj-prosecutors-resign-in-protest-over-handling-of-ice-shooting-investigation)
+- Date: January 14, 2026
+- Details: Six federal prosecutors (including Joseph Thompson, lead fraud prosecutor) resigned after DOJ pressure to investigate Renee Good's widow rather than ICE agent Jonathan Ross. Prosecutors objected to the direction of the investigation.
+- Reason: Political/institutional story - documents government response and internal DOJ conflict, not a civil rights incident involving ICE enforcement against a person. No victim detained or harmed in this story itself.
+- Date evaluated: 2026-01-16
+
+**Congressional Field Hearing on ICE Actions (Jan 16)**
+- Sources: Fox 9, Twin Cities Pioneer Press
+- Date: January 16, 2026
+- Details: Reps. Ilhan Omar and Pramila Jayapal held field hearing "Kidnapped and Disappeared" in St. Paul with testimony from victims and officials.
+- Reason: Political/institutional story - legislative hearing, not a new civil rights incident. Testimonies reference incidents already documented elsewhere.
+- Date evaluated: 2026-01-16
+
+**ProPublica 40+ Chokehold Cases Report (Jan 16)**
+- Sources: [Democracy Now](https://www.democracynow.org/2026/1/16/ice_tactics), ProPublica
+- Date: January 16, 2026
+- Details: ProPublica investigation documenting 40+ cases of ICE using banned chokeholds nationally, and 170+ US citizen detentions during Trump's term.
+- Reason: National investigative report - documents patterns nationwide, not a specific Minnesota incident. Minnesota incidents from the report are documented individually.
+- Date evaluated: 2026-01-16
+
+**Man Unconscious Outside Shakopee Business (Jan 14)**
+- Source: [Bring Me The News](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-wednesday-jan-14)
+- Date: January 14, 2026
+- Details: Video shows man appearing unconscious while detained by ICE agents outside a commercial business. Agents appear to check vital signs. Shakopee PD says man was "medically cleared."
+- Reason: Insufficient details - no victim identification, no follow-up coverage, unclear circumstances. Video exists but no corroborating sources or victim statement.
+- Date evaluated: 2026-01-16
+
+**St. Gabriel Church Surveillance Hopkins (Jan 4)**
+- Source: [Catholic News Agency](https://www.catholicnewsagency.com/news/268977/minnesota-ICE-catholic-church)
+- Date: January 4, 2026
+- Details: ICE agents in ski masks surveilled St. Gabriel the Archangel Catholic Church during Epiphany Mass, 5 weeks after deporting maintenance worker Francisco Paredes. Mayor and pastor confirmed presence.
+- Reason: Surveillance/presence story - no detention or civil rights incident occurred at the church. Paredes deportation already documented separately (2025-12-04). Church attendance impact is community impact, not incident.
+- Date evaluated: 2026-01-16
+
+**Rochester "No Warrant" Video (Jan 14)**
+- Source: [Star Tribune](https://www.startribune.com/with-ice-surge-spreading-across-state-rumors-and-anxiety-grow-in-greater-minnesota/601562255/)
+- Date: January 14, 2026
+- Details: State Rep Andy Smith video shows ICE agents at northwest Rochester apartment complex shouting "We don't need a warrant!" with expletives, telling Smith to leave.
+- Reason: Insufficient details - no victim identified or detained in video, brief mention in broader article. Confrontational but no clear civil rights violation documented.
+- Date evaluated: 2026-01-16
+
+**Rochester Ear of Corn Water Tower Incident (Jan 14)**
+- Source: [Star Tribune](https://www.startribune.com/with-ice-surge-spreading-across-state-rumors-and-anxiety-grow-in-greater-minnesota/601562255/)
+- Date: January 14, 2026
+- Details: Near Rochester's Ear of Corn Water Tower, ICE agent appeared ready to break through vehicle window with hammer until constitutional observers arrived.
+- Reason: Insufficient details - no arrest made, observer intervention prevented escalation, brief mention only. No victim identified.
+- Date evaluated: 2026-01-16
 
 ### October 2025
 
