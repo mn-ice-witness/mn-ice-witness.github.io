@@ -56,7 +56,11 @@ const Search = {
     open() {
         this.isOpen = true;
         this.modal.setAttribute('aria-hidden', 'false');
-        this.input.focus();
+        // Delay focus to ensure modal is visible after CSS transition
+        setTimeout(() => {
+            this.input.focus();
+            this.input.select();
+        }, 50);
     },
 
     close() {

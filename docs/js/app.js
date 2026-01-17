@@ -5,11 +5,25 @@ const App = {
     viewedIncidents: new Set(),
     sectionHashes: ['citizens', 'observers', 'immigrants', 'schools', 'response'],
 
+    // Simple stemmer - strips common suffixes for search matching
+    stem(word) {
+        if (word.length <= 4) return word;
+        return word
+            .replace(/ies$/i, 'y')      // carries -> carry
+            .replace(/ied$/i, 'y')      // carried -> carry
+            .replace(/es$/i, '')        // watches -> watch
+            .replace(/ed$/i, '')        // arrested -> arrest
+            .replace(/ing$/i, '')       // detaining -> detain
+            .replace(/s$/i, '');        // officers -> officer
+    },
+
     getFilteredIncidents() {
         const query = (typeof Search !== 'undefined' && Search.query) ? Search.query.toLowerCase().trim() : '';
         if (!query) return this.incidents;
 
         const terms = query.split(/\s+/).filter(t => t.length > 0);
+        const stemmedTerms = terms.map(t => this.stem(t));
+
         return this.incidents.filter(incident => {
             const searchText = [
                 incident.title,
@@ -18,7 +32,12 @@ const App = {
                 incident.city
             ].join(' ').toLowerCase();
 
-            return terms.every(term => searchText.includes(term));
+            // Extract words (word boundary matching) and stem them
+            const words = searchText.match(/\b\w+\b/g) || [];
+            const stemmedWords = new Set(words.map(w => this.stem(w)));
+
+            // Every search term (stemmed) must match some word (stemmed)
+            return stemmedTerms.every(stemmedTerm => stemmedWords.has(stemmedTerm));
         });
     },
 
