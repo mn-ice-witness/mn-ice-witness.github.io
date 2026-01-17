@@ -4,6 +4,7 @@ const App = {
     currentView: 'media',
     viewedIncidents: new Set(),
     sectionHashes: ['citizens', 'observers', 'immigrants', 'schools', 'response'],
+    isScrollingToSection: false,
 
     // Simple stemmer - strips common suffixes for search matching
     stem(word) {
@@ -175,9 +176,19 @@ const App = {
                 if (window.location.hash !== '#' + hash) {
                     history.pushState(null, '', '#' + hash);
                 }
+                this.isScrollingToSection = true;
                 requestAnimationFrame(() => this.scrollToSection(hash));
+                setTimeout(() => { this.isScrollingToSection = false; }, 1000);
             });
         });
+
+        window.addEventListener('scroll', () => {
+            if (this.isScrollingToSection || this.currentView !== 'list') return;
+            const hash = window.location.hash.slice(1);
+            if (this.sectionHashes.includes(hash)) {
+                history.replaceState(null, '', '#list');
+            }
+        }, { passive: true });
     },
 
     switchView(view, skipUrlUpdate) {
