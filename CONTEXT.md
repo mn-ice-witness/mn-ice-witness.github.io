@@ -20,6 +20,7 @@ If ~/.context.md doesn't exist, notify the user.
 6. `dev-docs/project-status.md` - Current state and pending work
 7. `dev-docs/not_use.md` - Stories evaluated and rejected (check before adding new incidents)
 8. `dev-docs/llm-search-procedure.md` - Step-by-step guide for LLMs to search for new incidents
+9. `dev-docs/media-controls.md` - Video player controls strategy and fullscreen implementation
 
 These docs are the source of truth for how this project works.
 
