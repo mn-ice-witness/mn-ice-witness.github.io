@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768677849,
+  "mediaVersion": 1768682425,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-17-st-louis-park-daycare.md",
@@ -150,7 +150,7 @@
     {
       "filePath": "incidents/2026-01/2026-01-14-nasra-ahmed-st-paul-citizen.md",
       "title": "U.S. Citizen Born in Minnesota Detained by ICE, Still Held Without Bail",
-      "summary": "Nasra Mohamed Ahmed, a 23-year-old U.S. citizen born in Hennepin County, was detained by ICE agents on January 14 in the parking lot of her St. Paul apartment complex. Despite telling agents she was born in Minnesota and has never been to Somalia, she remains in custody at Sherburne County Jail without bail. She has no criminal history.",
+      "summary": "Nasra Mohamed Ahmed, a 23-year-old U.S. citizen born in Hennepin County, was detained by ICE agents on January 14 in the parking lot of her St. Paul apartment complex while on her way to pick up a prescription from the pharmacy. Despite telling agents she was born in Minnesota and has never been to Somalia, she remains in custody at Sherburne County Jail without bail. She has no criminal history.",
       "date": "2026-01-14",
       "time": "11:00",
       "location": "Lower Afton Road apartment complex",
@@ -160,13 +160,18 @@
       "victimCitizenship": "us-citizen",
       "injuries": "none",
       "trustworthiness": "medium",
-      "lastUpdated": "2026-01-16",
+      "lastUpdated": "2026-01-17",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": []
+      "hasLocalMedia": true,
+      "localMediaType": "image",
+      "localMediaPath": "media/2026-01-14-nasra-ahmed-st-paul-citizen.jpg",
+      "localMediaFiles": [
+        {
+          "type": "image",
+          "path": "media/2026-01-14-nasra-ahmed-st-paul-citizen.jpg"
+        }
+      ]
     },
     {
       "filePath": "incidents/2026-01/2026-01-14-dhs-response-frey-sanctuary.md",
