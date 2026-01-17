@@ -181,6 +181,34 @@ List incidents that need additional verification before documenting
 2. **Propose new incident files** - If any qualify, outline what would be documented
 3. **Update not_use.md** - Add any evaluated/rejected stories
 4. **Update existing incidents** - If new information found for existing files
+5. **Add ALL discovered sources** - Even unverified links should be added to incident files
+
+### Adding Sources to Existing Incidents
+
+**CRITICAL:** When researching, add ALL discovered sources to incident files, even if unverified:
+
+- Add new sources to the END of the Sources section (don't reorder existing sources)
+- Include social media links (X, TikTok, Instagram, Threads, BlueSky, Facebook)
+- Include international coverage (UK, Canadian, Australian outlets)
+- Include commentary/opinion pieces that reference the incident
+- Mark video sources with **VIDEO** tag for easy identification
+
+Example format for adding sources:
+```markdown
+## Sources
+1. [Existing source 1](url)
+2. [Existing source 2](url)
+...existing sources...
+15. X - @username (Month Year): [Post description](url)
+16. TikTok - @account (Month Year): [Video description](url) - **VIDEO**
+17. Instagram Reel (Month Year): [Description](url) - **VIDEO**
+18. Threads - @account (Month Year): [Post description](url)
+```
+
+This ensures:
+- Complete documentation of all coverage
+- Easy identification of video sources for media gallery
+- Preservation of the historical record
 
 ## Example Search Session Log
 
