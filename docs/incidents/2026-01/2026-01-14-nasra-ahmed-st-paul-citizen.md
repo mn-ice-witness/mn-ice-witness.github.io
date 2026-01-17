@@ -8,16 +8,17 @@ status: ongoing
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: medium
-last_updated: 2026-01-16
+last_updated: 2026-01-17
 ---
 
 # U.S. Citizen Born in Minnesota Detained by ICE, Still Held Without Bail
 
 ## Summary
-Nasra Mohamed Ahmed, a 23-year-old U.S. citizen born in Hennepin County, was detained by ICE agents on January 14 in the parking lot of her St. Paul apartment complex. Despite telling agents she was born in Minnesota and has never been to Somalia, she remains in custody at Sherburne County Jail without bail. She has no criminal history.
+Nasra Mohamed Ahmed, a 23-year-old U.S. citizen born in Hennepin County, was detained by ICE agents on January 14 in the parking lot of her St. Paul apartment complex while on her way to pick up a prescription from the pharmacy. Despite telling agents she was born in Minnesota and has never been to Somalia, she remains in custody at Sherburne County Jail without bail. She has no criminal history.
 
 ## Sources
 1. Twin Cities Pioneer Press (Jan 16, 2026): [Family of U.S. citizen detained by ICE in St. Paul seeks her release](https://www.twincities.com/2026/01/16/family-of-u-s-citizen-detained-by-ice-in-st-paul-seeks-her-release/)
+2. Facebook post: [Community member account](https://www.facebook.com/story.php?story_fbid=25714350694874522&id=100001788329163) - Notes she was on her way to pick up a prescription
 
 ## Victim(s)
 - **Name:** Nasra Mohamed Ahmed
@@ -30,7 +31,7 @@ Nasra Mohamed Ahmed, a 23-year-old U.S. citizen born in Hennepin County, was det
 - **Medical Conditions:** Suffers from seizures and anxiety, requires prescription medication
 
 ## Timeline
-- **~11:00 AM** - ICE agents detain Nasra Ahmed in parking lot of her apartment complex on Lower Afton Road in St. Paul
+- **~11:00 AM** - ICE agents detain Nasra Ahmed in parking lot of her apartment complex on Lower Afton Road in St. Paul while she was on her way to pick up a prescription
 - **During detention** - Ahmed tells agents: "I'm a U.S. citizen, born in Hennepin County"
 - **Wednesday-Friday** - Ahmed held at Sherburne County Jail without bail
 - **Friday AM** - Jail roster lists only "federal title," "federal court" and "f" for felony; U.S. Marshals say they have no record of her
