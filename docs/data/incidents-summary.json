@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768686482,
+  "mediaVersion": 1768686940,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-17-st-louis-park-daycare.md",
@@ -210,10 +210,15 @@
       "lastUpdated": "2026-01-14",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": []
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-14-oglala-sioux-still-detained.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-14-oglala-sioux-still-detained.mp4"
+        }
+      ]
     },
     {
       "filePath": "incidents/2026-01/2026-01-14-crystal-bus-stop-parent.md",
@@ -1124,15 +1129,10 @@
       "lastUpdated": "2026-01-16",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": true,
-      "localMediaType": "video",
-      "localMediaPath": "media/2026-01-08-little-earth-native-americans.mp4",
-      "localMediaFiles": [
-        {
-          "type": "video",
-          "path": "media/2026-01-08-little-earth-native-americans.mp4"
-        }
-      ]
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": []
     },
     {
       "filePath": "incidents/2026-01/2026-01-08-hennepin-healthcare-i9-subpoena.md",
