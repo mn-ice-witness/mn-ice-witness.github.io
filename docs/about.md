@@ -44,21 +44,12 @@ Incidents are organized into five categories:
 
 <p style="color: #8a9aaf; font-weight: bold; font-style: italic; margin-top: 1.5em;">For real-time, crowd-sourced ICE sighting reports and alerts, visit <a href="https://iceout.org/en/" style="color: #7ba3c9;">iceout.org</a> (People Over Papers).</p>
 
-### Legend
+### Icons
 
-<div style="background: #f8f9fa; border: 1px solid #e2e2e2; border-radius: 6px; padding: 16px; margin: 16px 0;">
+In the list view, incidents may display these icons:
 
-**<span style="color: #4a90d9;">★</span> Notable** — Incidents that exemplify patterns in enforcement operations: wrongful detention of citizens, excessive force, or civil rights concerns.
-
-**<svg viewBox="0 0 24 24" width="14" height="14" style="vertical-align: middle; color: #c0c0c0;"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" fill="currentColor"/></svg> Viewed** — Incidents you've clicked on are greyed out and show an eye icon to help you keep track of which stories you've already read. <a href="#clear-viewed">Clear viewed history</a>.
-
-**Trustworthiness Ratings:**
-- <span style="background: #1a7f37; color: white; padding: 2px 6px; border-radius: 2px; font-size: 0.75em; font-weight: 700;">HIGH</span> — Strong evidence: 3+ sources, video/photo evidence, or detailed investigative reporting from major outlets with named sources
-- <span style="background: #bf8700; color: white; padding: 2px 6px; border-radius: 2px; font-size: 0.75em; font-weight: 700;">MEDIUM</span> — Moderate evidence: 2 sources, official statements, or single established source
-- <span style="background: #cf222e; color: white; padding: 2px 6px; border-radius: 2px; font-size: 0.75em; font-weight: 700;">LOW</span> — Limited evidence: single smaller source, needs corroboration
-- <span style="background: #999; color: white; padding: 2px 6px; border-radius: 2px; font-size: 0.75em; font-weight: 700;">UNVERIFIED</span> — Reported but not yet confirmed
-
-</div>
+- **<svg viewBox="0 0 24 24" width="16" height="16" style="vertical-align: middle; color: #7ba3c9;"><path d="M12 15.2c1.77 0 3.2-1.43 3.2-3.2 0-1.77-1.43-3.2-3.2-3.2-1.77 0-3.2 1.43-3.2 3.2 0 1.77 1.43 3.2 3.2 3.2zM9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9z" fill="currentColor"/></svg> Media** — This incident includes video or photo evidence viewable in the media gallery.
+- **<svg viewBox="0 0 24 24" width="14" height="14" style="vertical-align: middle; color: #c0c0c0;"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" fill="currentColor"/></svg> Viewed** — Incidents you've clicked on are greyed out to help you track which stories you've read. <a href="#clear-viewed">Clear viewed history</a>.
 
 ### Examples
 
@@ -105,8 +96,6 @@ All incidents are documented using publicly available sources including:
 - Court filings and legal documents
 - Video evidence and eyewitness accounts
 
-Incidents are rated for trustworthiness (HIGH, MEDIUM, LOW, UNVERIFIED) based on source quantity, quality, and corroboration — including whether reports come from major investigative outlets, include video/photo evidence, or feature official confirmations and named witnesses.
-
 ## Investigations & Analysis
 
 In-depth reporting and analysis of ICE enforcement patterns and civil rights concerns:
@@ -124,3 +113,13 @@ In-depth reporting and analysis of ICE enforcement patterns and civil rights con
 - [2,000 federal agents sent to Minneapolis area to carry out 'largest immigration operation ever'](https://www.pbs.org/newshour/politics/2000-federal-agents-sent-to-minneapolis-area-to-carry-out-largest-immigration-operation-ever-ice-says) - PBS NewsHour
 - [ICE Videos Minnesota: What the footage shows](https://www.nytimes.com/2026/01/13/us/ice-videos-minnesota-trump-immigration.html) - New York Times
 
+## Trustworthiness Ratings
+
+Each incident is rated for trustworthiness based on source quality and corroboration:
+
+- <span style="background: #1a7f37; color: white; padding: 2px 6px; border-radius: 2px; font-size: 0.75em; font-weight: 700;">HIGH</span> — 3+ sources, video/photo evidence, or detailed investigative reporting with named sources
+- <span style="background: #bf8700; color: white; padding: 2px 6px; border-radius: 2px; font-size: 0.75em; font-weight: 700;">MEDIUM</span> — 2 sources, official statements, or single established source
+- <span style="background: #cf222e; color: white; padding: 2px 6px; border-radius: 2px; font-size: 0.75em; font-weight: 700;">LOW</span> — Single smaller source, needs corroboration
+- <span style="background: #999; color: white; padding: 2px 6px; border-radius: 2px; font-size: 0.75em; font-weight: 700;">UNVERIFIED</span> — Reported but not yet confirmed
+
+The trustworthiness rating appears at the bottom of each incident page.

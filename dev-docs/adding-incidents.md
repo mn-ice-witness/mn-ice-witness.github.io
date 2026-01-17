@@ -230,29 +230,6 @@ git commit -m "Add incident: Title of incident"
 git push
 ```
 
-## Starring Incidents (Notable)
-
-After creating an incident, consider if it should be **starred** (`notable: true`). Starred incidents appear with visual prominence in the UI.
-
-**Star an incident if it has:**
-- Fatal or life-threatening outcome
-- Video evidence of physical abuse (agent kneeing, choking, beating)
-- Hospitalization from assault by agents
-- U.S. citizen held for hours despite showing ID
-- Schools directly impacted with students present
-- Lead plaintiff in civil rights lawsuit
-
-**See `dev-docs/starring-criteria.md` for full guidelines.**
-
-To star an incident, add `notable: true` to the frontmatter:
-
-```yaml
-trustworthiness: high
-last_updated: 2026-01-16
-notable: true
----
-```
-
 ## Updating Existing Incidents
 
 When new information emerges:
@@ -261,17 +238,22 @@ When new information emerges:
 2. Update `last_updated` in frontmatter
 3. Add new sources to Sources section
 4. Update Editorial Assessment if trustworthiness changes
-5. **Consider starring** if new video evidence or lawsuit filed
-6. Commit with message like "Update: New video evidence for Speedway incident"
+5. Commit with message like "Update: New video evidence for Speedway incident"
 
-### NEVER Remove Sources
+### NEVER Remove Valid Sources
 
-**CRITICAL:** Never remove sources from an incident, even if:
+**CRITICAL:** Never remove sources from an incident just because:
 - A better version exists (e.g., video with original audio vs. one with music overlay)
 - The source seems redundant
-- The link appears broken (mark it as broken instead)
+- You think another source covers it better
 
-We want ALL sources documented. If one version is better than another, add a note in parentheses to clarify (e.g., "original audio" or "music overlay") but keep both.
+We want ALL valid sources documented. Let users decide what they care about. If one version is better than another, add a note in parentheses to clarify (e.g., "original audio" or "music overlay") but keep both.
+
+**Only remove sources that are:**
+- Fake or fabricated
+- Proven false or misleading
+- From unreliable/disreputable sources
+- Permanently broken links (not just temporarily down)
 
 ## Cache Busting (Important!)
 

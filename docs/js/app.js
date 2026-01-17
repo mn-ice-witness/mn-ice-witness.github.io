@@ -506,11 +506,11 @@ const App = {
         const monthStr = monthNames[parseInt(month, 10) - 1];
         const dayNum = parseInt(day, 10);
 
-        const notableStar = incident.notable ? '<span class="notable-star">★</span>' : '';
         const incidentId = this.getIncidentId(incident);
         const isViewed = this.viewedIncidents.has(incidentId);
         const viewedClass = isViewed ? 'viewed' : '';
-        const viewedIconClass = isViewed ? 'is-viewed' : '';
+
+        const mediaIcon = incident.hasLocalMedia ? '<svg class="media-icon" viewBox="0 0 24 24" width="16" height="16"><path d="M12 15.2c1.77 0 3.2-1.43 3.2-3.2 0-1.77-1.43-3.2-3.2-3.2-1.77 0-3.2 1.43-3.2 3.2 0 1.77 1.43 3.2 3.2 3.2zM9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9z" fill="currentColor"/></svg>' : '';
 
         return `
             <article class="incident-row ${viewedClass}" role="button" tabindex="0" data-incident-id="${incidentId}">
@@ -523,22 +523,11 @@ const App = {
                     <p class="row-location">${incident.location}, ${incident.city}</p>
                 </div>
                 <div class="row-meta">
-                    <span class="trust-badge trust-${incident.trustworthiness}" data-tooltip="${this.getTrustTooltip(incident.trustworthiness)}">${incident.trustworthiness.toUpperCase()}</span>
-                    ${notableStar}
+                    ${mediaIcon}
                     ${isViewed ? '<svg class="viewed-icon" viewBox="0 0 24 24" width="14" height="14"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" fill="currentColor"/></svg>' : ''}
                 </div>
             </article>
         `;
-    },
-
-    getTrustTooltip(level) {
-        const tooltips = {
-            high: '3+ independent sources with video/photo evidence',
-            medium: '2 sources or official statements',
-            low: 'Single source or social media only',
-            unverified: 'Reported but not yet confirmed'
-        };
-        return tooltips[level] || '';
     }
 };
 

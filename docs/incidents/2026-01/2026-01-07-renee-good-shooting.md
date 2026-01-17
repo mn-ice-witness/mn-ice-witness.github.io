@@ -9,7 +9,6 @@ victim_citizenship: us-citizen
 injuries: fatal
 trustworthiness: high
 last_updated: 2026-01-13
-notable: true
 ---
 
 # Renee Nicole Good Shot and Killed by ICE Agent

@@ -8,7 +8,6 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
-notable: true
 last_updated: 2026-01-14
 ---
 

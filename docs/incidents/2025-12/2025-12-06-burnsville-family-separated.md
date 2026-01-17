@@ -9,7 +9,6 @@ victim_citizenship: mixed-status-household
 injuries: none-physical
 trustworthiness: high
 last_updated: 2026-01-14
-notable: true
 ---
 
 # Parents Separated from 7-Year-Old in Burnsville Raid; Ring Camera Captures Forced Entry

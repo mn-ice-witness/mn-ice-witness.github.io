@@ -9,7 +9,6 @@ victim_citizenship: us-citizen
 injuries: serious
 trustworthiness: high
 last_updated: 2026-01-15
-notable: true
 ---
 
 # Two U.S. Citizen Target Employees Detained and Injured

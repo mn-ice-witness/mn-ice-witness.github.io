@@ -9,7 +9,6 @@ victim_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
 last_updated: 2026-01-13
-notable: true
 ---
 
 # ICE Rams Latino U.S. Citizen's Car, Releases Him After Confirming Identity
