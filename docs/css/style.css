@@ -528,10 +528,10 @@ body {
 /* Audio Toggle Button - standalone on media cards */
 .media-card-media .audio-toggle {
     position: absolute;
-    bottom: 8px;
-    right: 8px;
-    width: 36px;
-    height: 36px;
+    bottom: 0;
+    right: 0;
+    width: 56px;
+    height: 56px;
     background: transparent;
     border: none;
     cursor: pointer;
