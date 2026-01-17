@@ -342,11 +342,8 @@ const Lightbox = {
                 if (exitIcon) exitIcon.style.display = isFullscreen ? '' : 'none';
             };
 
-            fullscreenBtn.addEventListener('click', async () => {
+            fullscreenBtn.addEventListener('click', () => {
                 if (document.fullscreenElement || document.webkitFullscreenElement) {
-                    if (screen.orientation && screen.orientation.unlock) {
-                        screen.orientation.unlock();
-                    }
                     if (document.exitFullscreen) {
                         document.exitFullscreen();
                     } else if (document.webkitExitFullscreen) {
@@ -354,11 +351,7 @@ const Lightbox = {
                     }
                 } else {
                     if (video.requestFullscreen) {
-                        await video.requestFullscreen();
-                        if (screen.orientation && screen.orientation.lock) {
-                            const currentType = screen.orientation.type;
-                            try { await screen.orientation.lock(currentType); } catch {}
-                        }
+                        video.requestFullscreen({ navigationUI: 'hide' });
                     } else if (video.webkitRequestFullscreen) {
                         video.webkitRequestFullscreen();
                     } else if (video.webkitEnterFullscreen) {
