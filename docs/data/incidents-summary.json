@@ -1,6 +1,27 @@
 {
-  "mediaVersion": 1768620098,
+  "mediaVersion": 1768620832,
   "incidents": [
+    {
+      "filePath": "incidents/2026-01/2026-01-15-el-tapatio-willmar.md",
+      "title": "ICE Agents Dine at El Tapatio, Then Return to Detain Workers",
+      "summary": "Four ICE agents ate lunch at El Tapatio, a family-owned Mexican restaurant in Willmar, Minnesota around 3 p.m. on January 15. Staff were visibly frightened during the meal. That evening around 8:30 p.m., agents followed the workers after closing and detained three people\u2014the restaurant's owners and a dishwasher\u2014near a Lutheran church and Willmar Middle School. Bystanders blew whistles and confronted the agents during the arrests.",
+      "date": "2026-01-15",
+      "time": "20:30",
+      "location": "El Tapatio Restaurant, First Street South",
+      "city": "Willmar",
+      "type": "immigrants",
+      "status": "ongoing",
+      "victimCitizenship": "unknown",
+      "injuries": "none",
+      "trustworthiness": "high",
+      "lastUpdated": "2026-01-16",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": []
+    },
     {
       "filePath": "incidents/2026-01/2026-01-15-porter-wrong-address-raid.md",
       "title": "Federal Agents Execute Search Warrant at Wrong Address",
@@ -1101,6 +1122,27 @@
           "path": "media/2026-01-08-jesse-ventura-roosevelt.mp4"
         }
       ]
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-08-ice-gun-pointed-at-protester.md",
+      "title": "ICE Agent Points Gun at Protester's Face at Point-Blank Range",
+      "summary": "During protests in Minneapolis following the fatal shooting of Renee Good, video footage captured an ICE agent pulling a gun on a protester and placing the barrel just a few inches from the person's face. The incident occurred on Thursday, January 8, 2026, the day after Good was killed.",
+      "date": "2026-01-08",
+      "time": "unknown",
+      "location": "Minneapolis (protests following Renee Good shooting)",
+      "city": "Minneapolis",
+      "type": "observers",
+      "status": "resolved",
+      "victimCitizenship": "unknown",
+      "injuries": "none",
+      "trustworthiness": "low",
+      "lastUpdated": "2026-01-16",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": []
     },
     {
       "filePath": "incidents/2026-01/2026-01-08-wes-prince-detained.md",
