@@ -342,6 +342,8 @@ const Lightbox = {
                 if (exitIcon) exitIcon.style.display = isFullscreen ? '' : 'none';
             };
 
+            const container = video.closest('.local-media-container');
+
             fullscreenBtn.addEventListener('click', () => {
                 if (document.fullscreenElement || document.webkitFullscreenElement) {
                     if (document.exitFullscreen) {
@@ -350,10 +352,11 @@ const Lightbox = {
                         document.webkitExitFullscreen();
                     }
                 } else {
-                    if (video.requestFullscreen) {
-                        video.requestFullscreen({ navigationUI: 'hide' });
-                    } else if (video.webkitRequestFullscreen) {
-                        video.webkitRequestFullscreen();
+                    const target = container || video;
+                    if (target.requestFullscreen) {
+                        target.requestFullscreen({ navigationUI: 'hide' });
+                    } else if (target.webkitRequestFullscreen) {
+                        target.webkitRequestFullscreen();
                     } else if (video.webkitEnterFullscreen) {
                         video.webkitEnterFullscreen();
                     }
