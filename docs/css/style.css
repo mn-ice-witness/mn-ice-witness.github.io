@@ -1323,10 +1323,7 @@ body {
 }
 
 .time-display {
-    font-size: 0.7rem;
-    color: rgba(255, 255, 255, 0.7);
-    white-space: nowrap;
-    font-variant-numeric: tabular-nums;
+    display: none;
 }
 
 /* Fullscreen: show time slider, hide scroll overlay */
@@ -1338,6 +1335,24 @@ body {
 .local-media-container:fullscreen .time-slider,
 .local-media-container:-webkit-full-screen .time-slider {
     width: 200px;
+    height: 6px;
+}
+
+.local-media-container:fullscreen .time-slider::-webkit-slider-thumb,
+.local-media-container:-webkit-full-screen .time-slider::-webkit-slider-thumb {
+    width: 18px;
+    height: 18px;
+}
+
+.local-media-container:fullscreen .time-slider::-moz-range-thumb,
+.local-media-container:-webkit-full-screen .time-slider::-moz-range-thumb {
+    width: 18px;
+    height: 18px;
+}
+
+.local-media-container:fullscreen .restart-btn,
+.local-media-container:-webkit-full-screen .restart-btn {
+    display: none;
 }
 
 .local-media-container:fullscreen .video-ended-overlay,
