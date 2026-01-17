@@ -4,11 +4,25 @@ This document explains the video player controls implementation across the site.
 
 ## Overview
 
-The site has two contexts where video is displayed:
-1. **Media Gallery** (main page) - Grid of video cards that autoplay on scroll
-2. **Incident Lightbox** - Full incident detail view when clicking on an incident
+The site has **three distinct contexts** where video is displayed, each with different control needs:
 
-Each context has different control needs.
+1. **Media Gallery** (main page) - Grid of video cards for passive browsing
+2. **Incident Page** (lightbox) - Full incident detail view with sources below
+3. **Fullscreen** (from incident page) - Immersive viewing experience
+
+## Mode Comparison
+
+| Feature | Media Gallery | Incident Page | Fullscreen |
+|---------|--------------|---------------|------------|
+| Autoplay | On scroll (40%+ visible) | On open | Continues |
+| Muted by default | Yes | Yes | No (preserves state) |
+| Loop | Yes | No | No |
+| Play/Pause | No | Yes | Yes |
+| Time slider | No | No | **Yes** |
+| Restart | No | Yes | Yes (prompt on end) |
+| Volume toggle | Yes | Yes | Yes |
+| Fullscreen button | No | Yes | Exit button |
+| End behavior | Loop | Grayscale + "scroll for sources" | Grayscale + restart prompt |
 
 ## Media Gallery Controls
 
@@ -20,25 +34,48 @@ Videos in the gallery are designed for passive browsing:
 
 Why minimal controls: The gallery is for quick browsing. Users tap a card to open the full incident view where they get full controls.
 
-## Incident Lightbox Controls
+## Incident Page Controls (Lightbox)
 
-When viewing an incident with video, full controls are provided:
+When viewing an incident with video, controls are provided for focused viewing:
 
 | Control | Icon | Function |
 |---------|------|----------|
 | Play/Pause | ▶️/⏸️ | Toggle video playback |
 | Restart | ↻ | Reset video to beginning and play |
 | Sound | 🔊/🔇 | Toggle mute/unmute |
-| Fullscreen | ⛶ | Enter/exit fullscreen mode |
+| Fullscreen | ⛶ | Enter fullscreen mode |
 
 ### Control Bar Location
 Controls appear in a semi-transparent bar at bottom-right of the video container.
 
-### Video Behavior
-- Autoplays on open (muted)
-- Clicking the video toggles play/pause
-- When video ends: grayscale filter applied, "scroll for sources below" overlay shown
+### Video End Behavior
+- Grayscale filter applied to video
+- "Scroll for sources below" overlay appears
 - Restart button clears the ended state
+
+This prompts users to read the sources and context below the video.
+
+## Fullscreen Controls
+
+Fullscreen mode provides immersive viewing with additional timeline control:
+
+| Control | Icon | Function |
+|---------|------|----------|
+| Play/Pause | ▶️/⏸️ | Toggle video playback |
+| Time slider | ━━━○━━━ | Seek to any point in video |
+| Restart | ↻ | Reset video to beginning and play |
+| Sound | 🔊/🔇 | Toggle mute/unmute |
+| Exit fullscreen | ⛶ | Exit fullscreen mode |
+
+### Video End Behavior (Fullscreen)
+- Grayscale filter applied to video
+- **Restart prompt** appears (NOT "scroll for sources" - that doesn't apply in fullscreen)
+- Clicking restart or the prompt restarts the video
+
+### Why Time Slider Only in Fullscreen
+- Incident page videos are meant for quick viewing with sources below
+- Fullscreen implies user wants deeper engagement with the video content
+- Time slider enables rewatching specific moments
 
 ## Fullscreen Implementation
 

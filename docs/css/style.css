@@ -1284,6 +1284,107 @@ body {
     opacity: 0.3;
 }
 
+/* Time Slider - hidden by default, shown in fullscreen */
+.time-slider-container {
+    display: none;
+    align-items: center;
+    gap: 8px;
+    padding: 0 8px;
+}
+
+.time-slider {
+    width: 120px;
+    height: 4px;
+    -webkit-appearance: none;
+    appearance: none;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.time-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.time-slider::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+}
+
+.time-display {
+    font-size: 0.7rem;
+    color: rgba(255, 255, 255, 0.7);
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+}
+
+/* Fullscreen: show time slider, hide scroll overlay */
+.local-media-container:fullscreen .time-slider-container,
+.local-media-container:-webkit-full-screen .time-slider-container {
+    display: flex;
+}
+
+.local-media-container:fullscreen .time-slider,
+.local-media-container:-webkit-full-screen .time-slider {
+    width: 200px;
+}
+
+.local-media-container:fullscreen .video-ended-overlay,
+.local-media-container:-webkit-full-screen .video-ended-overlay {
+    display: none;
+}
+
+/* Fullscreen controls positioning */
+.local-media-container:fullscreen .media-controls,
+.local-media-container:-webkit-full-screen .media-controls {
+    bottom: 24px;
+    right: 24px;
+    padding: 6px 8px;
+    border-radius: 8px;
+}
+
+/* Fullscreen restart prompt */
+.fullscreen-restart-prompt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 5;
+}
+
+.restart-prompt-btn {
+    background: rgba(255, 255, 255, 0.9);
+    color: #1a1a1a;
+    border: none;
+    padding: 16px 32px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.15s, background 0.15s;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.restart-prompt-btn:hover {
+    background: #fff;
+    transform: scale(1.05);
+}
+
 /* Mobile: stack media above content */
 @media (max-width: 768px) {
     .local-media-container {

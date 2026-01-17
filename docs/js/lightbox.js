@@ -267,9 +267,20 @@ const Lightbox = {
         const video = this.bodyElement.querySelector('.local-media-video');
         if (!video) return;
 
+        const container = video.closest('.local-media-container');
         const playPauseBtn = this.bodyElement.querySelector('.play-pause-btn');
         const iconPlay = this.bodyElement.querySelector('.media-icon-play');
         const iconPause = this.bodyElement.querySelector('.media-icon-pause');
+        const timeSlider = this.bodyElement.querySelector('.time-slider');
+        const timeDisplay = this.bodyElement.querySelector('.time-display');
+
+        const isFullscreen = () => document.fullscreenElement || document.webkitFullscreenElement;
+
+        const formatTime = (seconds) => {
+            const mins = Math.floor(seconds / 60);
+            const secs = Math.floor(seconds % 60);
+            return `${mins}:${secs.toString().padStart(2, '0')}`;
+        };
 
         const showPlayIcon = () => {
             if (iconPlay) iconPlay.style.display = '';
@@ -281,11 +292,24 @@ const Lightbox = {
             if (iconPause) iconPause.style.display = '';
         };
 
+        const clearEndedState = () => {
+            video.style.filter = '';
+            const overlay = container?.querySelector('.video-ended-overlay');
+            if (overlay) overlay.remove();
+            const restartPrompt = container?.querySelector('.fullscreen-restart-prompt');
+            if (restartPrompt) restartPrompt.remove();
+        };
+
+        const restartVideo = () => {
+            clearEndedState();
+            video.currentTime = 0;
+            video.play();
+            showPauseIcon();
+        };
+
         const togglePlayPause = () => {
             if (video.paused) {
-                video.style.filter = '';
-                const overlay = video.closest('.local-media-container')?.querySelector('.video-ended-overlay');
-                if (overlay) overlay.remove();
+                clearEndedState();
                 video.play();
                 showPauseIcon();
             } else {
@@ -297,15 +321,55 @@ const Lightbox = {
         if (playPauseBtn) playPauseBtn.addEventListener('click', togglePlayPause);
         video.addEventListener('click', togglePlayPause);
 
+        if (timeSlider) {
+            video.addEventListener('loadedmetadata', () => {
+                timeSlider.max = video.duration;
+                if (timeDisplay) {
+                    timeDisplay.textContent = `0:00 / ${formatTime(video.duration)}`;
+                }
+            });
+
+            video.addEventListener('timeupdate', () => {
+                if (!timeSlider.dataset.dragging) {
+                    timeSlider.value = video.currentTime;
+                }
+                if (timeDisplay) {
+                    timeDisplay.textContent = `${formatTime(video.currentTime)} / ${formatTime(video.duration || 0)}`;
+                }
+            });
+
+            timeSlider.addEventListener('mousedown', () => timeSlider.dataset.dragging = 'true');
+            timeSlider.addEventListener('touchstart', () => timeSlider.dataset.dragging = 'true');
+
+            timeSlider.addEventListener('input', () => {
+                video.currentTime = parseFloat(timeSlider.value);
+            });
+
+            timeSlider.addEventListener('mouseup', () => delete timeSlider.dataset.dragging);
+            timeSlider.addEventListener('touchend', () => delete timeSlider.dataset.dragging);
+        }
+
         video.addEventListener('ended', () => {
             showPlayIcon();
-            const container = video.closest('.local-media-container');
-            if (container && !container.querySelector('.video-ended-overlay')) {
+            if (container) {
                 video.style.filter = 'grayscale(80%) brightness(0.7)';
-                const overlay = document.createElement('div');
-                overlay.className = 'video-ended-overlay';
-                overlay.innerHTML = '<span>scroll for sources below</span>';
-                container.appendChild(overlay);
+
+                if (isFullscreen()) {
+                    if (!container.querySelector('.fullscreen-restart-prompt')) {
+                        const prompt = document.createElement('div');
+                        prompt.className = 'fullscreen-restart-prompt';
+                        prompt.innerHTML = '<button class="restart-prompt-btn">Tap to replay</button>';
+                        prompt.querySelector('.restart-prompt-btn').addEventListener('click', restartVideo);
+                        container.appendChild(prompt);
+                    }
+                } else {
+                    if (!container.querySelector('.video-ended-overlay')) {
+                        const overlay = document.createElement('div');
+                        overlay.className = 'video-ended-overlay';
+                        overlay.innerHTML = '<span>scroll for sources below</span>';
+                        container.appendChild(overlay);
+                    }
+                }
             }
         });
         video.addEventListener('play', showPauseIcon);
@@ -313,14 +377,7 @@ const Lightbox = {
 
         const restartBtn = this.bodyElement.querySelector('.restart-btn');
         if (restartBtn) {
-            restartBtn.addEventListener('click', () => {
-                video.style.filter = '';
-                const overlay = video.closest('.local-media-container')?.querySelector('.video-ended-overlay');
-                if (overlay) overlay.remove();
-                video.currentTime = 0;
-                video.play();
-                showPauseIcon();
-            });
+            restartBtn.addEventListener('click', restartVideo);
         }
 
         const audioToggle = this.bodyElement.querySelector('.audio-toggle');
@@ -337,15 +394,13 @@ const Lightbox = {
             const exitIcon = fullscreenBtn.querySelector('.fullscreen-exit');
 
             const updateFullscreenIcon = () => {
-                const isFullscreen = document.fullscreenElement || document.webkitFullscreenElement;
-                if (enterIcon) enterIcon.style.display = isFullscreen ? 'none' : '';
-                if (exitIcon) exitIcon.style.display = isFullscreen ? '' : 'none';
+                const fs = isFullscreen();
+                if (enterIcon) enterIcon.style.display = fs ? 'none' : '';
+                if (exitIcon) exitIcon.style.display = fs ? '' : 'none';
             };
 
-            const container = video.closest('.local-media-container');
-
             fullscreenBtn.addEventListener('click', () => {
-                if (document.fullscreenElement || document.webkitFullscreenElement) {
+                if (isFullscreen()) {
                     if (document.exitFullscreen) {
                         document.exitFullscreen();
                     } else if (document.webkitExitFullscreen) {
@@ -410,6 +465,10 @@ const Lightbox = {
                             <polygon points="6,4 20,12 6,20" fill="currentColor"/>
                         </svg>
                     </button>
+                    <div class="time-slider-container">
+                        <input type="range" class="time-slider" min="0" max="100" value="0" step="0.1" aria-label="Video progress">
+                        <span class="time-display">0:00 / 0:00</span>
+                    </div>
                     <button class="media-control-btn restart-btn" aria-label="Restart">
                         <svg viewBox="0 0 24 24" width="24" height="24">
                             <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z" fill="currentColor"/>
