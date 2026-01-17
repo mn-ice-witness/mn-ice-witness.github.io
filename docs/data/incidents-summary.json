@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768621017,
+  "mediaVersion": 1768621522,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-15-el-tapatio-willmar.md",
@@ -17,10 +17,15 @@
       "lastUpdated": "2026-01-16",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": []
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-15-el-tapatio-willmar.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-15-el-tapatio-willmar.mp4"
+        }
+      ]
     },
     {
       "filePath": "incidents/2026-01/2026-01-15-porter-wrong-address-raid.md",
@@ -1139,10 +1144,15 @@
       "lastUpdated": "2026-01-16",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": []
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-08-ice-gun-pointed-at-protester.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-08-ice-gun-pointed-at-protester.mp4"
+        }
+      ]
     },
     {
       "filePath": "incidents/2026-01/2026-01-08-wes-prince-detained.md",
