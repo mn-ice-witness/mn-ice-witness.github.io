@@ -7,7 +7,7 @@ type: observers
 status: resolved
 victim_citizenship: unknown
 injuries: none
-trustworthiness: low
+trustworthiness: medium
 last_updated: 2026-01-16
 ---
 
@@ -30,4 +30,4 @@ During protests in Minneapolis following the fatal shooting of Renee Good, video
 - **January 8, 2026** - Protests erupt across Minneapolis; ICE agent points gun at protester's face during demonstration
 
 ## Editorial Assessment
-**LOW** - Two sources reference the incident and cite video footage, but the video has not been independently verified. Limited details available about the specific circumstances, location within Minneapolis, or identity of the agent or protester involved.
+**MEDIUM** - Two independent sources (Middle East Eye, Peoples Dispatch) reference the incident with video footage. Limited details available about the specific circumstances, location within Minneapolis, or identity of the agent or protester involved.
