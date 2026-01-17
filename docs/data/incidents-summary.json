@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768626133,
+  "mediaVersion": 1768627501,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-15-el-tapatio-willmar.md",
@@ -141,7 +141,7 @@
       "trustworthiness": "medium",
       "lastUpdated": "2026-01-16",
       "mediaCount": 0,
-      "notable": true,
+      "notable": false,
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
@@ -1301,7 +1301,7 @@
       "trustworthiness": "medium",
       "lastUpdated": "2026-01-16",
       "mediaCount": 0,
-      "notable": true,
+      "notable": false,
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,

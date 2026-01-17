@@ -9,7 +9,6 @@ victim_citizenship: us-citizen
 injuries: serious
 trustworthiness: medium
 last_updated: 2026-01-16
-notable: true
 ---
 
 # U.S. Citizen Tackled by ICE at Shakopee Construction Site, Hospitalized

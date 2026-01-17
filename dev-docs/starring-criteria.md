@@ -1,6 +1,17 @@
 # Starring (Notable) Criteria
 
-The `notable: true` field in incident frontmatter marks incidents as "starred" - these appear with visual prominence in the UI. Starring is independent of trustworthiness (which relates to source quality).
+The `notable: true` field in incident frontmatter marks incidents as "starred" - these appear with visual prominence in the UI.
+
+## CRITICAL: Trustworthiness Requirement
+
+**Only incidents with `trustworthiness: high` may be starred.**
+
+Starring an incident gives it prominent visual treatment and signals to readers that this is a key incident. We can only make that editorial judgment when we have high confidence in the facts - which requires high trustworthiness (3+ sources, video evidence, or official corroboration).
+
+If an incident seems worthy of starring but only has medium trustworthiness:
+1. Do NOT add `notable: true`
+2. Note in the Editorial Assessment that it may warrant starring once additional sources emerge
+3. Revisit when more corroboration becomes available
 
 ## When to Star an Incident
 

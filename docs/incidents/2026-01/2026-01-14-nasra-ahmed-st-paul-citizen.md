@@ -9,7 +9,6 @@ victim_citizenship: us-citizen
 injuries: none
 trustworthiness: medium
 last_updated: 2026-01-16
-notable: true
 ---
 
 # U.S. Citizen Born in Minnesota Detained by ICE, Still Held Without Bail
