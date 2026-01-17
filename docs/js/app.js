@@ -376,9 +376,11 @@ const App = {
             return slug === hash;
         });
 
+        document.getElementById('splash')?.classList.add('hidden');
         if (incident) {
-            document.getElementById('splash')?.classList.add('hidden');
             Lightbox.open(incident);
+        } else {
+            Lightbox.open404(hash);
         }
     },
 

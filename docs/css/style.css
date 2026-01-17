@@ -1111,6 +1111,42 @@ body {
     color: var(--color-text-secondary);
 }
 
+.not-found-content {
+    max-width: 700px;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.not-found-content h1 {
+    font-family: var(--font-serif);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+    color: var(--color-text);
+}
+
+.not-found-content p {
+    margin-bottom: 16px;
+    line-height: 1.7;
+    color: var(--color-text-secondary);
+}
+
+.not-found-content strong {
+    color: var(--color-text);
+    font-weight: 600;
+}
+
+.not-found-content a {
+    color: var(--type-observers);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.15s;
+}
+
+.not-found-content a:hover {
+    border-bottom-color: var(--type-observers);
+}
+
 .lightbox-meta {
     display: flex;
     flex-wrap: wrap;

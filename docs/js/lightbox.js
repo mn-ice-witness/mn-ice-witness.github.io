@@ -83,6 +83,27 @@ const Lightbox = {
         await this.renderAboutContent();
     },
 
+    open404(hash) {
+        this.element.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+
+        this.currentSlug = hash;
+        this.openedViaPushState = false;
+
+        this.bodyElement.innerHTML = `
+            <div class="not-found-content">
+                <h1>Page Not Found</h1>
+                <p>The incident "<strong>${hash}</strong>" doesn't exist or may have been removed.</p>
+                <p><a href="#" class="not-found-home">← Return to home</a></p>
+            </div>
+        `;
+
+        this.bodyElement.querySelector('.not-found-home').addEventListener('click', (e) => {
+            e.preventDefault();
+            this.close();
+        });
+    },
+
     async openIncidentBySlug(slug) {
         if (this.currentSlug) {
             this.savedScrollPositions[this.currentSlug] = this.bodyElement.scrollTop;
