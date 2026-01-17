@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768677299,
+  "mediaVersion": 1768677726,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-17-st-louis-park-daycare.md",
@@ -1723,10 +1723,15 @@
       "lastUpdated": "2026-01-17",
       "mediaCount": 0,
       "notable": true,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": []
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2025-12-11-eden-prairie-13-year-old.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2025-12-11-eden-prairie-13-year-old.mp4"
+        }
+      ]
     },
     {
       "filePath": "incidents/2025-12/2025-12-10-mubashir-wrongful-detention.md",

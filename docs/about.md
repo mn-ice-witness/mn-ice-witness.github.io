@@ -44,12 +44,15 @@ Incidents are organized into five categories:
 
 <p style="color: #8a9aaf; font-weight: bold; font-style: italic; margin-top: 1.5em;">For real-time, crowd-sourced ICE sighting reports and alerts, visit <a href="https://iceout.org/en/" style="color: #7ba3c9;">iceout.org</a> (People Over Papers).</p>
 
-### Icons
+### List View Icons
 
-In the list view, incidents may display these icons:
+<div style="background: #f8f9fa; border: 1px solid #e2e2e2; border-radius: 6px; padding: 16px; margin: 16px 0;">
 
-- **<svg viewBox="0 0 24 24" width="16" height="16" style="vertical-align: middle; color: #7ba3c9;"><path d="M12 15.2c1.77 0 3.2-1.43 3.2-3.2 0-1.77-1.43-3.2-3.2-3.2-1.77 0-3.2 1.43-3.2 3.2 0 1.77 1.43 3.2 3.2 3.2zM9 2L7.17 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2h-3.17L15 2H9z" fill="currentColor"/></svg> Media** — This incident includes video or photo evidence viewable in the media gallery.
-- **<svg viewBox="0 0 24 24" width="14" height="14" style="vertical-align: middle; color: #c0c0c0;"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" fill="currentColor"/></svg> Viewed** — Incidents you've clicked on are greyed out to help you track which stories you've read. <a href="#clear-viewed">Clear viewed history</a>.
+<p style="margin-bottom: 12px;"><svg viewBox="0 0 24 24" width="16" height="16" style="vertical-align: middle; color: #7ba3c9;" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg> <strong>Camera</strong> — Incident has video or photo evidence in the media gallery.</p>
+
+<p style="margin-bottom: 0;"><svg viewBox="0 0 24 24" width="16" height="16" style="vertical-align: middle; position: relative; top: 1px; color: #999;"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" fill="currentColor"/></svg> <strong>Eye</strong> — You've viewed this incident. Viewed incidents are greyed out. <a href="#clear-viewed">Clear history</a>.</p>
+
+</div>
 
 ### Examples
 
