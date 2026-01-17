@@ -393,10 +393,14 @@ const Lightbox = {
             const enterIcon = fullscreenBtn.querySelector('.fullscreen-enter');
             const exitIcon = fullscreenBtn.querySelector('.fullscreen-exit');
 
-            const updateFullscreenIcon = () => {
+            const updateFullscreenState = () => {
                 const fs = isFullscreen();
                 if (enterIcon) enterIcon.style.display = fs ? 'none' : '';
                 if (exitIcon) exitIcon.style.display = fs ? '' : 'none';
+                if (fs) {
+                    video.muted = false;
+                    audioToggle?.classList.remove('muted');
+                }
             };
 
             fullscreenBtn.addEventListener('click', () => {
@@ -418,8 +422,8 @@ const Lightbox = {
                 }
             });
 
-            document.addEventListener('fullscreenchange', updateFullscreenIcon);
-            document.addEventListener('webkitfullscreenchange', updateFullscreenIcon);
+            document.addEventListener('fullscreenchange', updateFullscreenState);
+            document.addEventListener('webkitfullscreenchange', updateFullscreenState);
         }
     },
 
