@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768683444,
+  "mediaVersion": 1768685488,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-17-st-louis-park-daycare.md",
@@ -1124,10 +1124,15 @@
       "lastUpdated": "2026-01-16",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": []
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-08-little-earth-native-americans.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-08-little-earth-native-americans.mp4"
+        }
+      ]
     },
     {
       "filePath": "incidents/2026-01/2026-01-08-hennepin-healthcare-i9-subpoena.md",
@@ -1376,7 +1381,7 @@
       "victimCitizenship": "us-citizens",
       "injuries": "pepper-spray-exposure",
       "trustworthiness": "high",
-      "lastUpdated": "2026-01-14",
+      "lastUpdated": "2026-01-17",
       "mediaCount": 0,
       "notable": false,
       "hasLocalMedia": false,
@@ -1801,10 +1806,15 @@
       "lastUpdated": "2026-01-13",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": []
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2025-12-09-sue-tincher-detained.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2025-12-09-sue-tincher-detained.mp4"
+        }
+      ]
     },
     {
       "filePath": "incidents/2025-12/2025-12-07-biestman-lee-guns-pointed.md",
