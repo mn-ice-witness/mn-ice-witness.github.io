@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768677726,
+  "mediaVersion": 1768677849,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-17-st-louis-park-daycare.md",
@@ -1722,7 +1722,7 @@
       "trustworthiness": "high",
       "lastUpdated": "2026-01-17",
       "mediaCount": 0,
-      "notable": true,
+      "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2025-12-11-eden-prairie-13-year-old.mp4",
