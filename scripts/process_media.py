@@ -51,7 +51,7 @@ def process_video(input_path: Path, output_path: Path) -> bool:
         '-y',  # Overwrite output
         '-i', str(input_path),
         '-vcodec', 'libx264',
-        '-crf', '30',  # Quality (higher = smaller, 30 is good for web)
+        '-crf', '35',  # Quality (higher = smaller, 35 balances size/quality)
         '-preset', 'slow',  # Better compression
         '-vf', 'crop=iw-16:ih-16:8:8,scale=-2:min(720\\,ih),fps=30',  # Crop 8px edges, max 720p height, 30fps
         '-movflags', '+faststart',  # Web optimization
