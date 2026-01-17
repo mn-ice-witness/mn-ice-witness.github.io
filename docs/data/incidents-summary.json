@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768618350,
+  "mediaVersion": 1768619579,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-15-porter-wrong-address-raid.md",
@@ -598,10 +598,15 @@
       "lastUpdated": "2026-01-13",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": []
+      "hasLocalMedia": true,
+      "localMediaType": "image",
+      "localMediaPath": "media/2026-01-12-christina-rank-teacher.jpg",
+      "localMediaFiles": [
+        {
+          "type": "image",
+          "path": "media/2026-01-12-christina-rank-teacher.jpg"
+        }
+      ]
     },
     {
       "filePath": "incidents/2026-01/2026-01-12-christian-molina-car-rammed.md",

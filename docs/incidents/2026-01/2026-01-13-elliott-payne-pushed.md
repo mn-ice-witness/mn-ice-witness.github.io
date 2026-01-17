@@ -19,6 +19,7 @@ Minneapolis City Council President Elliott Payne was shoved by a masked ICE agen
 ## Sources
 1. KYMA (Jan 13, 2026): [Masked ICE agent shoves Minneapolis City Council president](https://kyma.com/decision-2024/national-politics/2026/01/13/masked-ice-agent-shoves-minneapolis-city-council-president/)
 2. Bring Me The News (Jan 13, 2026): [List of major ICE raids in Minnesota on Tuesday, Jan. 13](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-in-minnesota-on-tuesday-jan-13)
+- **Video:** [Elliott Payne's BlueSky post](https://bsky.app/profile/did:plc:34vmnat6b5az4522cnydzbrc/post/3mcbnjlu7ms22) - BlueSky
 
 ## Victim(s)
 - **Name:** Elliott Payne
