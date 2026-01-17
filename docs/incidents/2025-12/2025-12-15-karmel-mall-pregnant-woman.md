@@ -17,9 +17,9 @@ last_updated: 2026-01-13
 ICE agents detained at least four people near Karmel Mall, the nation's first Somali shopping center. Witnesses reported a pregnant Somali woman was grabbed by the arms and dragged through the snow when she sat down to prevent falling. Agents were swarmed by 60-70 protesters, and one Somali U.S. citizen was released after detention.
 
 ## Sources
-1. [ICE agents swarmed by protesters in Minneapolis](https://www.fox9.com/news/ice-agents-swarmed-protesters-minneapolis) - Fox 9
-2. [ICE agents clash with dozens of residents in streets of south Minneapolis](https://www.cbsnews.com/minnesota/news/ice-agents-south-minneapolis-clash-protests/) - CBS Minnesota
-3. [Karmel Mall, once a bustling center of community, falls silent](https://minnesotareformer.com/2025/12/16/karmel-mall-once-a-bustling-center-of-community-falls-silent/) - Minnesota Reformer
+1. FOX 9 (Dec 15, 2025): [ICE agents swarmed by protesters in Minneapolis](https://www.fox9.com/news/ice-agents-swarmed-protesters-minneapolis)
+2. CBS News (Dec 15, 2025): [ICE agents clash with dozens of residents in streets of south Minneapolis](https://www.cbsnews.com/minnesota/news/ice-agents-south-minneapolis-clash-protests/)
+3. Minnesota Reformer (Dec 16, 2025): [Karmel Mall, once a bustling center of community, falls silent](https://minnesotareformer.com/2025/12/16/karmel-mall-once-a-bustling-center-of-community-falls-silent/)
 
 ## Victim(s)
 - **Primary victim:** Pregnant Somali woman (name unknown)

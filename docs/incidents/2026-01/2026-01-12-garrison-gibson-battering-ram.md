@@ -17,14 +17,12 @@ last_updated: 2026-01-15
 Garrison Gibson, a 38-year-old Liberian citizen who has lived in the U.S. for approximately 20 years, was arrested by ICE agents who used a battering ram to enter his north Minneapolis home. His family demanded to see a judicial warrant, but agents presented only an administrative warrant signed by an immigration officer. A 9-year-old child was inside the home during the raid. Gibson's attorneys have filed a habeas petition challenging the arrest.
 
 ## Sources
-1. [Minneapolis family demands judicial warrant as federal agents bust door](https://www.fox9.com/news/minneapolis-family-demands-judicial-warrant-federal-agents-raid-jan-2026) - FOX 9
-2. [Minneapolis family raises questions about the warrant](https://kstp.com/kstp-news/top-news/minneapolis-family-raises-questions-about-the-warrant-given-to-them-by-federal-agents/) - KSTP
-3. [Warrantless ICE entry in Minneapolis heightens fears](https://www.mprnews.org/episode/2026/01/13/warrantless-ice-entry-in-minneapolis-heightens-fears-amid-statewide-enforcement-surge) - MPR News
-4. [Liberian man arrested in Minneapolis raid was regularly checking in with authorities, lawyer says](https://abcnews.go.com/Politics/wireStory/liberian-man-arrested-minneapolis-raid-regularly-checking-authorities-129225651) - ABC News / AP
-5. [Attorney: No proper warrant for Minneapolis man's arrest in home](https://www.minnpost.com/public-safety/2026/01/attorney-federal-agents-had-no-proper-warrant-to-arrest-minneapolis-man-who-fled-to-u-s-from-liberia-as-a-child-ice-garrison-gibson/) - MinnPost
-6. [Immigration agents used a battering ram to enter Minneapolis home without a valid warrant](https://reason.com/2026/01/14/federal-agents-used-a-battering-ram-to-enter-a-minneapolis-home-without-valid-warrant-video-shows/) - Reason
-- **Video:** Family livestreamed the raid on Facebook showing agents breaking down door
-- **Legal Filing:** Habeas petition filed in federal court
+1. FOX 9 (Jan 12, 2026): [Minneapolis family demands judicial warrant as federal agents bust door](https://www.fox9.com/news/minneapolis-family-demands-judicial-warrant-federal-agents-raid-jan-2026)
+2. KSTP (Jan 12, 2026): [Minneapolis family raises questions about the warrant](https://kstp.com/kstp-news/top-news/minneapolis-family-raises-questions-about-the-warrant-given-to-them-by-federal-agents/)
+3. MPR News (Jan 13, 2026): [Warrantless ICE entry in Minneapolis heightens fears](https://www.mprnews.org/episode/2026/01/13/warrantless-ice-entry-in-minneapolis-heightens-fears-amid-statewide-enforcement-surge)
+4. ABC News (Jan 13, 2026): [Liberian man arrested in Minneapolis raid was regularly checking in with authorities, lawyer says](https://abcnews.go.com/Politics/wireStory/liberian-man-arrested-minneapolis-raid-regularly-checking-authorities-129225651)
+5. MinnPost (Jan 13, 2026): [Attorney: No proper warrant for Minneapolis man's arrest in home](https://www.minnpost.com/public-safety/2026/01/attorney-federal-agents-had-no-proper-warrant-to-arrest-minneapolis-man-who-fled-to-u-s-from-liberia-as-a-child-ice-garrison-gibson/)
+6. Reason (Jan 14, 2026): [Immigration agents used a battering ram to enter Minneapolis home without a valid warrant](https://reason.com/2026/01/14/federal-agents-used-a-battering-ram-to-enter-a-minneapolis-home-without-valid-warrant-video-shows/)
 
 ## Victim(s)
 - **Name:** Garrison Gibson

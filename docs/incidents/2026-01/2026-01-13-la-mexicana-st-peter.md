@@ -17,7 +17,7 @@ last_updated: 2026-01-14
 ICE agents arrested a customer at La Mexicana Market and Restaurant in St. Peter moments after he biked to the store and while he was paying for a drink. When asked for a warrant, agents said they didn't need one in a public area. Business reported significant drop in customers due to fear.
 
 ## Sources
-1. [Region responds as ICE activity surges in Southern Minnesota](https://www.southernminn.com/st_peter_herald/news/region-responds-as-ice-activity-surges-in-southern-minnesota/article_0feb9e76-16c4-4aa8-b4ef-853db9bf955c.html) - St. Peter Herald/Southern Minnesota News
+1. St. Peter Herald (Jan 13, 2026): [Region responds as ICE activity surges in Southern Minnesota](https://www.southernminn.com/st_peter_herald/news/region-responds-as-ice-activity-surges-in-southern-minnesota/article_0feb9e76-16c4-4aa8-b4ef-853db9bf955c.html)
 
 ## Victim(s)
 - **Description:** Local customer

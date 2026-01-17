@@ -17,10 +17,10 @@ last_updated: 2026-01-14
 Adnan Hisri, the 20-year-old U.S.-born son of Rep. Ilhan Omar, was stopped by federal agents after leaving a Target store in Minneapolis. He was released after showing his passport. Rep. Omar said her son "always carries" his passport due to fears of racial profiling. DHS denied any record of the stop.
 
 ## Sources
-1. [Rep. Ilhan Omar says her son was pulled over by ICE agents in Minnesota](https://www.nbcnews.com/politics/congress/ilhan-omar-son-pulled-over-ice-agents-minnesota-trump-administration-rcna249183) - NBC News
-2. [Minnesota Rep. Ilhan Omar says her son was pulled over by ICE, which claims "zero record" of the incident](https://www.cbsnews.com/minnesota/news/minnesota-rep-ilhan-omar-says-son-pulled-over-by-ice/) - CBS Minnesota
-3. [Ilhan Omar says son stopped in Minnesota by ICE during Trump crackdown](https://www.upi.com/Top_News/US/2025/12/15/Minnesota-Ilhan-Omar-son-ICE/2381765833444/) - UPI
-4. [Omar's son stopped by ICE agents in Minnesota, released after showing passport](https://www.foxnews.com/politics/ilhan-omar-claims-ice-pulled-son-racial-profiling-sweep-trumps-crackdown-minnesota) - Fox News
+1. NBC News (Dec 15, 2025): [Rep. Ilhan Omar says her son was pulled over by ICE agents in Minnesota](https://www.nbcnews.com/politics/congress/ilhan-omar-son-pulled-over-ice-agents-minnesota-trump-administration-rcna249183)
+2. CBS News (Dec 15, 2025): [Minnesota Rep. Ilhan Omar says her son was pulled over by ICE, which claims "zero record" of the incident](https://www.cbsnews.com/minnesota/news/minnesota-rep-ilhan-omar-says-son-pulled-over-by-ice/)
+3. UPI (Dec 15, 2025): [Ilhan Omar says son stopped in Minnesota by ICE during Trump crackdown](https://www.upi.com/Top_News/US/2025/12/15/Minnesota-Ilhan-Omar-son-ICE/2381765833444/)
+4. Fox News (Dec 15, 2025): [Omar's son stopped by ICE agents in Minnesota, released after showing passport](https://www.foxnews.com/politics/ilhan-omar-claims-ice-pulled-son-racial-profiling-sweep-trumps-crackdown-minnesota)
 
 ## Victim(s)
 - **Name:** Adnan Hisri

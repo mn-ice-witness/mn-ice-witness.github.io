@@ -17,8 +17,8 @@ last_updated: 2026-01-15
 Carondelet Catholic School in southwest Minneapolis placed its Upper Campus on lockdown while federal ICE agents made an arrest outside the school building. The school notified parents at 2:44 PM that the lockdown was enacted "out of an abundance of caution." All students and faculty were inside the building and safe.
 
 ## Sources
-1. [ICE operations prompt changes at Minnesota schools](https://www.mprnews.org/story/2026/01/12/ice-operations-prompt-changes-at-minnesota-schools) - MPR News
-2. [List of major ICE raids in Minnesota on Tuesday, Jan. 13](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-in-minnesota-on-tuesday-jan-13) - Bring Me The News
+1. MPR News (Jan 12, 2026): [ICE operations prompt changes at Minnesota schools](https://www.mprnews.org/story/2026/01/12/ice-operations-prompt-changes-at-minnesota-schools)
+2. Bring Me The News (Jan 13, 2026): [List of major ICE raids in Minnesota on Tuesday, Jan. 13](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-in-minnesota-on-tuesday-jan-13)
 
 ## What Happened
 At 2:44 PM on January 13, Carondelet Catholic School informed parents that the school "experienced a brief lockdown this afternoon at our Upper Campus." The school stated it was enacted "out of an abundance of caution" while "federal ICE agents were making an arrest outside of our school building."

@@ -17,8 +17,8 @@ last_updated: 2026-01-14
 ICE agents detained a single employee at Shearer's Foods manufacturing facility in Perham. A witness reported that an ICE agent acknowledged having no warrant and claimed they didn't need one. The agents' vehicles were unmarked and officers were not wearing badges.
 
 ## Sources
-1. [ICE agents at Shearer's Foods in Perham](https://www.inforum.com/news/local/ice-agents-at-shearers-foods-in-perham) - Perham Focus/InForum
-2. [Residents, schools, students react to ICE activity around Greater Minnesota](https://www.inforum.com/news/minnesota/residents-schools-students-react-to-ice-activity-around-greater-minnesota) - InForum
+1. InForum (Jan 13, 2026): [ICE agents at Shearer's Foods in Perham](https://www.inforum.com/news/local/ice-agents-at-shearers-foods-in-perham)
+2. InForum (Jan 13, 2026): [Residents, schools, students react to ICE activity around Greater Minnesota](https://www.inforum.com/news/minnesota/residents-schools-students-react-to-ice-activity-around-greater-minnesota)
 
 ## Victim(s)
 - **Number detained:** 1 employee

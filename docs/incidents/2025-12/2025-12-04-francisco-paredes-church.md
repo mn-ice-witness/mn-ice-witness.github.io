@@ -17,10 +17,9 @@ last_updated: 2026-01-14
 Francisco Paredes, a 46-year-old church maintenance worker and choir member who had lived in the U.S. for 25 years, was arrested by ICE in the parking lot of St. Gabriel the Archangel Catholic Church in Hopkins. He spent a month in detention, including Christmas without religious services, before being deported to Mexico. On January 4, 2026, ICE agents were observed surveilling the church during Spanish Mass.
 
 ## Sources
-1. [ICE deported Minnesota church employee, mayor says](https://www.catholicnewsagency.com/news/268977/minnesota-ICE-catholic-church) - Catholic News Agency
-2. [ICE deported Minnesota church employee, surveilled parish](https://www.catholicworldreport.com/2026/01/09/minnesota-ice-catholic-church/) - Catholic World Report
-3. [A day in the life of a Hispanic pastor during Minnesota's ICE surge](https://www.startribune.com/mn-hispanic-community-reaction-ice-arrests-deportation/601563257) - Star Tribune (Opinion)
-- **Confirmation:** Hopkins Mayor Patrick Hanlon
+1. Catholic News Agency (Jan 9, 2026): [ICE deported Minnesota church employee, mayor says](https://www.catholicnewsagency.com/news/268977/minnesota-ICE-catholic-church)
+2. Catholic World Report (Jan 9, 2026): [ICE deported Minnesota church employee, surveilled parish](https://www.catholicworldreport.com/2026/01/09/minnesota-ice-catholic-church/)
+3. Star Tribune (Jan 10, 2026): [A day in the life of a Hispanic pastor during Minnesota's ICE surge](https://www.startribune.com/mn-hispanic-community-reaction-ice-arrests-deportation/601563257)
 
 ## Victim(s)
 - **Name:** Francisco Paredes

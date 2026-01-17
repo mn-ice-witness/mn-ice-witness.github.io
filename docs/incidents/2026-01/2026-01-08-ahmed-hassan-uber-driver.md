@@ -17,7 +17,7 @@ last_updated: 2026-01-13
 Ahmed Bin Hassan, 38, Somali American U.S. citizen and Uber driver, was confronted by over a dozen masked ICE/CBP agents at the airport. An agent stated: "I can hear you don't have the same accent as me." Hassan refused to show ID and challenged their authority.
 
 ## Sources
-1. [The Intercept](https://theintercept.com/2026/01/11/uber-minneapolis-border-patrol-somali-american/)
+1. The Intercept (Jan 9, 2026): [Somali American Uber driver confronted by over a dozen masked agents at Minneapolis airport](https://theintercept.com/2026/01/11/uber-minneapolis-border-patrol-somali-american/)
 
 ## Victim(s)
 - **Name:** Ahmed Bin Hassan

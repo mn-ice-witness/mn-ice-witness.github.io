@@ -17,14 +17,12 @@ last_updated: 2026-01-15
 ICE agents entered Hennepin County Medical Center's emergency department without a judicial warrant and remained at a patient's bedside for approximately 28 hours. The patient was handcuffed and shackled to their bed despite medical staff objections. Agents were eventually removed after county commissioners and hospital leadership intervened.
 
 ## Sources
-1. [ICE entered Minneapolis hospital without warrant, handcuffed patient to bed](https://www.cbsnews.com/minnesota/news/hcmc-hennepin-healthcare-ice-patient-handcuffed/) - CBS Minnesota
-2. [Advocates, health care workers demand change at HCMC](https://sahanjournal.com/immigration/hcmc-patient-arrested-immigration-agents-ice-unidos-mn/) - Sahan Journal
-3. [Health care workers push for changes as ICE causes fear at HCMC](https://sahanjournal.com/health/ice-agents-hospitals-hennepin-county-medical-center/) - Sahan Journal
-4. [ICE agents shackled patient to bed at HCMC](https://www.fox9.com/news/ice-agents-shackled-patient-bed-hcmc-advocacy-group-says) - FOX 9
-5. [ICE agents appear at Twin Cities hospitals, alarming health care workers](https://www.mprnews.org/story/2026/01/14/ice-agents-at-twin-cities-hospitals-alarm-medical-staff) - MPR News
-6. [Workers describe 'disruptive' ICE presence inside Minneapolis' Hennepin County Medical Center](https://www.ormanager.com/briefs/workers-describe-disruptive-ice-presence-inside-minneapolis-hennepin-county-medical-center/) - OR Manager
-- **Rally:** Jan 6, 2026 - ~100 healthcare workers and advocates gathered outside HCMC ER
-- **Testimony:** Jan 14, 2026 - Dozens of healthcare workers testified at Hennepin County Board meeting
+1. CBS News (Jan 6, 2026): [ICE entered Minneapolis hospital without warrant, handcuffed patient to bed](https://www.cbsnews.com/minnesota/news/hcmc-hennepin-healthcare-ice-patient-handcuffed/)
+2. FOX 9 (Jan 6, 2026): [ICE agents shackled patient to bed at HCMC](https://www.fox9.com/news/ice-agents-shackled-patient-bed-hcmc-advocacy-group-says)
+3. Sahan Journal (Jan 7, 2026): [Advocates, health care workers demand change at HCMC](https://sahanjournal.com/immigration/hcmc-patient-arrested-immigration-agents-ice-unidos-mn/)
+4. Sahan Journal (Jan 14, 2026): [Health care workers push for changes as ICE causes fear at HCMC](https://sahanjournal.com/health/ice-agents-hospitals-hennepin-county-medical-center/)
+5. MPR News (Jan 14, 2026): [ICE agents appear at Twin Cities hospitals, alarming health care workers](https://www.mprnews.org/story/2026/01/14/ice-agents-at-twin-cities-hospitals-alarm-medical-staff)
+6. OR Manager (Jan 15, 2026): [Workers describe 'disruptive' ICE presence inside Minneapolis' Hennepin County Medical Center](https://www.ormanager.com/briefs/workers-describe-disruptive-ice-presence-inside-minneapolis-hennepin-county-medical-center/)
 
 ## Victim(s)
 - **Name:** Not disclosed (patient confidentiality)

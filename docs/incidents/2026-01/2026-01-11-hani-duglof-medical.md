@@ -18,11 +18,9 @@ notable: true
 Hani Duglof, 32, who came to Minnesota from Libya in 2014 for life-saving medical treatment for a rare skin condition, was detained by ICE and shackled - despite having a condition that makes his skin as fragile as paper. He has been in the U.S. legally awaiting asylum decision for nearly a decade.
 
 ## Sources
-1. [A Libyan man came to Minnesota for medical treatment. Then ICE detained him.](https://www.startribune.com/a-libyan-man-came-to-minnesota-for-medical-treatment-then-ice-detained-him/601562572) - Star Tribune
-2. [Woodbury man detained by ICE has rare genetic skin disorder](https://www.fox9.com/news/woodbury-man-detained-ice-has-rare-genetic-skin-disorder-family-says) - FOX 9
-3. [Minnesota family worried as ICE detains man with rare disease](https://kstp.com/kstp-news/top-news/minnesota-family-worried-as-ice-detains-man-with-rare-disease/) - KSTP
-- **Photo:** Family photos of Hani showing his skin condition and St. Paul College marketing banner
-- **Medical Records:** M Health Fairview Southdale Hospital records from Jan. 11 confirm condition requirements
+1. Star Tribune (Jan 12, 2026): [A Libyan man came to Minnesota for medical treatment. Then ICE detained him.](https://www.startribune.com/a-libyan-man-came-to-minnesota-for-medical-treatment-then-ice-detained-him/601562572)
+2. FOX 9 (Jan 12, 2026): [Woodbury man detained by ICE has rare genetic skin disorder](https://www.fox9.com/news/woodbury-man-detained-ice-has-rare-genetic-skin-disorder-family-says)
+3. KSTP (Jan 12, 2026): [Minnesota family worried as ICE detains man with rare disease](https://kstp.com/kstp-news/top-news/minnesota-family-worried-as-ice-detains-man-with-rare-disease/)
 
 ## Victim(s)
 - **Name:** Hani Duglof

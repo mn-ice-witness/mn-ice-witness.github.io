@@ -17,8 +17,8 @@ last_updated: 2026-01-13
 Juan Manuel Arellano Zepeda, 48, owner of El Fresco restaurant in Bloomington, was detained by ICE after leaving his Apple Valley home for work. His family initially reported him missing after ICE declined to confirm his detention. They only confirmed he was in custody after seeing him in a DHS social media video.
 
 ## Sources
-1. [Minnesota Restaurant Owner Reported Missing, Now Confirmed Detained by ICE](https://www.newsweek.com/minnesota-restaurant-owner-reported-missing-now-confirmed-detained-by-ice-11344576) - Newsweek
-2. [Minnesota restaurant owner reported missing, now confirmed detained by ICE](https://www.msn.com/en-us/news/us/minnesota-restaurant-owner-reported-missing-now-confirmed-detained-by-ice/ar-AA1U3G0u) - MSN
+1. Newsweek (Jan 7, 2026): [Minnesota Restaurant Owner Reported Missing, Now Confirmed Detained by ICE](https://www.newsweek.com/minnesota-restaurant-owner-reported-missing-now-confirmed-detained-by-ice-11344576)
+2. MSN (Jan 7, 2026): [Minnesota restaurant owner reported missing, now confirmed detained by ICE](https://www.msn.com/en-us/news/us/minnesota-restaurant-owner-reported-missing-now-confirmed-detained-by-ice/ar-AA1U3G0u)
 
 ## Victim(s)
 - **Name:** Juan Manuel Arellano Zepeda

@@ -17,10 +17,10 @@ last_updated: 2026-01-14
 Federal agents raided Bro-Tex Inc., a cleaning products manufacturer in St. Paul, detaining 14 workers in what organizers called the largest ICE workplace raid in Minnesota in 2025. Protesters who attempted to block agents' vehicles were pepper sprayed. Gov. Walz said the state received "no heads up" from federal authorities.
 
 ## Sources
-1. [14 people detained in federal ICE raid at Bro-Tex in St. Paul](https://www.mprnews.org/story/2025/11/21/ice-detains-14-people-after-operation-at-bro-tex-in-st-paul) - MPR News
-2. [Community rallies after federal agents arrest 14 in raid on St. Paul manufacturer Bro-Tex Inc.](https://sahanjournal.com/immigration/st-paul-raid-vigil-arrests/) - Sahan Journal
-3. [St. Paul ICE raid: 14 arrested for immigration violations, agency says](https://www.twincities.com/2025/11/20/ice-14-arrested-st-paul-warehouse-bro-tex/) - Pioneer Press
-4. [Dozens of federal agents raid St. Paul business, sparking protest](https://minnesotareformer.com/2025/11/18/dozens-of-federal-agents-raid-st-paul-business-sparking-protest/) - Minnesota Reformer
+1. MPR News (Nov 21, 2025): [14 people detained in federal ICE raid at Bro-Tex in St. Paul](https://www.mprnews.org/story/2025/11/21/ice-detains-14-people-after-operation-at-bro-tex-in-st-paul)
+2. Sahan Journal (Nov 19, 2025): [Community rallies after federal agents arrest 14 in raid on St. Paul manufacturer Bro-Tex Inc.](https://sahanjournal.com/immigration/st-paul-raid-vigil-arrests/)
+3. Pioneer Press (Nov 20, 2025): [St. Paul ICE raid: 14 arrested for immigration violations, agency says](https://www.twincities.com/2025/11/20/ice-14-arrested-st-paul-warehouse-bro-tex/)
+4. Minnesota Reformer (Nov 18, 2025): [Dozens of federal agents raid St. Paul business, sparking protest](https://minnesotareformer.com/2025/11/18/dozens-of-federal-agents-raid-st-paul-business-sparking-protest/)
 
 ## Victim(s)
 - **Number detained:** 14 workers

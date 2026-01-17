@@ -17,9 +17,8 @@ last_updated: 2026-01-14
 Jeffrey Suazo, a 26-year-old house painter from Honduras, was arrested after a 5-hour standoff with ICE agents on St. Paul's East Side. Federal agents pursuing a different man (Victor Rodriguez) followed Suazo when he fled upon seeing federal activity. Family members report agents entered without showing a warrant and taunted/humiliated them during the standoff. Over 200 protesters gathered, leading to deployment of pepper spray and nonlethal munitions.
 
 ## Sources
-1. [Family of man swept up in St. Paul ICE raid say agents entered without warrant](https://sahanjournal.com/immigration/st-paul-ice-raid-family-speaks-out/) - Sahan Journal
-2. [Questions, conflicting accounts emerge after St. Paul ICE arrest, protests](https://www.startribune.com/conflicting-accounts-emerge-after-st-paul-ice-raid/601533942) - Star Tribune
-- **Video:** Multiple videos of standoff and protests
+1. Sahan Journal (Nov 26, 2025): [Family of man swept up in St. Paul ICE raid say agents entered without warrant](https://sahanjournal.com/immigration/st-paul-ice-raid-family-speaks-out/)
+2. Star Tribune (Nov 26, 2025): [Questions, conflicting accounts emerge after St. Paul ICE arrest, protests](https://www.startribune.com/conflicting-accounts-emerge-after-st-paul-ice-raid/601533942)
 
 ## Victim(s)
 - **Name:** Jeffrey Suazo

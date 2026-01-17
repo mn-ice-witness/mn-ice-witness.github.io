@@ -17,9 +17,8 @@ last_updated: 2026-01-16
 FBI, ATF, and Hennepin County Sheriff's Office agents used a battering ram to enter Alisa Porter's South Minneapolis apartment, handcuffing her daughter and searching the home. The warrant was for a different address—the man they sought had lived in the unit above Porter's but moved out two months prior. The search was connected to items stolen from FBI vehicles during protests over recent ICE shootings.
 
 ## Sources
-1. [Minneapolis family says federal agents raided wrong apartment looking for items stolen from FBI vehicles](https://www.cbsnews.com/minnesota/news/minneapolis-fbi-raid-wrong-home/) - CBS Minnesota
-2. [ICE ransack Minneapolis woman's home after 'conducting search warrant in wrong home'](https://www.themirror.com/news/us-news/ice-ransack-minneapolis-womans-home-1623040) - The Mirror
-- **Video:** Ring doorbell footage shows agents with long guns breaching door - CBS Minnesota
+1. CBS Minnesota (Jan 15, 2026): [Minneapolis family says federal agents raided wrong apartment looking for items stolen from FBI vehicles](https://www.cbsnews.com/minnesota/news/minneapolis-fbi-raid-wrong-home/)
+2. The Mirror (Jan 15, 2026): [ICE ransack Minneapolis woman's home after 'conducting search warrant in wrong home'](https://www.themirror.com/news/us-news/ice-ransack-minneapolis-womans-home-1623040)
 
 ## Victim(s)
 - **Name:** Alisa Porter and daughter

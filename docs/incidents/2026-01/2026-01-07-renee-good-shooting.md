@@ -18,17 +18,17 @@ notable: true
 Renee Nicole Good, a 37-year-old U.S. citizen, was fatally shot by ICE agent Jonathan Ross after she stopped her SUV in the street near where agents were conducting immigration enforcement. Good had just dropped her 6-year-old son off at school.
 
 ## Sources
-1. [Whistles, then gunfire: How the deadly ICE shooting unfolded](https://www.cnn.com/2026/01/10/us/ice-shooting-minneapolis-renee-good) - CNN
-2. [Killing of Renee Good](https://en.wikipedia.org/wiki/Killing_of_Renee_Good) - Wikipedia
-3. [What we know about the fatal ICE shooting](https://www.startribune.com/what-we-know-as-questions-grow-about-the-fatal-ice-shooting-in-minneapolis/601559966) - Star Tribune
-4. [Who was Renee Nicole Good](https://www.aljazeera.com/news/2026/1/8/who-is-renee-nicole-good-the-woman-killed-in-the-ice-minneapolis-shooting) - Al Jazeera
-- **Video:** [ICE agent's cellphone footage](https://www.fox9.com/video/fmc-ftqi85b077jb7moh) - Side-by-side analysis, FOX 9
-- **Video:** [5 key moments analysis](https://www.washingtonpost.com/investigations/2026/01/09/moments-before-ice-shooting-minneapolis/) - Washington Post investigation
-- **Video:** [Agent's phone video analysis](https://www.cbc.ca/news/world/ice-agent-shooting-video-minnesota-renee-good-9.7040480) - CBC News
-- **Video:** [Cell phone footage analysis](https://www.cnn.com/2026/01/09/us/ice-shooting-minneapolis-renee-good-cell-phone-invs) - CNN investigation
-- **Video:** [Officer perspective](https://www.npr.org/2026/01/10/g-s1-105387/new-video-minnesota-shooting-officer-perspective) - NPR
-- **Analysis:** [Bellingcat footage investigation](https://www.bellingcat.com/news/2026/01/13/analysing-footage-of-minneapolis-ice-shooting/) - 5 videos analyzed
-- **Timeline:** [Minute-by-minute breakdown](https://abcnews.go.com/US/minneapolis-ice-shooting-minute-minute-timeline-renee-nicole/story?id=129021809) - ABC News
+1. FOX 9 Video (Jan 8, 2026): [ICE agent's cellphone footage](https://www.fox9.com/video/fmc-ftqi85b077jb7moh)
+2. Washington Post Video (Jan 8, 2026): [5 key moments analysis](https://www.washingtonpost.com/investigations/2026/01/09/moments-before-ice-shooting-minneapolis/)
+3. CBC Video (Jan 8, 2026): [Agent's phone video analysis](https://www.cbc.ca/news/world/ice-agent-shooting-video-minnesota-renee-good-9.7040480)
+4. CNN Video (Jan 8, 2026): [Cell phone footage analysis](https://www.cnn.com/2026/01/09/us/ice-shooting-minneapolis-renee-good-cell-phone-invs)
+5. NPR Video (Jan 8, 2026): [Officer perspective](https://www.npr.org/2026/01/10/g-s1-105387/new-video-minnesota-shooting-officer-perspective)
+6. CNN (Jan 8, 2026): [Whistles, then gunfire: How the deadly ICE shooting unfolded](https://www.cnn.com/2026/01/10/us/ice-shooting-minneapolis-renee-good)
+7. Wikipedia (Jan 8, 2026): [Killing of Renee Good](https://en.wikipedia.org/wiki/Killing_of_Renee_Good)
+8. Star Tribune (Jan 8, 2026): [What we know about the fatal ICE shooting](https://www.startribune.com/what-we-know-as-questions-grow-about-the-fatal-ice-shooting-in-minneapolis/601559966)
+9. Al Jazeera (Jan 8, 2026): [Who was Renee Nicole Good](https://www.aljazeera.com/news/2026/1/8/who-is-renee-nicole-good-the-woman-killed-in-the-ice-minneapolis-shooting)
+10. Bellingcat (Jan 8, 2026): [Bellingcat footage investigation](https://www.bellingcat.com/news/2026/01/13/analysing-footage-of-minneapolis-ice-shooting/)
+11. ABC News (Jan 8, 2026): [Minute-by-minute breakdown](https://abcnews.go.com/US/minneapolis-ice-shooting-minute-minute-timeline-renee-nicole/story?id=129021809)
 
 ## Victim(s)
 - **Name:** Renee Nicole Good

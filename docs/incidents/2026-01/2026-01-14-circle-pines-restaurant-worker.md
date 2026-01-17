@@ -17,9 +17,8 @@ last_updated: 2026-01-15
 A restaurant worker in Circle Pines with a valid legal work visa was detained by two plain-clothed federal agents lying in wait outside the business. The worker has no criminal record and fled to the U.S. under asylum protections after a cartel took over his family's factory in his home country.
 
 ## Sources
-1. [Video shows moment Twin Cities restaurant worker is grabbed by federal agents](https://bringmethenews.com/minnesota-news/video-shows-moment-twin-cities-restaurant-worker-is-grabbed-by-federal-agents) - Bring Me The News
-2. [Circle Pines restaurant worker with legal visa apprehended by federal agents](https://bringmethenews.com/videos/circle-pines-restaurant-worker-with-legal-visa-apprehended-by-federal-agents) - Bring Me The News (Video)
-- **Video:** [Moment of detention](https://bringmethenews.com/minnesota-news/video-shows-moment-twin-cities-restaurant-worker-is-grabbed-by-federal-agents) - Shows agents grabbing worker
+1. Bring Me The News Video (Jan 14, 2026): [Circle Pines restaurant worker with legal visa apprehended](https://bringmethenews.com/videos/circle-pines-restaurant-worker-with-legal-visa-apprehended-by-federal-agents)
+2. Bring Me The News (Jan 14, 2026): [Video shows moment Twin Cities restaurant worker is grabbed by federal agents](https://bringmethenews.com/minnesota-news/video-shows-moment-twin-cities-restaurant-worker-is-grabbed-by-federal-agents)
 
 ## Victim(s)
 - **Name:** Not publicly disclosed

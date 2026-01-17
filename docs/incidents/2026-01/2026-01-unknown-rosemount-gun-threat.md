@@ -17,7 +17,7 @@ last_updated: 2026-01-13
 An ICE agent reportedly waved a gun sideways at a motorist in a threatening manner in Rosemount, Minnesota. The exact date and circumstances are unclear.
 
 ## Sources
-1. [ICE in the Twin Cities: New Day, Same Occupying Fascist Army](https://racketmn.com/ice-in-the-twin-cities-mn-new-day-same-occupying-fascist-army) - Racket MN
+1. Racket MN (Jan 2026): [ICE in the Twin Cities: New Day, Same Occupying Fascist Army](https://racketmn.com/ice-in-the-twin-cities-mn-new-day-same-occupying-fascist-army)
 
 ## Victim(s)
 - **Name:** Unknown

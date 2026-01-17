@@ -3,7 +3,7 @@ date: 2026-01-13
 time: morning
 location: 34th Street and Park Avenue
 city: Minneapolis
-type: observers
+type: citizen
 status: under-investigation
 victim_citizenship: us-citizen
 injuries: serious
@@ -18,18 +18,18 @@ notable: true
 Aliya Rahman, a 43-year-old U.S. citizen and software engineer, was dragged from her car by ICE agents after they smashed her window. She was driving to an appointment at the Traumatic Brain Injury Center when agents blocked her path. After being taken into custody, Rahman repeatedly requested medical attention but was denied. She lost consciousness in her cell and was finally taken to a hospital, where she was treated for injuries consistent with assault. The video went viral with millions of views.
 
 ## Sources
-1. [Woman dragged from car by ICE identified as U.S. citizen Aliya Rahman](https://www.cbc.ca/news/world/aliya-rahman-citizen-ice-arrest-9.7047853) - CBC News
-2. [US citizen dragged from car by ICE in Minneapolis speaks out](https://www.newsweek.com/us-citizen-dragged-from-car-ice-minneapolis-speaks-out-11368332) - Newsweek
-3. [Shocking moment 8 ICE agents drag petrified 'disabled' woman from car](https://www.themirror.com/news/us-news/shocking-moment-8-ice-agents-1616280) - The Mirror
-4. ['I'm disabled!' Woman screams as masked ICE agents pull her through car window](https://www.rawstory.com/ice-disabled-woman/) - Raw Story
-5. [ICE Violently Arrests Woman Trying to Pass Them to Get to the Doctor](https://newrepublic.com/post/205252/ice-arrests-minneapolis-woman-car-doctor) - The New Republic
-6. [Crowd confronts immigration agents door-knocking in south Minneapolis](https://sahanjournal.com/public-safety/minneapolis-ice-confront-observers-door-knocking-powderhorn/) - Sahan Journal
-- **Photo:** [Reuters photo by Tim Evans](https://archive.ph/helw8/image) - High-quality press photo of agents dragging woman
-- **Video:** [Sahan Journal footage](https://sahanjournal.com/public-safety/minneapolis-ice-confront-observers-door-knocking-powderhorn/) - Shows full arrest sequence
-- **Video:** [Raw Story coverage with video](https://www.rawstory.com/ice-disabled-woman/) - Multiple angles
-- **Video:** [The Mirror coverage](https://www.themirror.com/news/us-news/shocking-moment-8-ice-agents-1616280) - Detailed breakdown
-- **Video:** [NBC News](https://www.youtube.com/watch?v=Rsy6FDbOa3U&t=7s) - Starts at key moment
-- **Social:** [Reuters Facebook post](https://archive.ph/helw8) - 6.6K reactions, 3K comments (archived)
+1. Reuters Photo (Jan 13, 2026): [Reuters photo by Tim Evans](https://archive.ph/helw8/image)
+2. Sahan Journal Video (Jan 13, 2026): [Sahan Journal footage](https://sahanjournal.com/public-safety/minneapolis-ice-confront-observers-door-knocking-powderhorn/)
+3. Raw Story Video (Jan 13, 2026): [Raw Story coverage with video](https://www.rawstory.com/ice-disabled-woman/)
+4. The Mirror Video (Jan 13, 2026): [The Mirror coverage](https://www.themirror.com/news/us-news/shocking-moment-8-ice-agents-1616280)
+5. NBC News Video (Jan 13, 2026): [NBC News](https://www.youtube.com/watch?v=Rsy6FDbOa3U&t=7s)
+6. Reuters Facebook (Jan 13, 2026): [Reuters Facebook post](https://archive.ph/helw8)
+7. CBC (Jan 14, 2026): [Woman dragged from car by ICE identified as U.S. citizen Aliya Rahman](https://www.cbc.ca/news/world/aliya-rahman-citizen-ice-arrest-9.7047853)
+8. Newsweek (Jan 15, 2026): [US citizen dragged from car by ICE in Minneapolis speaks out](https://www.newsweek.com/us-citizen-dragged-from-car-ice-minneapolis-speaks-out-11368332)
+9. The Mirror (Jan 13, 2026): [Shocking moment 8 ICE agents drag petrified 'disabled' woman from car](https://www.themirror.com/news/us-news/shocking-moment-8-ice-agents-1616280)
+10. Raw Story (Jan 13, 2026): ['I'm disabled!' Woman screams as masked ICE agents pull her through car window](https://www.rawstory.com/ice-disabled-woman/)
+11. New Republic (Jan 13, 2026): [ICE Violently Arrests Woman Trying to Pass Them to Get to the Doctor](https://newrepublic.com/post/205252/ice-arrests-minneapolis-woman-car-doctor)
+12. Sahan Journal (Jan 13, 2026): [Crowd confronts immigration agents door-knocking in south Minneapolis](https://sahanjournal.com/public-safety/minneapolis-ice-confront-observers-door-knocking-powderhorn/)
 
 ## Victim(s)
 - **Name:** Aliya Rahman

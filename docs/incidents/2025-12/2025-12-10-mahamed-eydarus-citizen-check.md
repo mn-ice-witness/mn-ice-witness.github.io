@@ -17,10 +17,10 @@ last_updated: 2026-01-15
 Mahamed Eydarus, a 25-year-old U.S. citizen of Somali descent from Fridley, was detained by masked ICE agents on the morning of December 10, 2025, while shoveling snow with his mother after finishing an overnight shift as a personal care assistant. Agents surrounded him in unmarked vehicles, asked why he and his mother were speaking a "foreign language," demanded his mother remove her niqab (religious face covering), and separated him from his mother before eventually releasing them. Eydarus is now a plaintiff in the ACLU class-action lawsuit against ICE.
 
 ## Sources
-1. [Lawsuit accuses federal agents of racial profiling in Minneapolis immigration operation](https://www.nbcnews.com/news/us-news/lawsuit-accuses-federal-agents-racial-profiling-minneapolis-immigratio-rcna254245) - NBC News
-2. [ACLU lawsuit: ICE violates constitutional rights in Minnesota](https://sahanjournal.com/immigration/aclu-federal-lawsuit-ice-minnesota/) - Sahan Journal
-3. [ACLU sues feds over alleged racial profiling in Twin Cities immigration surge](https://www.startribune.com/aclu-sues-feds-over-alleged-racial-profiling-in-twin-cities-immigration-surge/601564707) - Star Tribune
-4. [As ICE agents flood the Twin Cities, immigrants and citizens alike are caught in the crossfire](https://mndaily.com/city/as-ice-agents-flood-the-twin-cities-immigrants-and-citizens-alike-are-caught-in-the-crossfire/12/13/2025/) - Minnesota Daily
+1. MN Daily (Dec 13, 2025): [As ICE agents flood the Twin Cities, immigrants and citizens alike are caught in the crossfire](https://mndaily.com/city/as-ice-agents-flood-the-twin-cities-immigrants-and-citizens-alike-are-caught-in-the-crossfire/12/13/2025/)
+2. NBC News (Jan 15, 2026): [Lawsuit accuses federal agents of racial profiling in Minneapolis immigration operation](https://www.nbcnews.com/news/us-news/lawsuit-accuses-federal-agents-racial-profiling-minneapolis-immigratio-rcna254245)
+3. Sahan Journal (Jan 15, 2026): [ACLU lawsuit: ICE violates constitutional rights in Minnesota](https://sahanjournal.com/immigration/aclu-federal-lawsuit-ice-minnesota/)
+4. Star Tribune (Jan 15, 2026): [ACLU sues feds over alleged racial profiling in Twin Cities immigration surge](https://www.startribune.com/aclu-sues-feds-over-alleged-racial-profiling-in-twin-cities-immigration-surge/601564707)
 
 ## Victim(s)
 - **Name:** Mahamed Eydarus

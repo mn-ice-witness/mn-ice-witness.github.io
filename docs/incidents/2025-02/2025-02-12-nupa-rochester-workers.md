@@ -17,10 +17,10 @@ last_updated: 2026-01-14
 ICE officers detained two brothers—both cooks at Nupa Mediterranean restaurant—in the parking lot as they arrived for their morning shifts. The restaurant was forced to temporarily close one of its two Rochester locations due to the loss of staff. The owner stated the workers had no criminal record as far as they knew.
 
 ## Sources
-1. [ICE raid in Rochester leads to restaurant closure](https://www.postbulletin.com/news/local/ice-raid-in-rochester-leads-to-restaurant-closure) - Post Bulletin
-2. [Rochester restaurant closes temporarily after ICE detains two of its workers](https://bringmethenews.com/minnesota-lifestyle/rochester-restaurant-closes-temporarily-after-ice-arrests-two-of-its-workers) - Bring Me The News
-3. [UPDATE: Nupa confirms two employees arrested by ICE](https://www.kttc.com/2025/02/12/rpd-confirms-ice-presence-rochester-wednesday/) - KTTC
-4. [Two restaurant workers detained as ICE descends on Rochester, MN](https://www.startribune.com/ice-raids-target-workers-at-popular-rochester-restaurant/601221686) - Star Tribune
+1. Post Bulletin (Feb 13, 2025): [ICE raid in Rochester leads to restaurant closure](https://www.postbulletin.com/news/local/ice-raid-in-rochester-leads-to-restaurant-closure)
+2. Bring Me The News (Feb 13, 2025): [Rochester restaurant closes temporarily after ICE detains two of its workers](https://bringmethenews.com/minnesota-lifestyle/rochester-restaurant-closes-temporarily-after-ice-arrests-two-of-its-workers)
+3. KTTC (Feb 12, 2025): [UPDATE: Nupa confirms two employees arrested by ICE](https://www.kttc.com/2025/02/12/rpd-confirms-ice-presence-rochester-wednesday/)
+4. Star Tribune (Feb 13, 2025): [Two restaurant workers detained as ICE descends on Rochester, MN](https://www.startribune.com/ice-raids-target-workers-at-popular-rochester-restaurant/601221686)
 
 ## Victim(s)
 - **Number detained:** 2 (brothers)

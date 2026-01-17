@@ -17,8 +17,8 @@ last_updated: 2026-01-15
 On January 10, 2026, ICE agents created a chaotic scene at a bus stop at 31st Street and Bloomington Avenue South in Minneapolis, blocking traffic, "ripping people from their cars," and using "excessive force" according to a Metro Transit bus operator who witnessed the incident. The scene caused anxiety and fear for transit workers and passengers. The Amalgamated Transit Union later held a rally at the site, posting a sign reading "Minnesotans were abducted here."
 
 ## Sources
-1. [Metro Transit Workers Rally at Bus Stop Where ICE Abduction Took Place](https://workdaymagazine.org/metro-transit-workers-rally-at-bus-stop-where-ice-abduction-took-place-demand-ice-not-interfere-with-transit-operations/) - Workday Magazine
-2. [Metro Transit workers decry ICE activity at transit stops](https://sahanjournal.com/immigration/metro-transit-union-speaks-out-against-ice-surge/) - Sahan Journal
+1. Workday Magazine (Jan 14, 2026): [Metro Transit Workers Rally at Bus Stop Where ICE Abduction Took Place](https://workdaymagazine.org/metro-transit-workers-rally-at-bus-stop-where-ice-abduction-took-place-demand-ice-not-interfere-with-transit-operations/)
+2. Sahan Journal (Jan 14, 2026): [Metro Transit workers decry ICE activity at transit stops](https://sahanjournal.com/immigration/metro-transit-union-speaks-out-against-ice-surge/)
 
 ## Witness Account
 

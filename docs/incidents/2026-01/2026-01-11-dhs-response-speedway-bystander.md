@@ -17,7 +17,7 @@ last_updated: 2026-01-14
 DHS posted on X claiming a U.S. citizen bystander at the Speedway gas station arrest "did not comply with the lawfully given order, and instead responded by hitting an officer." Multiple video angles contradict this claim, showing the citizen complying before being tackled.
 
 ## Sources
-1. [DHS X Post](https://x.com/DHSgov/status/2010802240517521519) - @DHSgov
+1. X Video (Jan 12, 2026): [DHS official statement](https://x.com/DHSgov/status/2010802240517521519)
 
 ## Related Incident
 See full incident details: [Bystander Filming ICE Arrest Tackled and Detained at Speedway](#2026-01-11-speedway-st-paul)

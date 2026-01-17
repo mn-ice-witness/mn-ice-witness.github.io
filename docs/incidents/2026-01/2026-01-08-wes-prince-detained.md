@@ -17,8 +17,8 @@ last_updated: 2026-01-14
 Wes Prince, a U.S. citizen protesting at the Whipple Building, was detained approximately 9 hours without charges. He documented serious security and procedural failures including agents sharing badges, using personal cell phones for mugshots, and losing track of detainees.
 
 ## Sources
-1. [ICE protester detained in Fort Snelling shares detention experience](https://kstp.com/kstp-news/top-news/ice-protester-detained-in-fort-snelling-shares-detention-experience/) - KSTP
-2. [Facebook post by Wes Prince](https://www.facebook.com/share/p/187GEhmHFy/) - Facebook (firsthand account)
+1. KSTP (Jan 9, 2026): [ICE protester detained in Fort Snelling shares detention experience](https://kstp.com/kstp-news/top-news/ice-protester-detained-in-fort-snelling-shares-detention-experience/)
+2. Facebook (Jan 9, 2026): [Facebook post by Wes Prince](https://www.facebook.com/share/p/187GEhmHFy/)
 
 ## Victim(s)
 - **Name:** Wes Prince

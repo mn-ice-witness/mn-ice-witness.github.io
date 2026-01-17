@@ -17,8 +17,8 @@ last_updated: 2026-01-14
 A 19-year-old Somali woman who is currently an 11th-grade student at Willmar Public Schools was arrested by ICE agents in downtown Willmar. She had legal refugee status (Form I-94) and her family had applied for Green Card status. The arrest caused approximately 90% of Somali students to miss school the following day.
 
 ## Sources
-1. [Federal immigration agents make arrests Monday in Willmar](https://www.wctrib.com/news/local/federal-immigration-agents-make-arrests-monday-in-willmar) - West Central Tribune
-2. [Ugly rhetoric, fears of ICE raids test an 'All-America City'](https://www.minnpost.com/greater-minnesota/2026/01/ugly-rhetoric-fears-of-ice-raids-test-an-all-america-city-with-criticism-of-willmars-somali-community/) - MinnPost
+1. West Central Tribune (Jan 13, 2026): [Federal immigration agents make arrests Monday in Willmar](https://www.wctrib.com/news/local/federal-immigration-agents-make-arrests-monday-in-willmar)
+2. MinnPost (Jan 13, 2026): [Ugly rhetoric, fears of ICE raids test an 'All-America City'](https://www.minnpost.com/greater-minnesota/2026/01/ugly-rhetoric-fears-of-ice-raids-test-an-all-america-city-with-criticism-of-willmars-somali-community/)
 
 ## Victim(s)
 - **Name:** Not disclosed

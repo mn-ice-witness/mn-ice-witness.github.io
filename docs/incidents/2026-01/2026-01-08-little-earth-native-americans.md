@@ -17,10 +17,10 @@ last_updated: 2026-01-16
 Four homeless men, all enrolled members of the Oglala Sioux Tribe and U.S. citizens, were detained by ICE while sheltering under a bridge near the Little Earth Housing Project in the East Phillips neighborhood. They were taken into custody without their names being recorded by authorities. At least one was held for 12 hours before release. The tribe sent attorneys and leadership to Minneapolis to locate the men.
 
 ## Sources
-1. [Five Native Americans detained by ICE during ongoing raids in Minneapolis](https://ictnews.org/news/five-native-americans-detained-by-ice-during-ongoing-raids-in-minneapolis/) - ICT (Indian Country Today)
-2. [4 members of Oglala Sioux Tribe detained by ICE in Minneapolis, president says](https://www.cbsnews.com/minnesota/news/oglala-sioux-tribe-members-detained-ice-minneapolis/) - CBS Minnesota
-3. [Oglala Sioux leaders seek missing members detained by ICE in Minneapolis](https://www.fox9.com/news/oglala-sioux-leaders-seek-missing-members-detained-ice-minneapolis) - Fox 9
-4. [ICE Detains and Holds Four Native Americans, Tribal Leader Says](https://www.newsweek.com/ice-detains-native-americans-minnesota-minneapolis-oglala-sioux-11339071) - Newsweek
+1. ICT News (Jan 9, 2026): [Five Native Americans detained by ICE during ongoing raids in Minneapolis](https://ictnews.org/news/five-native-americans-detained-by-ice-during-ongoing-raids-in-minneapolis/)
+2. CBS Minnesota (Jan 9, 2026): [4 members of Oglala Sioux Tribe detained by ICE in Minneapolis, president says](https://www.cbsnews.com/minnesota/news/oglala-sioux-tribe-members-detained-ice-minneapolis/)
+3. FOX 9 (Jan 9, 2026): [Oglala Sioux leaders seek missing members detained by ICE in Minneapolis](https://www.fox9.com/news/oglala-sioux-leaders-seek-missing-members-detained-ice-minneapolis)
+4. Newsweek (Jan 9, 2026): [ICE Detains and Holds Four Native Americans, Tribal Leader Says](https://www.newsweek.com/ice-detains-native-americans-minnesota-minneapolis-oglala-sioux-11339071)
 
 ## Victim(s)
 - **Number:** Four

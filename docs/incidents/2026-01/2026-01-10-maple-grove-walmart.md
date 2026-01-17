@@ -17,9 +17,8 @@ last_updated: 2026-01-13
 Six ICE agents arrested a man inside a Walmart in Maple Grove on Saturday night. Video shows agents pinning the individual to the ground inside the store before handcuffing him, escorting him out, and placing him in a red SUV.
 
 ## Sources
-1. [Video shows ICE agents pinning man inside Maple Grove Walmart](https://bringmethenews.com/minnesota-news/video-shows-ice-agents-pinning-man-inside-maple-grove-walmart) - Bring Me The News
-2. [Pattern emerging of ICE targeting civilians at Twin Cities retail stores](https://bringmethenews.com/minnesota-news/pattern-emerging-of-ice-targeting-civilians-at-twin-cities-retail-stores) - Bring Me The News
-- **Video:** Social media video showing arrest inside Walmart
+1. Bring Me The News (Jan 10, 2026): [Video shows ICE agents pinning man inside Maple Grove Walmart](https://bringmethenews.com/minnesota-news/video-shows-ice-agents-pinning-man-inside-maple-grove-walmart)
+2. Bring Me The News (Jan 10, 2026): [Pattern emerging of ICE targeting civilians at Twin Cities retail stores](https://bringmethenews.com/minnesota-news/pattern-emerging-of-ice-targeting-civilians-at-twin-cities-retail-stores)
 
 ## Victim(s)
 - **Name:** Unknown

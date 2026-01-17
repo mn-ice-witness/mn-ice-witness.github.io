@@ -18,11 +18,11 @@ last_updated: 2026-01-14
 Ryan Ecklund, a U.S. citizen and real estate agent, was detained by ICE for over nine hours after following and recording agents from a grocery store parking lot. He was stopped and warned by agents not to follow them or face arrest. When he continued, five agents boxed in his vehicle, forcibly removed him, and held him at the Whipple Federal Building without charges. Constitutional scholars assert that following and recording law enforcement are protected under the First Amendment, and just one week prior, a federal district judge found a Trump administration policy unconstitutional for considering recording as "unlawful civil unrest."
 
 ## Sources
-1. [ICE detains Woodbury man for filming agents](https://www.fox9.com/news/ice-detains-woodbury-man-filming-agents) - Fox 9
-2. [Woodbury man says ICE detained him after he followed and recorded](https://www.twincities.com/2026/01/14/woodbury-resident-detained-recording-ice/) - Pioneer Press
-3. [Twin Cities realtor, a US citizen, held by ICE for almost 10 hours](https://bringmethenews.com/minnesota-news/twin-cities-realtor-a-us-citizen-held-by-ice-for-almost-10-hours) - Bring Me The News
-4. [ICE says it's illegal to record agents, but is DHS policy actually unlawful?](https://www.ktvu.com/news/ice-says-recording-agents-illegal-federal-judge-says-dhs-policy-unlawful-jan-2026) - FOX National (syndicated)
-- **Video:** [Tamara Ecklund Instagram reel](https://www.instagram.com/reels/DTduvCcgWGa/) - Instagram
+1. Instagram Video (Jan 13, 2026): [Tamara Ecklund Instagram reel](https://www.instagram.com/reels/DTduvCcgWGa/)
+2. FOX 9 (Jan 14, 2026): [ICE detains Woodbury man for filming agents](https://www.fox9.com/news/ice-detains-woodbury-man-filming-agents)
+3. Pioneer Press (Jan 14, 2026): [Woodbury man says ICE detained him after he followed and recorded](https://www.twincities.com/2026/01/14/woodbury-resident-detained-recording-ice/)
+4. Bring Me The News (Jan 14, 2026): [Twin Cities realtor, a US citizen, held by ICE for almost 10 hours](https://bringmethenews.com/minnesota-news/twin-cities-realtor-a-us-citizen-held-by-ice-for-almost-10-hours)
+5. KTVU (Jan 14, 2026): [ICE says it's illegal to record agents, but is DHS policy actually unlawful?](https://www.ktvu.com/news/ice-says-recording-agents-illegal-federal-judge-says-dhs-policy-unlawful-jan-2026)
 
 ## Victim(s)
 - **Name:** Ryan Ecklund

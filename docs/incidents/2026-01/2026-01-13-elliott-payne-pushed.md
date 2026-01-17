@@ -17,9 +17,8 @@ last_updated: 2026-01-13
 Minneapolis City Council President Elliott Payne was shoved by a masked ICE agent while legally observing federal immigration enforcement outside the Eastside Co-op in Northeast Minneapolis. Payne shared video of the incident, highlighting concerns about treatment of all residents.
 
 ## Sources
-1. [Masked ICE agent shoves Minneapolis City Council president](https://kyma.com/decision-2024/national-politics/2026/01/13/masked-ice-agent-shoves-minneapolis-city-council-president/) - KYMA/AP
-2. [List of major ICE raids in Minnesota on Tuesday, Jan. 13](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-in-minnesota-on-tuesday-jan-13) - Bring Me The News
-- **Video:** Payne shared video to BlueSky depicting the incident
+1. KYMA (Jan 13, 2026): [Masked ICE agent shoves Minneapolis City Council president](https://kyma.com/decision-2024/national-politics/2026/01/13/masked-ice-agent-shoves-minneapolis-city-council-president/)
+2. Bring Me The News (Jan 13, 2026): [List of major ICE raids in Minnesota on Tuesday, Jan. 13](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-in-minnesota-on-tuesday-jan-13)
 
 ## Victim(s)
 - **Name:** Elliott Payne

@@ -17,11 +17,8 @@ last_updated: 2026-01-14
 Rogelio Jimenez, a U.S. citizen, was forcibly removed from his car by masked ICE agents on Brooklyn Boulevard in Brooklyn Park. Despite repeatedly screaming that he was a citizen, an agent demanded he "prove it." He was handcuffed, placed in a federal vehicle, and driven around for approximately 20 minutes before being released. Agents claimed they were looking for someone with the same name.
 
 ## Sources
-1. [U.S. citizens recount being detained by ICE during Minnesota operation](https://www.cbsnews.com/minnesota/news/us-citizens-arrested-by-ice-minneapolis/) - CBS Minnesota/WCCO
-2. [During Minneapolis operation, ICE has repeatedly arrested U.S. citizens](https://www.cbsnews.com/minnesota/video/during-minneapolis-operation-ice-has-repeatedly-arrested-u-s-citizens/) - CBS Minnesota (Video Report)
-- **Video:** Dashcam footage from Jimenez's vehicle - CBS Minnesota
-- **Video:** Cell phone footage from Jimenez - CBS Minnesota
-- **Video:** Bystander cell phone footage - CBS Minnesota
+1. CBS Video (Jan 13, 2026): [During Minneapolis operation, ICE has repeatedly arrested U.S. citizens](https://www.cbsnews.com/minnesota/video/during-minneapolis-operation-ice-has-repeatedly-arrested-u-s-citizens/)
+2. CBS News (Jan 13, 2026): [U.S. citizens recount being detained by ICE during Minnesota operation](https://www.cbsnews.com/minnesota/news/us-citizens-arrested-by-ice-minneapolis/)
 
 ## Victim(s)
 - **Name:** Rogelio Jimenez

@@ -17,9 +17,8 @@ last_updated: 2026-01-14
 Abdikadir Noor, a 45-year-old Fridley resident who has been a U.S. citizen for 20 years, was arrested by ICE at Karmel Mall while getting coffee. During processing at the Whipple Building, an ICE agent made racist statements including "Somalis should go back home" and "Fifty percent are here fraudulently." Noor was shackled alone for approximately 4 hours before being read his rights, then released without charges.
 
 ## Sources
-1. [ACLU takes legal action against ICE for detaining U.S. citizens in Minnesota](https://sahanjournal.com/immigration/ice-minnesota-aclu-lawsuit-observer-rights/) - Sahan Journal
-2. [ACLU sues ICE, alleging agency violates constitutional rights](https://minnesotareformer.com/2025/12/17/aclu-sues-ice-alleging-agency-violates-constitutional-rights-of-observers-and-protesters/) - Minnesota Reformer
-- **Legal filing:** Named plaintiff in *Tincher v. Noem* ACLU class-action lawsuit
+1. Sahan Journal (Dec 17, 2025): [ACLU takes legal action against ICE for detaining U.S. citizens in Minnesota](https://sahanjournal.com/immigration/ice-minnesota-aclu-lawsuit-observer-rights/)
+2. Minnesota Reformer (Dec 17, 2025): [ACLU sues ICE, alleging agency violates constitutional rights](https://minnesotareformer.com/2025/12/17/aclu-sues-ice-alleging-agency-violates-constitutional-rights-of-observers-and-protesters/)
 
 ## Victim(s)
 - **Name:** Abdikadir Noor

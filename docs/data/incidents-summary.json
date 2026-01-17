@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768609842,
+  "mediaVersion": 1768610555,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-15-porter-wrong-address-raid.md",
@@ -441,7 +441,7 @@
       "time": "morning",
       "location": "34th Street and Park Avenue",
       "city": "Minneapolis",
-      "type": "observers",
+      "type": "citizen",
       "status": "under-investigation",
       "victimCitizenship": "us-citizen",
       "injuries": "serious",
@@ -449,10 +449,15 @@
       "lastUpdated": "2026-01-15",
       "mediaCount": 0,
       "notable": true,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": []
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-13-aliya-rahman-car-window-hospitalized.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-13-aliya-rahman-car-window-hospitalized.mp4"
+        }
+      ]
     },
     {
       "filePath": "incidents/2026-01/2026-01-13-lyn-lake-tear-gas.md",

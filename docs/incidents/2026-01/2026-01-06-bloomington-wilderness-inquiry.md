@@ -17,9 +17,8 @@ last_updated: 2026-01-14
 A man being pursued by ICE agents fled on foot and took refuge inside the Wilderness Inquiry office building in Bloomington. Staff allowed him to remain in the vestibule and denied ICE entry, citing lack of a judicial warrant. After a two-hour standoff with negotiations through an interpreter, the man voluntarily surrendered after ICE presented a felony arrest warrant.
 
 ## Sources
-1. [ICE target seeks refuge in Bloomington office, prompting standoff](https://sahanjournal.com/immigration/immigration-arrest-standoff-bloomington-wilderness-inquiry/) - Sahan Journal
-2. [Where has ICE been operating in Twin Cities](https://bringmethenews.com/minnesota-news/where-has-ice-been-operating-in-twin-cities-since-escalation-against-immigrants-by-trump-administration) - Bring Me The News
-- **Video:** Witness video obtained by Bring Me The News showing scene outside building
+1. Sahan Journal (Jan 7, 2026): [ICE target seeks refuge in Bloomington office, prompting standoff](https://sahanjournal.com/immigration/immigration-arrest-standoff-bloomington-wilderness-inquiry/)
+2. Bring Me The News (Jan 7, 2026): [Where has ICE been operating in Twin Cities](https://bringmethenews.com/minnesota-news/where-has-ice-been-operating-in-twin-cities-since-escalation-against-immigrants-by-trump-administration)
 
 ## Victim(s)
 - **Name:** Not disclosed

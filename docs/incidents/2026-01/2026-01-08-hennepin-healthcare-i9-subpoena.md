@@ -18,9 +18,9 @@ notable: true
 The Department of Homeland Security issued a subpoena to Hennepin Healthcare on January 8, 2026, demanding I-9 employment verification forms for more than 7,000 employees. The subpoena came less than a week after county commissioners and legislators confronted ICE agents who had shackled a patient at HCMC for 28 hours without a warrant. County Commissioner Angela Conley called the audit a "retaliatory move."
 
 ## Sources
-1. [Hennepin Healthcare employee data subpoenaed by Department of Homeland Security](https://www.kare11.com/article/news/local/ice-in-minnesota/hennepin-healthcare-employee-data-subpoenaed-by-department-of-homeland-security/89-6f33c38c-ad8d-4069-9767-69adf9f8ff8c) - KARE11
-2. [Homeland Security audits Hennepin Healthcare's employment records for undocumented workers](https://minnesotareformer.com/2026/01/15/homeland-security-audits-hennepin-healthcares/) - Minnesota Reformer
-3. [Homeland Security subpoenas Hennepin Healthcare employee information](https://bringmethenews.com/minnesota-news/homeland-security-subpoenas-hennepin-healthcare-employee-information) - Bring Me The News
+1. KARE 11 (Jan 9, 2026): [Hennepin Healthcare employee data subpoenaed by Department of Homeland Security](https://www.kare11.com/article/news/local/ice-in-minnesota/hennepin-healthcare-employee-data-subpoenaed-by-department-of-homeland-security/89-6f33c38c-ad8d-4069-9767-69adf9f8ff8c)
+2. Minnesota Reformer (Jan 9, 2026): [Homeland Security audits Hennepin Healthcare's employment records for undocumented workers](https://minnesotareformer.com/2026/01/15/homeland-security-audits-hennepin-healthcares/)
+3. Bring Me The News (Jan 9, 2026): [Homeland Security subpoenas Hennepin Healthcare employee information](https://bringmethenews.com/minnesota-news/homeland-security-subpoenas-hennepin-healthcare-employee-information)
 
 ## Details
 

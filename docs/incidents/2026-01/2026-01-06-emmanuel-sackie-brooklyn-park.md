@@ -18,11 +18,10 @@ notable: true
 Emmanuel Sackie, a Liberian-born naturalized U.S. citizen, was detained by ICE agents in a Family Dollar parking lot in Brooklyn Park. Despite showing his driver's license, agents demanded additional proof of citizenship. The encounter turned physical; Sackie was handcuffed, placed in a federal vehicle, and later hospitalized with significant bruising.
 
 ## Sources
-1. [U.S. citizen says encounter with ICE agents in Brooklyn Park landed him in the hospital](https://www.youtube.com/watch?v=_KrPdFvv7QU) - WHAS11 (Video)
-2. [U.S. citizen says encounter with ICE agents in Brooklyn Park landed him in the hospital](https://www.cbsnews.com/minnesota/news/us-citizen-ice-encounter-injury-brooklyn-park/) - CBS Minnesota
-3. [Liberian-Born U.S. Citizen Hospitalized After Alleged Rough Encounter With ICE Agents in Minnesota](https://frontpageafricaonline.com/news/liberian-born-u-s-citizen-hospitalized-after-alleged-rough-encounter-with-ice-agents-in-minnesota/) - FrontPageAfrica
-4. [U.S. citizens recount being detained by ICE during Minnesota operation](https://www.cbsnews.com/minnesota/news/us-citizens-arrested-by-ice-minneapolis/) - CBS Minnesota (roundup article)
-- **Video:** Footage recorded by fiancée Amanda Tuonyon showing initial encounter
+1. YouTube Video (Jan 7, 2026): [U.S. citizen says encounter with ICE agents in Brooklyn Park landed him in the hospital](https://www.youtube.com/watch?v=_KrPdFvv7QU)
+2. CBS Minnesota (Jan 7, 2026): [U.S. citizen says encounter with ICE agents in Brooklyn Park landed him in the hospital](https://www.cbsnews.com/minnesota/news/us-citizen-ice-encounter-injury-brooklyn-park/)
+3. FrontPageAfrica (Jan 7, 2026): [Liberian-Born U.S. Citizen Hospitalized After Alleged Rough Encounter With ICE Agents in Minnesota](https://frontpageafricaonline.com/news/liberian-born-u-s-citizen-hospitalized-after-alleged-rough-encounter-with-ice-agents-in-minnesota/)
+4. CBS Minnesota (Jan 7, 2026): [U.S. citizens recount being detained by ICE during Minnesota operation](https://www.cbsnews.com/minnesota/news/us-citizens-arrested-by-ice-minneapolis/)
 
 ## Victim(s)
 - **Name:** Emmanuel Sackie

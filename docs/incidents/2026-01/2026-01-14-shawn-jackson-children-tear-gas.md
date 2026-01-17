@@ -18,15 +18,15 @@ notable: true
 Shawn Jackson and his family were leaving a relative's home after his son's basketball game when ICE agents deployed flashbang grenades and tear gas under their SUV. His six children, ranging from 6 months to 11 years old, were inside the vehicle. The 6-month-old baby stopped breathing and required CPR. Three children were hospitalized.
 
 ## Sources
-1. [Man says law enforcement threw flashbangs at car containing his 6 children](https://bringmethenews.com/minnesota-news/man-says-law-enforcement-officer-threw-flashbangs-at-car-containing-his-6-children) - Bring Me The News
-2. [6 children hospitalized after flash bang, tear gas hits van](https://www.fox9.com/news/6-children-hospitalized-after-flash-bang-hits-van) - FOX 9
-3. [Harrowing moment ICE refuse to call 911 after tear gassing car full of children](https://www.themirror.com/news/us-news/harrowing-moment-ice-refuse-call-1620605) - The Mirror
-4. [ICE 'throw flash-bang at family car' as 6 kids hospitalized including a 6-month-old baby](https://www.themirror.com/news/us-news/ice-immigration-flash-bang-shooting-1619545) - The Mirror
-5. [Couple Says ICE Agents Gassed Them as They Drove With 6 Children](https://www.nytimes.com/2026/01/15/us/minneapolis-couple-ice-tear-gas-6-children.html) - The New York Times
-6. [Minneapolis family says ICE threw flashbangs, tear gas near and under car with their six kids inside](https://www.kare11.com/article/news/local/ice-in-minnesota/minneapolis-family-says-ice-threw-flashbangs-tear-gas-near-under-car-six-kids-inside/89-d9877975-b320-4a57-aedb-c8c539fe9795) - KARE 11
-7. [Minneapolis couple says ICE released tear gas under their family vehicle with 6 children inside](https://www.cbsnews.com/minnesota/news/ice-tear-gassed-family-vehicle-with-6-children-inside/) - CBS Minnesota
-8. [Minneapolis ICE shooting live updates: Infant hospitalized after fed agents deployed tear gas](https://abc7.com/live-updates/minneapolis-ice-shooting-live-updates-infant-hospitalized-fed-agents-deployed-tear-gas/18410867/) - ABC7
-- **Video:** [Shawn Jackson interview](https://www.instagram.com/reels/DThKBtWjiiK/) - Instagram
+1. Instagram Video (Jan 15, 2026): [Shawn Jackson interview](https://www.instagram.com/reels/DThKBtWjiiK/)
+2. Bring Me The News (Jan 15, 2026): [Man says law enforcement threw flashbangs at car containing his 6 children](https://bringmethenews.com/minnesota-news/man-says-law-enforcement-officer-threw-flashbangs-at-car-containing-his-6-children)
+3. FOX 9 (Jan 15, 2026): [6 children hospitalized after flash bang, tear gas hits van](https://www.fox9.com/news/6-children-hospitalized-after-flash-bang-hits-van)
+4. The Mirror (Jan 15, 2026): [Harrowing moment ICE refuse to call 911 after tear gassing car full of children](https://www.themirror.com/news/us-news/harrowing-moment-ice-refuse-call-1620605)
+5. The Mirror (Jan 15, 2026): [ICE 'throw flash-bang at family car' as 6 kids hospitalized including a 6-month-old baby](https://www.themirror.com/news/us-news/ice-immigration-flash-bang-shooting-1619545)
+6. New York Times (Jan 15, 2026): [Couple Says ICE Agents Gassed Them as They Drove With 6 Children](https://www.nytimes.com/2026/01/15/us/minneapolis-couple-ice-tear-gas-6-children.html)
+7. KARE 11 (Jan 15, 2026): [Minneapolis family says ICE threw flashbangs, tear gas near and under car with their six kids inside](https://www.kare11.com/article/news/local/ice-in-minnesota/minneapolis-family-says-ice-threw-flashbangs-tear-gas-near-under-car-six-kids-inside/89-d9877975-b320-4a57-aedb-c8c539fe9795)
+8. CBS Minnesota (Jan 15, 2026): [Minneapolis couple says ICE released tear gas under their family vehicle with 6 children inside](https://www.cbsnews.com/minnesota/news/ice-tear-gassed-family-vehicle-with-6-children-inside/)
+9. ABC 7 (Jan 15, 2026): [Minneapolis ICE shooting live updates: Infant hospitalized after fed agents deployed tear gas](https://abc7.com/live-updates/minneapolis-ice-shooting-live-updates-infant-hospitalized-fed-agents-deployed-tear-gas/18410867/)
 
 ## Victim(s)
 - **Name:** Shawn Jackson (father), Destiny Jackson (mother)

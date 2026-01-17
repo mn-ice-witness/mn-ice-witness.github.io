@@ -18,13 +18,12 @@ notable: true
 ICE agents raided a home on McAndrews Road in Burnsville, breaking down doors and detaining four people including both parents of a 7-year-old child. Ring camera footage captured agents following a couple home from grocery shopping and the subsequent forced entry. U.S. citizens in the home reported guns pointed at them. One detained father had a valid work permit.
 
 ## Sources
-1. [Ring camera captures Burnsville ICE raid that leaves 7-year-old without parents](https://www.kare11.com/article/news/local/ring-camera-captures-burnsville-ice-raid-that-leaves-7-year-old-without-parents-according-to-family-mn/89-1a69f800-3a3a-480d-9d9c-e09715d2ed04) - KARE 11
-2. [ICE raided a Minnesota home, arresting 4 and frightening U.S. citizens](https://www.nbcnews.com/news/us-news/ring-camera-shows-ice-raid-minnesota-home-us-citizens-scared-4-arreste-rcna248189) - NBC News
-3. [Ring Camera Captures ICE Agents Snatching Parents From Their 7-Year-Old](https://www.inquisitr.com/ring-camera-captures-ice-agents-snatching-parents-from-their-7-year-old-in-minnesota) - Inquisitr
-4. [Home surveillance video shows apparent ICE raid at Burnsville home](https://www.fox9.com/news/home-surveillance-video-shows-apparent-ice-raid-burnsville-dec-2025) - FOX 9
-- **Video:** [Massive ICE raid on Minnesota home](https://www.nbcnews.com/video/video-shows-massive-ice-raid-on-minnesota-home-254043205545) - NBC News
-- **Video:** [Ring camera captures ICE raid](https://www.kare11.com/video/news/local/ice-raid-takes-burnsville-parents-leaving-7-year-old-alone/89-76232b8d-6db6-4290-b66b-d15b5176bfce) - KARE 11
-- **City Statement:** Burnsville official statement on Dec 7, 2025
+1. NBC Video (Dec 7, 2025): [Massive ICE raid on Minnesota home](https://www.nbcnews.com/video/video-shows-massive-ice-raid-on-minnesota-home-254043205545)
+2. KARE 11 Video (Dec 7, 2025): [Ring camera captures ICE raid](https://www.kare11.com/video/news/local/ice-raid-takes-burnsville-parents-leaving-7-year-old-alone/89-76232b8d-6db6-4290-b66b-d15b5176bfce)
+3. KARE 11 (Dec 7, 2025): [Ring camera captures Burnsville ICE raid that leaves 7-year-old without parents](https://www.kare11.com/article/news/local/ring-camera-captures-burnsville-ice-raid-that-leaves-7-year-old-without-parents-according-to-family-mn/89-1a69f800-3a3a-480d-9d9c-e09715d2ed04)
+4. FOX 9 (Dec 7, 2025): [Home surveillance video shows apparent ICE raid at Burnsville home](https://www.fox9.com/news/home-surveillance-video-shows-apparent-ice-raid-burnsville-dec-2025)
+5. NBC News (Dec 8, 2025): [ICE raided a Minnesota home, arresting 4 and frightening U.S. citizens](https://www.nbcnews.com/news/us-news/ring-camera-shows-ice-raid-minnesota-home-us-citizens-scared-4-arreste-rcna248189)
+6. Inquisitr (Dec 8, 2025): [Ring Camera Captures ICE Agents Snatching Parents From Their 7-Year-Old](https://www.inquisitr.com/ring-camera-captures-ice-agents-snatching-parents-from-their-7-year-old-in-minnesota)
 
 ## Victim(s)
 **Detained:**

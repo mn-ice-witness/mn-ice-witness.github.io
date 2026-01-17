@@ -17,7 +17,7 @@ last_updated: 2026-01-14
 ICE agents detained a contractor in the parking lot behind General Mills' Chanhassen manufacturing facility during the second week of January 2026. A 27-second video circulated on social media showing federal immigration officers placing a worker into a gray pickup truck. General Mills confirmed they followed safety protocols and requested agent identification.
 
 ## Sources
-1. [Minnesota's biggest companies starting to feel heat from ICE surge](https://www.startribune.com/minnesotas-biggest-companies-starting-to-feel-heat-from-ice-surge/601562852) - Star Tribune
+1. Star Tribune (Jan 14, 2026): [Minnesota's biggest companies starting to feel heat from ICE surge](https://www.startribune.com/minnesotas-biggest-companies-starting-to-feel-heat-from-ice-surge/601562852)
 
 ## Victim(s)
 - **Name:** Not disclosed

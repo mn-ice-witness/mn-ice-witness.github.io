@@ -17,8 +17,8 @@ last_updated: 2026-01-14
 Bryam Escobar Martinez, a father of two from Hopkins, was detained by ICE while on his way to work. His wife Estefany Escobar spoke publicly about the family's disruption. Martinez successfully challenged his detention in court and was ordered released within days, becoming one of dozens of detainees to win release through legal challenges.
 
 ## Sources
-1. [Hopkins family demands answers after ICE arrests father](https://www.mprnews.org/story/2026/01/09/hopkins-ice-arrest-of-father-disrupts-family-of-four) - MPR News
-2. [Court orders Hopkins man detained by ICE released from custody](https://www.mprnews.org/story/2026/01/12/court-orders-hopkins-man-detained-by-ice-in-latest-enforcement-surge-released-from-custody) - MPR News
+1. MPR News (Jan 10, 2026): [Hopkins family demands answers after ICE arrests father](https://www.mprnews.org/story/2026/01/09/hopkins-ice-arrest-of-father-disrupts-family-of-four)
+2. MPR News (Jan 10, 2026): [Court orders Hopkins man detained by ICE released from custody](https://www.mprnews.org/story/2026/01/12/court-orders-hopkins-man-detained-by-ice-in-latest-enforcement-surge-released-from-custody)
 
 ## Victim(s)
 - **Name:** Bryam Escobar Martinez

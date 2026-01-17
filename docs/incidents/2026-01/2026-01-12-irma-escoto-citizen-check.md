@@ -17,9 +17,7 @@ last_updated: 2026-01-14
 Irma Escoto, a U.S. citizen born in New Mexico, was surrounded by ICE agents while sitting in her car outside El Taquito Taco Shop in West St. Paul. Her husband Luis Escoto, a naturalized citizen since 1992, rushed outside with her passport card to prove her citizenship. The couple co-owns the restaurant and believes she was targeted based on her appearance.
 
 ## Sources
-1. [U.S. citizens recount being detained by ICE during Minnesota operation](https://www.cbsnews.com/minnesota/news/us-citizens-arrested-by-ice-minneapolis/) - CBS Minnesota/WCCO
-- **Video:** Restaurant security footage shows ICE vehicles and agents approaching - CBS Minnesota
-- **Video:** Bystander video of the encounter - CBS Minnesota
+1. CBS Minnesota (Jan 12, 2026): [U.S. citizens recount being detained by ICE during Minnesota operation](https://www.cbsnews.com/minnesota/news/us-citizens-arrested-by-ice-minneapolis/)
 
 ## Victim(s)
 - **Name:** Irma Escoto

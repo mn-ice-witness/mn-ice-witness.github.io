@@ -17,12 +17,12 @@ last_updated: 2026-01-15
 ICE agents detained the parent of a Northport Elementary School student at a school bus stop in Crystal as they waited with their child. The child witnessed the arrest before safely boarding the school bus. Multiple schools in the area switched to remote learning in response.
 
 ## Sources
-1. [Parent arrested by ICE agents while waiting for school bus with child](https://www.kare11.com/article/news/local/ice-in-minnesota/parent-arrested-ice-agents-school-bus-crystal/89-6cd97be7-50b8-481a-b19d-ff94ccc9f818) - KARE 11
-2. [Robbinsdale Schools parent detained by ICE while waiting with child at bus stop](https://bringmethenews.com/minnesota-news/robbinsdale-schools-parent-detained-by-ice-while-waiting-with-child-at-bus-stop) - Bring Me The News
-3. [Robbinsdale Schools: Northport Parent Detained by ICE at Bus Stop](https://ccxmedia.org/news/robbinsdale-schools-northport-parent-detained-by-ice-at-bus-stop/) - CCX Media
-4. [Minnesota families pushing back against ICE operations near schools](https://www.cbsnews.com/minnesota/news/minnesota-ice-operations-twin-cities-schools/) - CBS Minnesota
-5. [MN lawmaker: ICE detains parent at a bus stop in Crystal](https://www.twincities.com/2026/01/14/mn-lawmaker-ice-detains-parent-at-a-bus-stop-in-crystal/) - Pioneer Press
-6. [Rdale confirms ICE detained a parent at Crystal bus stop](https://www.hometownsource.com/sun_sailor/free/rdale-confirms-ice-detained-a-parent-at-crystal-bus-stop/article_eb407e68-3f45-4e90-a1c1-b346059f0f8f.html) - Sun Sailor
+1. KARE 11 (Jan 14, 2026): [Parent arrested by ICE agents while waiting for school bus with child](https://www.kare11.com/article/news/local/ice-in-minnesota/parent-arrested-ice-agents-school-bus-crystal/89-6cd97be7-50b8-481a-b19d-ff94ccc9f818)
+2. Bring Me The News (Jan 14, 2026): [Robbinsdale Schools parent detained by ICE while waiting with child at bus stop](https://bringmethenews.com/minnesota-news/robbinsdale-schools-parent-detained-by-ice-while-waiting-with-child-at-bus-stop)
+3. CCX Media (Jan 14, 2026): [Robbinsdale Schools: Northport Parent Detained by ICE at Bus Stop](https://ccxmedia.org/news/robbinsdale-schools-northport-parent-detained-by-ice-at-bus-stop/)
+4. CBS Minnesota (Jan 14, 2026): [Minnesota families pushing back against ICE operations near schools](https://www.cbsnews.com/minnesota/news/minnesota-ice-operations-twin-cities-schools/)
+5. Pioneer Press (Jan 14, 2026): [MN lawmaker: ICE detains parent at a bus stop in Crystal](https://www.twincities.com/2026/01/14/mn-lawmaker-ice-detains-parent-at-a-bus-stop-in-crystal/)
+6. Sun Sailor (Jan 14, 2026): [Rdale confirms ICE detained a parent at Crystal bus stop](https://www.hometownsource.com/sun_sailor/free/rdale-confirms-ice-detained-a-parent-at-crystal-bus-stop/article_eb407e68-3f45-4e90-a1c1-b346059f0f8f.html)
 
 ## Victim(s)
 - **Name:** Not publicly disclosed

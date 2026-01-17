@@ -17,10 +17,9 @@ last_updated: 2026-01-14
 At least two pastors were shoved, shot at with pepper rounds, and exposed to pepper spray while protesting ICE actions in Minneapolis on January 7, 2026. Rev. Susie Hayward (United Church of Christ) was shoved by a DHS agent and exposed to drifting pepper spray. Rev. Ashley Horan (Unitarian Universalist Association) was livestreaming when an agent fired a pepper round just feet from her head.
 
 ## Sources
-1. [Minneapolis clergy exposed to pepper spray after rushing to scene of deadly ICE shooting](https://religionnews.com/2026/01/07/minneapolis-clergy-pepper-sprayed-after-rushing-to-scene-of-deadly-ice-shooting/) - Religion News Service
-2. [Minneapolis clergy exposed to pepper spray after rushing to scene of deadly ICE shooting](https://www.ncronline.org/news/minneapolis-clergy-exposed-pepper-spray-after-rushing-scene-deadly-ice-shooting) - National Catholic Reporter
-3. [Minneapolis clergy rally for justice after ICE shooting](https://baptistnews.com/article/minneapolis-clergy-rally-for-justice-after-ice-shooting/) - Baptist News Global
-- **Video:** Rev. Horan's livestream captured pepper round being fired
+1. Religion News Service (Jan 8, 2026): [Minneapolis clergy exposed to pepper spray after rushing to scene of deadly ICE shooting](https://religionnews.com/2026/01/07/minneapolis-clergy-pepper-sprayed-after-rushing-to-scene-of-deadly-ice-shooting/)
+2. National Catholic Reporter (Jan 8, 2026): [Minneapolis clergy exposed to pepper spray after rushing to scene of deadly ICE shooting](https://www.ncronline.org/news/minneapolis-clergy-exposed-pepper-spray-after-rushing-scene-deadly-ice-shooting)
+3. Baptist News Global (Jan 8, 2026): [Minneapolis clergy rally for justice after ICE shooting](https://baptistnews.com/article/minneapolis-clergy-rally-for-justice-after-ice-shooting/)
 
 ## Victim(s)
 

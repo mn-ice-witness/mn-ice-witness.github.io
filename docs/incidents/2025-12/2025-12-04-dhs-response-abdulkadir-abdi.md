@@ -17,7 +17,7 @@ last_updated: 2026-01-14
 In the first Operation Metro Surge press release, DHS labeled Abdulkadir Sharif Abdi as a current gang member, directly contradicting a 2018 federal court finding that he had "turned his life around" and his family's statements that he is not currently in a gang.
 
 ## Sources
-1. [DHS Press Release - Operation Metro Surge Arrests](https://www.dhs.gov/news/2025/12/04/ice-arrests-worst-worst-criminal-illegal-aliens-during-operation-metro-surge) - DHS.gov
+1. DHS (Dec 4, 2025): [DHS Press Release - Operation Metro Surge Arrests](https://www.dhs.gov/news/2025/12/04/ice-arrests-worst-worst-criminal-illegal-aliens-during-operation-metro-surge)
 
 ## Related Incident
 See full incident details: [Addiction Recovery Leader Detained, Labeled "Gang Member"](#2025-12-04-abdulkadir-abdi-detained)

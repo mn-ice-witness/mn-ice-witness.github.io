@@ -7,7 +7,7 @@ type: observers
 status: resolved
 victim_citizenship: unknown
 injuries: chemical irritant exposure
-trustworthiness: medium-high
+trustworthiness: medium
 last_updated: 2026-01-14
 ---
 
@@ -17,8 +17,8 @@ last_updated: 2026-01-14
 Two young women were sprayed with a chemical irritant by a uniformed federal agent on Monday afternoon in Mankato. State Sen. Aric Putnam placed himself between the crowd and federal agents during the "really intense confrontation."
 
 ## Sources
-1. [ICE activity, increasing in rural Minnesota and cities outside metro, increases anxiety](https://www.startribune.com/with-ice-surge-spreading-across-state-rumors-and-anxiety-grow-in-greater-minnesota/601562255) - Star Tribune
-- **Video:** [Women sprayed with chemical irritant](https://www.facebook.com/reel/3898161177152426) - Facebook
+1. Facebook Video (Jan 13, 2026): [Women sprayed with chemical irritant](https://www.facebook.com/reel/3898161177152426)
+2. Star Tribune (Jan 13, 2026): [ICE activity, increasing in rural Minnesota and cities outside metro, increases anxiety](https://www.startribune.com/with-ice-surge-spreading-across-state-rumors-and-anxiety-grow-in-greater-minnesota/601562255)
 
 ## Victim(s)
 - Two young women (names not disclosed)
@@ -41,4 +41,4 @@ Placed himself between the crowd and federal agents on Monday: "a stressful mome
 Nearby St. James (30 miles south of Mankato) is home to a Smithfield Foods meat processing plant that employs many immigrant workers. Tension is high throughout the region.
 
 ## Editorial Assessment
-**MEDIUM-HIGH** - Star Tribune coverage with state senator on record. Video documentation exists. Demonstrates pattern of chemical agents being used on civilians in Greater Minnesota, similar to Twin Cities tactics.
+**MEDIUM** - Star Tribune coverage with state senator on record. Video documentation exists. Demonstrates pattern of chemical agents being used on civilians in Greater Minnesota, similar to Twin Cities tactics.

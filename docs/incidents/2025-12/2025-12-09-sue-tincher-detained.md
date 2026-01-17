@@ -17,8 +17,8 @@ last_updated: 2026-01-13
 Sue Tincher, a 55-year-old Minneapolis resident and U.S. citizen, was detained for over five hours after responding to a neighborhood alert about ICE activity. Within 15 seconds of arriving to observe, she was knocked to the ground and handcuffed. Officers cut off her wedding ring at the detention facility.
 
 ## Sources
-1. [ICE arrests citizen observer in Minneapolis, holds her for five hours](https://sahanjournal.com/immigration/minneapolis-woman-ice-arrest-citizen-observer/) - Sahan Journal
-2. [ACLU sues ICE, alleging agency violates constitutional rights](https://minnesotareformer.com/2025/12/17/aclu-sues-ice-alleging-agency-violates-constitutional-rights-of-observers-and-protesters/) - Minnesota Reformer
+1. Sahan Journal (Dec 10, 2025): [ICE arrests citizen observer in Minneapolis, holds her for five hours](https://sahanjournal.com/immigration/minneapolis-woman-ice-arrest-citizen-observer/)
+2. Minnesota Reformer (Dec 17, 2025): [ACLU sues ICE, alleging agency violates constitutional rights](https://minnesotareformer.com/2025/12/17/aclu-sues-ice-alleging-agency-violates-constitutional-rights-of-observers-and-protesters/)
 
 ## Victim(s)
 - **Name:** Sue Tincher

@@ -17,8 +17,8 @@ last_updated: 2026-01-13
 Christina Rank, a 25-year-old special education paraprofessional and U.S. citizen, was detained by ICE for nearly 12 hours after an apparent vehicle collision with a federal agent's car in the parking lot of Concord Education Center, a school serving students with special needs.
 
 ## Sources
-1. [Inver Grove Heights special ed teacher held by ICE for nearly 12 hours](https://www.twincities.com/2026/01/12/inver-grove-heights-teacher-at-special-education-school-held-by-ice-for-nearly-12-hours/) - Pioneer Press
-2. [Twin Cities teaching assistant, a US citizen, arrested by federal agents outside school](https://bringmethenews.com/minnesota-news/twin-cities-teacher-a-us-citizen-arrested-by-federal-agents-outside-school) - Bring Me The News
+1. Pioneer Press (Jan 12, 2026): [Inver Grove Heights special ed teacher held by ICE for nearly 12 hours](https://www.twincities.com/2026/01/12/inver-grove-heights-teacher-at-special-education-school-held-by-ice-for-nearly-12-hours/)
+2. Bring Me The News (Jan 12, 2026): [Twin Cities teaching assistant, a US citizen, arrested by federal agents outside school](https://bringmethenews.com/minnesota-news/twin-cities-teacher-a-us-citizen-arrested-by-federal-agents-outside-school)
 
 ## Victim(s)
 - **Name:** Christina Rank

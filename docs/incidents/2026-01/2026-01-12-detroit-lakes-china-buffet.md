@@ -17,9 +17,8 @@ last_updated: 2026-01-14
 ICE agents arrested a Honduran man outside the China Buffet restaurant in Detroit Lakes. His partner, Grace Waawaate-Ikwe Roberts (a White Earth woman), documented the arrest on video. The detained man was taken to the ICE Field Office at Fort Snelling.
 
 ## Sources
-1. [ICE officers arrest man at Detroit Lakes restaurant on Monday](https://www.dl-online.com/news/local/ice-officers-arrest-man-at-detroit-lakes-restaurant-on-monday) - Detroit Lakes Tribune
-2. [ICE presence confirmed in Detroit Lakes](https://www.valleynewslive.com/2026/01/12/ice-presence-confirmed-detroit-lakes/) - Valley News Live
-3. Video documentation by Grace Waawaate-Ikwe Roberts on Facebook
+1. Detroit Lakes Online (Jan 12, 2026): [ICE officers arrest man at Detroit Lakes restaurant on Monday](https://www.dl-online.com/news/local/ice-officers-arrest-man-at-detroit-lakes-restaurant-on-monday)
+2. Valley News Live (Jan 12, 2026): [ICE presence confirmed in Detroit Lakes](https://www.valleynewslive.com/2026/01/12/ice-presence-confirmed-detroit-lakes/)
 
 ## Victim(s)
 - **Origin:** Honduras

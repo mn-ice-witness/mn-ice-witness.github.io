@@ -17,11 +17,11 @@ last_updated: 2026-01-14
 Former Minnesota Governor Jesse Ventura, a 1969 graduate of Roosevelt High School, visited the school the day after the Border Patrol incident to show support. Ventura praised the school for "standing up" against ICE and compared federal immigration enforcement tactics to 1930s Germany. He hinted at a potential gubernatorial run, saying "Maybe it's time for Jesse. I only did one term. I'm owed a second."
 
 ## Sources
-1. **Video:** [Jesse Ventura Reacts to Minneapolis ICE Controversy](https://www.youtube.com/watch?v=udSUbBhA8I0) - Full interview
-2. [Jesse Ventura visits Minneapolis high school after ICE confrontation](https://www.fox9.com/news/jesse-ventura-visits-minneapolis-high-school-ice-confrontation-jan-2026) - FOX 9
-3. [Former Gov. Jesse Ventura speaks out against ICE in Minnesota, hints may run again](https://www.startribune.com/former-gov-jesse-ventura-speaks-out-against-ice-in-minnesota-hints-may-run-again/601561043) - Star Tribune
-4. [Former Gov. Jesse Ventura visits Roosevelt High School following ICE activity](https://www.cbsnews.com/minnesota/video/former-gov-jesse-ventura-visits-roosevelt-high-school-following-ice-activity/) - CBS Minnesota
-5. [Jesse Ventura Calls Trump 'Coward' After Minnesota ICE Shooting](https://www.newsweek.com/jesse-ventura-donald-trump-coward-minnesota-ice-shooting-11337167) - Newsweek
+1. YouTube Video (Jan 9, 2026): [Jesse Ventura Reacts to Minneapolis ICE Controversy](https://www.youtube.com/watch?v=udSUbBhA8I0)
+2. FOX 9 (Jan 9, 2026): [Jesse Ventura visits Minneapolis high school after ICE confrontation](https://www.fox9.com/news/jesse-ventura-visits-minneapolis-high-school-ice-confrontation-jan-2026)
+3. Star Tribune (Jan 9, 2026): [Former Gov. Jesse Ventura speaks out against ICE in Minnesota, hints may run again](https://www.startribune.com/former-gov-jesse-ventura-speaks-out-against-ice-in-minnesota-hints-may-run-again/601561043)
+4. CBS Minnesota Video (Jan 9, 2026): [Former Gov. Jesse Ventura visits Roosevelt High School following ICE activity](https://www.cbsnews.com/minnesota/video/former-gov-jesse-ventura-visits-roosevelt-high-school-following-ice-activity/)
+5. Newsweek (Jan 9, 2026): [Jesse Ventura Calls Trump 'Coward' After Minnesota ICE Shooting](https://www.newsweek.com/jesse-ventura-donald-trump-coward-minnesota-ice-shooting-11337167)
 
 ## Key Quotes
 

@@ -17,7 +17,7 @@ last_updated: 2026-01-13
 An ICE agent fired two shots during an arrest attempt in St. Paul after being struck by the suspect's vehicle. Two ICE officers were hospitalized with non-life-threatening injuries. No one was hit by gunfire. The suspect, a Cuban national, was apprehended after ramming multiple vehicles and attempting to flee on foot.
 
 ## Sources
-1. [ICE agent fires shots during arrest in St. Paul after being struck with vehicle](https://sahanjournal.com/news-partners/ice-agent-fires-shots-during-arrest-st-paul/) - Sahan Journal
+1. Sahan Journal (Dec 21, 2025): [ICE agent fires shots during arrest in St. Paul after being struck with vehicle](https://sahanjournal.com/news-partners/ice-agent-fires-shots-during-arrest-st-paul/)
 
 ## Suspect
 - **Nationality:** Cuban national (not a U.S. citizen per ICE)

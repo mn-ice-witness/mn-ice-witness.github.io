@@ -17,8 +17,8 @@ last_updated: 2026-01-13
 John Biestman and Janet Lee, a married couple in their late 60s from Linden Hills, had guns pointed at them and were threatened with arrest after following an ICE vehicle from a raid at Church of the Assumption of the Blessed Mary in Richfield.
 
 ## Sources
-1. [ACLU sues ICE, alleging agency violates constitutional rights of observers and protesters](https://minnesotareformer.com/2025/12/17/aclu-sues-ice-alleging-agency-violates-constitutional-rights-of-observers-and-protesters/) - Minnesota Reformer
-2. [ACLU-MN, Pro Bono Partners Sue to Protect Protesters, Observers and Journalists](https://www.aclu-mn.org/press-releases/1a/) - ACLU of Minnesota
+1. Minnesota Reformer (Dec 17, 2025): [ACLU sues ICE, alleging agency violates constitutional rights of observers and protesters](https://minnesotareformer.com/2025/12/17/aclu-sues-ice-alleging-agency-violates-constitutional-rights-of-observers-and-protesters/)
+2. ACLU-MN (Dec 17, 2025): [ACLU-MN, Pro Bono Partners Sue to Protect Protesters, Observers and Journalists](https://www.aclu-mn.org/press-releases/1a/)
 
 ## Victim(s)
 - **Names:** John Biestman and Janet Lee

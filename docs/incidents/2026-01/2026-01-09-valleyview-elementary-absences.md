@@ -17,8 +17,8 @@ last_updated: 2026-01-14
 At Valleyview Elementary School in Bloomington, 142 students did not attend class on Thursday, January 9, 2026. The president of the Bloomington Federation of Teachers attributed the absences to fear of ICE presence near schools following the Roosevelt High School incident and the shooting of Renee Nicole Good.
 
 ## Sources
-1. [Minnesota educators and parents tell ICE to keep away from schools](https://www.fox9.com/news/education-minnesota-ice-agents-schools-jan-9) - Fox 9
-2. [Education Minnesota demands ICE stay away from schools](https://educationminnesota.org/news/press-release/education-minnesota-demands-ice-stay-away-from-schools/) - Education Minnesota
+1. FOX 9 (Jan 10, 2026): [Minnesota educators and parents tell ICE to keep away from schools](https://www.fox9.com/news/education-minnesota-ice-agents-schools-jan-9)
+2. Education Minnesota (Jan 10, 2026): [Education Minnesota demands ICE stay away from schools](https://educationminnesota.org/news/press-release/education-minnesota-demands-ice-stay-away-from-schools/)
 
 ## School Impact
 - **142 students absent** - Significant spike in absences attributed to ICE fears

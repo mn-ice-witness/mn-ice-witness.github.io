@@ -72,10 +72,13 @@ Both categories may involve U.S. citizens being detained. Choose based on WHY th
 Brief 2-3 sentence summary. First sentence appears in card preview.
 
 ## Sources
-1. [Article Title](URL) - Publication Name
-2. [Article Title](URL) - Publication Name
-- **Video:** [Description](URL) - Source
-- **Photo:** [Description](URL) - Source
+All sources numbered. Videos first, then articles. Every source includes outlet name and date.
+
+1. Instagram Video (Jan 15, 2026): [Shawn Jackson interview](URL)
+2. YouTube Video (Jan 14, 2026): [Full press conference](URL)
+3. FOX 9 (Jan 15, 2026): [6 children hospitalized after flash bang](URL)
+4. Star Tribune (Jan 14, 2026): [ICE agents clash with residents](URL)
+5. CNN (Jan 15, 2026): [Minneapolis family describes attack](URL)
 
 ## Victim(s)
 - **Name:** (if public, else "Not disclosed")
@@ -151,8 +154,8 @@ last_updated: YYYY-MM-DD
 Brief description of what DHS/ICE claims and who they claim to have arrested.
 
 ## Sources
-1. [DHS Press Release](URL) - DHS.gov
-2. [X Post](URL) - @DHSgov or @ICEgov
+1. DHS.gov (Jan 8, 2026): [DHS Press Release](URL)
+2. X Post (Jan 8, 2026): [@DHSgov statement](URL)
 
 ## Official Statement
 Full quote or detailed summary of their justification.
@@ -205,8 +208,8 @@ last_updated: 2026-01-13
 A U.S. citizen filming an ICE arrest was tackled and detained despite complying with orders to back up.
 
 ## Sources
-1. [Fox 9 Report](https://www.fox9.com/...) - Fox 9
-- **Video:** [Arrest footage](https://www.fox9.com/...) - Fox 9
+1. FOX 9 Video (Jan 11, 2026): [Arrest footage from scene](https://www.fox9.com/...)
+2. FOX 9 (Jan 11, 2026): [Video shows bystander tackled at Speedway](https://www.fox9.com/...)
 
 ## Victim(s)
 - **Citizenship:** U.S. Citizen
@@ -215,3 +218,64 @@ A U.S. citizen filming an ICE arrest was tackled and detained despite complying 
 ## Editorial Assessment
 **HIGH** - Video evidence, multiple news sources.
 ```
+
+## Source Formatting Rules
+
+### Format
+Every source follows this format:
+```
+N. Outlet Name (Date): [Article/Video Title](URL)
+```
+
+- **All sources numbered** starting at 1
+- **Outlet name first** (FOX 9, Star Tribune, Instagram Video, etc.)
+- **Date in parentheses** in format (Mon DD, YYYY)
+- **Colon** after the date
+- **Title in brackets** linked to URL
+- **Videos listed FIRST**, then articles
+- **Every source MUST have a link** - no link means it's not a source
+
+### Video Sources
+For video content, use platform name + "Video":
+```
+1. Instagram Video (Jan 15, 2026): [Shawn Jackson interview](URL)
+2. YouTube Video (Jan 14, 2026): [Full press conference](URL)
+3. Facebook Video (Jan 12, 2026): [Witness footage of arrest](URL)
+4. X Video (Jan 13, 2026): [FOX 9 coverage](URL)
+5. CBS Video (Jan 14, 2026): [News report with footage](URL)
+```
+
+### Article Sources
+For articles, use outlet name:
+```
+6. FOX 9 (Jan 15, 2026): [6 children hospitalized after flash bang](URL)
+7. Star Tribune (Jan 14, 2026): [ICE agents clash with residents](URL)
+8. CNN (Jan 15, 2026): [Minneapolis family describes attack](URL)
+9. Bring Me The News (Jan 13, 2026): [Federal agents use tear gas](URL)
+10. New York Times (Jan 15, 2026): [Couple Says ICE Agents Gassed Them](URL)
+```
+
+### Video Priority Order
+When an incident has multiple videos, order them by importance:
+1. Full interviews / press conferences with victim
+2. Original source video (posted by witness/victim)
+3. News outlet video coverage
+4. Social media reposts
+
+### Common Outlet Names
+Use consistent outlet names:
+- `FOX 9` (not Fox 9 or Fox9)
+- `Star Tribune` (not StarTribune)
+- `Bring Me The News` (not BMTN)
+- `CBS Minnesota` (not CBS MN or WCCO)
+- `KARE 11` (not Kare11)
+- `MPR News` (not Minnesota Public Radio)
+- `Pioneer Press` (not St. Paul Pioneer Press)
+- `Sahan Journal`
+- `Minnesota Reformer`
+
+### What NOT to Include
+- Sources without links (no link = not a source)
+- Trailing "- Publication" after the URL
+- Unnumbered sources
+- Italic lines about "photos/videos referenced above"

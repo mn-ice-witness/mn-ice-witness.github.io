@@ -17,8 +17,8 @@ last_updated: 2026-01-13
 Multiple airport employees were detained by ICE agents operating beyond security gates at MSP Airport. Union representatives report at least six employees with proper work authorization were "snatched" by agents, with four employees unreachable since detention.
 
 ## Sources
-1. [ICE at MSP: Deportation flights and employee arrests during immigration crackdown](https://bringmethenews.com/minnesota-news/ice-at-msp-deportation-flights-and-employee-arrests-during-immigration-crackdown) - Bring Me The News
-2. [Groups at MSP Airport share experience as more federal ICE officers converge](https://www.audacy.com/wccoradio/news/local/groups-msp-airport-share-experience-more-ice-officers-arrive) - WCCO Radio
+1. Bring Me The News (Jan 10, 2026): [ICE at MSP: Deportation flights and employee arrests during immigration crackdown](https://bringmethenews.com/minnesota-news/ice-at-msp-deportation-flights-and-employee-arrests-during-immigration-crackdown)
+2. WCCO Radio (Jan 10, 2026): [Groups at MSP Airport share experience as more federal ICE officers converge](https://www.audacy.com/wccoradio/news/local/groups-msp-airport-share-experience-more-ice-officers-arrive)
 
 ## Victim(s)
 - **Names:** Unknown (at least 6 employees)

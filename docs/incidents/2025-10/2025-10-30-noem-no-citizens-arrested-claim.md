@@ -17,12 +17,12 @@ last_updated: 2026-01-14
 DHS Secretary Kristi Noem stated at a press conference that "no American citizens have been arrested or detained" by immigration agents. PolitiFact rated this claim "Pants on Fire" (their lowest truthfulness rating), and NPR and Poynter also found it to be inaccurate. ProPublica documented over 170 cases of U.S. citizens detained by immigration agents nationwide.
 
 ## Sources
-1. [PolitiFact Fact-Check: Pants on Fire](https://www.politifact.com/factchecks/2025/oct/31/kristi-noem/immigration-ICE-arrest-US-citizen-Chicago/) - PolitiFact
-2. [NPR Fact-Check: Noem on ICE Detaining US Citizens](https://www.npr.org/2025/11/05/nx-s1-5598373/npr-fact-checks-kristi-noem-on-ice-detaining-us-citizens) - NPR
-3. [Poynter: Has ICE Arrested American Citizens?](https://www.poynter.org/fact-checking/2025/has-ice-arrested-american-citizens/) - Poynter Institute
-4. [Congressional Letter to Secretary Noem](https://oversightdemocrats.house.gov/sites/evo-subsites/democrats-oversight.house.gov/files/evo-media-document/2025-10-20-letter-from-blumenthal-and-garcia-to-noem.pdf) - House Oversight Committee Democrats
-- **Video:** [Noem: "No citizens arrested or detained"](https://www.facebook.com/share/r/182qPHAp7o/) - Facebook
-- **Video:** [Noem Statement](https://www.youtube.com/watch?v=0KiGZZD11bw) - YouTube
+1. Facebook Video (Oct 30, 2025): [Noem: "No citizens arrested or detained"](https://www.facebook.com/share/r/182qPHAp7o/)
+2. YouTube Video (Oct 30, 2025): [Noem Statement](https://www.youtube.com/watch?v=0KiGZZD11bw)
+3. PolitiFact (Oct 31, 2025): [PolitiFact Fact-Check: Pants on Fire](https://www.politifact.com/factchecks/2025/oct/31/kristi-noem/immigration-ICE-arrest-US-citizen-Chicago/)
+4. Poynter (Nov 1, 2025): [Has ICE Arrested American Citizens?](https://www.poynter.org/fact-checking/2025/has-ice-arrested-american-citizens/)
+5. NPR (Nov 5, 2025): [NPR Fact-Check: Noem on ICE Detaining US Citizens](https://www.npr.org/2025/11/05/nx-s1-5598373/npr-fact-checks-kristi-noem-on-ice-detaining-us-citizens)
+6. House Oversight Committee (Oct 20, 2025): [Congressional Letter to Secretary Noem](https://oversightdemocrats.house.gov/sites/evo-subsites/democrats-oversight.house.gov/files/evo-media-document/2025-10-20-letter-from-blumenthal-and-garcia-to-noem.pdf)
 
 ## Noem's Statement
 

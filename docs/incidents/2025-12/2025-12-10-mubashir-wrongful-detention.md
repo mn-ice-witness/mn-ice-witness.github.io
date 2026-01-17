@@ -18,20 +18,18 @@ notable: true
 Mubashir, a 20-year-old U.S. citizen and Somali American, was tackled, placed in a chokehold, and detained by ICE agents for several hours while on his lunch break in Minneapolis' Cedar-Riverside neighborhood. Despite repeatedly asserting his citizenship and offering to show his passport, agents refused to verify his status until hours later at a federal facility. After his citizenship was confirmed, agents refused to drive him back, forcing him to walk in the snow.
 
 ## Sources
-1. [ICE agents wrongfully detained U.S. citizen in Minneapolis for looking Somali, city leaders say](https://www.cbsnews.com/minnesota/news/minneapolis-leaders-say-us-citizen-was-wrongfully-arrested-by-ice-agents/) - CBS Minnesota
-2. [ICE detains US citizen in Minneapolis: He went on his lunch break and ended up in a chokehold](https://www.cnn.com/2025/12/13/us/ice-minneapolis-us-citizen) - CNN
-3. [ICE agents tackle, arrest American citizen in Minneapolis](https://www.mprnews.org/story/2025/12/10/ice-agents-tackle-arrest-american-citizen-in-minneapolis) - MPR News
-4. [US Citizen Arrested by ICE After Offering to Show Passport Sparks Backlash](https://www.newsweek.com/us-citizen-arrested-by-ice-after-offering-to-show-passport-sparks-backlash-11191525) - Newsweek
-5. [Somali Minneapolis resident details 'erroneous arrest,' detainment by ICE](https://kstp.com/kstp-news/top-news/somali-resident-mayor-frey-to-detail-erroneous-ice-detention/) - KSTP
-6. [Minneapolis officials decry ICE arrest of Somali American citizen](https://www.startribune.com/mubashir-minneapolis-ice-arrest-us-citizen-somali-american-walz-letter-noem/601543532) - Star Tribune
-7. [Feds arrest U.S. citizen in Minneapolis' Cedar-Riverside neighborhood](https://sahanjournal.com/immigration/ice-arrest-cedar-riverside-minneapolis-somali-man/) - Sahan Journal
-8. [ICE Agents in Minneapolis Racially Profile and Violently Arrest Somali American U.S. Citizen](https://www.democracynow.org/2025/12/12/headlines/ice_agents_in_minneapolis_racially_profile_and_violently_arrest_somali_american_us_citizen) - Democracy Now!
-9. [20-year-old Somali-American speaks out after wrongful ICE detainment](https://thegrio.com/2025/12/11/20-year-old-somali-american-speaks-out-after-wrongful-ice-detainment/) - TheGrio
-10. [Minneapolis ICE surge: Citizen's detainment sparks alarm](https://www.fox9.com/news/minneapolis-ice-surge-citizens-detainment-dec-10) - FOX 9
-11. [City of Minneapolis shares video of ICE arresting US citizen in Cedar-Riverside](https://bringmethenews.com/minnesota-news/city-of-minneapolis-shares-video-of-ice-arresting-us-citizen-in-cedar-riverside) - Bring Me The News
-- **Video:** City of Minneapolis released video of arrest showing ICE agents forcefully detaining Mubashir in Cedar-Riverside
-- **Video:** Press conference with Mubashir, Mayor Frey, and Chief O'Hara on December 11, 2025
-- **Video:** [Mubashir press conference](https://www.youtube.com/watch?v=ceMKgxnhmHA) - YouTube
+1. YouTube Video (Dec 11, 2025): [Mubashir press conference](https://www.youtube.com/watch?v=ceMKgxnhmHA)
+2. MPR News (Dec 10, 2025): [ICE agents tackle, arrest American citizen in Minneapolis](https://www.mprnews.org/story/2025/12/10/ice-agents-tackle-arrest-american-citizen-in-minneapolis)
+3. The Grio (Dec 11, 2025): [20-year-old Somali-American speaks out after wrongful ICE detainment](https://thegrio.com/2025/12/11/20-year-old-somali-american-speaks-out-after-wrongful-ice-detainment/)
+4. FOX 9 (Dec 11, 2025): [Minneapolis ICE surge: Citizen's detainment sparks alarm](https://www.fox9.com/news/minneapolis-ice-surge-citizens-detainment-dec-10)
+5. Sahan Journal (Dec 11, 2025): [Feds arrest U.S. citizen in Minneapolis' Cedar-Riverside neighborhood](https://sahanjournal.com/immigration/ice-arrest-cedar-riverside-minneapolis-somali-man/)
+6. KSTP (Dec 11, 2025): [Somali Minneapolis resident details 'erroneous arrest,' detainment by ICE](https://kstp.com/kstp-news/top-news/somali-resident-mayor-frey-to-detail-erroneous-ice-detention/)
+7. Bring Me The News (Dec 11, 2025): [City of Minneapolis shares video of ICE arresting US citizen in Cedar-Riverside](https://bringmethenews.com/minnesota-news/city-of-minneapolis-shares-video-of-ice-arresting-us-citizen-in-cedar-riverside)
+8. Star Tribune (Dec 12, 2025): [Minneapolis officials decry ICE arrest of Somali American citizen](https://www.startribune.com/mubashir-minneapolis-ice-arrest-us-citizen-somali-american-walz-letter-noem/601543532)
+9. Democracy Now (Dec 12, 2025): [ICE Agents in Minneapolis Racially Profile and Violently Arrest Somali American U.S. Citizen](https://www.democracynow.org/2025/12/12/headlines/ice_agents_in_minneapolis_racially_profile_and_violently_arrest_somali_american_us_citizen)
+10. CBS News (Dec 12, 2025): [ICE agents wrongfully detained U.S. citizen in Minneapolis for looking Somali, city leaders say](https://www.cbsnews.com/minnesota/news/minneapolis-leaders-say-us-citizen-was-wrongfully-arrested-by-ice-agents/)
+11. CNN (Dec 13, 2025): [ICE detains US citizen in Minneapolis: He went on his lunch break and ended up in a chokehold](https://www.cnn.com/2025/12/13/us/ice-minneapolis-us-citizen)
+12. Newsweek (Dec 13, 2025): [US Citizen Arrested by ICE After Offering to Show Passport Sparks Backlash](https://www.newsweek.com/us-citizen-arrested-by-ice-after-offering-to-show-passport-sparks-backlash-11191525)
 
 ## Victim(s)
 - **Name:** Mubashir (requested first name only)

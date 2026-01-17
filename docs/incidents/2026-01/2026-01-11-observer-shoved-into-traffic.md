@@ -18,12 +18,12 @@ last_updated: 2026-01-14
 Video shows an ICE agent shoving a man who was filming their vehicle into oncoming traffic, forcing a bus to brake abruptly. The man was standing in front of the ICE vehicle holding a cellphone when an agent walked up and pushed him to the ground.
 
 ## Sources
-1. **Video:** [Facebook Reel](https://www.facebook.com/reel/912764577774305)
-2. [Man standing in front of ICE vehicle shoved by agent](https://www.cnn.com/2026/01/13/us/video/man-shoved-by-ice-agent-digvid) - CNN
-3. [Man obstructing ICE vehicle shoved by officer into oncoming traffic, video shows](https://www.kwch.com/2026/01/13/man-obstructing-ice-vehicle-shoved-by-officer-into-oncoming-traffic-video-shows/) - KWCH (CNN affiliate)
-4. [Video captures moment ICE agent shoves a man to the ground in Minneapolis](https://www.themirror.com/news/us-news/ice-agent-shoves-man-minneapolis-1613656) - The Mirror US
-- **Video:** [Facebook Reel](https://www.facebook.com/reel/2231420500717126) - Mustaffa Naffa
-- **Series:** [DHS Immigration Crackdown Interactive](https://www.cnn.com/interactive/2026/01/09/us/dhs-immigration-crackdown-ice-arrests-protests-vis/index.html) - CNN
+1. Facebook Video (Jan 11, 2026): [Incident footage](https://www.facebook.com/reel/912764577774305)
+2. Facebook Video (Jan 11, 2026): [Footage from Mustaffa Naffa](https://www.facebook.com/reel/2231420500717126)
+3. CNN Video (Jan 13, 2026): [Man standing in front of ICE vehicle shoved by agent](https://www.cnn.com/2026/01/13/us/video/man-shoved-by-ice-agent-digvid)
+4. CNN (Jan 9, 2026): [DHS Immigration Crackdown Interactive](https://www.cnn.com/interactive/2026/01/09/us/dhs-immigration-crackdown-ice-arrests-protests-vis/index.html)
+5. KWCH (Jan 13, 2026): [Man obstructing ICE vehicle shoved by officer into oncoming traffic, video shows](https://www.kwch.com/2026/01/13/man-obstructing-ice-vehicle-shoved-by-officer-into-oncoming-traffic-video-shows/)
+6. The Mirror (Jan 13, 2026): [Video captures moment ICE agent shoves a man to the ground in Minneapolis](https://www.themirror.com/news/us-news/ice-agent-shoves-man-minneapolis-1613656)
 
 ## Victim(s)
 - **Name:** Not identified

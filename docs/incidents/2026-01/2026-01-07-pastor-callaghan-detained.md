@@ -17,10 +17,9 @@ last_updated: 2026-01-14
 Rev. Kenny Callaghan, a Minneapolis pastor, was detained by ICE agents on January 7, 2026, the same day Renee Good was shot and killed. After positioning himself beside a Hispanic woman to protect her from agents, Callaghan was handcuffed at gunpoint and placed in an SUV for 30 minutes. Upon release, agents told him: "Well, you're White. You wouldn't be fun anyway." The incident has been cited as evidence of racial profiling in ICE operations.
 
 ## Sources
-1. [Minneapolis pastor detained by ICE on same day Renee Good was shot](https://www.kare11.com/article/news/local/detained-pastor-says-ice-let-him-go-because-hes-white-mn/89-00df6b90-bae8-49b8-b980-941a4ba6ee8b) - KARE 11
-2. [Gay Minneapolis pastor says ICE agent pointed gun at his face](https://www.advocate.com/news/detained-pastor-ice-shooting) - The Advocate
-3. [Pastor: ICE Let Me Free Because I'm White and It Wouldn't Be "Fun"](https://newrepublic.com/post/205105/minneapolis-pastor-ice-white-fun) - The New Republic
-- **First-person account:** Pastor Callaghan interviewed by multiple outlets
+1. KARE 11 (Jan 8, 2026): [Minneapolis pastor detained by ICE on same day Renee Good was shot](https://www.kare11.com/article/news/local/detained-pastor-says-ice-let-him-go-because-hes-white-mn/89-00df6b90-bae8-49b8-b980-941a4ba6ee8b)
+2. The Advocate (Jan 8, 2026): [Gay Minneapolis pastor says ICE agent pointed gun at his face](https://www.advocate.com/news/detained-pastor-ice-shooting)
+3. New Republic (Jan 8, 2026): [Pastor: ICE Let Me Free Because I'm White and It Wouldn't Be "Fun"](https://newrepublic.com/post/205105/minneapolis-pastor-ice-white-fun)
 
 ## Victim(s)
 - **Name:** Rev. Kenny Callaghan

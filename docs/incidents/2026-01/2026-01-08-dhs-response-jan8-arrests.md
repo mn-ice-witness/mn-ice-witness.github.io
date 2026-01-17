@@ -17,7 +17,7 @@ last_updated: 2026-01-14
 DHS issued a press release highlighting 13 individuals arrested in Minneapolis, claiming all had serious criminal histories including sexual assault, drug trafficking, and violent crimes. This was part of their daily "worst of the worst" communications strategy.
 
 ## Sources
-1. [DHS Press Release](https://www.dhs.gov/news/2026/01/08/dhs-highlights-worst-worst-criminal-illegal-aliens-including-rapists-pedophiles-and) - DHS.gov
+1. DHS (Jan 9, 2026): [DHS Press Release](https://www.dhs.gov/news/2026/01/08/dhs-highlights-worst-worst-criminal-illegal-aliens-including-rapists-pedophiles-and)
 
 ## Official Statement
 

@@ -18,17 +18,17 @@ notable: true
 Four days after ICE detained four Oglala Sioux tribal members from a Minneapolis homeless encampment, three remain in custody at Fort Snelling. Tribal President Frank Star Comes Out issued a formal memorandum to DHS Secretary Kristi Noem and Interior Secretary Doug Burgum demanding immediate release, calling the detention "a treaty violation" and stating "tribal citizens are not aliens" and are "categorically outside immigration jurisdiction." DHS refused to provide information unless tribe enters immigration agreement with ICE.
 
 ## Sources
-1. [Oglala Sioux tribe says tribal members arrested in Minneapolis ICE raids still being detained](https://abcnews.go.com/US/wireStory/oglala-sioux-tribe-tribal-members-arrested-minneapolis-ice-129186393) - ABC News / AP
-2. [Oglala Sioux Tribe says three tribal members arrested in Minneapolis are in ICE detention](https://www.cnn.com/2026/01/14/us/oglala-sioux-tribe-minneapolis-immigration-enforcement) - CNN
-3. [South Dakota Tribe Oglala Sioux demands release of Lakota men in Minneapolis detained by ICE](https://www.mprnews.org/story/2026/01/13/south-dakota-tribe-oglala-sioux-demands-release-of-lakota-men-in-minneapolis-detained-by-ice) - MPR News
-4. [Four Oglala detainees located, three still in ICE custody](https://ictnews.org/news/north-central-bureau/four-oglala-detainees-located-three-still-in-ice-custody/) - Indian Country Today
-5. [Oglala Sioux Tribe says ICE illegally holding tribal members from Minneapolis raids](https://www.axios.com/2026/01/13/oglala-sioux-tribe-ice-holding-tribal-members) - Axios
-6. ["A treaty violation": Oglala Sioux president demands release of tribal members detained by ICE](https://www.salon.com/2026/01/14/a-treaty-violation-oglala-sioux-president-demands-release-of-tribal-members-detained-by-ice/) - Salon
-7. [ICE Detains and Holds Four Native Americans, Tribal Leader Says](https://www.newsweek.com/ice-detains-native-americans-minnesota-minneapolis-oglala-sioux-11339071) - Newsweek
-8. [4 members of Oglala Sioux Tribe detained by ICE in Minneapolis, president says](https://www.cbsnews.com/minnesota/news/oglala-sioux-tribe-members-detained-ice-minneapolis/) - CBS Minnesota
-9. [Oglala Sioux Tribe says three tribal members arrested in Minneapolis are in ICE detention](https://www.washingtonpost.com/national/2026/01/13/ice-minneapolis-tribal-citizens-immigration-detention/dc60a0be-f0e4-11f0-a4dc-effc74cb25af_story.html) - Washington Post
-10. [Oglala Sioux Tribe says three tribal members arrested in Minneapolis are in ICE detention](https://www.bostonglobe.com/2026/01/14/nation/minneapolis-oglala-tribe-members-arrested-ice/) - Boston Globe
-11. [Tribal leaders respond to reports of tribal members detained by ICE](https://www.sdpb.org/politics/2026-01-09/oglala-tribal-leaders-respond-to-reports-of-tribal-members-detained-by-ice) - South Dakota Public Broadcasting
+1. ABC News (Jan 14, 2026): [Oglala Sioux tribe says tribal members arrested in Minneapolis ICE raids still being detained](https://abcnews.go.com/US/wireStory/oglala-sioux-tribe-tribal-members-arrested-minneapolis-ice-129186393)
+2. CNN (Jan 14, 2026): [Oglala Sioux Tribe says three tribal members arrested in Minneapolis are in ICE detention](https://www.cnn.com/2026/01/14/us/oglala-sioux-tribe-minneapolis-immigration-enforcement)
+3. MPR News (Jan 13, 2026): [South Dakota Tribe Oglala Sioux demands release of Lakota men in Minneapolis detained by ICE](https://www.mprnews.org/story/2026/01/13/south-dakota-tribe-oglala-sioux-demands-release-of-lakota-men-in-minneapolis-detained-by-ice)
+4. ICT News (Jan 14, 2026): [Four Oglala detainees located, three still in ICE custody](https://ictnews.org/news/north-central-bureau/four-oglala-detainees-located-three-still-in-ice-custody/)
+5. Axios (Jan 13, 2026): [Oglala Sioux Tribe says ICE illegally holding tribal members from Minneapolis raids](https://www.axios.com/2026/01/13/oglala-sioux-tribe-ice-holding-tribal-members)
+6. Salon (Jan 14, 2026): ["A treaty violation": Oglala Sioux president demands release of tribal members detained by ICE](https://www.salon.com/2026/01/14/a-treaty-violation-oglala-sioux-president-demands-release-of-tribal-members-detained-by-ice/)
+7. Newsweek (Jan 14, 2026): [ICE Detains and Holds Four Native Americans, Tribal Leader Says](https://www.newsweek.com/ice-detains-native-americans-minnesota-minneapolis-oglala-sioux-11339071)
+8. CBS Minnesota (Jan 14, 2026): [4 members of Oglala Sioux Tribe detained by ICE in Minneapolis, president says](https://www.cbsnews.com/minnesota/news/oglala-sioux-tribe-members-detained-ice-minneapolis/)
+9. Washington Post (Jan 13, 2026): [Oglala Sioux Tribe says three tribal members arrested in Minneapolis are in ICE detention](https://www.washingtonpost.com/national/2026/01/13/ice-minneapolis-tribal-citizens-immigration-detention/dc60a0be-f0e4-11f0-a4dc-effc74cb25af_story.html)
+10. Boston Globe (Jan 14, 2026): [Oglala Sioux Tribe says three tribal members arrested in Minneapolis are in ICE detention](https://www.bostonglobe.com/2026/01/14/nation/minneapolis-oglala-tribe-members-arrested-ice/)
+11. SDPB (Jan 9, 2026): [Tribal leaders respond to reports of tribal members detained by ICE](https://www.sdpb.org/politics/2026-01-09/oglala-tribal-leaders-respond-to-reports-of-tribal-members-detained-by-ice)
 
 ## Victim(s)
 - **Number:** Four detained on Jan 10; three still held as of Jan 14

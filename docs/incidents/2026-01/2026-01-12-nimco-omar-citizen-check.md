@@ -17,14 +17,14 @@ last_updated: 2026-01-14
 Nimco Omar, a U.S. citizen and Somali American, was surrounded by four masked federal agents who demanded her identification during what they called a "citizen check" while she was walking near 24 Somali Mall in Minneapolis. Omar refused to show ID, asserting her constitutional rights. After repeatedly asking "Where were you born?" and photographing her without permission, the agents eventually walked away.
 
 ## Sources
-1. [Minneapolis woman calmly resists ICE demand for ID, birth country](https://www.fox9.com/news/minneapolis-woman-calmly-resists-ice-demand-id-birth-country) - FOX 9
-2. ['Where Were You Born?': ICE Demanding Citizens Show Their Papers in Minneapolis](https://www.commondreams.org/news/ice-citizen-checks-minneapolis) - Common Dreams
-3. ['Where were you born?' ICE conducting show-me-your-papers stops in Minnesota neighborhoods](https://therealnews.com/ice-show-me-your-papers-stops-in-minnesota-neighborhoods) - The Real News
-4. [Woman Stands Firm Against Border Patrol Agent's Demand for ID in Minneapolis](https://www.yahoo.com/news/videos/woman-stands-firm-against-border-002529662.html) - Yahoo News/Storyful
-- **Video:** [Original Instagram video posted by Nimco Omar](https://www.instagram.com/reel/DTb0H8iAQTe/) - Instagram
-- **Video:** [FOX 9 coverage on X](https://x.com/FOX9/status/2010898391388000482) - FOX 9 / X
-- **Video:** [Facebook reel of encounter](https://www.facebook.com/reel/853406107488988) - Facebook
-- **Video:** [NBC News coverage](https://www.youtube.com/watch?v=Rsy6FDbOa3U&t=92) - NBC News / YouTube
+1. NBC Video (Jan 12, 2026): [NBC News coverage](https://www.youtube.com/watch?v=Rsy6FDbOa3U&t=92)
+2. Instagram Video (Jan 12, 2026): [Original video posted by Nimco Omar](https://www.instagram.com/reel/DTb0H8iAQTe/)
+3. X Video (Jan 12, 2026): [FOX 9 coverage on X](https://x.com/FOX9/status/2010898391388000482)
+4. Facebook Video (Jan 12, 2026): [Facebook reel of encounter](https://www.facebook.com/reel/853406107488988)
+5. FOX 9 (Jan 12, 2026): [Minneapolis woman calmly resists ICE demand for ID, birth country](https://www.fox9.com/news/minneapolis-woman-calmly-resists-ice-demand-id-birth-country)
+6. Common Dreams (Jan 12, 2026): ['Where Were You Born?': ICE Demanding Citizens Show Their Papers in Minneapolis](https://www.commondreams.org/news/ice-citizen-checks-minneapolis)
+7. The Real News (Jan 12, 2026): ['Where were you born?' ICE conducting show-me-your-papers stops in Minnesota neighborhoods](https://therealnews.com/ice-show-me-your-papers-stops-in-minnesota-neighborhoods)
+8. Yahoo News (Jan 12, 2026): [Woman Stands Firm Against Border Patrol Agent's Demand for ID in Minneapolis](https://www.yahoo.com/news/videos/woman-stands-firm-against-border-002529662.html)
 
 ## Victim(s)
 - **Name:** Nimco Omar

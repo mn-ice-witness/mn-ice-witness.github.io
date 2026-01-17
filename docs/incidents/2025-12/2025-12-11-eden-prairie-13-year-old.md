@@ -18,8 +18,8 @@ notable: true
 ICE agents detained Gomez outside an Eden Prairie apartment complex while his 13-year-old son Jose was handcuffed, allegedly thrown to the ground, and struck by officers. Jose was later released but experienced medical complications including abnormal heartbeat that required hospitalization at St. Francis Hospital.
 
 ## Sources
-1. [ICE detains Eden Prairie man; Chanhassen standoff follows](https://www.eplocalnews.org/2025/12/19/ice-detains-eden-prairie-man-chanhassen-standoff-follows/) - Eden Prairie Local News
-2. [Community members raise concerns about ICE activity and school safety](https://www.eplocalnews.org/2025/12/10/community-members-raise-concerns-about-ice-activity-and-school-safety/) - Eden Prairie Local News
+1. EP Local News (Dec 10, 2025): [Community members raise concerns about ICE activity and school safety](https://www.eplocalnews.org/2025/12/10/community-members-raise-concerns-about-ice-activity-and-school-safety/)
+2. EP Local News (Dec 19, 2025): [ICE detains Eden Prairie man; Chanhassen standoff follows](https://www.eplocalnews.org/2025/12/19/ice-detains-eden-prairie-man-chanhassen-standoff-follows/)
 
 ## Victim(s)
 

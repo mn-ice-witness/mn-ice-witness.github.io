@@ -17,17 +17,14 @@ last_updated: 2026-01-13
 At a Speedway gas station, federal agents smashed a man's car window to arrest him after he refused to show citizenship documents. A bystander filming the arrest was told to back up, complied, but was then shoved, tackled, and detained by agents. Border Patrol Commander Gregory Bovino was present at the scene.
 
 ## Sources
-1. [Fox 9](https://www.fox9.com/news/video-shows-federal-agents-making-detainment-st-paul-gas-station)
-2. [Twin Cities Pioneer Press](https://www.twincities.com/2026/01/12/st-paul-ice-activity/)
-3. [CNN](https://www.cnn.com/2026/01/13/us/video/border-patrol-agents-tackle-anti-ice-protester-digvid)
-- **Video:** [FOX 9 footage](https://www.fox9.com/news/video-shows-federal-agents-making-detainment-st-paul-gas-station) - Shows agent telling bystander to back up, bystander complying, then being tackled
-- **Video:** [FOX 9 reel on Facebook](https://www.facebook.com/reel/1811249439582125) - Full arrest footage
-- **Video:** [BlueSky video](https://bsky.app/profile/snacksonsnackz.bsky.social/post/3mc6jrbhda226) - Another angle of bystander arrest, man insisting "I'm not resisting"
-- **Video:** [CNN coverage](https://www.cnn.com/2026/01/13/us/video/border-patrol-agents-tackle-anti-ice-protester-digvid) - Shows tackle from different angle
-- **Video:** [Bring Me The News compilation](https://bringmethenews.com/minnesota-news/videos-show-number-of-aggressive-ice-operations-in-twin-cities-on-sunday) - Multiple angles, Ford Fischer footage
-- **Video:** [Mediaite coverage](https://www.mediaite.com/media/tv/fox-news-airs-footage-of-man-mauled-by-feds-at-gas-station-as-graphic-says-ice-agents-are-doing-their-jobs/) - Fox News airs footage
-- **Photo:** Getty Images photographer Scott Olson documented window smashing
-- **Official Statement:** [DHS X Post](https://x.com/DHSgov/status/2010802240517521519) - Claims citizen hit officer (contradicted by video)
+1. Facebook Video (Jan 11, 2026): [Full arrest footage](https://www.facebook.com/reel/1811249439582125)
+2. BlueSky Video (Jan 11, 2026): [Another angle of bystander arrest](https://bsky.app/profile/snacksonsnackz.bsky.social/post/3mc6jrbhda226)
+3. FOX 9 Video (Jan 12, 2026): [Video shows bystander tackled after complying](https://www.fox9.com/news/video-shows-federal-agents-making-detainment-st-paul-gas-station)
+4. Bring Me The News Video (Jan 12, 2026): [Multiple angles compilation](https://bringmethenews.com/minnesota-news/videos-show-number-of-aggressive-ice-operations-in-twin-cities-on-sunday)
+5. X Video (Jan 12, 2026): [DHS statement on bystander arrest](https://x.com/DHSgov/status/2010802240517521519)
+6. Twin Cities (Jan 12, 2026): [St. Paul ICE activity](https://www.twincities.com/2026/01/12/st-paul-ice-activity/)
+7. CNN Video (Jan 13, 2026): [Tackle from different angle](https://www.cnn.com/2026/01/13/us/video/border-patrol-agents-tackle-anti-ice-protester-digvid)
+8. Mediaite Video (Jan 13, 2026): [Fox News airs footage](https://www.mediaite.com/media/tv/fox-news-airs-footage-of-man-mauled-by-feds-at-gas-station-as-graphic-says-ice-agents-are-doing-their-jobs/)
 
 ## Victim(s)
 

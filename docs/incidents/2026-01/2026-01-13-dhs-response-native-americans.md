@@ -17,9 +17,9 @@ last_updated: 2026-01-14
 After four Oglala Sioux Tribe members (U.S. citizens) were detained near Little Earth, DHS refused to provide information unless the tribe entered into an ICE cooperation agreement. The tribe declined, citing treaty violations. ICE and DHS did not respond to media requests for comment.
 
 ## Sources
-1. [Axios](https://www.axios.com/2026/01/13/oglala-sioux-tribe-ice-holding-tribal-members) - Axios
-2. [Newsweek](https://www.newsweek.com/ice-detains-native-americans-minnesota-minneapolis-oglala-sioux-11339071) - Newsweek
-3. [ICT - Indian Country Today](https://ictnews.org/news/north-central-bureau/four-oglala-detainees-located-three-still-in-ice-custody/) - ICT
+1. Axios (Jan 13, 2026): [Oglala Sioux Tribe says ICE illegally holding tribal members from Minneapolis raids](https://www.axios.com/2026/01/13/oglala-sioux-tribe-ice-holding-tribal-members)
+2. Newsweek (Jan 13, 2026): [ICE Detains and Holds Four Native Americans, Tribal Leader Says](https://www.newsweek.com/ice-detains-native-americans-minnesota-minneapolis-oglala-sioux-11339071)
+3. ICT News (Jan 13, 2026): [Four Oglala detainees located, three still in ICE custody](https://ictnews.org/news/north-central-bureau/four-oglala-detainees-located-three-still-in-ice-custody/)
 
 ## Related Incident
 See full incident details: [Four Homeless Oglala Sioux Citizens Detained Near Little Earth](#2026-01-08-little-earth-native-americans)

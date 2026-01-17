@@ -18,18 +18,18 @@ notable: true
 Federal agents descended on Roosevelt High School during dismissal, tackled several people, and deployed chemical irritants. A special education assistant who is a U.S. citizen was detained and later released. Minneapolis Public Schools canceled classes for the rest of the week.
 
 ## Sources
-1. [What happened at Roosevelt High School](https://www.startribune.com/what-happened-when-border-patrol-agents-showed-up-at-minneapolis-roosevelt-high-school/601561137) - Star Tribune
-2. [Border Patrol detains Roosevelt High staffer](https://sahanjournal.com/education/border-patrol-detains-minneapolis-roosevelt-high-staffer/) - Sahan Journal
-3. [Witnesses say agents arrest staff, tear gas students](https://www.kare11.com/article/news/local/ice-agents-flood-into-roosevelt-high-school-in-minneapolis/89-e0d004b0-bb3d-41b7-949c-e4867f97f7c9) - KARE 11
-4. [Feds descend on Roosevelt High School](https://www.cbsnews.com/minnesota/news/roosevelt-high-school-federal-clash-mps-cancels-classes/) - CBS Minnesota
-- **Video:** [Shocking footage of school raid](https://www.commondreams.org/news/border-patrol-minneapolis-school) - Common Dreams
-- **Video:** [KARE 11 footage of scuffle](https://kstp.com/kstp-news/top-news/apparent-ice-presence-at-roosevelt-high-school-causes-chaotic-scene/) - Shows agent pushing student
-- **Video:** [CBS Minnesota coverage](https://www.cbsnews.com/minnesota/news/roosevelt-high-school-federal-clash-mps-cancels-classes/) - Chaotic scenes
-- **Video:** [Daniel's footage](https://www.mprnews.org/story/2026/01/08/after-border-patrol-clash-at-roosevelt-minneapolis-schools-cancel-classes) - Snowball thrown, agent responds with chemical irritant
-- **Video:** [Residents cursing at Border Patrol](https://www.nbcnews.com/news/us-news/minneapolis-schools-cancel-classes-ice-raid-high-school-day-renee-nico-rcna253081) - Local resident footage
-- **Video:** [Roosevelt High School official speaks](https://www.reddit.com/r/altmpls/comments/1q741a1/an_official_from_roosevelt_high_school_in/) - Reddit r/altmpls
-- **Video:** [Roosevelt incident footage](https://www.youtube.com/watch?v=CwhoLYREvYw) - YouTube
-- **Video:** [Roosevelt incident footage](https://www.youtube.com/shorts/v17loDNkAnQ) - KARE11
+1. Common Dreams Video (Jan 8, 2026): [Shocking footage of school raid](https://www.commondreams.org/news/border-patrol-minneapolis-school)
+2. KSTP Video (Jan 8, 2026): [KARE 11 footage of scuffle](https://kstp.com/kstp-news/top-news/apparent-ice-presence-at-roosevelt-high-school-causes-chaotic-scene/)
+3. CBS Minnesota Video (Jan 8, 2026): [CBS Minnesota coverage](https://www.cbsnews.com/minnesota/news/roosevelt-high-school-federal-clash-mps-cancels-classes/)
+4. MPR News Video (Jan 8, 2026): [Daniel's footage](https://www.mprnews.org/story/2026/01/08/after-border-patrol-clash-at-roosevelt-minneapolis-schools-cancel-classes)
+5. NBC News Video (Jan 8, 2026): [Residents cursing at Border Patrol](https://www.nbcnews.com/news/us-news/minneapolis-schools-cancel-classes-ice-raid-high-school-day-renee-nico-rcna253081)
+6. Reddit Video (Jan 8, 2026): [Roosevelt High School official speaks](https://www.reddit.com/r/altmpls/comments/1q741a1/an_official_from_roosevelt_high_school_in/)
+7. YouTube Video (Jan 8, 2026): [Roosevelt incident footage](https://www.youtube.com/watch?v=CwhoLYREvYw)
+8. YouTube Video (Jan 8, 2026): [Roosevelt incident footage](https://www.youtube.com/shorts/v17loDNkAnQ)
+9. Star Tribune (Jan 8, 2026): [What happened at Roosevelt High School](https://www.startribune.com/what-happened-when-border-patrol-agents-showed-up-at-minneapolis-roosevelt-high-school/601561137)
+10. Sahan Journal (Jan 8, 2026): [Border Patrol detains Roosevelt High staffer](https://sahanjournal.com/education/border-patrol-detains-minneapolis-roosevelt-high-staffer/)
+11. KARE 11 (Jan 8, 2026): [Witnesses say agents arrest staff, tear gas students](https://www.kare11.com/article/news/local/ice-agents-flood-into-roosevelt-high-school-in-minneapolis/89-e0d004b0-bb3d-41b7-949c-e4867f97f7c9)
+12. CBS Minnesota (Jan 8, 2026): [Feds descend on Roosevelt High School](https://www.cbsnews.com/minnesota/news/roosevelt-high-school-federal-clash-mps-cancels-classes/)
 
 ## Victim(s)
 - **Name:** Not publicly disclosed

@@ -17,9 +17,9 @@ last_updated: 2026-01-14
 DHS issued a statement demanding Governor Tim Walz and Minneapolis Mayor Jacob Frey honor ICE arrest detainers for "more than 1,360 criminal illegal aliens" in state custody. DHS claimed Walz has "released nearly 470 criminal illegal aliens back onto the streets" since President Trump took office. The Walz administration disputed these numbers, stating only 207 people are on ICE detainers in the Minnesota prison system.
 
 ## Sources
-1. [DHS Calls on Governor Walz and Mayor Frey to Honor ICE Arrest Detainers](https://www.dhs.gov/news/2026/01/13/dhs-calls-governor-walz-and-mayor-frey-honor-ice-arrest-detainers-more-1360) - DHS Official
-2. [DHS demands MN leaders honor ICE detainers](https://www.foxnews.com/politics/dhs-demands-mn-leaders-honor-ice-detainers-alleges-hundreds-criminal-aliens-have-been-released-under-walz) - Fox News
-3. [DHS demands Minnesota honor ICE detainers for 1,360 People](https://www.valleynewslive.com/2026/01/13/dhs-demands-minnesota-honor-ice-detainers-1360-people-cites-criminal-cases/) - Valley News Live
+1. DHS (Jan 13, 2026): [DHS Calls on Governor Walz and Mayor Frey to Honor ICE Arrest Detainers](https://www.dhs.gov/news/2026/01/13/dhs-calls-governor-walz-and-mayor-frey-honor-ice-arrest-detainers-more-1360)
+2. Fox News (Jan 13, 2026): [DHS demands MN leaders honor ICE detainers](https://www.foxnews.com/politics/dhs-demands-mn-leaders-honor-ice-detainers-alleges-hundreds-criminal-aliens-have-been-released-under-walz)
+3. Valley News Live (Jan 13, 2026): [DHS demands Minnesota honor ICE detainers for 1,360 People](https://www.valleynewslive.com/2026/01/13/dhs-demands-minnesota-honor-ice-detainers-1360-people-cites-criminal-cases/)
 
 ## Official Statements
 

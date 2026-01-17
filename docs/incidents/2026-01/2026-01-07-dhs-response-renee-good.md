@@ -17,10 +17,10 @@ last_updated: 2026-01-14
 Hours after ICE agent Jonathan Ross shot and killed Renee Good, DHS Secretary Kristi Noem and spokesperson Tricia McLaughlin claimed Good "weaponized her vehicle" in an attempt to run over officers, calling it "an act of domestic terrorism." Multiple independent video analyses have questioned these claims.
 
 ## Sources
-1. [NBC News - Contrasting accounts](https://www.nbcnews.com/news/us-news/federal-law-enforcement-involved-ice-related-shooting-minneapolis-rcna252812) - NBC News
-2. [CNN Live Updates](https://www.cnn.com/us/live-news/minneapolis-ice-shooting-immigration-crackdown-01-09-26) - CNN
-3. [CBC Video Analysis](https://www.cbc.ca/news/world/ice-agent-shooting-video-minnesota-renee-good-9.7040480) - CBC News
-4. [Fox News Report](https://www.foxnews.com/us/renee-nicole-good-part-ice-watch-group-dhs-sources-say) - Fox News
+1. NBC News (Jan 8, 2026): [Contrasting accounts](https://www.nbcnews.com/news/us-news/federal-law-enforcement-involved-ice-related-shooting-minneapolis-rcna252812)
+2. CNN (Jan 8, 2026): [Live Updates](https://www.cnn.com/us/live-news/minneapolis-ice-shooting-immigration-crackdown-01-09-26)
+3. CBC Video (Jan 8, 2026): [Video Analysis](https://www.cbc.ca/news/world/ice-agent-shooting-video-minnesota-renee-good-9.7040480)
+4. Fox News (Jan 8, 2026): [Report](https://www.foxnews.com/us/renee-nicole-good-part-ice-watch-group-dhs-sources-say)
 
 ## Related Incident
 See full incident details: [Renee Nicole Good Shot and Killed by ICE Agent](#2026-01-07-renee-good-shooting)

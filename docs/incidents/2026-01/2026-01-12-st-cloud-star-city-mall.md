@@ -17,11 +17,10 @@ last_updated: 2026-01-14
 More than 50 ICE agents descended on Star City Mall, a strip mall with numerous Somali-owned businesses, to arrest one man leaving a deli. Hundreds of protesters gathered and blocked ICE vehicles, leading to a tense standoff. Agents deployed chemical irritants on the crowd. Three total arrests: one ICE target, two protesters. The incident came two days after Somali business owners at the same location successfully shouted ICE agents into leaving.
 
 ## Sources
-1. [Hundreds clash with ICE outside Somali mall in St. Cloud](https://www.startribune.com/ice-agents-st-cloud-clash-somali-mall/601562732) - Star Tribune
-2. [2 arrested in St. Cloud during protest against immigration operation Somali business area](https://www.cbsnews.com/minnesota/news/st-cloud-ice-operation-protest-arrests/) - CBS Minnesota
-3. [Small crowd confronts federal agents in St. Cloud, Minnesota](https://www.cnn.com/2026/01/11/politics/video/crowd-confronts-agents-vrtc-digvid) - CNN
-4. [ICE Agents Descend on St. Cloud Somali Business District](https://knsiradio.com/2026/01/12/797974/) - KNSI Radio
-- **Video:** XIDIG TV live stream, multiple social media videos
+1. Star Tribune (Jan 12, 2026): [Hundreds clash with ICE outside Somali mall in St. Cloud](https://www.startribune.com/ice-agents-st-cloud-clash-somali-mall/601562732)
+2. CBS Minnesota (Jan 12, 2026): [2 arrested in St. Cloud during protest against immigration operation Somali business area](https://www.cbsnews.com/minnesota/news/st-cloud-ice-operation-protest-arrests/)
+3. CNN (Jan 11, 2026): [Small crowd confronts federal agents in St. Cloud, Minnesota](https://www.cnn.com/2026/01/11/politics/video/crowd-confronts-agents-vrtc-digvid)
+4. KNSI Radio (Jan 12, 2026): [ICE Agents Descend on St. Cloud Somali Business District](https://knsiradio.com/2026/01/12/797974/)
 
 ## What Happened
 

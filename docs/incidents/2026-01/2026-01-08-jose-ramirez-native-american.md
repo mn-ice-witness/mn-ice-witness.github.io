@@ -18,9 +18,9 @@ notable: true
 Jose Roberto "Beto" Ramirez, 20, U.S. citizen and Red Lake Nation descendant, was punched and detained by ICE while driving to visit his aunt. Told he "wasn't from here." Released after family brought passport/birth certificate.
 
 ## Sources
-1. [Star Tribune](https://www.startribune.com/us-citizen-arrested-ice-day-after-fatal-shooting-renee-good-twin-cities-immigration-operation/601560460)
-2. [ICT - Indian Country Today](https://ictnews.org/news/i-felt-like-i-was-kidnapped-ojibwe-man-recounts-ice-detainment/)
-3. [Native News Online](https://nativenewsonline.net/currents/red-lake-man-kidnapped-by-ice)
+1. Star Tribune (Jan 9, 2026): [U.S. citizen arrested by ICE in Twin Cities immigration operation](https://www.startribune.com/us-citizen-arrested-ice-day-after-fatal-shooting-renee-good-twin-cities-immigration-operation/601560460)
+2. ICT News (Jan 9, 2026): ['I felt like I was kidnapped': Ojibwe man recounts ICE detainment](https://ictnews.org/news/i-felt-like-i-was-kidnapped-ojibwe-man-recounts-ice-detainment/)
+3. Native News Online (Jan 9, 2026): [Red Lake man kidnapped by ICE](https://nativenewsonline.net/currents/red-lake-man-kidnapped-by-ice)
 
 ## Victim(s)
 - **Name:** Jose Roberto "Beto" Ramirez

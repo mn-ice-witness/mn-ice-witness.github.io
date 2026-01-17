@@ -17,7 +17,7 @@ last_updated: 2026-01-13
 Musicians and concert attendees were pepper-sprayed and hit with batons by ICE agents outside Pilllar Forum, an all-ages rock venue in Northeast Minneapolis. The incident forced cancellation of that night's show, with proceeds intended to benefit families affected by ICE detainments.
 
 ## Sources
-1. [Music fans say ICE agents pepper-sprayed them outside all-ages Minneapolis rock venue](https://www.startribune.com/fans-scuffle-ice-agents-minneapolis-all-ages-venue-pilllar-forum-northeast-central-pepper-spray/601562747) - Star Tribune
+1. Star Tribune (Jan 12, 2026): [Music fans say ICE agents pepper-sprayed them outside all-ages Minneapolis rock venue](https://www.startribune.com/fans-scuffle-ice-agents-minneapolis-all-ages-venue-pilllar-forum-northeast-central-pepper-spray/601562747)
 
 ## Victim(s)
 - **Names:** Multiple unnamed musicians and concert-goers

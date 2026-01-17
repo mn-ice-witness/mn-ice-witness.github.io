@@ -7,7 +7,7 @@ type: immigrants
 status: ongoing
 victim_citizenship: legal-status
 injuries: none
-trustworthiness: medium-high
+trustworthiness: medium
 last_updated: 2026-01-14
 ---
 
@@ -17,7 +17,7 @@ last_updated: 2026-01-14
 Jose, a Salvadoran immigrant with legal withholding-of-removal protection status (a form of legal protection meant to prevent deportation), was detained by federal agents during lunch at Lomabonita restaurant on St. Paul's East Side. Agents abandoned his vehicle with construction tools on Margaret Street and White Bear Avenue.
 
 ## Sources
-1. [ICE Agents Alter Tactics, Work With Impunity While Violating US Citizen's Rights in Minnesota](https://unicornriot.ninja/2026/ice-agents-alter-tactics-work-with-impunity-while-violating-us-citizens-rights-in-minnesota/) - Unicorn Riot
+1. Unicorn Riot (Jan 7, 2026): [ICE Agents Alter Tactics, Work With Impunity While Violating US Citizen's Rights in Minnesota](https://unicornriot.ninja/2026/ice-agents-alter-tactics-work-with-impunity-while-violating-us-citizens-rights-in-minnesota/)
 
 ## Victim(s)
 - **Name:** Jose (last name withheld for safety)
@@ -36,4 +36,4 @@ Jose had "withholding of removal" protection, a legal status that is supposed to
 The abandonment of Jose's vehicle with his construction tools inside is part of a pattern documented by Unicorn Riot, where ICE agents leave detainees' vehicles without calling responders or making arrangements for the property.
 
 ## Editorial Assessment
-**MEDIUM-HIGH** - Single source (Unicorn Riot) but detailed account. The legal status claim (withholding of removal) is significant and verifiable through court records. Demonstrates pattern of detaining people with legal protections.
+**MEDIUM** - Single source (Unicorn Riot) but detailed account. The legal status claim (withholding of removal) is significant and verifiable through court records. Demonstrates pattern of detaining people with legal protections.

@@ -17,9 +17,9 @@ last_updated: 2026-01-13
 Abdulkadir Sharif Abdi, 47, a Somali refugee who works as an addiction recovery leader helping others find sobriety, was detained during Operation Metro Surge. ICE labeled him a "gang member" despite the fact that he won his freedom in 2018 after a judge noted he had "worked to turn his life around" since 2007.
 
 ## Sources
-1. [Somali refugee who works as addiction recovery leader detained by ICE](https://www.cbsnews.com/minnesota/news/abdulkadir-sharif-abdi-ice-arrest-minnesota/) - CBS Minnesota
-2. [The Week in ICE: Addiction Recovery Leader Detained](https://racketmn.com/the-week-in-ice-addiction-recovery-leader-detained-child-left-without-parents-citizen-mocked-for-hijab) - Racket
-3. [After fighting deportation in 2018, Somali refugee detained again](https://www.kare11.com/article/news/local/after-fighting-deportation-2018-somali-refugee-detained-again-in-ices-latest-twin-cities-operation/89-26c8050d-602f-4361-9048-e730f1ae6d5e) - KARE 11
+1. CBS News (Dec 5, 2025): [Somali refugee who works as addiction recovery leader detained by ICE](https://www.cbsnews.com/minnesota/news/abdulkadir-sharif-abdi-ice-arrest-minnesota/)
+2. KARE 11 (Dec 5, 2025): [After fighting deportation in 2018, Somali refugee detained again](https://www.kare11.com/article/news/local/after-fighting-deportation-2018-somali-refugee-detained-again-in-ices-latest-twin-cities-operation/89-26c8050d-602f-4361-9048-e730f1ae6d5e)
+3. Racket MN (Dec 6, 2025): [The Week in ICE: Addiction Recovery Leader Detained](https://racketmn.com/the-week-in-ice-addiction-recovery-leader-detained-child-left-without-parents-citizen-mocked-for-hijab)
 
 ## Victim(s)
 - **Name:** Abdulkadir Sharif Abdi

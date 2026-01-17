@@ -17,10 +17,10 @@ last_updated: 2026-01-14
 ICE conducted enforcement operations across Rochester on January 8-9, 2026, with at least 5 confirmed arrests (27 total arrests in Rochester according to DHS). Activists witnessed concerning tactics including an agent using a hammer to try to open a car window during a warrantless detention. Mayor Kim Norton said the city did not ask for or want ICE presence.
 
 ## Sources
-1. [Federal immigration agents conduct arrests in Rochester](https://www.kttc.com/2026/01/09/federal-immigration-agents-conduct-arrests-rochester/) - KTTC
-2. [30 detained by ICE in SE Minnesota, NE Iowa according to 'worst of the worst' webpage](https://www.kttc.com/2026/01/12/30-detained-by-ice-se-minnesota-ne-iowa-according-worst-worst-webpage/) - KTTC
-3. [Increased ICE presence being reported in Rochester](https://www.postbulletin.com/news/local/increased-ice-presence-being-reported-in-rochester) - Post Bulletin
-4. [ICE agents arrest man outside of KIMT News 3 studios](https://www.kimt.com/news/ice-agents-arrest-man-outside-of-kimt-news-3-studios/) - KIMT
+1. KTTC (Jan 9, 2026): [Federal immigration agents conduct arrests in Rochester](https://www.kttc.com/2026/01/09/federal-immigration-agents-conduct-arrests-rochester/)
+2. KTTC (Jan 9, 2026): [30 detained by ICE in SE Minnesota, NE Iowa according to 'worst of the worst' webpage](https://www.kttc.com/2026/01/12/30-detained-by-ice-se-minnesota-ne-iowa-according-worst-worst-webpage/)
+3. Post Bulletin (Jan 9, 2026): [Increased ICE presence being reported in Rochester](https://www.postbulletin.com/news/local/increased-ice-presence-being-reported-in-rochester)
+4. KIMT (Jan 9, 2026): [ICE agents arrest man outside of KIMT News 3 studios](https://www.kimt.com/news/ice-agents-arrest-man-outside-of-kimt-news-3-studios/)
 
 ## Number of Arrests
 - **COPAL MN-Rochester confirmed:** 5 arrests as of 3 p.m. on January 8th

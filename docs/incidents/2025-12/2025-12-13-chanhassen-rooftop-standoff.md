@@ -7,7 +7,7 @@ type: immigrants
 status: resolved-detained
 victim_citizenship: unknown
 injuries: none
-trustworthiness: high
+trustworthiness: medium
 last_updated: 2026-01-14
 ---
 
@@ -17,7 +17,7 @@ last_updated: 2026-01-14
 Two construction workers, Edgar and Marco Chicaiza Dutan, took refuge on a roof at a Chanhassen construction site as ICE agents surrounded them. The standoff lasted several hours in cold weather. State Rep. Alex Falconer reported that agents lacked a judicial warrant and "didn't know who they were trying to find." Community members were denied permission to provide blankets or assistance.
 
 ## Sources
-1. [ICE detains Eden Prairie man; Chanhassen standoff follows](https://www.eplocalnews.org/2025/12/19/ice-detains-eden-prairie-man-chanhassen-standoff-follows/) - Eden Prairie Local News
+1. EP Local News (Dec 19, 2025): [ICE detains Eden Prairie man; Chanhassen standoff follows](https://www.eplocalnews.org/2025/12/19/ice-detains-eden-prairie-man-chanhassen-standoff-follows/)
 
 ## Victim(s)
 - **Names:** Edgar and Marco Chicaiza Dutan
@@ -44,4 +44,4 @@ The standoff lasted several hours in cold December weather. Community members wh
 This standoff followed the Eden Prairie detention of Gomez on December 11, 2025, where his 13-year-old son was handcuffed.
 
 ## Editorial Assessment
-**MEDIUM-HIGH** - Local news coverage with state representative on record confirming no judicial warrant. The denial of humanitarian assistance (blankets in cold weather) and lack of warrant are significant civil rights concerns.
+**MEDIUM** - Local news coverage with state representative on record confirming no judicial warrant. The denial of humanitarian assistance (blankets in cold weather) and lack of warrant are significant civil rights concerns.

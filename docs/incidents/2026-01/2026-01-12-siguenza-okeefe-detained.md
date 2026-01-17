@@ -18,12 +18,11 @@ notable: true
 Brandon Sigüenza (32) and Patty O'Keefe (36), both U.S. citizens monitoring ICE, were detained 8 hours without charges. Agents pepper-sprayed their car, smashed windows, interrogated them about protest organizers, and offered deals for names.
 
 ## Sources
-1. [Eight hours inside ICE custody at the Whipple Building](https://sahanjournal.com/immigration/ice-citizen-observer-detainment-minnesota-whipple-building/) - Sahan Journal
-2. [Terror in Minneapolis: The Ordeal of Brandon Sigüenza](https://www.cato.org/blog/terror-minneapolis-ordeal-brandon-siquenza) - Cato Institute
-3. [Minnesotans describe their encounters with ICE agents](https://www.mprnews.org/episode/2026/01/13/minnesotans-describe-their-encounters-with-ice-agents) - MPR News
-- **Video:** [Brandon Sigüenza full interview](https://www.youtube.com/watch?v=Inn-sfiMcyE) - KARE11
-- **Photos:** Images from Sahan Journal of detention at Whipple Building
-- **Video:** [8 hours inside ICE custody documentary](https://sahanjournal.com/immigration/ice-citizen-observer-detainment-minnesota-whipple-building/) - Sahan Journal
+1. KARE 11 Video (Jan 13, 2026): [Brandon Sigüenza full interview](https://www.youtube.com/watch?v=Inn-sfiMcyE)
+2. Sahan Journal Video (Jan 13, 2026): [8 hours inside ICE custody documentary](https://sahanjournal.com/immigration/ice-citizen-observer-detainment-minnesota-whipple-building/)
+3. Sahan Journal (Jan 13, 2026): [Eight hours inside ICE custody at the Whipple Building](https://sahanjournal.com/immigration/ice-citizen-observer-detainment-minnesota-whipple-building/)
+4. CATO Institute (Jan 13, 2026): [Terror in Minneapolis: The Ordeal of Brandon Sigüenza](https://www.cato.org/blog/terror-minneapolis-ordeal-brandon-siquenza)
+5. MPR News (Jan 13, 2026): [Minnesotans describe their encounters with ICE agents](https://www.mprnews.org/episode/2026/01/13/minnesotans-describe-their-encounters-with-ice-agents)
 
 ## Victim(s)
 - **Patty O'Keefe:** 36, U.S. Citizen

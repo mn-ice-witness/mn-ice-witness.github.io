@@ -17,8 +17,7 @@ last_updated: 2026-01-14
 Joseph Boman, a U.S. citizen and activist observer, was photographed by federal agents at a Minnoco gas station in Richfield. Agents then followed him and coordinated with Hennepin County Sheriff's deputies, who arrested him in a private parking lot across from the Whipple Federal Building after he observed ICE operations.
 
 ## Sources
-1. [ICE Agents Alter Tactics, Work With Impunity While Violating US Citizen's Rights in Minnesota](https://unicornriot.ninja/2026/ice-agents-alter-tactics-work-with-impunity-while-violating-us-citizens-rights-in-minnesota/) - Unicorn Riot
-- **Photos:** Unicorn Riot obtained photos showing black Nissan trailing Boman
+1. Unicorn Riot (Jan 7, 2026): [ICE Agents Alter Tactics, Work With Impunity While Violating US Citizen's Rights in Minnesota](https://unicornriot.ninja/2026/ice-agents-alter-tactics-work-with-impunity-while-violating-us-citizens-rights-in-minnesota/)
 
 ## Victim(s)
 - **Name:** Joseph Boman
