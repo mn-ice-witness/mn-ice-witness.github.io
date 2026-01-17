@@ -11,10 +11,10 @@ trustworthiness: medium
 last_updated: 2026-01-14
 ---
 
-# Two Young Women Sprayed with Chemical Irritant by ICE Agent in Mankato
+# Two Young Women Sprayed Directly in Face with Chemical Irritant by ICE Agent in Mankato
 
 ## Summary
-Two young women were sprayed with a chemical irritant by a uniformed federal agent on Monday afternoon in Mankato. State Sen. Aric Putnam placed himself between the crowd and federal agents during the "really intense confrontation."
+Two young women were sprayed directly in the face with a chemical irritant by a uniformed federal agent on Monday afternoon in Mankato. State Sen. Aric Putnam placed himself between the crowd and federal agents during the "really intense confrontation."
 
 ## Sources
 1. Facebook Video (Jan 13, 2026): [Women sprayed with chemical irritant](https://www.facebook.com/reel/3898161177152426)
