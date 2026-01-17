@@ -9,8 +9,6 @@ const Search = {
         this.clearBtn = document.getElementById('search-clear');
         this.backdrop = this.modal.querySelector('.search-modal-backdrop');
 
-        this.loadQuery();
-
         this.btn.addEventListener('click', () => this.toggle());
         this.backdrop.addEventListener('click', () => this.close());
         this.clearBtn.addEventListener('click', () => this.clear());
@@ -26,23 +24,6 @@ const Search = {
                 this.close();
             }
         });
-    },
-
-    loadQuery() {
-        const stored = localStorage.getItem('searchQuery');
-        if (stored) {
-            this.query = stored;
-            this.input.value = stored;
-            this.updateButtonState();
-        }
-    },
-
-    saveQuery() {
-        if (this.query) {
-            localStorage.setItem('searchQuery', this.query);
-        } else {
-            localStorage.removeItem('searchQuery');
-        }
     },
 
     toggle() {
@@ -73,7 +54,6 @@ const Search = {
     clear() {
         this.query = '';
         this.input.value = '';
-        this.saveQuery();
         this.btn.classList.remove('active');
         this.close();
         this.applyFilter();
@@ -81,7 +61,6 @@ const Search = {
 
     onInput() {
         this.query = this.input.value.trim();
-        this.saveQuery();
         this.updateButtonState();
     },
 
