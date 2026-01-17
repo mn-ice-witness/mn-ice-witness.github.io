@@ -12,6 +12,7 @@ observer-shoved-into-traffic
 bovino-cbs-interview
 roosevelt-high-school
 mubashir-wrongful-detention
+jose-ramirez-native-american
 siguenza-okeefe-detained
 nimco-omar-citizen-check
 garrison-gibson-battering-ram
@@ -25,7 +26,6 @@ elliott-payne-pushed
 mankato-women-sprayed
 lyn-lake-tear-gas
 ice-gun-pointed-at-protester
-jose-ramirez-native-american
 shawn-jackson-children-tear-gas
 hani-duglof-medical
 porter-wrong-address-raid

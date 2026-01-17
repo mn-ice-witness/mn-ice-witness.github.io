@@ -20,6 +20,9 @@ ICE agents detained Gomez outside an Eden Prairie apartment complex while his 13
 ## Sources
 1. EP Local News (Dec 10, 2025): [Community members raise concerns about ICE activity and school safety](https://www.eplocalnews.org/2025/12/10/community-members-raise-concerns-about-ice-activity-and-school-safety/)
 2. EP Local News (Dec 19, 2025): [ICE detains Eden Prairie man; Chanhassen standoff follows](https://www.eplocalnews.org/2025/12/19/ice-detains-eden-prairie-man-chanhassen-standoff-follows/)
+3. CBS Minnesota (Dec 2025): [Video captures 13-year-old boy being detained by ICE in Eden Prairie](https://www.cbsnews.com/minnesota/news/eden-prairie-ice-teen-detained-with-dad/) - **VIDEO**
+4. Inquisitr (Dec 2025): [13-Year-Old Boy 'Handcuffed and Tackled' by ICE Agents](https://www.inquisitr.com/13-year-old-boy-handcuffed-and-tackled-by-ice-agents-while-forced-to-watch-fathers-arrest)
+5. Instagram (Dec 2025): [ICE Detains 13-Year-Old Boy 500 Miles Away from Home](https://www.instagram.com/p/DPwqiviEbE1/)
 
 ## Victim(s)
 

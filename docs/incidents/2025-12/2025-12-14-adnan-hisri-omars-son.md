@@ -21,6 +21,11 @@ Adnan Hisri, the 20-year-old U.S.-born son of Rep. Ilhan Omar, was stopped by fe
 2. CBS News (Dec 15, 2025): [Minnesota Rep. Ilhan Omar says her son was pulled over by ICE, which claims "zero record" of the incident](https://www.cbsnews.com/minnesota/news/minnesota-rep-ilhan-omar-says-son-pulled-over-by-ice/)
 3. UPI (Dec 15, 2025): [Ilhan Omar says son stopped in Minnesota by ICE during Trump crackdown](https://www.upi.com/Top_News/US/2025/12/15/Minnesota-Ilhan-Omar-son-ICE/2381765833444/)
 4. Fox News (Dec 15, 2025): [Omar's son stopped by ICE agents in Minnesota, released after showing passport](https://www.foxnews.com/politics/ilhan-omar-claims-ice-pulled-son-racial-profiling-sweep-trumps-crackdown-minnesota)
+5. BET News (Dec 2025): ["They Are Racially Profiling": Ilhan Omar says ICE stopped her son](https://www.bet.com/article/6qxy0k/they-are-racially-profiling-ilhan-omar-says-ice-stopped-her-son-in-minneapolis)
+6. The Hill (Dec 2025): [Ilhan Omar says son targeted by ICE in traffic stop](https://thehill.com/homenews/state-watch/5649719-ice-targeting-somalians-minnesota/)
+7. The Hill (Dec 2025): [DHS denies claims of ICE profiling Rep. Ilhan Omar's son](https://thehill.com/policy/national-security/5651778-omar-son-ice-incident-dispute/)
+8. Bring Me The News (Dec 2025): [Recent ICE activity - Ilhan Omar's son stopped](https://bringmethenews.com/minnesota-news/recent-ice-activity-chanhassen-rooftop-standoff-ilhan-omars-son-stopped)
+9. X (Dec 2025): [@Combs0294 on racial profiling](https://x.com/Combs0294/status/2001107480474960204)
 
 ## Victim(s)
 - **Name:** Adnan Hisri

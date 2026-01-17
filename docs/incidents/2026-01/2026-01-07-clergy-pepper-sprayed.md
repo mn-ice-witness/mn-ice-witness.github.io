@@ -20,6 +20,11 @@ At least two pastors were shoved, shot at with pepper rounds, and exposed to pep
 1. Religion News Service (Jan 8, 2026): [Minneapolis clergy exposed to pepper spray after rushing to scene of deadly ICE shooting](https://religionnews.com/2026/01/07/minneapolis-clergy-pepper-sprayed-after-rushing-to-scene-of-deadly-ice-shooting/)
 2. National Catholic Reporter (Jan 8, 2026): [Minneapolis clergy exposed to pepper spray after rushing to scene of deadly ICE shooting](https://www.ncronline.org/news/minneapolis-clergy-exposed-pepper-spray-after-rushing-scene-deadly-ice-shooting)
 3. Baptist News Global (Jan 8, 2026): [Minneapolis clergy rally for justice after ICE shooting](https://baptistnews.com/article/minneapolis-clergy-rally-for-justice-after-ice-shooting/)
+4. The Christian Century (Jan 8, 2026): [Minneapolis clergy exposed to pepper spray](https://www.christiancentury.org/news/minneapolis-clergy-exposed-pepper-spray-after-rushing-scene-deadly-ice-shooting)
+5. Word & Way (Jan 8, 2026): [Minneapolis Clergy Exposed to Pepper-Spray](https://wordandway.org/2026/01/08/minneapolis-clergy-exposed-to-pepper-spray-after-rushing-to-scene-of-deadly-ice-shooting/)
+6. Sight Magazine Australia (Jan 8, 2026): [Minneapolis clergy exposed to pepper-spray](https://sightmagazine.com.au/news/minneapolis-clergy-exposed-to-pepper-spray-after-rushing-to-scene-of-deadly-ice-shooting/)
+7. Anabaptist World (Jan 2026): ['She could have been any of us' - Faith leaders mourn Renee Good](https://anabaptistworld.org/she-could-have-been-any-of-us-faith-leaders-mourn-renee-good-in-minneapolis/)
+8. Sojourners (Jan 2026): [Minneapolis Faith Leaders Amplify Demands for ICE to Repent](https://sojo.net/articles/news/minneapolis-faith-leaders-amplify-demands-ice-repent)
 
 ## Victim(s)
 

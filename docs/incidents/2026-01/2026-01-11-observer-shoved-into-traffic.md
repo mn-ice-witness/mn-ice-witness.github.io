@@ -24,6 +24,11 @@ Video shows an ICE agent shoving a man who was filming their vehicle into oncomi
 4. CNN (Jan 9, 2026): [DHS Immigration Crackdown Interactive](https://www.cnn.com/interactive/2026/01/09/us/dhs-immigration-crackdown-ice-arrests-protests-vis/index.html)
 5. KWCH (Jan 13, 2026): [Man obstructing ICE vehicle shoved by officer into oncoming traffic, video shows](https://www.kwch.com/2026/01/13/man-obstructing-ice-vehicle-shoved-by-officer-into-oncoming-traffic-video-shows/)
 6. The Mirror (Jan 13, 2026): [Video captures moment ICE agent shoves a man to the ground in Minneapolis](https://www.themirror.com/news/us-news/ice-agent-shoves-man-minneapolis-1613656)
+7. X - Brian Krassenstein (Jan 11, 2026): [Original viral post](https://x.com/krassenstein/status/2010483101676478626) - "BREAKING: ICE agent in Minneapolis just violently SHOVED a man filming..."
+8. 1011 Now (Jan 13, 2026): [CNN affiliate coverage](https://www.1011now.com/2026/01/13/man-obstructing-ice-vehicle-shoved-by-officer-into-oncoming-traffic-video-shows/)
+9. KPTV (Jan 13, 2026): [CNN affiliate coverage](https://www.kptv.com/2026/01/13/man-obstructing-ice-vehicle-shoved-by-officer-into-oncoming-traffic-video-shows/)
+10. Cleveland 19 (Jan 13, 2026): [CNN affiliate coverage](https://www.cleveland19.com/2026/01/13/man-obstructing-ice-vehicle-shoved-by-officer-into-oncoming-traffic-video-shows/)
+11. Alaska's News Source (Jan 13, 2026): [CNN affiliate coverage](https://www.alaskasnewssource.com/2026/01/13/man-obstructing-ice-vehicle-shoved-by-officer-into-oncoming-traffic-video-shows/)
 
 ## Victim(s)
 - **Name:** Not identified

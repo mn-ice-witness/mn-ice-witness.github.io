@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768670062,
+  "mediaVersion": 1768671470,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-17-st-louis-park-daycare.md",
@@ -389,7 +389,7 @@
       "injuries": "none",
       "trustworthiness": "high",
       "lastUpdated": "2026-01-13",
-      "mediaCount": 1,
+      "mediaCount": 0,
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
@@ -1273,13 +1273,17 @@
       "victimCitizenship": "us-citizen",
       "injuries": "minor",
       "trustworthiness": "high",
-      "lastUpdated": "2026-01-13",
-      "mediaCount": 0,
+      "lastUpdated": "2026-01-17",
+      "mediaCount": 2,
       "notable": true,
       "hasLocalMedia": true,
-      "localMediaType": "image",
-      "localMediaPath": "media/2026-01-08-jose-ramirez-native-american.jpg",
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-08-jose-ramirez-native-american.mp4",
       "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-08-jose-ramirez-native-american.mp4"
+        },
         {
           "type": "image",
           "path": "media/2026-01-08-jose-ramirez-native-american.jpg"

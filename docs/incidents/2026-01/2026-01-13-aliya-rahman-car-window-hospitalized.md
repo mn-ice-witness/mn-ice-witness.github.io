@@ -30,6 +30,14 @@ Aliya Rahman, a 43-year-old U.S. citizen and software engineer, was dragged from
 10. Raw Story (Jan 13, 2026): ['I'm disabled!' Woman screams as masked ICE agents pull her through car window](https://www.rawstory.com/ice-disabled-woman/)
 11. New Republic (Jan 13, 2026): [ICE Violently Arrests Woman Trying to Pass Them to Get to the Doctor](https://newrepublic.com/post/205252/ice-arrests-minneapolis-woman-car-doctor)
 12. Sahan Journal (Jan 13, 2026): [Crowd confronts immigration agents door-knocking in south Minneapolis](https://sahanjournal.com/public-safety/minneapolis-ice-confront-observers-door-knocking-powderhorn/)
+13. X - Eric Michael Garcia (Jan 2026): [Tweet identifying Rahman as autistic](https://x.com/EricMGarcia/status/2011907383690224015)
+14. ABC7 Los Angeles (Jan 2026): [Woman seen pulled from car speaks out: 'Lucky to be alive'](https://abc7.com/live-updates/minneapolis-ice-shooting-live-updates/18410867/entry/18415918/)
+15. Border Report (Jan 2026): [Immigration agents filmed dragging citizen from her car](https://www.borderreport.com/hot-topics/border-crime/immigration-agents-filmed-dragging-citizen-from-her-car-in-minneapolis/)
+16. The Daily Star Bangladesh (Jan 2026): [Bangladeshi origin woman pulled from car by ICE agents](https://www.thedailystar.net/historical/news/news/bangladeshi-origin-woman-pulled-car-ice-agents-minneapolis-says-new-york-post-4081596)
+17. NewsNation (Jan 2026): [Disabled woman dragged from car by ICE speaks out](https://www.newsnationnow.com/us-news/immigration/border-coverage/disabled-woman-dragged-from-car-by-ice-speaks-out/)
+18. Instagram Reel (Jan 2026): [ICE's arrest of Aliya Rahman](https://www.instagram.com/reel/DTlpr7-kR9K/)
+19. Instagram Reel (Jan 2026): [Video coverage of incident](https://www.instagram.com/reel/DTiIM3EjLXR/)
+20. Instagram Reel (Jan 2026): [ICE agents forcibly pulled US-born...](https://www.instagram.com/reel/DThmDpuj7b7/)
 
 ## Victim(s)
 - **Name:** Aliya Rahman

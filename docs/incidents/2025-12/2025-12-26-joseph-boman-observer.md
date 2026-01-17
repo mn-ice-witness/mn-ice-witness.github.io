@@ -18,6 +18,8 @@ Joseph Boman, a U.S. citizen and activist observer, was photographed by federal 
 
 ## Sources
 1. Unicorn Riot (Jan 7, 2026): [ICE Agents Alter Tactics, Work With Impunity While Violating US Citizen's Rights in Minnesota](https://unicornriot.ninja/2026/ice-agents-alter-tactics-work-with-impunity-while-violating-us-citizens-rights-in-minnesota/)
+2. Status Coup Substack (Jan 2026): [EXCLUSIVE - ICE Sending False Tips to Cops of Being "Stalked" By Activists](https://www.statuscoupsubstack.com/p/exclusive-ice-sending-false-tips)
+3. X - @Combs0294 (Jan 2026): [Update: Joseph Boman was released last night on probable cause hold](https://x.com/Combs0294/status/2004959262431388140)
 
 ## Victim(s)
 - **Name:** Joseph Boman

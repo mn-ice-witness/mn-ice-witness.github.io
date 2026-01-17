@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
-last_updated: 2026-01-13
+last_updated: 2026-01-17
 notable: true
 ---
 
@@ -25,6 +25,9 @@ Jose Roberto "Beto" Ramirez, 20, U.S. citizen and Red Lake Nation descendant, wa
 5. The Mirror (Jan 2026): [ICE 'punches' Native American before making 'arrest taunt'](https://www.themirror.com/news/us-news/native-american-detained-ice-minnesota-1609397)
 6. Sahan Journal (Jan 2026): [Minnesotans increasingly see racial profiling from ICE agents](https://sahanjournal.com/immigration/ice-racial-profiling-minnesota-citizens-detained/)
 7. Fox 9 (Jan 2026): [Oglala Sioux leaders seek missing members detained by ICE in Minneapolis](https://www.fox9.com/news/oglala-sioux-leaders-seek-missing-members-detained-ice-minneapolis)
+8. The Daily Beast (Jan 12, 2026): [Yet Another ICE Nightmare Unfolds Miles Away From Renee Nicole Good Shooting](https://www.thedailybeast.com/yet-another-ice-nightmare-unfolds-miles-away-from-renee-nicole-good-shooting-in-minnesota/)
+- **Video:** [Aunt's Facebook Live of arrest - original audio](https://www.thedailybeast.com/yet-another-ice-nightmare-unfolds-miles-away-from-renee-nicole-good-shooting-in-minnesota/) - The Daily Beast
+- **Video:** [X post with arrest footage (music overlay)](https://x.com/LongTimeHistory/status/2009499306676322337) - @LongTimeHistory
 
 ## Victim(s)
 - **Name:** Jose Roberto "Beto" Ramirez

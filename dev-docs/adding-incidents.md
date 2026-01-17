@@ -264,6 +264,15 @@ When new information emerges:
 5. **Consider starring** if new video evidence or lawsuit filed
 6. Commit with message like "Update: New video evidence for Speedway incident"
 
+### NEVER Remove Sources
+
+**CRITICAL:** Never remove sources from an incident, even if:
+- A better version exists (e.g., video with original audio vs. one with music overlay)
+- The source seems redundant
+- The link appears broken (mark it as broken instead)
+
+We want ALL sources documented. If one version is better than another, add a note in parentheses to clarify (e.g., "original audio" or "music overlay") but keep both.
+
 ## Cache Busting (Important!)
 
 When updating HTML, CSS, or JS files, **bump the version number** to force browser cache refresh:

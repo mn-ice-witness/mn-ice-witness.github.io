@@ -29,6 +29,19 @@ Renee Nicole Good, a 37-year-old U.S. citizen, was fatally shot by ICE agent Jon
 9. Al Jazeera (Jan 8, 2026): [Who was Renee Nicole Good](https://www.aljazeera.com/news/2026/1/8/who-is-renee-nicole-good-the-woman-killed-in-the-ice-minneapolis-shooting)
 10. Bellingcat (Jan 8, 2026): [Bellingcat footage investigation](https://www.bellingcat.com/news/2026/01/13/analysing-footage-of-minneapolis-ice-shooting/)
 11. ABC News (Jan 8, 2026): [Minute-by-minute breakdown](https://abcnews.go.com/US/minneapolis-ice-shooting-minute-minute-timeline-renee-nicole/story?id=129021809)
+12. The Intercept (Jan 8, 2026): [ICE Agent Who Shot Renee Nicole Good Identified as Jonathan Ross](https://theintercept.com/2026/01/08/ice-agent-identified-shooting-minneapolis-jonathan-ross/)
+13. The Intercept (Jan 14, 2026): [Federal Agents Keep Invoking Killing of Renee Good to Threaten Protesters](https://theintercept.com/2026/01/14/ice-minneapolis-protests-renee-good/)
+14. INDEX NGO (Jan 2026): [ICE Shooting of Renee Good - Preliminary 3D Analysis](https://www.index.ngo/en/investigations/ice-shooting-of-renee-good-preliminary-3d-analysis/)
+15. PBS NewsHour (Jan 2026): [What we know so far about the ICE shooting](https://www.pbs.org/newshour/nation/what-we-know-so-far-about-the-ice-shooting-in-minneapolis)
+16. NBC News (Jan 2026): [ICE officer Jonathan Ross is a veteran who spent over 10 years at DHS](https://www.nbcnews.com/news/us-news/ice-officer-jonathan-ross-veteran-spent-decade-dhs-rcna253254)
+17. WBUR News (Jan 9, 2026): [Court records unpack background of Jonathan Ross](https://www.wbur.org/news/2026/01/09/johnathan-ross-ice-killing-renee-good-minneapolis-background)
+18. GoFundMe: [Support for Renee Good's Widow and Family](https://www.gofundme.com/f/support-for-renee-goods-wife-and-son) - Closed at $1.5M
+19. TikTok - NBC News (Jan 2026): [Video with 497.8K likes](https://www.tiktok.com/@nbcnews/video/7593768533469826317)
+20. X - Reuters (Jan 2026): [Video of wife sobbing post-shooting](https://x.com/Reuters/status/2009212233126117793)
+21. Threads - Bellingcat (Jan 2026): [Frame-by-frame video analysis](https://www.threads.com/@bellingcatofficial/post/DTQo1hjAYpF/)
+22. Threads - New York Times (Jan 2026): [Visual investigation announcement](https://www.threads.com/@nytimes/post/DTlPrXGjn88/)
+23. Democracy Now! (Jan 12, 2026): ["We Had Whistles. They Had Guns" - Nationwide Protests](https://www.democracynow.org/2026/1/12/minneapolis_protests)
+24. YouGov Poll (Jan 2026): [After shooting, majorities view ICE unfavorably](https://today.yougov.com/politics/articles/53892-after-the-shooting-in-minneapolis-majorities-of-americans-view-ice-unfavorably-and-support-major-changes-to-the-agency)
 
 ## Victim(s)
 - **Name:** Renee Nicole Good

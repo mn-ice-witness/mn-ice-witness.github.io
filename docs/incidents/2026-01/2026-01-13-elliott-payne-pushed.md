@@ -19,7 +19,12 @@ Minneapolis City Council President Elliott Payne was shoved by a masked ICE agen
 ## Sources
 1. KYMA (Jan 13, 2026): [Masked ICE agent shoves Minneapolis City Council president](https://kyma.com/decision-2024/national-politics/2026/01/13/masked-ice-agent-shoves-minneapolis-city-council-president/)
 2. Bring Me The News (Jan 13, 2026): [List of major ICE raids in Minnesota on Tuesday, Jan. 13](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-in-minnesota-on-tuesday-jan-13)
-- **Video:** [Elliott Payne's BlueSky post](https://bsky.app/profile/did:plc:34vmnat6b5az4522cnydzbrc/post/3mcbnjlu7ms22) - BlueSky
+3. BlueSky Video (Jan 13, 2026): [Elliott Payne's post](https://bsky.app/profile/elliottpayne.org/post/3mcbnjlu7ms22)
+4. CBS Minnesota (Jan 2026): [Video shows federal agent shoving Minneapolis City Council president](https://www.cbsnews.com/minnesota/news/ice-federal-agent-shoves-minneapolis-city-council-president-elliot-payne/)
+5. Fox 9 (Jan 2026): [Minneapolis City Council president says he was 'assaulted' by ICE officers](https://www.fox9.com/news/minneapolis-city-council-president-says-he-was-assaulted-ice-officers)
+6. The Mirror (Jan 2026): [ICE agent captured violently shoving Minneapolis city official](https://www.themirror.com/news/us-news/ice-agent-captured-violently-shoving-1618728)
+7. Mediaite (Jan 2026): [Minneapolis City Council President Fears ICE Will 'Kill' Him While Documenting Protester Takedowns](https://www.mediaite.com/media/tv/minneapolis-city-council-president-fears-ice-will-kill-him-while-documenting-protester-takedowns/)
+8. Augusta Free Press (Jan 2026): [Minneapolis City Council leader on ICE: 'Worried that they'll kill me'](https://augustafreepress.com/news/minneapolis-city-council-leader-on-ice-im-worried-that-theyll-kill-me/)
 
 ## Victim(s)
 - **Name:** Elliott Payne

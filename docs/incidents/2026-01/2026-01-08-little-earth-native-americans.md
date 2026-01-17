@@ -21,6 +21,13 @@ Four homeless men, all enrolled members of the Oglala Sioux Tribe and U.S. citiz
 2. CBS Minnesota (Jan 9, 2026): [4 members of Oglala Sioux Tribe detained by ICE in Minneapolis, president says](https://www.cbsnews.com/minnesota/news/oglala-sioux-tribe-members-detained-ice-minneapolis/)
 3. FOX 9 (Jan 9, 2026): [Oglala Sioux leaders seek missing members detained by ICE in Minneapolis](https://www.fox9.com/news/oglala-sioux-leaders-seek-missing-members-detained-ice-minneapolis)
 4. Newsweek (Jan 9, 2026): [ICE Detains and Holds Four Native Americans, Tribal Leader Says](https://www.newsweek.com/ice-detains-native-americans-minnesota-minneapolis-oglala-sioux-11339071)
+5. Democracy Now! (Jan 15, 2026): [ICE Jails Oglala Sioux Members at Fort Snelling, Site of 19th-Century Concentration Camp](https://www.democracynow.org/2026/1/15/headlines/ice_jails_oglala_sioux_members_at_fort_snelling_site_of_19th_century_concentration_camp)
+6. Axios (Jan 13, 2026): [Oglala Sioux Tribe demands action on detained tribal members](https://www.axios.com/2026/01/13/oglala-sioux-tribe-ice-holding-tribal-members)
+7. CNN (Jan 14, 2026): [Oglala Sioux Tribe says three tribal members arrested in Minneapolis are in ICE detention](https://www.cnn.com/2026/01/14/us/oglala-sioux-tribe-minneapolis-immigration-enforcement)
+8. The Hill (Jan 2026): [Oglala Sioux Tribe demands action](https://thehill.com/homenews/state-watch/5688969-oglala-sioux-tribe-demands-action/)
+9. Bring Me The News (Jan 2026): [4 Native American men detained by ICE in Minneapolis, tribal leadership says](https://bringmethenews.com/minnesota-news/4-native-american-men-detained-by-ice-in-minneapolis-tribal-leadership-says)
+10. MPR News (Jan 13, 2026): [South Dakota tribe Oglala Sioux demands release of Lakota men in Minneapolis detained by ICE](https://www.mprnews.org/story/2026/01/13/south-dakota-tribe-oglala-sioux-demands-release-of-lakota-men-in-minneapolis-detained-by-ice)
+11. MR Online (Jan 15, 2026): [ICE detains Indigenous people in Minneapolis, tribes cite treaty violations](https://mronline.org/2026/01/15/ice-detains-indigenous-people-in-minneapolis-tribes-cite-treaty-violations/)
 
 ## Victim(s)
 - **Number:** Four

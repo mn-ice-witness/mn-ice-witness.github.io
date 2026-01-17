@@ -24,6 +24,10 @@ U.S. Border Patrol agents violently arrested Juan Carlos, a legal U.S. resident 
 4. Minnesota Reformer (Jan 10, 2026): [U.S. Border Patrol agent knees man in face in Minneapolis as other agents hold him down](https://minnesotareformer.com/2026/01/12/u-s-border-patrol-knees-man-in-face-in-minneapolis-as-other-agents-hold-him-down/)
 5. GoFundMe (Jan 10, 2026): [Support Juan Carlos After Assault and Hospitalization](https://www.gofundme.com/f/support-juan-carlos-after-assault-and-hospitalization)
 6. Yahoo News (Jan 10, 2026): [U.S. Border Patrol agent knees man in face](https://www.yahoo.com/news/articles/u-border-patrol-knees-man-231145132.html)
+7. Snopes Fact Check (Jan 16, 2026): [Investigation into the images of Juan Carlos](https://www.snopes.com/news/2026/01/16/juan-carlos-ice-images/)
+8. TMZ (Jan 16, 2026): [CBP officer knee man in face Minneapolis](https://www.tmz.com/2026/01/16/cbp-officer-knee-man-in-face-minneapolis/)
+9. News From The States (Jan 2026): [US Border Patrol agent knees man in face in Minneapolis](https://www.newsfromthestates.com/article/us-border-patrol-agent-knees-man-face-minneapolis-other-agents-hold-him-down)
+10. Instagram Reel (Jan 2026): ["Legally observing ICE activity in his neighborhood"](https://www.instagram.com/reel/DTZQELiAp0h/)
 
 ## Victim(s)
 - **Name:** Juan Carlos
