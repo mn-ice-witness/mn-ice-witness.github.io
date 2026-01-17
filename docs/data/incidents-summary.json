@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768621522,
+  "mediaVersion": 1768622875,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-15-el-tapatio-willmar.md",
@@ -657,10 +657,6 @@
         {
           "type": "video",
           "path": "media/2026-01-12-christian-molina-car-rammed.mp4"
-        },
-        {
-          "type": "image",
-          "path": "media/2026-01-12-christian-molina-car-rammed.jpg"
         }
       ]
     },
