@@ -1,6 +1,7 @@
 # Media Gallery Order
 # List incident slugs in display order (one per line)
 
+
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -10,7 +11,7 @@ bovino-cbs-interview
 roosevelt-high-school
 ahmed-hassan-uber-driver
 mubashir-wrongful-detention
-little-earth-native-americans
+oglala-sioux-still-detained
 siguenza-okeefe-detained
 eden-prairie-13-year-old
 nimco-omar-citizen-check

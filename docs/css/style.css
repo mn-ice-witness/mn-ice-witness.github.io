@@ -1363,7 +1363,7 @@ body {
 /* Fullscreen controls positioning - centered at bottom */
 .local-media-container:fullscreen .media-controls,
 .local-media-container:-webkit-full-screen .media-controls {
-    bottom: 20px;
+    bottom: 8px;
     right: auto;
     left: 50%;
     transform: translateX(-50%);
