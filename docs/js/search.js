@@ -1,0 +1,102 @@
+const Search = {
+    query: '',
+    isOpen: false,
+
+    init() {
+        this.btn = document.getElementById('search-btn');
+        this.modal = document.getElementById('search-modal');
+        this.input = document.getElementById('search-input');
+        this.clearBtn = document.getElementById('search-clear');
+        this.backdrop = this.modal.querySelector('.search-modal-backdrop');
+
+        this.loadQuery();
+
+        this.btn.addEventListener('click', () => this.toggle());
+        this.backdrop.addEventListener('click', () => this.close());
+        this.clearBtn.addEventListener('click', () => this.clear());
+        this.input.addEventListener('input', () => this.onInput());
+        this.input.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter') {
+                this.close();
+            }
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && this.isOpen) {
+                this.close();
+            }
+        });
+    },
+
+    loadQuery() {
+        const stored = localStorage.getItem('searchQuery');
+        if (stored) {
+            this.query = stored;
+            this.input.value = stored;
+            this.updateButtonState();
+        }
+    },
+
+    saveQuery() {
+        if (this.query) {
+            localStorage.setItem('searchQuery', this.query);
+        } else {
+            localStorage.removeItem('searchQuery');
+        }
+    },
+
+    toggle() {
+        if (this.isOpen) {
+            this.close();
+        } else {
+            this.open();
+        }
+    },
+
+    open() {
+        this.isOpen = true;
+        this.modal.setAttribute('aria-hidden', 'false');
+        this.input.focus();
+    },
+
+    close() {
+        this.isOpen = false;
+        this.modal.setAttribute('aria-hidden', 'true');
+        this.updateButtonState();
+        this.applyFilter();
+    },
+
+    clear() {
+        this.query = '';
+        this.input.value = '';
+        this.saveQuery();
+        this.btn.classList.remove('active');
+        this.close();
+        this.applyFilter();
+    },
+
+    onInput() {
+        this.query = this.input.value.trim();
+        this.saveQuery();
+        this.updateButtonState();
+    },
+
+    updateButtonState() {
+        if (this.query.length > 0) {
+            this.btn.classList.add('active');
+        } else {
+            this.btn.classList.remove('active');
+        }
+    },
+
+    applyFilter() {
+        if (typeof App !== 'undefined') {
+            App.render();
+            if (App.currentView === 'media') {
+                App.renderMediaGallery();
+            }
+        }
+    }
+};
+
+document.addEventListener('DOMContentLoaded', () => Search.init());

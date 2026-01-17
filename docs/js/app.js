@@ -5,6 +5,23 @@ const App = {
     viewedIncidents: new Set(),
     sectionHashes: ['citizens', 'observers', 'immigrants', 'schools', 'response'],
 
+    getFilteredIncidents() {
+        const query = (typeof Search !== 'undefined' && Search.query) ? Search.query.toLowerCase().trim() : '';
+        if (!query) return this.incidents;
+
+        const terms = query.split(/\s+/).filter(t => t.length > 0);
+        return this.incidents.filter(incident => {
+            const searchText = [
+                incident.title,
+                incident.summary,
+                incident.location,
+                incident.city
+            ].join(' ').toLowerCase();
+
+            return terms.every(term => searchText.includes(term));
+        });
+    },
+
     async init() {
         this.loadViewedState();
         this.loadViewFromUrl();
@@ -184,10 +201,12 @@ const App = {
 
     async renderMediaGallery() {
         const gallery = document.getElementById('media-gallery');
-        let mediaIncidents = this.incidents.filter(i => i.hasLocalMedia);
+        let mediaIncidents = this.getFilteredIncidents().filter(i => i.hasLocalMedia);
 
         if (mediaIncidents.length === 0) {
-            gallery.innerHTML = '<div class="gallery-empty">No media available yet. Check back soon.</div>';
+            const hasSearch = typeof Search !== 'undefined' && Search.query;
+            const msg = hasSearch ? 'No media matches your search.' : 'No media available yet. Check back soon.';
+            gallery.innerHTML = `<div class="gallery-empty">${msg}</div>`;
             return;
         }
 
@@ -474,15 +493,18 @@ const App = {
 
     render() {
         const tables = document.querySelectorAll('.incident-table');
+        const filtered = this.getFilteredIncidents();
 
         tables.forEach(table => {
             const type = table.dataset.type;
-            const typeIncidents = this.incidents.filter(i =>
+            const typeIncidents = filtered.filter(i =>
                 Array.isArray(i.type) ? i.type.includes(type) : i.type === type
             );
 
             if (typeIncidents.length === 0) {
-                table.innerHTML = '<div class="table-empty">No incidents documented yet</div>';
+                const hasSearch = typeof Search !== 'undefined' && Search.query;
+                const msg = hasSearch ? 'No matches' : 'No incidents documented yet';
+                table.innerHTML = `<div class="table-empty">${msg}</div>`;
                 return;
             }
 
