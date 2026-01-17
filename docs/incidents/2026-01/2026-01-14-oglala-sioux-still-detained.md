@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: us-citizen
 injuries: unknown
 trustworthiness: high
-last_updated: 2026-01-14
+last_updated: 2026-01-17
 ---
 
 # Three Oglala Sioux U.S. Citizens Still Detained at Fort Snelling
@@ -28,6 +28,9 @@ Four days after ICE detained four Oglala Sioux tribal members from a Minneapolis
 9. Washington Post (Jan 13, 2026): [Oglala Sioux Tribe says three tribal members arrested in Minneapolis are in ICE detention](https://www.washingtonpost.com/national/2026/01/13/ice-minneapolis-tribal-citizens-immigration-detention/dc60a0be-f0e4-11f0-a4dc-effc74cb25af_story.html)
 10. Boston Globe (Jan 14, 2026): [Oglala Sioux Tribe says three tribal members arrested in Minneapolis are in ICE detention](https://www.bostonglobe.com/2026/01/14/nation/minneapolis-oglala-tribe-members-arrested-ice/)
 11. SDPB (Jan 9, 2026): [Tribal leaders respond to reports of tribal members detained by ICE](https://www.sdpb.org/politics/2026-01-09/oglala-tribal-leaders-respond-to-reports-of-tribal-members-detained-by-ice)
+12. Washington Post (Jan 15, 2026): [Native Americans are being swept up by ICE in Minneapolis, tribes say](https://www.washingtonpost.com/politics/2026/01/15/native-americans-ice-minneapolis/)
+13. Wisconsin Examiner (Jan 15, 2026): [Wisconsin tribes react after ICE detains Native Americans in Twin Cities](https://wisconsinexaminer.com/2026/01/15/wisconsin-tribes-react-after-ice-detains-native-americans-in-twin-cities/)
+14. MPR News (Jan 16, 2026): [Oglala Sioux Tribe says it cannot confirm tribal members were detained by ICE in Minneapolis](https://www.mprnews.org/story/2026/01/16/oglala-sioux-tribe-says-it-cannot-confirm-tribal-members-were-detained-by-ice-in-minneapolis) (Note: Tribe questions verification of membership claims)
 
 ## Victim(s)
 - **Number:** Four detained on Jan 10; three still held as of Jan 14

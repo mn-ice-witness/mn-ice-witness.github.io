@@ -149,6 +149,34 @@ Stories are excluded when they don't meet the project's core focus:
 - Reason: Economic impact/trend story - documents community effects but no specific civil rights incident. Karmel Mall economic impact covered in context of actual incidents there.
 - Date evaluated: 2026-01-17
 
+**Burnsville Salvation Army Thrift Store (Jan 16)**
+- Source: [Bring Me The News](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-friday-jan-16) (reader witness photo)
+- Date: January 16, 2026
+- Details: Witness reported man ran into store yelling "I'm a US citizen, I'm a US citizen!" with armed, masked men in camo following, saying "we just want to talk to you." Person was "guided" out of store.
+- Reason: Insufficient details - single witness photo, no victim identification, no follow-up coverage, outcome unknown. No corroborating news sources.
+- Date evaluated: 2026-01-17
+
+**New Hope Apartment Complexes ICE Presence (Jan 16)**
+- Source: [Bring Me The News](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-friday-jan-16) mentions
+- Date: January 16, 2026
+- Details: Cluster of reports of ICE activity around apartment complexes in northwest Twin Cities suburb.
+- Reason: Insufficient details - no specific victims identified, no arrests documented, no corroborating sources. Presence reports only.
+- Date evaluated: 2026-01-17
+
+**Faith Leaders Denied Access to Detainees (Jan 13)**
+- Source: [Religion News Service](https://religionnews.com/2026/01/13/faith-leaders-are-denied-access-to-immigration-detainees-in-minnesota/)
+- Date: January 13, 2026
+- Details: Group of clergy seeking to offer pastoral care to immigrant detainees at federal building was denied, told "not at this time."
+- Reason: Access denial story - documents policy/practice but not a civil rights incident involving enforcement against a person. No victim detained or harmed in this story.
+- Date evaluated: 2026-01-17
+
+**Far-Right Counter-Protest at Minneapolis City Hall (Jan 17)**
+- Source: [Bring Me The News](https://bringmethenews.com/minnesota-news/list-of-ice-raids-protest-updates-in-minnesota-on-saturday-jan-17)
+- Date: January 17, 2026
+- Details: Far-right provocateur planned "anti-fraud" march targeting Somali community; counter-protest at federal building; MPD cleared counterprotesters.
+- Reason: Protest coverage only - no ICE enforcement incident or civil rights violation by federal agents.
+- Date evaluated: 2026-01-17
+
 ### October 2025
 
 **ICE Raids Two Hibbing Mexican Restaurants (El Charro, La Tequila Taco Shop)**

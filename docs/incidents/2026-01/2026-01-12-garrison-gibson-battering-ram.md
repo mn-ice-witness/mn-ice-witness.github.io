@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: legal-resident
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-15
+last_updated: 2026-01-17
 ---
 
 # Liberian Man Arrested With Battering Ram, No Judicial Warrant
@@ -23,6 +23,10 @@ Garrison Gibson, a 38-year-old Liberian citizen who has lived in the U.S. for ap
 4. ABC News (Jan 13, 2026): [Liberian man arrested in Minneapolis raid was regularly checking in with authorities, lawyer says](https://abcnews.go.com/Politics/wireStory/liberian-man-arrested-minneapolis-raid-regularly-checking-authorities-129225651)
 5. MinnPost (Jan 13, 2026): [Attorney: No proper warrant for Minneapolis man's arrest in home](https://www.minnpost.com/public-safety/2026/01/attorney-federal-agents-had-no-proper-warrant-to-arrest-minneapolis-man-who-fled-to-u-s-from-liberia-as-a-child-ice-garrison-gibson/)
 6. Reason (Jan 14, 2026): [Immigration agents used a battering ram to enter Minneapolis home without a valid warrant](https://reason.com/2026/01/14/federal-agents-used-a-battering-ram-to-enter-a-minneapolis-home-without-valid-warrant-video-shows/)
+7. The Hill (Jan 16, 2026): [Liberian man released for second time after ICE officers broke into home with battering ram](https://thehill.com/homenews/state-watch/5693339-liberian-man-ice-arrest-released/)
+8. Twin Cities Pioneer Press (Jan 16, 2026): [Judge orders release of Liberian man arrested in Minneapolis by agents with a battering ram](https://www.twincities.com/2026/01/16/ice-battering-ram-case/)
+9. ABC News (Jan 17, 2026): [A Liberian man released after his battering-ram arrest in Minneapolis is back in custody again](https://abcnews.go.com/US/wireStory/liberian-man-released-after-battering-ram-arrest-minneapolis-129282435)
+10. Hoodline (Jan 16, 2026): [Minneapolis Judge Slams ICE Battering Ram Raid, Orders Man Freed](https://hoodline.com/2026/01/minneapolis-judge-slams-ice-battering-ram-raid-orders-man-freed/)
 
 ## Victim(s)
 - **Name:** Garrison Gibson

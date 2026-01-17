@@ -24,6 +24,26 @@ If ~/.context.md doesn't exist, notify the user.
 
 These docs are the source of truth for how this project works.
 
+## When Asked to Find New Incidents or Sources
+
+**If the user asks to search for new incidents, find new sources, or do research:**
+
+1. **Read these files first:**
+   - `dev-docs/llm-search-procedure.md` - Complete search procedure and efficiency tips
+   - `dev-docs/not_use.md` - Stories already evaluated and rejected
+   - `dev-docs/adding-incidents.md` - Criteria for what qualifies as an incident
+   - `dev-docs/research-sources.md` - Where to find and verify incidents
+
+2. **Use the Explore agent** to get a summary of existing incidents before searching
+
+3. **Follow the daily search procedure** in `llm-search-procedure.md` for efficient recurring searches
+
+4. **Always report:**
+   - New incidents found (with sources)
+   - Existing incidents that got new sources added
+   - Stories added to not_use.md (with reasons)
+   - Stories already in not_use.md that came up again
+
 ## Project Overview
 
 **MN ICE Files** is a documentation website tracking civil rights incidents involving ICE (Immigration and Customs Enforcement) and CBP (Customs and Border Protection) in the Minneapolis-St. Paul area during Operation Metro Surge (December 2025 - present).
