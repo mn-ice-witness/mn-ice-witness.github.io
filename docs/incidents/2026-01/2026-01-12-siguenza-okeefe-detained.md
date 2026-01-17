@@ -23,6 +23,9 @@ Brandon Sigüenza (32) and Patty O'Keefe (36), both U.S. citizens monitoring ICE
 3. Sahan Journal (Jan 13, 2026): [Eight hours inside ICE custody at the Whipple Building](https://sahanjournal.com/immigration/ice-citizen-observer-detainment-minnesota-whipple-building/)
 4. CATO Institute (Jan 13, 2026): [Terror in Minneapolis: The Ordeal of Brandon Sigüenza](https://www.cato.org/blog/terror-minneapolis-ordeal-brandon-siquenza)
 5. MPR News (Jan 13, 2026): [Minnesotans describe their encounters with ICE agents](https://www.mprnews.org/episode/2026/01/13/minnesotans-describe-their-encounters-with-ice-agents)
+6. Snopes (Jan 14, 2026): [What we know about ICE arrest, detention of observer Brandon Siguenza](https://www.snopes.com/news/2026/01/14/ice-arrest-brandon-siguenza/)
+7. Cato Institute X (Jan 2026): [@CatoInstitute post on Siguenza and O'Keefe](https://x.com/CatoInstitute/status/2011831267273138324)
+8. Threads (Jan 2026): [U.S. citizens Patty O'Keefe and Brandon Siguenza detained by ICE](https://www.threads.com/@klgfortexas/post/DTcRk2REkOI/)
 
 ## Victim(s)
 - **Patty O'Keefe:** 36, U.S. Citizen

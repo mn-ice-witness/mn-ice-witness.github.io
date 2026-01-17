@@ -121,6 +121,34 @@ Stories are excluded when they don't meet the project's core focus:
 - Reason: Insufficient details - no arrest made, observer intervention prevented escalation, brief mention only. No victim identified.
 - Date evaluated: 2026-01-16
 
+**Wrecktangle Pizza LynLake - ICE Chased Off (Jan 2026)**
+- Sources: CBS Minnesota, Bring Me The News mentions
+- Date: January 2026
+- Details: At Wrecktangle Pizza in Minneapolis' LynLake neighborhood, employees and community members chased off ICE agents after they tried to enter the restaurant.
+- Reason: Successfully prevented incident - no detention occurred, no civil rights violation. Resistance story without actual enforcement action. Similar to Hola Arepa but with less detail.
+- Date evaluated: 2026-01-17
+
+**Jardin/Un Mundo Nuevo Spanish Immersion Daycare Teachers (Jan 7)**
+- Sources: Star Tribune (mentions), KARE 11 (mentions)
+- Date: January 7, 2026
+- Details: Teachers from Spanish immersion daycares detained, including one in parking lot. Workers described as "legally authorized to work."
+- Reason: Insufficient details - no victim names, unable to find detailed standalone coverage. Brief mentions in larger articles. May revisit if more coverage emerges with victim identification.
+- Date evaluated: 2026-01-17
+
+**"Mamas of Cedar" Community Patrols**
+- Sources: [Sahan Journal](https://sahanjournal.com/immigration/minneapolis-ice-observers-mothers-cedar-riverside-protection-alliance/)
+- Date: January 2026
+- Details: Somali mothers organizing foot patrols to monitor ICE presence in Cedar Riverside, educating residents on rights, preparing food for observers.
+- Reason: Community response/organizing story - no specific civil rights incident or victim. Important context but not an enforcement incident.
+- Date evaluated: 2026-01-17
+
+**ICE Business Closures and Impact Stories**
+- Sources: [Sahan Journal](https://sahanjournal.com/business-work/ice-surge-impacts-minnesota-businesses-restaurants/), CNN
+- Date: January 2026
+- Details: Articles about businesses closing, reduced sales, economic impact of ICE presence on immigrant communities.
+- Reason: Economic impact/trend story - documents community effects but no specific civil rights incident. Karmel Mall economic impact covered in context of actual incidents there.
+- Date evaluated: 2026-01-17
+
 ### October 2025
 
 **ICE Raids Two Hibbing Mexican Restaurants (El Charro, La Tequila Taco Shop)**

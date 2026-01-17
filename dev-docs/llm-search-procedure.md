@@ -52,7 +52,49 @@ ACLU ICE Minnesota lawsuit [month year]
 ICE Minnesota lawsuit citizen detained
 ```
 
-### Step 5: Search the General Web
+### Step 5: Search Social Media Platforms
+
+**CRITICAL:** Social media often has first-hand video evidence before news coverage.
+
+#### X (Twitter)
+```
+site:x.com ICE Minnesota Minneapolis [month year]
+site:twitter.com ICE Minneapolis [month year]
+```
+
+#### Bluesky
+```
+site:bsky.app ICE Minnesota Minneapolis [month year]
+```
+
+#### TikTok
+```
+site:tiktok.com ICE Minnesota Minneapolis [month year]
+```
+
+#### Instagram
+```
+site:instagram.com ICE Minnesota video [month year]
+```
+
+#### Threads
+```
+site:threads.net ICE Minnesota [month year]
+```
+
+#### Key Accounts to Monitor
+- **@mnicewatch** (Instagram) - MN ICE Watch community tracking
+- **@DHSgov** / **@ICEgov** (X) - Official DHS/ICE responses
+- **Middle East Eye** (TikTok) - Often covers Minneapolis incidents
+- Local reporter accounts on X
+
+#### Important Notes on Social Media
+- Social media posts alone are NOT sufficient for HIGH trustworthiness
+- Look for videos that were later picked up by news outlets
+- When you find a viral video, search for the victim's name or location to find news coverage
+- If a social media post has video but no news pickup, add to "Needs More Research" and rate MEDIUM at best
+
+### Step 6: Search the General Web
 
 In addition to specific news sites, always search the general web for incidents:
 ```

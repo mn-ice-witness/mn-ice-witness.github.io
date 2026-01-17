@@ -21,6 +21,10 @@ Jose Roberto "Beto" Ramirez, 20, U.S. citizen and Red Lake Nation descendant, wa
 1. Star Tribune (Jan 9, 2026): [U.S. citizen arrested by ICE in Twin Cities immigration operation](https://www.startribune.com/us-citizen-arrested-ice-day-after-fatal-shooting-renee-good-twin-cities-immigration-operation/601560460)
 2. ICT News (Jan 9, 2026): ['I felt like I was kidnapped': Ojibwe man recounts ICE detainment](https://ictnews.org/news/i-felt-like-i-was-kidnapped-ojibwe-man-recounts-ice-detainment/)
 3. Native News Online (Jan 9, 2026): [Red Lake man kidnapped by ICE](https://nativenewsonline.net/currents/red-lake-man-kidnapped-by-ice)
+4. Washington Post (Jan 15, 2026): [Native Americans are being swept up by ICE in Minneapolis, tribes say](https://www.washingtonpost.com/politics/2026/01/15/native-americans-ice-minneapolis/)
+5. The Mirror (Jan 2026): [ICE 'punches' Native American before making 'arrest taunt'](https://www.themirror.com/news/us-news/native-american-detained-ice-minnesota-1609397)
+6. Sahan Journal (Jan 2026): [Minnesotans increasingly see racial profiling from ICE agents](https://sahanjournal.com/immigration/ice-racial-profiling-minnesota-citizens-detained/)
+7. Fox 9 (Jan 2026): [Oglala Sioux leaders seek missing members detained by ICE in Minneapolis](https://www.fox9.com/news/oglala-sioux-leaders-seek-missing-members-detained-ice-minneapolis)
 
 ## Victim(s)
 - **Name:** Jose Roberto "Beto" Ramirez

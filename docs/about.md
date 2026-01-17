@@ -1,6 +1,6 @@
 # About This Site
 
-<p style="font-size: 0.9em; color: #666; font-style: italic;"><span style="font-weight: bold; color: #aaa;">Last updated: January 16, 2026</span> | To report an incident (must be sourced by a reputable media outlet), submit a correction, or share additional media for a listed incident, contact us at <a href="mailto:mnicewitness@gmail.com">mnicewitness@gmail.com</a>.</p>
+<p style="font-size: 0.9em; color: #666; font-style: italic;"><span style="font-weight: bold; color: #aaa;">Last updated: January 17, 2026</span> | To report an incident (must be sourced by a reputable media outlet), submit a correction, or share additional media for a listed incident, contact us at <a href="mailto:mnicewitness@gmail.com">mnicewitness@gmail.com</a>.</p>
 
 ## The Federal Position
 
