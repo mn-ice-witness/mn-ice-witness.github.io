@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768711286,
+  "mediaVersion": 1768714517,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-17-st-louis-park-daycare.md",
@@ -14,6 +14,28 @@
       "victimCitizenship": "us-citizen",
       "injuries": "none",
       "trustworthiness": "medium",
+      "lastUpdated": "2026-01-17",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": [],
+      "aspectRatio": null
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-16-nevada-avenue-12-year-old-deported.md",
+      "title": "Venezuelan Family Detained, Including 12-Year-Old Sent to Texas",
+      "summary": "Federal agents used a battering ram to enter a home on Nevada Avenue East in St. Paul, detaining six residents including a 12-year-old boy. The family immigrated from Venezuela in 2023, and the detained adults possessed work permits and state-issued IDs. The 12-year-old was flown to an immigration detention facility in San Antonio, Texas. Agents claimed to have a search warrant but never displayed one; a warrant that appeared on the doorstep the next day had no case number or file stamp and no record of being filed with the court.",
+      "date": "2026-01-16",
+      "time": "afternoon",
+      "location": "Nevada Avenue East",
+      "city": "St. Paul",
+      "type": "immigrants",
+      "status": "ongoing",
+      "victimCitizenship": "legal-resident",
+      "injuries": "none",
+      "trustworthiness": "high",
       "lastUpdated": "2026-01-17",
       "mediaCount": 0,
       "notable": false,
@@ -177,14 +199,14 @@
     },
     {
       "filePath": "incidents/2026-01/2026-01-14-nasra-ahmed-st-paul-citizen.md",
-      "title": "U.S. Citizen Born in Minnesota Detained by ICE, Still Held Without Bail",
-      "summary": "Nasra Mohamed Ahmed, a 23-year-old U.S. citizen born in Hennepin County, was detained by ICE agents on January 14 in the parking lot of her St. Paul apartment complex while on her way to pick up a prescription from the pharmacy. Despite telling agents she was born in Minnesota and has never been to Somalia, she remains in custody at Sherburne County Jail without bail. She has no criminal history.",
+      "title": "U.S. Citizen Born in Minnesota Detained by ICE for Two Days",
+      "summary": "Nasra Mohamed Ahmed, a 23-year-old U.S. citizen born in Hennepin County, was detained by ICE agents on January 14 in the parking lot of her St. Paul apartment complex while on her way to pick up seizure and anxiety medication. Despite telling agents she was born in Minnesota and has never been to Somalia, she was held at Sherburne County Jail without bail for more than two days before being released to her family on Friday night (January 17) without charges. She has no criminal history.",
       "date": "2026-01-14",
       "time": "11:00",
       "location": "Lower Afton Road apartment complex",
       "city": "St. Paul",
       "type": "citizens",
-      "status": "ongoing",
+      "status": "resolved",
       "victimCitizenship": "us-citizen",
       "injuries": "none",
       "trustworthiness": "medium",
@@ -1383,6 +1405,33 @@
       "aspectRatio": 0.6361111111111111
     },
     {
+      "filePath": "incidents/2026-01/2026-01-07-doctor-blocked-renee-good.md",
+      "title": "ICE Blocks Physician From Helping Shooting Victim",
+      "summary": "After ICE agent Jonathan Ross shot Renee Good, a bystander who identified himself as a physician attempted to provide medical assistance. ICE agents refused to let him near the victim. When the bystander said \"I'm a physician,\" an agent replied \"I don't care.\" Agents claimed they had their own medics on the way, but witness Emily Heller reported it was at least 15 minutes before an ambulance arrived. ICE vehicles abandoned at the scene blocked the ambulance's access.",
+      "date": "2026-01-07",
+      "time": "morning",
+      "location": "34th Street, Powderhorn Park area",
+      "city": "Minneapolis",
+      "type": "observers",
+      "status": "resolved",
+      "victimCitizenship": "us-citizen",
+      "injuries": "none",
+      "trustworthiness": "high",
+      "lastUpdated": "2026-01-17",
+      "mediaCount": 1,
+      "notable": false,
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-07-doctor-blocked-renee-good.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-07-doctor-blocked-renee-good.mp4"
+        }
+      ],
+      "aspectRatio": 0.7805555555555556
+    },
+    {
       "filePath": "incidents/2026-01/2026-01-07-pastor-callaghan-detained.md",
       "title": "White Pastor Detained, Told He Was Released Because \"You're White. You Wouldn't Be Fun Anyway\"",
       "summary": "Rev. Kenny Callaghan, a Minneapolis pastor, was detained by ICE agents on January 7, 2026, the same day Renee Good was shot and killed. After positioning himself beside a Hispanic woman to protect her from agents, Callaghan was handcuffed at gunpoint and placed in an SUV for 30 minutes. Upon release, agents told him: \"Well, you're White. You wouldn't be fun anyway.\" The incident has been cited as evidence of racial profiling in ICE operations.",
@@ -1464,11 +1513,16 @@
       "lastUpdated": "2026-01-17",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": [],
-      "aspectRatio": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-07-clergy-pepper-sprayed.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-07-clergy-pepper-sprayed.mp4"
+        }
+      ],
+      "aspectRatio": 1.8222222222222222
     },
     {
       "filePath": "incidents/2026-01/2026-01-07-dhs-response-renee-good.md",

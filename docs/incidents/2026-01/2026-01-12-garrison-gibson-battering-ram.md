@@ -27,6 +27,7 @@ Garrison Gibson, a 38-year-old Liberian citizen who has lived in the U.S. for ap
 8. Twin Cities Pioneer Press (Jan 16, 2026): [Judge orders release of Liberian man arrested in Minneapolis by agents with a battering ram](https://www.twincities.com/2026/01/16/ice-battering-ram-case/)
 9. ABC News (Jan 17, 2026): [A Liberian man released after his battering-ram arrest in Minneapolis is back in custody again](https://abcnews.go.com/US/wireStory/liberian-man-released-after-battering-ram-arrest-minneapolis-129282435)
 10. Hoodline (Jan 16, 2026): [Minneapolis Judge Slams ICE Battering Ram Raid, Orders Man Freed](https://hoodline.com/2026/01/minneapolis-judge-slams-ice-battering-ram-raid-orders-man-freed/)
+11. Fox 9 (Jan 17, 2026): [Judge: ICE violated Liberian man's rights by bursting through front door during arrest](https://www.fox9.com/news/judge-ice-violated-liberian-mans-rights-bursting-through-front-door-during-arrest)
 
 ## Victim(s)
 - **Name:** Garrison Gibson
@@ -75,6 +76,11 @@ Abena Abraham, speaking on behalf of the family: "This is unacceptable; this tra
 - Habeas petition filed within 24 hours of arrest
 - Judge ordered DHS not to move Gibson pending their response
 - Legal team argues Fourth Amendment violation for warrantless entry
+- **Jan 16, 2026:** Federal Judge Jeffrey Bryan ruled ICE violated Gibson's Fourth Amendment rights by entering his home with only an administrative warrant, not a judicial warrant
+- Judge ordered immediate release, stating: "This arrest violated the Fourth Amendment. For this independent reason, Garrison G.'s detention is unlawful, and the Court orders his immediate release."
+- Judge also found: "Garrison G. has no criminal record" — directly contradicting DHS claims of a "lengthy rap sheet"
+- Gibson released Thursday night (Jan 16)
+- **Jan 17, 2026:** Gibson back in ICE custody again
 
 ## Editorial Assessment
 **HIGH** - Multiple independent sources including FOX 9, KSTP, and MPR News. Video evidence of the raid exists. Court filings provide documentation. Attorney statements on record. The warrant issue is clearly documented with legal expert analysis.

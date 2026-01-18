@@ -4,21 +4,22 @@ time: 11:00
 location: Lower Afton Road apartment complex
 city: St. Paul
 type: citizens
-status: ongoing
+status: resolved
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: medium
 last_updated: 2026-01-17
 ---
 
-# U.S. Citizen Born in Minnesota Detained by ICE, Still Held Without Bail
+# U.S. Citizen Born in Minnesota Detained by ICE for Two Days
 
 ## Summary
-Nasra Mohamed Ahmed, a 23-year-old U.S. citizen born in Hennepin County, was detained by ICE agents on January 14 in the parking lot of her St. Paul apartment complex while on her way to pick up a prescription from the pharmacy. Despite telling agents she was born in Minnesota and has never been to Somalia, she remains in custody at Sherburne County Jail without bail. She has no criminal history.
+Nasra Mohamed Ahmed, a 23-year-old U.S. citizen born in Hennepin County, was detained by ICE agents on January 14 in the parking lot of her St. Paul apartment complex while on her way to pick up seizure and anxiety medication. Despite telling agents she was born in Minnesota and has never been to Somalia, she was held at Sherburne County Jail without bail for more than two days before being released to her family on Friday night (January 17) without charges. She has no criminal history.
 
 ## Sources
 1. Twin Cities Pioneer Press (Jan 16, 2026): [Family of U.S. citizen detained by ICE in St. Paul seeks her release](https://www.twincities.com/2026/01/16/family-of-u-s-citizen-detained-by-ice-in-st-paul-seeks-her-release/)
-2. Facebook post: [Community member account](https://www.facebook.com/story.php?story_fbid=25714350694874522&id=100001788329163) - Notes she was on her way to pick up a prescription
+2. Twin Cities Pioneer Press (Jan 17, 2026): [St. Paul woman, U.S. citizen, released from ICE detention after two days](https://www.twincities.com/2026/01/17/st-paul-woman-u-s-citizen-released-from-ice-detention-after-two-days/)
+3. Facebook post: [Community member account](https://www.facebook.com/story.php?story_fbid=25714350694874522&id=100001788329163) - Notes she was on her way to pick up a prescription
 
 ## Victim(s)
 - **Name:** Nasra Mohamed Ahmed
@@ -58,8 +59,11 @@ No specific statement has been issued regarding this detention.
 ### Jail Records
 The Sherburne County Jail roster on Friday morning listed no specific information about possible charges beyond "federal title," "federal court" and "f" for felony. The U.S. Marshals said Friday they had no record of Ahmed.
 
-## Current Status
-As of January 16, 2026, Nasra Mohamed Ahmed remains in custody at Sherburne County Jail without bail. Her family is seeking her immediate release.
+## Release and Aftermath
+Nasra Ahmed was released to her family on Friday night (January 17, 2026) without charges after more than two days in detention.
+
+**State Rep. Samakab Hussein on her condition after release:**
+> "She went home traumatized, not eating, not talking, pissed off. She feels that she got kidnapped. The law is not protecting her. She was humiliated."
 
 ## Editorial Assessment
-**MEDIUM** - Single source (Twin Cities Pioneer Press) with named victim and direct quotes from family and state legislator. Confirmed U.S. citizen born in Minnesota with documented lack of criminal history per court records check. Cell phone video reportedly exists but not published. Awaiting additional corroboration from other news outlets.
+**MEDIUM** - Twin Cities Pioneer Press coverage with named victim and direct quotes from family and state legislator. Confirmed U.S. citizen born in Minnesota with documented lack of criminal history per court records check. Released without charges after 2+ days. Cell phone video reportedly exists but not published. No independent corroboration from other news outlets yet.
