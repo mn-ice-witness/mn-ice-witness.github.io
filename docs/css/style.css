@@ -530,9 +530,27 @@ body {
     color: #8a9bab;
 }
 
-.sort-toggle input:checked + .sort-label {
+.sort-toggle input:checked ~ .sort-label {
     color: #5a7a9e;
     font-weight: 500;
+}
+
+/* Responsive label: show full text on wider screens, short on narrow phones */
+.sort-label-short {
+    display: none;
+}
+
+.sort-label-full {
+    display: inline;
+}
+
+@media (max-width: 374px) {
+    .sort-label-short {
+        display: inline;
+    }
+    .sort-label-full {
+        display: none;
+    }
 }
 
 /* ==================== SEARCH MODAL ==================== */
