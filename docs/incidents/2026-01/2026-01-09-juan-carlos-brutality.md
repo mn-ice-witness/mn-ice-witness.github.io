@@ -27,6 +27,7 @@ U.S. Border Patrol agents violently arrested Juan Carlos, a legal U.S. resident 
 8. TMZ (Jan 16, 2026): [CBP officer knee man in face Minneapolis](https://www.tmz.com/2026/01/16/cbp-officer-knee-man-in-face-minneapolis/)
 9. News From The States (Jan 2026): [US Border Patrol agent knees man in face in Minneapolis](https://www.newsfromthestates.com/article/us-border-patrol-agent-knees-man-face-minneapolis-other-agents-hold-him-down)
 10. Instagram Reel (Jan 2026): ["Legally observing ICE activity in his neighborhood"](https://www.instagram.com/reel/DTZQELiAp0h/)
+11. Facebook Reel (Jan 2026): [Juan Carlos brutality footage](https://www.facebook.com/reel/1175869304712769)
 
 ## Victim(s)
 - **Name:** Juan Carlos
