@@ -202,6 +202,17 @@ List incidents that need additional verification before documenting
 4. **Update existing incidents** - If new information found for existing files
 5. **Add ALL discovered sources** - Even unverified links should be added to incident files
 
+### Updating Incident Content When New Information Emerges
+
+When new sources contain significant new information (court rulings, releases, new charges, victim statements), update the incident file accordingly:
+
+1. **Update the Summary** - Reflect major developments (e.g., judge's ruling, release, new charges)
+2. **Update Status** - Change `ongoing` to `resolved` if case concluded
+3. **Update Timeline** - Add new dated events
+4. **Update last_updated** - Set to current date
+
+Example: If a judge rules an arrest was unconstitutional, update the summary to mention the ruling, not just add the source.
+
 ### Adding Sources to Existing Incidents
 
 **CRITICAL:** When researching, add ALL discovered sources to incident files, even if unverified:

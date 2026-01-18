@@ -14,7 +14,7 @@ last_updated: 2026-01-17
 # Liberian Man Arrested With Battering Ram, No Judicial Warrant
 
 ## Summary
-Garrison Gibson, a 38-year-old Liberian citizen who has lived in the U.S. for approximately 20 years, was arrested by ICE agents who used a battering ram to enter his north Minneapolis home. His family demanded to see a judicial warrant, but agents presented only an administrative warrant signed by an immigration officer. A 9-year-old child was inside the home during the raid. Gibson's attorneys have filed a habeas petition challenging the arrest.
+Garrison Gibson, a 38-year-old Liberian citizen who has lived in the U.S. for approximately 20 years, was arrested by ICE agents who used a battering ram to enter his north Minneapolis home. His family demanded to see a judicial warrant, but agents presented only an administrative warrant signed by an immigration officer. A 9-year-old child was inside the home during the raid. A federal judge ruled the arrest violated Gibson's Fourth Amendment rights and ordered his immediate release, finding he has "no criminal record" — contradicting DHS claims. Gibson was released but taken back into ICE custody the next day.
 
 ## Sources
 1. FOX 9 (Jan 12, 2026): [Minneapolis family demands judicial warrant as federal agents bust door](https://www.fox9.com/news/minneapolis-family-demands-judicial-warrant-federal-agents-raid-jan-2026)
