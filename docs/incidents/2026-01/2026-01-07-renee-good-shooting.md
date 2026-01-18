@@ -41,6 +41,7 @@ Renee Nicole Good, a 37-year-old U.S. citizen, was fatally shot by ICE agent Jon
 22. Threads - New York Times (Jan 2026): [Visual investigation announcement](https://www.threads.com/@nytimes/post/DTlPrXGjn88/)
 23. Democracy Now! (Jan 12, 2026): ["We Had Whistles. They Had Guns" - Nationwide Protests](https://www.democracynow.org/2026/1/12/minneapolis_protests)
 24. YouGov Poll (Jan 2026): [After shooting, majorities view ICE unfavorably](https://today.yougov.com/politics/articles/53892-after-the-shooting-in-minneapolis-majorities-of-americans-view-ice-unfavorably-and-support-major-changes-to-the-agency)
+25. TikTok - CNN (Jan 2026): [Renee Good shooting coverage](https://www.tiktok.com/@cnn/video/7593446292978683191)
 
 ## Victim(s)
 - **Name:** Renee Nicole Good

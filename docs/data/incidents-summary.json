@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768715161,
+  "mediaVersion": 1768716187,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-17-st-louis-park-daycare.md",
@@ -1491,11 +1491,16 @@
       "lastUpdated": "2026-01-13",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": [],
-      "aspectRatio": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-07-renee-good-shooting.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-07-renee-good-shooting.mp4"
+        }
+      ],
+      "aspectRatio": 0.5888888888888889
     },
     {
       "filePath": "incidents/2026-01/2026-01-07-clergy-pepper-sprayed.md",

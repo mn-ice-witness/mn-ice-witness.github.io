@@ -1,9 +1,6 @@
 # Media Gallery Order
 # List incident slugs in display order (one per line)
 
-
-
-
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -21,6 +18,7 @@ nimco-omar-citizen-check
 garrison-gibson-battering-ram
 circle-pines-restaurant-worker
 ryan-ecklund-filming-detained
+renee-good-shooting
 emmanuel-sackie-brooklyn-park
 jesse-ventura-roosevelt
 jose-ramirez-native-american
