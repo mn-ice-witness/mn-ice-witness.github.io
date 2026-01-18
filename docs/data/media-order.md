@@ -1,6 +1,7 @@
 # Media Gallery Order
 # List incident slugs in display order (one per line)
 
+
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -13,6 +14,7 @@ mubashir-wrongful-detention
 oglala-sioux-still-detained
 siguenza-okeefe-detained
 doctor-blocked-renee-good
+ramon-menera-accent-detained
 eden-prairie-13-year-old
 nimco-omar-citizen-check
 garrison-gibson-battering-ram

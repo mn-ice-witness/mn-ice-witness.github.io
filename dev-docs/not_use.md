@@ -177,6 +177,13 @@ Stories are excluded when they don't meet the project's core focus:
 - Reason: Protest coverage only - no ICE enforcement incident or civil rights violation by federal agents.
 - Date evaluated: 2026-01-17
 
+**Asian American Teenager Arrested Outside Home, Offered to Get ID (Date Unknown)**
+- Sources: [YouTube video](https://www.youtube.com/watch?v=Zd4ZF4VrqC4), [TikTok - @zhuozhuo517](https://www.tiktok.com/@zhuozhuo517/video/7595872019330239775)
+- Date: Unknown (TikTok posted Jan 17, 2026)
+- Details: Video shows Asian American teenager in white t-shirt being led away by ICE agents outside residential home. TikTok claims he offered to go inside to retrieve his ID but was not allowed. Video appears to be reposted news footage with "BREAKING NEWS" and "LIVE" banners, but original source station not identified.
+- Reason: **Needs more research** - No victim name, no specific location, no date, no corroborating news sources found. Video looks legitimate but cannot verify details. May revisit if news coverage emerges.
+- Date evaluated: 2026-01-18
+
 ### October 2025
 
 **ICE Raids Two Hibbing Mexican Restaurants (El Charro, La Tequila Taco Shop)**

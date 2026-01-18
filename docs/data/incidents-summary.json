@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768719733,
+  "mediaVersion": 1768721165,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-17-st-louis-park-daycare.md",
@@ -122,6 +122,28 @@
       "aspectRatio": 1.8111111111111111
     },
     {
+      "filePath": "incidents/2026-01/2026-01-15-hiawatha-student-bus-stop.md",
+      "title": "Hiawatha Academies Student Detained at Bus Stop",
+      "summary": "A 12th-grade student at Hiawatha Academies, a public charter school in Minneapolis, was detained by federal immigration agents at a city bus stop around 1 p.m. The detention occurred off campus. The school sent a message to families confirming the incident and began providing dedicated yellow buses for students afraid to ride public transit.",
+      "date": "2026-01-15",
+      "time": "13:00",
+      "location": "City bus stop, Seward neighborhood",
+      "city": "Minneapolis",
+      "type": "schools-hospitals",
+      "status": "ongoing",
+      "victimCitizenship": "unknown",
+      "injuries": "none",
+      "trustworthiness": "medium",
+      "lastUpdated": "2026-01-18",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": [],
+      "aspectRatio": null
+    },
+    {
       "filePath": "incidents/2026-01/2026-01-15-ramon-menera-accent-detained.md",
       "title": "U.S. Citizen Detained Because of \"Accent\"",
       "summary": "Ramon Menera, a U.S. citizen, was detained by Border Patrol agents outside his home in a Minneapolis suburb in front of his 5-year-old daughter. The agent accused him of not being a U.S. citizen \"because of your accent.\" Menera was eventually released but described the traumatic impact on his daughter, who asked him afterward: \"Are you okay? They were going to take you? I don't want to lose you.\"",
@@ -137,11 +159,16 @@
       "lastUpdated": "2026-01-18",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": [],
-      "aspectRatio": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-15-ramon-menera-accent-detained.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-15-ramon-menera-accent-detained.mp4"
+        }
+      ],
+      "aspectRatio": 0.5388888888888889
     },
     {
       "filePath": "incidents/2026-01/2026-01-15-st-paul-school-vans-pulled-over.md",
@@ -617,7 +644,7 @@
       "victimCitizenship": "us-citizen",
       "injuries": "serious",
       "trustworthiness": "high",
-      "lastUpdated": "2026-01-15",
+      "lastUpdated": "2026-01-18",
       "mediaCount": 0,
       "notable": false,
       "hasLocalMedia": true,
