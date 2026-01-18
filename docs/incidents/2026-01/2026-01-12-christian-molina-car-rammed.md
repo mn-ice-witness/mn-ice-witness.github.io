@@ -23,6 +23,7 @@ ICE agents followed and rammed into the car of Christian Molina, a 40-year-old L
 4. NBC News (Jan 13, 2026): [Immigration agents deploy tear gas, pepper spray in Minneapolis as confrontations with protesters grow](https://www.nbcchicago.com/news/national-international/immigration-ice-protests-minneapolis-renee-good-shooting/3875654/)
 5. NPR (Jan 16, 2026): [ICE surge sparks fear and resistance in Minneapolis](https://www.npr.org/2026/01/16/nx-s1-5677712/ice-surge-sparks-fear-and-resistance-in-minneapolis)
 6. MS NOW (Jan 13, 2026): [Clashes escalate between protesters, immigration officers in Minneapolis](https://www.ms.now/news/clashes-escalate-between-protesters-immigration-officers-in-minneapolis)
+7. Star Tribune (Jan 18, 2026): [Allegations of racial profiling of U.S. citizens on the rise as ICE surge expands in Minnesota](https://www.startribune.com/allegations-of-racial-profiling-of-us-citizens-on-the-rise-as-ice-surge-expands-in-minnesota/601564653)
 
 ## Victim(s)
 - **Name:** Christian Molina

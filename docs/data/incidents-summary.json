@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768763251,
+  "mediaVersion": 1768764809,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-17-st-louis-park-daycare.md",
@@ -120,6 +120,28 @@
         }
       ],
       "aspectRatio": 1.8111111111111111
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-15-mercado-central-mother-children.md",
+      "title": "Mother Arrested Near Mercado Central; Two Children Left Behind",
+      "summary": "A mother was arrested by ICE while cashing a check near Mercado Central on Lake Street. Her two sons, approximately middle-school and high-school age, were left behind at the market where she had dropped them off to get haircuts. Advocates struggled to locate the mother in federal detention because the children did not know her birth date.",
+      "date": "2026-01-15",
+      "time": "daytime",
+      "location": "Near Mercado Central, Lake Street",
+      "city": "Minneapolis",
+      "type": "immigrants",
+      "status": "ongoing",
+      "victimCitizenship": "undocumented",
+      "injuries": "none",
+      "trustworthiness": "low",
+      "lastUpdated": "2026-01-18",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": [],
+      "aspectRatio": null
     },
     {
       "filePath": "incidents/2026-01/2026-01-15-hiawatha-student-bus-stop.md",

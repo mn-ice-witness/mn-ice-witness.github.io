@@ -177,6 +177,13 @@ Stories are excluded when they don't meet the project's core focus:
 - Reason: Protest coverage only - no ICE enforcement incident or civil rights violation by federal agents.
 - Date evaluated: 2026-01-17
 
+**Park Avenue & 38th Street Bus Stop Arrest (Jan 14)**
+- Source: [Minnesota Reformer](https://minnesotareformer.com/2026/01/16/these-are-the-arrests-youre-not-seeing/)
+- Date: January 14, 2026
+- Details: Neighbor's video captured ICE agent taking man into unmarked SUV at bus stop. Man was sheltering under heaters at the bus stop when agent approached. Video recorded by "Garrett Gundy."
+- Reason: Insufficient details - no victim identification, single source, no follow-up coverage. May revisit if victim comes forward or more coverage emerges.
+- Date evaluated: 2026-01-18
+
 **Asian American Teenager Arrested Outside Home, Offered to Get ID (Date Unknown)**
 - Sources: [YouTube video](https://www.youtube.com/watch?v=Zd4ZF4VrqC4), [TikTok - @zhuozhuo517](https://www.tiktok.com/@zhuozhuo517/video/7595872019330239775)
 - Date: Unknown (TikTok posted Jan 17, 2026)

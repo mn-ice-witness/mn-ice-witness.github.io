@@ -27,12 +27,14 @@ Jose Roberto "Beto" Ramirez, 20, U.S. citizen and Red Lake Nation descendant, wa
 8. The Daily Beast (Jan 12, 2026): [Yet Another ICE Nightmare Unfolds Miles Away From Renee Nicole Good Shooting](https://www.thedailybeast.com/yet-another-ice-nightmare-unfolds-miles-away-from-renee-nicole-good-shooting-in-minnesota/)
 - **Video:** [Aunt's Facebook Live of arrest - original audio](https://www.thedailybeast.com/yet-another-ice-nightmare-unfolds-miles-away-from-renee-nicole-good-shooting-in-minnesota/) - The Daily Beast
 - **Video:** [X post with arrest footage (music overlay)](https://x.com/LongTimeHistory/status/2009499306676322337) - @LongTimeHistory
+9. Star Tribune (Jan 18, 2026): [Allegations of racial profiling of U.S. citizens on the rise as ICE surge expands in Minnesota](https://www.startribune.com/allegations-of-racial-profiling-of-us-citizens-on-the-rise-as-ice-surge-expands-in-minnesota/601564653)
 
 ## Victim(s)
 - **Name:** Jose Roberto "Beto" Ramirez
 - **Age:** 20
 - **Citizenship:** U.S. Citizen (born Minneapolis)
 - **Heritage:** Red Lake Nation (Ojibwe) descendant
+- **Mother:** Raelyn Duffy (Red Lake Nation member)
 
 ## What Happened
 - Followed by blacked-out SUV
