@@ -8,7 +8,7 @@ status: under-investigation
 victim_citizenship: us-citizen
 injuries: fatal
 trustworthiness: high
-last_updated: 2026-01-13
+last_updated: 2026-01-18
 ---
 
 # Renee Nicole Good Shot and Killed by ICE Agent
@@ -42,6 +42,10 @@ Renee Nicole Good, a 37-year-old U.S. citizen, was fatally shot by ICE agent Jon
 23. Democracy Now! (Jan 12, 2026): ["We Had Whistles. They Had Guns" - Nationwide Protests](https://www.democracynow.org/2026/1/12/minneapolis_protests)
 24. YouGov Poll (Jan 2026): [After shooting, majorities view ICE unfavorably](https://today.yougov.com/politics/articles/53892-after-the-shooting-in-minneapolis-majorities-of-americans-view-ice-unfavorably-and-support-major-changes-to-the-agency)
 25. TikTok - CNN (Jan 2026): [Renee Good shooting coverage](https://www.tiktok.com/@cnn/video/7593446292978683191)
+26. CNN (Jan 13, 2026): [New documents shed light on Renee Good's ties to ICE monitoring efforts](https://www.cnn.com/2026/01/13/us/renee-good-minneapolis-ice-monitoring-school-invs)
+27. CNN (Jan 16, 2026): [911 transcripts and incident report reveal where Good was shot](https://www.cnn.com/2026/01/16/us/renee-good-shooting-incident-report)
+28. NBC News (Jan 17, 2026): [Federal officials investigating Renee Good's partner](https://www.nbcnews.com/politics/justice-department/federal-officials-investigating-renee-goods-widow-shooting-probe-sourc-rcna254038)
+29. Truthout (Jan 17, 2026): [DOJ Push to Investigate Renee Good's Widow Sparks Mass Resignation](https://truthout.org/articles/doj-push-to-investigate-renee-goods-widow-sparks-mass-resignation/)
 
 ## Victim(s)
 - **Name:** Renee Nicole Good
@@ -79,9 +83,11 @@ Witnesses reported Good had stopped in the middle of the street and motioned for
 
 ## Aftermath
 - Fundraiser reached $1.5 million for Good's family
-- Six federal prosecutors in Minnesota resigned January 13
+- Six federal prosecutors in Minnesota resigned January 13 over DOJ direction to investigate Becca Good rather than agent Ross
 - State lawsuit filed against DHS, ICE, and CBP
 - 9th ICE shooting since September 2025
+- FBI investigation reportedly focusing on Becca Good (Renee's partner) rather than agent Ross
+- Jan 17: Clarified Becca and Renee were partners, not legally married
 
 ## Editorial Assessment
 **HIGH** - Extensive documentation from multiple independent sources. Basic facts undisputed. Circumstances remain contested between federal and local accounts.
