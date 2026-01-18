@@ -1,5 +1,5 @@
 ---
-date: 2026-01-12
+date: 2026-01-11
 time: unknown
 location: 16th Ave S & E 42nd Street
 city: Minneapolis

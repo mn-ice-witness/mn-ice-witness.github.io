@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768771884,
+  "mediaVersion": 1768773178,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-17-st-louis-park-daycare.md",
@@ -708,33 +708,6 @@
       "aspectRatio": 2.1485943775100402
     },
     {
-      "filePath": "incidents/2026-01/2026-01-12-siguenza-okeefe-detained.md",
-      "title": "Two ICE Observers Detained 8 Hours, Pressured to Name Organizers",
-      "summary": "Brandon Sig\u00fcenza (32) and Patty O'Keefe (36), both U.S. citizens monitoring ICE, were detained 8 hours without charges. Agents pepper-sprayed their car, smashed windows, interrogated them about protest organizers, and offered deals for names.",
-      "date": "2026-01-12",
-      "time": "unknown",
-      "location": "16th Ave S & E 42nd Street",
-      "city": "Minneapolis",
-      "type": "observers",
-      "status": "resolved",
-      "victimCitizenship": "us-citizen",
-      "injuries": "minor",
-      "trustworthiness": "high",
-      "lastUpdated": "2026-01-14",
-      "mediaCount": 0,
-      "notable": false,
-      "hasLocalMedia": true,
-      "localMediaType": "video",
-      "localMediaPath": "media/2026-01-12-siguenza-okeefe-detained.mp4",
-      "localMediaFiles": [
-        {
-          "type": "video",
-          "path": "media/2026-01-12-siguenza-okeefe-detained.mp4"
-        }
-      ],
-      "aspectRatio": 1.6194444444444445
-    },
-    {
       "filePath": "incidents/2026-01/2026-01-12-irma-escoto-citizen-check.md",
       "title": "Citizen Check: U.S. Citizen Surrounded by ICE Agents at West St. Paul Restaurant",
       "summary": "Irma Escoto, a U.S. citizen born in New Mexico, was surrounded by ICE agents while sitting in her car outside El Taquito Taco Shop in West St. Paul. Her husband Luis Escoto, a naturalized citizen since 1992, rushed outside with her passport card to prove her citizenship. The couple co-owns the restaurant and believes she was targeted based on her appearance.",
@@ -1035,6 +1008,28 @@
         }
       ],
       "aspectRatio": 0.9417293233082706
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-11-siguenza-okeefe-detained.md",
+      "title": "Two ICE Observers Detained 8 Hours, Pressured to Name Organizers",
+      "summary": "Brandon Sig\u00fcenza (32) and Patty O'Keefe (36), both U.S. citizens monitoring ICE, were detained 8 hours without charges. Agents pepper-sprayed their car, smashed windows, interrogated them about protest organizers, and offered deals for names.",
+      "date": "2026-01-11",
+      "time": "unknown",
+      "location": "16th Ave S & E 42nd Street",
+      "city": "Minneapolis",
+      "type": "observers",
+      "status": "resolved",
+      "victimCitizenship": "us-citizen",
+      "injuries": "minor",
+      "trustworthiness": "high",
+      "lastUpdated": "2026-01-14",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": [],
+      "aspectRatio": null
     },
     {
       "filePath": "incidents/2026-01/2026-01-11-rogelio-jimenez-brooklyn-park.md",
