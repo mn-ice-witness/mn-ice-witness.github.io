@@ -6,6 +6,13 @@ const App = {
     viewedIncidents: new Set(),
     sectionHashes: ['citizens', 'observers', 'immigrants', 'schools', 'response'],
     isScrollingToSection: false,
+    categoryLabels: {
+        'citizens': 'CITIZEN',
+        'observers': 'OBSERVER',
+        'immigrants': 'IMMIGRANT',
+        'schools-hospitals': 'SCHOOL',
+        'response': 'RESPONSE'
+    },
 
     // Simple stemmer - strips common suffixes for search matching
     stem(word) {
@@ -246,12 +253,14 @@ const App = {
         toggle.classList.toggle('list-active', view === 'list');
 
         if (sectionNav) {
-            sectionNav.style.display = view === 'media' ? 'none' : '';
+            // Hide nav in media view, or in list view when sortByUpdated is on
+            sectionNav.style.display = (view === 'media' || this.sortByUpdated) ? 'none' : '';
         }
 
         if (view === 'list') {
             listView.style.display = '';
             mediaGallery.style.display = 'none';
+            this.render(); // Re-render to handle flat list vs category mode
         } else {
             listView.style.display = 'none';
             mediaGallery.style.display = '';
@@ -742,36 +751,71 @@ const App = {
     },
 
     render() {
-        const tables = document.querySelectorAll('.incident-table');
         const filtered = this.getFilteredIncidents();
+        const flatList = document.getElementById('flat-list');
+        const sections = document.querySelectorAll('.incident-section');
+        const sectionNav = document.getElementById('section-nav');
 
-        tables.forEach(table => {
-            const type = table.dataset.type;
-            const typeIncidents = filtered.filter(i =>
-                Array.isArray(i.type) ? i.type.includes(type) : i.type === type
-            );
+        if (this.sortByUpdated && this.currentView === 'list') {
+            // Flat list mode: hide sections and nav, show flat list
+            sections.forEach(s => s.style.display = 'none');
+            if (sectionNav) sectionNav.style.display = 'none';
+            if (flatList) flatList.style.display = '';
 
-            if (typeIncidents.length === 0) {
-                const hasSearch = typeof Search !== 'undefined' && Search.query;
-                const msg = hasSearch ? 'No matches' : 'No incidents documented yet';
-                table.innerHTML = `<div class="table-empty">${msg}</div>`;
-                return;
+            const flatTable = document.getElementById('flat-list-table');
+            if (flatTable) {
+                if (filtered.length === 0) {
+                    const hasSearch = typeof Search !== 'undefined' && Search.query;
+                    const msg = hasSearch ? 'No matches' : 'No incidents documented yet';
+                    flatTable.innerHTML = `<div class="table-empty">${msg}</div>`;
+                } else {
+                    flatTable.innerHTML = filtered
+                        .map(incident => this.renderRow(incident, true))
+                        .join('');
+
+                    flatTable.querySelectorAll('.incident-row').forEach((row, index) => {
+                        row.addEventListener('click', () => {
+                            this.markAsViewed(filtered[index]);
+                            Lightbox.open(filtered[index]);
+                        });
+                    });
+                }
             }
+        } else {
+            // Category mode: show sections, hide flat list
+            sections.forEach(s => s.style.display = '');
+            if (flatList) flatList.style.display = 'none';
+            if (sectionNav && this.currentView === 'list') sectionNav.style.display = '';
 
-            table.innerHTML = typeIncidents
-                .map(incident => this.renderRow(incident))
-                .join('');
+            const tables = document.querySelectorAll('.incident-section .incident-table');
+            tables.forEach(table => {
+                const type = table.dataset.type;
+                const typeIncidents = filtered.filter(i =>
+                    Array.isArray(i.type) ? i.type.includes(type) : i.type === type
+                );
 
-            table.querySelectorAll('.incident-row').forEach((row, index) => {
-                row.addEventListener('click', () => {
-                    this.markAsViewed(typeIncidents[index]);
-                    Lightbox.open(typeIncidents[index]);
+                if (typeIncidents.length === 0) {
+                    const hasSearch = typeof Search !== 'undefined' && Search.query;
+                    const msg = hasSearch ? 'No matches' : 'No incidents documented yet';
+                    table.innerHTML = `<div class="table-empty">${msg}</div>`;
+                    return;
+                }
+
+                table.innerHTML = typeIncidents
+                    .map(incident => this.renderRow(incident))
+                    .join('');
+
+                table.querySelectorAll('.incident-row').forEach((row, index) => {
+                    row.addEventListener('click', () => {
+                        this.markAsViewed(typeIncidents[index]);
+                        Lightbox.open(typeIncidents[index]);
+                    });
                 });
             });
-        });
+        }
     },
 
-    renderRow(incident) {
+    renderRow(incident, showCategory = false) {
         // Parse date parts directly to avoid timezone issues
         const [year, month, day] = incident.date.split('-');
         const monthNames = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
@@ -784,6 +828,14 @@ const App = {
 
         const mediaIcon = incident.hasLocalMedia ? '<svg class="media-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>' : '';
 
+        // Get category prefix for flat list mode
+        let categoryPrefix = '';
+        if (showCategory) {
+            const type = Array.isArray(incident.type) ? incident.type[0] : incident.type;
+            const label = this.categoryLabels[type] || type.toUpperCase();
+            categoryPrefix = `<span class="category-label">${label}:</span> `;
+        }
+
         return `
             <article class="incident-row ${viewedClass}" role="button" tabindex="0" data-incident-id="${incidentId}">
                 <div class="row-date">
@@ -791,7 +843,7 @@ const App = {
                     ${monthStr}
                 </div>
                 <div class="row-content">
-                    <h3 class="row-title">${incident.title}</h3>
+                    <h3 class="row-title">${categoryPrefix}${incident.title}</h3>
                     <p class="row-location">${incident.location}, ${incident.city}</p>
                 </div>
                 <div class="row-meta">

@@ -18,6 +18,7 @@ Irma Escoto, a U.S. citizen born in New Mexico, was surrounded by ICE agents whi
 
 ## Sources
 1. CBS Minnesota (Jan 12, 2026): [U.S. citizens recount being detained by ICE during Minnesota operation](https://www.cbsnews.com/minnesota/news/us-citizens-arrested-by-ice-minneapolis/)
+2. Star Tribune (Jan 18, 2026): [Allegations of racial profiling of U.S. citizens on the rise as ICE surge expands in Minnesota](https://www.startribune.com/allegations-of-racial-profiling-of-us-citizens-on-the-rise-as-ice-surge-expands-in-minnesota/601564653)
 
 ## Victim(s)
 - **Name:** Irma Escoto

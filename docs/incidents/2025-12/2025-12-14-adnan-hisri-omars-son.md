@@ -26,6 +26,7 @@ Adnan Hisri, the 20-year-old U.S.-born son of Rep. Ilhan Omar, was stopped by fe
 7. The Hill (Dec 2025): [DHS denies claims of ICE profiling Rep. Ilhan Omar's son](https://thehill.com/policy/national-security/5651778-omar-son-ice-incident-dispute/)
 8. Bring Me The News (Dec 2025): [Recent ICE activity - Ilhan Omar's son stopped](https://bringmethenews.com/minnesota-news/recent-ice-activity-chanhassen-rooftop-standoff-ilhan-omars-son-stopped)
 9. X (Dec 2025): [@Combs0294 on racial profiling](https://x.com/Combs0294/status/2001107480474960204)
+10. Star Tribune (Jan 18, 2026): [Allegations of racial profiling of U.S. citizens on the rise as ICE surge expands in Minnesota](https://www.startribune.com/allegations-of-racial-profiling-of-us-citizens-on-the-rise-as-ice-surge-expands-in-minnesota/601564653)
 
 ## Victim(s)
 - **Name:** Adnan Hisri

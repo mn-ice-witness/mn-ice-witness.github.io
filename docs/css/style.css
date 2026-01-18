@@ -815,6 +815,10 @@ body {
     scroll-margin-top: 50px;
 }
 
+.flat-list {
+    margin-top: 16px;
+}
+
 .section-header {
     display: flex;
     align-items: stretch;
@@ -932,6 +936,13 @@ body {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
+}
+
+.category-label {
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: var(--color-text-secondary);
+    letter-spacing: 0.03em;
 }
 
 .row-location {
