@@ -104,8 +104,11 @@ status: ongoing | resolved | under-investigation
 victim_citizenship: us-citizen | legal-resident | undocumented | asylum-seeker | unknown
 injuries: none | minor | serious | fatal
 trustworthiness: high | medium | low | unverified
-last_updated: YYYY-MM-DD
+last_updated: YYYY-MM-DD  # See rules below
 ---
+
+### `last_updated` Rules (Important!)
+The website has a "Sort by Updated" feature. Only change `last_updated` for **substantive story developments** (judge ruling, release, new facts) — NOT for adding sources, formatting, or typo fixes. See `dev-docs/adding-incidents.md` for full rules.
 
 ### Type Categories (exactly 5)
 | Type | Website Section | Use For |

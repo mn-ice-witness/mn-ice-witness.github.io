@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-13
+last_updated: 2026-01-14
 ---
 
 # Elderly Couple Has Guns Pointed at Them After Following ICE Vehicle

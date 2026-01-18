@@ -2,6 +2,7 @@ const App = {
     incidents: [],
     mediaVersion: '',
     currentView: 'media',
+    sortByUpdated: false,
     viewedIncidents: new Set(),
     sectionHashes: ['citizens', 'observers', 'immigrants', 'schools', 'response'],
     isScrollingToSection: false,
@@ -20,33 +21,45 @@ const App = {
 
     getFilteredIncidents() {
         const query = (typeof Search !== 'undefined' && Search.query) ? Search.query.toLowerCase().trim() : '';
-        if (!query) return this.incidents;
+        let results = this.incidents;
 
-        const terms = query.split(/\s+/).filter(t => t.length > 0);
-        const stemmedTerms = terms.map(t => this.stem(t));
+        if (query) {
+            const terms = query.split(/\s+/).filter(t => t.length > 0);
+            const stemmedTerms = terms.map(t => this.stem(t));
 
-        return this.incidents.filter(incident => {
-            const searchText = [
-                incident.title,
-                incident.summary,
-                incident.location,
-                incident.city
-            ].join(' ').toLowerCase();
+            results = this.incidents.filter(incident => {
+                const searchText = [
+                    incident.title,
+                    incident.summary,
+                    incident.location,
+                    incident.city
+                ].join(' ').toLowerCase();
 
-            // Extract words (word boundary matching) and stem them
-            const words = searchText.match(/\b\w+\b/g) || [];
-            const stemmedWords = new Set(words.map(w => this.stem(w)));
+                const words = searchText.match(/\b\w+\b/g) || [];
+                const stemmedWords = new Set(words.map(w => this.stem(w)));
 
-            // Every search term (stemmed) must match some word (stemmed)
-            return stemmedTerms.every(stemmedTerm => stemmedWords.has(stemmedTerm));
-        });
+                return stemmedTerms.every(stemmedTerm => stemmedWords.has(stemmedTerm));
+            });
+        }
+
+        if (this.sortByUpdated) {
+            results = [...results].sort((a, b) => {
+                const dateA = a.lastUpdated || a.date;
+                const dateB = b.lastUpdated || b.date;
+                return dateB.localeCompare(dateA);
+            });
+        }
+
+        return results;
     },
 
     async init() {
         this.loadViewedState();
+        this.loadSortPreference();
         this.loadViewFromUrl();
         this.initSplash();
         this.initViewToggle();
+        this.initSortToggle();
         this.initSectionNav();
         this.initClearViewed();
         Lightbox.init();
@@ -55,6 +68,30 @@ const App = {
         this.applyInitialView();
         this.openFromHash();
         window.addEventListener('hashchange', () => this.openFromHash());
+    },
+
+    loadSortPreference() {
+        this.sortByUpdated = localStorage.getItem('sortByUpdated') === 'true';
+    },
+
+    saveSortPreference() {
+        localStorage.setItem('sortByUpdated', this.sortByUpdated.toString());
+    },
+
+    initSortToggle() {
+        const checkbox = document.getElementById('sort-updated-checkbox');
+        if (!checkbox) return;
+
+        checkbox.checked = this.sortByUpdated;
+
+        checkbox.addEventListener('change', () => {
+            this.sortByUpdated = checkbox.checked;
+            this.saveSortPreference();
+            this.render();
+            if (this.currentView === 'media') {
+                this.renderMediaGallery();
+            }
+        });
     },
 
     loadViewFromUrl() {
@@ -240,8 +277,10 @@ const App = {
             return;
         }
 
-        // Sort by media-order.md
-        mediaIncidents = await this.sortMediaByOrder(mediaIncidents);
+        // Sort by media-order.md (unless sorting by updated)
+        if (!this.sortByUpdated) {
+            mediaIncidents = await this.sortMediaByOrder(mediaIncidents);
+        }
 
         const columnCount = this.getColumnCount();
 

@@ -496,6 +496,45 @@ body {
     box-shadow: 0 0 0 3px rgba(90, 122, 158, 0.3), 0 0 12px rgba(90, 122, 158, 0.4);
 }
 
+/* ==================== SORT TOGGLE ==================== */
+
+.sort-toggle {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+    font-size: 0.6rem;
+    color: #9aa3ad;
+    user-select: none;
+}
+
+.sort-toggle input[type="checkbox"] {
+    width: 12px;
+    height: 12px;
+    accent-color: #5a7a9e;
+    cursor: pointer;
+    margin: 0;
+}
+
+.sort-toggle .sort-label {
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.sort-toggle:hover {
+    color: #8a9bab;
+}
+
+.sort-toggle input:checked + .sort-label {
+    color: #5a7a9e;
+    font-weight: 500;
+}
+
 /* ==================== SEARCH MODAL ==================== */
 
 .search-modal {

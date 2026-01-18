@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: asylum-seeker
 injuries: serious
 trustworthiness: high
-last_updated: 2026-01-17
+last_updated: 2026-01-14
 ---
 
 # 13-Year-Old Boy Handcuffed, Thrown to Ground by ICE Agents

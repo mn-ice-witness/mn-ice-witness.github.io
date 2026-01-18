@@ -8,7 +8,7 @@ status: under-investigation
 victim_citizenship: unknown
 injuries: minor
 trustworthiness: high
-last_updated: 2026-01-13
+last_updated: 2026-01-14
 ---
 
 # ICE Agent Fires Shots During St. Paul Arrest After Being Struck by Vehicle

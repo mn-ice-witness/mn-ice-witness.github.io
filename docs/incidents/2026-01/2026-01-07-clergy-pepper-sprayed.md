@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizens
 injuries: pepper-spray-exposure
 trustworthiness: high
-last_updated: 2026-01-17
+last_updated: 2026-01-14
 ---
 
 # Clergy Pepper Sprayed at Scene of Renee Good Shooting

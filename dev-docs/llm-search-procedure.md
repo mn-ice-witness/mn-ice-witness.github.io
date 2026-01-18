@@ -209,9 +209,27 @@ When new sources contain significant new information (court rulings, releases, n
 1. **Update the Summary** - Reflect major developments (e.g., judge's ruling, release, new charges)
 2. **Update Status** - Change `ongoing` to `resolved` if case concluded
 3. **Update Timeline** - Add new dated events
-4. **Update last_updated** - Set to current date
+4. **Update `last_updated`** - **ONLY for substantive story changes** (see below)
 
 Example: If a judge rules an arrest was unconstitutional, update the summary to mention the ruling, not just add the source.
+
+### When to Update `last_updated` (Critical!)
+
+**This field powers the "Sort by Updated" feature on the website.** Users who sort by "Updated" want to see incidents where something actually happened, not incidents that got more sources added.
+
+| Action | Update `last_updated`? |
+|--------|------------------------|
+| Judge ruling / court decision | ✅ YES |
+| Person released or deported | ✅ YES |
+| Status change (ongoing → resolved) | ✅ YES |
+| New facts emerge (identity confirmed, details) | ✅ YES |
+| Lawsuit filed | ✅ YES |
+| **Adding more news sources** | ❌ NO |
+| **Adding video/photo links** | ❌ NO |
+| **Trustworthiness rating change** | ❌ NO |
+| **Formatting/typo fixes** | ❌ NO |
+
+**Example:** You find 3 new news articles about the Garrison Gibson incident. Just add them to Sources — do NOT update `last_updated`. But if one of those articles says the judge released him, THEN update `last_updated` and the Summary.
 
 ### Adding Sources to Existing Incidents
 

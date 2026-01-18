@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: serious
 trustworthiness: high
-last_updated: 2026-01-16
+last_updated: 2026-01-15
 ---
 
 # Six Children Hospitalized After ICE Deploys Flashbangs and Tear Gas on Family SUV

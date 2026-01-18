@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
-last_updated: 2026-01-13
+last_updated: 2026-01-14
 ---
 
 # U.S. Citizen Observer Detained 5 Hours, Wedding Ring Cut Off

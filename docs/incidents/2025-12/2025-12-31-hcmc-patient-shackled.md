@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: undocumented
 injuries: unknown
 trustworthiness: high
-last_updated: 2026-01-15
+last_updated: 2026-01-14
 ---
 
 # Patient Shackled to Hospital Bed by ICE for 28 Hours Without Warrant

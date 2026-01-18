@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: asylum-seeker
 injuries: serious
 trustworthiness: high
-last_updated: 2026-01-17
+last_updated: 2026-01-14
 ---
 
 # Libyan Man Seeking Medical Treatment Detained, Shackled Despite Skin Condition

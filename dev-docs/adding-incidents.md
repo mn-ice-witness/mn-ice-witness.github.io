@@ -235,10 +235,40 @@ git push
 When new information emerges:
 
 1. Edit the markdown file
-2. Update `last_updated` in frontmatter
+2. **Only update `last_updated` for substantive story changes** (see below)
 3. Add new sources to Sources section
 4. Update Editorial Assessment if trustworthiness changes
 5. Commit with message like "Update: New video evidence for Speedway incident"
+
+### When to Update `last_updated`
+
+**IMPORTANT:** The `last_updated` field powers the "Sort by Updated" feature on the website. Only update it for **substantive story developments** — not routine maintenance.
+
+#### DO Update `last_updated` For:
+| Change Type | Examples |
+|-------------|----------|
+| **Case developments** | Judge ruling, person released, charges filed, lawsuit filed |
+| **Status changes** | Detained → Released, Under investigation → Resolved |
+| **New facts about the incident** | Victim identity confirmed, location corrected, new details emerge |
+| **Merging incidents** | When combining duplicate incident files |
+| **Significant new witness accounts** | Major new testimony that changes understanding |
+
+#### DO NOT Update `last_updated` For:
+| Change Type | Why Not |
+|-------------|---------|
+| Adding more sources | Just expands documentation, doesn't change the story |
+| Formatting/schema changes | Internal maintenance |
+| Trustworthiness rating changes | Editorial judgment, not story change |
+| Typo fixes | Cosmetic |
+| Adding video/photo links | Just more documentation |
+
+**Rationale:** Users who sort by "Updated" want to see incidents where something actually happened — a release, a ruling, new facts. They don't want to see incidents bubble up just because someone found another news article.
+
+#### Example Commit Messages:
+- ✅ "Update Gibson: judge orders release" → DO update `last_updated`
+- ✅ "Update Nasra Ahmed: add photo and new details" → DO update `last_updated`
+- ❌ "Add 5 new sources to Renee Good incident" → DO NOT update `last_updated`
+- ❌ "Standardize source formatting" → DO NOT update `last_updated`
 
 ### NEVER Remove Valid Sources
 

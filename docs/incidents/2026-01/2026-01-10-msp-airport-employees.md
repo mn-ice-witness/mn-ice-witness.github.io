@@ -8,7 +8,7 @@ status: unknown
 victim_citizenship: unknown
 injuries: none
 trustworthiness: medium
-last_updated: 2026-01-13
+last_updated: 2026-01-14
 ---
 
 # Multiple Airport Employees Detained by ICE at MSP

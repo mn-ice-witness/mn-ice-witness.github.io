@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: legal-resident
 injuries: none
 trustworthiness: medium
-last_updated: 2026-01-13
+last_updated: 2026-01-14
 ---
 
 # Addiction Recovery Leader Detained, Labeled "Gang Member"
