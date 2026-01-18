@@ -618,6 +618,7 @@ body {
     contain: layout style paint;
     content-visibility: auto;
     contain-intrinsic-size: auto 300px;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .media-card:hover {
@@ -1396,6 +1397,7 @@ body {
     color: rgba(255, 255, 255, 0.4);
     transition: color 0.15s;
     position: relative;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .media-control-btn:hover {
