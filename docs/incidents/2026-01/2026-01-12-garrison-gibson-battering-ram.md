@@ -14,7 +14,7 @@ last_updated: 2026-01-18
 # Liberian Man Arrested With Battering Ram, No Judicial Warrant
 
 ## Summary
-Garrison Gibson, a 38-year-old Liberian citizen who has lived in the U.S. for approximately 20 years, was arrested by ICE agents who used a battering ram to enter his north Minneapolis home. His family demanded to see a judicial warrant, but agents presented only an administrative warrant signed by an immigration officer. A 9-year-old child was inside the home during the raid. A federal judge ruled the arrest violated Gibson's Fourth Amendment rights and ordered his immediate release, finding he has "no criminal record" — contradicting DHS claims. Gibson was released but taken back into ICE custody the next day.
+Garrison Gibson, a 38-year-old Liberian citizen who has lived in the U.S. for approximately 20 years, was arrested by ICE agents who used a battering ram to enter his north Minneapolis home. His family demanded to see a judicial warrant, but agents presented only an administrative warrant signed by an immigration officer. A 9-year-old child was inside the home during the raid. A federal judge ruled the arrest violated Gibson's Fourth Amendment rights and ordered his immediate release, finding he has "no criminal record" — contradicting DHS claims. Gibson was released but taken back into ICE custody the next day. At a Jan 18 press conference, Gibson alleged agents took "trophy photos" of him and held him in an overcrowded cell. He now wears an ankle monitor and says he is afraid to leave his home.
 
 ## Sources
 1. FOX 9 (Jan 12, 2026): [Minneapolis family demands judicial warrant as federal agents bust door](https://www.fox9.com/news/minneapolis-family-demands-judicial-warrant-federal-agents-raid-jan-2026)
@@ -28,6 +28,8 @@ Garrison Gibson, a 38-year-old Liberian citizen who has lived in the U.S. for ap
 9. ABC News (Jan 17, 2026): [A Liberian man released after his battering-ram arrest in Minneapolis is back in custody again](https://abcnews.go.com/US/wireStory/liberian-man-released-after-battering-ram-arrest-minneapolis-129282435)
 10. Hoodline (Jan 16, 2026): [Minneapolis Judge Slams ICE Battering Ram Raid, Orders Man Freed](https://hoodline.com/2026/01/minneapolis-judge-slams-ice-battering-ram-raid-orders-man-freed/)
 11. Fox 9 (Jan 17, 2026): [Judge: ICE violated Liberian man's rights by bursting through front door during arrest](https://www.fox9.com/news/judge-ice-violated-liberian-mans-rights-bursting-through-front-door-during-arrest)
+12. CBS Minnesota (Jan 17, 2026): [1 day after judge orders release, agents re-arrest him at immigration check-in](https://www.cbsnews.com/minnesota/news/judge-orders-release-of-liberian-man-arrested-by-ice-in-minneapolis-home-invasion/)
+13. MPR News (Jan 18, 2026): [Garrison Gibson says ICE agents took 'trophy' photos after Minneapolis arrest](https://www.mprnews.org/story/2026/01/18/garrison-gibson-says-ice-agents-took-trophy-photos-locked-in-overcrowded-cell)
 
 ## Victim(s)
 - **Name:** Garrison Gibson
@@ -54,7 +56,11 @@ He had checked in with ICE officials approximately two weeks before the arrest.
 - **Within 24 hours** - Habeas petition filed in federal court
 - **After arrest** - Gibson flown to Fort Bliss Army base in El Paso, Texas
 - **After habeas filing** - Judge ordered DHS to return Gibson to Minnesota
-- **Current** - Detained at Freeborn County jail in Albert Lea, MN
+- **Jan 16, 2026** - Federal judge rules arrest violated Fourth Amendment, orders release
+- **Jan 16, 2026 (evening)** - Gibson released from custody
+- **Jan 17, 2026** - Re-arrested at routine immigration check-in
+- **Jan 17, 2026 (evening)** - Released again after ICE admits error; required to wear ankle monitor
+- **Jan 18, 2026** - Gibson holds press conference, alleges "trophy photos" and overcrowded cell
 
 ## The Warrant Issue
 - Family alleges agents presented only an administrative warrant signed by an immigration officer, not a judge
@@ -71,6 +77,16 @@ Court records contradict this characterization, showing his legal history is dom
 
 ### Family Statement
 Abena Abraham, speaking on behalf of the family: "This is unacceptable; this trauma to the family was really unnecessary."
+
+Abraham also claimed that ICE officials told her on Jan 17 that White House Deputy Chief of Staff Stephen Miller ordered Gibson to be re-arrested. The White House denied this account.
+
+## Detention Conditions (Jan 18 Press Conference)
+At a press conference on Saturday, Jan 18, Gibson made the following allegations about his treatment during detention:
+- ICE agents took unwanted "trophy photos" of him
+- He was locked in an overcrowded cell
+- Gibson: "I don't leave the house" — describing his current fear of going outside
+- Gibson: "If I was a violent person, I would not have been out these past 17 years, checking in."
+- He wore a shirt reading "Immigrants make America great" at the press conference
 
 ## Legal Response
 - Habeas petition filed within 24 hours of arrest
