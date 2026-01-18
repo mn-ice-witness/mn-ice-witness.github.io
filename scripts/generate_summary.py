@@ -7,6 +7,7 @@ eliminating the need to fetch individual markdown files on page load.
 
 import json
 import re
+import subprocess
 import time
 from pathlib import Path
 
@@ -16,13 +17,34 @@ VIDEO_EXTENSIONS = {'.mp4', '.webm'}
 IMAGE_EXTENSIONS = {'.webp', '.jpg', '.jpeg', '.png'}
 
 
+def get_media_aspect_ratio(file_path: Path):
+    """Get aspect ratio (width/height) of a media file using ffprobe."""
+    try:
+        result = subprocess.run(
+            ['ffprobe', '-v', 'error', '-select_streams', 'v:0',
+             '-show_entries', 'stream=width,height', '-of', 'csv=p=0',
+             str(file_path)],
+            capture_output=True, text=True, timeout=5
+        )
+        if result.returncode == 0 and result.stdout.strip():
+            parts = result.stdout.strip().split(',')
+            if len(parts) >= 2:
+                width, height = int(parts[0]), int(parts[1])
+                if height > 0:
+                    return width / height
+    except (subprocess.TimeoutExpired, FileNotFoundError, ValueError):
+        pass
+    return None
+
+
 def get_local_media(slug: str, media_dir: Path) -> dict:
     """Check for local media files matching the incident slug."""
     result = {
         'hasLocalMedia': False,
         'localMediaType': None,
         'localMediaPath': None,
-        'localMediaFiles': []
+        'localMediaFiles': [],
+        'aspectRatio': None
     }
 
     if not media_dir.exists():
@@ -34,21 +56,23 @@ def get_local_media(slug: str, media_dir: Path) -> dict:
     for ext in VIDEO_EXTENSIONS:
         media_path = media_dir / f"{slug}{ext}"
         if media_path.exists():
-            media_files.append({'type': 'video', 'path': f"media/{slug}{ext}"})
+            media_files.append({'type': 'video', 'path': f"media/{slug}{ext}", 'file': media_path})
 
     # Collect all matching image files
     for ext in IMAGE_EXTENSIONS:
         media_path = media_dir / f"{slug}{ext}"
         if media_path.exists():
-            media_files.append({'type': 'image', 'path': f"media/{slug}{ext}"})
+            media_files.append({'type': 'image', 'path': f"media/{slug}{ext}", 'file': media_path})
 
     if media_files:
         result['hasLocalMedia'] = True
-        result['localMediaFiles'] = media_files
+        result['localMediaFiles'] = [{'type': m['type'], 'path': m['path']} for m in media_files]
         # Primary media (video preferred) for backwards compatibility
         primary = next((m for m in media_files if m['type'] == 'video'), media_files[0])
         result['localMediaType'] = primary['type']
         result['localMediaPath'] = primary['path']
+        # Get aspect ratio for primary media
+        result['aspectRatio'] = get_media_aspect_ratio(primary['file'])
 
     return result
 
@@ -130,7 +154,8 @@ def process_incident(file_path, docs_dir, media_dir):
         'hasLocalMedia': local_media['hasLocalMedia'],
         'localMediaType': local_media['localMediaType'],
         'localMediaPath': local_media['localMediaPath'],
-        'localMediaFiles': local_media['localMediaFiles']
+        'localMediaFiles': local_media['localMediaFiles'],
+        'aspectRatio': local_media['aspectRatio']
     }
 
 

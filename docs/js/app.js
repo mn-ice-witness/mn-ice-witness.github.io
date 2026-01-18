@@ -245,20 +245,11 @@ const App = {
 
         const columnCount = this.getColumnCount();
 
-        // Create column containers
-        const columns = [];
-        for (let i = 0; i < columnCount; i++) {
-            const col = document.createElement('div');
-            col.className = 'gallery-column';
-            columns.push(col);
-        }
-
-        // Distribute cards round-robin into columns
-        mediaIncidents.forEach((incident, index) => {
-            const columnIndex = index % columnCount;
-            const card = document.createElement('div');
-            card.innerHTML = this.renderMediaCard(incident);
-            const cardEl = card.firstElementChild;
+        // Create card elements with estimated heights
+        const cards = mediaIncidents.map(incident => {
+            const wrapper = document.createElement('div');
+            wrapper.innerHTML = this.renderMediaCard(incident);
+            const cardEl = wrapper.firstElementChild;
 
             // Handle audio toggle clicks separately
             const audioToggle = cardEl.querySelector('.audio-toggle');
@@ -274,12 +265,70 @@ const App = {
             }
 
             cardEl.addEventListener('click', () => Lightbox.open(incident));
-            columns[columnIndex].appendChild(cardEl);
+
+            // Estimate height (use aspect ratio from incident if available, else default)
+            const estimatedHeight = incident.aspectRatio ? (1 / incident.aspectRatio) : 1;
+
+            return { element: cardEl, height: estimatedHeight };
         });
+
+        // Create column containers with height tracking
+        const columns = [];
+        for (let i = 0; i < columnCount; i++) {
+            columns.push({ element: document.createElement('div'), cards: [], height: 0 });
+            columns[i].element.className = 'gallery-column';
+        }
+
+        // Distribute cards round-robin, tracking heights
+        cards.forEach((card, index) => {
+            const columnIndex = index % columnCount;
+            columns[columnIndex].cards.push(card);
+            columns[columnIndex].height += card.height;
+        });
+
+        // Balance columns: move items from tallest to shortest until balanced
+        if (columnCount > 1) {
+            let iterations = 0;
+            const maxIterations = cards.length * 2; // Safety limit
+
+            while (iterations < maxIterations) {
+                iterations++;
+
+                // Find tallest and shortest columns
+                let tallest = columns[0], shortest = columns[0];
+                for (const col of columns) {
+                    if (col.height > tallest.height) tallest = col;
+                    if (col.height < shortest.height) shortest = col;
+                }
+
+                // If same column or no cards to move, done
+                if (tallest === shortest || tallest.cards.length === 0) break;
+
+                // Get last card from tallest column
+                const lastCard = tallest.cards[tallest.cards.length - 1];
+
+                // If moving would help balance (diff > last card height), move it
+                if (tallest.height - shortest.height > lastCard.height) {
+                    tallest.cards.pop();
+                    tallest.height -= lastCard.height;
+                    shortest.cards.push(lastCard);
+                    shortest.height += lastCard.height;
+                } else {
+                    break; // No more beneficial moves
+                }
+            }
+        }
+
+        // Add cards to column elements
+        for (const col of columns) {
+            for (const card of col.cards) {
+                col.element.appendChild(card.element);
+            }
+        }
 
         // Clear gallery and add columns
         gallery.innerHTML = '';
-        columns.forEach(col => gallery.appendChild(col));
+        columns.forEach(col => gallery.appendChild(col.element));
 
         // Add footer link
         const footer = document.createElement('div');
