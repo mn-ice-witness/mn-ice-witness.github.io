@@ -94,6 +94,11 @@ const App = {
         checkbox.addEventListener('change', () => {
             this.sortByUpdated = checkbox.checked;
             this.saveSortPreference();
+            // Update toggle position: only offset from top when nav is visible
+            const toggle = document.getElementById('view-toggle');
+            if (toggle) {
+                toggle.classList.toggle('list-active', this.currentView === 'list' && !this.sortByUpdated);
+            }
             this.render();
             if (this.currentView === 'media') {
                 this.renderMediaGallery();
@@ -250,7 +255,8 @@ const App = {
             btn.classList.toggle('active', btn.dataset.view === view);
         });
 
-        toggle.classList.toggle('list-active', view === 'list');
+        // Only add list-active (which offsets from top) when nav is visible
+        toggle.classList.toggle('list-active', view === 'list' && !this.sortByUpdated);
 
         if (sectionNav) {
             // Hide nav in media view, or in list view when sortByUpdated is on
