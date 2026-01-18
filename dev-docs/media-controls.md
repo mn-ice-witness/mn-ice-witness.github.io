@@ -15,13 +15,13 @@ The site has **three distinct contexts** where video is displayed, each with dif
 | Feature | Media Gallery | Incident Page | Fullscreen |
 |---------|--------------|---------------|------------|
 | Autoplay | On scroll (40%+ visible) | On open | Continues |
-| Muted by default | Yes | Yes | No (preserves state) |
+| Muted by default | Yes | Yes | Preserves state |
 | Loop | Yes | No | No |
 | Play/Pause | No | Yes | Yes |
 | Time slider | No | No | **Yes** |
 | Restart | No | Yes | Yes (prompt on end) |
 | Volume toggle | Yes | Yes | Yes |
-| Fullscreen button | No | Yes | Exit button |
+| Fullscreen button | Yes | Yes | Exit button |
 | End behavior | Loop | Grayscale + "scroll for sources" | Grayscale + restart prompt |
 
 ## Media Gallery Controls
@@ -30,9 +30,11 @@ Videos in the gallery are designed for passive browsing:
 - **Autoplay on scroll** - Videos play automatically when 40%+ visible
 - **Muted by default** - All videos start muted
 - **Loop** - Videos loop continuously
-- **Single control: Volume toggle** - Users can unmute individual videos
+- **Control bar** - Uses the same `.media-controls` styling as incident page
+  - Normal view: Volume toggle + Fullscreen button only
+  - Fullscreen: Full control bar (play/pause, time slider, restart, volume, exit fullscreen)
 
-Why minimal controls: The gallery is for quick browsing. Users tap a card to open the full incident view where they get full controls.
+Why minimal controls in normal view: The gallery is for quick browsing. Users can enter fullscreen for full controls or tap the card to open the incident view with sources.
 
 ## Incident Page Controls (Lightbox)
 
@@ -123,6 +125,6 @@ The container needs styles for fullscreen mode:
 
 ## Files
 
-- `docs/js/lightbox.js` - `setupMediaControls()` and `renderVideoElement()`
-- `docs/js/app.js` - `renderMediaCard()` and `setupScrollToPlay()`
-- `docs/css/style.css` - `.media-controls`, `.media-control-btn`, fullscreen styles
+- `docs/js/lightbox.js` - `setupMediaControls()` and `renderVideoElement()` for incident page
+- `docs/js/app.js` - `renderMediaCard()` (uses shared `.media-controls` bar) and `setupScrollToPlay()`
+- `docs/css/style.css` - `.media-controls`, `.media-control-btn`, fullscreen styles for both contexts

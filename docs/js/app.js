@@ -251,18 +251,7 @@ const App = {
             wrapper.innerHTML = this.renderMediaCard(incident);
             const cardEl = wrapper.firstElementChild;
 
-            // Handle audio toggle clicks separately
-            const audioToggle = cardEl.querySelector('.audio-toggle');
-            if (audioToggle) {
-                audioToggle.addEventListener('click', (e) => {
-                    e.stopPropagation();
-                    const video = cardEl.querySelector('.media-card-video');
-                    if (video) {
-                        video.muted = !video.muted;
-                        audioToggle.classList.toggle('muted', video.muted);
-                    }
-                });
-            }
+            this.setupMediaCardControls(cardEl);
 
             cardEl.addEventListener('click', () => Lightbox.open(incident));
 
@@ -406,20 +395,47 @@ const App = {
         const mediaUrl = this.getMediaUrl(incident.localMediaPath);
 
         let mediaElement;
-        let audioControl = '';
+        let videoControls = '';
         if (incident.localMediaType === 'video') {
             const videoSrc = mediaUrl + '#t=0.001';
             mediaElement = `<video class="media-card-video" src="${videoSrc}" muted loop playsinline preload="auto" disableRemotePlayback></video>`;
-            audioControl = `
-                <button class="audio-toggle muted" aria-label="Toggle sound">
-                    <svg class="speaker-icon" viewBox="0 0 24 24" width="24" height="24">
-                        <path d="M3 9v6h4l5 5V4L7 9H3z" fill="currentColor"/>
-                        <path class="speaker-waves" d="M18 12c0-2.05-1.18-3.82-2.9-4.68v9.36c1.72-.86 2.9-2.63 2.9-4.68z" fill="currentColor"/>
-                    </svg>
-                    <svg class="mute-x" viewBox="0 0 24 24" width="24" height="24">
-                        <path d="M24 10.5l-2.5-2.5-2.5 2.5-2.5-2.5-2 2 2.5 2.5-2.5 2.5 2 2 2.5-2.5 2.5 2.5 2-2-2.5-2.5 2.5-2.5z" fill="currentColor"/>
-                    </svg>
-                </button>
+            videoControls = `
+                <div class="media-controls">
+                    <button class="media-control-btn play-pause-btn" aria-label="Play/Pause">
+                        <svg class="media-icon-pause" viewBox="0 0 24 24" width="24" height="24">
+                            <rect x="6" y="4" width="4" height="16" rx="1" fill="currentColor"/>
+                            <rect x="14" y="4" width="4" height="16" rx="1" fill="currentColor"/>
+                        </svg>
+                        <svg class="media-icon-play" viewBox="0 0 24 24" width="24" height="24" style="display:none">
+                            <polygon points="6,4 20,12 6,20" fill="currentColor"/>
+                        </svg>
+                    </button>
+                    <div class="time-slider-container">
+                        <input type="range" class="time-slider" min="0" max="100" value="0" step="0.1" aria-label="Video progress">
+                    </div>
+                    <button class="media-control-btn restart-btn" aria-label="Restart">
+                        <svg viewBox="0 0 24 24" width="24" height="24">
+                            <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z" fill="currentColor"/>
+                        </svg>
+                    </button>
+                    <button class="media-control-btn audio-toggle muted" aria-label="Toggle sound">
+                        <svg class="speaker-icon" viewBox="0 0 24 24" width="24" height="24">
+                            <path d="M3 9v6h4l5 5V4L7 9H3z" fill="currentColor"/>
+                            <path class="speaker-waves" d="M18 12c0-2.05-1.18-3.82-2.9-4.68v9.36c1.72-.86 2.9-2.63 2.9-4.68z" fill="currentColor"/>
+                        </svg>
+                        <svg class="mute-x" viewBox="0 0 24 24" width="24" height="24">
+                            <path d="M24 10.5l-2.5-2.5-2.5 2.5-2.5-2.5-2 2 2.5 2.5-2.5 2.5 2 2 2.5-2.5 2.5 2.5 2-2-2.5-2.5 2.5-2.5z" fill="currentColor"/>
+                        </svg>
+                    </button>
+                    <button class="media-control-btn fullscreen-btn" aria-label="Fullscreen">
+                        <svg class="fullscreen-enter" viewBox="0 0 24 24" width="24" height="24">
+                            <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/>
+                        </svg>
+                        <svg class="fullscreen-exit" viewBox="0 0 24 24" width="24" height="24" style="display:none">
+                            <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z" fill="currentColor"/>
+                        </svg>
+                    </button>
+                </div>
             `;
         } else {
             mediaElement = `<img class="media-card-image" src="${mediaUrl}" alt="${shortTitle}">`;
@@ -429,7 +445,7 @@ const App = {
             <article class="media-card" role="button" tabindex="0">
                 <div class="media-card-media">
                     ${mediaElement}
-                    ${audioControl}
+                    ${videoControls}
                 </div>
                 <div class="media-card-info">
                     <h3 class="media-card-title">${shortTitle}</h3>
@@ -437,6 +453,122 @@ const App = {
                 </div>
             </article>
         `;
+    },
+
+    setupMediaCardControls(cardEl) {
+        const video = cardEl.querySelector('.media-card-video');
+        if (!video) return;
+
+        const container = cardEl.querySelector('.media-card-media');
+        const playPauseBtn = cardEl.querySelector('.play-pause-btn');
+        const iconPlay = cardEl.querySelector('.media-icon-play');
+        const iconPause = cardEl.querySelector('.media-icon-pause');
+        const timeSlider = cardEl.querySelector('.time-slider');
+        const restartBtn = cardEl.querySelector('.restart-btn');
+        const audioToggle = cardEl.querySelector('.audio-toggle');
+        const fullscreenBtn = cardEl.querySelector('.fullscreen-btn');
+        const enterIcon = fullscreenBtn?.querySelector('.fullscreen-enter');
+        const exitIcon = fullscreenBtn?.querySelector('.fullscreen-exit');
+
+        const isFullscreen = () => document.fullscreenElement === container || document.webkitFullscreenElement === container;
+
+        const showPlayIcon = () => {
+            if (iconPlay) iconPlay.style.display = '';
+            if (iconPause) iconPause.style.display = 'none';
+        };
+
+        const showPauseIcon = () => {
+            if (iconPlay) iconPlay.style.display = 'none';
+            if (iconPause) iconPause.style.display = '';
+        };
+
+        if (playPauseBtn) {
+            playPauseBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                if (video.paused) {
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        }
+
+        video.addEventListener('play', showPauseIcon);
+        video.addEventListener('pause', showPlayIcon);
+
+        if (timeSlider) {
+            video.addEventListener('loadedmetadata', () => {
+                timeSlider.max = video.duration;
+            });
+
+            video.addEventListener('timeupdate', () => {
+                if (!timeSlider.dataset.dragging) {
+                    timeSlider.value = video.currentTime;
+                }
+            });
+
+            timeSlider.addEventListener('mousedown', (e) => {
+                e.stopPropagation();
+                timeSlider.dataset.dragging = 'true';
+            });
+            timeSlider.addEventListener('touchstart', (e) => {
+                e.stopPropagation();
+                timeSlider.dataset.dragging = 'true';
+            });
+            timeSlider.addEventListener('input', (e) => {
+                e.stopPropagation();
+                video.currentTime = parseFloat(timeSlider.value);
+            });
+            timeSlider.addEventListener('mouseup', () => delete timeSlider.dataset.dragging);
+            timeSlider.addEventListener('touchend', () => delete timeSlider.dataset.dragging);
+            timeSlider.addEventListener('click', (e) => e.stopPropagation());
+        }
+
+        if (restartBtn) {
+            restartBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                video.currentTime = 0;
+                video.play();
+            });
+        }
+
+        if (audioToggle) {
+            audioToggle.addEventListener('click', (e) => {
+                e.stopPropagation();
+                video.muted = !video.muted;
+                audioToggle.classList.toggle('muted', video.muted);
+            });
+        }
+
+        if (fullscreenBtn) {
+            const updateFullscreenIcons = () => {
+                const fs = isFullscreen();
+                if (enterIcon) enterIcon.style.display = fs ? 'none' : '';
+                if (exitIcon) exitIcon.style.display = fs ? '' : 'none';
+            };
+
+            fullscreenBtn.addEventListener('click', (e) => {
+                e.stopPropagation();
+                if (isFullscreen()) {
+                    if (document.exitFullscreen) {
+                        document.exitFullscreen();
+                    } else if (document.webkitExitFullscreen) {
+                        document.webkitExitFullscreen();
+                    }
+                } else {
+                    if (container.requestFullscreen) {
+                        container.requestFullscreen({ navigationUI: 'hide' });
+                    } else if (container.webkitRequestFullscreen) {
+                        container.webkitRequestFullscreen();
+                    } else if (video.webkitEnterFullscreen) {
+                        video.webkitEnterFullscreen();
+                    }
+                }
+            });
+
+            document.addEventListener('fullscreenchange', updateFullscreenIcons);
+            document.addEventListener('webkitfullscreenchange', updateFullscreenIcons);
+        }
     },
 
     openFromHash() {

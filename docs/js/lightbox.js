@@ -397,10 +397,6 @@ const Lightbox = {
                 const fs = isFullscreen();
                 if (enterIcon) enterIcon.style.display = fs ? 'none' : '';
                 if (exitIcon) exitIcon.style.display = fs ? '' : 'none';
-                if (fs) {
-                    video.muted = false;
-                    audioToggle?.classList.remove('muted');
-                }
             };
 
             fullscreenBtn.addEventListener('click', () => {
