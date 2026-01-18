@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 """
 Process raw media files for web delivery.
-- Videos: Strip audio, compress with H.264
-- Images: Convert to WebP with optimization
+- Videos: Compress with H.264, normalize audio (EBU R128)
+- Images: Convert to optimized JPEG
 
 Compares timestamps between raw_media/ and docs/media/ to process only new/updated files.
+Use --force to reprocess all files regardless of timestamps.
 """
 
+import argparse
 import subprocess
 import sys
 from pathlib import Path
@@ -43,7 +45,7 @@ def needs_processing(raw_path: Path, output_path: Path) -> bool:
 
 
 def process_video(input_path: Path, output_path: Path) -> bool:
-    """Process video: compress with H.264, crop edges, optimize for web."""
+    """Process video: compress with H.264, normalize audio, crop edges, optimize for web."""
     print(f"  Processing video: {input_path.name}")
 
     cmd = [
@@ -54,6 +56,9 @@ def process_video(input_path: Path, output_path: Path) -> bool:
         '-crf', '35',  # Quality (higher = smaller, 35 balances size/quality)
         '-preset', 'slow',  # Better compression
         '-vf', 'crop=iw-16:ih-16:8:8,scale=-2:min(720\\,ih),fps=30',  # Crop 8px edges, max 720p height, 30fps
+        '-af', 'loudnorm=I=-16:TP=-1.5:LRA=11',  # EBU R128 audio normalization
+        '-c:a', 'aac',  # AAC audio codec
+        '-b:a', '128k',  # Audio bitrate
         '-movflags', '+faststart',  # Web optimization
         str(output_path)
     ]
@@ -104,6 +109,10 @@ def process_image(input_path: Path, output_path: Path) -> bool:
 
 
 def main():
+    parser = argparse.ArgumentParser(description='Process raw media files for web delivery')
+    parser.add_argument('--force', action='store_true', help='Reprocess all files, ignoring timestamps')
+    args = parser.parse_args()
+
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
     raw_dir = project_root / 'raw_media'
@@ -127,6 +136,8 @@ def main():
         return
 
     print(f"Found {len(raw_files)} media files in raw_media/")
+    if args.force:
+        print("Force mode: reprocessing all files")
     print()
 
     processed = 0
@@ -138,7 +149,7 @@ def main():
         if output_path is None:
             continue
 
-        if not needs_processing(raw_path, output_path):
+        if not args.force and not needs_processing(raw_path, output_path):
             print(f"  Skipping (up to date): {raw_path.name}")
             skipped += 1
             continue
