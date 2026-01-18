@@ -11,7 +11,7 @@ trustworthiness: high
 last_updated: 2026-01-13
 ---
 
-# Uber Driver Confronted by Agents: "I can hear you don't have the same accent"
+# U.S. Citizen Uber Driver Confronted by Agents: "I can hear you don't have the same accent"
 
 ## Summary
 Ahmed Bin Hassan, 38, Somali American U.S. citizen and Uber driver, was confronted by over a dozen masked ICE/CBP agents at the airport. An agent stated: "I can hear you don't have the same accent as me." Hassan refused to show ID and challenged their authority.
