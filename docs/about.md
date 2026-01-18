@@ -109,6 +109,7 @@ In-depth reporting and analysis of ICE enforcement patterns and civil rights con
 - [Immigration Agents Using Banned Chokeholds on U.S. Citizens](https://www.propublica.org/article/videos-ice-dhs-immigration-agents-using-chokeholds-citizens) - ProPublica
 
 **Minnesota Coverage:**
+- [Allegations of racial profiling of U.S. citizens on the rise as ICE surge expands in Minnesota](https://www.startribune.com/allegations-of-racial-profiling-of-us-citizens-on-the-rise-as-ice-surge-expands-in-minnesota/601564653) - Star Tribune
 - [Federal agents target observers in the aftermath of Good shooting](https://www.startribune.com/have-yall-not-learned-federal-agents-target-legal-observers-in-the-aftermath-of-good-shooting/601562804) - Star Tribune
 - [ICE agent who shot Renee Nicole Good identified](https://theintercept.com/2026/01/08/ice-agent-identified-shooting-minneapolis-jonathan-ross/) - The Intercept
 - [What ICE agents can and can't do — and what legal rights the public has](https://www.startribune.com/what-ice-agents-can-and-cant-do-and-what-legal-rights-the-public-has-during-encounters/601560316) - Star Tribune
