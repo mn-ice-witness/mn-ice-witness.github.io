@@ -203,7 +203,7 @@ python-main -m http.server 8000 --directory docs
    - **IMPORTANT:** Files in `raw_media/` are NEVER modified by the pipeline - they are read-only source files
 2. **Run the media pipeline:**
    ```bash
-   python3 scripts/process_media.py
+   python-main scripts/process_media.py
    ```
    This reads from `raw_media/` and creates compressed versions in `docs/media/<incident-id>.mp4`
    - Crops 5px from edges (removes screen recording artifacts)
@@ -213,6 +213,16 @@ python-main -m http.server 8000 --directory docs
    - Add the slug (the part after YYYY-MM-DD-) to desired position
    - Example: add `bovino-cbs-interview` (not the full incident-id)
 4. **Commit** - the pre-commit hook auto-regenerates `incidents-summary.json`
+
+**IMPORTANT - Never use `--force` unless explicitly asked:**
+- The `--force` flag reprocesses ALL videos, which is slow and unnecessary
+- To reprocess a single video: delete the output in `docs/media/`, then run the pipeline
+- The pipeline only processes files where the output is missing or older than the source
+
+**Multi-part videos:**
+- For long videos split into multiple recordings, use `:01`, `:02` suffix pattern
+- Example: `2026-01-13-incident:01.raw.mov`, `2026-01-13-incident:02.raw.mov`
+- Pipeline validates sequence is complete, concatenates in order, outputs single file
 
 **IMPORTANT - Raw media is never modified:**
 - `raw_media/` contains original source files that are NEVER touched

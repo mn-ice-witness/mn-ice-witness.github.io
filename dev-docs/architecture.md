@@ -119,6 +119,28 @@ GIT_MN_ICE_FILES/
    - Raw: `<incident-id>.raw.mov` (or .mp4, .png, etc.)
    - Output: `<incident-id>.mp4` (videos) or `<incident-id>.jpg` (images)
 
+### Multi-Part Videos
+
+For long videos split into multiple recordings, use the `:01`, `:02` suffix pattern:
+- `2026-01-13-incident-name:01.raw.mov`
+- `2026-01-13-incident-name:02.raw.mov`
+
+The pipeline will:
+1. Validate the sequence is complete (starts at :01, no gaps)
+2. Concatenate the parts in order
+3. Process the combined video
+4. Output a single file: `2026-01-13-incident-name.mp4`
+
+### Reprocessing Videos
+
+**IMPORTANT: Never use `--force` unless explicitly asked.** The `--force` flag reprocesses ALL videos, which is slow and unnecessary.
+
+To reprocess a single video:
+1. Delete the output file in `docs/media/`
+2. Run `python-main scripts/process_media.py` (without --force)
+
+The pipeline only processes files where the output is missing or older than the source.
+
 ### Audio Note
 
 If your source video has no audio, the processed video will have no audio. The pipeline preserves audio when present but cannot create it. When recording with macOS screen recording (Cmd+Shift+5), you must explicitly enable microphone/audio capture in the recording options.
