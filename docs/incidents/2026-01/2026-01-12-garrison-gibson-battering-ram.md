@@ -80,7 +80,9 @@ Abena Abraham, speaking on behalf of the family: "This is unacceptable; this tra
 - Judge ordered immediate release, stating: "This arrest violated the Fourth Amendment. For this independent reason, Garrison G.'s detention is unlawful, and the Court orders his immediate release."
 - Judge also found: "Garrison G. has no criminal record" — directly contradicting DHS claims of a "lengthy rap sheet"
 - Gibson released Thursday night (Jan 16)
-- **Jan 17, 2026:** Gibson back in ICE custody again
+- **Jan 17, 2026:** Gibson back in ICE custody again when he appeared for routine immigration check-in
+- **Jan 17, 2026 (evening):** Gibson released for second time after ICE admitted error. Attorney Marc Prokosch: "In the words of my client, he said that somebody at ICE said they bleeped up and so they re-released him this afternoon."
+- **Current status:** Gibson now required to wear ankle monitor and remains under immigration supervision
 
 ## Editorial Assessment
 **HIGH** - Multiple independent sources including FOX 9, KSTP, and MPR News. Video evidence of the raid exists. Court filings provide documentation. Attorney statements on record. The warrant issue is clearly documented with legal expert analysis.

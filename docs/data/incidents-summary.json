@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768716402,
+  "mediaVersion": 1768719733,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-17-st-louis-park-daycare.md",
@@ -120,6 +120,28 @@
         }
       ],
       "aspectRatio": 1.8111111111111111
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-15-ramon-menera-accent-detained.md",
+      "title": "U.S. Citizen Detained Because of \"Accent\"",
+      "summary": "Ramon Menera, a U.S. citizen, was detained by Border Patrol agents outside his home in a Minneapolis suburb in front of his 5-year-old daughter. The agent accused him of not being a U.S. citizen \"because of your accent.\" Menera was eventually released but described the traumatic impact on his daughter, who asked him afterward: \"Are you okay? They were going to take you? I don't want to lose you.\"",
+      "date": "2026-01-15",
+      "time": "unknown",
+      "location": "Minneapolis suburb",
+      "city": "Minneapolis",
+      "type": "citizens",
+      "status": "resolved",
+      "victimCitizenship": "us-citizen",
+      "injuries": "none",
+      "trustworthiness": "high",
+      "lastUpdated": "2026-01-18",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": [],
+      "aspectRatio": null
     },
     {
       "filePath": "incidents/2026-01/2026-01-15-st-paul-school-vans-pulled-over.md",
