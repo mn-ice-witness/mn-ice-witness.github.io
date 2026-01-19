@@ -12,7 +12,7 @@ created: 2026-01-18T14:30:00
 last_updated: 2026-01-18T14:30:00
 ---
 
-# DHS Secretary Noem Denies Pepper Spray Use, Then Backtracks on CBS
+# DHS Secretary Noem Defends Raids as Targeting 'Criminals and Rapists,' Denies Pepper Spray Use on CBS
 
 ## Summary
 Homeland Security Secretary Kristi Noem denied on CBS's "Face the Nation" that federal agents had used pepper spray and similar tactics curtailed by a judicial order, claiming the judge "told us we couldn't do what we already aren't doing." When confronted with video evidence, she backtracked and blamed protesters, saying agents "only use those chemical agents when there's violence happening."
