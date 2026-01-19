@@ -2,6 +2,7 @@
 # List incident slugs in display order (one per line)
 
 
+
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -12,6 +13,9 @@ roosevelt-high-school
 ahmed-hassan-uber-driver
 mubashir-wrongful-detention
 oglala-sioux-still-detained
+mankato-women-sprayed
+lyn-lake-tear-gas
+noem-pepper-spray-denial-backtrack
 siguenza-okeefe-detained
 doctor-blocked-renee-good
 ramon-menera-accent-detained
@@ -27,8 +31,6 @@ jose-ramirez-native-american
 rogelio-jimenez-brooklyn-park
 el-tapatio-willmar
 elliott-payne-pushed
-mankato-women-sprayed
-lyn-lake-tear-gas
 ice-gun-pointed-at-protester
 shawn-jackson-children-tear-gas
 porter-wrong-address-raid

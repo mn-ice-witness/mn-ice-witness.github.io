@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768798907,
+  "mediaVersion": 1768799558,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-18-noem-pepper-spray-denial-backtrack.md",
@@ -17,11 +17,16 @@
       "lastUpdated": "2026-01-18T14:30:00",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": [],
-      "aspectRatio": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-18-noem-pepper-spray-denial-backtrack.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-18-noem-pepper-spray-denial-backtrack.mp4"
+        }
+      ],
+      "aspectRatio": 1.8537735849056605
     },
     {
       "filePath": "incidents/2026-01/2026-01-17-st-louis-park-daycare.md",
