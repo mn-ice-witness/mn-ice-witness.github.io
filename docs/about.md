@@ -48,11 +48,21 @@ Incidents are organized into five categories:
 
 <div style="background: #f8f9fa; border: 1px solid #e2e2e2; border-radius: 6px; padding: 16px; margin: 16px 0;">
 
+<p style="margin-bottom: 12px;"><span style="background: #1a7f37; color: white; padding: 1px 5px; border-radius: 3px; font-size: 0.7em; font-weight: 600;">NEW</span> — Incident was added to the database today.</p>
+
+<p style="margin-bottom: 12px;"><span style="background: #0969da; color: white; padding: 1px 5px; border-radius: 3px; font-size: 0.7em; font-weight: 600;">UPDATED</span> — Incident had a significant story development today (e.g., judge ruling, person released, new facts emerged).</p>
+
 <p style="margin-bottom: 12px;"><svg viewBox="0 0 24 24" width="16" height="16" style="vertical-align: middle; color: #7ba3c9;" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg> <strong>Camera</strong> — Incident has video or photo evidence in the media gallery.</p>
 
 <p style="margin-bottom: 0;"><svg viewBox="0 0 24 24" width="16" height="16" style="vertical-align: middle; position: relative; top: 1px; color: #999;"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" fill="currentColor"/></svg> <strong>Eye</strong> — You've viewed this incident. Viewed incidents are greyed out. <a href="#clear-viewed">Clear history</a>.</p>
 
 </div>
+
+### Sorting Options
+
+In the default **category view**, incidents are organized by type (Citizens, Observers, Immigrants, etc.) and then sorted by the date the incident occurred.
+
+**Sort by Updated** shows incidents ordered by when they were added or last had a significant update. This is useful if you visit the site regularly and want to quickly see what's new since your last visit. Only substantive story developments (judge rulings, releases, new facts) trigger an update — not routine additions like extra sources.
 
 ### Examples
 
