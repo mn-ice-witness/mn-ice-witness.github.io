@@ -1,8 +1,6 @@
 # Media Gallery Order
 # List incident slugs in display order (one per line)
 
-
-
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -36,7 +34,8 @@ porter-wrong-address-raid
 sue-tincher-detained
 clergy-pepper-sprayed
 christian-molina-car-rammed
-christina-rank-teacher
+st-paul-public-works-snowplow-driver
 nasra-ahmed-st-paul-citizen
 hani-duglof-medical
+christina-rank-teacher
 francis-burger-joint-manager

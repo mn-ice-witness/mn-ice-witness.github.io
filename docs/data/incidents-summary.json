@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768796688,
+  "mediaVersion": 1768797032,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-18-noem-pepper-spray-denial-backtrack.md",
@@ -306,11 +306,16 @@
       "lastUpdated": "2026-01-18T22:23:27",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": [],
-      "aspectRatio": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-14-st-paul-public-works-snowplow-driver.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-14-st-paul-public-works-snowplow-driver.mp4"
+        }
+      ],
+      "aspectRatio": 1.8384615384615384
     },
     {
       "filePath": "incidents/2026-01/2026-01-14-nasra-ahmed-st-paul-citizen.md",
