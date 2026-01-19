@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768801376,
+  "mediaVersion": 1768801872,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-18-noem-pepper-spray-denial-backtrack.md",
@@ -1311,7 +1311,7 @@
       "time": "unknown",
       "location": "Chicago Avenue near 24th Street",
       "city": "Minneapolis",
-      "type": "citizens",
+      "type": "observers",
       "status": "under-investigation",
       "victimCitizenship": "legal-resident",
       "injuries": "serious",
