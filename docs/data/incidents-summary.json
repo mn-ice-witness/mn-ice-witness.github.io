@@ -1,9 +1,9 @@
 {
-  "mediaVersion": 1768842803,
+  "mediaVersion": 1768843272,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-18-saly-hmong-citizen-shirtless.md",
-      "title": "Hmong U.S. Citizen Detained Shirtless in Freezing Weather, Then Released",
+      "title": "Hmong U.S. Citizen Detained Shirtless in Freezing Weather, Then Released (UNVERIFIED)",
       "summary": "A Hmong man named Saly, described as a naturalized U.S. citizen with no criminal record, was reportedly detained by ICE agents who broke down his apartment door. According to family members, agents did not allow him to put on proper clothing before taking him outside in approximately 10-degree weather. After driving him around for nearly an hour, questioning, and fingerprinting him, agents released him after determining he had no criminal history. The family believes ICE was searching for someone who previously lived at the address.",
       "date": "2026-01-18",
       "time": "unknown",
@@ -916,11 +916,16 @@
       "lastUpdated": "2026-01-19T13:00:00",
       "mediaCount": 2,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": [],
-      "aspectRatio": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-12-phil-maddox-did-you-not-learn.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-12-phil-maddox-did-you-not-learn.mp4"
+        }
+      ],
+      "aspectRatio": 0.6194444444444445
     },
     {
       "filePath": "incidents/2026-01/2026-01-12-irma-escoto-citizen-check.md",

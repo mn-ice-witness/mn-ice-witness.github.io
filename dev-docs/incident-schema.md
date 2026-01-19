@@ -93,7 +93,28 @@ Both categories may involve U.S. citizens being detained. Choose based on WHY th
 
 ```markdown
 # Incident Title
+```
 
+### UNVERIFIED Incidents - Special Formatting
+
+For incidents with `trustworthiness: unverified`, add two special elements:
+
+1. **Title suffix**: Add `(UNVERIFIED)` to the end of the title
+2. **Warning message**: Add a bold italic disclaimer between title and Summary
+
+```markdown
+# Incident Title (UNVERIFIED)
+
+***No mainstream media has reported on this incident. It is based on social media posts only. If you have a media source, please [contact us](mailto:mnicewitness@proton.me).***
+
+## Summary
+```
+
+This allows us to make editorial judgments about incidents worth documenting while clearly communicating the verification level to readers.
+
+### Updates Section
+
+```markdown
 ## Updates
 (ONLY for incidents with major story updates - omit for most incidents)
 - **YYYY-MM-DDTHH:MM:SS** - Brief description of major update

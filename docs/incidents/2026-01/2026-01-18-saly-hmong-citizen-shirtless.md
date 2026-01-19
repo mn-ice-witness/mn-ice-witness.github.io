@@ -12,7 +12,9 @@ created: 2026-01-19T12:00:00
 last_updated: 2026-01-19T12:00:00
 ---
 
-# Hmong U.S. Citizen Detained Shirtless in Freezing Weather, Then Released
+# Hmong U.S. Citizen Detained Shirtless in Freezing Weather, Then Released (UNVERIFIED)
+
+***No mainstream media has reported on this incident. It is based on social media posts only. If you have a media source, please [contact us](mailto:mnicewitness@proton.me).***
 
 ## Summary
 A Hmong man named Saly, described as a naturalized U.S. citizen with no criminal record, was reportedly detained by ICE agents who broke down his apartment door. According to family members, agents did not allow him to put on proper clothing before taking him outside in approximately 10-degree weather. After driving him around for nearly an hour, questioning, and fingerprinting him, agents released him after determining he had no criminal history. The family believes ICE was searching for someone who previously lived at the address.

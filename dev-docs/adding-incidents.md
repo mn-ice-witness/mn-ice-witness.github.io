@@ -128,6 +128,23 @@ Assign LOW when:
 - Anonymous tips without supporting evidence
 - Rumor or speculation
 
+**Special Formatting for UNVERIFIED incidents:**
+
+UNVERIFIED incidents require additional formatting to clearly communicate their verification status:
+
+1. **Title suffix**: Add `(UNVERIFIED)` to the end of the title
+2. **Warning message**: Add bold italic disclaimer between title and Summary:
+
+```markdown
+# Incident Title (UNVERIFIED)
+
+***No mainstream media has reported on this incident. It is based on social media posts only. If you have a media source, please [contact us](mailto:mnicewitness@proton.me).***
+
+## Summary
+```
+
+This allows editorial judgment about incidents worth documenting while clearly indicating verification level to readers.
+
 ### Witness Corroboration Rule
 
 **IMPORTANT:** Even well-reported incidents should be rated MEDIUM (not HIGH) if:

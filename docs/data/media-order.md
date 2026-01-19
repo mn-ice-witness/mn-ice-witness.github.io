@@ -1,6 +1,7 @@
 # Media Gallery Order
 # List incident slugs in display order (one per line)
 
+
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -28,6 +29,7 @@ jesse-ventura-roosevelt
 jose-ramirez-native-american
 rogelio-jimenez-brooklyn-park
 el-tapatio-willmar
+phil-maddox-did-you-not-learn
 elliott-payne-pushed
 ice-gun-pointed-at-protester
 shawn-jackson-children-tear-gas
