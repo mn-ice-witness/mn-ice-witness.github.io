@@ -215,6 +215,9 @@ This allows editorial judgment about incidents worth documenting while clearly i
 
 Use the schema from `incident-schema.md`. At minimum include:
 
+#### ⚠️ TIMESTAMP WARNING
+**Set `created` and `last_updated` to the ACTUAL CURRENT TIME** when you create the file — not a rounded or made-up time. Example: if it's 2:23:47 PM, use `2026-01-15T14:23:47`, NOT `2026-01-15T14:30:00`.
+
 ```markdown
 ---
 date: 2026-01-15
@@ -226,8 +229,8 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: medium
-created: 2026-01-15T14:30:00
-last_updated: 2026-01-15T14:30:00
+created: 2026-01-15T14:23:47   # ← Use ACTUAL current time, not rounded!
+last_updated: 2026-01-15T14:23:47   # ← Same as created for new incidents
 ---
 
 # Title of Incident
@@ -295,7 +298,19 @@ When new information emerges:
 
 **IMPORTANT:** The `last_updated` field powers the "Sort by Updated" feature on the website. Only update it for **substantive story developments** — not routine maintenance.
 
-**Format:** Full ISO 8601 timestamp with seconds: `YYYY-MM-DDTHH:MM:SS` (e.g., `2026-01-18T21:13:42`). The precise timestamp ensures correct sort order when multiple incidents are added/updated on the same day.
+#### ⚠️ USE THE ACTUAL CURRENT TIME (Critical!)
+
+**When you update `last_updated`, use the EXACT current time** — not a rounded or made-up time.
+
+| Example | Correct? |
+|---------|----------|
+| `2026-01-19T14:23:47` | ✅ Actual time when making the change |
+| `2026-01-19T12:00:00` | ❌ Rounded time (clearly made up) |
+| `2026-01-19T14:30:00` | ❌ Rounded time (clearly made up) |
+
+**Why?** Incorrect timestamps break the sort order and mislead users about when content was actually updated.
+
+**Format:** Full ISO 8601 timestamp with seconds: `YYYY-MM-DDTHH:MM:SS`
 
 #### DO Update `last_updated` For:
 | Change Type | Examples |

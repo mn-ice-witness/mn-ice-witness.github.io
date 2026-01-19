@@ -34,13 +34,27 @@ last_updated: YYYY-MM-DDTHH:MM:SS  # Required. When last MAJOR update occurred (
 
 ### `created` and `last_updated` Field Rules
 
-**Format:** Full ISO 8601 timestamp with seconds: `YYYY-MM-DDTHH:MM:SS` (e.g., `2026-01-18T21:13:42`)
+**Format:** Full ISO 8601 timestamp with seconds: `YYYY-MM-DDTHH:MM:SS`
 
-**`created`**: When the incident file was first added to the site. Never changes after initial creation.
+#### ⚠️ USE THE ACTUAL CURRENT TIME (Critical!)
 
-**`last_updated`**: When the last MAJOR story update occurred. Powers the "Sort by Updated" feature.
+**Always use the EXACT current time** — never use rounded or made-up times.
 
-**When adding a new incident:** Set BOTH `created` and `last_updated` to the current timestamp.
+| Example | Correct? |
+|---------|----------|
+| `2026-01-19T14:23:47` | ✅ Actual time when making the change |
+| `2026-01-19T12:00:00` | ❌ Rounded time (clearly made up) |
+| `2026-01-19T14:30:00` | ❌ Rounded time (clearly made up) |
+
+**Why?** Incorrect timestamps break the "Sort by Updated" feature and mislead users.
+
+---
+
+**`created`**: Set to the ACTUAL current time when you first create the file. Never changes after that.
+
+**`last_updated`**: Set to the ACTUAL current time when making a MAJOR story update.
+
+**When adding a new incident:** Set BOTH `created` and `last_updated` to the exact current time.
 
 **When updating an existing incident:**
 

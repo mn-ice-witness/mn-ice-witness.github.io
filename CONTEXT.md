@@ -104,15 +104,35 @@ status: ongoing | resolved | under-investigation
 victim_citizenship: us-citizen | legal-resident | undocumented | asylum-seeker | unknown
 injuries: none | minor | serious | fatal
 trustworthiness: high | medium | low | unverified  # EXACTLY ONE value, no compounds like "medium-high"
-created: YYYY-MM-DDTHH:MM:SS      # REQUIRED: Full timestamp when file created
-last_updated: YYYY-MM-DDTHH:MM:SS  # REQUIRED: Full timestamp - see rules below
+created: YYYY-MM-DDTHH:MM:SS      # REQUIRED: Exact time when file was created
+last_updated: YYYY-MM-DDTHH:MM:SS  # REQUIRED: Exact time of last MAJOR update
 ---
 
-### ⚠️ TIMESTAMP FORMAT (Common Mistake!)
-**BOTH `created` and `last_updated` MUST include the time component** (e.g., `2026-01-19T16:00:00`), not just the date. Without the time, incidents sort incorrectly in the "NEW/UPDATED" view (date-only sorts as midnight, appearing at bottom of that day).
+### ⚠️ TIMESTAMP RULES (CRITICAL - Read Carefully!)
 
-### `last_updated` Rules (Important!)
-The website has a "Sort by Updated" feature. Only change `last_updated` for **substantive story developments** (judge ruling, release, new facts) — NOT for adding sources, formatting, or typo fixes. See `dev-docs/adding-incidents.md` for full rules.
+**USE THE ACTUAL CURRENT TIME** — not a rounded or made-up time.
+
+| When | What to do |
+|------|------------|
+| **Adding a new incident** | Set BOTH `created` AND `last_updated` to the exact current time |
+| **Making a significant story update** | Update `last_updated` to the exact current time |
+
+**WRONG:** `2026-01-19T12:00:00`, `2026-01-19T14:30:00` (rounded times)
+**RIGHT:** `2026-01-19T14:23:47` (actual time when you're making the change)
+
+**Why this matters:** The "Sort by Updated" feature shows users the newest content. Incorrect timestamps break the sort order and mislead users about when content was added.
+
+**Format:** Full ISO 8601 with seconds: `YYYY-MM-DDTHH:MM:SS`
+
+### `last_updated` — When to Update (Important!)
+Only change `last_updated` for **substantive story developments**:
+- ✅ Case developments (ruling, release, charges filed)
+- ✅ Status changes (detained → released)
+- ✅ New facts emerge (identity confirmed, details corrected)
+- ❌ Adding more sources (doesn't change the story)
+- ❌ Formatting/typo fixes
+
+See `dev-docs/adding-incidents.md` for full rules.
 
 ### Type Categories (exactly 5)
 | Type | Website Section | Use For |
