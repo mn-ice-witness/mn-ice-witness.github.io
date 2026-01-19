@@ -39,6 +39,7 @@ Aliya Rahman, a 43-year-old U.S. citizen and software engineer, was dragged from
 19. Instagram Reel (Jan 2026): [ICE's arrest of Aliya Rahman](https://www.instagram.com/reel/DTlpr7-kR9K/)
 20. Instagram Reel (Jan 2026): [Video coverage of incident](https://www.instagram.com/reel/DTiIM3EjLXR/)
 21. Instagram Reel (Jan 2026): [ICE agents forcibly pulled US-born...](https://www.instagram.com/reel/DThmDpuj7b7/)
+22. CBS News / 60 Minutes (Jan 2026): [Minneapolis police chief responds to ICE enforcement](https://www.cbsnews.com/news/minneapolis-police-chief-responds-to-ice-enforcement-60-minutes/)
 
 ## Victim(s)
 - **Name:** Aliya Rahman
