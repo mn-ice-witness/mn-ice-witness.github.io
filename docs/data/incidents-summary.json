@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768797032,
+  "mediaVersion": 1768798146,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-18-noem-pepper-spray-denial-backtrack.md",
@@ -728,6 +728,33 @@
       "localMediaPath": null,
       "localMediaFiles": [],
       "aspectRatio": null
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-13-kong-vang-frogtown.md",
+      "title": "Hmong U.S. Citizen Refuses to Open Door for Federal Agents",
+      "summary": "Kong Vang, a U.S. citizen working from home in St. Paul's Frogtown neighborhood, recorded federal agents at his door and refused to let them in. The agents never explained why they were there and left after approximately 90 seconds. Vang's video went viral with over 400,000 views on Facebook.",
+      "date": "2026-01-13",
+      "time": "afternoon",
+      "location": "Frogtown neighborhood",
+      "city": "St. Paul",
+      "type": "citizens",
+      "status": "resolved",
+      "victimCitizenship": "us-citizen",
+      "injuries": "none",
+      "trustworthiness": "high",
+      "lastUpdated": "2026-01-18T22:46:36",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-13-kong-vang-frogtown.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-13-kong-vang-frogtown.mp4"
+        }
+      ],
+      "aspectRatio": 1.8384615384615384
     },
     {
       "filePath": "incidents/2026-01/2026-01-13-aliya-rahman-car-window-hospitalized.md",
