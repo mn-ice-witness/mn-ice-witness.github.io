@@ -168,7 +168,7 @@ const Lightbox = {
                 </button>
             </div>
             <div class="new-updated-content">
-                <h1>New & Updated Posts</h1>
+                <h1>New & Updated Incidents</h1>
                 <p class="new-updated-date">${formattedDate}</p>
         `;
 
