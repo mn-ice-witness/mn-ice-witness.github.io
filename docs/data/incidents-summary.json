@@ -1,10 +1,10 @@
 {
-  "mediaVersion": 1768864236,
+  "mediaVersion": 1768864842,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-19-dhs-response-saly-detention.md",
-      "title": "DHS Response: Defends Detention of Hmong Citizen, Claims Sex Offender Targets at Large",
-      "summary": "A response posted on X defends the detention of a U.S. citizen (Saly) at his St. Paul apartment, claiming ICE was conducting a \"targeted operation\" for two convicted sex offenders who \"remain at large.\" The statement claims the citizen \"refused to be fingerprinted or facially ID'd\" and \"matched the description of the targets.\" It confirms he was held during the operation before being released.",
+      "title": "DHS Response: Defends Detention of Hmong Citizen, Claims Sex Offender Targets at Large \u2014 Family Disputes as \"False\"",
+      "summary": "A DHS response posted on X defends the detention of a U.S. citizen (ChongLy Scott Thao) at his St. Paul home, claiming ICE was conducting a \"targeted operation\" for two convicted sex offenders who \"remain at large.\" The statement claims the citizen \"refused to be fingerprinted or facially ID'd\" and \"matched the description of the targets.\"",
       "date": "2026-01-19",
       "time": "unknown",
       "location": "X @TriciaOhio",
@@ -15,7 +15,7 @@
       "injuries": "none",
       "trustworthiness": "high",
       "created": "2026-01-19T21:00:00",
-      "lastUpdated": "2026-01-19T21:00:00",
+      "lastUpdated": "2026-01-19T22:30:00",
       "mediaCount": 0,
       "notable": false,
       "hasLocalMedia": true,
@@ -43,7 +43,7 @@
       "injuries": "none",
       "trustworthiness": "high",
       "created": "2026-01-19T10:14:30",
-      "lastUpdated": "2026-01-19T21:30:00",
+      "lastUpdated": "2026-01-19T22:30:00",
       "mediaCount": 1,
       "notable": false,
       "hasLocalMedia": true,
