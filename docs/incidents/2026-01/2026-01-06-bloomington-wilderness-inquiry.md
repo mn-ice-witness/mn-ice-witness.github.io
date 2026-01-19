@@ -8,7 +8,7 @@ status: resolved-detained
 victim_citizenship: unknown
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-14
+last_updated: 2026-01-18T11:00:02
 ---
 
 # Man Seeks Refuge in Bloomington Office During 2-Hour ICE Standoff

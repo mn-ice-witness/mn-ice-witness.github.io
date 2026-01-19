@@ -8,7 +8,7 @@ status: unknown
 victim_citizenship: undocumented
 injuries: unknown
 trustworthiness: medium
-last_updated: 2026-01-14
+last_updated: 2026-01-18T11:00:01
 ---
 
 # ICE Raids TruNorth Solar Factory in Arden Hills - "First Big One of 2026"

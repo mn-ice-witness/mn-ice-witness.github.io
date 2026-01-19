@@ -8,7 +8,7 @@ status: under-investigation
 victim_citizenship: unknown
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-15
+last_updated: 2026-01-18T13:00:17
 ---
 
 # Parent Detained by ICE at School Bus Stop While Waiting with Child

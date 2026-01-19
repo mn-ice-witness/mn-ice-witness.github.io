@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-14
+last_updated: 2026-01-18T13:00:05
 ---
 
 # DHS Response: Native American Detentions

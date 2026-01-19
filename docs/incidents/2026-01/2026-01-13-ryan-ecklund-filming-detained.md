@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
-last_updated: 2026-01-14
+last_updated: 2026-01-18T13:00:13
 ---
 
 # U.S. Citizen Detained 9 Hours for Filming ICE Agents

@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
-last_updated: 2026-01-14
+last_updated: 2026-01-18T10:00:18
 ---
 
 # U.S. Citizen Tackled, Detained by ICE During Lunch Break

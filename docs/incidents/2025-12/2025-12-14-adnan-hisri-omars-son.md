@@ -8,7 +8,7 @@ status: resolved-released
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: medium
-last_updated: 2026-01-14
+last_updated: 2026-01-18T10:00:23
 ---
 
 # U.S. Citizen Son of Rep. Ilhan Omar Stopped by ICE, Released After Showing Passport

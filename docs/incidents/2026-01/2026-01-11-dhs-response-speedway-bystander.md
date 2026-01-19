@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-14
+last_updated: 2026-01-18T12:00:07
 ---
 
 # DHS Response: Speedway Bystander "Hit an Officer"

@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
-last_updated: 2026-01-14
+last_updated: 2026-01-18T11:00:17
 ---
 
 # Native American U.S. Citizen Punched and Detained by ICE

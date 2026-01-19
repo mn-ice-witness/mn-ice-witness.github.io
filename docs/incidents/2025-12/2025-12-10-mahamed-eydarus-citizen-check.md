@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-15
+last_updated: 2026-01-18T10:00:07
 ---
 
 # U.S. Citizen Questioned for Speaking Somali While Shoveling Snow with Mother

@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: unknown
 injuries: none
 trustworthiness: medium
-last_updated: 2026-01-15
+last_updated: 2026-01-18T13:00:03
 ---
 
 # Carondelet Catholic School Lockdown During ICE Arrest Outside Building

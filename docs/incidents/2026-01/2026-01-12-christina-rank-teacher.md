@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-14
+last_updated: 2026-01-18T12:00:14
 ---
 
 # Special Education Teacher Detained for Nearly 12 Hours

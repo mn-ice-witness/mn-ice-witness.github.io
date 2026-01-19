@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: unknown
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-16
+last_updated: 2026-01-18T13:00:22
 ---
 
 # ICE Agents Dine at El Tapatio, Then Return to Detain Workers

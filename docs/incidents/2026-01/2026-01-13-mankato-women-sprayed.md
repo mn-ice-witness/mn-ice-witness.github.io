@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: unknown
 injuries: chemical irritant exposure
 trustworthiness: medium
-last_updated: 2026-01-16
+last_updated: 2026-01-18T13:00:12
 ---
 
 # Two Young Women Sprayed Directly in Face with Chemical Irritant by ICE Agent in Mankato

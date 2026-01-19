@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: undocumented
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-14
+last_updated: 2026-01-18T13:00:10
 ---
 
 # Customer Arrested While Buying Drink at St. Peter Grocery Store

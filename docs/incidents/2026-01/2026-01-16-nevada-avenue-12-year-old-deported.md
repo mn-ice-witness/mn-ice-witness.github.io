@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: legal-resident
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-17
+last_updated: 2026-01-18T13:00:28
 ---
 
 # Venezuelan Family Detained, Including 12-Year-Old Sent to Texas

@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: undocumented
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-14
+last_updated: 2026-01-18T10:00:00
 ---
 
 # Two Cooks Detained at Rochester Greek Restaurant; Business Forced to Close

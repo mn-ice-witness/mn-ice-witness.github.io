@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: us-citizen
 injuries: fatal
 trustworthiness: high
-last_updated: 2026-01-14
+last_updated: 2026-01-18T13:00:06
 ---
 
 # DOJ Declines Civil Rights Investigation into Good Shooting

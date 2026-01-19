@@ -8,7 +8,7 @@ status: unknown
 victim_citizenship: unknown
 injuries: unknown
 trustworthiness: high
-last_updated: 2026-01-14
+last_updated: 2026-01-18T10:00:20
 ---
 
 # Pregnant Somali Woman Dragged Through Snow at Karmel Mall

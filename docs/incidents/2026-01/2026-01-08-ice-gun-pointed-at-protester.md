@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: unknown
 injuries: none
 trustworthiness: medium
-last_updated: 2026-01-16
+last_updated: 2026-01-18T11:00:15
 ---
 
 # ICE Agent Points Gun at Protester's Face at Point-Blank Range

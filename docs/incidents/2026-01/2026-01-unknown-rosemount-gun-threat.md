@@ -8,7 +8,7 @@ status: unknown
 victim_citizenship: unknown
 injuries: none
 trustworthiness: low
-last_updated: 2026-01-14
+last_updated: 2026-01-18T13:00:32
 ---
 
 # ICE Agent Waves Gun at Motorist in Rosemount

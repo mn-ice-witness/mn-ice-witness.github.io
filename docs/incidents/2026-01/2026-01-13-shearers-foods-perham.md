@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: unknown
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-14
+last_updated: 2026-01-18T13:00:14
 ---
 
 # ICE Detains Single Employee at Shearer's Foods Factory in Perham; Agent Claims No Warrant Needed

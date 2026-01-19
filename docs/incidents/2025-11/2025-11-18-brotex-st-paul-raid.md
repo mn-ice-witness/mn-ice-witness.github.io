@@ -8,7 +8,7 @@ status: resolved-detained
 victim_citizenship: undocumented
 injuries: protesters pepper-sprayed
 trustworthiness: high
-last_updated: 2026-01-14
+last_updated: 2026-01-18T10:00:02
 ---
 
 # 14 Workers Detained in Major ICE Workplace Raid at Bro-Tex

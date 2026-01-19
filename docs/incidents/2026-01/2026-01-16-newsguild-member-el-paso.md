@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: unknown
 injuries: none
 trustworthiness: medium
-last_updated: 2026-01-17
+last_updated: 2026-01-18T13:00:29
 ---
 
 # NewsGuild Union Member Detained and Transferred to Texas

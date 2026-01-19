@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: serious
 trustworthiness: high
-last_updated: 2026-01-14
+last_updated: 2026-01-18T11:00:04
 ---
 
 # Naturalized U.S. Citizen Hospitalized After ICE Encounter

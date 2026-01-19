@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: unknown
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-17
+last_updated: 2026-01-18T10:00:11
 ---
 
 # Hola Arepa Staff Refuses ICE Entry Without Warrant

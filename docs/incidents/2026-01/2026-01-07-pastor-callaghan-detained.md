@@ -8,7 +8,7 @@ status: resolved-released
 victim_citizenship: us-citizen
 injuries: none-physical
 trustworthiness: high
-last_updated: 2026-01-14
+last_updated: 2026-01-18T11:00:09
 ---
 
 # White Pastor Detained, Told He Was Released Because "You're White. You Wouldn't Be Fun Anyway"

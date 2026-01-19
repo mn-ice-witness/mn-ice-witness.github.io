@@ -8,7 +8,7 @@ status: unknown
 victim_citizenship: undocumented
 injuries: none
 trustworthiness: medium-high
-last_updated: 2026-01-14
+last_updated: 2026-01-18T13:00:31
 ---
 
 # Contractor Detained at General Mills Chanhassen Facility

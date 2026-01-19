@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: legal-resident
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-18
+last_updated: 2026-01-18T12:00:16
 ---
 
 # Liberian Man Arrested With Battering Ram, No Judicial Warrant

@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-14
+last_updated: 2026-01-18T10:00:01
 ---
 
 # DHS Secretary Noem: "No American Citizens Have Been Arrested or Detained"

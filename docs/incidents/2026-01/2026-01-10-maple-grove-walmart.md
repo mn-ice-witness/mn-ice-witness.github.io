@@ -8,7 +8,7 @@ status: unknown
 victim_citizenship: unknown
 injuries: unknown
 trustworthiness: medium
-last_updated: 2026-01-14
+last_updated: 2026-01-18T12:00:05
 ---
 
 # Man Pinned and Arrested Inside Maple Grove Walmart

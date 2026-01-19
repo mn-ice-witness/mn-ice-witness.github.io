@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: various
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-15
+last_updated: 2026-01-18T13:00:07
 ---
 
 # ICE Using El Burrito Mercado as "Hunting Ground" - 47-Year-Old Business Under Siege

@@ -8,7 +8,7 @@ status: unknown
 victim_citizenship: legal-resident
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-14
+last_updated: 2026-01-18T13:00:15
 ---
 
 # High School Student with Legal Status Arrested in Downtown Willmar

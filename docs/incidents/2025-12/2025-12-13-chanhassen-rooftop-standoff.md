@@ -8,7 +8,7 @@ status: resolved-detained
 victim_citizenship: unknown
 injuries: none
 trustworthiness: medium
-last_updated: 2026-01-14
+last_updated: 2026-01-18T10:00:13
 ---
 
 # Construction Workers Take Refuge on Roof During Hours-Long ICE Standoff

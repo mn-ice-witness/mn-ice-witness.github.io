@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: undocumented
 injuries: none-physical
 trustworthiness: high
-last_updated: 2026-01-14
+last_updated: 2026-01-18T10:00:03
 ---
 
 # House Painter Arrested After 5-Hour Standoff; Family Reports Humiliation, No Warrant Shown

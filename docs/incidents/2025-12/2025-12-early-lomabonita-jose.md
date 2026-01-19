@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: legal-status
 injuries: none
 trustworthiness: medium
-last_updated: 2026-01-14
+last_updated: 2026-01-18T10:00:10
 ---
 
 # Man With Legal Protection Status Detained at Restaurant; Vehicle Abandoned

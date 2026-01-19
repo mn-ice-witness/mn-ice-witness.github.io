@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: legal-resident
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-15
+last_updated: 2026-01-18T13:00:16
 ---
 
 # Restaurant Worker with Legal Visa Detained by Plain-Clothed Agents
