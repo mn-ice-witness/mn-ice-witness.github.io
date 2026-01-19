@@ -25,7 +25,6 @@ A DHS response posted on X defends the detention of a U.S. citizen (ChongLy Scot
 1. X Post (Jan 19, 2026): [@TriciaOhio statement](https://x.com/TriciaOhio/status/2013317071342317918) - Tricia McLaughlin, Assistant Secretary, Department of Homeland Security
 2. X Post (Jan 19, 2026): [@ReichlinMelnick sharing family statement](https://x.com/ReichlinMelnick/status/2013321714260684826) - Aaron Reichlin-Melnick, Senior Fellow, American Immigration Council
 3. X Post (Jan 19, 2026): [@ReichlinMelnick follow-up](https://x.com/ReichlinMelnick/status/2013375995818942568) - Additional context on family statement
-4. Family Press Release (Jan 19, 2026): Statement from Louansee Moua, spokesperson for ChongLy Scott Thao Family
 
 ## Official Statement
 
