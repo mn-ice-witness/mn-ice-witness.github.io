@@ -44,7 +44,7 @@ Incidents are organized into five categories:
 
 <p style="color: #8a9aaf; font-weight: bold; font-style: italic; margin-top: 1.5em;">For real-time, crowd-sourced ICE sighting reports and alerts, visit <a href="https://iceout.org/en/" style="color: #7ba3c9;">iceout.org</a> (People Over Papers).</p>
 
-### New/Updated
+### NEW/UPDATED
 
 When enabled, incidents are sorted by when they were added or last had a significant update (e.g., judge ruling, person released). This lets you easily see new content if you visit the site regularly. With this off, incidents are sorted by category and then by incident date.
 
