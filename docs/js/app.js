@@ -443,6 +443,10 @@ const App = {
     },
 
     renderMediaCard(incident) {
+        const type = Array.isArray(incident.type) ? incident.type[0] : incident.type;
+        const label = this.categoryLabels[type] || type.toUpperCase();
+        const categoryPrefix = `<span class="category-label">${label}:</span> `;
+
         const shortTitle = incident.title.length > 107
             ? incident.title.substring(0, 104) + '...'
             : incident.title;
@@ -503,7 +507,7 @@ const App = {
                     ${videoControls}
                 </div>
                 <div class="media-card-info">
-                    <h3 class="media-card-title">${shortTitle}</h3>
+                    <h3 class="media-card-title">${categoryPrefix}${shortTitle}</h3>
                     <span class="media-card-location">${incident.city}</span>
                 </div>
             </article>

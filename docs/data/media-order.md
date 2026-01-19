@@ -14,7 +14,6 @@ ahmed-hassan-uber-driver
 mubashir-wrongful-detention
 oglala-sioux-still-detained
 mankato-women-sprayed
-lyn-lake-tear-gas
 noem-pepper-spray-denial-backtrack
 siguenza-okeefe-detained
 doctor-blocked-renee-good
@@ -40,6 +39,7 @@ christian-molina-car-rammed
 st-paul-public-works-snowplow-driver
 kong-vang-frogtown
 nasra-ahmed-st-paul-citizen
+lyn-lake-tear-gas
 hani-duglof-medical
 christina-rank-teacher
 francis-burger-joint-manager
