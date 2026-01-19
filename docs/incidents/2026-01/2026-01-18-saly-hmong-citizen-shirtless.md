@@ -9,7 +9,7 @@ victim_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-19T10:14:30
-last_updated: 2026-01-19T21:30:00
+last_updated: 2026-01-19T22:30:00
 ---
 
 # Hmong U.S. Citizen Detained Shirtless in Freezing Weather, Then Released
@@ -24,9 +24,10 @@ A Hmong man named Saly, described as a naturalized U.S. citizen with no criminal
 - **Video:** [Facebook Reel](https://www.facebook.com/reel/1986120352306275) - Incident footage
 
 ## Victim(s)
-- **Name:** Saly (first name only provided)
+- **Name:** ChongLy Scott Thao (also referred to as "Saly" by family)
 - **Citizenship:** Naturalized U.S. citizen (per family account)
 - **Criminal Record:** None (per family account)
+- **Medical Condition:** Severe psoriasis, exacerbated by extreme cold and stress
 - **Background:** Son of Nurse Choua Thao, a pioneering Hmong nurse who worked at Sam Thong Hospital in Laos during the Secret War and later settled in St. Paul, Minnesota
 
 ## Timeline
@@ -42,6 +43,19 @@ A Hmong man named Saly, described as a naturalized U.S. citizen with no criminal
 
 ### DHS/ICE Statement
 See: [DHS Response: Defends Detention of Hmong Citizen](#2026-01-19-dhs-response-saly-detention) - Statement from @TriciaOhio claims ICE was targeting two convicted sex offenders at the address who remain "at large."
+
+### Family Rebuttal (January 19, 2026)
+The family issued a formal press release on the same day categorically disputing all DHS claims. Key points from the family statement:
+- Mr. Thao is a U.S. citizen with no criminal record
+- He does not live with, nor has ever lived with, the individuals DHS claims
+- Only people at the home are Mr. Thao, his son, daughter-in-law, and young grandson
+- They do not know the individuals DHS references
+- ICE did NOT present a warrant and did NOT ask for identification
+- ICE agents forcibly entered the home with weapons drawn
+- Mr. Thao went willingly despite knowing he had done nothing wrong
+- He suffers from severe psoriasis, exacerbated by the cold exposure
+
+The family has filed complaints with the ACLU of Minnesota and the Office of Minnesota Attorney General Keith Ellison.
 
 ### Local Officials
 No statements from local officials found regarding this incident.
