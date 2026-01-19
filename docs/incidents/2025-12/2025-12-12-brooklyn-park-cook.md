@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: undocumented
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-18T10:00:08
+last_updated: 2026-01-14T08:54:15
 ---
 
 # Brooklyn Park Cook Arrested Outside Workplace; Restaurant Forced to Close

@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: various
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-18T13:00:02
+last_updated: 2026-01-15T23:23:27
 ---
 
 # Border Patrol Commander Bovino CBS Interview

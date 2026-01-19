@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: unknown
 injuries: unknown
 trustworthiness: high
-last_updated: 2026-01-18T12:00:04
+last_updated: 2026-01-15T20:00:44
 ---
 
 # ICE Agents "Ripping People From Cars" at Bus Stop; Union Marks Site as "Abduction" Location

@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: medium
-last_updated: 2026-01-18T10:00:12
+last_updated: 2026-01-14T08:54:15
 ---
 
 # U.S. Citizen Observer Photographed, Followed, and Arrested

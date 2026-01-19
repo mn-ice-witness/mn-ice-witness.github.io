@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: various
 injuries: possible (hammer used on window)
 trustworthiness: high
-last_updated: 2026-01-18T11:00:19
+last_updated: 2026-01-14T09:04:50
 ---
 
 # Multiple ICE Arrests in Rochester; Activist Documents Agent Using Hammer on Car Window

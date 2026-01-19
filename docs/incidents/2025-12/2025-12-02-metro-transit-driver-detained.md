@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: legal-resident
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-18T10:00:04
+last_updated: 2026-01-15T20:00:44
 ---
 
 # Somali-American Metro Transit Bus Driver Detained Over a Month

@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: medium
-last_updated: 2026-01-18T13:00:30
+last_updated: 2026-01-17T11:14:22
 ---
 
 # ICE Agents Near St. Louis Park Daycare Threaten Parent with Pepper Spray

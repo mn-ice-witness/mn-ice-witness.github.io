@@ -176,7 +176,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: medium
-last_updated: 2026-01-15
+last_updated: 2026-01-15T14:30:00
 ---
 
 # Title of Incident
@@ -243,6 +243,8 @@ When new information emerges:
 ### When to Update `last_updated`
 
 **IMPORTANT:** The `last_updated` field powers the "Sort by Updated" feature on the website. Only update it for **substantive story developments** — not routine maintenance.
+
+**Format:** Full ISO 8601 timestamp with seconds: `YYYY-MM-DDTHH:MM:SS` (e.g., `2026-01-18T21:13:42`). The precise timestamp ensures correct sort order when multiple incidents are added/updated on the same day.
 
 #### DO Update `last_updated` For:
 | Change Type | Examples |

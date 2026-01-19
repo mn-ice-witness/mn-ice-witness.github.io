@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: legal-resident
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-18T10:00:05
+last_updated: 2026-01-14T13:25:50
 ---
 
 # DHS Response: Abdulkadir Abdi "Gang Member"

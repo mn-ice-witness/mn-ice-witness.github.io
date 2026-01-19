@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-18T13:00:08
+last_updated: 2026-01-14T08:01:12
 ---
 
 # City Council President Pushed by ICE Agent While Legally Observing

@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
-last_updated: 2026-01-18T12:00:10
+last_updated: 2026-01-14T20:05:01
 ---
 
 # U.S. Citizen Detained by ICE in Brooklyn Park, Told to "Prove" Citizenship

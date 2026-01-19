@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-18T13:00:25
+last_updated: 2026-01-16T16:02:47
 ---
 
 # Federal Agents Execute Search Warrant at Wrong Address

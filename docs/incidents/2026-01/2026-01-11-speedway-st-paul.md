@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
-last_updated: 2026-01-18T12:00:12
+last_updated: 2026-01-14T08:01:12
 ---
 
 # Bystander Filming ICE Arrest Tackled and Detained at Speedway

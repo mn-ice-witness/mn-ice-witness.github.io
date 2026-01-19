@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: various
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-18T13:00:18
+last_updated: 2026-01-15T13:59:54
 ---
 
 # DHS Blames Mayor Frey's Sanctuary Policies for Criminal Release

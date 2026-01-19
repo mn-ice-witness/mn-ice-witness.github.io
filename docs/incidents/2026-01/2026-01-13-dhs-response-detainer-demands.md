@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: various
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-18T13:00:04
+last_updated: 2026-01-14T13:57:51
 ---
 
 # DHS Demands Minnesota Honor 1,360+ ICE Detainers

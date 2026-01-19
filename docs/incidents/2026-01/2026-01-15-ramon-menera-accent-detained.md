@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-18T13:00:26
+last_updated: 2026-01-18T01:02:13
 ---
 
 # U.S. Citizen Detained Because of "Accent"

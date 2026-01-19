@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: unknown
 injuries: none
 trustworthiness: medium
-last_updated: 2026-01-18T12:00:03
+last_updated: 2026-01-14T08:19:50
 ---
 
 # 142 Students Absent from Valleyview Elementary Due to ICE Fears

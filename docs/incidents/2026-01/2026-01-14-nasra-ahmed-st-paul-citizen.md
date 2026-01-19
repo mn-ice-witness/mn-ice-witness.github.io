@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: medium
-last_updated: 2026-01-18T13:00:19
+last_updated: 2026-01-16T22:28:22
 ---
 
 # U.S. Citizen Born in Minnesota Detained by ICE for Two Days

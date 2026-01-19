@@ -8,7 +8,7 @@ status: resolved-deported
 victim_citizenship: undocumented
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-18T10:00:06
+last_updated: 2026-01-14T08:33:42
 ---
 
 # Church Employee Deported, Parish Later Surveilled by ICE

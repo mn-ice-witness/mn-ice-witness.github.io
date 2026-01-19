@@ -8,7 +8,7 @@ status: resolved-released
 victim_citizenship: undocumented
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-18T12:00:01
+last_updated: 2026-01-14T08:38:51
 ---
 
 # Hopkins Father Detained Going to Work; Later Released by Court Order

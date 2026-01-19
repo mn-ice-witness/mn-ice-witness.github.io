@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: undocumented
 injuries: none
 trustworthiness: medium-high
-last_updated: 2026-01-18T12:00:15
+last_updated: 2026-01-14T09:04:50
 ---
 
 # Honduran Man Arrested at Detroit Lakes Restaurant; Partner Documents on Video

@@ -27,15 +27,17 @@ status: enum                  # Required. ongoing | resolved | under-investigati
 victim_citizenship: enum      # Required. See values below
 injuries: enum                # Required. none | minor | serious | fatal
 trustworthiness: enum         # Required. EXACTLY ONE OF: high | medium | low | unverified (no compound values like "medium-high")
-last_updated: YYYY-MM-DD      # Required. See rules below
+last_updated: YYYY-MM-DDTHH:MM:SS  # Required. Full ISO timestamp. See rules below
 ---
 ```
 
 ### `last_updated` Field Rules
 
-**IMPORTANT:** This field powers the "Sort by Updated" feature. Only change it for **substantive story developments**.
+**IMPORTANT:** This field powers the "Sort by Updated" feature. Uses full ISO 8601 timestamp with seconds for precise sorting.
 
-**When adding a new incident:** Set `last_updated` to the current date (when you're adding it to the site).
+**Format:** `YYYY-MM-DDTHH:MM:SS` (e.g., `2026-01-18T21:13:42`)
+
+**When adding a new incident:** Set `last_updated` to the current timestamp (date AND time when you're adding it to the site).
 
 **When updating an existing incident:**
 
@@ -166,7 +168,7 @@ status: resolved
 victim_citizenship: unknown
 injuries: none
 trustworthiness: high
-last_updated: YYYY-MM-DD
+last_updated: YYYY-MM-DDTHH:MM:SS
 ---
 
 # DHS Statement: [Title describing what they're justifying]
@@ -220,7 +222,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
-last_updated: 2026-01-13
+last_updated: 2026-01-13T14:30:00
 ---
 
 # Bystander Filming Arrest Tackled at Speedway

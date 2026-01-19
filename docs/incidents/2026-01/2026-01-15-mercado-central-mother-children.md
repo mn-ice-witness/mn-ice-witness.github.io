@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: undocumented
 injuries: none
 trustworthiness: low
-last_updated: 2026-01-18T13:00:24
+last_updated: 2026-01-18T13:33:29
 ---
 
 # Mother Arrested Near Mercado Central; Two Children Left Behind

@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: unknown
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-18T11:00:14
+last_updated: 2026-01-15T22:45:52
 ---
 
 # DHS Subpoenas Hennepin Healthcare Employee Records for 7,000+ Workers

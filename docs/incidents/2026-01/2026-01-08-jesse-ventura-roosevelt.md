@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: n/a
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-18T11:00:16
+last_updated: 2026-01-14T13:25:50
 ---
 
 # Jesse Ventura Visits Roosevelt High School, Condemns ICE Actions

@@ -8,7 +8,7 @@ status: under-investigation
 victim_citizenship: us-citizen
 injuries: serious
 trustworthiness: high
-last_updated: 2026-01-18T13:00:01
+last_updated: 2026-01-15T23:23:27
 ---
 
 # U.S. Citizen Aliya Rahman Dragged From Car, Hospitalized After ICE Assault

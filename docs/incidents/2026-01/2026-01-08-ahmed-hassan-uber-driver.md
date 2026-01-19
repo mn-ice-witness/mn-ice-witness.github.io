@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-18T11:00:12
+last_updated: 2026-01-14T08:01:12
 ---
 
 # U.S. Citizen Uber Driver Confronted by Agents: "I can hear you don't have the same accent"

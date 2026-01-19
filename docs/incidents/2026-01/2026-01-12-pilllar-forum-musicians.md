@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
-last_updated: 2026-01-18T12:00:19
+last_updated: 2026-01-14T08:01:12
 ---
 
 # Musicians and Fans Pepper Sprayed Outside NE Minneapolis Venue

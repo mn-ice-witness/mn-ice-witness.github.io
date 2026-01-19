@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: unknown
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-18T11:00:13
+last_updated: 2026-01-14T12:35:56
 ---
 
 # DHS Statement: "Worst of the Worst" Arrests Jan 8

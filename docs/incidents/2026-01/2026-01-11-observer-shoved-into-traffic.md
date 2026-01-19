@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: unknown
 injuries: minor
 trustworthiness: high
-last_updated: 2026-01-18T12:00:09
+last_updated: 2026-01-14T15:13:20
 ---
 
 # Observer Shoved Into Oncoming Traffic While Filming ICE

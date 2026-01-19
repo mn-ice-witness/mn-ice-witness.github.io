@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-18T11:00:07
+last_updated: 2026-01-17T23:35:39
 ---
 
 # ICE Blocks Physician From Helping Shooting Victim

@@ -8,7 +8,7 @@ status: ongoing
 victim_citizenship: unknown
 injuries: none
 trustworthiness: medium
-last_updated: 2026-01-18T13:00:23
+last_updated: 2026-01-18T01:26:05
 ---
 
 # Hiawatha Academies Student Detained at Bus Stop

@@ -8,7 +8,7 @@ status: resolved
 victim_citizenship: unknown
 injuries: none
 trustworthiness: high
-last_updated: 2026-01-18T13:00:27
+last_updated: 2026-01-16T09:20:36
 ---
 
 # Two St. Paul School Vans Pulled Over by ICE With Students and Teachers Aboard
