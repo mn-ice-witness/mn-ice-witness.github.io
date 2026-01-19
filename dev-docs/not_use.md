@@ -212,13 +212,6 @@ Stories are excluded when they don't meet the project's core focus:
 - Reason: Protest coverage only - no ICE enforcement incident or civil rights violation by federal agents. Protest against a pastor, not enforcement activity.
 - Date evaluated: 2026-01-18
 
-**Hmong Man Taken From East Side Home in Boxers (Jan 2026)**
-- Sources: [Georgia Fort Facebook post](https://www.facebook.com/ByGeorgiaFort/posts/update-multiple-members-of-the-hmong-community-confirm-the-man-taken-from-his-ea/1400574674857282/)
-- Date: January 2026 (exact date unknown)
-- Details: Per Georgia Fort's Facebook post, a Hmong U.S. citizen was taken from his East Side (St. Paul) home wearing only boxers. His sister-in-law Louansee Moua reports he was driven around, questioned, and fingerprinted. A gun was allegedly pointed at his daughter-in-law during the arrest. He has since been released and is back home.
-- Reason: Social media only - no news outlet pickup found despite extensive searching. Single Facebook post without corroboration. May revisit if news coverage emerges.
-- Date evaluated: 2026-01-18
-
 ### October 2025
 
 **ICE Raids Two Hibbing Mexican Restaurants (El Charro, La Tequila Taco Shop)**

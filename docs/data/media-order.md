@@ -4,8 +4,7 @@
 
 
 
-2026-01-unknown-saly-hmong-citizen-shirtless
-mercado-central-mother-children
+
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -44,5 +43,7 @@ kong-vang-frogtown
 nasra-ahmed-st-paul-citizen
 lyn-lake-tear-gas
 hani-duglof-medical
+mercado-central-mother-children
 christina-rank-teacher
 francis-burger-joint-manager
+saly-hmong-citizen-shirtless

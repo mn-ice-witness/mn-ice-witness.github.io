@@ -1,8 +1,8 @@
 ---
 date: 2026-01-17
 time: unknown
-location: Apartment (exact address unknown)
-city: Twin Cities area
+location: East Side apartment (exact address unknown)
+city: St. Paul
 type: citizens
 status: resolved
 victim_citizenship: us-citizen
@@ -19,7 +19,8 @@ A Hmong man named Saly, described as a naturalized U.S. citizen with no criminal
 
 ## Sources
 1. Facebook Post (Jan 2026): [Hmong American Experience page - Louansee Moua](https://www.facebook.com/share/v/18GcBq3Rwb/) - Family member account
-2. Threads Post (Jan 2026): [@don.moyn post](https://www.threads.com/@don.moyn/post/DTsao6ijVAd) - Repost of incident with photo
+2. Facebook Post (Jan 2026): [Georgia Fort](https://www.facebook.com/ByGeorgiaFort/posts/update-multiple-members-of-the-hmong-community-confirm-the-man-taken-from-his-ea/1400574674857282/) - Community confirmation
+3. Threads Post (Jan 2026): [@don.moyn post](https://www.threads.com/@don.moyn/post/DTsao6ijVAd) - Repost of incident with photo
 
 ## Victim(s)
 - **Name:** Saly (first name only provided)
