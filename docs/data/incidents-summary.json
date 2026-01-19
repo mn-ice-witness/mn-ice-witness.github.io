@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768853916,
+  "mediaVersion": 1768855131,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-18-saly-hmong-citizen-shirtless.md",
@@ -72,7 +72,7 @@
       "victimCitizenship": "us-citizen",
       "injuries": "none",
       "trustworthiness": "high",
-      "lastUpdated": "2026-01-19T11:30:00",
+      "lastUpdated": "2026-01-19T17:00:00",
       "mediaCount": 0,
       "notable": false,
       "hasLocalMedia": false,
@@ -310,7 +310,7 @@
       "victimCitizenship": "us-citizen",
       "injuries": "none",
       "trustworthiness": "high",
-      "lastUpdated": "2026-01-19T11:30:00",
+      "lastUpdated": "2026-01-18T01:02:13",
       "mediaCount": 0,
       "notable": false,
       "hasLocalMedia": true,

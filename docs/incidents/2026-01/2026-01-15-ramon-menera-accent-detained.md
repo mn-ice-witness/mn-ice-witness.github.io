@@ -9,13 +9,10 @@ victim_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-18T01:02:13
-last_updated: 2026-01-19T11:30:00
+last_updated: 2026-01-18T01:02:13
 ---
 
 # U.S. Citizen Detained Because of "Accent"
-
-## Updates
-- **2026-01-19T11:30:00** - DHS posted statement on X defending detention, confirming accent was basis for suspicion
 
 ## Summary
 Ramon Menera, a U.S. citizen, was detained by Border Patrol agents outside his home in a Minneapolis suburb in front of his 5-year-old daughter. The agent accused him of not being a U.S. citizen "because of your accent." Menera was eventually released but described the traumatic impact on his daughter, who asked him afterward: "Are you okay? They were going to take you? I don't want to lose you."
