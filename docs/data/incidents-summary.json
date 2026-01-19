@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768795530,
+  "mediaVersion": 1768796688,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-18-noem-pepper-spray-denial-backtrack.md",
@@ -289,6 +289,28 @@
         }
       ],
       "aspectRatio": 0.6972222222222222
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-14-st-paul-public-works-snowplow-driver.md",
+      "title": "St. Paul Snowplow Driver with Legal Work Status Detained by ICE",
+      "summary": "A St. Paul Public Works employee working as a snowplow driver was detained by ICE agents outside a work site despite having valid federal work authorization and a commercial driver's license. Public Works Director Sean Kershaw stated the detention \"never should have happened\" and that the worker was targeted \"purely based on his country of origin.\" The man is currently being held at a detention facility in El Paso, Texas.",
+      "date": "2026-01-14",
+      "time": "unknown",
+      "location": "Outside work site",
+      "city": "St. Paul",
+      "type": "citizens",
+      "status": "ongoing",
+      "victimCitizenship": "legal-resident",
+      "injuries": "none",
+      "trustworthiness": "high",
+      "lastUpdated": "2026-01-18T22:23:27",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": [],
+      "aspectRatio": null
     },
     {
       "filePath": "incidents/2026-01/2026-01-14-nasra-ahmed-st-paul-citizen.md",
