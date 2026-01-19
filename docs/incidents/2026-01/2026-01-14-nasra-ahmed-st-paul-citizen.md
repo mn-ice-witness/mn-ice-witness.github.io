@@ -22,6 +22,7 @@ Nasra Mohamed Ahmed, a 23-year-old U.S. citizen born in Hennepin County, was det
 2. Twin Cities Pioneer Press (Jan 17, 2026): [St. Paul woman, U.S. citizen, released from ICE detention after two days](https://www.twincities.com/2026/01/17/st-paul-woman-u-s-citizen-released-from-ice-detention-after-two-days/)
 3. Facebook post: [Community member account](https://www.facebook.com/story.php?story_fbid=25714350694874522&id=100001788329163) - Notes she was on her way to pick up a prescription
 4. Yahoo News / Twin Cities (Jan 18, 2026): [St. Paul woman, a U.S. citizen, recounts her two days in detention](https://www.yahoo.com/news/articles/st-paul-woman-u-citizen-173600494.html)
+5. Facebook post (Somlai): [Personal account](https://www.facebook.com/100078874290085/posts/869036045735531/)
 
 ## Victim(s)
 - **Name:** Nasra Mohamed Ahmed
