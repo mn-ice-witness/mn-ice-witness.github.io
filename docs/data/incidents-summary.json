@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768856131,
+  "mediaVersion": 1768856317,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-19-dhs-response-saly-detention.md",
@@ -30,7 +30,7 @@
     },
     {
       "filePath": "incidents/2026-01/2026-01-18-saly-hmong-citizen-shirtless.md",
-      "title": "Hmong U.S. Citizen Detained Shirtless in Freezing Weather, Then Released (UNVERIFIED)",
+      "title": "Hmong U.S. Citizen Detained Shirtless in Freezing Weather, Then Released",
       "summary": "A Hmong man named Saly, described as a naturalized U.S. citizen with no criminal record, was reportedly detained by ICE agents who broke down his apartment door. According to family members, agents did not allow him to put on proper clothing before taking him outside in approximately 10-degree weather. After driving him around for nearly an hour, questioning, and fingerprinting him, agents released him after determining he had no criminal history. The family believes ICE was searching for someone who previously lived at the address.",
       "date": "2026-01-18",
       "time": "unknown",
@@ -40,8 +40,8 @@
       "status": "resolved",
       "victimCitizenship": "us-citizen",
       "injuries": "none",
-      "trustworthiness": "unverified",
-      "lastUpdated": "2026-01-19T10:14:30",
+      "trustworthiness": "high",
+      "lastUpdated": "2026-01-19T21:30:00",
       "mediaCount": 1,
       "notable": false,
       "hasLocalMedia": true,
