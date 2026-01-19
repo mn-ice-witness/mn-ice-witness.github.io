@@ -1,6 +1,33 @@
 {
-  "mediaVersion": 1768841011,
+  "mediaVersion": 1768841251,
   "incidents": [
+    {
+      "filePath": "incidents/2026-01/2026-01-18-saly-hmong-citizen-shirtless.md",
+      "title": "Hmong U.S. Citizen Detained Shirtless in Freezing Weather, Then Released",
+      "summary": "A Hmong man named Saly, described as a naturalized U.S. citizen with no criminal record, was reportedly detained by ICE agents who broke down his apartment door. According to family members, agents did not allow him to put on proper clothing before taking him outside in approximately 10-degree weather. After driving him around for nearly an hour, questioning, and fingerprinting him, agents released him after determining he had no criminal history. The family believes ICE was searching for someone who previously lived at the address.",
+      "date": "2026-01-18",
+      "time": "unknown",
+      "location": "East Side apartment (exact address unknown)",
+      "city": "St. Paul",
+      "type": "citizens",
+      "status": "resolved",
+      "victimCitizenship": "us-citizen",
+      "injuries": "none",
+      "trustworthiness": "unverified",
+      "lastUpdated": "2026-01-19T12:00:00",
+      "mediaCount": 1,
+      "notable": false,
+      "hasLocalMedia": true,
+      "localMediaType": "image",
+      "localMediaPath": "media/2026-01-18-saly-hmong-citizen-shirtless.jpg",
+      "localMediaFiles": [
+        {
+          "type": "image",
+          "path": "media/2026-01-18-saly-hmong-citizen-shirtless.jpg"
+        }
+      ],
+      "aspectRatio": 1.084010840108401
+    },
     {
       "filePath": "incidents/2026-01/2026-01-18-noem-pepper-spray-denial-backtrack.md",
       "title": "DHS Secretary Noem Defends Raids as Targeting 'Criminals and Rapists,' Denies Pepper Spray Use on CBS",
@@ -27,33 +54,6 @@
         }
       ],
       "aspectRatio": 1.8537735849056605
-    },
-    {
-      "filePath": "incidents/2026-01/2026-01-17-saly-hmong-citizen-shirtless.md",
-      "title": "Hmong U.S. Citizen Detained Shirtless in Freezing Weather, Then Released",
-      "summary": "A Hmong man named Saly, described as a naturalized U.S. citizen with no criminal record, was reportedly detained by ICE agents who broke down his apartment door. According to family members, agents did not allow him to put on proper clothing before taking him outside in approximately 10-degree weather. After driving him around for nearly an hour, questioning, and fingerprinting him, agents released him after determining he had no criminal history. The family believes ICE was searching for someone who previously lived at the address.",
-      "date": "2026-01-17",
-      "time": "unknown",
-      "location": "East Side apartment (exact address unknown)",
-      "city": "St. Paul",
-      "type": "citizens",
-      "status": "resolved",
-      "victimCitizenship": "us-citizen",
-      "injuries": "none",
-      "trustworthiness": "unverified",
-      "lastUpdated": "2026-01-19T12:00:00",
-      "mediaCount": 1,
-      "notable": false,
-      "hasLocalMedia": true,
-      "localMediaType": "image",
-      "localMediaPath": "media/2026-01-17-saly-hmong-citizen-shirtless.jpg",
-      "localMediaFiles": [
-        {
-          "type": "image",
-          "path": "media/2026-01-17-saly-hmong-citizen-shirtless.jpg"
-        }
-      ],
-      "aspectRatio": 1.084010840108401
     },
     {
       "filePath": "incidents/2026-01/2026-01-17-st-louis-park-daycare.md",

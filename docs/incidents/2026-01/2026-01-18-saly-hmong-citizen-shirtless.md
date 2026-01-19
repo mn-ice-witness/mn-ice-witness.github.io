@@ -1,5 +1,5 @@
 ---
-date: 2026-01-17
+date: 2026-01-18
 time: unknown
 location: East Side apartment (exact address unknown)
 city: St. Paul
@@ -60,4 +60,4 @@ From Louansee Moua's Facebook post (Saly's sister-in-law):
 The post notes that Saly's mother, Choua Thao, was a nurse during the war in Laos who helped deliver premature twins. She ensured all her children became naturalized U.S. citizens.
 
 ## Editorial Assessment
-**UNVERIFIED** - This incident is documented only through social media posts from a family member (Louansee Moua via Hmong American Experience Facebook page) and a Threads repost. No independent news coverage has been found to corroborate the claims. The photo shows a shirtless man in cold weather with a person in tactical gear, providing visual evidence something occurred, but the specific details (citizenship status, lack of criminal record, gun pointed at family member) cannot be independently verified. Louansee Moua appears to be a credible community advocate with 20+ years of experience in community relations, but this remains a single-source family account. Date estimated as January 17, 2026 based on social media posts appearing on January 19.
+**UNVERIFIED** - This incident is documented only through social media posts from a family member (Louansee Moua via Hmong American Experience Facebook page) and a Threads repost. No independent news coverage has been found to corroborate the claims. The photo shows a shirtless man in cold weather with a person in tactical gear, providing visual evidence something occurred, but the specific details (citizenship status, lack of criminal record, gun pointed at family member) cannot be independently verified. Louansee Moua appears to be a credible community advocate with 20+ years of experience in community relations, but this remains a single-source family account. Date estimated as January 18, 2026 based on social media posts appearing on January 19.
