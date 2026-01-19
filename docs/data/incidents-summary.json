@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768842357,
+  "mediaVersion": 1768842803,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-18-saly-hmong-citizen-shirtless.md",
@@ -899,6 +899,28 @@
         }
       ],
       "aspectRatio": 2.1485943775100402
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-12-phil-maddox-did-you-not-learn.md",
+      "title": "\"Did You Not Learn From What Just Happened?\" - ICE Agents Threaten Observer",
+      "summary": "Phil Maddox, a Minneapolis resident, was confronted by ICE agents while driving through his neighborhood to monitor federal activity. Agents accused him of following them, punched his car window, and made veiled death threats referencing the killing of Renee Good five days earlier, asking \"Did you not learn from what just happened?\" Maddox interpreted this as agents saying they have immunity to kill citizens.",
+      "date": "2026-01-12",
+      "time": "morning",
+      "location": "South Minneapolis neighborhood",
+      "city": "Minneapolis",
+      "type": "observers",
+      "status": "resolved",
+      "victimCitizenship": "us-citizen",
+      "injuries": "none",
+      "trustworthiness": "high",
+      "lastUpdated": "2026-01-19T13:00:00",
+      "mediaCount": 2,
+      "notable": false,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": [],
+      "aspectRatio": null
     },
     {
       "filePath": "incidents/2026-01/2026-01-12-irma-escoto-citizen-check.md",
