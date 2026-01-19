@@ -212,6 +212,27 @@ Stories are excluded when they don't meet the project's core focus:
 - Reason: Protest coverage only - no ICE enforcement incident or civil rights violation by federal agents. Protest against a pastor, not enforcement activity.
 - Date evaluated: 2026-01-18
 
+**ICE Agents Asking "Where the Asian People Live" (Jan 2026)**
+- Sources: [New Republic](https://newrepublic.com/post/205297/ice-minnesota-racial-profiling-refugees-deportations), [KARE 11](https://www.kare11.com/article/news/local/ice-in-minnesota/st-paul-mayor-kaohly-her-reports-ice-agents-asking-where-the-asian-people-live/89-10880612-bb5f-4bd2-978b-786ae8760afb), [Chicago Tribune/Twin Cities](https://www.chicagotribune.com/2026/01/12/st-paul-ice-activity/)
+- Date: January 2026
+- Details: Elizabeth Lugert-Thom reported on social media that two federal agents came to her door in St. Paul's North End, showed a picture asking if she knew someone, then asked "where the Hmong families lived" and "what about the Asian families?" She did not direct them to neighbors.
+- Reason: Pattern documentation / canvassing behavior - no detention, arrest, or direct civil rights violation against the resident. Valuable evidence of racial profiling patterns but not a specific enforcement incident with a victim. Could be referenced in context of broader racial profiling documentation.
+- Date evaluated: 2026-01-19
+
+**Letter Carriers Protest Lake Street (Jan 18)**
+- Sources: [Fox 9](https://www.fox9.com/news/live-updates-ice-minnesota-postal-workers-protest-jan-18), [CBS Minnesota](https://www.cbsnews.com/minnesota/video/twin-cities-mail-carriers-speak-out-against-ice-operations/), [Bring Me The News](https://bringmethenews.com/minnesota-news/list-of-ice-raids-protest-updates-in-minnesota-on-sunday-jan-18)
+- Date: January 18, 2026
+- Details: National Association of Letter Carriers Branch 9 (NALC) protested along Lake Street in Minneapolis, demanding ICE leave Minnesota and stop using postal parking lots as staging areas. March went to site where Renee Good was killed.
+- Reason: Protest coverage only - no enforcement incident or civil rights violation by federal agents.
+- Date evaluated: 2026-01-19
+
+**Whipple Building Chemical Agents After Court Order (Jan 18)**
+- Sources: [Star Tribune](https://www.startribune.com/ice-raids-minnesota/601546426), [Fox News](https://www.foxnews.com/us/federal-agents-deploy-tear-gas-rubber-bullets-protesters-outside-minneapolis-federal-building)
+- Date: January 18, 2026
+- Details: Federal agents deployed chemical irritants at Whipple Building protests, allegedly violating the Jan 17 court order prohibiting such tactics against peaceful protesters. Tensions escalated Saturday evening.
+- Reason: Protest/legal story - documents potential court order violation but no specific individual victim detained or harmed in enforcement action. The court order violation may be relevant for legal filings but does not constitute a standalone civil rights incident file.
+- Date evaluated: 2026-01-19
+
 ### October 2025
 
 **ICE Raids Two Hibbing Mexican Restaurants (El Charro, La Tequila Taco Shop)**
