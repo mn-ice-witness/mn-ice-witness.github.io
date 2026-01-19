@@ -8,6 +8,7 @@ status: resolved
 victim_citizenship: unknown
 injuries: none
 trustworthiness: medium
+created: 2026-01-15T09:33:17
 last_updated: 2026-01-15T09:33:17
 ---
 

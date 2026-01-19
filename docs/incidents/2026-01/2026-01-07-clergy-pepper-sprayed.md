@@ -8,6 +8,7 @@ status: resolved
 victim_citizenship: us-citizens
 injuries: pepper-spray-exposure
 trustworthiness: high
+created: 2026-01-14T08:41:37
 last_updated: 2026-01-14T08:41:37
 ---
 

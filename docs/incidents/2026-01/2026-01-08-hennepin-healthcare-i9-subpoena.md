@@ -8,6 +8,7 @@ status: ongoing
 victim_citizenship: unknown
 injuries: none
 trustworthiness: high
+created: 2026-01-15T22:45:52
 last_updated: 2026-01-15T22:45:52
 ---
 

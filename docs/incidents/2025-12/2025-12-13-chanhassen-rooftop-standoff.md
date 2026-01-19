@@ -8,6 +8,7 @@ status: resolved-detained
 victim_citizenship: unknown
 injuries: none
 trustworthiness: medium
+created: 2026-01-14T08:54:15
 last_updated: 2026-01-14T08:54:15
 ---
 

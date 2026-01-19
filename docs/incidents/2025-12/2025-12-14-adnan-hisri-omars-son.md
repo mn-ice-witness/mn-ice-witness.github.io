@@ -8,6 +8,7 @@ status: resolved-released
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: medium
+created: 2026-01-14T09:04:50
 last_updated: 2026-01-14T09:04:50
 ---
 

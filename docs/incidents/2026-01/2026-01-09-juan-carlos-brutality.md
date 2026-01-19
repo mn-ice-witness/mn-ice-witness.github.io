@@ -8,6 +8,7 @@ status: under-investigation
 victim_citizenship: legal-resident
 injuries: serious
 trustworthiness: high
+created: 2026-01-14T08:01:12
 last_updated: 2026-01-14T08:01:12
 ---
 

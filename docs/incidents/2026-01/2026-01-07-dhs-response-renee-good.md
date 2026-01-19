@@ -8,6 +8,7 @@ status: under-investigation
 victim_citizenship: us-citizen
 injuries: fatal
 trustworthiness: high
+created: 2026-01-14T12:35:56
 last_updated: 2026-01-14T12:35:56
 ---
 

@@ -8,6 +8,7 @@ status: resolved
 victim_citizenship: undocumented
 injuries: unknown
 trustworthiness: high
+created: 2026-01-14T08:27:46
 last_updated: 2026-01-14T08:27:46
 ---
 

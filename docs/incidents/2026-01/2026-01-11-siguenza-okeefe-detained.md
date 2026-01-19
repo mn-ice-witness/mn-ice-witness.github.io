@@ -8,7 +8,8 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
-last_updated: 2026-01-18T15:52:57
+created: 2026-01-14T08:01:12
+last_updated: 2026-01-14T08:01:12
 ---
 
 # Two ICE Observers Detained 8 Hours, Pressured to Name Organizers

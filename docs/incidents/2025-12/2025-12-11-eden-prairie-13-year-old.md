@@ -8,6 +8,7 @@ status: ongoing
 victim_citizenship: asylum-seeker
 injuries: serious
 trustworthiness: high
+created: 2026-01-14T08:54:15
 last_updated: 2026-01-14T08:54:15
 ---
 

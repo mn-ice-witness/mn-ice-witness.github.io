@@ -27,17 +27,20 @@ status: enum                  # Required. ongoing | resolved | under-investigati
 victim_citizenship: enum      # Required. See values below
 injuries: enum                # Required. none | minor | serious | fatal
 trustworthiness: enum         # Required. EXACTLY ONE OF: high | medium | low | unverified (no compound values like "medium-high")
-last_updated: YYYY-MM-DDTHH:MM:SS  # Required. Full ISO timestamp. See rules below
+created: YYYY-MM-DDTHH:MM:SS  # Required. When incident was first added to site
+last_updated: YYYY-MM-DDTHH:MM:SS  # Required. When last MAJOR update occurred (see rules)
 ---
 ```
 
-### `last_updated` Field Rules
+### `created` and `last_updated` Field Rules
 
-**IMPORTANT:** This field powers the "Sort by Updated" feature. Uses full ISO 8601 timestamp with seconds for precise sorting.
+**Format:** Full ISO 8601 timestamp with seconds: `YYYY-MM-DDTHH:MM:SS` (e.g., `2026-01-18T21:13:42`)
 
-**Format:** `YYYY-MM-DDTHH:MM:SS` (e.g., `2026-01-18T21:13:42`)
+**`created`**: When the incident file was first added to the site. Never changes after initial creation.
 
-**When adding a new incident:** Set `last_updated` to the current timestamp (date AND time when you're adding it to the site).
+**`last_updated`**: When the last MAJOR story update occurred. Powers the "Sort by Updated" feature.
+
+**When adding a new incident:** Set BOTH `created` and `last_updated` to the current timestamp.
 
 **When updating an existing incident:**
 
@@ -90,6 +93,11 @@ Both categories may involve U.S. citizens being detained. Choose based on WHY th
 
 ```markdown
 # Incident Title
+
+## Updates
+(ONLY for incidents with major story updates - omit for most incidents)
+- **YYYY-MM-DDTHH:MM:SS** - Brief description of major update
+- **YYYY-MM-DDTHH:MM:SS** - Earlier major update
 
 ## Summary
 Brief 2-3 sentence summary. First sentence appears in card preview.
@@ -222,6 +230,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
+created: 2026-01-13T14:30:00
 last_updated: 2026-01-13T14:30:00
 ---
 

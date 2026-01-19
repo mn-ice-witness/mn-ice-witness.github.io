@@ -7,7 +7,8 @@ type: immigrants
 status: ongoing
 victim_citizenship: undocumented
 injuries: none
-trustworthiness: medium-high
+trustworthiness: high
+created: 2026-01-14T09:04:50
 last_updated: 2026-01-14T09:04:50
 ---
 
@@ -38,4 +39,4 @@ Following the arrest:
 This arrest was part of "Operation Metro Surge," which DHS Secretary Kristi Noem called the "largest immigration operation ever" in Minnesota. It came five days after the fatal shooting of Renee Good, amid heightened tensions statewide.
 
 ## Editorial Assessment
-**MEDIUM-HIGH** - Video documentation by partner. Local news coverage. Demonstrates ICE enforcement extending to rural Minnesota communities far from Twin Cities metro.
+**HIGH** - Video documentation by partner. Local news coverage. Demonstrates ICE enforcement extending to rural Minnesota communities far from Twin Cities metro.

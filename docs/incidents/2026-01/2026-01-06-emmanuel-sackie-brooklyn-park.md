@@ -8,6 +8,7 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: serious
 trustworthiness: high
+created: 2026-01-14T16:15:50
 last_updated: 2026-01-14T16:15:50
 ---
 

@@ -7,7 +7,8 @@ type: immigrants
 status: unknown
 victim_citizenship: undocumented
 injuries: none
-trustworthiness: medium-high
+trustworthiness: high
+created: 2026-01-14T13:57:51
 last_updated: 2026-01-14T13:57:51
 ---
 
@@ -44,4 +45,4 @@ This arrest is part of a broader pattern of ICE operations affecting Minnesota's
 Businesses of all sizes are grappling with difficult and sensitive situations, dealing with detained employees, enacting safety measures for workers, and navigating public communications.
 
 ## Editorial Assessment
-**MEDIUM-HIGH** - Confirmed by General Mills spokesperson and DHS statement. Video exists but exact date unclear ("second week of January"). Limited details about the detained individual.
+**HIGH** - Confirmed by General Mills spokesperson and DHS statement. Video exists but exact date unclear ("second week of January"). Limited details about the detained individual.

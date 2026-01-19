@@ -8,6 +8,7 @@ status: resolved
 victim_citizenship: unknown
 injuries: chemical irritant exposure
 trustworthiness: medium
+created: 2026-01-14T09:04:50
 last_updated: 2026-01-14T09:04:50
 ---
 

@@ -8,6 +8,7 @@ status: resolved-deported
 victim_citizenship: undocumented
 injuries: none
 trustworthiness: high
+created: 2026-01-14T08:33:42
 last_updated: 2026-01-14T08:33:42
 ---
 

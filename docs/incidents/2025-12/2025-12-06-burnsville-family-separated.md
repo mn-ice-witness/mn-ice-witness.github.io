@@ -8,6 +8,7 @@ status: ongoing
 victim_citizenship: mixed-status-household
 injuries: none-physical
 trustworthiness: high
+created: 2026-01-14T08:38:51
 last_updated: 2026-01-14T08:38:51
 ---
 

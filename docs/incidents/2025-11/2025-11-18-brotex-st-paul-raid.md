@@ -8,6 +8,7 @@ status: resolved-detained
 victim_citizenship: undocumented
 injuries: protesters pepper-sprayed
 trustworthiness: high
+created: 2026-01-14T09:04:50
 last_updated: 2026-01-14T09:04:50
 ---
 
