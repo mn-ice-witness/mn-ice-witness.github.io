@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768844004,
+  "mediaVersion": 1768848974,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-18-saly-hmong-citizen-shirtless.md",
@@ -73,6 +73,31 @@
       "injuries": "none",
       "trustworthiness": "medium",
       "lastUpdated": "2026-01-17T11:14:22",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": [],
+      "aspectRatio": null
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-16-parral-ortiz-hospital-detention.md",
+      "title": "Man Detained While Driving Sick Wife to Emergency Room",
+      "summary": "Liborio Parral Ortiz was detained by ICE agents while driving his wife Bonfilia Sanchez Dominguez to the emergency room for severe back pain. Agents blocked their vehicle before they could reach Mercy Hospital Unity Campus in Fridley. Parral Ortiz was taken into custody and transported to El Paso, Texas within 20 hours\u2014before his family could bring him his diabetes medication. His wife was taken to the hospital by ICE agents, but family members and her attorney were blocked from accessing her bedside.",
+      "date": "2026-01-16",
+      "time": "\"06:30\"",
+      "location": "En route to Mercy Hospital Unity Campus",
+      "city": "Mounds View",
+      "type": [
+        "immigrants",
+        "schools-hospitals"
+      ],
+      "status": "ongoing",
+      "victimCitizenship": "undocumented",
+      "injuries": "none",
+      "trustworthiness": "medium",
+      "lastUpdated": "2026-01-19",
       "mediaCount": 0,
       "notable": false,
       "hasLocalMedia": false,

@@ -34,13 +34,14 @@ Four ICE agents ate lunch at El Tapatio, a family-owned Mexican restaurant in Wi
 14. Crooks and Liars (Jan 2026): [ICE agents eat Mexican restaurant then return](https://crooksandliars.com/2026/01/ice-agents-eat-mexican-restaurant-then)
 15. Mediaite (Jan 2026): [ICE agents arrest workers from Mexican restaurant where they just ate](https://www.mediaite.com/media/news/ice-agents-arrest-workers-from-mexican-restaurant-where-they-just-ate/)
 16. DNYUZ (Jan 2026): [ICE agents detain workers who had just served them lunch](https://dnyuz.com/2026/01/16/ice-agents-detain-workers-who-had-just-served-them-lunch/)
+17. [GoFundMe: Liborio Parral & Bonfilia Sanchez](https://www.gofundme.com/f/LiborioParralBonfiliaSanchez) - Family fundraiser confirming owner identities
 
 ## Victim(s)
-- **Name:** Not disclosed
+- **Name:** Liborio Parral Ortiz and Bonfilia Sanchez Dominguez (owners); third person (dishwasher) not identified
 - **Age:** Unknown (owners' son is 20)
 - **Occupation:** Restaurant owners (2) and dishwasher (1)
-- **Citizenship:** Unknown
-- **Background:** El Tapatio is a family-run Mexican restaurant on First Street South in Willmar, Minnesota. The owners' 20-year-old son stated he would reopen the restaurant on Saturday.
+- **Citizenship:** Undocumented (owners in US since 1989)
+- **Background:** El Tapatio is a family-run Mexican restaurant on First Street South in Willmar, Minnesota. The owners, Liborio Parral Ortiz and Bonfilia Sanchez Dominguez, have lived in the United States since 1989 and moved to Minnesota 20 years ago. They reside in Mounds View and are active members of their Seventh-day Adventist Church. The owners' 20-year-old son stated he would reopen the restaurant on Saturday.
 
 ## Timeline
 - **~15:00** - Four ICE agents in a booth eat lunch at El Tapatio. Staff are visibly frightened. An eyewitness takes photos.
@@ -81,6 +82,10 @@ This incident is part of increased ICE activity in Willmar, which has included:
 
 ## Social Media Response
 The incident drew widespread condemnation on social media, with users describing the tactic as "depraved" and "diabolical." The story was covered by numerous national and international outlets.
+
+## Related Incidents
+The restaurant owners were targeted in a separate ICE operation the following day:
+- **January 16, 2026:** Liborio Parral Ortiz was detained while driving his wife Bonfilia Sanchez Dominguez to the emergency room in Mounds View. He was transported to El Paso, Texas within 20 hours. See: [Parral Ortiz Hospital Detention](2026-01-16-parral-ortiz-hospital-detention.md)
 
 ## Editorial Assessment
 **HIGH** - 7+ independent news sources including the original Star Tribune reporting, local Willmar outlets (West Central Tribune, KWLM Radio), CBS Minnesota, and multiple national outlets. Eyewitness provided photos from the restaurant and video of the arrests. Multiple witness accounts corroborate the timeline. CBS Minnesota confirmed the owners were among those detained. The restaurant being closed on Friday with no reopening date corroborates the community impact.
