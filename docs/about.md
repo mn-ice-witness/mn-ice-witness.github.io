@@ -46,7 +46,7 @@ Incidents are organized into five categories:
 
 ### NEW/UPDATED
 
-When enabled, incidents are sorted by when they were added or last had a significant update (e.g., judge ruling, person released). This lets you easily see new content if you visit the site regularly. With this off, incidents are sorted by category and then by incident date.
+When enabled, incidents are sorted by when they were added or last had a significant update (e.g., judge ruling, person released). This lets you easily see new content if you visit the site regularly. With this off, in the 'List' view incidents are sorted by category and then by incident date.
 
 ### List View Icons
 
