@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768773178,
+  "mediaVersion": 1768781351,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-17-st-louis-park-daycare.md",
@@ -1025,11 +1025,16 @@
       "lastUpdated": "2026-01-14",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": [],
-      "aspectRatio": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-11-siguenza-okeefe-detained.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-11-siguenza-okeefe-detained.mp4"
+        }
+      ],
+      "aspectRatio": 1.6194444444444445
     },
     {
       "filePath": "incidents/2026-01/2026-01-11-rogelio-jimenez-brooklyn-park.md",
