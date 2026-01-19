@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768802131,
+  "mediaVersion": 1768837859,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-18-noem-pepper-spray-denial-backtrack.md",
@@ -162,6 +162,28 @@
       "injuries": "none",
       "trustworthiness": "low",
       "lastUpdated": "2026-01-18T13:33:29",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": [],
+      "aspectRatio": null
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-15-whipple-lawyers-denied-access.md",
+      "title": "Attorneys Denied Access to Detained Clients at Whipple Building",
+      "summary": "Multiple attorneys allege the Department of Homeland Security is denying detainees their constitutional right to legal counsel at the Whipple Federal Building in Minneapolis. Four attorneys report being denied access to their clients, including one U.S. citizen and Iraq War veteran detained as a bystander. ICE agents cite reasons attorneys say have no legal basis, including \"we don't do attorney visitation.\"",
+      "date": "2026-01-15",
+      "time": "unknown",
+      "location": "Bishop Henry Whipple Federal Building",
+      "city": "Minneapolis",
+      "type": "immigrants",
+      "status": "ongoing",
+      "victimCitizenship": "unknown",
+      "injuries": "none",
+      "trustworthiness": "high",
+      "lastUpdated": "2026-01-19T14:30:00",
       "mediaCount": 0,
       "notable": false,
       "hasLocalMedia": false,
