@@ -9,10 +9,13 @@ victim_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-18T01:02:13
-last_updated: 2026-01-18T01:02:13
+last_updated: 2026-01-19T11:30:00
 ---
 
 # U.S. Citizen Detained Because of "Accent"
+
+## Updates
+- **2026-01-19T11:30:00** - DHS posted statement on X defending detention, confirming accent was basis for suspicion
 
 ## Summary
 Ramon Menera, a U.S. citizen, was detained by Border Patrol agents outside his home in a Minneapolis suburb in front of his 5-year-old daughter. The agent accused him of not being a U.S. citizen "because of your accent." Menera was eventually released but described the traumatic impact on his daughter, who asked him afterward: "Are you okay? They were going to take you? I don't want to lose you."
@@ -42,7 +45,9 @@ Menera says that ICE doesn't care if you're a citizen or not, and feels he is a 
 ## Official Accounts
 
 ### DHS/ICE Statement
-CNN reached out to the Department of Homeland Security for comment on the incident. No response documented.
+On January 18, 2026, DHS posted a statement on X defending the detention. DHS confirmed the agent "recognized one individual's accent as being from Mexico" and claimed the citizen "at first lied about where he was born, claiming Minnesota" before changing his answer to Mexico. DHS acknowledged that records confirmed he was a naturalized U.S. citizen and he was "immediately released."
+
+**See full DHS response:** [DHS Statement: Defends Accent-Based Detention](2026-01-18-dhs-response-accent-detention.md)
 
 ## Legal Context
 This incident is cited in the ACLU's class-action lawsuit filed January 15, 2026, alleging widespread racial profiling, warrantless stops, and unconstitutional arrests by federal immigration agents. The ACLU argues that arrests based solely on ethnic appearance or accent violate the Fifth Amendment's Due Process Clause and the Equal Protection Clause.
