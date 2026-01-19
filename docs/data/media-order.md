@@ -2,6 +2,7 @@
 # List incident slugs in display order (one per line)
 
 
+
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -45,4 +46,5 @@ hani-duglof-medical
 mercado-central-mother-children
 christina-rank-teacher
 francis-burger-joint-manager
+fridley-schools-closure
 saly-hmong-citizen-shirtless

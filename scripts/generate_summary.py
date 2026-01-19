@@ -193,7 +193,7 @@ def update_media_order(incidents_with_media, data_dir):
     new_slugs.sort()
 
     if new_slugs:
-        all_slugs = new_slugs + existing_slugs
+        all_slugs = existing_slugs + new_slugs
         content = '\n'.join(header_lines) + '\n\n' + '\n'.join(all_slugs) + '\n'
         order_file.write_text(content)
 
