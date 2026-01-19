@@ -2,6 +2,7 @@
 # List incident slugs in display order (one per line)
 
 
+
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -38,3 +39,4 @@ christian-molina-car-rammed
 christina-rank-teacher
 nasra-ahmed-st-paul-citizen
 hani-duglof-medical
+francis-burger-joint-manager

@@ -126,6 +126,18 @@ Assign LOW when:
 - Specialty: Sahan Journal (immigration), ICT (Native issues)
 - Official: City of Minneapolis, MN AG, court documents
 
+### Source Requirements
+
+**Every source MUST:**
+1. **Be directly about the incident** - Link to specific content about this incident
+2. **Have a valid, working link** - No link = not a source
+3. **Be accessible** - Behind-login-wall content without visible incident information is not a source
+
+**NOT valid sources:**
+- Business homepages or general profile pages
+- Social media profile pages (only specific posts about the incident count)
+- Pages that don't mention the incident
+
 ### Needs Corroboration
 - Facebook posts
 - X/Twitter posts (unless from officials)

@@ -253,6 +253,25 @@ A U.S. citizen filming an ICE arrest was tackled and detained despite complying 
 
 ## Source Formatting Rules
 
+### What Counts as a Source
+
+**A source MUST:**
+1. **Be directly about the incident** - The source must contain content specifically about this incident. A business's general homepage or social media profile page is NOT a source.
+2. **Have a valid, working link** - Every source must link to a specific page, article, video, or post. No link = not a source.
+3. **Be accessible** - If a link requires login or is behind a paywall that prevents viewing the incident content, it should not be listed as a source.
+
+**NOT valid sources:**
+- Business homepages (e.g., restaurant's main website)
+- General social media profile pages (e.g., @francisburgerjoint Instagram profile)
+- Pages that don't mention the incident
+- Dead links
+
+**Valid sources include:**
+- News articles about the incident
+- Specific social media posts about the incident (direct link to post)
+- Video embeds of incident footage
+- Official statements (with link to statement)
+
 ### Format
 Every source follows this format:
 ```
@@ -308,6 +327,8 @@ Use consistent outlet names:
 
 ### What NOT to Include
 - Sources without links (no link = not a source)
+- Links that don't directly reference the incident (e.g., business homepages, social media profile pages)
 - Trailing "- Publication" after the URL
 - Unnumbered sources
 - Italic lines about "photos/videos referenced above"
+- "Social Media" sections with general profile links (only include specific posts about the incident)
