@@ -104,8 +104,12 @@ status: ongoing | resolved | under-investigation
 victim_citizenship: us-citizen | legal-resident | undocumented | asylum-seeker | unknown
 injuries: none | minor | serious | fatal
 trustworthiness: high | medium | low | unverified  # EXACTLY ONE value, no compounds like "medium-high"
-last_updated: YYYY-MM-DD  # See rules below
+created: YYYY-MM-DDTHH:MM:SS      # REQUIRED: Full timestamp when file created
+last_updated: YYYY-MM-DDTHH:MM:SS  # REQUIRED: Full timestamp - see rules below
 ---
+
+### ⚠️ TIMESTAMP FORMAT (Common Mistake!)
+**BOTH `created` and `last_updated` MUST include the time component** (e.g., `2026-01-19T16:00:00`), not just the date. Without the time, incidents sort incorrectly in the "NEW/UPDATED" view (date-only sorts as midnight, appearing at bottom of that day).
 
 ### `last_updated` Rules (Important!)
 The website has a "Sort by Updated" feature. Only change `last_updated` for **substantive story developments** (judge ruling, release, new facts) — NOT for adding sources, formatting, or typo fixes. See `dev-docs/adding-incidents.md` for full rules.
