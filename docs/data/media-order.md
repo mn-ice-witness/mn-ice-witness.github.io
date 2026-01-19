@@ -1,10 +1,6 @@
 # Media Gallery Order
 # List incident slugs in display order (one per line)
 
-
-
-
-
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -17,6 +13,7 @@ mubashir-wrongful-detention
 oglala-sioux-still-detained
 mankato-women-sprayed
 noem-pepper-spray-denial-backtrack
+agriculture-press-conference
 siguenza-okeefe-detained
 doctor-blocked-renee-good
 ramon-menera-accent-detained

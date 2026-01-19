@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768840016,
+  "mediaVersion": 1768840964,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-18-noem-pepper-spray-denial-backtrack.md",
@@ -402,6 +402,33 @@
         }
       ],
       "aspectRatio": 1.8295964125560538
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-14-agriculture-press-conference.md",
+      "title": "State Lawmakers and Farmers Union Hold Press Conference on ICE Impact to Agriculture",
+      "summary": "Minnesota Senate Agriculture Chair Aric Putnam, Vice Chair Rob Kupec, Minnesota Farmers Union President Gary Wertish, and Deputy Agriculture Commissioner Andrea Vaubel held a press conference at the State Capitol warning that ICE activity is disrupting agriculture, threatening rural economies, and creating widespread fear among farmworkers. Officials reported that legal H-2A visa holders are afraid to go to work and that ICE operations have spread throughout rural Minnesota.",
+      "date": "2026-01-14",
+      "time": "unknown",
+      "location": "Minnesota State Capitol",
+      "city": "St. Paul",
+      "type": "immigrants",
+      "status": "ongoing",
+      "victimCitizenship": "legal-resident",
+      "injuries": "none",
+      "trustworthiness": "high",
+      "lastUpdated": "2026-01-19T10:29:29",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-14-agriculture-press-conference.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-14-agriculture-press-conference.mp4"
+        }
+      ],
+      "aspectRatio": 1.8153310104529616
     },
     {
       "filePath": "incidents/2026-01/2026-01-14-dhs-response-frey-sanctuary.md",
