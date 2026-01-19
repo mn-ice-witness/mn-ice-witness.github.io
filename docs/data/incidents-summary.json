@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768841251,
+  "mediaVersion": 1768841303,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-18-saly-hmong-citizen-shirtless.md",
@@ -18,15 +18,19 @@
       "mediaCount": 1,
       "notable": false,
       "hasLocalMedia": true,
-      "localMediaType": "image",
-      "localMediaPath": "media/2026-01-18-saly-hmong-citizen-shirtless.jpg",
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-18-saly-hmong-citizen-shirtless.mp4",
       "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-18-saly-hmong-citizen-shirtless.mp4"
+        },
         {
           "type": "image",
           "path": "media/2026-01-18-saly-hmong-citizen-shirtless.jpg"
         }
       ],
-      "aspectRatio": 1.084010840108401
+      "aspectRatio": 0.7111111111111111
     },
     {
       "filePath": "incidents/2026-01/2026-01-18-noem-pepper-spray-denial-backtrack.md",
