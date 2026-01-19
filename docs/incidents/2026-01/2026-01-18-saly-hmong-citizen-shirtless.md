@@ -41,7 +41,7 @@ A Hmong man named Saly, described as a naturalized U.S. citizen with no criminal
 ## Official Accounts
 
 ### DHS/ICE Statement
-See: [DHS Response: Defends Detention of Hmong Citizen](2026-01-19-dhs-response-saly-detention.md) - Statement from @TriciaOhio claims ICE was targeting two convicted sex offenders at the address who remain "at large."
+See: [DHS Response: Defends Detention of Hmong Citizen](#2026-01-19-dhs-response-saly-detention) - Statement from @TriciaOhio claims ICE was targeting two convicted sex offenders at the address who remain "at large."
 
 ### Local Officials
 No statements from local officials found regarding this incident.

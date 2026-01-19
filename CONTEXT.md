@@ -310,6 +310,7 @@ This site is deployed via Cloudflare Pages from the `docs/` folder.
    - The agency disputes the incident occurred (e.g., "zero record")
 
 7. **Research Official Responses:** When documenting any incident, always search for DHS/ICE official responses and add them to the Response tab. See `dev-docs/incident-schema.md` for the `response` type format.
+8. **Internal Links:** When linking to other incidents, use relative hash URLs: `[See related](#2026-01-15-incident-slug)`. Do NOT link to `.md` files or use absolute URLs. See `dev-docs/incident-schema.md` for details.
 
 ## Researching Official Responses
 

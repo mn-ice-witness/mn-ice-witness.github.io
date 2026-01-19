@@ -367,3 +367,25 @@ Use consistent outlet names:
 - Unnumbered sources
 - Italic lines about "photos/videos referenced above"
 - "Social Media" sections with general profile links (only include specific posts about the incident)
+
+## Internal Links to Other Incidents
+
+When linking to another incident within our site (e.g., in "Related incident" or "See also" references), use **relative hash URLs**, NOT markdown file paths.
+
+### Correct Format
+```markdown
+[Related incident](#2026-01-19-dhs-response-saly-detention)
+```
+
+### Wrong Formats
+```markdown
+[Related incident](2026-01-19-dhs-response-saly-detention.md)  ❌ Links to .md file
+[Related incident](http://localhost:8000/#2026-01-19-dhs-response-saly-detention)  ❌ Absolute URL
+[Related incident](https://mnicefiles.com/#2026-01-19-dhs-response-saly-detention)  ❌ Absolute URL
+```
+
+### Why Hash URLs?
+This site is a single-page application. All navigation uses hash-based routing:
+- The browser stays on `index.html`
+- The hash (`#incident-slug`) tells the app which incident to display
+- Linking to `.md` files will show raw markdown, not the formatted incident

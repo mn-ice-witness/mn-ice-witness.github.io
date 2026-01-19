@@ -17,7 +17,7 @@ last_updated: 2026-01-19T21:00:00
 ## Summary
 A response posted on X defends the detention of a U.S. citizen (Saly) at his St. Paul apartment, claiming ICE was conducting a "targeted operation" for two convicted sex offenders who "remain at large." The statement claims the citizen "refused to be fingerprinted or facially ID'd" and "matched the description of the targets." It confirms he was held during the operation before being released.
 
-**Related incident:** [Hmong U.S. Citizen Detained Shirtless in Freezing Weather](2026-01-18-saly-hmong-citizen-shirtless.md)
+**Related incident:** [Hmong U.S. Citizen Detained Shirtless in Freezing Weather](#2026-01-18-saly-hmong-citizen-shirtless)
 
 ## Sources
 1. X Post (Jan 19, 2026): [@TriciaOhio statement](https://x.com/TriciaOhio/status/2013317071342317918) - Tricia McLaughlin, Assistant Secretary, Department of Homeland Security

@@ -17,7 +17,7 @@ last_updated: 2026-01-19T17:00:00
 ## Summary
 DHS posted on X defending the detention of a U.S. citizen whose accent was used as basis for suspicion. DHS claims the individual "at first lied about where he was born, claiming Minnesota" and later "changed his answer to Mexico." Records revealed he was a naturalized U.S. citizen and he was released. The statement explicitly confirms the agent "recognized one individual's accent as being from Mexico" as grounds for initial suspicion.
 
-**Related incident:** [U.S. Citizen Detained Because of "Accent"](2026-01-15-ramon-menera-accent-detained.md)
+**Related incident:** [U.S. Citizen Detained Because of "Accent"](#2026-01-15-ramon-menera-accent-detained)
 
 ## Sources
 1. X Post (Jan 18, 2026): @DHSgov statement - **Primary source** (post removed; screenshot above, text below)
