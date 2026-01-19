@@ -103,7 +103,7 @@ type: citizens | observers | immigrants | schools-hospitals | response  # These 
 status: ongoing | resolved | under-investigation
 victim_citizenship: us-citizen | legal-resident | undocumented | asylum-seeker | unknown
 injuries: none | minor | serious | fatal
-trustworthiness: high | medium | low | unverified
+trustworthiness: high | medium | low | unverified  # EXACTLY ONE value, no compounds like "medium-high"
 last_updated: YYYY-MM-DD  # See rules below
 ---
 
@@ -159,7 +159,8 @@ Statements from mayor, governor, police, etc.
 Direct quotes or summaries from witnesses.
 
 ## Editorial Assessment
-Analysis of source reliability and what can be confidently stated vs. disputed.
+**RATING** - Analysis of source reliability. RATING must be exactly one of: HIGH, MEDIUM, LOW, or UNVERIFIED.
+No compound ratings (e.g., "MEDIUM-HIGH" is invalid). Must match frontmatter `trustworthiness` value.
 ```
 
 ## Development Workflow
