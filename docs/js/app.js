@@ -103,6 +103,7 @@ const App = {
             if (this.currentView === 'media') {
                 this.renderMediaGallery();
             }
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         });
     },
 
