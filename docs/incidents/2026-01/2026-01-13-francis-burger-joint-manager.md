@@ -20,10 +20,8 @@ The kitchen manager at Francis Burger Joint's East Lake Street location in Minne
 ## Sources
 1. Mpls.St.Paul Magazine (Jan 2026): [When ICE Targets Your Restaurant](https://mspmag.com/eat-and-drink/foodie/when-ice-targets-your-restaurant/)
 2. Yahoo News (Jan 7, 2026): [Twin Cities businesses close early after ICE agent kills woman in Minneapolis](https://www.yahoo.com/news/articles/twin-cities-businesses-close-early-233845670.html)
-
-## Social Media
-- **Instagram:** [@francisburgerjoint](https://www.instagram.com/francisburgerjoint/) (14K followers)
-- **Facebook:** Francis Burger Joint (active, posted closure statements)
+3. [Instagram post](https://www.instagram.com/p/DTdqQFSksuR/) - Francis Burger Joint
+4. [Facebook post](https://www.facebook.com/share/p/1C8XtJe1Ec/) - Francis Burger Joint
 
 ## Victim(s)
 - **Name:** Not disclosed
@@ -70,4 +68,4 @@ The restaurant implemented new safety protocols:
 - Staff know exactly what to say and who to call
 
 ## Editorial Assessment
-**HIGH** - Multiple sources including Mpls.St.Paul Magazine feature article and Yahoo News coverage. Named co-owner (Lindsey Johnston) provides direct, detailed account with multiple quotes. Restaurant's own social media statements corroborate the closures. The victim's name is not disclosed but incident details are specific. Social media accounts exist but specific posts about the detention are behind login walls.
+**HIGH** - Multiple sources including Mpls.St.Paul Magazine feature article and Yahoo News coverage. Named co-owner (Lindsey Johnston) provides direct, detailed account with multiple quotes. The victim's name is not disclosed but incident details are specific.

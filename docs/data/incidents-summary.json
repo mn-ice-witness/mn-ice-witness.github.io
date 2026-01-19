@@ -1,6 +1,28 @@
 {
-  "mediaVersion": 1768794467,
+  "mediaVersion": 1768795256,
   "incidents": [
+    {
+      "filePath": "incidents/2026-01/2026-01-18-noem-pepper-spray-denial-backtrack.md",
+      "title": "DHS Secretary Noem Denies Pepper Spray Use, Then Backtracks on CBS",
+      "summary": "Homeland Security Secretary Kristi Noem denied on CBS's \"Face the Nation\" that federal agents had used pepper spray and similar tactics curtailed by a judicial order, claiming the judge \"told us we couldn't do what we already aren't doing.\" When confronted with video evidence, she backtracked and blamed protesters, saying agents \"only use those chemical agents when there's violence happening.\"",
+      "date": "2026-01-18",
+      "time": "morning",
+      "location": "CBS Face the Nation Interview",
+      "city": "Minneapolis",
+      "type": "response",
+      "status": "resolved",
+      "victimCitizenship": "unknown",
+      "injuries": "none",
+      "trustworthiness": "high",
+      "lastUpdated": "2026-01-18T14:30:00",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": [],
+      "aspectRatio": null
+    },
     {
       "filePath": "incidents/2026-01/2026-01-17-st-louis-park-daycare.md",
       "title": "ICE Agents Near St. Louis Park Daycare Threaten Parent with Pepper Spray",
@@ -581,11 +603,16 @@
       "lastUpdated": "2026-01-18",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": [],
-      "aspectRatio": null
+      "hasLocalMedia": true,
+      "localMediaType": "image",
+      "localMediaPath": "media/2026-01-13-francis-burger-joint-manager.jpg",
+      "localMediaFiles": [
+        {
+          "type": "image",
+          "path": "media/2026-01-13-francis-burger-joint-manager.jpg"
+        }
+      ],
+      "aspectRatio": 0.7590132827324478
     },
     {
       "filePath": "incidents/2026-01/2026-01-13-dhs-response-detainer-demands.md",
