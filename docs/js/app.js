@@ -672,6 +672,13 @@ const App = {
             return;
         }
 
+        if (hash.startsWith('new-updated-')) {
+            document.getElementById('splash')?.classList.add('hidden');
+            const dateStr = hash.replace('new-updated-', '');
+            Lightbox.openNewUpdated(dateStr);
+            return;
+        }
+
         const incident = this.incidents.find(i => {
             const slug = i.filePath.split('/').pop().replace('.md', '');
             return slug === hash;

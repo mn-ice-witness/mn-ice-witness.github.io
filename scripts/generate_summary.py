@@ -148,6 +148,7 @@ def process_incident(file_path, docs_dir, media_dir):
         'victimCitizenship': meta.get('victim_citizenship', 'unknown'),
         'injuries': meta.get('injuries', 'unknown'),
         'trustworthiness': meta.get('trustworthiness', 'unverified'),
+        'created': meta.get('created'),
         'lastUpdated': meta.get('last_updated', meta.get('date', 'Unknown')),
         'mediaCount': count_media(content),
         'notable': is_notable,

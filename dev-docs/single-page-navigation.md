@@ -34,6 +34,7 @@ Any hash matching an incident slug (e.g., `#2026-01-13-lyn-lake-tear-gas`) opens
 
 ### Special Hashes
 - `#about` - Opens the about page in lightbox
+- `#new-updated-MM-DD-YYYY` - Opens daily summary lightbox (e.g., `#new-updated-01-18-2026`)
 
 ## Code Architecture
 
@@ -75,6 +76,17 @@ Both `app.js` and `lightbox.js` reference `App.sectionHashes` to ensure consiste
 - Scrolls to `section.top - offset`
 
 ### Lightbox Integration (lightbox.js)
+
+**open vs show pattern** - For special lightbox pages (about, new-updated):
+- `openX()` - Pushes to history, then renders (used when user clicks link)
+- `showX()` - Just renders without pushing (used by handlePopState when going back)
+
+This ensures back button works correctly:
+1. User opens `#new-updated-01-18-2026` → `openNewUpdated()` pushes to history
+2. User clicks incident → `openIncidentFromNewUpdated()` pushes with `fromNewUpdated` state
+3. User closes incident → `history.back()` triggers popstate
+4. `handlePopState` sees new-updated slug → calls `showNewUpdated()` (no push)
+5. User is back at the daily summary
 
 **`closeLightbox()`** - Preserves list view state:
 - Checks if current hash is a list view hash (including sections)

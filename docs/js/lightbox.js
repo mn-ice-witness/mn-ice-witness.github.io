@@ -5,6 +5,7 @@ const Lightbox = {
     currentIncidentData: null,
     savedScrollPositions: {},
     openedViaPushState: false,
+    returnToNewUpdated: null,
 
     init() {
         this.element = document.getElementById('lightbox');
@@ -31,7 +32,15 @@ const Lightbox = {
         if (e.state && e.state.lightbox) {
             if (e.state.slug === 'about') {
                 this.showAbout();
+            } else if (e.state.slug && e.state.slug.startsWith('new-updated-')) {
+                const dateStr = e.state.slug.replace('new-updated-', '');
+                this.returnToNewUpdated = dateStr;
+                this.showNewUpdated(dateStr);
+            } else if (e.state.fromNewUpdated) {
+                this.returnToNewUpdated = e.state.fromNewUpdated;
+                this.showIncident(e.state.slug);
             } else if (e.state.slug) {
+                this.returnToNewUpdated = null;
                 this.showIncident(e.state.slug);
             }
         } else if (this.isOpen()) {
@@ -94,6 +103,218 @@ const Lightbox = {
             <div class="not-found-content">
                 <h1>Page Not Found</h1>
                 <p>The incident "<strong>${hash}</strong>" doesn't exist or may have been removed.</p>
+                <p><a href="#" class="not-found-home">← Return to home</a></p>
+            </div>
+        `;
+
+        this.bodyElement.querySelector('.not-found-home').addEventListener('click', (e) => {
+            e.preventDefault();
+            this.close();
+        });
+    },
+
+    openNewUpdated(dateStr) {
+        const match = dateStr.match(/^(\d{2})-(\d{2})-(\d{4})$/);
+        if (!match) {
+            this.open404InvalidDate(dateStr);
+            return;
+        }
+
+        const [, month, day, year] = match;
+        const datePrefix = `${year}-${month}-${day}`;
+
+        const newIncidents = App.incidents.filter(i => i.created && i.created.startsWith(datePrefix));
+        const updatedIncidents = App.incidents.filter(i =>
+            i.lastUpdated && i.lastUpdated.startsWith(datePrefix) &&
+            (!i.created || !i.created.startsWith(datePrefix))
+        );
+
+        if (newIncidents.length === 0 && updatedIncidents.length === 0) {
+            this.openNoRecordsForDate(dateStr);
+            return;
+        }
+
+        this.element.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+
+        this.currentSlug = `new-updated-${dateStr}`;
+        this.returnToNewUpdated = dateStr;
+        if (window.location.hash !== '#' + this.currentSlug) {
+            history.pushState({ lightbox: true, slug: this.currentSlug }, '', '#' + this.currentSlug);
+            this.openedViaPushState = true;
+        } else {
+            // Came directly via URL - replace state so back button works from child incidents
+            history.replaceState({ lightbox: true, slug: this.currentSlug }, '', '#' + this.currentSlug);
+            this.openedViaPushState = false;
+        }
+
+        this.renderNewUpdatedContent(dateStr, newIncidents, updatedIncidents);
+    },
+
+    renderNewUpdatedContent(dateStr, newIncidents, updatedIncidents) {
+        const [month, day, year] = dateStr.split('-');
+        const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
+                           'July', 'August', 'September', 'October', 'November', 'December'];
+        const formattedDate = `${monthNames[parseInt(month, 10) - 1]} ${parseInt(day, 10)}, ${year}`;
+
+        let html = `
+            <div class="lightbox-header">
+                <button class="share-btn" aria-label="Copy link to share">
+                    <svg class="share-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                        <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                    </svg>
+                    Copy Link
+                </button>
+            </div>
+            <div class="new-updated-content">
+                <h1>New & Updated Posts</h1>
+                <p class="new-updated-date">${formattedDate}</p>
+        `;
+
+        const truncateSummary = (text) => {
+            if (!text) return '';
+            if (text.length <= 200) return text;
+            return text.substring(0, 197) + '...';
+        };
+
+        if (newIncidents.length > 0) {
+            html += '<h2>New</h2><ul class="new-updated-list">';
+            for (const incident of newIncidents) {
+                const slug = App.getIncidentId(incident);
+                const type = Array.isArray(incident.type) ? incident.type[0] : incident.type;
+                const label = App.categoryLabels[type] || type.toUpperCase();
+                const summary = truncateSummary(incident.summary);
+                html += `<li>
+                    <a href="#${slug}" class="new-updated-link" data-slug="${slug}">
+                        <span class="category-label">${label}:</span> ${incident.title}
+                    </a>
+                    <p class="new-updated-summary">${summary}</p>
+                </li>`;
+            }
+            html += '</ul>';
+        }
+
+        if (updatedIncidents.length > 0) {
+            html += '<h2>Updated</h2><ul class="new-updated-list">';
+            for (const incident of updatedIncidents) {
+                const slug = App.getIncidentId(incident);
+                const type = Array.isArray(incident.type) ? incident.type[0] : incident.type;
+                const label = App.categoryLabels[type] || type.toUpperCase();
+                const summary = truncateSummary(incident.summary);
+                html += `<li>
+                    <a href="#${slug}" class="new-updated-link" data-slug="${slug}">
+                        <span class="category-label">${label}:</span> ${incident.title}
+                    </a>
+                    <p class="new-updated-summary">${summary}</p>
+                </li>`;
+            }
+            html += '</ul>';
+        }
+
+        html += '</div>';
+        this.bodyElement.innerHTML = html;
+
+        this.bodyElement.querySelector('.share-btn')?.addEventListener('click', () => this.copyShareLink());
+
+        this.bodyElement.querySelectorAll('.new-updated-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const slug = link.dataset.slug;
+                this.openIncidentFromNewUpdated(slug);
+            });
+        });
+    },
+
+    async openIncidentFromNewUpdated(slug) {
+        this.savedScrollPositions[this.currentSlug] = this.bodyElement.scrollTop;
+
+        const incident = App.incidents.find(i => App.getIncidentId(i) === slug);
+        if (incident) {
+            this.bodyElement.innerHTML = '<div class="table-loading">Loading...</div>';
+            this.currentIncidentData = incident;
+            this.currentSlug = slug;
+
+            history.pushState({ lightbox: true, slug: slug, fromNewUpdated: this.returnToNewUpdated }, '', '#' + slug);
+            this.openedViaPushState = true;
+
+            await this.renderIncidentContent(incident);
+        }
+    },
+
+    showNewUpdated(dateStr) {
+        const match = dateStr.match(/^(\d{2})-(\d{2})-(\d{4})$/);
+        if (!match) {
+            this.closeLightbox();
+            return;
+        }
+
+        const [, month, day, year] = match;
+        const datePrefix = `${year}-${month}-${day}`;
+
+        const newIncidents = App.incidents.filter(i => i.created && i.created.startsWith(datePrefix));
+        const updatedIncidents = App.incidents.filter(i =>
+            i.lastUpdated && i.lastUpdated.startsWith(datePrefix) &&
+            (!i.created || !i.created.startsWith(datePrefix))
+        );
+
+        if (newIncidents.length === 0 && updatedIncidents.length === 0) {
+            this.closeLightbox();
+            return;
+        }
+
+        this.element.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+
+        this.currentSlug = `new-updated-${dateStr}`;
+        this.returnToNewUpdated = dateStr;
+
+        this.renderNewUpdatedContent(dateStr, newIncidents, updatedIncidents);
+
+        if (this.savedScrollPositions[this.currentSlug]) {
+            this.bodyElement.scrollTop = this.savedScrollPositions[this.currentSlug];
+            delete this.savedScrollPositions[this.currentSlug];
+        }
+    },
+
+    open404InvalidDate(dateStr) {
+        this.element.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+
+        this.currentSlug = `new-updated-${dateStr}`;
+        this.openedViaPushState = false;
+
+        this.bodyElement.innerHTML = `
+            <div class="not-found-content">
+                <h1>Invalid Date Format</h1>
+                <p>The URL "<strong>#new-updated-${dateStr}</strong>" is not valid.</p>
+                <p>Expected format: <code>#new-updated-MM-DD-YYYY</code></p>
+                <p><a href="#" class="not-found-home">← Return to home</a></p>
+            </div>
+        `;
+
+        this.bodyElement.querySelector('.not-found-home').addEventListener('click', (e) => {
+            e.preventDefault();
+            this.close();
+        });
+    },
+
+    openNoRecordsForDate(dateStr) {
+        const [month, day, year] = dateStr.split('-');
+        const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
+                           'July', 'August', 'September', 'October', 'November', 'December'];
+        const formattedDate = `${monthNames[parseInt(month, 10) - 1]} ${parseInt(day, 10)}, ${year}`;
+
+        this.element.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+
+        this.currentSlug = `new-updated-${dateStr}`;
+        this.openedViaPushState = false;
+
+        this.bodyElement.innerHTML = `
+            <div class="not-found-content">
+                <h1>No Records Found</h1>
+                <p>No posts were created or updated on <strong>${formattedDate}</strong>.</p>
                 <p><a href="#" class="not-found-home">← Return to home</a></p>
             </div>
         `;
@@ -239,6 +460,7 @@ const Lightbox = {
         this.currentIncidentData = null;
         this.savedScrollPositions = {};
         this.openedViaPushState = false;
+        this.returnToNewUpdated = null;
 
         const hash = window.location.hash.slice(1);
         const isListViewHash = hash === 'list' || App.sectionHashes.includes(hash);
