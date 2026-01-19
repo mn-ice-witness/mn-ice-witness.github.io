@@ -35,6 +35,27 @@ grep -r "bus stop" docs/incidents/
 
 This keeps all information about an incident in one place and prevents fragmentation.
 
+### D. Similar Stories Are NOT Always the Same Incident
+
+**IMPORTANT:** Do NOT combine separate incidents just because they seem related or similar. Create separate incident files when:
+
+| Scenario | Action |
+|----------|--------|
+| Different dates | Separate incidents |
+| Different people involved (even if same location/topic) | Separate incidents |
+| Different actions (e.g., attorneys denied access vs. lawmakers denied access) | Separate incidents |
+| Same underlying issue but distinct events | Separate incidents |
+| Same event with new sources/details | Merge into existing incident |
+| Same event covered by different outlets | Merge into existing incident |
+
+**Example of what NOT to do:**
+- "Attorneys denied access to detainees" (Jan 15-18) and "Congressional lawmakers denied access to facility" (Jan 10) are **two separate incidents**, even though both involve access denial at the same building. They occurred on different dates, involved different people, and had different official responses.
+
+**Example of what TO do:**
+- If three outlets cover the same person being detained on the same day, that's one incident with three sources.
+
+**Key question:** Is this describing the same event with the same people on the same date? If no, create separate incidents.
+
 ## Step 1: Verify the Incident
 
 Before adding, ensure:

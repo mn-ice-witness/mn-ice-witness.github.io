@@ -19,9 +19,7 @@ Multiple attorneys allege the Department of Homeland Security is denying detaine
 
 ## Sources
 1. ABC News (Jan 18, 2026): [Lawyers allege Dept. of Homeland Security is denying legal counsel to Minnesota detainees](https://abcnews.go.com/US/lawyers-allege-dept-homeland-security-denying-legal-counsel/story?id=129335914)
-2. CBS Minnesota (Jan 10, 2026): [3 congressional lawmakers say they were denied access to ICE facility in Minneapolis](https://www.cbsnews.com/minnesota/news/omar-craig-morrison-denied-access-ice-facility-minneapolis/)
-3. Sahan Journal (Jan 10, 2026): [U.S. Rep. Omar, others denied access to ICE detention facility](https://sahanjournal.com/immigration/omar-morrison-craig-denied-access-detention-facility/)
-4. KSTP (Jan 10, 2026): [Minnesota congressional representatives forced out of Whipple Federal Building](https://kstp.com/kstp-news/top-news/minnesota-congressional-representatives-forced-out-of-whipple-federal-building/)
+2. Lawyers, Guns & Money (Jan 18, 2026): [The chaos exception to the Sixth Amendment](https://www.lawyersgunsmoneyblog.com/2026/01/the-chaos-exception-to-the-sixth-amendment)
 
 ## Victim(s)
 - **Detainees affected:** Multiple, number unknown
@@ -74,10 +72,5 @@ One attorney stated: "If ICE is trying to say, 'Oh, it's fine, you can just have
 ## Legal Context
 The attorneys allege these denials violate the 5th and 6th Amendment rights to due process and the right to consult with counsel. While immigration violations are civil rather than criminal offenses and detainees do not have an automatic right to appointed counsel, they retain the right to access an attorney they have retained.
 
-## Related Incidents
-Congressional representatives were also denied access to the Whipple facility on January 10, 2026. Reps. Ilhan Omar, Angie Craig, and Kelly Morrison were initially allowed entry but told to leave after officials claimed their visit violated protocol.
-
-Rep. Omar posted on X: "I was just denied access to the ICE processing center at the Whipple Building. Members of Congress have a legal right and constitutional responsibility to conduct oversight where people are being detained. The public deserves to know what is taking place in ICE facilities."
-
 ## Editorial Assessment
-**HIGH** - Detailed ABC News investigation with multiple named and anonymous attorney sources, direct quotes, specific dates and incidents, official DHS response, and corroboration from congressional access denials reported by multiple outlets (CBS Minnesota, Sahan Journal, KSTP).
+**HIGH** - Detailed ABC News investigation with multiple named and anonymous attorney sources (Robert Sicoli identified by name), direct quotes, specific dates and incidents, and official DHS response.

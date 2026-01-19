@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768837859,
+  "mediaVersion": 1768838268,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-18-noem-pepper-spray-denial-backtrack.md",
@@ -1251,6 +1251,28 @@
       "injuries": "none",
       "trustworthiness": "high",
       "lastUpdated": "2026-01-14T13:57:51",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": [],
+      "aspectRatio": null
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-10-congressional-access-denied.md",
+      "title": "Congressional Representatives Denied Access to Whipple ICE Facility",
+      "summary": "Three Minnesota Democratic representatives\u2014Ilhan Omar, Angie Craig, and Kelly Morrison\u2014were ordered to leave the Whipple Federal Building ICE facility approximately 10 minutes after being granted entry. Officials cited funding from the \"One Big Beautiful Bill\" and claimed lawmakers failed to provide mandatory seven-day advance notice. The representatives had briefly observed approximately 20 detainees, describing young men sitting with their heads in their hands.",
+      "date": "2026-01-10",
+      "time": "morning",
+      "location": "Bishop Henry Whipple Federal Building",
+      "city": "Minneapolis",
+      "type": "immigrants",
+      "status": "resolved",
+      "victimCitizenship": "unknown",
+      "injuries": "none",
+      "trustworthiness": "high",
+      "lastUpdated": "2026-01-19T15:00:00",
       "mediaCount": 0,
       "notable": false,
       "hasLocalMedia": false,
