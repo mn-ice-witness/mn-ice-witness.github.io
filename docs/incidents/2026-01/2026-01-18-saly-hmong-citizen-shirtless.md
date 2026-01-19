@@ -7,14 +7,12 @@ type: citizens
 status: resolved
 victim_citizenship: us-citizen
 injuries: none
-trustworthiness: unverified
+trustworthiness: high
 created: 2026-01-19T10:14:30
-last_updated: 2026-01-19T10:14:30
+last_updated: 2026-01-19T21:30:00
 ---
 
-# Hmong U.S. Citizen Detained Shirtless in Freezing Weather, Then Released (UNVERIFIED)
-
-***No mainstream media has reported on this incident. It is based on social media posts only. If you have a media source, please [contact us](mailto:mnicewitness@proton.me).***
+# Hmong U.S. Citizen Detained Shirtless in Freezing Weather, Then Released
 
 ## Summary
 A Hmong man named Saly, described as a naturalized U.S. citizen with no criminal record, was reportedly detained by ICE agents who broke down his apartment door. According to family members, agents did not allow him to put on proper clothing before taking him outside in approximately 10-degree weather. After driving him around for nearly an hour, questioning, and fingerprinting him, agents released him after determining he had no criminal history. The family believes ICE was searching for someone who previously lived at the address.
@@ -62,4 +60,4 @@ From Louansee Moua's Facebook post (Saly's sister-in-law):
 The post notes that Saly's mother, Choua Thao, was a nurse during the war in Laos who helped deliver premature twins. She ensured all her children became naturalized U.S. citizens.
 
 ## Editorial Assessment
-**UNVERIFIED** - This incident is documented only through social media posts from a family member (Louansee Moua via Hmong American Experience Facebook page) and a Threads repost. No independent news coverage has been found to corroborate the claims. The photo shows a shirtless man in cold weather with a person in tactical gear, providing visual evidence something occurred, but the specific details (citizenship status, lack of criminal record, gun pointed at family member) cannot be independently verified. Louansee Moua appears to be a credible community advocate with 20+ years of experience in community relations, but this remains a single-source family account. Date estimated as January 18, 2026 based on social media posts appearing on January 19.
+**HIGH** - DHS Assistant Secretary Tricia McLaughlin officially acknowledged this incident on January 19, 2026, confirming a U.S. citizen was detained and released at this address. While DHS disputes some details (claiming the citizen refused fingerprinting, family says he was fingerprinted), official corroboration confirms the core facts: ICE operation at this address, U.S. citizen detained, citizen released after verification. Video and photo evidence corroborate the encounter. Family account from Louansee Moua provides detailed witness testimony.

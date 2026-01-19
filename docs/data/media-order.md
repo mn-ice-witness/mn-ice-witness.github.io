@@ -3,6 +3,8 @@
 
 
 
+
+
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -48,3 +50,5 @@ christina-rank-teacher
 francis-burger-joint-manager
 fridley-schools-closure
 saly-hmong-citizen-shirtless
+dhs-response-accent-detention
+dhs-response-saly-detention
