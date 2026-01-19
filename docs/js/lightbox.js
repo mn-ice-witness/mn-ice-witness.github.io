@@ -392,11 +392,21 @@ const Lightbox = {
         if (fullscreenBtn) {
             const enterIcon = fullscreenBtn.querySelector('.fullscreen-enter');
             const exitIcon = fullscreenBtn.querySelector('.fullscreen-exit');
+            let savedScrollY = 0;
 
             const updateFullscreenState = () => {
                 const fs = isFullscreen();
                 if (enterIcon) enterIcon.style.display = fs ? 'none' : '';
                 if (exitIcon) exitIcon.style.display = fs ? '' : 'none';
+            };
+
+            const onFullscreenExit = () => {
+                if (!isFullscreen() && savedScrollY > 0) {
+                    requestAnimationFrame(() => {
+                        this.bodyElement.scrollTop = savedScrollY;
+                    });
+                }
+                updateFullscreenState();
             };
 
             fullscreenBtn.addEventListener('click', () => {
@@ -407,6 +417,7 @@ const Lightbox = {
                         document.webkitExitFullscreen();
                     }
                 } else {
+                    savedScrollY = this.bodyElement.scrollTop;
                     const target = container || video;
                     if (target.requestFullscreen) {
                         target.requestFullscreen({ navigationUI: 'hide' });
@@ -418,8 +429,8 @@ const Lightbox = {
                 }
             });
 
-            document.addEventListener('fullscreenchange', updateFullscreenState);
-            document.addEventListener('webkitfullscreenchange', updateFullscreenState);
+            document.addEventListener('fullscreenchange', onFullscreenExit);
+            document.addEventListener('webkitfullscreenchange', onFullscreenExit);
         }
     },
 

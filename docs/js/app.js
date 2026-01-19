@@ -600,10 +600,21 @@ const App = {
         }
 
         if (fullscreenBtn) {
+            let savedScrollY = 0;
+
             const updateFullscreenIcons = () => {
                 const fs = isFullscreen();
                 if (enterIcon) enterIcon.style.display = fs ? 'none' : '';
                 if (exitIcon) exitIcon.style.display = fs ? '' : 'none';
+            };
+
+            const onFullscreenExit = () => {
+                if (!isFullscreen() && savedScrollY > 0) {
+                    requestAnimationFrame(() => {
+                        window.scrollTo(0, savedScrollY);
+                    });
+                }
+                updateFullscreenIcons();
             };
 
             fullscreenBtn.addEventListener('click', (e) => {
@@ -615,6 +626,7 @@ const App = {
                         document.webkitExitFullscreen();
                     }
                 } else {
+                    savedScrollY = window.scrollY;
                     if (container.requestFullscreen) {
                         container.requestFullscreen({ navigationUI: 'hide' });
                     } else if (container.webkitRequestFullscreen) {
@@ -625,8 +637,8 @@ const App = {
                 }
             });
 
-            document.addEventListener('fullscreenchange', updateFullscreenIcons);
-            document.addEventListener('webkitfullscreenchange', updateFullscreenIcons);
+            document.addEventListener('fullscreenchange', onFullscreenExit);
+            document.addEventListener('webkitfullscreenchange', onFullscreenExit);
         }
     },
 
