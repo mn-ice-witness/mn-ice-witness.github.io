@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768792236,
+  "mediaVersion": 1768792422,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-17-st-louis-park-daycare.md",
@@ -557,6 +557,28 @@
       "injuries": "none",
       "trustworthiness": "high",
       "lastUpdated": "2026-01-15",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": [],
+      "aspectRatio": null
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-13-francis-burger-joint-manager.md",
+      "title": "Restaurant Kitchen Manager Tackled and Detained While Observing ICE",
+      "summary": "The kitchen manager at Francis Burger Joint's East Lake Street location in Minneapolis was tackled, punched repeatedly, and detained by federal agents on January 13 while acting as a legal observer during a nearby ICE operation. The manager, a white U.S. citizen, had his shoes knocked off during the violent arrest. He was detained despite having no connection to the enforcement action other than observing it.",
+      "date": "2026-01-13",
+      "time": "unknown",
+      "location": "East Lake Street",
+      "city": "Minneapolis",
+      "type": "observers",
+      "status": "resolved",
+      "victimCitizenship": "us-citizen",
+      "injuries": "minor",
+      "trustworthiness": "medium",
+      "lastUpdated": "2026-01-18",
       "mediaCount": 0,
       "notable": false,
       "hasLocalMedia": false,

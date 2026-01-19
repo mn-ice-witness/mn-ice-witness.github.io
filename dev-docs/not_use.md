@@ -128,6 +128,13 @@ Stories are excluded when they don't meet the project's core focus:
 - Reason: Successfully prevented incident - no detention occurred, no civil rights violation. Resistance story without actual enforcement action. Similar to Hola Arepa but with less detail.
 - Date evaluated: 2026-01-17
 
+**North Star Deli Kingfield - ICE Turned Away (Jan 2026)**
+- Sources: [Mpls.St.Paul Magazine](https://mspmag.com/eat-and-drink/foodie/when-ice-targets-your-restaurant/)
+- Date: Week of January 13, 2026
+- Details: Owner Pedro Wolcott says ICE agents attempted to enter his restaurant three times. He told them to leave each time, and they shouted obscenities at him. Restaurant reduced hours and staff due to climate of fear.
+- Reason: Successfully prevented incident - no detention occurred. Owner successfully turned away ICE agents. Similar to Hola Arepa.
+- Date evaluated: 2026-01-18
+
 **Jardin/Un Mundo Nuevo Spanish Immersion Daycare Teachers (Jan 7)**
 - Sources: Star Tribune (mentions), KARE 11 (mentions)
 - Date: January 7, 2026
