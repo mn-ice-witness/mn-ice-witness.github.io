@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768840964,
+  "mediaVersion": 1768841011,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-18-noem-pepper-spray-denial-backtrack.md",
@@ -42,7 +42,7 @@
       "injuries": "none",
       "trustworthiness": "unverified",
       "lastUpdated": "2026-01-19T12:00:00",
-      "mediaCount": 0,
+      "mediaCount": 1,
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "image",

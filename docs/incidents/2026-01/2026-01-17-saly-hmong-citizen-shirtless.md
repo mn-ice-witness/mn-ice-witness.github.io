@@ -21,6 +21,7 @@ A Hmong man named Saly, described as a naturalized U.S. citizen with no criminal
 1. Facebook Post (Jan 2026): [Hmong American Experience page - Louansee Moua](https://www.facebook.com/share/v/18GcBq3Rwb/) - Family member account
 2. Facebook Post (Jan 2026): [Georgia Fort](https://www.facebook.com/ByGeorgiaFort/posts/update-multiple-members-of-the-hmong-community-confirm-the-man-taken-from-his-ea/1400574674857282/) - Community confirmation
 3. Threads Post (Jan 2026): [@don.moyn post](https://www.threads.com/@don.moyn/post/DTsao6ijVAd) - Repost of incident with photo
+- **Video:** [Facebook Reel](https://www.facebook.com/reel/1986120352306275) - Incident footage
 
 ## Victim(s)
 - **Name:** Saly (first name only provided)
