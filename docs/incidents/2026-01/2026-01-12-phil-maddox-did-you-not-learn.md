@@ -8,8 +8,8 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: high
-created: 2026-01-19T13:00:00
-last_updated: 2026-01-19T13:00:00
+created: 2026-01-19T11:13:23
+last_updated: 2026-01-19T11:13:23
 ---
 
 # "Did You Not Learn From What Just Happened?" - ICE Agents Threaten Observer

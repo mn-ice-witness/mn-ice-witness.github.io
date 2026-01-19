@@ -8,8 +8,8 @@ status: ongoing
 victim_citizenship: undocumented
 injuries: none
 trustworthiness: medium
-created: 2026-01-19T16:00:00
-last_updated: 2026-01-19T16:00:00
+created: 2026-01-19T12:56:14
+last_updated: 2026-01-19T12:56:14
 ---
 
 # Man Detained While Driving Sick Wife to Emergency Room

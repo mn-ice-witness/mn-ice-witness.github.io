@@ -1,6 +1,33 @@
 {
-  "mediaVersion": 1768855572,
+  "mediaVersion": 1768856131,
   "incidents": [
+    {
+      "filePath": "incidents/2026-01/2026-01-19-dhs-response-saly-detention.md",
+      "title": "DHS Response: Defends Detention of Hmong Citizen, Claims Sex Offender Targets at Large",
+      "summary": "A response posted on X defends the detention of a U.S. citizen (Saly) at his St. Paul apartment, claiming ICE was conducting a \"targeted operation\" for two convicted sex offenders who \"remain at large.\" The statement claims the citizen \"refused to be fingerprinted or facially ID'd\" and \"matched the description of the targets.\" It confirms he was held during the operation before being released.",
+      "date": "2026-01-19",
+      "time": "unknown",
+      "location": "X @TriciaOhio",
+      "city": "St. Paul",
+      "type": "response",
+      "status": "resolved",
+      "victimCitizenship": "us-citizen",
+      "injuries": "none",
+      "trustworthiness": "high",
+      "lastUpdated": "2026-01-19T21:00:00",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": true,
+      "localMediaType": "image",
+      "localMediaPath": "media/2026-01-19-dhs-response-saly-detention.jpg",
+      "localMediaFiles": [
+        {
+          "type": "image",
+          "path": "media/2026-01-19-dhs-response-saly-detention.jpg"
+        }
+      ],
+      "aspectRatio": 1.1822660098522169
+    },
     {
       "filePath": "incidents/2026-01/2026-01-18-saly-hmong-citizen-shirtless.md",
       "title": "Hmong U.S. Citizen Detained Shirtless in Freezing Weather, Then Released (UNVERIFIED)",
@@ -14,7 +41,7 @@
       "victimCitizenship": "us-citizen",
       "injuries": "none",
       "trustworthiness": "unverified",
-      "lastUpdated": "2026-01-19T12:00:00",
+      "lastUpdated": "2026-01-19T10:14:30",
       "mediaCount": 1,
       "notable": false,
       "hasLocalMedia": true,
@@ -75,11 +102,16 @@
       "lastUpdated": "2026-01-19T17:00:00",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": [],
-      "aspectRatio": null
+      "hasLocalMedia": true,
+      "localMediaType": "image",
+      "localMediaPath": "media/2026-01-18-dhs-response-accent-detention.jpg",
+      "localMediaFiles": [
+        {
+          "type": "image",
+          "path": "media/2026-01-18-dhs-response-accent-detention.jpg"
+        }
+      ],
+      "aspectRatio": 0.5621734587251829
     },
     {
       "filePath": "incidents/2026-01/2026-01-17-st-louis-park-daycare.md",
@@ -119,7 +151,7 @@
       "victimCitizenship": "undocumented",
       "injuries": "none",
       "trustworthiness": "medium",
-      "lastUpdated": "2026-01-19T16:00:00",
+      "lastUpdated": "2026-01-19T12:56:14",
       "mediaCount": 0,
       "notable": false,
       "hasLocalMedia": false,
@@ -266,7 +298,7 @@
       "victimCitizenship": "unknown",
       "injuries": "none",
       "trustworthiness": "high",
-      "lastUpdated": "2026-01-19T14:30:00",
+      "lastUpdated": "2026-01-19T09:50:58",
       "mediaCount": 0,
       "notable": false,
       "hasLocalMedia": false,
@@ -960,7 +992,7 @@
       "victimCitizenship": "us-citizen",
       "injuries": "none",
       "trustworthiness": "high",
-      "lastUpdated": "2026-01-19T13:00:00",
+      "lastUpdated": "2026-01-19T11:13:23",
       "mediaCount": 2,
       "notable": false,
       "hasLocalMedia": true,

@@ -8,8 +8,8 @@ status: ongoing
 victim_citizenship: unknown
 injuries: none
 trustworthiness: high
-created: 2026-01-19T14:30:00
-last_updated: 2026-01-19T14:30:00
+created: 2026-01-19T09:50:58
+last_updated: 2026-01-19T09:50:58
 ---
 
 # Attorneys Denied Access to Detained Clients at Whipple Building

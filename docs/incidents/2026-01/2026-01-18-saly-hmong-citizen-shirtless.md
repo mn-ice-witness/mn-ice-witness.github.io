@@ -8,8 +8,8 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: unverified
-created: 2026-01-19T12:00:00
-last_updated: 2026-01-19T12:00:00
+created: 2026-01-19T10:14:30
+last_updated: 2026-01-19T10:14:30
 ---
 
 # Hmong U.S. Citizen Detained Shirtless in Freezing Weather, Then Released (UNVERIFIED)
@@ -43,7 +43,7 @@ A Hmong man named Saly, described as a naturalized U.S. citizen with no criminal
 ## Official Accounts
 
 ### DHS/ICE Statement
-No official statement found regarding this incident.
+See: [DHS Response: Defends Detention of Hmong Citizen](2026-01-19-dhs-response-saly-detention.md) - Statement from @TriciaOhio claims ICE was targeting two convicted sex offenders at the address who remain "at large."
 
 ### Local Officials
 No statements from local officials found regarding this incident.
