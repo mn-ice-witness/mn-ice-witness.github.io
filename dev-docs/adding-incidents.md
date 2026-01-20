@@ -201,7 +201,7 @@ If the incident involves a refugee or immigrant with **pending legal status** (I
 
 ### Language Guidelines
 
-**Use neutral, objective terminology throughout:**
+**This site's credibility depends on neutral, documentary tone.** Avoid emotional, excited, or loaded language throughout — in titles, summaries, source descriptions, and narrative text.
 
 | Avoid (Emotional/Loaded) | Use Instead (Neutral) |
 |--------------------------|----------------------|
@@ -209,12 +209,22 @@ If the incident involves a refugee or immigrant with **pending legal status** (I
 | storm, invade | enter |
 | kidnapped, snatched | detained, arrested |
 | terrorize, brutalize | use force on |
-| horrific, shocking | (omit - describe facts) |
+| horrific, shocking, disturbing | (omit - describe facts) |
 | innocent victim | person, resident, citizen |
+| exclusive, breaking, bombshell | (omit - just describe content) |
+| explosive interview | interview |
 
+**Source descriptions should be plain and factual:**
+- Say "interview" not "exclusive interview"
+- Say "video" not "shocking video" or "disturbing footage"
+- Say "first on-camera interview" not "explosive first interview"
+- Let readers judge the significance themselves
+
+**General principles:**
 - Report facts and let readers draw conclusions
 - Witness/victim quotes may contain emotional language, but narrative text should not
 - Describe actions objectively: "agents used a battering ram to enter" not "agents violently smashed through the door"
+- Avoid superlatives and marketing language from news sources (strip out "exclusive," "shocking," etc.)
 - **For official statements:** Report what was said accurately, not your interpretation. If an official says "vicious animals" referring to "murderers & criminals," don't editorialize that as "calling immigrants vicious animals." Let readers draw their own conclusions about the rhetoric.
 
 Use the schema from `incident-schema.md`. At minimum include:

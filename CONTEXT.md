@@ -282,13 +282,15 @@ This site is deployed via Cloudflare Pages from the `docs/` folder.
 
 1. **Check for Duplicates First:** Before adding a new incident, search existing files in `docs/incidents/` by location, date, victim name, and keywords. If the incident is already documented, **merge new information into the existing file** rather than creating a duplicate.
 2. **Sources First:** Never add an incident without at least one credible source
-3. **Neutral, Objective Language:** Use factual terminology, not emotional or partisan language:
+3. **Neutral, Objective Language:** This site's credibility depends on factual, documentary tone. Avoid emotional, excited, or loaded language:
    - Use "search" not "raid" or "ransack"
    - Use "enter" not "storm" or "invade"
-   - Use "detained" not "kidnapped"
-   - Avoid editorializing words like "terrorize," "brutalize," "horrific"
+   - Use "detained" not "kidnapped" or "snatched"
+   - Avoid editorializing words like "terrorize," "brutalize," "horrific," "shocking," "exclusive"
+   - Avoid excited phrasing like "breaking," "explosive," "bombshell"
    - Report what happened factually; let readers draw their own conclusions
    - Quotes from witnesses/victims can contain emotional language, but narrative text should not
+   - **Source descriptions:** Use plain, descriptive labels. Say "interview" not "exclusive interview." Say "video" not "shocking video."
    - **For official statements:** Report what was said accurately, not your interpretation. If Trump says "vicious animals" referring to "murderers & criminals," don't editorialize that as "calling immigrants vicious animals." Let readers draw their own conclusions about the rhetoric.
 4. **Multiple Perspectives:** Include official statements even if disputed
 5. **Update Regularly:** Mark `last_updated` when new information emerges
