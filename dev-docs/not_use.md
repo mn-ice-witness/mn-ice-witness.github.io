@@ -233,6 +233,34 @@ Stories are excluded when they don't meet the project's core focus:
 - Reason: Protest/legal story - documents potential court order violation but no specific individual victim detained or harmed in enforcement action. The court order violation may be relevant for legal filings but does not constitute a standalone civil rights incident file.
 - Date evaluated: 2026-01-19
 
+**Quarry Shopping Center Detention (Jan 19)**
+- Source: [Bring Me The News](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-monday-jan-19) (via Elliott Payne Instagram)
+- Date: January 19, 2026
+- Details: City Council President Elliott Payne reported that a person was detained at the Quarry Shopping Center, "leaving a wife and a young baby without support." Payne warned undocumented residents to avoid the Quarry, particularly Target and Home Depot parking lots being used for ICE staging.
+- Reason: Insufficient details - brief mention by official without victim identification, no corroborating news coverage with specifics. May revisit if victim or family comes forward with details.
+- Date evaluated: 2026-01-19
+
+**Northeast Minneapolis "Roughed Up" Incident (Jan 18)**
+- Source: [Bring Me The News](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-monday-jan-19) (via Elliott Payne Instagram)
+- Date: January 18, 2026
+- Details: Elliott Payne reported ICE agents "snatched a human being off of our streets, roughed them up badly, and then pepper sprayed legal observers as they documented it all" in a Northeast Minneapolis neighborhood on Sunday.
+- Reason: Insufficient details - brief mention by official without victim identification, location specifics, or corroborating news coverage. May revisit if victim or witnesses come forward with details.
+- Date evaluated: 2026-01-19
+
+**Powderhorn Park MLK Day Event Affected by ICE (Jan 19)**
+- Source: [MPR News](https://www.mprnews.org/story/2026/01/19/ice-presence-affects-annual-powderhorn-park-mlk-day-celebration)
+- Date: January 19, 2026
+- Details: The 28th annual Martin Luther King Jr. Day celebration at Powderhorn Park Recreation Center was affected by ICE presence in the community. Art and music filled the halls but attendance and community mood were impacted.
+- Reason: Community impact story - documents effect on cultural event but no specific enforcement incident or civil rights violation. Similar to business closure stories.
+- Date evaluated: 2026-01-19
+
+**Operation PARRIS Targeting 5,600 Green Card Applicants**
+- Sources: [Twin Cities Pioneer Press](https://www.twincities.com/2026/01/18/5600-green-card-applicants-in-minnesota-targeted-through-operation-parris/), [Global Refuge](https://www.globalrefuge.org/news/operation-in-minnesota-targeting-lawfully-admitted-refugees/), [MPR News](https://www.mprnews.org/story/2026/01/13/operation-parris-dhs-terrifying-refugee-families)
+- Date: January 2026
+- Details: DHS Operation PARRIS (Post-Admission Refugee Reverification and Integrity Strengthening) is re-examining refugee status of ~5,600 Minnesotans who entered legally but haven't received green cards. Includes "vetting enhancements," fresh background checks, re-interviews.
+- Reason: Policy/program story - documents systemic targeting of refugees but is not a specific civil rights incident. Individual refugee detentions under this program are documented as separate incidents (e.g., Nadya Moldovan refugee). This entry provides context for those incidents.
+- Date evaluated: 2026-01-19
+
 ### October 2025
 
 **ICE Raids Two Hibbing Mexican Restaurants (El Charro, La Tequila Taco Shop)**

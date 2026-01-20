@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768888338,
+  "mediaVersion": 1768889297,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-19-dhs-response-saly-detention.md",
@@ -452,10 +452,10 @@
     {
       "filePath": "incidents/2026-01/2026-01-14-circle-pines-restaurant-worker.md",
       "title": "Restaurant Worker with Legal Visa Detained by Plain-Clothed Agents",
-      "summary": "A restaurant worker in Circle Pines with a valid legal work visa was detained by two plain-clothed federal agents lying in wait outside the business. The worker has no criminal record and fled to the U.S. under asylum protections after a cartel took over his family's factory in his home country.",
+      "summary": "A restaurant worker at Pancho's Taqueria and Mexican Cafe in Circle Pines with a valid legal work visa was detained by two plain-clothed federal agents lying in wait outside the business around 5 p.m. Surveillance video shows the worker shouting \"Ayuda!\" (Help!) as agents pulled him from a storage area. The worker, known as Kevin, has no criminal record and fled to the U.S. under asylum protections after a cartel took over his family's factory in his home country. He was transported to the Whipple Federal Building and then to El Paso, Texas within 12 hours. A GoFundMe raised nearly $25,000 for legal fees and family support.",
       "date": "2026-01-14",
-      "time": "unknown",
-      "location": "Restaurant in Circle Pines",
+      "time": "\"17:00\"",
+      "location": "Pancho's Taqueria and Mexican Cafe, Circle Pines",
       "city": "Circle Pines",
       "type": "immigrants",
       "status": "ongoing",

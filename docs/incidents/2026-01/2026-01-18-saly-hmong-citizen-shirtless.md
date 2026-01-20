@@ -25,6 +25,13 @@ A Hmong man named Saly, described as a naturalized U.S. citizen with no criminal
 5. Star Tribune (Jan 20, 2026): [St. Paul mayor 'livid' after ICE wrongly targets family friend](https://www.startribune.com/st-paul-mayor-livid-after-ice-wrongly-targets-family-friend-escorts-him-undressed-into-cold/601566974) - Mayor Her's response (paywalled)
 6. FOX 9 (Jan 2026): [St. Paul ICE raid: Elderly citizen taken in shorts and Crocs](https://www.fox9.com/news/st-paul-ice-raid-elderly-citizen-taken-shorts-crocs) - Mayor Her's quotes and response
 7. CBS Minnesota (Jan 19, 2026): [ICE arrests elderly Hmong-American citizen in St. Paul](https://www.cbsnews.com/minnesota/news/ice-elderly-hmong-american-citizen-arrested-st-paul/) - DHS response and community advocate quotes
+8. NBC News (Jan 19, 2026): [U.S. citizen shares fear he felt when ICE took him from Minnesota home while nearly naked](https://www.nbcnews.com/news/us-news/us-citizen-shares-fear-felt-ice-took-minnesota-home-nearly-naked-rcna254890)
+9. Detroit News (Jan 19, 2026): [Hmong elder, a U.S. citizen, forced from Minnesota home at gunpoint, family says](https://www.detroitnews.com/story/news/nation/2026/01/19/hmong-elder-a-u-s-citizen-forced-from-minnesota-home-at-gunpoint-family-says/88258005007/)
+10. Raw Story (Jan 19, 2026): [ICE forces showering citizen outside into freezing weather in his underwear](https://www.rawstory.com/ice-us-citizen/)
+11. The Handbasket (Jan 19, 2026): [Behind the disturbing image of ICE snatching a half-naked, elderly Hmong American from his home](https://www.thehandbasket.co/p/ice-st-paul-chongly-scott-thao-saly-hmong-us-citizen-arrest)
+12. Bring Me The News (Jan 19, 2026): [Video: ICE agents raid St. Paul home, detain elderly US citizen on frigid Sunday](https://bringmethenews.com/minnesota-news/video-ice-agents-raid-st-paul-home-detain-elderly-us-citizen-on-frigid-sunday)
+13. KFGO (Jan 19, 2026): [Hmong grandfather arrested by ICE in his home; brought out wearing underwear and sandals](https://kfgo.com/2026/01/19/1248604/)
+14. Spokesman Review (Jan 19, 2026): [ICE broke into Minnesota home, dragged barely clothed man into snow](https://www.spokesman.com/stories/2026/jan/19/ice-broke-into-minnesota-home-dragged-barely-cloth/)
 
 ## Victim(s)
 - **Name:** ChongLy Scott Thao (also referred to as "Saly" by family)
