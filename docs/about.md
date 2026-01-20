@@ -1,5 +1,7 @@
 # About This Site
 
+<p style="font-size: 0.8em; color: #888; font-weight: bold; font-style: italic; margin-bottom: 1em;">Videos are clips edited to key moments. Tap video for sources and full context.</p>
+
 <p style="font-size: 0.9em; color: #666; font-style: italic;"><span style="font-weight: bold; color: #aaa;">Last updated: January 20, 2026</span> | To report an incident (must be sourced by a reputable media outlet), submit a correction, or share additional media for a listed incident, contact us at <a href="mailto:mnicewitness@gmail.com">mnicewitness@gmail.com</a>.</p>
 
 ## The Federal Position

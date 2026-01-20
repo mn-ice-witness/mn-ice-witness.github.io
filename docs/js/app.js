@@ -444,6 +444,12 @@ const App = {
         }
 
         gallery.innerHTML = '';
+
+        const mediaNote = document.createElement('div');
+        mediaNote.className = 'media-gallery-note';
+        mediaNote.innerHTML = 'Videos are clips edited to key moments. Tap video for sources and full context.';
+        gallery.appendChild(mediaNote);
+
         columns.forEach(col => gallery.appendChild(col.element));
 
         const footer = document.createElement('div');

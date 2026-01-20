@@ -789,6 +789,16 @@ body {
     color: var(--color-text-muted);
 }
 
+.media-gallery-note {
+    width: 100%;
+    text-align: center;
+    padding: 0 16px 12px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    font-style: italic;
+    color: #888;
+}
+
 .media-gallery-footer {
     width: 100%;
     text-align: center;
