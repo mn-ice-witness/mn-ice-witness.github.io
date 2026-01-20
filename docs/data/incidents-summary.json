@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768926063,
+  "mediaVersion": 1768926611,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-19-dhs-response-saly-detention.md",
@@ -173,6 +173,30 @@
         }
       ],
       "aspectRatio": 0.8549618320610687
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-17-mischief-toy-store-ice-inspection.md",
+      "title": "Toy Store Receives ICE Inspection Notice Hours After ABC News Interview",
+      "summary": "Three hours after ABC News aired an interview with Mischief Toy Store owner Abigail Adelsheim-Marshall about distributing free ICE alert whistles, two plainclothes ICE agents arrived at the St. Paul store and served a Notice of Inspection requesting I-9 employment documents. The store's owners, who have been publicly critical of ICE operations, stated they had never received such an audit in 27 years of business.",
+      "latestUpdate": null,
+      "date": "2026-01-17",
+      "time": "16:00",
+      "location": "818 Grand Ave",
+      "city": "St. Paul",
+      "type": "observers",
+      "status": "ongoing",
+      "victimCitizenship": "us-citizen",
+      "injuries": "none",
+      "trustworthiness": "high",
+      "created": "2026-01-20T10:25:58",
+      "lastUpdated": "2026-01-20T10:25:58",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": [],
+      "aspectRatio": null
     },
     {
       "filePath": "incidents/2026-01/2026-01-16-parral-ortiz-hospital-detention.md",
