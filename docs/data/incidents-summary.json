@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768889512,
+  "mediaVersion": 1768889638,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-19-dhs-response-saly-detention.md",
@@ -519,7 +519,7 @@
       "injuries": "minor",
       "trustworthiness": "high",
       "created": "2026-01-16T22:28:22",
-      "lastUpdated": "2026-01-16T22:28:22",
+      "lastUpdated": "2026-01-20T06:13:33",
       "mediaCount": 0,
       "notable": false,
       "hasLocalMedia": true,
