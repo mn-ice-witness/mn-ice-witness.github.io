@@ -486,6 +486,61 @@ const Lightbox = {
     },
 
     setupMediaControls() {
+        this.setupVideoControls();
+        this.setupImageControls();
+    },
+
+    setupImageControls() {
+        const image = this.bodyElement.querySelector('.local-media-image');
+        if (!image) return;
+
+        const container = image.closest('.local-media-container');
+        const fullscreenBtn = container?.querySelector('.fullscreen-btn');
+        if (!fullscreenBtn) return;
+
+        const enterIcon = fullscreenBtn.querySelector('.fullscreen-enter');
+        const exitIcon = fullscreenBtn.querySelector('.fullscreen-exit');
+        let savedScrollY = 0;
+
+        const isFullscreen = () => document.fullscreenElement || document.webkitFullscreenElement;
+
+        const updateFullscreenState = () => {
+            const fs = isFullscreen();
+            if (enterIcon) enterIcon.style.display = fs ? 'none' : '';
+            if (exitIcon) exitIcon.style.display = fs ? '' : 'none';
+        };
+
+        const onFullscreenExit = () => {
+            if (!isFullscreen() && savedScrollY > 0) {
+                requestAnimationFrame(() => {
+                    this.bodyElement.scrollTop = savedScrollY;
+                });
+            }
+            updateFullscreenState();
+        };
+
+        fullscreenBtn.addEventListener('click', () => {
+            if (isFullscreen()) {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                }
+            } else {
+                savedScrollY = this.bodyElement.scrollTop;
+                if (container.requestFullscreen) {
+                    container.requestFullscreen({ navigationUI: 'hide' });
+                } else if (container.webkitRequestFullscreen) {
+                    container.webkitRequestFullscreen();
+                }
+            }
+        });
+
+        document.addEventListener('fullscreenchange', onFullscreenExit);
+        document.addEventListener('webkitfullscreenchange', onFullscreenExit);
+    },
+
+    setupVideoControls() {
         const video = this.bodyElement.querySelector('.local-media-video');
         if (!video) return;
 
@@ -731,8 +786,18 @@ const Lightbox = {
 
     renderImageElement(mediaUrl) {
         return `
-            <div class="local-media-container">
+            <div class="local-media-container local-media-container-image">
                 <img class="local-media-image" src="${mediaUrl}" alt="Incident media">
+                <div class="media-controls">
+                    <button class="media-control-btn fullscreen-btn" aria-label="Toggle fullscreen">
+                        <svg class="fullscreen-enter" viewBox="0 0 24 24" width="24" height="24">
+                            <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/>
+                        </svg>
+                        <svg class="fullscreen-exit" viewBox="0 0 24 24" width="24" height="24" style="display:none">
+                            <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z" fill="currentColor"/>
+                        </svg>
+                    </button>
+                </div>
             </div>
         `;
     },

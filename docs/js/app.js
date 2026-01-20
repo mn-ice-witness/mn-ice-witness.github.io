@@ -566,6 +566,18 @@ const App = {
             `;
         } else {
             mediaElement = `<img class="media-card-image" src="${mediaUrl}" alt="${shortTitle}">`;
+            videoControls = `
+                <div class="media-controls">
+                    <button class="media-control-btn fullscreen-btn" aria-label="Fullscreen">
+                        <svg class="fullscreen-enter" viewBox="0 0 24 24" width="24" height="24">
+                            <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/>
+                        </svg>
+                        <svg class="fullscreen-exit" viewBox="0 0 24 24" width="24" height="24" style="display:none">
+                            <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z" fill="currentColor"/>
+                        </svg>
+                    </button>
+                </div>
+            `;
         }
 
         return `
@@ -584,8 +596,64 @@ const App = {
 
     setupMediaCardControls(cardEl) {
         const video = cardEl.querySelector('.media-card-video');
-        if (!video) return;
+        const image = cardEl.querySelector('.media-card-image');
 
+        if (video) {
+            this.setupVideoCardControls(cardEl, video);
+        } else if (image) {
+            this.setupImageCardControls(cardEl, image);
+        }
+    },
+
+    setupImageCardControls(cardEl, image) {
+        const container = cardEl.querySelector('.media-card-media');
+        const fullscreenBtn = cardEl.querySelector('.fullscreen-btn');
+        if (!fullscreenBtn) return;
+
+        const enterIcon = fullscreenBtn.querySelector('.fullscreen-enter');
+        const exitIcon = fullscreenBtn.querySelector('.fullscreen-exit');
+        let savedScrollY = 0;
+
+        const isFullscreen = () => document.fullscreenElement === container || document.webkitFullscreenElement === container;
+
+        const updateFullscreenIcons = () => {
+            const fs = isFullscreen();
+            if (enterIcon) enterIcon.style.display = fs ? 'none' : '';
+            if (exitIcon) exitIcon.style.display = fs ? '' : 'none';
+        };
+
+        const onFullscreenExit = () => {
+            if (!isFullscreen() && savedScrollY > 0) {
+                requestAnimationFrame(() => {
+                    window.scrollTo(0, savedScrollY);
+                });
+            }
+            updateFullscreenIcons();
+        };
+
+        fullscreenBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            if (isFullscreen()) {
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                } else if (document.webkitExitFullscreen) {
+                    document.webkitExitFullscreen();
+                }
+            } else {
+                savedScrollY = window.scrollY;
+                if (container.requestFullscreen) {
+                    container.requestFullscreen({ navigationUI: 'hide' });
+                } else if (container.webkitRequestFullscreen) {
+                    container.webkitRequestFullscreen();
+                }
+            }
+        });
+
+        document.addEventListener('fullscreenchange', onFullscreenExit);
+        document.addEventListener('webkitfullscreenchange', onFullscreenExit);
+    },
+
+    setupVideoCardControls(cardEl, video) {
         const container = cardEl.querySelector('.media-card-media');
         const playPauseBtn = cardEl.querySelector('.play-pause-btn');
         const iconPlay = cardEl.querySelector('.media-icon-play');

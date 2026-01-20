@@ -725,7 +725,9 @@ body {
 }
 
 .media-card-media:fullscreen .media-card-video,
-.media-card-media:-webkit-full-screen .media-card-video {
+.media-card-media:-webkit-full-screen .media-card-video,
+.media-card-media:fullscreen .media-card-image,
+.media-card-media:-webkit-full-screen .media-card-image {
     max-width: 100%;
     max-height: 100%;
     width: auto;
@@ -1413,7 +1415,9 @@ body {
 }
 
 .local-media-container:fullscreen .local-media-video,
-.local-media-container:-webkit-full-screen .local-media-video {
+.local-media-container:-webkit-full-screen .local-media-video,
+.local-media-container:fullscreen .local-media-image,
+.local-media-container:-webkit-full-screen .local-media-image {
     max-width: 100%;
     max-height: 100%;
     width: auto;
