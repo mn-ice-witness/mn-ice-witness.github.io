@@ -362,6 +362,14 @@ When making a MAJOR update to an incident, add an `## Updates` section right aft
 
 **Format:** Use simple dates like "Jan 18" — NOT full timestamps. The Updates section is user-facing and should be clean and readable.
 
+**Write in plain language** — describe what happened, not what you did:
+- ✅ "Gibson alleges ICE took 'trophy photos' of him"
+- ❌ "Added press conference details"
+- ✅ "Nasra Ahmed describes being chained 'like Hannibal Lecter'"
+- ❌ "Added victim's first-person account; upgraded to HIGH trustworthiness"
+
+Never mention internal details like trustworthiness changes, source additions, or schema updates. Users don't care about our process — they want to know what happened.
+
 **Most incidents will NOT have an Updates section.** Only add it when there are major story developments worth tracking.
 
 ### NEVER Remove Valid Sources
