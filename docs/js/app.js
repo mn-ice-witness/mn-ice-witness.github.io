@@ -111,6 +111,10 @@ const App = {
         const hash = window.location.hash.slice(1);
         if (hash === 'list' || this.sectionHashes.includes(hash)) {
             this.currentView = 'list';
+            if (this.sectionHashes.includes(hash)) {
+                this.sortByUpdated = false;
+                this.saveSortPreference();
+            }
         } else if (!hash) {
             const stored = localStorage.getItem('preferredView');
             if (stored === 'list') {
