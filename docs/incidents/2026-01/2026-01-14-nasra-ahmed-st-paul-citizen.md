@@ -6,8 +6,8 @@ city: St. Paul
 type: citizens
 status: resolved
 victim_citizenship: us-citizen
-injuries: none
-trustworthiness: medium
+injuries: minor
+trustworthiness: high
 created: 2026-01-16T22:28:22
 last_updated: 2026-01-16T22:28:22
 ---
@@ -15,14 +15,17 @@ last_updated: 2026-01-16T22:28:22
 # U.S. Citizen Born in Minnesota Detained by ICE for Two Days
 
 ## Summary
-Nasra Mohamed Ahmed, a 23-year-old U.S. citizen born in Hennepin County, was detained by ICE agents on January 14 in the parking lot of her St. Paul apartment complex while on her way to pick up seizure and anxiety medication. Despite telling agents she was born in Minnesota and has never been to Somalia, she was held at Sherburne County Jail without bail for more than two days before being released to her family on Friday night (January 17) without charges. She has no criminal history.
+Nasra Mohamed Ahmed, a 23-year-old U.S. citizen born in Hennepin County, was detained by ICE agents on January 14 in the parking lot of her St. Paul apartment complex while on her way to pick up seizure and anxiety medication. Despite telling agents she was born in Minnesota and has never been to Somalia, she was held at Sherburne County Jail without bail for more than two days before being released to her family on Friday night (January 17) without charges. During detention, she suffered a stress-induced seizure and was taken to the hospital in full restraints. She later described being chained "like Hannibal Lecter" with a padlock. She has no criminal history.
 
 ## Sources
 1. Twin Cities Pioneer Press (Jan 16, 2026): [Family of U.S. citizen detained by ICE in St. Paul seeks her release](https://www.twincities.com/2026/01/16/family-of-u-s-citizen-detained-by-ice-in-st-paul-seeks-her-release/)
 2. Twin Cities Pioneer Press (Jan 17, 2026): [St. Paul woman, U.S. citizen, released from ICE detention after two days](https://www.twincities.com/2026/01/17/st-paul-woman-u-s-citizen-released-from-ice-detention-after-two-days/)
-3. Facebook post: [Community member account](https://www.facebook.com/story.php?story_fbid=25714350694874522&id=100001788329163) - Notes she was on her way to pick up a prescription
-4. Yahoo News / Twin Cities (Jan 18, 2026): [St. Paul woman, a U.S. citizen, recounts her two days in detention](https://www.yahoo.com/news/articles/st-paul-woman-u-citizen-173600494.html)
-5. Facebook post (Somlai): [Personal account](https://www.facebook.com/100078874290085/posts/869036045735531/)
+3. Twin Cities Pioneer Press (Jan 18, 2026): [St. Paul woman, a U.S. citizen, recounts her two days in detention](https://www.twincities.com/2026/01/18/st-paul-woman-a-u-s-citizen-recounts-her-two-days-in-detention/)
+4. The Mirror US (Jan 18, 2026): [US citizen scarred and bruised after she was shoved to the ground and detained by ICE for 2 days](https://www.themirror.com/news/us-news/citizen-scarred-bruised-detained-ice-1626179)
+5. Complex (Jan 18, 2026): [Woman Injured, Detained, and Released by ICE Despite Being U.S. Citizen](https://www.complex.com/life/a/backwoodsaltar/us-citizen-st-paul-woman-nasra-ahmed-detained-by-ice)
+6. Inquisitr (Jan 18, 2026): [ICE Agents Pulled 23-Year-Old in a Surprise Raid, Then Left Her Scarred and Bruised](https://www.inquisitr.com/ice-agents-pulled-23-year-old-in-a-surprise-raid-then-left-her-scarred-and-bruised-they-had-a-padlock-on-me)
+7. Facebook post: [Community member account](https://www.facebook.com/story.php?story_fbid=25714350694874522&id=100001788329163) - Notes she was on her way to pick up a prescription
+8. Facebook post (Somlai): [Personal account](https://www.facebook.com/100078874290085/posts/869036045735531/)
 
 ## Victim(s)
 - **Name:** Nasra Mohamed Ahmed
@@ -62,11 +65,26 @@ No specific statement has been issued regarding this detention.
 ### Jail Records
 The Sherburne County Jail roster on Friday morning listed no specific information about possible charges beyond "federal title," "federal court" and "f" for felony. The U.S. Marshals said Friday they had no record of Ahmed.
 
+## Nasra Ahmed's Account (Jan 18 Interview)
+After her release, Ahmed described her treatment in detention:
+
+> "The way they treated me during that episode while I was transported, I was cuffed from my hands to my legs. I was covered in chains. They had a padlock on me. … While I was in the hospital, if I needed to go to the restroom or I needed to get up, they had chains on me like Hannibal Lecter, pretty much."
+
+She also described the initial encounter: agents allegedly called her a racial slur and told her they were "making America great again."
+
+In videos recorded by neighbors, a dozen masked agents can be seen surrounding her, forcing her to the ground and then into a car.
+
+## Medical Treatment
+During detention, Ahmed suffered a stress-induced seizure. She was transported to the hospital in arm and leg restraints, where she received an MRI and stayed overnight.
+
 ## Release and Aftermath
-Nasra Ahmed was released to her family on Friday night (January 17, 2026) without charges after more than two days in detention.
+Nasra Ahmed was released to her family around 7:45 p.m. Friday (January 17, 2026) without charges after more than two days in detention.
+
+**State Rep. Samakab Hussein on her release:**
+> "Sherburne County sent her back to Fort Snelling, and Fort Snelling released her yesterday after we talked to her attorney, (a federal public defender)."
 
 **State Rep. Samakab Hussein on her condition after release:**
 > "She went home traumatized, not eating, not talking, pissed off. She feels that she got kidnapped. The law is not protecting her. She was humiliated."
 
 ## Editorial Assessment
-**MEDIUM** - Twin Cities Pioneer Press coverage with named victim and direct quotes from family and state legislator. Confirmed U.S. citizen born in Minnesota with documented lack of criminal history per court records check. Released without charges after 2+ days. Cell phone video reportedly exists but not published. No independent corroboration from other news outlets yet.
+**HIGH** - Twin Cities Pioneer Press published three separate articles including her detailed first-person account. Covered by national outlets (Complex, The Mirror, Inquisitr). Confirmed U.S. citizen born in Minnesota with documented lack of criminal history. Hospital treatment for seizure confirmed. Cell phone video recorded by neighbors. State legislator directly involved in securing release.

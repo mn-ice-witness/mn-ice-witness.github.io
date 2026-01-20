@@ -40,6 +40,8 @@ Aliya Rahman, a 43-year-old U.S. citizen and software engineer, was dragged from
 20. Instagram Reel (Jan 2026): [Video coverage of incident](https://www.instagram.com/reel/DTiIM3EjLXR/)
 21. Instagram Reel (Jan 2026): [ICE agents forcibly pulled US-born...](https://www.instagram.com/reel/DThmDpuj7b7/)
 22. CBS News / 60 Minutes (Jan 2026): [Minneapolis police chief responds to ICE enforcement](https://www.cbsnews.com/news/minneapolis-police-chief-responds-to-ice-enforcement-60-minutes/)
+23. Salon (Jan 17, 2026): ["I thought I was going to die": US citizen forced from her car by ICE](https://www.salon.com/2026/01/17/i-thought-i-was-going-to-die-us-citizen-forced-from-her-car-by-ice/)
+24. KSAT San Antonio (Jan 16, 2026): [Federal immigration agents filmed dragging a woman from her car](https://www.ksat.com/news/national/2026/01/16/federal-immigration-agents-filmed-dragging-a-woman-from-her-car-in-minneapolis/)
 
 ## Victim(s)
 - **Name:** Aliya Rahman
