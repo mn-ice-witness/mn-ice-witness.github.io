@@ -21,8 +21,18 @@ If ~/.context.md doesn't exist, notify the user.
 7. `dev-docs/not_use.md` - Stories evaluated and rejected (check before adding new incidents)
 8. `dev-docs/llm-search-procedure.md` - Step-by-step guide for LLMs to search for new incidents
 9. `dev-docs/media-controls.md` - Video player controls strategy and fullscreen implementation
+10. `dev-docs/social-media-listing-procedure.md` - How to generate daily Bluesky update posts
 
 These docs are the source of truth for how this project works.
+
+## When Asked for Social Media Updates
+
+**If the user asks for a social media update, Bluesky post, or daily listing:**
+
+1. **Read `dev-docs/social-media-listing-procedure.md` first** - Contains format, character limits, and examples
+2. **Find incidents created/updated on that date** using grep on `created:` and `last_updated:` timestamps
+3. **Read each incident** to find the most compelling details
+4. **Write bullets under 300 chars total** - Lead with the most striking/visceral detail
 
 ## When Asked to Find New Incidents or Sources
 

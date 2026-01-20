@@ -4,41 +4,68 @@ Generate daily listings of new/updated incidents for social media posts.
 
 ## How to Request
 
-Ask Claude: "Give me a social media listing for [date]"
+Ask Claude: "Give me a social media update for [date]"
 
-Claude will:
-1. Find all incidents created or updated on that date
-2. Read each story to extract key details
-3. Write a catchy 1-sentence summary highlighting the most important/striking details
-4. Provide the shareable link
+## Bluesky Format (300 character limit)
 
-## Output Format
+Posts MUST fit within 300 characters total. Use this bullet format:
 
 ```
-[Date] New & Updated Posts
+Jan 19 New & Updated:
 
-[Catchy summary sentence with the most striking details from that day's stories]
+  - [Most compelling detail]
+  - [Second most compelling]
+  - [Third]
+  - [Fourth if space allows]
 
-https://mn-ice-witness.org/#new-updated-MM-DD-YYYY
+https://mn-ice-witness.org/#new-updated-01-19-2026
 ```
 
-## Example Output
+## Writing Guidelines
 
-```
-Jan 18 New & Updated Posts
-
-U.S. citizen detained "because of your accent" in front of his 5-year-old daughter; St. Paul snowplow driver with legal work status now held in El Paso; Hmong citizen's doorbell video refusing agents goes viral with 400K views.
-
-https://mn-ice-witness.org/#new-updated-01-18-2026
-```
+1. **Lead with the most striking detail** - the thing that makes people stop scrolling
+2. **Use visceral, specific details** - "chained like Hannibal Lecter" not "mistreated"
+3. **Keep bullets SHORT** - 5-8 words max per bullet
+4. **Prioritize U.S. citizens** - these stories cut through partisan framing
+5. **Include numbers when striking** - "400K views", "5 days after approval"
 
 ## What Gets Included
 
 - **NEW**: Incidents with `created:` timestamp on that date
-- **UPDATED**: Incidents with `last_updated:` timestamp on that date (but `created:` on a different date)
+- **UPDATED**: Incidents with `last_updated:` timestamp on that date (but created earlier)
 
-## Automatic URL (for direct sharing)
+Only include updates that are substantive story developments (new victim accounts, status changes, major new sources). Don't include minor source additions.
 
+## Example Posts
+
+### Good Example (278 chars)
 ```
+Jan 18 New & Updated:
+
+  - Citizen detained for "accent"
+  - Snowplow driver held in El Paso
+  - Viral doorbell video (400K)
+  - Noem backtracks on pepper spray
+  - Manager tackled observing ICE
+
 https://mn-ice-witness.org/#new-updated-MM-DD-YYYY
+```
+
+### Another Example
+```
+Jan 19 New & Updated:
+
+  - Citizen: "chained like Hannibal Lecter"
+  - Hmong elder story goes national
+  - Parents detained 5 days after I-130
+  - Refugee mom taken driving to church
+
+https://mn-ice-witness.org/#new-updated-MM-DD-YYYY
+```
+
+## Finding the Day's Updates
+
+Run this to find incidents created or updated on a specific date:
+```bash
+grep -l "created: 2026-01-19\|last_updated: 2026-01-19" docs/incidents/**/*.md
 ```
