@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768944221,
+  "mediaVersion": 1768946208,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-20-brooklyn-park-officer-citizen-check.md",
@@ -1554,7 +1554,7 @@
           "path": "media/2026-01-11-speedway-st-paul.mp4"
         }
       ],
-      "aspectRatio": 2.091666666666667
+      "aspectRatio": 1.8066666666666666
     },
     {
       "filePath": "incidents/2026-01/2026-01-11-observer-phone-snatched.md",
