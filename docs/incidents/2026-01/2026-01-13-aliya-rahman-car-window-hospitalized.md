@@ -9,10 +9,13 @@ victim_citizenship: us-citizen
 injuries: serious
 trustworthiness: high
 created: 2026-01-15T23:23:27
-last_updated: 2026-01-15T23:23:27
+last_updated: 2026-01-20T15:16:31
 ---
 
 # U.S. Citizen Aliya Rahman Dragged From Car, Hospitalized After ICE Assault
+
+## Updates
+- **Jan 20** - Aliya Rahman speaks exclusively to CNN in her first on-camera interview about the assault
 
 ## Summary
 Aliya Rahman, a 43-year-old U.S. citizen and software engineer, was dragged from her car by ICE agents after they smashed her window. She was driving to an appointment at the Traumatic Brain Injury Center when agents blocked her path. After being taken into custody, Rahman repeatedly requested medical attention but was denied. She lost consciousness in her cell and was finally taken to a hospital, where she was treated for injuries consistent with assault. The video went viral with millions of views.
@@ -42,6 +45,8 @@ Aliya Rahman, a 43-year-old U.S. citizen and software engineer, was dragged from
 22. CBS News / 60 Minutes (Jan 2026): [Minneapolis police chief responds to ICE enforcement](https://www.cbsnews.com/news/minneapolis-police-chief-responds-to-ice-enforcement-60-minutes/)
 23. Salon (Jan 17, 2026): ["I thought I was going to die": US citizen forced from her car by ICE](https://www.salon.com/2026/01/17/i-thought-i-was-going-to-die-us-citizen-forced-from-her-car-by-ice/)
 24. KSAT San Antonio (Jan 16, 2026): [Federal immigration agents filmed dragging a woman from her car](https://www.ksat.com/news/national/2026/01/16/federal-immigration-agents-filmed-dragging-a-woman-from-her-car-in-minneapolis/)
+25. Facebook reel: [Video coverage](https://www.facebook.com/reel/1298284502358086/)
+26. CNN Video (Jan 20, 2026): [Woman dragged from car by ICE speaks exclusively to CNN](https://www.cnn.com/2026/01/20/us/video/woman-dragged-from-car-by-ice-ldn-digvid-vrtc) - **Exclusive interview**
 
 ## Victim(s)
 - **Name:** Aliya Rahman
