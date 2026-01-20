@@ -282,6 +282,34 @@ Stories are excluded when they don't meet the project's core focus:
 - Reason: Insufficient details - no victim name or identification, no corroborating sources with victim details. May revisit if victim comes forward or more coverage emerges.
 - Date evaluated: 2026-01-20
 
+**DOJ Grand Jury Subpoenas to Minnesota Officials (Jan 20)**
+- Sources: [Fox 9](https://www.fox9.com/news/ice-minnesota-updates-jan-20-2026), [MPR News](https://www.mprnews.org/story/2026/01/20/ice-enforcement-minneapolis-minnesota-latest-updates), [ABC News](https://abcnews.go.com/US/live-updates/minneapolis-ice-shooting-live-updates-doj-investigating-apparent/?id=129340693)
+- Date: January 20, 2026
+- Details: FBI served grand jury subpoenas to offices of Gov. Tim Walz, AG Keith Ellison, Minneapolis Mayor Jacob Frey, and St. Paul Mayor Kaohly Her. Trump administration investigating Minnesota Democratic leaders who opposed ICE operations.
+- Reason: Political/institutional story - documents federal retaliation against state/local officials but not a civil rights incident involving ICE enforcement against a person.
+- Date evaluated: 2026-01-20
+
+**Pentagon 1,500 Troops on Standby for Minnesota (Jan 20)**
+- Sources: [Democracy Now](https://www.democracynow.org/2026/1/20/headlines/pentagon_prepares_1_500_soldiers_to_be_possibly_deployed_to_minnesota), [Star Tribune](https://www.startribune.com/ice-raids-minnesota/601546426), [ABC News](https://abcnews.go.com/US/live-updates/minneapolis-ice-shooting-live-updates-doj-investigating-apparent/?id=129340693)
+- Date: January 20, 2026
+- Details: Pentagon placed 1,500 soldiers from 11th Airborne Division in Alaska on standby for possible deployment to Minnesota, days after Trump threatened to invoke Insurrection Act.
+- Reason: Policy/political story - documents potential military deployment but not a civil rights incident or enforcement action.
+- Date evaluated: 2026-01-20
+
+**Fridley/University Avenue Arrest (Rep. Koegel Video) (Jan 9)**
+- Sources: [Hometown Source](https://www.hometownsource.com/abc_newspapers/community/immigration-enforcement-activity-reported-across-anoka-county/article_592dae6f-1055-454d-9975-c98dd782acc2.html)
+- Date: January 9, 2026
+- Details: State Rep. Erin Koegel (DFL-Spring Lake Park) witnessed and recorded ICE agents detaining a Latino man in a black hoodie on University Avenue near Home Depot in Fridley. Agent "Ryan" refused to show warrant when asked. Agents took the man's vehicle. Koegel called it "racial profiling right out of the gate."
+- Reason: Insufficient details - video evidence exists from state representative, but no victim identification, no corroborating news coverage with victim details, outcome unknown. May revisit if victim comes forward or more coverage emerges.
+- Date evaluated: 2026-01-20
+
+**Ridgedale Service Center Courthouse Arrests (Dec 29, 2025)**
+- Sources: [KARE 11](https://www.kare11.com/article/news/local/ice-announces-names-of-people-arrested-outside-courtrooms-at-ridgedale-service-center/89-9440cf5d-da4f-490e-ab26-7404bea3b320), [BMTN](https://bringmethenews.com/minnesota-news/2-arrested-during-ice-operation-at-hennepin-county-building-in-minnetonka), [Snopes](https://www.snopes.com/news/2025/12/30/ice-arrest-minnesota-video/)
+- Date: December 29, 2025
+- Details: ICE arrested Cesar Ramos-Alcala (48, had prior removal order from 2018) and Marcelino Tapia-Lucas (25, traffic convictions and prior felony assault arrest) outside courtrooms at Ridgedale Service Center in Minnetonka. Approximately 27 agents present.
+- Reason: Not a civil rights incident - both individuals had prior immigration violations or criminal history. Routine ICE enforcement operation, not targeting non-criminal community members or U.S. citizens.
+- Date evaluated: 2026-01-20
+
 ### October 2025
 
 **ICE Raids Two Hibbing Mexican Restaurants (El Charro, La Tequila Taco Shop)**
