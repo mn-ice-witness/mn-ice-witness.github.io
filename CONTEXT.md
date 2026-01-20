@@ -289,6 +289,7 @@ This site is deployed via Cloudflare Pages from the `docs/` folder.
    - Avoid editorializing words like "terrorize," "brutalize," "horrific"
    - Report what happened factually; let readers draw their own conclusions
    - Quotes from witnesses/victims can contain emotional language, but narrative text should not
+   - **For official statements:** Report what was said accurately, not your interpretation. If Trump says "vicious animals" referring to "murderers & criminals," don't editorialize that as "calling immigrants vicious animals." Let readers draw their own conclusions about the rhetoric.
 4. **Multiple Perspectives:** Include official statements even if disputed
 5. **Update Regularly:** Mark `last_updated` when new information emerges
 6. **Trustworthiness Ratings:** (see `dev-docs/adding-incidents.md` for full criteria)

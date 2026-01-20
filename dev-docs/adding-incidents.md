@@ -212,6 +212,7 @@ This allows editorial judgment about incidents worth documenting while clearly i
 - Report facts and let readers draw conclusions
 - Witness/victim quotes may contain emotional language, but narrative text should not
 - Describe actions objectively: "agents used a battering ram to enter" not "agents violently smashed through the door"
+- **For official statements:** Report what was said accurately, not your interpretation. If an official says "vicious animals" referring to "murderers & criminals," don't editorialize that as "calling immigrants vicious animals." Let readers draw their own conclusions about the rhetoric.
 
 Use the schema from `incident-schema.md`. At minimum include:
 
