@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768939563,
+  "mediaVersion": 1768939951,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-20-brooklyn-park-officer-citizen-check.md",
@@ -1558,7 +1558,7 @@
     },
     {
       "filePath": "incidents/2026-01/2026-01-11-observer-phone-snatched.md",
-      "title": "\"Have You All Not Learned Over the Last Couple of Days\": Agent Snatches Phone from Observer (UNVERIFIED)",
+      "title": "\"Have You All Not Learned Over the Last Couple of Days\": Agent Snatches Phone from Observer",
       "summary": "Video circulating on social media shows an ICE agent approaching a woman who was filming from a distance and snatching her phone. The agent tells her \"Have you all not learned over the last couple of days\" and falsely claims that following federal agents is illegal. The footage appears to have aired on NBC Nightly News with the chyron \"NEW VIDEO SHOWS MINNEAPOLIS RESIDENTS CONFRONTING ICE AGENTS.\"",
       "latestUpdate": null,
       "date": "2026-01-11",
@@ -1569,16 +1569,21 @@
       "status": "resolved",
       "victimCitizenship": "unknown",
       "injuries": "none",
-      "trustworthiness": "unverified",
+      "trustworthiness": "low",
       "created": "2026-01-20T13:41:49",
       "lastUpdated": "2026-01-20T13:41:49",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": [],
-      "aspectRatio": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-11-observer-phone-snatched.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-11-observer-phone-snatched.mp4"
+        }
+      ],
+      "aspectRatio": 1.8047808764940239
     },
     {
       "filePath": "incidents/2026-01/2026-01-11-hani-duglof-medical.md",

@@ -2,14 +2,6 @@
 # List incident slugs in display order (one per line)
 
 
-
-
-
-
-
-
-
-
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -25,7 +17,7 @@ noem-pepper-spray-denial-backtrack
 agriculture-press-conference
 silva-sosa-inver-grove-heights
 siguenza-okeefe-detained
-doctor-blocked-renee-good
+observer-phone-snatched
 ramon-menera-accent-detained
 eden-prairie-13-year-old
 nimco-omar-citizen-check
@@ -44,6 +36,7 @@ ice-gun-pointed-at-protester
 shawn-jackson-children-tear-gas
 porter-wrong-address-raid
 sue-tincher-detained
+doctor-blocked-renee-good
 clergy-pepper-sprayed
 christian-molina-car-rammed
 st-paul-public-works-snowplow-driver
