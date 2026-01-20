@@ -15,7 +15,7 @@ last_updated: 2026-01-14T08:19:50
 # High School Student with Legal Status Arrested in Downtown Willmar
 
 ## Summary
-A 19-year-old Somali woman who is currently an 11th-grade student at Willmar Public Schools was arrested by ICE agents in downtown Willmar. She had legal refugee status (Form I-94) and her family had applied for Green Card status. The arrest caused approximately 90% of Somali students to miss school the following day. ***Note: This story seems to follow a pattern of Operation PARRIS (Post-Admission Refugee Reverification and Integrity Strengthening) -- see more details on this below.***
+A 19-year-old Somali woman who is currently an 11th-grade student at Willmar Public Schools was arrested by ICE agents in downtown Willmar. She had legal refugee status (Form I-94) and her family had applied for Green Card status. The arrest caused approximately 90% of Somali students to miss school the following day. <em style="color: #888;">**Note: This story seems to follow a pattern of Operation PARRIS (Post-Admission Refugee Reverification and Integrity Strengthening) -- see more details on this below.**</em>
 
 ## Sources
 1. West Central Tribune (Jan 13, 2026): [Federal immigration agents make arrests Monday in Willmar](https://www.wctrib.com/news/local/federal-immigration-agents-make-arrests-monday-in-willmar)

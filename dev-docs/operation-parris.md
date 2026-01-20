@@ -33,7 +33,7 @@ Add a "Context: Operation PARRIS" section to any incident where:
 
 At the end of the Summary text, add:
 ```
-***Note: This story seems to follow a pattern of Operation PARRIS (Post-Admission Refugee Reverification and Integrity Strengthening) -- see more details on this below.***
+<em style="color: #888;">**Note: This story seems to follow a pattern of Operation PARRIS (Post-Admission Refugee Reverification and Integrity Strengthening) -- see more details on this below.**</em>
 ```
 
 ### 2. Add Context section before Editorial Assessment
