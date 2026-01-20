@@ -138,7 +138,9 @@ const App = {
         const isDeepLink = hash && hash !== 'list' && hash !== 'media' && !isSectionHash;
         this.switchView(this.currentView, isDeepLink || isSectionHash);
         if (isSectionHash) {
+            this.isScrollingToSection = true;
             requestAnimationFrame(() => this.scrollToSection(hash));
+            setTimeout(() => { this.isScrollingToSection = false; }, 1000);
         }
     },
 
