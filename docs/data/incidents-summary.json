@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768874957,
+  "mediaVersion": 1768875621,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-19-dhs-response-saly-detention.md",
@@ -2094,11 +2094,16 @@
       "lastUpdated": "2026-01-19T19:14:34",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": [],
-      "aspectRatio": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-07-pickup-truck-rams-protesters.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-07-pickup-truck-rams-protesters.mp4"
+        }
+      ],
+      "aspectRatio": 2.1854545454545455
     },
     {
       "filePath": "incidents/2026-01/2026-01-06-emmanuel-sackie-brooklyn-park.md",
