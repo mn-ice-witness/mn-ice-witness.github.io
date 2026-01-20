@@ -71,5 +71,15 @@ A couple who have lived in Minnesota since 1999 were detained by ICE during a tr
 ## Family Background
 The parents met at a dance club in Mexico in the 1980s. They moved to Minnesota in 1999 seeking economic opportunity and built a thriving office cleaning business. They have paid taxes using an ITIN since 1999 and operate a registered LLC. They do not receive government benefits (which require SSN). One daughter is a DACA recipient.
 
+## Context: Operation PARRIS
+
+The Silva Sosa parents' detention fits a documented pattern of ICE targeting immigrants with pending green card applications under **Operation PARRIS** (Post-Admission Refugee Reverification and Integrity Strengthening). According to the [Twin Cities Pioneer Press](https://www.twincities.com/2026/01/18/5600-green-card-applicants-in-minnesota-targeted-through-operation-parris/), approximately 5,600 green card applicants in Minnesota are being targeted through this operation.
+
+The timing of this detention is particularly notable: the family received I-130 approval just **5 days before** ICE detained them, after working with an immigration lawyer for three years.
+
+[Global Refuge](https://www.globalrefuge.org/news/refugee-arrests-minnesota/) has documented that lawfully present immigrants are being detained and transported to Texas within 24 hours with "no due process, no access to an attorney."
+
+**Note:** The operation name "PARRIS" comes from a GoFundMe campaign and has not been independently verified by mainstream media. However, the pattern of targeting people with active immigration cases is well-documented.
+
 ## Editorial Assessment
 **HIGH** - CBS Minnesota/WCCO feature story with extensive family interviews and video. The timing of detention - 5 days after I-130 approval following 3 years of working with immigration lawyers - is particularly notable. Family has documented 26+ years in Minnesota, tax compliance, business ownership, and active immigration case. Medical concerns (diabetic father) add urgency.

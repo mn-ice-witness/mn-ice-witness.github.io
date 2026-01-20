@@ -55,5 +55,15 @@ Abdullahi added: "You're treating her like she's a felon, like she's a criminal,
 ## Related Incident
 During the Tuesday protest against ICE actions, agents deployed chemical irritant at the crowd, which included children. Emergency medical services was called to evaluate at least one child.
 
+## Context: Operation PARRIS
+
+This detention fits a documented pattern of ICE targeting refugees with pending green card applications under **Operation PARRIS** (Post-Admission Refugee Reverification and Integrity Strengthening). According to the [Twin Cities Pioneer Press](https://www.twincities.com/2026/01/18/5600-green-card-applicants-in-minnesota-targeted-through-operation-parris/), approximately 5,600 green card applicants in Minnesota are being targeted through this operation.
+
+The victim had legal refugee status (Form I-94) and her family had an active Green Card application pending - exactly the profile being targeted under this operation.
+
+[Global Refuge](https://www.globalrefuge.org/news/refugee-arrests-minnesota/) has documented that lawfully present refugees are being detained and transported to Texas within 24 hours with "no due process, no access to an attorney."
+
+**Note:** The operation name "PARRIS" comes from a GoFundMe campaign and has not been independently verified by mainstream media. However, the pattern of targeting refugees with pending applications is well-documented.
+
 ## Editorial Assessment
 **HIGH** - Multiple local news sources (West Central Tribune, MinnPost), named school official providing statements, documented community response and school impact. Legal status claims come from school cultural liaison with knowledge of the family's situation.

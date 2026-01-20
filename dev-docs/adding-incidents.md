@@ -164,6 +164,9 @@ This allows editorial judgment about incidents worth documenting while clearly i
 - Specialty: Sahan Journal (immigration), ICT (Native issues)
 - Official: City of Minneapolis, MN AG, court documents
 
+### Operation PARRIS Context
+If the incident involves a refugee or immigrant with **pending legal status** (I-130, green card application, etc.) being detained, add an Operation PARRIS context section. See [operation-parris.md](operation-parris.md) for details below.
+
 ### Source Requirements
 
 **Every source MUST:**
@@ -424,3 +427,31 @@ Always include DHS's official response when available:
 3. Check [ICE news releases](https://www.ice.gov/news/releases)
 
 Quote them directly, then note if evidence contradicts their claims.
+
+## Operation PARRIS Context Section
+
+When an incident involves a refugee or immigrant with **pending legal status** being detained, add a "Context: Operation PARRIS" section. This helps readers understand the broader pattern of targeting people with active immigration cases.
+
+### When to Add This Section
+
+Add when ANY of these apply:
+- Victim had an approved or pending I-130 petition
+- Victim was a refugee awaiting green card
+- Victim had valid immigration documents and was in a legal process
+- Victim was detained despite having legal status
+
+### Template
+
+Add this section after the main incident content (before Editorial Assessment):
+
+```markdown
+## Context: Operation PARRIS
+
+[Victim name]'s detention fits a documented pattern of ICE targeting refugees with pending green card applications under **Operation PARRIS** (Post-Admission Refugee Reverification and Integrity Strengthening). According to the Twin Cities Pioneer Press, approximately 5,600 green card applicants in Minnesota are being targeted through this operation.
+
+Global Refuge has documented that lawfully present refugees are being detained and transported to Texas within 24 hours with "no due process, no access to an attorney."
+```
+
+### Note on Verification
+
+The operation name "PARRIS" comes from a GoFundMe campaign and has not been independently verified by mainstream media. However, the **pattern** of targeting refugees with pending applications is well-documented. See [operation-parris.md](operation-parris.md) for full details and sources.
