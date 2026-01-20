@@ -12,7 +12,9 @@ created: 2026-01-20T13:41:49
 last_updated: 2026-01-20T13:41:49
 ---
 
-# Woman Observer Pushed to Ground While Filming ICE
+# Woman Observer Pushed to Ground While Filming ICE (UNVERIFIED)
+
+***This incident appears to have aired on NBC Nightly News but the original broadcast has not been located. If you have a link to the NBC News YouTube video or other media source, please [contact us](mailto:mnicewitness@proton.me).***
 
 ## Summary
 Video circulating on social media reportedly shows an ICE agent walking up to a woman filming from a distance and pushing her to the ground. Per comments on the video, the agent "took 17 steps to approach her" while "she was nowhere near him while she was filming." The footage appears to have aired on NBC Nightly News with the chyron "NEW VIDEO SHOWS MINNEAPOLIS RESIDENTS CONFRONTING ICE AGENTS."
@@ -20,7 +22,6 @@ Video circulating on social media reportedly shows an ICE agent walking up to a 
 ## Sources
 1. Threads (Jan 11, 2026): [@dougdedecker post](https://www.threads.com/@dougdedecker/post/DTY74cCiuCF/video-ice-assault-in-minneapolis-the-cell-phone-is-the-best-weapon-we-have) - "ICE assault in Minneapolis. The cell phone is the best weapon we have."
 
-**Note:** This video appears to have originally aired on NBC Nightly News. If you have access to the NBC News YouTube link for this broadcast segment, please share it to help verify this incident.
 
 ## Victim(s)
 - **Name:** Unknown
@@ -56,5 +57,3 @@ This incident reportedly occurred during the same period as other documented obs
 - Independent news coverage of this specific incident
 - Identity of the woman pushed
 - Exact date and location
-
-If you can locate the NBC Nightly News broadcast segment, please provide the YouTube link for verification.
