@@ -9,7 +9,7 @@ victim_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-19T10:14:30
-last_updated: 2026-01-19T17:50:11
+last_updated: 2026-01-19T21:19:19
 ---
 
 # Hmong U.S. Citizen Detained Shirtless in Freezing Weather, Then Released
@@ -21,7 +21,9 @@ A Hmong man named Saly, described as a naturalized U.S. citizen with no criminal
 1. Facebook Post (Jan 2026): [Hmong American Experience page - Louansee Moua](https://www.facebook.com/share/v/18GcBq3Rwb/) - Family member account
 2. Facebook Post (Jan 2026): [Georgia Fort](https://www.facebook.com/ByGeorgiaFort/posts/update-multiple-members-of-the-hmong-community-confirm-the-man-taken-from-his-ea/1400574674857282/) - Community confirmation
 3. Threads Post (Jan 2026): [@don.moyn post](https://www.threads.com/@don.moyn/post/DTsao6ijVAd) - Repost of incident with photo
-- **Video:** [Facebook Reel](https://www.facebook.com/reel/1986120352306275) - Incident footage
+4. **Video:** [Facebook Reel](https://www.facebook.com/reel/1986120352306275) - Incident footage
+5. Star Tribune (Jan 20, 2026): [St. Paul mayor 'livid' after ICE wrongly targets family friend](https://www.startribune.com/st-paul-mayor-livid-after-ice-wrongly-targets-family-friend-escorts-him-undressed-into-cold/601566974) - Mayor Her's response (paywalled)
+6. FOX 9 (Jan 2026): [St. Paul ICE raid: Elderly citizen taken in shorts and Crocs](https://www.fox9.com/news/st-paul-ice-raid-elderly-citizen-taken-shorts-crocs) - Mayor Her's quotes and response
 
 ## Victim(s)
 - **Name:** ChongLy Scott Thao (also referred to as "Saly" by family)
@@ -58,7 +60,19 @@ The family issued a formal press release on the same day categorically disputing
 The family has filed complaints with the ACLU of Minnesota and the Office of Minnesota Attorney General Keith Ellison.
 
 ### Local Officials
-No statements from local officials found regarding this incident.
+
+#### St. Paul Mayor Kaohly Her (January 19-20, 2026)
+Mayor Her, who has a personal connection to the Thao family, said she was "livid" about the incident. She visited the family after the raid.
+
+**Personal Connection:** Mayor Her stated that Thao's mother was friends with her mother-in-law in Laos and that the families go back decades. "These are people who were looked at as my own uncles as I was growing up and it is unbelievable to me," she said.
+
+**Criticism of ICE Conduct:**
+- "This is an American citizen who has no criminal record, who was sleeping in his own house, that they broke a door down and put guns to his daughter-in-law's head."
+- "They didn't ask for ID. They didn't ask to verify if it was the right person."
+- Characterized the DHS statement as "irresponsible and reckless"
+- Noted the family has lived in the home for two years and the person ICE was looking for does not live there anymore
+
+**Community Concern:** Mayor Her raised concerns about the impact on the Hmong-American community, noting heightened fear of ICE exceeding historical anxieties from Laos.
 
 ## Witness Accounts
 From Louansee Moua's Facebook post (Saly's sister-in-law):
