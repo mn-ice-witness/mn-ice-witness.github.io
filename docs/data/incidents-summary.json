@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768866866,
+  "mediaVersion": 1768871675,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-19-dhs-response-saly-detention.md",
@@ -2076,6 +2076,29 @@
         }
       ],
       "aspectRatio": 0.8833333333333333
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-07-pickup-truck-rams-protesters.md",
+      "title": "Federal Agents Ram White Pickup Truck Into Protesters",
+      "summary": "In the chaotic aftermath of the Renee Good shooting, federal agents drove a white pickup truck into a group of protesters as they turned into an alley off of 34th Street. Racket co-owner/editor Em Cassel witnessed and filmed the incident, posting video to Bluesky where it received significant engagement.",
+      "date": "2026-01-07",
+      "time": "afternoon",
+      "location": "Alley off 34th Street, near Portland Avenue",
+      "city": "Minneapolis",
+      "type": "observers",
+      "status": "resolved",
+      "victimCitizenship": "unknown",
+      "injuries": "unknown",
+      "trustworthiness": "medium",
+      "created": "2026-01-19T15:42:33",
+      "lastUpdated": "2026-01-19T15:42:33",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": [],
+      "aspectRatio": null
     },
     {
       "filePath": "incidents/2026-01/2026-01-06-emmanuel-sackie-brooklyn-park.md",
