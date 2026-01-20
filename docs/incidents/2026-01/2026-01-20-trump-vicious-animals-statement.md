@@ -12,7 +12,7 @@ created: 2026-01-20T12:00:00
 last_updated: 2026-01-20T12:00:00
 ---
 
-# Trump Claims ICE Removing "Murderers & Criminals" from Minnesota, Calls Protesters "Highly Paid Troublemakers"
+# Trump Claims ICE Operation is About Removing "Murderers & Criminals" from Minnesota, Calls Protesters "Highly Paid Troublemakers"
 
 ## Summary
 President Donald Trump posted on Truth Social claiming ICE is capturing "murderers & criminals" and that there are "thousands of vicious animals in MN alone." He praised ICE agents as "Patriots" and dismissed protesters as "highly paid troublemakers."
