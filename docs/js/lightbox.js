@@ -201,12 +201,12 @@ const Lightbox = {
                 const slug = App.getIncidentId(incident);
                 const type = Array.isArray(incident.type) ? incident.type[0] : incident.type;
                 const label = App.categoryLabels[type] || type.toUpperCase();
-                const summary = truncateSummary(incident.summary);
+                const displayText = truncateSummary(incident.latestUpdate || incident.summary);
                 html += `<li>
                     <a href="#${slug}" class="new-updated-link" data-slug="${slug}">
                         <span class="category-label">${label}:</span> ${incident.title}
                     </a>
-                    <p class="new-updated-summary">${summary}</p>
+                    <p class="new-updated-summary">${displayText}</p>
                 </li>`;
             }
             html += '</ul>';

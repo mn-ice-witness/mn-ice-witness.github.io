@@ -107,6 +107,14 @@ def extract_summary(body):
     return ''
 
 
+def extract_latest_update(body):
+    """Extract the most recent update text from ## Updates section."""
+    match = re.search(r'## Updates\n+- \*\*[^*]+\*\* - (.+?)(?:\n|$)', body)
+    if match:
+        return match.group(1).strip()
+    return None
+
+
 def parse_type(type_value):
     if ',' in type_value:
         return [t.strip() for t in type_value.split(',')]
@@ -139,6 +147,7 @@ def process_incident(file_path, docs_dir, media_dir):
         'filePath': relative_path,
         'title': extract_title(body),
         'summary': extract_summary(body),
+        'latestUpdate': extract_latest_update(body),
         'date': meta.get('date', 'Unknown'),
         'time': meta.get('time', 'unknown'),
         'location': meta.get('location', 'Unknown location'),
