@@ -261,6 +261,27 @@ Stories are excluded when they don't meet the project's core focus:
 - Reason: Policy/program story - documents systemic targeting of refugees but is not a specific civil rights incident. Individual refugee detentions under this program are documented as separate incidents (e.g., Nadya Moldovan refugee). This entry provides context for those incidents.
 - Date evaluated: 2026-01-19
 
+**January 23 General Strike / Economic Blackout (Jan 23)**
+- Sources: [Labor Notes](https://labornotes.org/2026/01/will-ice-ignite-mass-strike-minnesota), [Peoples Dispatch](https://peoplesdispatch.org/2026/01/13/now-is-the-time-minnesota-calls-for-general-strike-on-january-23-to-drive-ice-out/), [Payday Report](https://paydayreport.com/minneapolis-afl-cio-calls-for-general-strike-on-friday-as-movement-spreads-to-other-cities/), [BMTN](https://bringmethenews.com/minnesota-lifestyle/list-of-minnesota-businesses-closing-for-jan-23-strike)
+- Date: January 23, 2026
+- Details: Minneapolis AFL-CIO endorsed measure calling for general strike. Coalition of faith leaders, unions, and business owners called for economic blackout (no work, school, or shopping). Seven grocery co-ops announced closures. Multiple restaurants closed in solidarity.
+- Reason: Labor/community response story - documents collective action against ICE but not a specific civil rights incident or enforcement action. Valuable context for understanding community response.
+- Date evaluated: 2026-01-20
+
+**Restaurant/Business Closures Due to ICE Presence (Jan 2026)**
+- Sources: [CBS Minnesota](https://www.cbsnews.com/minnesota/news/restaurant-impacts-ice-enforcement-immigration-minneapolis-st-paul/), [BMTN](https://bringmethenews.com/minnesota-lifestyle/list-of-twin-cities-events-canceled-and-businesses-closed-in-response-to-ongoing-ice-presence)
+- Date: January 2026
+- Details: Multiple restaurants and businesses closed due to workforce fears and community impact. Includes Little Bird Delicatessen, La Loma Tamales, Machete, La Michoacana Monarca, and others.
+- Reason: Economic impact/collective closure story - documents community effects but no specific enforcement incident or civil rights violation. Individual workplace detentions are documented separately.
+- Date evaluated: 2026-01-20
+
+**Midtown Global Market Detention (Jan 14)**
+- Sources: [Star Tribune](https://www.startribune.com/allegations-of-racial-profiling-of-us-citizens-on-the-rise-as-ice-surge-expands-in-minnesota/601564653), [Axios](https://www.axios.com/local/twin-cities/2026/01/16/midtown-global-market-businesses-ice-immigration)
+- Date: January 14, 2026
+- Details: ICE agents detained a man from inside Midtown Global Market on Lake St. in Minneapolis. A market staff person noted "They just abducted another person."
+- Reason: Insufficient details - no victim name or identification, no corroborating sources with victim details. May revisit if victim comes forward or more coverage emerges.
+- Date evaluated: 2026-01-20
+
 ### October 2025
 
 **ICE Raids Two Hibbing Mexican Restaurants (El Charro, La Tequila Taco Shop)**
