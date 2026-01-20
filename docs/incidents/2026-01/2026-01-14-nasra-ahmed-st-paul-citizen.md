@@ -9,13 +9,13 @@ victim_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
 created: 2026-01-16T22:28:22
-last_updated: 2026-01-19T23:59:59
+last_updated: 2026-01-19T23:30:00
 ---
 
 # U.S. Citizen Born in Minnesota Detained by ICE for Two Days
 
 ## Updates
-- **2026-01-19T23:59:59** - Added victim's first-person account from Jan 18 interview: seizure during detention, hospital treatment in restraints, "Hannibal Lecter" chains quote; upgraded to HIGH trustworthiness
+- **Jan 19** - Added victim's first-person account from Jan 18 interview: seizure during detention, hospital treatment in restraints, "Hannibal Lecter" chains quote; upgraded to HIGH trustworthiness
 
 ## Summary
 Nasra Mohamed Ahmed, a 23-year-old U.S. citizen born in Hennepin County, was detained by ICE agents on January 14 in the parking lot of her St. Paul apartment complex while on her way to pick up seizure and anxiety medication. Despite telling agents she was born in Minnesota and has never been to Somalia, she was held at Sherburne County Jail without bail for more than two days before being released to her family on Friday night (January 17) without charges. During detention, she suffered a stress-induced seizure and was taken to the hospital in full restraints. She later described being chained "like Hannibal Lecter" with a padlock. She has no criminal history.

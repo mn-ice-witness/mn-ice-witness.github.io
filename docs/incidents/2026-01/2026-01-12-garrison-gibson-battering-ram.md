@@ -15,9 +15,9 @@ last_updated: 2026-01-18T14:57:37
 # Liberian Man Arrested With Battering Ram, No Judicial Warrant
 
 ## Updates
-- **2026-01-18T14:57:37** - Added Jan 18 press conference: trophy photos allegation, overcrowded cell, Stephen Miller re-arrest claim
-- **2026-01-18T01:02:13** - Gibson re-arrested at check-in, then released again after ICE admits error; now on ankle monitor
-- **2026-01-18T00:06:41** - Federal judge rules arrest violated Fourth Amendment, orders release
+- **Jan 18** - Added Jan 18 press conference: trophy photos allegation, overcrowded cell, Stephen Miller re-arrest claim
+- **Jan 18** - Gibson re-arrested at check-in, then released again after ICE admits error; now on ankle monitor
+- **Jan 18** - Federal judge rules arrest violated Fourth Amendment, orders release
 
 ## Summary
 Garrison Gibson, a 38-year-old Liberian citizen who has lived in the U.S. for approximately 20 years, was arrested by ICE agents who used a battering ram to enter his north Minneapolis home. His family demanded to see a judicial warrant, but agents presented only an administrative warrant signed by an immigration officer. A 9-year-old child was inside the home during the raid. A federal judge ruled the arrest violated Gibson's Fourth Amendment rights and ordered his immediate release, finding he has "no criminal record" — contradicting DHS claims. Gibson was released but taken back into ICE custody the next day. At a Jan 18 press conference, Gibson alleged agents took "trophy photos" of him and held him in an overcrowded cell. He now wears an ankle monitor and says he is afraid to leave his home.

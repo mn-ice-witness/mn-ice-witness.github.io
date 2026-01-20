@@ -50,6 +50,7 @@ last_updated: YYYY-MM-DDTHH:MM:SS  # Required. When last MAJOR update occurred (
 | `2026-01-19T14:23:47` | ✅ Actual time when making the change |
 | `2026-01-19T12:00:00` | ❌ Rounded time (clearly made up) |
 | `2026-01-19T14:30:00` | ❌ Rounded time (clearly made up) |
+| `2026-01-19T23:59:59` | ❌ Artificial end-of-day timestamp |
 
 **Why?** Incorrect timestamps break the "Sort by Updated" feature and mislead users.
 
@@ -136,8 +137,8 @@ This allows us to make editorial judgments about incidents worth documenting whi
 ```markdown
 ## Updates
 (ONLY for incidents with major story updates - omit for most incidents)
-- **YYYY-MM-DDTHH:MM:SS** - Brief description of major update
-- **YYYY-MM-DDTHH:MM:SS** - Earlier major update
+- **Jan 19** - Brief description of major update
+- **Jan 18** - Earlier major update
 
 ## Summary
 Brief 2-3 sentence summary. First sentence appears in card preview.

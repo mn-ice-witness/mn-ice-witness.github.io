@@ -352,13 +352,15 @@ When making a MAJOR update to an incident, add an `## Updates` section right aft
 # Incident Title
 
 ## Updates
-- **2026-01-18T14:57:37** - Added press conference: trophy photos allegation, overcrowded cell
-- **2026-01-18T01:02:13** - Gibson re-arrested, then released again; now on ankle monitor
-- **2026-01-18T00:06:41** - Federal judge rules arrest violated Fourth Amendment, orders release
+- **Jan 18** - Added press conference: trophy photos allegation, overcrowded cell
+- **Jan 18** - Gibson re-arrested, then released again; now on ankle monitor
+- **Jan 18** - Federal judge rules arrest violated Fourth Amendment, orders release
 
 ## Summary
 ...
 ```
+
+**Format:** Use simple dates like "Jan 18" — NOT full timestamps. The Updates section is user-facing and should be clean and readable.
 
 **Most incidents will NOT have an Updates section.** Only add it when there are major story developments worth tracking.
 
