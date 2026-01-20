@@ -114,6 +114,7 @@ const App = {
             if (this.sectionHashes.includes(hash)) {
                 this.sortByUpdated = false;
                 this.saveSortPreference();
+                this.isScrollingToSection = true;
             }
         } else if (!hash) {
             const stored = localStorage.getItem('preferredView');
@@ -138,9 +139,10 @@ const App = {
         const isDeepLink = hash && hash !== 'list' && hash !== 'media' && !isSectionHash;
         this.switchView(this.currentView, isDeepLink || isSectionHash);
         if (isSectionHash) {
-            this.isScrollingToSection = true;
+            const checkbox = document.getElementById('sort-updated-checkbox');
+            if (checkbox) checkbox.checked = false;
             requestAnimationFrame(() => this.scrollToSection(hash));
-            setTimeout(() => { this.isScrollingToSection = false; }, 1000);
+            setTimeout(() => { this.isScrollingToSection = false; }, 1500);
         }
     },
 
