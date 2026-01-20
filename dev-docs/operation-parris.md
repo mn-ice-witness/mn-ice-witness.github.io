@@ -25,9 +25,18 @@ Add a "Context: Operation PARRIS" section to any incident where:
 2. **Pending immigration application** (I-130, green card, etc.)
 3. **Detained despite legal presence** (had valid documents, followed proper process)
 
-## Standard Section Template
+## How to Add PARRIS Context to an Incident
 
-Add this section after the main incident content (before Editorial Assessment):
+**Two things to add:**
+
+### 1. Add note at end of Summary section
+
+At the end of the Summary text, add:
+```
+(Note: This story seems to follow a pattern of Operation PARRIS (Post-Admission Refugee Reverification and Integrity Strengthening) -- see more details on this below.)
+```
+
+### 2. Add Context section before Editorial Assessment
 
 ```markdown
 ## Context: Operation PARRIS
@@ -43,6 +52,7 @@ Add this section after the main incident content (before Editorial Assessment):
 
 ## Related Incidents
 
-Incidents on this site that fit this pattern:
+Examples of incidents on this site that fit this pattern:
 - [Silva Sosa parents detained 5 days after I-130 approval](../docs/incidents/2026-01/2026-01-12-silva-sosa-inver-grove-heights.md)
+- [Willmar high school student with legal refugee status arrested](../docs/incidents/2026-01/2026-01-13-willmar-student-arrested.md)
 - [Moldovan refugee Nadya detained while driving to church](../docs/incidents/2026-01/2026-01-17-nadya-moldovan-refugee.md)

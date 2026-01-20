@@ -440,9 +440,13 @@ Add when ANY of these apply:
 - Victim had valid immigration documents and was in a legal process
 - Victim was detained despite having legal status
 
-### Template
+### How to Add
 
-Add this section after the main incident content (before Editorial Assessment):
+**Two things to add:**
+
+1. **Add note at end of Summary section:** `(Note: This story seems to follow a pattern of Operation PARRIS (Post-Admission Refugee Reverification and Integrity Strengthening) -- see more details on this below.)`
+
+2. **Add Context section before Editorial Assessment:**
 
 ```markdown
 ## Context: Operation PARRIS

@@ -15,7 +15,7 @@ last_updated: 2026-01-19T21:41:00
 # Silva Sosa Parents Detained Days After I-130 Approval
 
 ## Summary
-A couple who have lived in Minnesota since 1999 were detained by ICE during a traffic stop in Inver Grove Heights while on their way to work. Five days before the detention, they had received approval on their I-130 petition after working with an immigration lawyer for three years. Their three daughters - Kelsy, Cecilia, and Kimberly Silva Sosa - are now fighting to get their parents released from an El Paso, Texas ICE detention facility. The father is diabetic and the family is uncertain if he is receiving his medication.
+A couple who have lived in Minnesota since 1999 were detained by ICE during a traffic stop in Inver Grove Heights while on their way to work. Five days before the detention, they had received approval on their I-130 petition after working with an immigration lawyer for three years. Their three daughters - Kelsy, Cecilia, and Kimberly Silva Sosa - are now fighting to get their parents released from an El Paso, Texas ICE detention facility. The father is diabetic and the family is uncertain if he is receiving his medication. (Note: This story seems to follow a pattern of Operation PARRIS (Post-Admission Refugee Reverification and Integrity Strengthening) -- see more details on this below.)
 
 ## Sources
 1. CBS Minnesota (Jan 19, 2026): [Minnesota sisters "burnt out" 1 week after parents detained, sent to Texas ICE facility](https://www.cbsnews.com/minnesota/news/minnesota-parents-arrested-by-ice-inver-grove-heights-held-in-el-paso/)
