@@ -26,6 +26,7 @@ Nimco Omar, a U.S. citizen and Somali American, was surrounded by four masked fe
 6. Common Dreams (Jan 12, 2026): ['Where Were You Born?': ICE Demanding Citizens Show Their Papers in Minneapolis](https://www.commondreams.org/news/ice-citizen-checks-minneapolis)
 7. The Real News (Jan 12, 2026): ['Where were you born?' ICE conducting show-me-your-papers stops in Minnesota neighborhoods](https://therealnews.com/ice-show-me-your-papers-stops-in-minnesota-neighborhoods)
 8. Yahoo News (Jan 12, 2026): [Woman Stands Firm Against Border Patrol Agent's Demand for ID in Minneapolis](https://www.yahoo.com/news/videos/woman-stands-firm-against-border-002529662.html)
+9. YouTube Video (Jan 12, 2026): [Video coverage](https://www.youtube.com/watch?v=ZEQPTTkV7ms&t=102)
 
 ## Victim(s)
 - **Name:** Nimco Omar
