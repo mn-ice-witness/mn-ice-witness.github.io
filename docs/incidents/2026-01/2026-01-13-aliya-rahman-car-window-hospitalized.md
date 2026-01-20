@@ -22,7 +22,7 @@ Aliya Rahman, a 43-year-old U.S. citizen and software engineer, was dragged from
 
 ## Sources
 1. TikTok - @hubbandtheheavyhearts (Jan 2026): [Disabled woman pulled from car](https://www.tiktok.com/@hubbandtheheavyhearts/video/7595071988637519134) - **VIDEO**
-2. CNN (Jan 20, 2026): [Rahman's first on-camera interview after the assault](https://www.cnn.com/2026/01/20/us/video/woman-dragged-from-car-by-ice-ldn-digvid-vrtc) - **POST-INCIDENT INTERVIEW**
+2. CNN (Jan 20, 2026): [Rahman's first on-camera interview after the assault](https://www.cnn.com/2026/01/20/us/video/woman-dragged-from-car-by-ice-ldn-digvid-vrtc) - **INTERVIEW**
 3. Reuters Photo (Jan 13, 2026): [Reuters photo by Tim Evans](https://archive.ph/helw8/image)
 4. Sahan Journal Video (Jan 13, 2026): [Sahan Journal footage](https://sahanjournal.com/public-safety/minneapolis-ice-confront-observers-door-knocking-powderhorn/)
 5. Raw Story Video (Jan 13, 2026): [Raw Story coverage with video](https://www.rawstory.com/ice-disabled-woman/)
