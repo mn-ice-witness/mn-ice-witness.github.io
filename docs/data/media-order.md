@@ -6,6 +6,7 @@
 
 
 
+
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -19,6 +20,7 @@ oglala-sioux-still-detained
 mankato-women-sprayed
 noem-pepper-spray-denial-backtrack
 agriculture-press-conference
+silva-sosa-inver-grove-heights
 siguenza-okeefe-detained
 doctor-blocked-renee-good
 ramon-menera-accent-detained

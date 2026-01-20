@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768879220,
+  "mediaVersion": 1768880467,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-19-dhs-response-saly-detention.md",
@@ -1068,6 +1068,38 @@
       "localMediaPath": null,
       "localMediaFiles": [],
       "aspectRatio": null
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-12-silva-sosa-inver-grove-heights.md",
+      "title": "Silva Sosa Parents Detained Days After I-130 Approval",
+      "summary": "A couple who have lived in Minnesota since 1999 were detained by ICE during a traffic stop in Inver Grove Heights while on their way to work. Five days before the detention, they had received approval on their I-130 petition after working with an immigration lawyer for three years. Their three daughters - Kelsy, Cecilia, and Kimberly Silva Sosa - are now fighting to get their parents released from an El Paso, Texas ICE detention facility. The father is diabetic and the family is uncertain if he is receiving his medication.",
+      "date": "2026-01-12",
+      "time": "\"06:00\"",
+      "location": "Traffic stop near residence",
+      "city": "Inver Grove Heights",
+      "type": "immigrants",
+      "status": "ongoing",
+      "victimCitizenship": "undocumented",
+      "injuries": "none",
+      "trustworthiness": "high",
+      "created": "2026-01-19T18:00:00",
+      "lastUpdated": "2026-01-19T21:41:00",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-12-silva-sosa-inver-grove-heights.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-12-silva-sosa-inver-grove-heights.mp4"
+        },
+        {
+          "type": "image",
+          "path": "media/2026-01-12-silva-sosa-inver-grove-heights.jpg"
+        }
+      ],
+      "aspectRatio": 1.2194444444444446
     },
     {
       "filePath": "incidents/2026-01/2026-01-12-st-cloud-star-city-mall.md",
