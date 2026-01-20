@@ -1,18 +1,20 @@
 # Operation PARRIS
 
-**Operation PARRIS** (Post-Admission Refugee Reverification and Integrity Strengthening) is a documented ICE operation targeting refugees who entered the United States legally and are awaiting green cards.
+**Operation PARRIS** (Post-Admission Refugee Reverification and Integrity Strengthening) is an official DHS/USCIS operation targeting refugees who entered the United States legally and are awaiting green cards.
 
 ## Key Facts
 
-According to reporting, approximately **5,600 green card applicants in Minnesota** are being targeted through this operation. These are individuals who followed every rule, submitted their applications, and are legally present in the country.
+According to DHS, approximately **5,600 refugees in Minnesota** who have not yet received lawful permanent resident status (Green Cards) are being targeted through this operation. These are individuals who followed every rule, submitted their applications, and are legally present in the country.
+
+The operation was announced January 9, 2026, though it began in mid-December 2025. USCIS conducts "thorough background checks, reinterviews, and merit reviews" with fraud cases referred to ICE.
 
 Global Refuge has documented that lawfully admitted refugees are being detained and transported to Texas within 24 hours with "no due process, no access to an attorney."
 
 ## Sources
 
-1. [5,600 Green Card applicants in Minnesota targeted through Operation PARRIS](https://www.twincities.com/2026/01/18/5600-green-card-applicants-in-minnesota-targeted-through-operation-parris/) - Twin Cities Pioneer Press (Jan 18, 2026)
-2. [Global Refuge statement on refugee arrests in Minnesota](https://www.globalrefuge.org/news/refugee-arrests-minnesota/) - Global Refuge
-3. [Trump terminates refugee resettlement, canceling appointments for 10,000 refugees](https://www.npr.org/2026/01/21/nx-s1-5269534/trump-refugee-resettlement-terminated-appointments-canceled) - NPR
+1. [DHS Launches Landmark USCIS Fraud Investigation in Minnesota](https://www.uscis.gov/newsroom/news-releases/dhs-launches-landmark-uscis-fraud-investigation-in-minnesota) - USCIS Official (Jan 9, 2026)
+2. [Minnesota fraud: DHS launching 'Operation PARRIS' to target refugees](https://www.fox9.com/news/minnesota-fraud-dhs-launching-operation-parris-target-refugees-jan-9) - Fox 9 (Jan 9, 2026)
+3. [Global Refuge statement on refugee arrests in Minnesota](https://www.globalrefuge.org/news/refugee-arrests-minnesota/) - Global Refuge
 
 ## Criteria for Adding Operation PARRIS Context
 
@@ -29,18 +31,14 @@ Add this section after the main incident content (before Editorial Assessment):
 ```markdown
 ## Context: Operation PARRIS
 
-[Victim name]'s detention fits a documented pattern of ICE targeting refugees with pending green card applications under **Operation PARRIS** (Post-Admission Refugee Reverification and Integrity Strengthening). According to the Twin Cities Pioneer Press, approximately 5,600 green card applicants in Minnesota are being targeted through this operation.
+[Victim name]'s detention fits a documented pattern of ICE targeting refugees with pending green card applications under **Operation PARRIS** (Post-Admission Refugee Reverification and Integrity Strengthening). According to [Fox 9](https://www.fox9.com/news/minnesota-fraud-dhs-launching-operation-parris-target-refugees-jan-9), approximately 5,600 green card applicants in Minnesota are being targeted through this [official DHS operation](https://www.uscis.gov/newsroom/news-releases/dhs-launches-landmark-uscis-fraud-investigation-in-minnesota).
 
-Global Refuge has documented that lawfully present refugees are being detained and transported to Texas within 24 hours with "no due process, no access to an attorney."
-
-(Note: This story seems to follow a pattern of Operation PARRIS (Post-Admission Refugee Reverification and Integrity Strengthening) -- see [more details on this below](#operation-parris).)
+[Global Refuge](https://www.globalrefuge.org/news/refugee-arrests-minnesota/) has documented that lawfully present refugees are being detained and transported to Texas within 24 hours with "no due process, no access to an attorney."
 ```
 
 ## Verification Status
 
-**UNVERIFIED** - The existence of "Operation PARRIS" as a named operation comes from a single GoFundMe campaign. The Twin Cities Pioneer Press article references the 5,600 number but does not independently confirm the operation name. Until mainstream media confirms the operation name, treat this as unverified.
-
-However, the **pattern** of targeting refugees with pending applications is well-documented by multiple sources including Global Refuge and is verifiable.
+**VERIFIED** - Operation PARRIS is an official DHS/USCIS operation announced via [official USCIS press release](https://www.uscis.gov/newsroom/news-releases/dhs-launches-landmark-uscis-fraud-investigation-in-minnesota) on January 9, 2026. The 5,600 figure comes from official government sources.
 
 ## Related Incidents
 
