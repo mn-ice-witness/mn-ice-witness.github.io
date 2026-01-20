@@ -8,8 +8,8 @@ status: resolved
 victim_citizenship: unknown
 injuries: none
 trustworthiness: high
-created: 2026-01-19T15:00:00
-last_updated: 2026-01-19T15:00:00
+created: 2026-01-19T09:57:48
+last_updated: 2026-01-19T09:57:48
 ---
 
 # Congressional Representatives Denied Access to Whipple ICE Facility

@@ -8,8 +8,8 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: high
-created: 2026-01-19T17:00:00
-last_updated: 2026-01-19T17:00:00
+created: 2026-01-19T14:18:36
+last_updated: 2026-01-19T15:27:01
 ---
 
 # DHS Statement: Defends Accent-Based Detention

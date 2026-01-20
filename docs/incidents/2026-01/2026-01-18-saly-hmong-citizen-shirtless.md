@@ -9,7 +9,7 @@ victim_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-19T10:14:30
-last_updated: 2026-01-19T22:30:00
+last_updated: 2026-01-19T17:50:11
 ---
 
 # Hmong U.S. Citizen Detained Shirtless in Freezing Weather, Then Released

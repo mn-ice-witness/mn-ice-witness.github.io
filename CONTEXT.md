@@ -110,17 +110,19 @@ last_updated: YYYY-MM-DDTHH:MM:SS  # REQUIRED: Exact time of last MAJOR update
 
 ### ⚠️ TIMESTAMP RULES (CRITICAL - Read Carefully!)
 
-**USE THE ACTUAL CURRENT TIME** — not a rounded or made-up time.
+**LLMs CANNOT BE TRUSTED TO KNOW THE CURRENT TIME.** You must run a command to get it.
+
+**To get the current timestamp, run:**
+```bash
+./bin/timestamp.sh
+```
 
 | When | What to do |
 |------|------------|
-| **Adding a new incident** | Set BOTH `created` AND `last_updated` to the exact current time |
-| **Making a significant story update** | Update `last_updated` to the exact current time |
+| **Adding a new incident** | Run `./bin/timestamp.sh`, use output for BOTH `created` AND `last_updated` |
+| **Making a significant story update** | Run `./bin/timestamp.sh`, use output for `last_updated` |
 
-**WRONG:** `2026-01-19T12:00:00`, `2026-01-19T14:30:00` (rounded times)
-**RIGHT:** `2026-01-19T14:23:47` (actual time when you're making the change)
-
-**Why this matters:** The "Sort by Updated" feature shows users the newest content. Incorrect timestamps break the sort order and mislead users about when content was added.
+**NEVER guess or make up a timestamp.** LLMs consistently fabricate plausible-looking times that are wrong.
 
 **Format:** Full ISO 8601 with seconds: `YYYY-MM-DDTHH:MM:SS`
 

@@ -8,8 +8,8 @@ status: ongoing
 victim_citizenship: legal-resident
 injuries: none
 trustworthiness: high
-created: 2026-01-19T10:29:29
-last_updated: 2026-01-19T10:29:29
+created: 2026-01-19T10:42:44
+last_updated: 2026-01-19T10:42:44
 ---
 
 # State Lawmakers and Farmers Union Hold Press Conference on ICE Impact to Agriculture

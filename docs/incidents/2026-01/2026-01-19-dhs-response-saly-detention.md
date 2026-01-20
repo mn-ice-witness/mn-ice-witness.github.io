@@ -8,8 +8,8 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: none
 trustworthiness: high
-created: 2026-01-19T21:00:00
-last_updated: 2026-01-19T22:30:00
+created: 2026-01-19T15:00:40
+last_updated: 2026-01-19T17:54:25
 ---
 
 # DHS Response: Defends Detention of Hmong Citizen, Claims Sex Offender Targets at Large — Family Disputes as "False"

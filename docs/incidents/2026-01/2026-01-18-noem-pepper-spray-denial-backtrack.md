@@ -8,8 +8,8 @@ status: resolved
 victim_citizenship: unknown
 injuries: none
 trustworthiness: high
-created: 2026-01-18T14:30:00
-last_updated: 2026-01-18T14:30:00
+created: 2026-01-18T22:01:07
+last_updated: 2026-01-18T23:55:30
 ---
 
 # DHS Secretary Noem Defends Raids as Targeting 'Criminals and Rapists,' Denies Pepper Spray Use on CBS

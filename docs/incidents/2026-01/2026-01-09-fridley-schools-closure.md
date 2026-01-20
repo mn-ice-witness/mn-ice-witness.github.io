@@ -8,8 +8,8 @@ status: resolved
 victim_citizenship: unknown
 injuries: none
 trustworthiness: high
-created: 2026-01-19T11:30:12
-last_updated: 2026-01-19T11:30:12
+created: 2026-01-19T11:33:24
+last_updated: 2026-01-19T11:33:24
 ---
 
 # Fridley Public Schools Closes Twice Due to ICE Activity

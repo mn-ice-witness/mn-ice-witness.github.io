@@ -8,8 +8,8 @@ status: resolved
 victim_citizenship: unknown
 injuries: unknown
 trustworthiness: medium
-created: 2026-01-19T15:42:33
-last_updated: 2026-01-19T15:42:33
+created: 2026-01-19T19:14:34
+last_updated: 2026-01-19T19:14:34
 ---
 
 # Federal Agents Ram White Pickup Truck Into Protesters

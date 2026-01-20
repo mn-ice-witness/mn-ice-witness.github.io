@@ -8,8 +8,8 @@ status: ongoing
 victim_citizenship: legal-resident
 injuries: none
 trustworthiness: high
-created: 2026-01-18T22:23:27
-last_updated: 2026-01-18T22:23:27
+created: 2026-01-18T22:24:48
+last_updated: 2026-01-18T22:24:48
 ---
 
 # St. Paul Snowplow Driver with Legal Work Status Detained by ICE
