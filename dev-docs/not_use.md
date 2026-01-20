@@ -255,7 +255,7 @@ Stories are excluded when they don't meet the project's core focus:
 - Date evaluated: 2026-01-19
 
 **Operation PARRIS Targeting 5,600 Green Card Applicants**
-- Sources: [Twin Cities Pioneer Press](https://www.twincities.com/2026/01/18/5600-green-card-applicants-in-minnesota-targeted-through-operation-parris/), [Global Refuge](https://www.globalrefuge.org/news/operation-in-minnesota-targeting-lawfully-admitted-refugees/), [MPR News](https://www.mprnews.org/story/2026/01/13/operation-parris-dhs-terrifying-refugee-families)
+- Sources: [Fox 9](https://www.fox9.com/news/minnesota-fraud-dhs-launching-operation-parris-target-refugees-jan-9), [USCIS Official](https://www.uscis.gov/newsroom/news-releases/dhs-launches-landmark-uscis-fraud-investigation-in-minnesota), [Global Refuge](https://www.globalrefuge.org/news/operation-in-minnesota-targeting-lawfully-admitted-refugees/), [MPR News](https://www.mprnews.org/story/2026/01/13/operation-parris-dhs-terrifying-refugee-families)
 - Date: January 2026
 - Details: DHS Operation PARRIS (Post-Admission Refugee Reverification and Integrity Strengthening) is re-examining refugee status of ~5,600 Minnesotans who entered legally but haven't received green cards. Includes "vetting enhancements," fresh background checks, re-interviews.
 - Reason: Policy/program story - documents systemic targeting of refugees but is not a specific civil rights incident. Individual refugee detentions under this program are documented as separate incidents (e.g., Nadya Moldovan refugee). This entry provides context for those incidents.

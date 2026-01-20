@@ -22,7 +22,7 @@ Nadya, a Moldovan refugee with legal status awaiting her green card, was detaine
 ## Sources
 1. GoFundMe Campaign: [Help Nadya's Family](https://gofund.me/98a7c81da) - Created by sister Victoria
 2. Facebook Post: [Original post](https://www.facebook.com/story.php?story_fbid=10162794987643843&id=507338842)
-3. Twin Cities Pioneer Press (Jan 18, 2026): [5,600 Green Card applicants in Minnesota targeted through Operation PARRIS](https://www.twincities.com/2026/01/18/5600-green-card-applicants-in-minnesota-targeted-through-operation-parris/) - Context on refugee targeting
+3. Fox 9 (Jan 9, 2026): [DHS launching 'Operation PARRIS' to target Minnesota refugees](https://www.fox9.com/news/minnesota-fraud-dhs-launching-operation-parris-target-refugees-jan-9) - Context on refugee targeting
 4. Global Refuge: [Global Refuge statement on refugee arrests in Minnesota](https://www.globalrefuge.org/news/refugee-arrests-minnesota/) - Context on refugee targeting
 
 ## Victim(s)

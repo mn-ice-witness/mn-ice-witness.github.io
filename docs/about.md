@@ -126,7 +126,7 @@ In-depth reporting and analysis of ICE enforcement patterns and civil rights con
 
 A documented pattern has emerged of ICE targeting refugees who entered the United States legally and are awaiting green cards under **Operation PARRIS** (Post-Admission Refugee Reverification and Integrity Strengthening).
 
-According to the [Twin Cities Pioneer Press](https://www.twincities.com/2026/01/18/5600-green-card-applicants-in-minnesota-targeted-through-operation-parris/), approximately **5,600 green card applicants in Minnesota** are being targeted through this operation. These are individuals who followed every rule, submitted their applications, and are legally present in the country.
+According to [Fox 9](https://www.fox9.com/news/minnesota-fraud-dhs-launching-operation-parris-target-refugees-jan-9) and an [official USCIS press release](https://www.uscis.gov/newsroom/news-releases/dhs-launches-landmark-uscis-fraud-investigation-in-minnesota), approximately **5,600 green card applicants in Minnesota** are being targeted through this operation. These are individuals who followed every rule, submitted their applications, and are legally present in the country.
 
 [Global Refuge reports](https://www.globalrefuge.org/news/refugee-arrests-minnesota/) that lawfully admitted refugees are being detained and transported to Texas within 24 hours with "no due process, no access to an attorney."
 
