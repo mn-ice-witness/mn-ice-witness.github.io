@@ -48,26 +48,33 @@ Both `app.js` and `lightbox.js` reference `App.sectionHashes` to ensure consiste
 
 ### Key Functions in app.js
 
-**`loadViewFromUrl()`** - Called on init, sets `currentView` based on hash:
-- `#list` or section hash → list view
-- Empty hash → check localStorage for preference
-
-**`applyInitialView()`** - Applies the view and scrolls to section if needed:
-- Calls `switchView()` with appropriate flags
-- If section hash, calls `scrollToSection()` after a frame
-
-**`openFromHash()`** - Handles hashchange events:
-- Empty/media → switch to media view
+**`handleInitialHash()`** - Called once on init after incidents load. Handles ALL hash types for initial page load:
+- Empty/media → use localStorage preference or default to media view
 - `#list` → switch to list view
-- Section hash → switch to list view + scroll to section
+- Section hash → disable sortByUpdated, switch to list, scroll to section
 - `#about` → open about lightbox
-- Other → try to find and open incident
+- `#new-updated-*` → open daily summary lightbox
+- Incident slug → open incident lightbox
+
+**`openFromHash()`** - Handles hashchange events (navigation after initial load):
+- Same logic as `handleInitialHash()` but skips if lightbox is already open
+- Used for back/forward navigation and in-page hash changes
+
+**`disableSortByUpdated()`** - Helper to disable "New/Updated" toggle:
+- Sets `sortByUpdated = false`
+- Saves preference to localStorage
+- Updates checkbox UI
+
+**`scrollToSectionWithFlag(sectionId)`** - Helper to scroll with scroll listener protection:
+- Sets `isScrollingToSection = true` to prevent scroll listener from changing hash
+- Scrolls to section
+- Resets flag after 1500ms
 
 **`initSectionNav()`** - Attaches click handlers to nav pills:
 - Prevents default anchor behavior
 - Switches to list view if needed
 - Updates URL with `history.pushState()`
-- Scrolls to section
+- Calls `scrollToSectionWithFlag()`
 
 **`scrollToSection(sectionId)`** - Calculates scroll position:
 - Gets sticky nav height (34px)
@@ -111,9 +118,10 @@ The site header is NOT sticky - it scrolls away.
 5. `scrollToSection('schools')` scrolls after next frame
 
 ### Page loads with "#schools"
-1. `loadViewFromUrl()` sees section hash, sets `currentView = 'list'`
-2. `applyInitialView()` calls `switchView('list', true)`
-3. `applyInitialView()` calls `scrollToSection('schools')`
+1. `handleInitialHash()` sees section hash
+2. Calls `disableSortByUpdated()` to turn off "New/Updated" toggle
+3. Calls `switchView('list', true)` to show list view
+4. Calls `scrollToSectionWithFlag('schools')` to scroll with protection
 
 ### User closes lightbox from "#schools" context
 1. `close()` calls `history.back()`

@@ -14,16 +14,15 @@ const App = {
         'response': 'RESPONSE'
     },
 
-    // Simple stemmer - strips common suffixes for search matching
     stem(word) {
         if (word.length <= 4) return word;
         return word
-            .replace(/ies$/i, 'y')      // carries -> carry
-            .replace(/ied$/i, 'y')      // carried -> carry
-            .replace(/es$/i, '')        // watches -> watch
-            .replace(/ed$/i, '')        // arrested -> arrest
-            .replace(/ing$/i, '')       // detaining -> detain
-            .replace(/s$/i, '');        // officers -> officer
+            .replace(/ies$/i, 'y')
+            .replace(/ied$/i, 'y')
+            .replace(/es$/i, '')
+            .replace(/ed$/i, '')
+            .replace(/ing$/i, '')
+            .replace(/s$/i, '');
     },
 
     getFilteredIncidents() {
@@ -63,7 +62,6 @@ const App = {
     async init() {
         this.loadViewedState();
         this.loadSortPreference();
-        this.loadViewFromUrl();
         this.initSplash();
         this.initViewToggle();
         this.initSortToggle();
@@ -72,8 +70,7 @@ const App = {
         Lightbox.init();
         await this.loadIncidents();
         this.render();
-        this.applyInitialView();
-        this.openFromHash();
+        this.handleInitialHash();
         window.addEventListener('hashchange', () => this.openFromHash());
     },
 
@@ -94,7 +91,6 @@ const App = {
         checkbox.addEventListener('change', () => {
             this.sortByUpdated = checkbox.checked;
             this.saveSortPreference();
-            // Update toggle position: only offset from top when nav is visible
             const toggle = document.getElementById('view-toggle');
             if (toggle) {
                 toggle.classList.toggle('list-active', this.currentView === 'list' && !this.sortByUpdated);
@@ -107,21 +103,120 @@ const App = {
         });
     },
 
-    loadViewFromUrl() {
+    handleInitialHash() {
         const hash = window.location.hash.slice(1);
-        if (hash === 'list' || this.sectionHashes.includes(hash)) {
-            this.currentView = 'list';
-            if (this.sectionHashes.includes(hash)) {
-                this.sortByUpdated = false;
-                this.saveSortPreference();
-                this.isScrollingToSection = true;
-            }
-        } else if (!hash) {
+
+        if (!hash || hash === 'media') {
             const stored = localStorage.getItem('preferredView');
             if (stored === 'list') {
-                this.currentView = 'list';
+                this.switchView('list');
+            } else {
+                this.switchView('media');
             }
+            return;
         }
+
+        if (hash === 'list') {
+            this.switchView('list');
+            return;
+        }
+
+        if (this.sectionHashes.includes(hash)) {
+            this.disableSortByUpdated();
+            this.switchView('list', true);
+            this.scrollToSectionWithFlag(hash);
+            return;
+        }
+
+        if (hash === 'about') {
+            this.switchView('media', true);
+            Lightbox.openAbout();
+            return;
+        }
+
+        if (hash.startsWith('new-updated-')) {
+            this.switchView('media', true);
+            const dateStr = hash.replace('new-updated-', '');
+            Lightbox.openNewUpdated(dateStr);
+            return;
+        }
+
+        const incident = this.incidents.find(i => {
+            const slug = i.filePath.split('/').pop().replace('.md', '');
+            return slug === hash;
+        });
+
+        if (incident) {
+            this.switchView('media', true);
+            Lightbox.open(incident);
+        } else {
+            this.switchView('media', true);
+            Lightbox.open404(hash);
+        }
+    },
+
+    openFromHash() {
+        if (Lightbox.isOpen()) {
+            return;
+        }
+
+        const hash = window.location.hash.slice(1);
+
+        if (!hash || hash === 'media') {
+            if (this.currentView !== 'media') this.switchView('media');
+            return;
+        }
+
+        if (hash === 'list') {
+            if (this.currentView !== 'list') this.switchView('list');
+            return;
+        }
+
+        if (this.sectionHashes.includes(hash)) {
+            this.disableSortByUpdated();
+            if (this.currentView !== 'list') {
+                this.switchView('list', true);
+            }
+            this.scrollToSectionWithFlag(hash);
+            return;
+        }
+
+        if (hash === 'about') {
+            Lightbox.openAbout();
+            return;
+        }
+
+        if (hash.startsWith('new-updated-')) {
+            const dateStr = hash.replace('new-updated-', '');
+            Lightbox.openNewUpdated(dateStr);
+            return;
+        }
+
+        const incident = this.incidents.find(i => {
+            const slug = i.filePath.split('/').pop().replace('.md', '');
+            return slug === hash;
+        });
+
+        if (incident) {
+            Lightbox.open(incident);
+        } else {
+            Lightbox.open404(hash);
+        }
+    },
+
+    disableSortByUpdated() {
+        this.sortByUpdated = false;
+        this.saveSortPreference();
+        const checkbox = document.getElementById('sort-updated-checkbox');
+        if (checkbox) checkbox.checked = false;
+    },
+
+    scrollToSectionWithFlag(sectionId) {
+        this.isScrollingToSection = true;
+        requestAnimationFrame(() => {
+            this.scrollToSection(sectionId);
+            setTimeout(() => { this.isScrollingToSection = false; }, 1500);
+        });
     },
 
     updateUrlView(view) {
@@ -130,19 +225,6 @@ const App = {
             window.history.replaceState({}, '', '#list');
         } else {
             window.history.replaceState({}, '', window.location.pathname);
-        }
-    },
-
-    applyInitialView() {
-        const hash = window.location.hash.slice(1);
-        const isSectionHash = this.sectionHashes.includes(hash);
-        const isDeepLink = hash && hash !== 'list' && hash !== 'media' && !isSectionHash;
-        this.switchView(this.currentView, isDeepLink || isSectionHash);
-        if (isSectionHash) {
-            const checkbox = document.getElementById('sort-updated-checkbox');
-            if (checkbox) checkbox.checked = false;
-            requestAnimationFrame(() => this.scrollToSection(hash));
-            setTimeout(() => { this.isScrollingToSection = false; }, 1500);
         }
     },
 
@@ -234,9 +316,7 @@ const App = {
                 if (window.location.hash !== '#' + hash) {
                     history.pushState(null, '', '#' + hash);
                 }
-                this.isScrollingToSection = true;
-                requestAnimationFrame(() => this.scrollToSection(hash));
-                setTimeout(() => { this.isScrollingToSection = false; }, 1000);
+                this.scrollToSectionWithFlag(hash);
             });
         });
 
@@ -264,18 +344,16 @@ const App = {
             btn.classList.toggle('active', btn.dataset.view === view);
         });
 
-        // Only add list-active (which offsets from top) when nav is visible
         toggle.classList.toggle('list-active', view === 'list' && !this.sortByUpdated);
 
         if (sectionNav) {
-            // Hide nav in media view, or in list view when sortByUpdated is on
             sectionNav.style.display = (view === 'media' || this.sortByUpdated) ? 'none' : '';
         }
 
         if (view === 'list') {
             listView.style.display = '';
             mediaGallery.style.display = 'none';
-            this.render(); // Re-render to handle flat list vs category mode
+            this.render();
         } else {
             listView.style.display = 'none';
             mediaGallery.style.display = '';
@@ -301,14 +379,12 @@ const App = {
             return;
         }
 
-        // Sort by media-order.md (unless sorting by updated)
         if (!this.sortByUpdated) {
             mediaIncidents = await this.sortMediaByOrder(mediaIncidents);
         }
 
         const columnCount = this.getColumnCount();
 
-        // Create card elements with estimated heights
         const cards = mediaIncidents.map(incident => {
             const wrapper = document.createElement('div');
             wrapper.innerHTML = this.renderMediaCard(incident);
@@ -318,71 +394,60 @@ const App = {
 
             cardEl.addEventListener('click', () => Lightbox.open(incident));
 
-            // Estimate height (use aspect ratio from incident if available, else default)
             const estimatedHeight = incident.aspectRatio ? (1 / incident.aspectRatio) : 1;
 
             return { element: cardEl, height: estimatedHeight };
         });
 
-        // Create column containers with height tracking
         const columns = [];
         for (let i = 0; i < columnCount; i++) {
             columns.push({ element: document.createElement('div'), cards: [], height: 0 });
             columns[i].element.className = 'gallery-column';
         }
 
-        // Distribute cards round-robin, tracking heights
         cards.forEach((card, index) => {
             const columnIndex = index % columnCount;
             columns[columnIndex].cards.push(card);
             columns[columnIndex].height += card.height;
         });
 
-        // Balance columns: move items from tallest to shortest until balanced
         if (columnCount > 1) {
             let iterations = 0;
-            const maxIterations = cards.length * 2; // Safety limit
+            const maxIterations = cards.length * 2;
 
             while (iterations < maxIterations) {
                 iterations++;
 
-                // Find tallest and shortest columns
                 let tallest = columns[0], shortest = columns[0];
                 for (const col of columns) {
                     if (col.height > tallest.height) tallest = col;
                     if (col.height < shortest.height) shortest = col;
                 }
 
-                // If same column or no cards to move, done
                 if (tallest === shortest || tallest.cards.length === 0) break;
 
-                // Get last card from tallest column
                 const lastCard = tallest.cards[tallest.cards.length - 1];
 
-                // If moving would help balance (diff > last card height), move it
                 if (tallest.height - shortest.height > lastCard.height) {
                     tallest.cards.pop();
                     tallest.height -= lastCard.height;
                     shortest.cards.push(lastCard);
                     shortest.height += lastCard.height;
                 } else {
-                    break; // No more beneficial moves
+                    break;
                 }
             }
         }
 
-        // Add cards to column elements
         for (const col of columns) {
             for (const card of col.cards) {
                 col.element.appendChild(card.element);
             }
         }
 
-        // Clear gallery and add columns
         gallery.innerHTML = '';
         columns.forEach(col => gallery.appendChild(col.element));
 
-        // Add footer link
         const footer = document.createElement('div');
         footer.className = 'media-gallery-footer';
         footer.innerHTML = '<a href="#list">Click here for a list of all incidents</a>';
@@ -393,7 +458,6 @@ const App = {
         });
         gallery.appendChild(footer);
 
-        // Set up video behavior - autoplay on scroll
         this.setupScrollToPlay(gallery);
     },
 
@@ -432,18 +496,16 @@ const App = {
                 .map(line => line.trim())
                 .filter(line => line && !line.startsWith('#'));
 
-            // Sort by order in file
             return mediaIncidents.sort((a, b) => {
                 const slugA = a.filePath.split('/').pop().replace('.md', '');
                 const slugB = b.filePath.split('/').pop().replace('.md', '');
                 const indexA = lines.findIndex(line => slugA.includes(line) || line.includes(slugA));
                 const indexB = lines.findIndex(line => slugB.includes(line) || line.includes(slugB));
 
-                // Items in the order file come first, in order
                 if (indexA >= 0 && indexB >= 0) return indexA - indexB;
                 if (indexA >= 0) return -1;
                 if (indexB >= 0) return 1;
-                return 0; // Keep original order for items not in file
+                return 0;
             });
         } catch {
             return mediaIncidents;
@@ -650,56 +712,6 @@ const App = {
         }
     },
 
-    openFromHash() {
-        if (Lightbox.isOpen()) {
-            return;
-        }
-
-        const hash = window.location.hash.slice(1);
-        if (!hash || hash === 'media') {
-            if (this.currentView !== 'media') this.switchView('media');
-            return;
-        }
-
-        if (hash === 'list') {
-            if (this.currentView !== 'list') this.switchView('list');
-            return;
-        }
-
-        if (this.sectionHashes.includes(hash)) {
-            if (this.currentView !== 'list') {
-                this.switchView('list', true);
-            }
-            this.scrollToSection(hash);
-            return;
-        }
-
-        if (hash === 'about') {
-            document.getElementById('splash')?.classList.add('hidden');
-            Lightbox.openAbout();
-            return;
-        }
-
-        if (hash.startsWith('new-updated-')) {
-            document.getElementById('splash')?.classList.add('hidden');
-            const dateStr = hash.replace('new-updated-', '');
-            Lightbox.openNewUpdated(dateStr);
-            return;
-        }
-
-        const incident = this.incidents.find(i => {
-            const slug = i.filePath.split('/').pop().replace('.md', '');
-            return slug === hash;
-        });
-
-        document.getElementById('splash')?.classList.add('hidden');
-        if (incident) {
-            Lightbox.open(incident);
-        } else {
-            Lightbox.open404(hash);
-        }
-    },
-
     scrollToSection(sectionId) {
         const section = document.getElementById(sectionId);
         if (section) {
@@ -795,7 +807,6 @@ const App = {
         const sectionNav = document.getElementById('section-nav');
 
         if (this.sortByUpdated && this.currentView === 'list') {
-            // Flat list mode: hide sections and nav, show flat list
             sections.forEach(s => s.style.display = 'none');
             if (sectionNav) sectionNav.style.display = 'none';
             if (flatList) flatList.style.display = '';
@@ -820,7 +831,6 @@ const App = {
                 }
             }
         } else {
-            // Category mode: show sections, hide flat list
             sections.forEach(s => s.style.display = '');
             if (flatList) flatList.style.display = 'none';
             if (sectionNav && this.currentView === 'list') sectionNav.style.display = '';
@@ -854,7 +864,6 @@ const App = {
     },
 
     renderRow(incident, showCategory = false) {
-        // Parse date parts directly to avoid timezone issues
         const [year, month, day] = incident.date.split('-');
         const monthNames = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
         const monthStr = monthNames[parseInt(month, 10) - 1];
@@ -866,7 +875,6 @@ const App = {
 
         const mediaIcon = incident.hasLocalMedia ? '<svg class="media-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>' : '';
 
-        // Get category prefix for flat list mode
         let categoryPrefix = '';
         if (showCategory) {
             const type = Array.isArray(incident.type) ? incident.type[0] : incident.type;
