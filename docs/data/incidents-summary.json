@@ -1,6 +1,35 @@
 {
-  "mediaVersion": 1768926804,
+  "mediaVersion": 1768927101,
   "incidents": [
+    {
+      "filePath": "incidents/2026-01/2026-01-20-trump-vicious-animals-statement.md",
+      "title": "Trump Calls Immigrants in Minnesota \"Vicious Animals,\" Praises \"Patriots of ICE\"",
+      "summary": "President Donald Trump posted on Truth Social calling immigrants in Minnesota \"vicious animals\" and praising ICE agents as \"Patriots\" while dismissing protesters as \"highly paid troublemakers.\" The statement continues his pattern of dehumanizing rhetoric about immigrants during the ongoing Minnesota ICE operations.",
+      "latestUpdate": null,
+      "date": "2026-01-20",
+      "time": "unknown",
+      "location": "Truth Social",
+      "city": "n/a",
+      "type": "response",
+      "status": "resolved",
+      "victimCitizenship": "n/a",
+      "injuries": "n/a",
+      "trustworthiness": "high",
+      "created": "2026-01-20T12:00:00",
+      "lastUpdated": "2026-01-20T12:00:00",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": true,
+      "localMediaType": "image",
+      "localMediaPath": "media/2026-01-20-trump-vicious-animals-statement.jpg",
+      "localMediaFiles": [
+        {
+          "type": "image",
+          "path": "media/2026-01-20-trump-vicious-animals-statement.jpg"
+        }
+      ],
+      "aspectRatio": 1.7518248175182483
+    },
     {
       "filePath": "incidents/2026-01/2026-01-19-dhs-response-saly-detention.md",
       "title": "DHS Response: Defends Detention of Hmong Citizen, Claims Sex Offender Targets at Large \u2014 Family Disputes as \"False\"",

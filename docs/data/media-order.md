@@ -8,6 +8,7 @@
 
 
 
+
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -59,3 +60,4 @@ dhs-response-accent-detention
 dhs-response-saly-detention
 nadya-moldovan-refugee
 william-vermie-veteran-detained
+trump-vicious-animals-statement
