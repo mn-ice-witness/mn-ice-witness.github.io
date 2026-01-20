@@ -79,7 +79,7 @@ The timing of this detention is particularly notable: the family received I-130 
 
 [Global Refuge](https://www.globalrefuge.org/news/refugee-arrests-minnesota/) has documented that lawfully present immigrants are being detained and transported to Texas within 24 hours with "no due process, no access to an attorney."
 
-**Note:** The operation name "PARRIS" comes from a GoFundMe campaign and has not been independently verified by mainstream media. However, the pattern of targeting people with active immigration cases is well-documented.
+(Note: This story seems to follow a pattern of Operation PARRIS (Post-Admission Refugee Reverification and Integrity Strengthening) -- see [more details on this below](#operation-parris).)
 
 ## Editorial Assessment
 **HIGH** - CBS Minnesota/WCCO feature story with extensive family interviews and video. The timing of detention - 5 days after I-130 approval following 3 years of working with immigration lawyers - is particularly notable. Family has documented 26+ years in Minnesota, tax compliance, business ownership, and active immigration case. Medical concerns (diabetic father) add urgency.

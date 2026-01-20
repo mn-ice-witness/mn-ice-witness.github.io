@@ -32,6 +32,8 @@ Add this section after the main incident content (before Editorial Assessment):
 [Victim name]'s detention fits a documented pattern of ICE targeting refugees with pending green card applications under **Operation PARRIS** (Post-Admission Refugee Reverification and Integrity Strengthening). According to the Twin Cities Pioneer Press, approximately 5,600 green card applicants in Minnesota are being targeted through this operation.
 
 Global Refuge has documented that lawfully present refugees are being detained and transported to Texas within 24 hours with "no due process, no access to an attorney."
+
+(Note: This story seems to follow a pattern of Operation PARRIS (Post-Admission Refugee Reverification and Integrity Strengthening) -- see [more details on this below](#operation-parris).)
 ```
 
 ## Verification Status

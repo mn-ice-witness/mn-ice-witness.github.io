@@ -62,5 +62,7 @@ Nadya's detention fits a documented pattern of ICE targeting refugees with pendi
 
 Global Refuge has documented that lawfully present refugees are being detained and transported to Texas within 24 hours with "no due process, no access to an attorney."
 
+(Note: This story seems to follow a pattern of Operation PARRIS (Post-Admission Refugee Reverification and Integrity Strengthening) -- see [more details on this below](#operation-parris).)
+
 ## Editorial Assessment
 **UNVERIFIED** - Currently sourced only from GoFundMe campaign and Facebook post. No corroborating news coverage found. Details are consistent with documented Operation PARRIS patterns targeting refugees awaiting green cards. May be upgraded if news coverage emerges. Key missing details: last name, specific city in Minnesota.

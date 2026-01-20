@@ -63,7 +63,7 @@ The victim had legal refugee status (Form I-94) and her family had an active Gre
 
 [Global Refuge](https://www.globalrefuge.org/news/refugee-arrests-minnesota/) has documented that lawfully present refugees are being detained and transported to Texas within 24 hours with "no due process, no access to an attorney."
 
-**Note:** The operation name "PARRIS" comes from a GoFundMe campaign and has not been independently verified by mainstream media. However, the pattern of targeting refugees with pending applications is well-documented.
+(Note: This story seems to follow a pattern of Operation PARRIS (Post-Admission Refugee Reverification and Integrity Strengthening) -- see [more details on this below](#operation-parris).)
 
 ## Editorial Assessment
 **HIGH** - Multiple local news sources (West Central Tribune, MinnPost), named school official providing statements, documented community response and school impact. Legal status claims come from school cultural liaison with knowledge of the family's situation.
