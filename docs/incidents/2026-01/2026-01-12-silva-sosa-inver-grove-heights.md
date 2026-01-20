@@ -20,6 +20,8 @@ A couple who have lived in Minnesota since 1999 were detained by ICE during a tr
 ## Sources
 1. CBS Minnesota (Jan 19, 2026): [Minnesota sisters "burnt out" 1 week after parents detained, sent to Texas ICE facility](https://www.cbsnews.com/minnesota/news/minnesota-parents-arrested-by-ice-inver-grove-heights-held-in-el-paso/)
 2. CBS Minnesota Video (Jan 19, 2026): [Sisters fighting to get parents back after ICE arrest](https://www.cbsnews.com/minnesota/video/sisters-fighting-to-get-parents-back-after-ice-arrest/) - **VIDEO** (3:22)
+3. Twin Cities Pioneer Press (Jan 18, 2026): [5,600 Green Card applicants in Minnesota targeted through Operation PARRIS](https://www.twincities.com/2026/01/18/5600-green-card-applicants-in-minnesota-targeted-through-operation-parris/)
+4. Global Refuge: [Global Refuge statement on refugee arrests in Minnesota](https://www.globalrefuge.org/news/refugee-arrests-minnesota/)
 
 ## Victim(s)
 

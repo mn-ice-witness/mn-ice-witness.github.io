@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768885398,
+  "mediaVersion": 1768885948,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-19-dhs-response-saly-detention.md",
@@ -139,6 +139,34 @@
       "localMediaPath": null,
       "localMediaFiles": [],
       "aspectRatio": null
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-17-nadya-moldovan-refugee.md",
+      "title": "Moldovan Refugee Nadya Detained While Driving to Church with Family (UNVERIFIED)",
+      "summary": "Nadya, a Moldovan refugee with legal status awaiting her green card, was detained by ICE on January 17, 2026 while driving from her home to church with her husband and three children. Five ICE vehicles stopped the family shortly after they left their house. Despite the family explaining they had refugee status and were in the process of obtaining green cards, ICE detained only Nadya and released her husband and children. She has been held in poor conditions, in handcuffs and sleeping on the floor.",
+      "date": "2026-01-17",
+      "time": "unknown",
+      "location": "Driving to church",
+      "city": "Unknown",
+      "type": "immigrants",
+      "status": "detained",
+      "victimCitizenship": "refugee",
+      "injuries": "none",
+      "trustworthiness": "unverified",
+      "created": "2026-01-19T23:09:36",
+      "lastUpdated": "2026-01-19T23:09:36",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": true,
+      "localMediaType": "image",
+      "localMediaPath": "media/2026-01-17-nadya-moldovan-refugee.jpg",
+      "localMediaFiles": [
+        {
+          "type": "image",
+          "path": "media/2026-01-17-nadya-moldovan-refugee.jpg"
+        }
+      ],
+      "aspectRatio": 0.8549618320610687
     },
     {
       "filePath": "incidents/2026-01/2026-01-16-parral-ortiz-hospital-detention.md",

@@ -122,6 +122,18 @@ In-depth reporting and analysis of ICE enforcement patterns and civil rights con
 - [2,000 federal agents sent to Minneapolis area to carry out 'largest immigration operation ever'](https://www.pbs.org/newshour/politics/2000-federal-agents-sent-to-minneapolis-area-to-carry-out-largest-immigration-operation-ever-ice-says) - PBS NewsHour
 - [ICE Videos Minnesota: What the footage shows](https://www.nytimes.com/2026/01/13/us/ice-videos-minnesota-trump-immigration.html) - New York Times
 
+## Operation PARRIS: Targeting Refugees with Legal Status
+
+A documented pattern has emerged of ICE targeting refugees who entered the United States legally and are awaiting green cards under **Operation PARRIS** (Post-Admission Refugee Reverification and Integrity Strengthening).
+
+According to the [Twin Cities Pioneer Press](https://www.twincities.com/2026/01/18/5600-green-card-applicants-in-minnesota-targeted-through-operation-parris/), approximately **5,600 green card applicants in Minnesota** are being targeted through this operation. These are individuals who followed every rule, submitted their applications, and are legally present in the country.
+
+[Global Refuge reports](https://www.globalrefuge.org/news/refugee-arrests-minnesota/) that lawfully admitted refugees are being detained and transported to Texas within 24 hours with "no due process, no access to an attorney."
+
+This pattern is documented in incidents on this site including:
+- [Silva Sosa parents detained 5 days after I-130 approval](#2026-01-12-silva-sosa-inver-grove-heights)
+- [Moldovan refugee Nadya detained while driving to church with family](#2026-01-17-nadya-moldovan-refugee)
+
 ## Trustworthiness Ratings
 
 Each incident is rated for trustworthiness based on source quality and corroboration:
