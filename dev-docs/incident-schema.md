@@ -38,7 +38,12 @@ last_updated: YYYY-MM-DDTHH:MM:SS  # Required. When last MAJOR update occurred (
 
 #### ⚠️ USE THE ACTUAL CURRENT TIME (Critical!)
 
-**Always use the EXACT current time** — never use rounded or made-up times.
+**To get the current timestamp, run:**
+```bash
+./bin/timestamp.sh
+```
+
+**Never guess or make up a timestamp** — LLMs consistently fabricate plausible-looking times that are wrong.
 
 | Example | Correct? |
 |---------|----------|

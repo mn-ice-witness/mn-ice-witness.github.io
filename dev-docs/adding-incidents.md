@@ -216,7 +216,14 @@ This allows editorial judgment about incidents worth documenting while clearly i
 Use the schema from `incident-schema.md`. At minimum include:
 
 #### ⚠️ TIMESTAMP WARNING
-**Set `created` and `last_updated` to the ACTUAL CURRENT TIME** when you create the file — not a rounded or made-up time. Example: if it's 2:23:47 PM, use `2026-01-15T14:23:47`, NOT `2026-01-15T14:30:00`.
+**Set `created` and `last_updated` to the ACTUAL CURRENT TIME** when you create the file — not a rounded or made-up time.
+
+**To get the current timestamp, run:**
+```bash
+./bin/timestamp.sh
+```
+
+Use the output for BOTH `created` and `last_updated` fields. **Never guess or make up a timestamp** — LLMs consistently fabricate plausible-looking times that are wrong.
 
 ```markdown
 ---
