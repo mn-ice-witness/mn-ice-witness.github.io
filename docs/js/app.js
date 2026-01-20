@@ -174,9 +174,7 @@ const App = {
 
         if (this.sectionHashes.includes(hash)) {
             this.disableSortByUpdated();
-            if (this.currentView !== 'list') {
-                this.switchView('list', true);
-            }
+            this.switchView('list', true);
             this.scrollToSectionWithFlag(hash);
             return;
         }
