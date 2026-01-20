@@ -1,6 +1,35 @@
 {
-  "mediaVersion": 1768937741,
+  "mediaVersion": 1768938959,
   "incidents": [
+    {
+      "filePath": "incidents/2026-01/2026-01-20-brooklyn-park-officer-citizen-check.md",
+      "title": "Metro Police Chiefs Call for End to Racially Discriminatory Citizen Checks / Civil Rights Violations; Off-Duty Officer Stopped at Gunpoint",
+      "summary": "An off-duty Brooklyn Park police officer, described as a woman of color, was stopped by ICE agents who boxed in her vehicle, drew their weapons, and demanded paperwork to prove her citizenship. When she attempted to record the encounter on her phone, agents knocked the phone from her hands. Brooklyn Park Police Chief Mark Bruley disclosed the incident at a January 20 press conference alongside other Twin Cities law enforcement leaders, describing a pattern of ICE agents conducting citizenship checks on people of color without cause.",
+      "latestUpdate": null,
+      "date": "2026-01-20",
+      "time": "unknown",
+      "location": "Twin Cities metro area",
+      "city": "Brooklyn Park",
+      "type": "citizens",
+      "status": "under-investigation",
+      "victimCitizenship": "us-citizen",
+      "injuries": "none",
+      "trustworthiness": "high",
+      "created": "2026-01-20T13:39:51",
+      "lastUpdated": "2026-01-20T13:39:51",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-20-brooklyn-park-officer-citizen-check.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-20-brooklyn-park-officer-citizen-check.mp4"
+        }
+      ],
+      "aspectRatio": 1.8764940239043826
+    },
     {
       "filePath": "incidents/2026-01/2026-01-20-trump-vicious-animals-statement.md",
       "title": "Trump Claims ICE Operation is About Removing \"Murderers & Criminals\" from Minnesota, Calls Protesters \"Highly Paid Troublemakers\"",
@@ -1390,7 +1419,7 @@
           "path": "media/2026-01-12-nimco-omar-citizen-check.mp4"
         }
       ],
-      "aspectRatio": 1.7416666666666667
+      "aspectRatio": 1.8138888888888889
     },
     {
       "filePath": "incidents/2026-01/2026-01-12-pilllar-forum-musicians.md",
@@ -1497,6 +1526,30 @@
         }
       ],
       "aspectRatio": 0.6694444444444444
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-11-observer-woman-pushed-filming.md",
+      "title": "Woman Observer Pushed to Ground While Filming ICE",
+      "summary": "Video circulating on social media reportedly shows an ICE agent walking up to a woman filming from a distance and pushing her to the ground. Per comments on the video, the agent \"took 17 steps to approach her\" while \"she was nowhere near him while she was filming.\" The footage appears to have aired on NBC Nightly News with the chyron \"NEW VIDEO SHOWS MINNEAPOLIS RESIDENTS CONFRONTING ICE AGENTS.\"",
+      "latestUpdate": null,
+      "date": "2026-01-11",
+      "time": "unknown",
+      "location": "Minneapolis",
+      "city": "Minneapolis",
+      "type": "observers",
+      "status": "resolved",
+      "victimCitizenship": "unknown",
+      "injuries": "unknown",
+      "trustworthiness": "unverified",
+      "created": "2026-01-20T13:41:49",
+      "lastUpdated": "2026-01-20T13:41:49",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": [],
+      "aspectRatio": null
     },
     {
       "filePath": "incidents/2026-01/2026-01-11-speedway-st-paul.md",
