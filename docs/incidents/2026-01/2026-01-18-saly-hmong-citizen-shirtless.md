@@ -24,6 +24,7 @@ A Hmong man named Saly, described as a naturalized U.S. citizen with no criminal
 4. **Video:** [Facebook Reel](https://www.facebook.com/reel/1986120352306275) - Incident footage
 5. Star Tribune (Jan 20, 2026): [St. Paul mayor 'livid' after ICE wrongly targets family friend](https://www.startribune.com/st-paul-mayor-livid-after-ice-wrongly-targets-family-friend-escorts-him-undressed-into-cold/601566974) - Mayor Her's response (paywalled)
 6. FOX 9 (Jan 2026): [St. Paul ICE raid: Elderly citizen taken in shorts and Crocs](https://www.fox9.com/news/st-paul-ice-raid-elderly-citizen-taken-shorts-crocs) - Mayor Her's quotes and response
+7. CBS Minnesota (Jan 19, 2026): [ICE arrests elderly Hmong-American citizen in St. Paul](https://www.cbsnews.com/minnesota/news/ice-elderly-hmong-american-citizen-arrested-st-paul/) - DHS response and community advocate quotes
 
 ## Victim(s)
 - **Name:** ChongLy Scott Thao (also referred to as "Saly" by family)
