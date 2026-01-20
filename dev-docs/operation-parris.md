@@ -14,7 +14,8 @@ Global Refuge has documented that lawfully admitted refugees are being detained 
 
 1. [DHS Launches Landmark USCIS Fraud Investigation in Minnesota](https://www.uscis.gov/newsroom/news-releases/dhs-launches-landmark-uscis-fraud-investigation-in-minnesota) - USCIS Official (Jan 9, 2026)
 2. [Minnesota fraud: DHS launching 'Operation PARRIS' to target refugees](https://www.fox9.com/news/minnesota-fraud-dhs-launching-operation-parris-target-refugees-jan-9) - Fox 9 (Jan 9, 2026)
-3. [Global Refuge statement on refugee arrests in Minnesota](https://www.globalrefuge.org/news/refugee-arrests-minnesota/) - Global Refuge
+3. [5,600 Green Card applicants in Minnesota targeted through Operation PARRIS](https://www.twincities.com/2026/01/18/5600-green-card-applicants-in-minnesota-targeted-through-operation-parris/) - Twin Cities Pioneer Press (Jan 18, 2026)
+4. [Global Refuge statement on refugee arrests in Minnesota](https://www.globalrefuge.org/news/refugee-arrests-minnesota/) - Global Refuge
 
 ## Criteria for Adding Operation PARRIS Context
 
