@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768891668,
+  "mediaVersion": 1768925980,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-19-dhs-response-saly-detention.md",
@@ -950,6 +950,35 @@
       "localMediaPath": null,
       "localMediaFiles": [],
       "aspectRatio": null
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-13-william-vermie-veteran-detained.md",
+      "title": "Army Veteran William Vermie Detained 8 Hours for Observing ICE Arrest",
+      "summary": "Combat-wounded Army veteran William Vermie was detained for approximately eight hours after observing an ICE arrest from a public sidewalk in south Minneapolis. Vermie, a Purple Heart recipient who served in Iraq, was denied access to a phone and attorney throughout his detention at the Whipple Federal Building. He was released without charges.",
+      "latestUpdate": null,
+      "date": "2026-01-13",
+      "time": "unknown",
+      "location": "34th Street and Park Avenue",
+      "city": "Minneapolis",
+      "type": "observers",
+      "status": "resolved",
+      "victimCitizenship": "us-citizen",
+      "injuries": "minor",
+      "trustworthiness": "high",
+      "created": "2026-01-20T10:03:17",
+      "lastUpdated": "2026-01-20T10:03:17",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-13-william-vermie-veteran-detained.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-13-william-vermie-veteran-detained.mp4"
+        }
+      ],
+      "aspectRatio": 1.8222222222222222
     },
     {
       "filePath": "incidents/2026-01/2026-01-13-doj-response-renee-good.md",
