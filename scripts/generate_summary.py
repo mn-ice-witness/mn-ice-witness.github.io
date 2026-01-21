@@ -44,7 +44,8 @@ def get_local_media(slug: str, media_dir: Path) -> dict:
         'localMediaType': None,
         'localMediaPath': None,
         'localMediaFiles': [],
-        'aspectRatio': None
+        'aspectRatio': None,
+        'mediaVersion': None
     }
 
     if not media_dir.exists():
@@ -73,6 +74,8 @@ def get_local_media(slug: str, media_dir: Path) -> dict:
         result['localMediaPath'] = primary['path']
         # Get aspect ratio for primary media
         result['aspectRatio'] = get_media_aspect_ratio(primary['file'])
+        # Per-video cache version based on file mtime
+        result['mediaVersion'] = int(primary['file'].stat().st_mtime)
 
     return result
 
@@ -165,7 +168,8 @@ def process_incident(file_path, docs_dir, media_dir):
         'localMediaType': local_media['localMediaType'],
         'localMediaPath': local_media['localMediaPath'],
         'localMediaFiles': local_media['localMediaFiles'],
-        'aspectRatio': local_media['aspectRatio']
+        'aspectRatio': local_media['aspectRatio'],
+        'mediaVersion': local_media['mediaVersion']
     }
 
 
@@ -232,9 +236,8 @@ def main():
     # Update media order file with new items
     update_media_order(incidents_with_media, docs_dir / 'data')
 
-    # Create output with mediaVersion for cache busting
+    # Output incidents (each has its own mediaVersion based on file mtime)
     output_data = {
-        'mediaVersion': int(time.time()),
         'incidents': incidents
     }
 

@@ -1,6 +1,5 @@
 const App = {
     incidents: [],
-    mediaVersion: '',
     currentView: 'media',
     sortByUpdated: false,
     viewedIncidents: new Set(),
@@ -626,13 +625,13 @@ const App = {
             ? incident.title.substring(0, 104) + '...'
             : incident.title;
 
-        const mediaUrl = this.getMediaUrl(incident.localMediaPath);
+        const mediaUrl = this.getMediaUrl(incident.localMediaPath, incident.mediaVersion);
 
         let mediaElement;
         let videoControls = '';
         if (incident.localMediaType === 'video') {
             const videoSrc = mediaUrl + '#t=0.001';
-            mediaElement = `<video class="media-card-video" src="${videoSrc}" muted loop playsinline preload="auto" disableRemotePlayback></video>`;
+            mediaElement = `<video class="media-card-video" src="${videoSrc}" muted loop playsinline preload="metadata" disableRemotePlayback></video>`;
             videoControls = `
                 <div class="media-controls">
                     <button class="media-control-btn play-pause-btn" aria-label="Play/Pause">
@@ -957,13 +956,12 @@ const App = {
         const response = await fetch('/data/incidents-summary.json');
         const data = await response.json();
         this.incidents = data.incidents;
-        this.mediaVersion = data.mediaVersion || '';
     },
 
-    getMediaUrl(path) {
+    getMediaUrl(path, version) {
         // Ensure path is absolute for path-based routing
         const absolutePath = path.startsWith('/') ? path : '/' + path;
-        return this.mediaVersion ? `${absolutePath}?v=${this.mediaVersion}` : absolutePath;
+        return version ? `${absolutePath}?v=${version}` : absolutePath;
     },
 
     muteAllGalleryVideos() {
