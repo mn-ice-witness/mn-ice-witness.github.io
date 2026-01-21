@@ -1254,6 +1254,8 @@ body {
     margin-left: 10px;
     display: inline-flex;
     align-items: center;
+    position: relative;
+    top: 2px;
 }
 
 .social-icons a:hover {
