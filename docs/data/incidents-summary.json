@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768967697,
+  "mediaVersion": 1768970483,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-20-brooklyn-park-officer-citizen-check.md",
@@ -879,7 +879,7 @@
     {
       "filePath": "incidents/2026-01/2026-01-13-willmar-student-arrested.md",
       "title": "High School Student with Legal Status Arrested in Downtown Willmar",
-      "summary": "A 19-year-old Somali woman who is currently an 11th-grade student at Willmar Public Schools was arrested by ICE agents in downtown Willmar. She had legal refugee status (Form I-94) and her family had applied for Green Card status. The arrest caused approximately 90% of Somali students to miss school the following day. <em style=\"color: #888;\">**Note: This story seems to follow a pattern of Operation PARRIS (Post-Admission Refugee Reverification and Integrity Strengthening) -- see more details on this below.**</em>",
+      "summary": "Suban Noor, a 19-year-old Somali woman and 11th-grade student at Willmar Senior High School, was arrested by ICE agents in downtown Willmar while picking up food for her family. She had legal refugee status (Form I-94) and her family had an active Green Card application. The arrest caused approximately 90% of Somali students to miss school the following day. Noor was released five days later on Friday, Jan 17. <em style=\"color: #888;\">**Note: This story seems to follow a pattern of Operation PARRIS (Post-Admission Refugee Reverification and Integrity Strengthening) -- see more details on this below.**</em>",
       "latestUpdate": null,
       "date": "2026-01-13",
       "time": "afternoon",
@@ -889,12 +889,12 @@
         "citizens",
         "schools-hospitals"
       ],
-      "status": "unknown",
+      "status": "resolved",
       "victimCitizenship": "legal-resident",
       "injuries": "none",
       "trustworthiness": "high",
       "created": "2026-01-14T08:19:50",
-      "lastUpdated": "2026-01-14T08:19:50",
+      "lastUpdated": "2026-01-20T22:24:33",
       "mediaCount": 0,
       "notable": false,
       "hasLocalMedia": false,

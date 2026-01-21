@@ -4,41 +4,46 @@ time: afternoon
 location: Downtown Willmar
 city: Willmar
 type: citizens, schools-hospitals
-status: unknown
+status: resolved
 victim_citizenship: legal-resident
 injuries: none
 trustworthiness: high
 created: 2026-01-14T08:19:50
-last_updated: 2026-01-14T08:19:50
+last_updated: 2026-01-20T22:24:33
 ---
 
 # High School Student with Legal Status Arrested in Downtown Willmar
 
 ## Summary
-A 19-year-old Somali woman who is currently an 11th-grade student at Willmar Public Schools was arrested by ICE agents in downtown Willmar. She had legal refugee status (Form I-94) and her family had applied for Green Card status. The arrest caused approximately 90% of Somali students to miss school the following day. <em style="color: #888;">**Note: This story seems to follow a pattern of Operation PARRIS (Post-Admission Refugee Reverification and Integrity Strengthening) -- see more details on this below.**</em>
+Suban Noor, a 19-year-old Somali woman and 11th-grade student at Willmar Senior High School, was arrested by ICE agents in downtown Willmar while picking up food for her family. She had legal refugee status (Form I-94) and her family had an active Green Card application. The arrest caused approximately 90% of Somali students to miss school the following day. Noor was released five days later on Friday, Jan 17. <em style="color: #888;">**Note: This story seems to follow a pattern of Operation PARRIS (Post-Admission Refugee Reverification and Integrity Strengthening) -- see more details on this below.**</em>
 
 ## Sources
 1. West Central Tribune (Jan 13, 2026): [Federal immigration agents make arrests Monday in Willmar](https://www.wctrib.com/news/local/federal-immigration-agents-make-arrests-monday-in-willmar)
 2. MinnPost (Jan 13, 2026): [Ugly rhetoric, fears of ICE raids test an 'All-America City'](https://www.minnpost.com/greater-minnesota/2026/01/ugly-rhetoric-fears-of-ice-raids-test-an-all-america-city-with-criticism-of-willmars-somali-community/)
+3. InForum (Jan 17, 2026): [Willmar high school student released days after being detained by ICE](https://www.inforum.com/news/minnesota/willmar-high-school-student-released-days-after-being-detained-by-ice)
 
 ## Victim(s)
-- **Name:** Not disclosed
+- **Name:** Suban Noor
 - **Age:** 19
-- **Occupation:** High school student (11th grade, Willmar Public Schools)
+- **Occupation:** High school student (11th grade, Willmar Senior High School)
 - **Citizenship:** Legal refugee status (Form I-94), Green Card application pending
 - **Background:** Came to the U.S. as a refugee with legal documentation
 
 ## Timeline
-- **Monday afternoon** - 6-8 ICE agents conduct operations in downtown Willmar
-- **Afternoon** - 19-year-old woman arrested while in her vehicle downtown, dragged to unmarked vehicle
+- **Monday, Jan 13 afternoon** - 6-8 ICE agents conduct operations in downtown Willmar
+- **Afternoon** - Suban Noor arrested while picking up food for her family; her car left abandoned with door open, containing employee name tag, credit cards, bank cards, cellphone, and school backpack
 - **Same day** - Male arrested at Jennie-O Turkey Store during shift change
-- **Tuesday** - ~90% of Somali students absent from Willmar schools
+- **Tuesday, Jan 14** - ~90% of Somali students absent from Willmar schools
 - **Tuesday afternoon** - Community protest organized downtown
+- **Week of Jan 13-17** - Family receives no contact from Noor
+- **Friday, Jan 17** - Noor released from custody; no longer listed on Homeland Security Investigations detainee database
 
 ## Witness Accounts
 Liz Reyes, after seeing video of the arrest: "I don't feel safe sending my son to school."
 
-Witnesses reported the woman was "dragged" into an unmarked vehicle by agents.
+Christina Vander Pol, eyewitness: Described ICE agents who "ambushed" the teenager while she was picking up food.
+
+Witnesses reported Noor was "dragged" into an unmarked vehicle by agents.
 
 ## Official Accounts
 
