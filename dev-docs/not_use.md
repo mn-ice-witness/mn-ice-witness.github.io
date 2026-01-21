@@ -121,13 +121,6 @@ Stories are excluded when they don't meet the project's core focus:
 - Reason: Insufficient details - no arrest made, observer intervention prevented escalation, brief mention only. No victim identified.
 - Date evaluated: 2026-01-16
 
-**Wrecktangle Pizza LynLake - ICE Chased Off (Jan 2026)**
-- Sources: CBS Minnesota, Bring Me The News mentions
-- Date: January 2026
-- Details: At Wrecktangle Pizza in Minneapolis' LynLake neighborhood, employees and community members chased off ICE agents after they tried to enter the restaurant.
-- Reason: Successfully prevented incident - no detention occurred, no civil rights violation. Resistance story without actual enforcement action. Similar to Hola Arepa but with less detail.
-- Date evaluated: 2026-01-17
-
 **North Star Deli Kingfield - ICE Turned Away (Jan 2026)**
 - Sources: [Mpls.St.Paul Magazine](https://mspmag.com/eat-and-drink/foodie/when-ice-targets-your-restaurant/)
 - Date: Week of January 13, 2026
@@ -307,7 +300,7 @@ Stories are excluded when they don't meet the project's core focus:
 - Source: [Bring Me The News](https://bringmethenews.com/minnesota-news/video-shows-ice-agent-enter-st-paul-restaurant-with-gun-drawn-during-street-search)
 - Date: January 20, 2026
 - Details: ICE agent entered East Side Thai restaurant (879 Payne St, St. Paul) with gun drawn while chasing a suspect. Agent accused owners of hiding the suspect, who had actually run past the business. Owner Kou Vang posted video to Facebook saying everyone was "ok, just a little traumatized."
-- Reason: No civil rights violation - no detention, no arrest. Agent entered during street pursuit and left. Similar to Wrecktangle Pizza and North Star Deli stories.
+- Reason: No civil rights violation - no detention, no arrest. Agent entered during street pursuit and left.
 - Date evaluated: 2026-01-21
 
 **Sun World Supermarket Arrest (Jan 20)**
