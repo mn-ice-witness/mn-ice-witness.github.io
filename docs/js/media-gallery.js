@@ -186,10 +186,6 @@ const MediaGallery = {
         const label = App.categoryLabels[type] || type.toUpperCase();
         const categoryPrefix = `<span class="category-label">${label}:</span> `;
 
-        const shortTitle = incident.title.length > 107
-            ? incident.title.substring(0, 104) + '...'
-            : incident.title;
-
         const mediaUrl = App.getMediaUrl(incident.localMediaPath, incident.mediaVersion);
 
         let mediaElement;
@@ -237,7 +233,7 @@ const MediaGallery = {
                 </div>
             `;
         } else {
-            mediaElement = `<img class="media-card-image" src="${mediaUrl}" alt="${shortTitle}">`;
+            mediaElement = `<img class="media-card-image" src="${mediaUrl}" alt="${incident.title}">`;
             videoControls = `
                 <div class="media-controls">
                     <button class="media-control-btn fullscreen-btn" aria-label="Fullscreen">
@@ -259,7 +255,7 @@ const MediaGallery = {
                     ${videoControls}
                 </div>
                 <div class="media-card-info">
-                    <h3 class="media-card-title">${categoryPrefix}${shortTitle}</h3>
+                    <h3 class="media-card-title">${categoryPrefix}${incident.title}</h3>
                     <span class="media-card-location">${incident.city}</span>
                 </div>
             </article>
