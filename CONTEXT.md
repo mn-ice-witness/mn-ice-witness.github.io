@@ -1,369 +1,250 @@
 # CONTEXT.md
 
-This file provides guidance to AI assistants when working with code in this repository.
+This file is a **table of contents** for AI assistants. It tells you WHERE to find detailed information, and contains critical rules you must always follow.
 
-## CRITICAL: Read Global User Context First
+## How This Works
 
-**BEFORE PROCEEDING, read `~/.context.md` and follow all advice there.** That file contains my general coding preferences, style guidelines, and critical instructions that apply to ALL projects. The instructions in ~/.context.md override any conflicting defaults.
+1. **Read `~/.context.md` first** - Global coding preferences for all projects
+2. **Read the Critical Rules below** - These apply to almost every task
+3. **Scan the Quick Reference** to find which dev-docs to read for your task
+4. **Read those specific dev-docs** before making changes
 
-If ~/.context.md doesn't exist, notify the user.
+**The dev-docs are the source of truth for detailed procedures.** This file contains only rules that are critical enough to never miss.
 
-## CRITICAL: Read Developer Documentation
-
-**BEFORE making changes, read the `dev-docs/` folder:**
-
-**Core Documentation:**
-1. `dev-docs/architecture.md` - **Read first** - System design, JS module reference, CSS structure
-2. `dev-docs/incident-schema.md` - Exact markdown format for incidents
-3. `dev-docs/adding-incidents.md` - Step-by-step guide to add incidents
-
-**Code Quality (read when modifying code):**
-4. `dev-docs/code-review-findings.md` - **Read when modifying JS/CSS** - File analysis, dead code, duplication
-5. `dev-docs/refactoring-plan.md` - **Read when restructuring** - Modular split recommendations
-
-**Feature-Specific:**
-6. `dev-docs/url-routing.md` - **Read when doing URL/routing work** - Path-based URLs, Cloudflare Functions
-7. `dev-docs/media-controls.md` - Video player controls strategy and fullscreen implementation
-8. `dev-docs/ui-patterns.md` - **Read when adding icons or UI elements** - SVG icon DRY pattern (NEVER inline SVGs)
-
-**Research & Content:**
-9. `dev-docs/research-sources.md` - Where to find and verify incidents
-10. `dev-docs/researching-responses.md` - How to find and document official federal responses
-11. `dev-docs/llm-search-procedure.md` - Step-by-step guide for LLMs to search for new incidents
-12. `dev-docs/not_use.md` - Stories evaluated and rejected (check before adding new incidents)
-13. `dev-docs/social-media-listing-procedure.md` - How to generate daily Bluesky update posts
-
-**Operations:**
-14. `dev-docs/project-status.md` - Current state and pending work
-15. `dev-docs/preview-deployments.md` - **Read when testing branches** - Cloudflare preview deployments
-
-These docs are the source of truth for how this project works.
-
-## When Asked for Social Media Updates
-
-**If the user asks for a social media update, Bluesky post, or daily listing:**
-
-1. **Read `dev-docs/social-media-listing-procedure.md` first** - Contains format, character limits, and examples
-2. **Find incidents created/updated on that date** using grep on `created:` and `last_updated:` timestamps
-3. **Read each incident** to find the most compelling details
-4. **Write bullets under 300 chars total** - Lead with the most striking/visceral detail
-
-## When Asked to Find New Incidents or Sources
-
-**If the user asks to search for new incidents, find new sources, or do research:**
-
-1. **Read these files first:**
-   - `dev-docs/llm-search-procedure.md` - Complete search procedure and efficiency tips
-   - `dev-docs/not_use.md` - Stories already evaluated and rejected
-   - `dev-docs/adding-incidents.md` - Criteria for what qualifies as an incident
-   - `dev-docs/research-sources.md` - Where to find and verify incidents
-
-2. **Use the Explore agent** to get a summary of existing incidents before searching
-
-3. **Follow the daily search procedure** in `llm-search-procedure.md` for efficient recurring searches
-
-4. **Always report:**
-   - New incidents found (with sources)
-   - Existing incidents that got new sources added
-   - Stories added to not_use.md (with reasons)
-   - Stories already in not_use.md that came up again
-
-## Terminology
-
-**"Entry" and "Incident" are used interchangeably** throughout this project. The URL routing uses `/entry/` paths, but the code, documentation, and conversation may refer to them as "incidents" or "entries" - they mean the same thing (e.g., "find new incidents" = "find new entries").
+---
 
 ## Project Overview
 
-**MN ICE Files** is a documentation website tracking civil rights incidents involving ICE (Immigration and Customs Enforcement) and CBP (Customs and Border Protection) in the Minneapolis-St. Paul area during Operation Metro Surge (December 2025 - present).
+**MN ICE Files** documents civil rights incidents involving ICE/CBP in Minnesota during Operation Metro Surge (Dec 2025 - present). Mobile-first static site hosted on Cloudflare Pages.
 
-**Purpose:** To provide factual, well-sourced documentation of incidents where:
-1. U.S. citizens are detained, arrested, or harmed by federal immigration agents
-2. U.S. citizens are subjected to citizenship checks (stopped, surrounded, questioned) even if not detained
-3. Bystanders or observers are arrested for exercising First Amendment rights
-4. Non-criminal immigrants who are positive community members are detained
-5. Other egregious civil rights violations occur
+---
 
-**Note on Citizen Checks:** Well-sourced stories from major news outlets documenting U.S. citizens being stopped and subjected to citizenship checks are valid incidents, even if the citizen was not ultimately detained. These incidents demonstrate the pattern of racial profiling affecting American citizens.
+## Critical Rules - Always Apply
 
-**Design Philosophy:**
-- Fact-based and credible presentation
-- Multiple corroborating sources for each incident
-- Editorial trustworthiness ratings based on source quality
-- Mobile-first responsive design
-- Quick-loading with all content in markdown files
+These rules apply to almost every task. Do not skip them.
+
+### Terminology
+**"Entry" and "Incident" are synonyms.** The codebase uses both interchangeably. URLs use `/entry/`, code and docs say "incident" - they mean the same thing.
+
+### Timestamps
+**NEVER guess timestamps.** LLMs consistently fabricate plausible-looking times that are wrong.
+
+```bash
+./bin/timestamp.sh   # Run this to get actual current time
+```
+
+Use the output for `created` and `last_updated` fields. Format: `YYYY-MM-DDTHH:MM:SS`
+
+### incidents-summary.json
+**NEVER edit `docs/data/incidents-summary.json` directly.** It is auto-generated by `scripts/generate_summary.py` and the pre-commit hook. Only edit the markdown incident files.
+
+### Trustworthiness Ratings
+**Use exactly ONE of these four values:**
+- `high`
+- `medium`
+- `low`
+- `unverified`
+
+**NO compound values** like "medium-high" or "low-medium". Pick one.
+
+### Incident Types
+**Exactly 5 types exist:**
+- `citizens` - U.S. citizens racially profiled or mistakenly targeted
+- `observers` - People targeted for filming/observing/protesting ICE
+- `immigrants` - Non-criminal immigrants detained
+- `schools-hospitals` - Actions at/near schools or hospitals
+- `response` - DHS/ICE official statements
+
+Multiple types allowed via comma: `type: citizens, schools-hospitals`
+
+### SVG Icons
+**NEVER inline SVG paths.** Always use the symbol/use pattern:
+
+```html
+<!-- WRONG -->
+<svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+
+<!-- RIGHT -->
+<svg width="16" height="16"><use href="#icon-play"/></svg>
+```
+
+Icons are defined in `docs/index.html`. See `dev-docs/ui-patterns.md` for the full list.
+
+### Sources Must Have Links
+**No link = not a source.** Every source in an incident file must link to a specific page about that incident. General homepages or profile pages don't count.
+
+### Neutral Language
+Use documentary tone. Let facts speak for themselves.
+
+| Avoid | Use Instead |
+|-------|-------------|
+| raid, ransack | search |
+| storm, invade | enter |
+| kidnapped, snatched | detained, arrested |
+| terrorize, brutalize | use force on |
+| horrific, shocking | (describe facts instead) |
+| exclusive, breaking | (omit) |
+
+### Before Adding Incidents
+**Always check `dev-docs/not_use.md`** for stories already evaluated and rejected. This prevents re-adding stories that don't fit the project scope.
+
+### last_updated Field
+**Only update for substantive story changes:**
+- ✅ Court rulings, releases, status changes, new facts
+- ❌ Adding more sources, formatting fixes, rating changes
+
+---
+
+## Quick Reference: What Doc to Read
+
+| If you're doing... | Read these dev-docs |
+|-------------------|---------------------|
+| **Adding a new incident** | `adding-incidents.md`, `incident-schema.md`, `not_use.md` |
+| **Searching for new incidents** | `llm-search-procedure.md`, `research-sources.md`, `not_use.md` |
+| **Modifying JavaScript** | `architecture.md` (JS module reference), `code-review-findings.md` |
+| **Modifying CSS** | `architecture.md` (CSS structure section) |
+| **URL/routing work** | `url-routing.md`, `single-page-navigation.md` |
+| **Video player changes** | `media-controls.md` |
+| **Adding icons or UI elements** | `ui-patterns.md` |
+| **Processing media files** | `architecture.md` (media pipeline), `adding-video-audio.md` |
+| **Testing on preview branch** | `preview-deployments.md` |
+| **Understanding deployment** | `DEPLOYMENT.md` |
+| **Refactoring code** | `refactoring-plan.md`, `code-review-findings.md` |
+| **Social media posts** | `social-media-listing-procedure.md` |
+| **Official DHS responses** | `researching-responses.md` |
+| **Scaling concerns** | `scaling-strategy.md` |
+| **Notable incidents feature** | `notable-incidents.md` |
+| **Operation PARRIS context** | `operation-parris.md` |
+| **Outreach/sharing** | `outreach-templates.md` |
+
+---
 
 ## Code Structure
 
 ```
 GIT_MN_ICE_FILES/
-├── CONTEXT.md           # This file
+├── CONTEXT.md           # This file (TOC + critical rules)
+├── dev-docs/            # ALL detailed documentation
 ├── bin/
-│   └── run-server.sh    # Local development server
-├── docs/                # Website content folder (ALL content here)
-│   ├── index.html       # Main entry point
-│   ├── css/
-│   │   └── style.css    # Mobile-first styles
-│   ├── js/
-│   │   ├── app.js       # Main application logic
-│   │   ├── parser.js    # Markdown parser
-│   │   └── lightbox.js  # Incident detail lightbox
-│   └── incidents/       # ALL incident markdown files (ONLY location!)
-│       ├── 2025-12/     # December 2025 incidents
-│       │   └── YYYY-MM-DD-slug.md
-│       └── 2026-01/     # January 2026 incidents
-│           └── YYYY-MM-DD-slug.md
-└── dev-docs/            # Developer documentation
+│   ├── run-server.sh    # Local dev server (uses wrangler)
+│   └── timestamp.sh     # Get current timestamp
+├── scripts/
+│   ├── generate_summary.py   # Creates incidents-summary.json
+│   └── process_media.py      # Compresses raw_media → docs/media
+├── raw_media/           # Source video/images (NEVER modified)
+└── docs/                # Website content (deployed to Cloudflare)
+    ├── index.html
+    ├── css/style.css
+    ├── js/              # See architecture.md for module details
+    ├── functions/       # Cloudflare Functions for path URLs
+    ├── incidents/       # ALL incident markdown files
+    │   ├── 2025-12/
+    │   └── 2026-01/
+    ├── media/           # Processed video/images
+    └── data/
+        ├── incidents-summary.json  # Auto-generated, don't edit
+        └── media-order.md          # Controls gallery ordering
 ```
 
-**IMPORTANT:** All incident files MUST be in `docs/incidents/`. There is no separate `incidents/` folder at the root level. The website serves directly from `docs/`.
-
-## Incident Markdown Schema
-
-Each incident file follows this exact format:
-
-```markdown
----
-date: YYYY-MM-DD
-time: HH:MM (if known, else "unknown")
-location: Specific location
-city: Minneapolis/St. Paul/etc
-type: citizens | observers | immigrants | schools-hospitals | response  # These 5 types only; comma-separate for multiple (e.g., "citizens, schools-hospitals")
-status: ongoing | resolved | under-investigation
-victim_citizenship: us-citizen | legal-resident | undocumented | asylum-seeker | unknown
-injuries: none | minor | serious | fatal
-trustworthiness: high | medium | low | unverified  # EXACTLY ONE value, no compounds like "medium-high"
-created: YYYY-MM-DDTHH:MM:SS      # REQUIRED: Exact time when file was created
-last_updated: YYYY-MM-DDTHH:MM:SS  # REQUIRED: Exact time of last MAJOR update
 ---
 
-### ⚠️ TIMESTAMP RULES (CRITICAL - Read Carefully!)
+## Dev-Docs Index
 
-**LLMs CANNOT BE TRUSTED TO KNOW THE CURRENT TIME.** You must run a command to get it.
+### Core Documentation
+| Doc | Contents |
+|-----|----------|
+| `architecture.md` | System design, JS module reference, CSS structure, Python scripts, media pipeline |
+| `incident-schema.md` | Frontmatter schema, body structure, source formatting |
+| `adding-incidents.md` | Step-by-step guide, duplicate checking, trustworthiness criteria |
 
-**To get the current timestamp, run:**
+### Code Quality
+| Doc | Contents |
+|-----|----------|
+| `code-review-findings.md` | File size analysis, dead code, duplication |
+| `refactoring-plan.md` | Modular split, new file structure |
+
+### URL & Navigation
+| Doc | Contents |
+|-----|----------|
+| `url-routing.md` | Path-based URLs, Cloudflare Functions, OG tags |
+| `single-page-navigation.md` | Hash navigation, section links |
+
+### UI & Media
+| Doc | Contents |
+|-----|----------|
+| `ui-patterns.md` | SVG icon pattern, available icons |
+| `media-controls.md` | Video player, fullscreen |
+| `adding-video-audio.md` | System audio capture |
+| `media-candidates.md` | Videos to research |
+
+### Research & Content
+| Doc | Contents |
+|-----|----------|
+| `research-sources.md` | News sources, social accounts |
+| `researching-responses.md` | Finding DHS/ICE responses |
+| `llm-search-procedure.md` | Daily search workflow |
+| `not_use.md` | Rejected stories |
+| `operation-parris.md` | Refugee detention context |
+| `notable-incidents.md` | Notable flag feature |
+
+### Operations & Deployment
+| Doc | Contents |
+|-----|----------|
+| `DEPLOYMENT.md` | Cloudflare, DNS, deployment |
+| `preview-deployments.md` | Testing branches |
+| `scaling-strategy.md` | Data metrics, thresholds |
+| `project-status.md` | Current state |
+
+### Social & Outreach
+| Doc | Contents |
+|-----|----------|
+| `social-media-listing-procedure.md` | Daily posts |
+| `outreach-templates.md` | Email templates |
+
+### Reference
+| Doc | Contents |
+|-----|----------|
+| `context-maintenance.md` | How to maintain this TOC system |
+| `meta-not-use.md` | About page story exclusions |
+| `social-posts-discussion.md` | Social posts ideas |
+| `media-complications-ice-tactics.md` | Media coverage links |
+
+---
+
+## Development Commands
+
 ```bash
+# Local dev server (includes Cloudflare Functions)
+./bin/run-server.sh
+
+# Simple server (no Functions)
+./bin/run-server.sh --simple
+
+# Process media files
+python-main scripts/process_media.py
+
+# Regenerate incidents JSON
+python-main scripts/generate_summary.py
+
+# Get current timestamp (ALWAYS use this)
 ./bin/timestamp.sh
 ```
 
-| When | What to do |
-|------|------------|
-| **Adding a new incident** | Run `./bin/timestamp.sh`, use output for BOTH `created` AND `last_updated` |
-| **Making a significant story update** | Run `./bin/timestamp.sh`, use output for `last_updated` |
+---
 
-**NEVER guess or make up a timestamp.** LLMs consistently fabricate plausible-looking times that are wrong.
+## For LLMs: Maintaining This System
 
-**Format:** Full ISO 8601 with seconds: `YYYY-MM-DDTHH:MM:SS`
+**When you create or significantly update a dev-doc:**
 
-### `last_updated` — When to Update (Important!)
-Only change `last_updated` for **substantive story developments**:
-- ✅ Case developments (ruling, release, charges filed)
-- ✅ Status changes (detained → released)
-- ✅ New facts emerge (identity confirmed, details corrected)
-- ❌ Adding more sources (doesn't change the story)
-- ❌ Formatting/typo fixes
+1. Check if CONTEXT.md's Quick Reference table needs updating
+2. Check if the Dev-Docs Index needs a new entry or updated description
+3. If the doc contains a rule that applies to many tasks, consider adding it to Critical Rules
 
-**When updating `last_updated`, ALSO add an `## Updates` section** after the title and before Summary:
-```markdown
-# Incident Title
+**When the user asks to "reindex" or "update the TOC":**
 
-## Updates
-- **Jan 20** - Description of what happened (not what you did)
+Read `dev-docs/context-maintenance.md` for the full procedure.
 
-## Summary
-```
-
-See `dev-docs/adding-incidents.md` for full rules.
-
-### Type Categories (exactly 5)
-| Type | Website Section | Use For |
-|------|-----------------|---------|
-| `citizens` | Citizens | U.S. citizens or legal residents **racially profiled or mistakenly targeted while going about daily life** (working, driving, shopping, walking) — targeted for who they are |
-| `observers` | Observers | People **detained or attacked for filming, observing, or protesting** ICE operations — targeted for what they were doing (First Amendment activity) |
-| `immigrants` | Immigrants | Non-criminal immigrants detained, **including workplace raids** |
-| `schools-hospitals` | Schools/Hospitals | Actions at/near schools or hospitals, including patient targeting and workplace audits |
-| `response` | Response | DHS/ICE official statements |
-
-**Citizens vs Observers:** Both may involve U.S. citizens being detained. The key distinction:
-- **Citizens** = Targeted for WHO THEY ARE (racial profiling, mistaken identity, just living their lives)
-- **Observers** = Targeted for WHAT THEY WERE DOING (actively filming, following, observing, protesting ICE)
-
-**Note:** Multiple types ARE allowed. Use comma-separated values when an incident fits multiple categories (e.g., `type: citizens, schools-hospitals`).
-
-# Incident Title
-
-## Summary
-Brief 2-3 sentence summary of what happened.
-
-## Sources
-1. [Source Title](URL) - Publication
-2. [Source Title](URL) - Publication
-- **Video:** [Description](URL) - Source
-- **Photo:** [Description](URL) - Source
-
-## Victim(s)
-- **Name:** (if public)
-- **Age:**
-- **Occupation:**
-- **Citizenship:**
-- **Background:** Brief relevant background
-
-## Timeline
-- **HH:MM** - Event 1
-- **HH:MM** - Event 2
-
-## Official Accounts
-
-### DHS/ICE Statement
-Quote or summary of official federal position.
-
-### Local Officials
-Statements from mayor, governor, police, etc.
-
-## Witness Accounts
-Direct quotes or summaries from witnesses.
-
-## Editorial Assessment
-**RATING** - Analysis of source reliability. RATING must be exactly one of: HIGH, MEDIUM, LOW, or UNVERIFIED.
-No compound ratings (e.g., "MEDIUM-HIGH" is invalid). Must match frontmatter `trustworthiness` value.
-```
-
-## Development Workflow
-
-### Setup (First Time)
-
-```bash
-# Install git hooks
-./scripts/setup-hooks.sh
-```
-
-This installs a pre-commit hook that automatically:
-1. Regenerates `docs/data/incidents-summary.json` from markdown files
-2. Cache busts `docs/index.html` with a timestamp
-
-### Local Development
-
-```bash
-# Run the local dev server
-./bin/run-server.sh
-
-# Or manually:
-python-main -m http.server 8000 --directory docs
-```
-
-### Adding New Incidents
-
-1. Create file in `docs/incidents/YYYY-MM/YYYY-MM-DD-slug.md`
-2. Follow the exact schema above (Summary → Sources → Victim(s) → ...)
-3. Ensure at least 2 corroborating sources for "high" trustworthiness
-4. **Run the summary generator** to update the JSON:
-   ```bash
-   python-main scripts/generate_summary.py
-   ```
-5. Test locally before pushing
-
-**IMPORTANT:** The `docs/data/incidents-summary.json` file is auto-generated by `scripts/generate_summary.py`. Do NOT edit this JSON file directly - it will be overwritten. Only edit the markdown incident files, then run the script. The pre-commit hook runs this automatically on every commit.
-
-### Adding Media (Videos/Images)
-
-1. **Add raw media to `raw_media/`** with naming: `<incident-id>.raw.mov` or `<incident-id>.raw.png`
-   - The incident-id matches the markdown filename (without `.md`)
-   - Example: `2026-01-13-bovino-cbs-interview.raw.mov` → matches `2026-01-13-bovino-cbs-interview.md`
-   - **IMPORTANT:** Files in `raw_media/` are NEVER modified by the pipeline - they are read-only source files
-2. **Run the media pipeline:**
-   ```bash
-   python-main scripts/process_media.py
-   ```
-   This reads from `raw_media/` and creates compressed versions in `docs/media/<incident-id>.mp4`
-   - Crops 5px from edges (removes screen recording artifacts)
-   - Preserves audio if present in source file
-   - Compresses for web delivery
-3. **Update `docs/data/media-order.md`** to control gallery display order
-   - Add the slug (the part after YYYY-MM-DD-) to desired position
-   - Example: add `bovino-cbs-interview` (not the full incident-id)
-4. **Commit** - the pre-commit hook auto-regenerates `incidents-summary.json`
-
-**IMPORTANT - Never use `--force` unless explicitly asked:**
-- The `--force` flag reprocesses ALL videos, which is slow and unnecessary
-- To reprocess a single video: delete the output in `docs/media/`, then run the pipeline
-- The pipeline only processes files where the output is missing or older than the source
-
-**Multi-part videos:**
-- For long videos split into multiple recordings, use `:01`, `:02` suffix pattern
-- Example: `2026-01-13-incident:01.raw.mov`, `2026-01-13-incident:02.raw.mov`
-- Pipeline validates sequence is complete, concatenates in order, outputs single file
-
-**IMPORTANT - Raw media is never modified:**
-- `raw_media/` contains original source files that are NEVER touched
-- `docs/media/` contains processed web-optimized versions
-- If source has no audio, output has no audio (macOS Cmd+Shift+5 requires enabling audio capture)
-
-**IMPORTANT - Never manually edit `incidents-summary.json`:**
-- The pre-commit hook runs `scripts/generate_summary.py` automatically
-- Media files are auto-detected by matching incident-id to files in `docs/media/`
-- Only edit markdown incident files; the JSON is regenerated from them
-
-### Deployment
-
-This site is deployed via Cloudflare Pages from the `docs/` folder.
-
-**Preview Deployments:** Feature branches automatically get preview URLs at `<branch-name>.mn-ice-witness-github-io.pages.dev` (e.g., `feature-path-based-urls.mn-ice-witness-github-io.pages.dev`). Only pushes to `main` update the production site. See `dev-docs/preview-deployments.md` for full details.
-
-## Key Guidelines
-
-1. **Check for Duplicates First:** Before adding a new incident, search existing files in `docs/incidents/` by location, date, victim name, and keywords. If the incident is already documented, **merge new information into the existing file** rather than creating a duplicate.
-2. **Sources First:** Never add an incident without at least one credible source
-3. **Neutral, Objective Language:** This site's credibility depends on factual, documentary tone. Avoid emotional, excited, or loaded language:
-   - Use "search" not "raid" or "ransack"
-   - Use "enter" not "storm" or "invade"
-   - Use "detained" not "kidnapped" or "snatched"
-   - Avoid editorializing words like "terrorize," "brutalize," "horrific," "shocking," "exclusive"
-   - Avoid excited phrasing like "breaking," "explosive," "bombshell"
-   - Report what happened factually; let readers draw their own conclusions
-   - Quotes from witnesses/victims can contain emotional language, but narrative text should not
-   - **Source descriptions:** Use plain, descriptive labels. Say "interview" not "exclusive interview." Say "video" not "shocking video."
-   - **For official statements:** Report what was said accurately, not your interpretation. If Trump says "vicious animals" referring to "murderers & criminals," don't editorialize that as "calling immigrants vicious animals." Let readers draw their own conclusions about the rhetoric.
-4. **Multiple Perspectives:** Include official statements even if disputed
-5. **Update Regularly:** Mark `last_updated` when new information emerges
-6. **Trustworthiness Ratings:** (see `dev-docs/adding-incidents.md` for full criteria)
-
-   **IMPORTANT:** Use exactly one of these four values. Do NOT use compound ratings like "medium-high".
-   - `high` = Strong evidence (see criteria below)
-   - `medium` = Moderate evidence
-   - `low` = Limited evidence, needs corroboration
-   - `unverified` = Reported but not confirmed
-
-   **HIGH** requires ANY of:
-   - 3+ independent sources
-   - Video/photo evidence from the incident
-   - Detailed investigative report from nationally recognized outlet (The Intercept, ProPublica, major newspaper) with named sources
-   - Single source with official corroboration (ICE/DHS confirmation, lawsuit filing, elected official statement)
-   - Single source with credible primary sources (named attorneys, direct victim interviews, public records)
-
-   **MEDIUM** requires ANY of:
-   - 2 independent sources
-   - Official statement only (DHS press release, without independent verification)
-   - Single source from established local outlet without additional corroboration
-
-   **LOW:**
-   - Single source from smaller outlet without corroboration
-   - Social media posts with limited news pickup
-
-   **Witness Corroboration Rule:**
-   Even well-reported incidents should be rated MEDIUM (not HIGH) if:
-   - No independent firsthand witnesses were present on scene to corroborate
-   - The account relies solely on the victim's or their family's statement
-   - The agency disputes the incident occurred (e.g., "zero record")
-
-7. **Research Official Responses:** When documenting any incident, always search for DHS/ICE official responses and add them to the Response tab. See `dev-docs/incident-schema.md` for the `response` type format.
-8. **Internal Links:** When linking to other incidents, use relative hash URLs: `[See related](#2026-01-15-incident-slug)`. Do NOT link to `.md` files or use absolute URLs. See `dev-docs/incident-schema.md` for details.
-
-## Researching Official Responses
-
-When documenting incidents, ALWAYS search for and document official federal responses:
-
-1. **DHS Press Releases:** https://www.dhs.gov/news-releases/press-releases
-2. **ICE News Releases:** https://www.ice.gov/news/releases
-3. **X/Twitter accounts:** @DHSgov, @ICEgov
-4. **Major news coverage:** Search "[incident] DHS statement" or "ICE response [location]"
-
-Document responses even when claims are disputed. Include the official position and note discrepancies with other evidence.
+**The goal:** An LLM reading only CONTEXT.md should:
+- Know all critical rules that apply to most tasks
+- Know exactly which dev-doc to read for any specific task
+- Never miss important rules because they're buried in detail
