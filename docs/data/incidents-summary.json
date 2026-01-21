@@ -1,6 +1,30 @@
 {
-  "mediaVersion": 1768971446,
+  "mediaVersion": 1768973518,
   "incidents": [
+    {
+      "filePath": "incidents/2026-01/2026-01-20-trump-mistakes-happen.md",
+      "title": "Trump on ICE Violence: \"Mistakes Happen\" While Focusing on \"Murderers\"",
+      "summary": "At a White House briefing marking one year in office, President Trump acknowledged ICE agents \"make mistakes sometimes\" while defending enforcement operations. Like DHS Secretary Noem, Trump redirected attention to criminal deportees, flipping through pages of arrest records and stating agents are \"apprehending murderers and drug dealers.\" The statement drew criticism for dismissing documented civil rights abuses as isolated errors when evidence suggests a systemic pattern of racial profiling and excessive force.",
+      "latestUpdate": null,
+      "date": "2026-01-20",
+      "time": "unknown",
+      "location": "White House Briefing",
+      "city": "Washington D.C.",
+      "type": "response",
+      "status": "resolved",
+      "victimCitizenship": "unknown",
+      "injuries": "none",
+      "trustworthiness": "high",
+      "created": "2026-01-20T23:28:36",
+      "lastUpdated": "2026-01-20T23:28:36",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaFiles": [],
+      "aspectRatio": null
+    },
     {
       "filePath": "incidents/2026-01/2026-01-20-brooklyn-park-officer-citizen-check.md",
       "title": "Metro Police Chiefs Call for End to Racially Discriminatory Citizen Checks / Civil Rights Violations; Off-Duty Officer Stopped at Gunpoint",

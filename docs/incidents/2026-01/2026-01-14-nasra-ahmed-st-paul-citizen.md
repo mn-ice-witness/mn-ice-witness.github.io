@@ -30,6 +30,7 @@ Nasra Mohamed Ahmed, a 23-year-old U.S. citizen born in Hennepin County, was det
 7. Facebook post: [Community member account](https://www.facebook.com/story.php?story_fbid=25714350694874522&id=100001788329163) - Notes she was on her way to pick up a prescription
 8. Facebook post (Somlai): [Personal account](https://www.facebook.com/100078874290085/posts/869036045735531/)
 9. Facebook post: [Community member calling for legal action](https://www.facebook.com/story.php?story_fbid=25740710055571919&id=100001788329163)
+10. X post (Furkan Gözükara): [Video interview with Nasra Ahmed](https://x.com/FurkanGozukara/status/2013229204947554494)
 
 ## Victim(s)
 - **Name:** Nasra Mohamed Ahmed
