@@ -156,6 +156,17 @@ const ViewState = {
                 toggle.classList.toggle('list-active', this.currentView === 'list' && !this.sortByUpdated);
             }
 
+            // Update nav visibility
+            const sectionNav = document.getElementById('section-nav');
+            if (sectionNav && this.currentView === 'list') {
+                sectionNav.style.display = this.sortByUpdated ? 'none' : '';
+            }
+
+            // Update URL to /list
+            if (this.currentView === 'list') {
+                window.history.replaceState({}, '', Router.buildUrl('list'));
+            }
+
             // Re-render via App
             if (typeof App !== 'undefined') {
                 App.render();

@@ -21,5 +21,6 @@ else
     echo "Starting Cloudflare Pages local development server..."
     echo "This includes full Functions support for path-based URLs."
     echo ""
-    npx wrangler pages dev docs --port 8000
+    trap 'echo ""; echo "Server stopped."' EXIT
+    npx wrangler pages dev docs --port 8000 --ip 0.0.0.0
 fi
