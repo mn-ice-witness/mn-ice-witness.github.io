@@ -3,7 +3,7 @@ date: 2026-01-20
 time: unknown
 location: Minnesota State Capitol
 city: St. Paul
-type: response
+type: citizens
 status: ongoing
 victim_citizenship: us-citizen
 injuries: none
@@ -12,7 +12,7 @@ created: 2026-01-20T13:39:51
 last_updated: 2026-01-20T13:39:51
 ---
 
-# Metro Police Chiefs Call for End to Racially Discriminatory Citizen Checks
+# Metro Police Chiefs Call for End to Civil Rights Violations / Racially Discriminatory Citizen Checks
 
 ## Summary
 Three Twin Cities law enforcement leaders held a joint press conference at the Minnesota State Capitol on January 20 to address a pattern of ICE agents conducting racially discriminatory citizenship checks on people of color. Brooklyn Park Police Chief Mark Bruley stated his department has received "endless complaints about civil rights violations in our streets from US citizens" over the previous two weeks, with citizens being stopped without cause and forced to show paperwork. One such incident involved an [off-duty Brooklyn Park officer who was stopped at gunpoint](/entry/2026-01-20-brooklyn-park-officer-gunpoint). Hennepin County Sheriff Dawanna Witt called the incidents "concrete examples of profiling." St. Paul Police Chief Axel Henry said "people are scared to death, afraid to go outside."
