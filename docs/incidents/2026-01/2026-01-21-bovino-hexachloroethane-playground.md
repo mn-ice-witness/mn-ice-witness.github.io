@@ -12,7 +12,7 @@ created: 2026-01-21T17:37:01
 last_updated: 2026-01-21T17:37:01
 ---
 
-# Border Patrol Deploys Toxic Green Gas Near School at Dismissal (UNVERIFIED)
+# Border Patrol Commander Greg Bovino Deploys Toxic Green Gas Near School at Dismissal (UNVERIFIED)
 
 ***No mainstream media has reported on this incident. It is based on social media posts only. If you have a media source, please [contact us](mailto:mnicewitness@proton.me).***
 
