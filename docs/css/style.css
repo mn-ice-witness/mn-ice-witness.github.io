@@ -1242,6 +1242,25 @@ body {
     flex-shrink: 0;
 }
 
+.social-icons {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 36px;
+}
+
+.social-icons a {
+    color: #999;
+    text-decoration: none;
+    margin-left: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.social-icons a:hover {
+    color: #4a90d9;
+    text-decoration: none;
+}
+
 .about-content {
     max-width: 700px;
 }
