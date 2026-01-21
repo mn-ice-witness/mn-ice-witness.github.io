@@ -369,6 +369,10 @@ const App = {
 
         const categoryPrefix = showCategory ? `<span class="category-label">${label}:</span> ` : '';
 
+        const mediaIcon = incident.hasLocalMedia ? `
+            <svg class="media-icon" viewBox="0 0 24 24" width="16" height="16"><use href="#icon-camera"/></svg>
+        ` : '';
+
         const viewedIcon = viewed ? `
             <svg class="viewed-icon" viewBox="0 0 24 24" width="16" height="16"><use href="#icon-eye"/></svg>
         ` : '';
@@ -384,6 +388,7 @@ const App = {
                     <span class="row-location">${incident.location}</span>
                 </div>
                 <div class="row-meta">
+                    ${mediaIcon}
                     ${viewedIcon}
                 </div>
             </article>
