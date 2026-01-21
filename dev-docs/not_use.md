@@ -300,7 +300,7 @@ Stories are excluded when they don't meet the project's core focus:
 - Source: [Bring Me The News](https://bringmethenews.com/minnesota-news/video-shows-ice-agent-enter-st-paul-restaurant-with-gun-drawn-during-street-search)
 - Date: January 20, 2026
 - Details: ICE agent entered East Side Thai restaurant (879 Payne St, St. Paul) with gun drawn while chasing a suspect. Agent accused owners of hiding the suspect, who had actually run past the business. Owner Kou Vang posted video to Facebook saying everyone was "ok, just a little traumatized."
-- Reason: No civil rights violation - no detention, no arrest. Agent entered during street pursuit and left.
+- Reason: No civil rights violation - no detention, no arrest. Agent entered during street pursuit and left. Similar to North Star Deli.
 - Date evaluated: 2026-01-21
 
 **Sun World Supermarket Arrest (Jan 20)**
