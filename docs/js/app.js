@@ -155,12 +155,22 @@ const App = {
 
     /**
      * Scroll to a section in list view
+     * Maps URL category names to section type IDs (e.g., 'schools' -> 'schools-hospitals')
      */
-    scrollToSection(hash) {
+    scrollToSection(category) {
+        const sectionId = this.categoryToSectionId(category);
         setTimeout(() => {
-            const el = document.getElementById(hash);
+            const el = document.getElementById(sectionId);
             if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
         }, 100);
+    },
+
+    /**
+     * Map URL category to section type ID
+     */
+    categoryToSectionId(category) {
+        if (category === 'schools') return 'schools-hospitals';
+        return category;
     },
 
     // ==================== SEARCH & FILTER ====================

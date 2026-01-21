@@ -36,6 +36,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 90px;
 }
 
 body {
@@ -843,7 +844,6 @@ body {
 
 .incident-section {
     margin-top: 16px;
-    scroll-margin-top: 50px;
 }
 
 .flat-list {
