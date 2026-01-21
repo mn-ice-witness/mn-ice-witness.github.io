@@ -12,7 +12,7 @@ created: 2026-01-20T23:28:36
 last_updated: 2026-01-20T23:28:36
 ---
 
-# Trump on ICE Violence: "Mistakes Happen" While Focusing on "Murderers"
+# Trump on ICE Violence: "Mistakes Happen" While Focusing on "Murders and Criminals"
 
 ## Summary
 At a White House briefing marking one year in office, President Trump acknowledged ICE agents "make mistakes sometimes" while defending enforcement operations. Like DHS Secretary Noem, Trump redirected attention to criminal deportees, flipping through pages of arrest records and stating agents are "apprehending murderers and drug dealers." The statement drew criticism for dismissing documented civil rights abuses as isolated errors when evidence suggests a systemic pattern of racial profiling and excessive force.
