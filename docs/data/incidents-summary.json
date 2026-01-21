@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768973518,
+  "mediaVersion": 1768973709,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-20-trump-mistakes-happen.md",
@@ -19,11 +19,16 @@
       "lastUpdated": "2026-01-20T23:28:36",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": [],
-      "aspectRatio": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-20-trump-mistakes-happen.mp4",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-20-trump-mistakes-happen.mp4"
+        }
+      ],
+      "aspectRatio": 0.6055555555555555
     },
     {
       "filePath": "incidents/2026-01/2026-01-20-brooklyn-park-officer-citizen-check.md",
