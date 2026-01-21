@@ -12,19 +12,30 @@ If ~/.context.md doesn't exist, notify the user.
 
 **BEFORE making changes, read the `dev-docs/` folder:**
 
-1. `dev-docs/architecture.md` - System design and file structure
+**Core Documentation:**
+1. `dev-docs/architecture.md` - **Read first** - System design, JS module reference, CSS structure
 2. `dev-docs/incident-schema.md` - Exact markdown format for incidents
 3. `dev-docs/adding-incidents.md` - Step-by-step guide to add incidents
-4. `dev-docs/research-sources.md` - Where to find and verify incidents
-5. `dev-docs/researching-responses.md` - How to find and document official federal responses
-6. `dev-docs/project-status.md` - Current state and pending work
-7. `dev-docs/not_use.md` - Stories evaluated and rejected (check before adding new incidents)
-8. `dev-docs/llm-search-procedure.md` - Step-by-step guide for LLMs to search for new incidents
-9. `dev-docs/media-controls.md` - Video player controls strategy and fullscreen implementation
-10. `dev-docs/social-media-listing-procedure.md` - How to generate daily Bluesky update posts
-11. `dev-docs/ui-patterns.md` - **Read when doing UI work** - Reusable UI patterns (SVG icons, copy-to-clipboard, etc.)
-12. `dev-docs/url-routing.md` - **Read when doing URL/routing work** - Path-based URLs, Cloudflare Functions, social media sharing
-13. `dev-docs/preview-deployments.md` - **Read when testing branches** - How to use Cloudflare preview deployments for testing
+
+**Code Quality (read when modifying code):**
+4. `dev-docs/code-review-findings.md` - **Read when modifying JS/CSS** - File analysis, dead code, duplication
+5. `dev-docs/refactoring-plan.md` - **Read when restructuring** - Modular split recommendations
+
+**Feature-Specific:**
+6. `dev-docs/url-routing.md` - **Read when doing URL/routing work** - Path-based URLs, Cloudflare Functions
+7. `dev-docs/media-controls.md` - Video player controls strategy and fullscreen implementation
+8. `dev-docs/ui-patterns.md` - **Read when doing UI work** - Reusable UI patterns (SVG icons, copy-to-clipboard)
+
+**Research & Content:**
+9. `dev-docs/research-sources.md` - Where to find and verify incidents
+10. `dev-docs/researching-responses.md` - How to find and document official federal responses
+11. `dev-docs/llm-search-procedure.md` - Step-by-step guide for LLMs to search for new incidents
+12. `dev-docs/not_use.md` - Stories evaluated and rejected (check before adding new incidents)
+13. `dev-docs/social-media-listing-procedure.md` - How to generate daily Bluesky update posts
+
+**Operations:**
+14. `dev-docs/project-status.md` - Current state and pending work
+15. `dev-docs/preview-deployments.md` - **Read when testing branches** - Cloudflare preview deployments
 
 These docs are the source of truth for how this project works.
 
