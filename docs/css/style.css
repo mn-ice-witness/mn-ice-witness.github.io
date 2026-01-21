@@ -1261,6 +1261,7 @@ body {
 .social-icons a:hover {
     color: #4a90d9;
     text-decoration: none;
+    border-bottom-color: transparent;
 }
 
 .about-content {
@@ -1879,16 +1880,33 @@ body {
 }
 
 /* About page social media icons */
-.about-content a[href^="mailto"],
-.about-content a[href^="https://x.com"],
-.about-content a[href^="https://bsky.app"] {
+.about-content .about-social a {
+    text-decoration: none !important;
+    border-bottom: none !important;
+    color: #999;
+    cursor: pointer;
+    pointer-events: auto;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+}
+
+.about-content .about-social a:hover {
+    color: #4a90d9 !important;
     text-decoration: none !important;
     border-bottom: none !important;
 }
 
-.about-content a[href^="mailto"]:hover,
-.about-content a[href^="https://x.com"]:hover,
-.about-content a[href^="https://bsky.app"]:hover {
+.about-content .about-social a:hover svg {
+    fill: #4a90d9;
+}
+
+.about-content a[href^="mailto"] {
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
+.about-content a[href^="mailto"]:hover {
     color: #7ba3c9 !important;
     text-decoration: none !important;
 }
