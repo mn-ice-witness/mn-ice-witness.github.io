@@ -115,7 +115,7 @@ Use documentary tone. Let facts speak for themselves.
 | **Scaling concerns** | `scaling-strategy.md` |
 | **Notable incidents feature** | `notable-incidents.md` |
 | **Operation PARRIS context** | `operation-parris.md` |
-| **Outreach/sharing** | `outreach-templates.md` |
+| **Outreach/sharing** | `outreach-templates.md`, `contacts.md` |
 
 ---
 
@@ -198,6 +198,7 @@ GIT_MN_ICE_FILES/
 ### Social & Outreach
 | Doc | Contents |
 |-----|----------|
+| `contacts.md` | Official site URL, email, social media handles |
 | `social-media-listing-procedure.md` | Daily posts |
 | `outreach-templates.md` | Email templates |
 
