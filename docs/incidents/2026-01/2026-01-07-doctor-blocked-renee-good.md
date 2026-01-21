@@ -30,6 +30,11 @@ After ICE agent Jonathan Ross shot Renee Good, a bystander who identified himsel
 7. Star Tribune (Jan 2026): [Should ICE agents have refused bystander medical help at shooting scene?](https://www.startribune.com/should-ice-agents-have-refused-bystander-medical-help-at-shooting-scene/601560462)
 8. BP Daily (Jan 2026): ["I Don't Care": Video Shows ICE Agent Rejecting Doctor's Help For Shooting Victim Renee Good](https://www.bpdaily.com/ice-agent-dont-care-medical-help-renee-good/)
 9. Threads/@aaronparnas (Jan 2026): [Post about doctor blocked from helping Renee Good](https://www.threads.com/@aaronparnas/post/DTwVrTvkoXQ)
+10. CNN (Jan 16, 2026): [911 transcripts and incident report reveal where Minneapolis mother was shot](https://www.cnn.com/2026/01/16/us/renee-good-shooting-incident-report)
+11. APM Reports (Jan 17, 2026): [ICE agents didn't use CPR after Jonathan Ross shot Renee Macklin Good](https://www.apmreports.org/story/2026/01/17/ice-agents-didnt-use-cpr-after-jonathan-ross-shot-renee-macklin-good-in-minneapolis)
+12. KARE 11 (Jan 2026): [Man claiming to be physician denied ability to check on Renee Good after shooting](https://www.kare11.com/article/news/local/ice-in-minnesota/watch-man-claiming-to-be-physician-denied-ability-to-check-on-renee-good-shooting/89-47b9c154-b278-49dd-9560-33cc1a8ae751)
+13. IBTimes (Jan 2026): [Renee Good Was Still Alive When ICE Blocked Aid With an 'I Don't Care' Response](https://www.ibtimes.com/renee-good-was-still-alive-when-ice-blocked-aid-i-dont-care-response-3795730)
+14. WBAL TV (Jan 2026): [911 transcripts, incident report details fatal ICE shooting of Renee Good](https://www.wbaltv.com/article/minneapolis-ice-shooting-renee-good/70020427)
 - **VIDEO:** Facebook Reel: [ICE blocks doctor from helping Renee Good](https://www.facebook.com/reel/1613959399783824)
 
 ## Victim(s)
