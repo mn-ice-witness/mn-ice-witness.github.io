@@ -268,7 +268,7 @@ const App = {
      * Render the incident list
      */
     render() {
-        const container = document.querySelector('.main-content');
+        const container = document.getElementById('list-view');
         if (!container) return;
 
         const filtered = this.getFilteredIncidents();
