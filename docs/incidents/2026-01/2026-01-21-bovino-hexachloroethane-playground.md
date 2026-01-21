@@ -12,13 +12,17 @@ created: 2026-01-21T17:37:01
 last_updated: 2026-01-21T17:37:01
 ---
 
-# Border Patrol Commander Greg Bovino Deploys Toxic Green Gas Near School at Dismissal (UNVERIFIED)
+# Border Patrol Commander Greg Bovino Deploys Hexachloroethane Gas Near School at Dismissal (UNVERIFIED)
 
 ***No mainstream media has reported on this incident. It is based on social media posts only. If you have a media source, please [contact us](mailto:mnicewitness@proton.me).***
 
 ## Summary
 
-Border Patrol Commander Greg Bovino and agents allegedly deployed multiple canisters of green chemical gas at Mueller Park, near Ella Baker Global Studies & Humanities Magnet School, just after school dismissal. A school bus was reportedly forced to drive through the gas while transporting students home.
+Border Patrol Commander Greg Bovino and agents allegedly deployed multiple canisters of hexachloroethane (HC) gas at Mueller Park, near Ella Baker Global Studies & Humanities Magnet School, just after school dismissal. A school bus was reportedly forced to drive through the gas while transporting students home.
+
+Hexachloroethane is classified as a chemical weapon under the [Chemical Weapons Convention](https://en.wikipedia.org/wiki/Hexachloroethane) and is banned from use in international warfare. The U.S. military phased out HC smoke grenades after a [1994 Army report](https://cbrneworld.com/privacy?view=article&id=1782:were-toxic-chemical-grenades-used-in-portland&catid=2) found that "exposure of unprotected soldiers to high concentrations of HC smoke for even a few minutes has resulted in injuries and fatalities."
+
+The [EPA classifies hexachloroethane](https://www.epa.gov/sites/default/files/2016-09/documents/hexachloroethane.pdf) as a possible human carcinogen. The [Department of Health and Human Services](https://wwwn.cdc.gov/Tsp/ToxFAQs/ToxFAQsDetails.aspx?faqid=869&toxid=169) has determined it "may reasonably be anticipated to be a carcinogen." Health effects include central nervous system depression, kidney and liver damage, and respiratory injuries ranging from coughing to [pulmonary edema, acute respiratory distress syndrome, and death](https://pmc.ncbi.nlm.nih.gov/articles/PMC1459933/). When burned, HC produces toxic byproducts including phosgene.
 
 ## Sources
 
@@ -37,10 +41,6 @@ According to social media accounts:
 - Protesters were standing on public sidewalks filming, not blocking vehicles
 - Gas was thrown toward the park and playground, not into the street
 - Agents then walked onto public sidewalk and assaulted people recording
-
-## Health Concerns
-
-The green gas is consistent with hexachloroethane (HC), which causes burning skin/eyes, coughing, vomiting, chest pain, and respiratory injury. It poses risk of long-term lung damage and is especially dangerous for children, infants, pregnant people, and those with asthma. The U.S. military stopped using HC decades ago due to its toxicity.
 
 ## Background
 
