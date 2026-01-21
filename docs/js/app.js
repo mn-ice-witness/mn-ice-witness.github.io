@@ -366,17 +366,6 @@ const App = {
 
         const categoryPrefix = showCategory ? `<span class="category-label">${label}:</span> ` : '';
 
-        const trustTooltips = {
-            high: '3+ sources with video/photo',
-            medium: '2 sources or official',
-            low: 'Single source',
-            unverified: 'Not yet confirmed'
-        };
-
-        const mediaIcon = incident.hasLocalMedia ? `
-            <svg class="media-icon" viewBox="0 0 24 24" width="16" height="16"><use href="#icon-camera"/></svg>
-        ` : '';
-
         const viewedIcon = viewed ? `
             <svg class="viewed-icon" viewBox="0 0 24 24" width="16" height="16"><use href="#icon-eye"/></svg>
         ` : '';
@@ -392,10 +381,6 @@ const App = {
                     <span class="row-location">${incident.location}</span>
                 </div>
                 <div class="row-meta">
-                    ${mediaIcon}
-                    <span class="trust-badge trust-${incident.trustworthiness}" data-tooltip="${trustTooltips[incident.trustworthiness]}">
-                        ${incident.trustworthiness.toUpperCase()}
-                    </span>
                     ${viewedIcon}
                 </div>
             </article>
