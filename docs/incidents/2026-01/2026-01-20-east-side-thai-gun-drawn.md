@@ -7,7 +7,7 @@ type: schools-hospitals
 status: resolved
 victim_citizenship: us-citizen
 injuries: none
-trustworthiness: medium
+trustworthiness: high
 created: 2026-01-21T08:02:53
 last_updated: 2026-01-21T08:02:53
 ---
@@ -47,4 +47,4 @@ No statement found addressing this specific incident.
 This incident occurred during intensive ICE operations on St. Paul's East Side. The same day, Mayor Kaohly Her expressed fury after a 57-year-old U.S. citizen was marched out of his home wearing only boxers, Crocs, and a blanket in the same neighborhood.
 
 ## Editorial Assessment
-**MEDIUM** - Video evidence exists from the business owner's own recording. The incident was covered by Bring Me The News with direct quotes from the owner's social media post. However, there is only one news source and no official response or independent witness corroboration beyond the owner's account. The owner's Facebook video serves as primary evidence.
+**HIGH** - Video evidence exists from the business owner's own recording showing the agent entering with gun drawn. Named source (Kou Vang, co-owner) posted the video to Facebook with direct statement. Covered by Bring Me The News.

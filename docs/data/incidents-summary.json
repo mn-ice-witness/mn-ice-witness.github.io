@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1769004229,
+  "mediaVersion": 1769004334,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-20-trump-mistakes-happen.md",
@@ -43,7 +43,7 @@
       "status": "resolved",
       "victimCitizenship": "us-citizen",
       "injuries": "none",
-      "trustworthiness": "medium",
+      "trustworthiness": "high",
       "created": "2026-01-21T08:02:53",
       "lastUpdated": "2026-01-21T08:02:53",
       "mediaCount": 1,
