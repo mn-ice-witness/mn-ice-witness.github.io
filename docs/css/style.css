@@ -1229,7 +1229,7 @@ body {
 
 .share-btn:hover {
     background: var(--color-border);
-    color: var(--color-text);
+    color: #7ba3c9;
 }
 
 .share-btn.copied {
@@ -1825,4 +1825,49 @@ body {
     border-bottom: none;
     margin-bottom: 0;
     padding-bottom: 0;
+}
+
+/* Header anchor links */
+.header-link,
+.header-link:link,
+.header-link:visited,
+.header-link:hover,
+.header-link:active {
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
+.header-link {
+    color: #ccc !important;
+    margin-left: 0.3em;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.header-link:hover {
+    color: #7ba3c9 !important;
+}
+
+.header-link svg {
+    width: 16px;
+    height: 16px;
+}
+
+.header-link.copied {
+    color: #1a7f37 !important;
+}
+
+/* About page social media icons */
+.about-content a[href^="mailto"],
+.about-content a[href^="https://x.com"],
+.about-content a[href^="https://bsky.app"] {
+    text-decoration: none !important;
+    border-bottom: none !important;
+}
+
+.about-content a[href^="mailto"]:hover,
+.about-content a[href^="https://x.com"]:hover,
+.about-content a[href^="https://bsky.app"]:hover {
+    color: #7ba3c9 !important;
+    text-decoration: none !important;
 }

@@ -5,6 +5,7 @@ const App = {
     sortByUpdated: false,
     viewedIncidents: new Set(),
     sectionHashes: ['citizens', 'observers', 'immigrants', 'schools', 'response'],
+    aboutHashes: ['federal-position', 'the-data', 'what-this-site-documents', 'purpose', 'sources-used', 'investigations', 'operation-parris', 'trustworthiness', 'legal-observation'],
     isScrollingToSection: false,
     categoryLabels: {
         'citizens': 'CITIZEN',
@@ -134,6 +135,12 @@ const App = {
             return;
         }
 
+        if (this.aboutHashes.includes(hash)) {
+            this.switchView('media', true);
+            Lightbox.openAbout(hash);
+            return;
+        }
+
         if (hash.startsWith('new-updated-')) {
             this.switchView('media', true);
             const dateStr = hash.replace('new-updated-', '');
@@ -181,6 +188,11 @@ const App = {
 
         if (hash === 'about') {
             Lightbox.openAbout();
+            return;
+        }
+
+        if (this.aboutHashes.includes(hash)) {
+            Lightbox.openAbout(hash);
             return;
         }
 

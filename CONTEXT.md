@@ -22,6 +22,7 @@ If ~/.context.md doesn't exist, notify the user.
 8. `dev-docs/llm-search-procedure.md` - Step-by-step guide for LLMs to search for new incidents
 9. `dev-docs/media-controls.md` - Video player controls strategy and fullscreen implementation
 10. `dev-docs/social-media-listing-procedure.md` - How to generate daily Bluesky update posts
+11. `dev-docs/ui-patterns.md` - **Read when doing UI work** - Reusable UI patterns (SVG icons, copy-to-clipboard, etc.)
 
 These docs are the source of truth for how this project works.
 

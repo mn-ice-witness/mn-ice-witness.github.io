@@ -30,8 +30,8 @@ const Lightbox = {
 
     handlePopState(e) {
         if (e.state && e.state.lightbox) {
-            if (e.state.slug === 'about') {
-                this.showAbout();
+            if (e.state.slug === 'about' || App.aboutHashes.includes(e.state.slug)) {
+                this.showAbout(e.state.slug === 'about' ? null : e.state.slug);
             } else if (e.state.slug && e.state.slug.startsWith('new-updated-')) {
                 const dateStr = e.state.slug.replace('new-updated-', '');
                 this.returnToNewUpdated = dateStr;
@@ -44,6 +44,11 @@ const Lightbox = {
                 this.showIncident(e.state.slug);
             }
         } else if (this.isOpen()) {
+            // Don't close if we're on an about hash (came directly via URL)
+            const hash = window.location.hash.slice(1);
+            if (hash === 'about' || App.aboutHashes.includes(hash)) {
+                return;
+            }
             this.closeLightbox();
         }
     },
@@ -76,20 +81,28 @@ const Lightbox = {
         await this.renderIncidentContent(incident);
     },
 
-    async openAbout() {
+    async openAbout(anchor) {
         this.bodyElement.innerHTML = '<div class="table-loading">Loading...</div>';
         this.element.setAttribute('aria-hidden', 'false');
         document.body.style.overflow = 'hidden';
 
-        this.currentSlug = 'about';
-        if (window.location.hash !== '#about') {
-            history.pushState({ lightbox: true, slug: 'about' }, '', '#about');
+        const targetHash = anchor || 'about';
+        this.currentSlug = targetHash;
+        if (window.location.hash !== '#' + targetHash) {
+            history.pushState({ lightbox: true, slug: targetHash }, '', '#' + targetHash);
             this.openedViaPushState = true;
         } else {
+            // Set state even when coming directly via URL so popstate works correctly
+            history.replaceState({ lightbox: true, slug: targetHash }, '', '#' + targetHash);
             this.openedViaPushState = false;
         }
 
         await this.renderAboutContent();
+
+        if (anchor) {
+            const el = this.bodyElement.querySelector('#' + anchor);
+            if (el) el.scrollIntoView({ behavior: 'smooth' });
+        }
     },
 
     open404(hash) {
@@ -365,16 +378,19 @@ const Lightbox = {
         }
     },
 
-    async showAbout() {
+    async showAbout(anchor) {
         this.bodyElement.innerHTML = '<div class="table-loading">Loading...</div>';
         this.element.setAttribute('aria-hidden', 'false');
         document.body.style.overflow = 'hidden';
 
-        this.currentSlug = 'about';
+        this.currentSlug = anchor || 'about';
 
         await this.renderAboutContent();
 
-        if (this.savedScrollPositions['about']) {
+        if (anchor) {
+            const el = this.bodyElement.querySelector('#' + anchor);
+            if (el) el.scrollIntoView({ behavior: 'smooth' });
+        } else if (this.savedScrollPositions['about']) {
             this.bodyElement.scrollTop = this.savedScrollPositions['about'];
             delete this.savedScrollPositions['about'];
         }
@@ -424,13 +440,63 @@ const Lightbox = {
 
         this.bodyElement.querySelector('.share-btn')?.addEventListener('click', () => this.copyShareLink());
 
+        // Handle header anchor links (copy to clipboard + update URL)
+        this.bodyElement.querySelectorAll('.header-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const id = link.getAttribute('href')?.slice(1);
+                if (id) {
+                    const url = window.location.href.split('#')[0] + '#' + id;
+                    navigator.clipboard.writeText(url);
+                    history.replaceState(null, '', '#' + id);
+                    link.classList.add('copied');
+                    setTimeout(() => {
+                        link.classList.remove('copied');
+                    }, 1500);
+                }
+            });
+        });
+
         this.bodyElement.querySelectorAll('a[href^="#"]').forEach(link => {
+            // Skip header-links (handled above)
+            if (link.classList.contains('header-link')) return;
             const slug = link.getAttribute('href').slice(1);
             if (slug && slug !== 'about') {
                 link.addEventListener('click', (e) => {
                     e.preventDefault();
                     this.openIncidentBySlug(slug);
                 });
+            }
+        });
+
+        // Update URL based on scroll position
+        this.bodyElement.addEventListener('scroll', () => {
+            const scrollTop = this.bodyElement.scrollTop;
+            const hash = window.location.hash.slice(1);
+
+            // If near top, change to #about
+            if (scrollTop < 100) {
+                if (hash !== 'about' && App.aboutHashes.includes(hash)) {
+                    history.replaceState({ lightbox: true, slug: 'about' }, '', '#about');
+                    this.currentSlug = 'about';
+                }
+                return;
+            }
+
+            // Find which section we're in based on scroll position
+            const sections = this.bodyElement.querySelectorAll('[id]');
+            let currentSection = 'about';
+            for (const section of sections) {
+                if (section.offsetTop <= scrollTop + 150) {
+                    if (App.aboutHashes.includes(section.id)) {
+                        currentSection = section.id;
+                    }
+                }
+            }
+
+            if (hash !== currentSection) {
+                history.replaceState({ lightbox: true, slug: currentSection }, '', '#' + currentSection);
+                this.currentSlug = currentSection;
             }
         });
     },
