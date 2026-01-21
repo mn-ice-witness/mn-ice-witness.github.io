@@ -22,6 +22,10 @@ An off-duty Brooklyn Park police officer, described as a woman of color, was sto
 2. [Twin Cities law enforcement raises concerns about ICE agents racially profiling citizens](https://www.kare11.com/article/news/local/ice-in-minnesota/twin-cities-law-enforcement-raises-concerns-about-ice-agents-racially-profiling-citizens/89-80f7b210-df6f-4516-9c05-20cf8890c7bb) - KARE 11
 3. [ICE agents pull guns on police officers 'of color' and demand papers: MN chief](https://www.rawstory.com/ice-racial-profiling-2674912991/) - Raw Story
 4. [Minnesota police chiefs say federal agents are pulling over cops and demanding papers](https://www.alternet.org/minnesota-ice/) - Alternet
+5. [Off-duty Twin Cities officers among those "targeted" by ICE agents](https://www.cbsnews.com/minnesota/news/off-duty-twin-cities-officers-profiled-ice/) - CBS Minnesota
+6. [Minnesota police chiefs allege some ICE agents racially profiled US citizens](https://www.foxnews.com/us/minnesota-police-chiefs-allege-some-ice-agents-racially-profiled-us-citizens-including-off-duty-officers) - Fox News
+7. [ICE targeted off-duty officers in Twin Cities, local police say](https://www.washingtonpost.com/immigration/2026/01/21/minnesota-minneapolis-off-duty-police-targeted-ice/) - Washington Post
+8. [Off-duty Minnesota officers allege racial profiling by ICE](https://www.fox9.com/news/offduty-minnesota-officers-allege-ice-racial-profiling-jan-2026) - Fox 9
 - **Social Media:** [Aaron Rupar post with video](https://bsky.app/profile/atrupar.com/post/3mcuopvhabn2r) - Bluesky
 - **Social Media:** [Aaron Rupar post](https://x.com/atrupar/status/2013664998908739946) - X/Twitter
 

@@ -5,7 +5,9 @@ const App = {
     sortByUpdated: false,
     viewedIncidents: new Set(),
     sectionHashes: ['citizens', 'observers', 'immigrants', 'schools', 'response'],
-    aboutHashes: ['federal-position', 'the-data', 'what-this-site-documents', 'purpose', 'sources-used', 'investigations', 'operation-parris', 'trustworthiness', 'legal-observation'],
+    aboutSections: ['federal-position', 'the-data', 'what-this-site-documents', 'purpose', 'sources-used', 'investigations', 'operation-parris', 'trustworthiness', 'legal-observation'],
+    // Keep aboutHashes as alias for backwards compatibility
+    get aboutHashes() { return this.aboutSections; },
     isScrollingToSection: false,
     categoryLabels: {
         'citizens': 'CITIZEN',
@@ -13,6 +15,90 @@ const App = {
         'immigrants': 'IMMIGRANT',
         'schools-hospitals': 'SCHOOL',
         'response': 'RESPONSE'
+    },
+
+    // URL routing helpers
+    buildUrl(type, slug = null) {
+        // Build clean path-based URLs
+        switch (type) {
+            case 'incident':
+                return `/incident/${slug}`;
+            case 'about':
+                return slug ? `/about/${slug}` : '/about';
+            case 'list':
+                return slug ? `/list/${slug}` : '/list';
+            case 'home':
+            default:
+                return '/';
+        }
+    },
+
+    parseUrl(url = window.location) {
+        // Parse current URL into route info
+        // Supports both path-based URLs and legacy hash URLs
+        const path = url.pathname;
+        const hash = url.hash.slice(1);
+
+        // Check path-based routes first
+        if (path.startsWith('/incident/')) {
+            return { type: 'incident', slug: path.replace('/incident/', '') };
+        }
+        if (path.startsWith('/about')) {
+            const section = path.replace('/about', '').replace(/^\//, '') || null;
+            return { type: 'about', section };
+        }
+        if (path.startsWith('/list')) {
+            const category = path.replace('/list', '').replace(/^\//, '') || null;
+            return { type: 'list', category };
+        }
+
+        // Fall back to hash-based routes for backwards compatibility
+        if (hash) {
+            if (hash === 'about' || this.aboutSections.includes(hash)) {
+                return { type: 'about', section: hash === 'about' ? null : hash, legacy: true };
+            }
+            if (hash === 'list') {
+                return { type: 'list', category: null, legacy: true };
+            }
+            if (this.sectionHashes.includes(hash)) {
+                return { type: 'list', category: hash, legacy: true };
+            }
+            if (hash === 'media') {
+                return { type: 'home', legacy: true };
+            }
+            if (hash.startsWith('new-updated-')) {
+                return { type: 'new-updated', dateStr: hash.replace('new-updated-', ''), legacy: true };
+            }
+            // Assume it's an incident slug
+            return { type: 'incident', slug: hash, legacy: true };
+        }
+
+        // Default to home
+        return { type: 'home' };
+    },
+
+    upgradeLegacyUrl(route) {
+        // Redirect legacy hash URLs to clean path URLs
+        if (!route.legacy) return;
+
+        let newPath;
+        switch (route.type) {
+            case 'incident':
+                newPath = this.buildUrl('incident', route.slug);
+                break;
+            case 'about':
+                newPath = this.buildUrl('about', route.section);
+                break;
+            case 'list':
+                newPath = this.buildUrl('list', route.category);
+                break;
+            case 'new-updated':
+                // Keep hash for new-updated for now (less common)
+                return;
+            default:
+                newPath = '/';
+        }
+        history.replaceState(null, '', newPath);
     },
 
     stem(word) {
@@ -71,8 +157,10 @@ const App = {
         Lightbox.init();
         await this.loadIncidents();
         this.render();
-        this.handleInitialHash();
-        window.addEventListener('hashchange', () => this.openFromHash());
+        this.handleInitialRoute();
+        // Listen for both popstate (path changes) and hashchange (legacy hash URLs)
+        window.addEventListener('popstate', () => this.openFromRoute());
+        window.addEventListener('hashchange', () => this.openFromRoute());
     },
 
     loadSortPreference() {
@@ -104,114 +192,114 @@ const App = {
         });
     },
 
-    handleInitialHash() {
-        const hash = window.location.hash.slice(1);
+    handleInitialRoute() {
+        const route = this.parseUrl();
 
-        if (!hash || hash === 'media') {
-            const stored = localStorage.getItem('preferredView');
-            if (stored === 'list') {
-                this.switchView('list');
-            } else {
-                this.switchView('media');
+        // Upgrade legacy hash URLs to clean path URLs
+        this.upgradeLegacyUrl(route);
+
+        switch (route.type) {
+            case 'home': {
+                const stored = localStorage.getItem('preferredView');
+                if (stored === 'list') {
+                    this.switchView('list');
+                } else {
+                    this.switchView('media');
+                }
+                break;
             }
-            return;
-        }
 
-        if (hash === 'list') {
-            this.switchView('list');
-            return;
-        }
+            case 'list':
+                if (route.category && this.sectionHashes.includes(route.category)) {
+                    this.disableSortByUpdated();
+                    this.switchView('list', true);
+                    this.scrollToSectionWithFlag(route.category);
+                } else {
+                    this.switchView('list');
+                }
+                break;
 
-        if (this.sectionHashes.includes(hash)) {
-            this.disableSortByUpdated();
-            this.switchView('list', true);
-            this.scrollToSectionWithFlag(hash);
-            return;
-        }
+            case 'about':
+                this.switchView('media', true);
+                Lightbox.openAbout(route.section);
+                break;
 
-        if (hash === 'about') {
-            this.switchView('media', true);
-            Lightbox.openAbout();
-            return;
-        }
+            case 'new-updated':
+                this.switchView('media', true);
+                Lightbox.openNewUpdated(route.dateStr);
+                break;
 
-        if (this.aboutHashes.includes(hash)) {
-            this.switchView('media', true);
-            Lightbox.openAbout(hash);
-            return;
-        }
+            case 'incident': {
+                const incident = this.incidents.find(i => {
+                    const slug = i.filePath.split('/').pop().replace('.md', '');
+                    return slug === route.slug;
+                });
 
-        if (hash.startsWith('new-updated-')) {
-            this.switchView('media', true);
-            const dateStr = hash.replace('new-updated-', '');
-            Lightbox.openNewUpdated(dateStr);
-            return;
-        }
-
-        const incident = this.incidents.find(i => {
-            const slug = i.filePath.split('/').pop().replace('.md', '');
-            return slug === hash;
-        });
-
-        if (incident) {
-            this.switchView('media', true);
-            Lightbox.open(incident);
-        } else {
-            this.switchView('media', true);
-            Lightbox.open404(hash);
+                this.switchView('media', true);
+                if (incident) {
+                    Lightbox.open(incident);
+                } else {
+                    Lightbox.open404(route.slug);
+                }
+                break;
+            }
         }
     },
 
-    openFromHash() {
+    // Keep old name as alias for backwards compatibility
+    handleInitialHash() {
+        this.handleInitialRoute();
+    },
+
+    openFromRoute() {
         if (Lightbox.isOpen()) {
             return;
         }
 
-        const hash = window.location.hash.slice(1);
+        const route = this.parseUrl();
 
-        if (!hash || hash === 'media') {
-            if (this.currentView !== 'media') this.switchView('media');
-            return;
+        switch (route.type) {
+            case 'home':
+                if (this.currentView !== 'media') this.switchView('media');
+                break;
+
+            case 'list':
+                if (route.category && this.sectionHashes.includes(route.category)) {
+                    this.disableSortByUpdated();
+                    this.switchView('list', true);
+                    this.scrollToSectionWithFlag(route.category);
+                } else {
+                    if (this.currentView !== 'list') this.switchView('list');
+                }
+                break;
+
+            case 'about':
+                Lightbox.openAbout(route.section);
+                break;
+
+            case 'new-updated':
+                Lightbox.openNewUpdated(route.dateStr);
+                break;
+
+            case 'incident': {
+                const incident = this.incidents.find(i => {
+                    const slug = i.filePath.split('/').pop().replace('.md', '');
+                    return slug === route.slug;
+                });
+
+                if (incident) {
+                    Lightbox.open(incident);
+                } else {
+                    Lightbox.open404(route.slug);
+                }
+                break;
+            }
         }
+    },
 
-        if (hash === 'list') {
-            if (this.currentView !== 'list') this.switchView('list');
-            return;
-        }
-
-        if (this.sectionHashes.includes(hash)) {
-            this.disableSortByUpdated();
-            this.switchView('list', true);
-            this.scrollToSectionWithFlag(hash);
-            return;
-        }
-
-        if (hash === 'about') {
-            Lightbox.openAbout();
-            return;
-        }
-
-        if (this.aboutHashes.includes(hash)) {
-            Lightbox.openAbout(hash);
-            return;
-        }
-
-        if (hash.startsWith('new-updated-')) {
-            const dateStr = hash.replace('new-updated-', '');
-            Lightbox.openNewUpdated(dateStr);
-            return;
-        }
-
-        const incident = this.incidents.find(i => {
-            const slug = i.filePath.split('/').pop().replace('.md', '');
-            return slug === hash;
-        });
-
-        if (incident) {
-            Lightbox.open(incident);
-        } else {
-            Lightbox.open404(hash);
-        }
+    // Keep old name as alias for backwards compatibility
+    openFromHash() {
+        this.openFromRoute();
     },
 
     disableSortByUpdated() {
@@ -232,9 +320,9 @@ const App = {
     updateUrlView(view) {
         localStorage.setItem('preferredView', view);
         if (view === 'list') {
-            window.history.replaceState({}, '', '#list');
+            window.history.replaceState({}, '', this.buildUrl('list'));
         } else {
-            window.history.replaceState({}, '', window.location.pathname);
+            window.history.replaceState({}, '', '/');
         }
     },
 
@@ -319,22 +407,23 @@ const App = {
         nav.querySelectorAll('.nav-pill').forEach(pill => {
             pill.addEventListener('click', (e) => {
                 e.preventDefault();
-                const hash = pill.getAttribute('href').slice(1);
+                const category = pill.getAttribute('href').slice(1);
                 if (this.currentView !== 'list') {
                     this.switchView('list', true);
                 }
-                if (window.location.hash !== '#' + hash) {
-                    history.pushState(null, '', '#' + hash);
+                const newPath = this.buildUrl('list', category);
+                if (window.location.pathname !== newPath) {
+                    history.pushState(null, '', newPath);
                 }
-                this.scrollToSectionWithFlag(hash);
+                this.scrollToSectionWithFlag(category);
             });
         });
 
         window.addEventListener('scroll', () => {
             if (this.isScrollingToSection || this.currentView !== 'list') return;
-            const hash = window.location.hash.slice(1);
-            if (this.sectionHashes.includes(hash)) {
-                history.replaceState(null, '', '#list');
+            const route = this.parseUrl();
+            if (route.type === 'list' && route.category) {
+                history.replaceState(null, '', this.buildUrl('list'));
             }
         }, { passive: true });
     },
