@@ -1,0 +1,11 @@
+# OG Image Tweaks
+
+Custom timestamps for OG image generation. Default is 2.0 seconds.
+
+Format: `incident-slug: timestamp` (in seconds)
+
+## Custom Timestamps
+
+```
+2026-01-13-aliya-rahman-car-window-hospitalized: 3.5
+```

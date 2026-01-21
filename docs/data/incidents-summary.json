@@ -21,6 +21,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-20-trump-mistakes-happen.mp4",
+      "localMediaOgPath": "media/2026-01-20-trump-mistakes-happen-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -28,7 +29,7 @@
         }
       ],
       "aspectRatio": 0.6055555555555555,
-      "mediaVersion": 1768973561
+      "mediaVersion": 1769026641
     },
     {
       "filePath": "incidents/2026-01/2026-01-20-brooklyn-park-officer-citizen-check.md",
@@ -51,6 +52,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-20-brooklyn-park-officer-citizen-check.mp4",
+      "localMediaOgPath": "media/2026-01-20-brooklyn-park-officer-citizen-check-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -58,7 +60,7 @@
         }
       ],
       "aspectRatio": 1.8764940239043826,
-      "mediaVersion": 1768938937
+      "mediaVersion": 1769026633
     },
     {
       "filePath": "incidents/2026-01/2026-01-20-trump-vicious-animals-statement.md",
@@ -81,6 +83,7 @@
       "hasLocalMedia": true,
       "localMediaType": "image",
       "localMediaPath": "media/2026-01-20-trump-vicious-animals-statement.jpg",
+      "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
@@ -88,7 +91,7 @@
         }
       ],
       "aspectRatio": 1.7518248175182483,
-      "mediaVersion": 1768927072
+      "mediaVersion": 1769026641
     },
     {
       "filePath": "incidents/2026-01/2026-01-19-dhs-response-saly-detention.md",
@@ -111,6 +114,7 @@
       "hasLocalMedia": true,
       "localMediaType": "image",
       "localMediaPath": "media/2026-01-19-dhs-response-saly-detention.jpg",
+      "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
@@ -118,7 +122,7 @@
         }
       ],
       "aspectRatio": 1.1822660098522169,
-      "mediaVersion": 1768856041
+      "mediaVersion": 1769026624
     },
     {
       "filePath": "incidents/2026-01/2026-01-18-saly-hmong-citizen-shirtless.md",
@@ -141,6 +145,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-18-saly-hmong-citizen-shirtless.mp4",
+      "localMediaOgPath": "media/2026-01-18-saly-hmong-citizen-shirtless-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -152,7 +157,7 @@
         }
       ],
       "aspectRatio": 0.7111111111111111,
-      "mediaVersion": 1768841283
+      "mediaVersion": 1769026624
     },
     {
       "filePath": "incidents/2026-01/2026-01-18-noem-pepper-spray-denial-backtrack.md",
@@ -175,6 +180,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-18-noem-pepper-spray-denial-backtrack.mp4",
+      "localMediaOgPath": "media/2026-01-18-noem-pepper-spray-denial-backtrack-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -182,7 +188,7 @@
         }
       ],
       "aspectRatio": 1.8537735849056605,
-      "mediaVersion": 1768799504
+      "mediaVersion": 1769026379
     },
     {
       "filePath": "incidents/2026-01/2026-01-18-dhs-response-accent-detention.md",
@@ -205,6 +211,7 @@
       "hasLocalMedia": true,
       "localMediaType": "image",
       "localMediaPath": "media/2026-01-18-dhs-response-accent-detention.jpg",
+      "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
@@ -212,7 +219,7 @@
         }
       ],
       "aspectRatio": 0.5621734587251829,
-      "mediaVersion": 1768855715
+      "mediaVersion": 1769026621
     },
     {
       "filePath": "incidents/2026-01/2026-01-17-st-louis-park-daycare.md",
@@ -235,6 +242,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -260,6 +268,7 @@
       "hasLocalMedia": true,
       "localMediaType": "image",
       "localMediaPath": "media/2026-01-17-nadya-moldovan-refugee.jpg",
+      "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
@@ -267,7 +276,7 @@
         }
       ],
       "aspectRatio": 0.8549618320610687,
-      "mediaVersion": 1768885944
+      "mediaVersion": 1769026621
     },
     {
       "filePath": "incidents/2026-01/2026-01-17-mischief-toy-store-ice-inspection.md",
@@ -290,6 +299,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -318,6 +328,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -343,6 +354,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -368,6 +380,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -393,6 +406,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-15-el-tapatio-willmar.mp4",
+      "localMediaOgPath": "media/2026-01-15-el-tapatio-willmar-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -400,7 +414,7 @@
         }
       ],
       "aspectRatio": 0.6277777777777778,
-      "mediaVersion": 1768709595
+      "mediaVersion": 1769026607
     },
     {
       "filePath": "incidents/2026-01/2026-01-15-porter-wrong-address-raid.md",
@@ -423,6 +437,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-15-porter-wrong-address-raid.mp4",
+      "localMediaOgPath": "media/2026-01-15-porter-wrong-address-raid-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -430,7 +445,7 @@
         }
       ],
       "aspectRatio": 1.8111111111111111,
-      "mediaVersion": 1768709602
+      "mediaVersion": 1769026614
     },
     {
       "filePath": "incidents/2026-01/2026-01-15-mercado-central-mother-children.md",
@@ -453,6 +468,7 @@
       "hasLocalMedia": true,
       "localMediaType": "image",
       "localMediaPath": "media/2026-01-15-mercado-central-mother-children.jpg",
+      "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
@@ -460,7 +476,7 @@
         }
       ],
       "aspectRatio": 0.5351288056206089,
-      "mediaVersion": 1768839010
+      "mediaVersion": 1769026607
     },
     {
       "filePath": "incidents/2026-01/2026-01-15-whipple-lawyers-denied-access.md",
@@ -483,6 +499,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -508,6 +525,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -533,6 +551,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-15-ramon-menera-accent-detained.mp4",
+      "localMediaOgPath": "media/2026-01-15-ramon-menera-accent-detained-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -540,7 +559,7 @@
         }
       ],
       "aspectRatio": 0.6412429378531074,
-      "mediaVersion": 1768753822
+      "mediaVersion": 1769026621
     },
     {
       "filePath": "incidents/2026-01/2026-01-15-st-paul-school-vans-pulled-over.md",
@@ -563,6 +582,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -588,6 +608,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-14-shawn-jackson-children-tear-gas.mp4",
+      "localMediaOgPath": "media/2026-01-14-shawn-jackson-children-tear-gas-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -595,7 +616,7 @@
         }
       ],
       "aspectRatio": 0.6222222222222222,
-      "mediaVersion": 1768709593
+      "mediaVersion": 1769026600
     },
     {
       "filePath": "incidents/2026-01/2026-01-14-circle-pines-restaurant-worker.md",
@@ -618,6 +639,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-14-circle-pines-restaurant-worker.mp4",
+      "localMediaOgPath": "media/2026-01-14-circle-pines-restaurant-worker-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -625,7 +647,7 @@
         }
       ],
       "aspectRatio": 0.6972222222222222,
-      "mediaVersion": 1768709581
+      "mediaVersion": 1769026587
     },
     {
       "filePath": "incidents/2026-01/2026-01-14-st-paul-public-works-snowplow-driver.md",
@@ -648,6 +670,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-14-st-paul-public-works-snowplow-driver.mp4",
+      "localMediaOgPath": "media/2026-01-14-st-paul-public-works-snowplow-driver-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -655,7 +678,7 @@
         }
       ],
       "aspectRatio": 1.8384615384615384,
-      "mediaVersion": 1768796973
+      "mediaVersion": 1769026605
     },
     {
       "filePath": "incidents/2026-01/2026-01-14-nasra-ahmed-st-paul-citizen.md",
@@ -678,6 +701,7 @@
       "hasLocalMedia": true,
       "localMediaType": "image",
       "localMediaPath": "media/2026-01-14-nasra-ahmed-st-paul-citizen.jpg",
+      "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
@@ -685,7 +709,7 @@
         }
       ],
       "aspectRatio": 1.8295964125560538,
-      "mediaVersion": 1768709581
+      "mediaVersion": 1769026587
     },
     {
       "filePath": "incidents/2026-01/2026-01-14-agriculture-press-conference.md",
@@ -708,6 +732,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-14-agriculture-press-conference.mp4",
+      "localMediaOgPath": "media/2026-01-14-agriculture-press-conference-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -715,7 +740,7 @@
         }
       ],
       "aspectRatio": 1.8153310104529616,
-      "mediaVersion": 1768840910
+      "mediaVersion": 1769026582
     },
     {
       "filePath": "incidents/2026-01/2026-01-14-dhs-response-frey-sanctuary.md",
@@ -738,6 +763,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -763,6 +789,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-14-oglala-sioux-still-detained.mp4",
+      "localMediaOgPath": "media/2026-01-14-oglala-sioux-still-detained-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -770,7 +797,7 @@
         }
       ],
       "aspectRatio": 1.8057142857142856,
-      "mediaVersion": 1768709588
+      "mediaVersion": 1769026594
     },
     {
       "filePath": "incidents/2026-01/2026-01-14-crystal-bus-stop-parent.md",
@@ -793,6 +820,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -818,6 +846,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-13-bovino-cbs-interview.mp4",
+      "localMediaOgPath": "media/2026-01-13-bovino-cbs-interview-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -825,7 +854,7 @@
         }
       ],
       "aspectRatio": 1.5574712643678161,
-      "mediaVersion": 1768709561
+      "mediaVersion": 1769026548
     },
     {
       "filePath": "incidents/2026-01/2026-01-13-mankato-women-sprayed.md",
@@ -848,6 +877,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-13-mankato-women-sprayed.mp4",
+      "localMediaOgPath": "media/2026-01-13-mankato-women-sprayed-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -855,7 +885,7 @@
         }
       ],
       "aspectRatio": 0.6388888888888888,
-      "mediaVersion": 1768709570
+      "mediaVersion": 1769026565
     },
     {
       "filePath": "incidents/2026-01/2026-01-13-la-mexicana-st-peter.md",
@@ -878,6 +908,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -903,6 +934,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-13-ryan-ecklund-filming-detained.mp4",
+      "localMediaOgPath": "media/2026-01-13-ryan-ecklund-filming-detained-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -910,7 +942,7 @@
         }
       ],
       "aspectRatio": 0.6166666666666667,
-      "mediaVersion": 1768709576
+      "mediaVersion": 1769026570
     },
     {
       "filePath": "incidents/2026-01/2026-01-13-dhs-response-native-americans.md",
@@ -933,6 +965,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -961,6 +994,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -986,6 +1020,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-13-elliott-payne-pushed.mp4",
+      "localMediaOgPath": "media/2026-01-13-elliott-payne-pushed-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -993,7 +1028,7 @@
         }
       ],
       "aspectRatio": 0.6166666666666667,
-      "mediaVersion": 1768709562
+      "mediaVersion": 1769026549
     },
     {
       "filePath": "incidents/2026-01/2026-01-13-el-burrito-mercado-surveillance.md",
@@ -1016,6 +1051,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -1041,6 +1077,7 @@
       "hasLocalMedia": true,
       "localMediaType": "image",
       "localMediaPath": "media/2026-01-13-francis-burger-joint-manager.jpg",
+      "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
@@ -1048,7 +1085,7 @@
         }
       ],
       "aspectRatio": 0.7590132827324478,
-      "mediaVersion": 1768795137
+      "mediaVersion": 1769026549
     },
     {
       "filePath": "incidents/2026-01/2026-01-13-dhs-response-detainer-demands.md",
@@ -1071,6 +1108,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -1096,6 +1134,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -1121,6 +1160,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-13-william-vermie-veteran-detained.mp4",
+      "localMediaOgPath": "media/2026-01-13-william-vermie-veteran-detained-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -1128,7 +1168,7 @@
         }
       ],
       "aspectRatio": 1.8222222222222222,
-      "mediaVersion": 1768925912
+      "mediaVersion": 1769026349
     },
     {
       "filePath": "incidents/2026-01/2026-01-13-doj-response-renee-good.md",
@@ -1151,6 +1191,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -1176,6 +1217,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -1201,6 +1243,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-13-kong-vang-frogtown.mp4",
+      "localMediaOgPath": "media/2026-01-13-kong-vang-frogtown-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -1208,7 +1251,7 @@
         }
       ],
       "aspectRatio": 1.8384615384615384,
-      "mediaVersion": 1768798077
+      "mediaVersion": 1769026556
     },
     {
       "filePath": "incidents/2026-01/2026-01-13-aliya-rahman-car-window-hospitalized.md",
@@ -1231,6 +1274,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-13-aliya-rahman-car-window-hospitalized.mp4",
+      "localMediaOgPath": "media/2026-01-13-aliya-rahman-car-window-hospitalized-og-3.5s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -1238,7 +1282,7 @@
         }
       ],
       "aspectRatio": 1.8208955223880596,
-      "mediaVersion": 1768755589
+      "mediaVersion": 1769026326
     },
     {
       "filePath": "incidents/2026-01/2026-01-13-lyn-lake-tear-gas.md",
@@ -1261,6 +1305,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-13-lyn-lake-tear-gas.mp4",
+      "localMediaOgPath": "media/2026-01-13-lyn-lake-tear-gas-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -1268,7 +1313,7 @@
         }
       ],
       "aspectRatio": 2.1485943775100402,
-      "mediaVersion": 1768709569
+      "mediaVersion": 1769026563
     },
     {
       "filePath": "incidents/2026-01/2026-01-12-phil-maddox-did-you-not-learn.md",
@@ -1291,6 +1336,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-12-phil-maddox-did-you-not-learn.mp4",
+      "localMediaOgPath": "media/2026-01-12-phil-maddox-did-you-not-learn-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -1298,7 +1344,7 @@
         }
       ],
       "aspectRatio": 0.6194444444444445,
-      "mediaVersion": 1768843019
+      "mediaVersion": 1769026532
     },
     {
       "filePath": "incidents/2026-01/2026-01-12-irma-escoto-citizen-check.md",
@@ -1321,6 +1367,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -1346,6 +1393,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-12-silva-sosa-inver-grove-heights.mp4",
+      "localMediaOgPath": "media/2026-01-12-silva-sosa-inver-grove-heights-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -1357,7 +1405,7 @@
         }
       ],
       "aspectRatio": 1.7718120805369129,
-      "mediaVersion": 1768926019
+      "mediaVersion": 1769026543
     },
     {
       "filePath": "incidents/2026-01/2026-01-12-st-cloud-star-city-mall.md",
@@ -1380,6 +1428,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -1405,6 +1454,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -1433,6 +1483,7 @@
       "hasLocalMedia": true,
       "localMediaType": "image",
       "localMediaPath": "media/2026-01-12-christina-rank-teacher.jpg",
+      "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
@@ -1440,7 +1491,7 @@
         }
       ],
       "aspectRatio": 0.7989347536617842,
-      "mediaVersion": 1768709526
+      "mediaVersion": 1769026508
     },
     {
       "filePath": "incidents/2026-01/2026-01-12-christian-molina-car-rammed.md",
@@ -1463,6 +1514,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-12-christian-molina-car-rammed.mp4",
+      "localMediaOgPath": "media/2026-01-12-christian-molina-car-rammed-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -1470,7 +1522,7 @@
         }
       ],
       "aspectRatio": 0.6722222222222223,
-      "mediaVersion": 1768709526
+      "mediaVersion": 1769026508
     },
     {
       "filePath": "incidents/2026-01/2026-01-12-nimco-omar-citizen-check.md",
@@ -1493,6 +1545,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-12-nimco-omar-citizen-check.mp4",
+      "localMediaOgPath": "media/2026-01-12-nimco-omar-citizen-check-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -1500,7 +1553,7 @@
         }
       ],
       "aspectRatio": 1.811965811965812,
-      "mediaVersion": 1768947689
+      "mediaVersion": 1769026520
     },
     {
       "filePath": "incidents/2026-01/2026-01-12-pilllar-forum-musicians.md",
@@ -1523,6 +1576,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -1548,6 +1602,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-12-garrison-gibson-battering-ram.mp4",
+      "localMediaOgPath": "media/2026-01-12-garrison-gibson-battering-ram-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -1555,7 +1610,7 @@
         }
       ],
       "aspectRatio": 1.9305555555555556,
-      "mediaVersion": 1768709535
+      "mediaVersion": 1769026516
     },
     {
       "filePath": "incidents/2026-01/2026-01-11-dhs-response-speedway-bystander.md",
@@ -1578,6 +1633,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -1603,6 +1659,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-11-observer-shoved-into-traffic.mp4",
+      "localMediaOgPath": "media/2026-01-11-observer-shoved-into-traffic-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -1610,7 +1667,7 @@
         }
       ],
       "aspectRatio": 0.6694444444444444,
-      "mediaVersion": 1768754863
+      "mediaVersion": 1769026478
     },
     {
       "filePath": "incidents/2026-01/2026-01-11-speedway-st-paul.md",
@@ -1633,6 +1690,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-11-speedway-st-paul.mp4",
+      "localMediaOgPath": "media/2026-01-11-speedway-st-paul-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -1640,7 +1698,7 @@
         }
       ],
       "aspectRatio": 1.8066666666666666,
-      "mediaVersion": 1768946152
+      "mediaVersion": 1769026503
     },
     {
       "filePath": "incidents/2026-01/2026-01-11-observer-phone-snatched.md",
@@ -1663,6 +1721,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-11-observer-phone-snatched.mp4",
+      "localMediaOgPath": "media/2026-01-11-observer-phone-snatched-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -1670,7 +1729,7 @@
         }
       ],
       "aspectRatio": 1.8047808764940239,
-      "mediaVersion": 1768939774
+      "mediaVersion": 1769026476
     },
     {
       "filePath": "incidents/2026-01/2026-01-11-hani-duglof-medical.md",
@@ -1693,6 +1752,7 @@
       "hasLocalMedia": true,
       "localMediaType": "image",
       "localMediaPath": "media/2026-01-11-hani-duglof-medical.jpg",
+      "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
@@ -1700,7 +1760,7 @@
         }
       ],
       "aspectRatio": 0.9417293233082706,
-      "mediaVersion": 1768754861
+      "mediaVersion": 1769026474
     },
     {
       "filePath": "incidents/2026-01/2026-01-11-siguenza-okeefe-detained.md",
@@ -1723,6 +1783,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-11-siguenza-okeefe-detained.mp4",
+      "localMediaOgPath": "media/2026-01-11-siguenza-okeefe-detained-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -1730,7 +1791,7 @@
         }
       ],
       "aspectRatio": 1.6194444444444445,
-      "mediaVersion": 1768709552
+      "mediaVersion": 1769026496
     },
     {
       "filePath": "incidents/2026-01/2026-01-11-rogelio-jimenez-brooklyn-park.md",
@@ -1753,6 +1814,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-11-rogelio-jimenez-brooklyn-park.mp4",
+      "localMediaOgPath": "media/2026-01-11-rogelio-jimenez-brooklyn-park-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -1760,7 +1822,7 @@
         }
       ],
       "aspectRatio": 1.8166666666666667,
-      "mediaVersion": 1768754868
+      "mediaVersion": 1769026483
     },
     {
       "filePath": "incidents/2026-01/2026-01-10-bloomington-ave-bus-stop.md",
@@ -1783,6 +1845,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -1808,6 +1871,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -1833,6 +1897,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -1858,6 +1923,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -1883,6 +1949,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -1908,6 +1975,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -1933,6 +2001,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -1958,6 +2027,7 @@
       "hasLocalMedia": true,
       "localMediaType": "image",
       "localMediaPath": "media/2026-01-09-fridley-schools-closure.jpg",
+      "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
@@ -1965,7 +2035,7 @@
         }
       ],
       "aspectRatio": 0.7575360419397117,
-      "mediaVersion": 1768843911
+      "mediaVersion": 1769026472
     },
     {
       "filePath": "incidents/2026-01/2026-01-09-juan-carlos-brutality.md",
@@ -1988,6 +2058,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-09-juan-carlos-brutality.mp4",
+      "localMediaOgPath": "media/2026-01-09-juan-carlos-brutality-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -1999,7 +2070,7 @@
         }
       ],
       "aspectRatio": 1.086111111111111,
-      "mediaVersion": 1768754861
+      "mediaVersion": 1769026474
     },
     {
       "filePath": "incidents/2026-01/2026-01-08-ahmed-hassan-uber-driver.md",
@@ -2022,6 +2093,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-08-ahmed-hassan-uber-driver.mp4",
+      "localMediaOgPath": "media/2026-01-08-ahmed-hassan-uber-driver-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -2029,7 +2101,7 @@
         }
       ],
       "aspectRatio": 0.5888888888888889,
-      "mediaVersion": 1768754839
+      "mediaVersion": 1769026453
     },
     {
       "filePath": "incidents/2026-01/2026-01-08-rochester-gates-complex.md",
@@ -2052,6 +2124,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -2077,6 +2150,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -2102,6 +2176,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -2127,6 +2202,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-08-jesse-ventura-roosevelt.mp4",
+      "localMediaOgPath": "media/2026-01-08-jesse-ventura-roosevelt-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -2134,7 +2210,7 @@
         }
       ],
       "aspectRatio": 1.675,
-      "mediaVersion": 1768754848
+      "mediaVersion": 1769026462
     },
     {
       "filePath": "incidents/2026-01/2026-01-08-ice-gun-pointed-at-protester.md",
@@ -2157,6 +2233,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-08-ice-gun-pointed-at-protester.mp4",
+      "localMediaOgPath": "media/2026-01-08-ice-gun-pointed-at-protester-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -2164,7 +2241,7 @@
         }
       ],
       "aspectRatio": 0.5861111111111111,
-      "mediaVersion": 1768754840
+      "mediaVersion": 1769026454
     },
     {
       "filePath": "incidents/2026-01/2026-01-08-wes-prince-detained.md",
@@ -2187,6 +2264,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -2212,6 +2290,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -2237,6 +2316,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-08-target-richfield-employees.mp4",
+      "localMediaOgPath": "media/2026-01-08-target-richfield-employees-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -2244,7 +2324,7 @@
         }
       ],
       "aspectRatio": 0.7583333333333333,
-      "mediaVersion": 1768754859
+      "mediaVersion": 1769026472
     },
     {
       "filePath": "incidents/2026-01/2026-01-08-jose-ramirez-native-american.md",
@@ -2267,6 +2347,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-08-jose-ramirez-native-american.mp4",
+      "localMediaOgPath": "media/2026-01-08-jose-ramirez-native-american-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -2278,7 +2359,7 @@
         }
       ],
       "aspectRatio": 0.6361111111111111,
-      "mediaVersion": 1768754854
+      "mediaVersion": 1769026467
     },
     {
       "filePath": "incidents/2026-01/2026-01-07-doctor-blocked-renee-good.md",
@@ -2301,6 +2382,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-07-doctor-blocked-renee-good.mp4",
+      "localMediaOgPath": "media/2026-01-07-doctor-blocked-renee-good-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -2308,7 +2390,7 @@
         }
       ],
       "aspectRatio": 0.7805555555555556,
-      "mediaVersion": 1768754821
+      "mediaVersion": 1769026433
     },
     {
       "filePath": "incidents/2026-01/2026-01-07-pastor-callaghan-detained.md",
@@ -2331,6 +2413,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -2356,6 +2439,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -2381,6 +2465,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-07-renee-good-shooting.mp4",
+      "localMediaOgPath": "media/2026-01-07-renee-good-shooting-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -2388,7 +2473,7 @@
         }
       ],
       "aspectRatio": 0.5888888888888889,
-      "mediaVersion": 1768754826
+      "mediaVersion": 1769026439
     },
     {
       "filePath": "incidents/2026-01/2026-01-07-clergy-pepper-sprayed.md",
@@ -2411,6 +2496,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-07-clergy-pepper-sprayed.mp4",
+      "localMediaOgPath": "media/2026-01-07-clergy-pepper-sprayed-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -2418,7 +2504,7 @@
         }
       ],
       "aspectRatio": 1.8222222222222222,
-      "mediaVersion": 1768754815
+      "mediaVersion": 1769026426
     },
     {
       "filePath": "incidents/2026-01/2026-01-07-dhs-response-renee-good.md",
@@ -2441,6 +2527,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -2466,6 +2553,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-07-roosevelt-high-school.mp4",
+      "localMediaOgPath": "media/2026-01-07-roosevelt-high-school-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -2473,7 +2561,7 @@
         }
       ],
       "aspectRatio": 0.8833333333333333,
-      "mediaVersion": 1768754829
+      "mediaVersion": 1769026442
     },
     {
       "filePath": "incidents/2026-01/2026-01-07-pickup-truck-rams-protesters.md",
@@ -2496,6 +2584,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-07-pickup-truck-rams-protesters.mp4",
+      "localMediaOgPath": "media/2026-01-07-pickup-truck-rams-protesters-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -2503,7 +2592,7 @@
         }
       ],
       "aspectRatio": 2.1854545454545455,
-      "mediaVersion": 1768875589
+      "mediaVersion": 1769026434
     },
     {
       "filePath": "incidents/2026-01/2026-01-06-emmanuel-sackie-brooklyn-park.md",
@@ -2526,6 +2615,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-06-emmanuel-sackie-brooklyn-park.mp4",
+      "localMediaOgPath": "media/2026-01-06-emmanuel-sackie-brooklyn-park-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -2533,7 +2623,7 @@
         }
       ],
       "aspectRatio": 1.6722222222222223,
-      "mediaVersion": 1768754806
+      "mediaVersion": 1769026416
     },
     {
       "filePath": "incidents/2026-01/2026-01-06-bloomington-wilderness-inquiry.md",
@@ -2556,6 +2646,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -2581,6 +2672,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -2606,6 +2698,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -2631,6 +2724,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -2659,6 +2753,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -2684,6 +2779,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -2709,6 +2805,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -2734,6 +2831,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -2759,6 +2857,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -2784,6 +2883,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -2809,6 +2909,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -2834,6 +2935,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -2859,6 +2961,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2025-12-11-eden-prairie-13-year-old.mp4",
+      "localMediaOgPath": "media/2025-12-11-eden-prairie-13-year-old-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -2866,7 +2969,7 @@
         }
       ],
       "aspectRatio": 1.9,
-      "mediaVersion": 1768754793
+      "mediaVersion": 1769026397
     },
     {
       "filePath": "incidents/2025-12/2025-12-10-mubashir-wrongful-detention.md",
@@ -2889,6 +2992,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2025-12-10-mubashir-wrongful-detention.mp4",
+      "localMediaOgPath": "media/2025-12-10-mubashir-wrongful-detention-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -2896,7 +3000,7 @@
         }
       ],
       "aspectRatio": 1.6083333333333334,
-      "mediaVersion": 1768754788
+      "mediaVersion": 1769026391
     },
     {
       "filePath": "incidents/2025-12/2025-12-10-mahamed-eydarus-citizen-check.md",
@@ -2919,6 +3023,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -2944,6 +3049,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2025-12-09-sue-tincher-detained.mp4",
+      "localMediaOgPath": "media/2025-12-09-sue-tincher-detained-og-2s.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -2951,7 +3057,7 @@
         }
       ],
       "aspectRatio": 0.9333333333333333,
-      "mediaVersion": 1768754781
+      "mediaVersion": 1769026382
     },
     {
       "filePath": "incidents/2025-12/2025-12-07-biestman-lee-guns-pointed.md",
@@ -2974,6 +3080,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -2999,6 +3106,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -3024,6 +3132,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -3049,6 +3158,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -3074,6 +3184,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -3099,6 +3210,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -3124,6 +3236,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -3149,6 +3262,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -3174,6 +3288,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -3199,6 +3314,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -3224,6 +3340,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null
@@ -3249,6 +3366,7 @@
       "hasLocalMedia": false,
       "localMediaType": null,
       "localMediaPath": null,
+      "localMediaOgPath": null,
       "localMediaFiles": [],
       "aspectRatio": null,
       "mediaVersion": null

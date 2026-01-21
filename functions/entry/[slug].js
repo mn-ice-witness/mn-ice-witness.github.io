@@ -63,11 +63,9 @@ function buildOgTags(incident, origin, slug) {
   if (incident.hasLocalMedia) {
     if (incident.localMediaType === 'image') {
       image = `${origin}/${incident.localMediaPath}`;
-    } else if (incident.localMediaType === 'video') {
-      // Videos have a generated OG image: incident.mp4 -> incident-og.jpg
-      const videoPath = incident.localMediaPath;
-      const ogPath = videoPath.replace('.mp4', '-og.jpg');
-      image = `${origin}/${ogPath}`;
+    } else if (incident.localMediaType === 'video' && incident.localMediaOgPath) {
+      // Videos have a generated OG image with timestamp (e.g., incident-og-2s.jpg)
+      image = `${origin}/${incident.localMediaOgPath}`;
     }
   }
 

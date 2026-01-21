@@ -3,7 +3,10 @@
 Process raw media files for web delivery.
 - Videos: Compress with H.264, normalize audio (EBU R128)
 - Images: Convert to optimized JPEG
-- OG Images: Generate social media preview images (1200x630) from videos at 2 second mark
+- OG Images: Generate social media preview images (1200x630) from videos
+
+OG image timestamps can be customized via docs/data/og-tweaks.md. Default is 2.0 seconds.
+OG filenames include the timestamp (e.g., incident-og-2.0s.jpg) so changes are tracked.
 
 Supports multi-part videos with `:01`, `:02` suffixes - concatenates them in order.
 
@@ -20,6 +23,9 @@ import tempfile
 from pathlib import Path
 
 
+DEFAULT_OG_TIMESTAMP = 2.0
+
+
 # Video extensions to process
 VIDEO_EXTENSIONS = {".mov", ".mp4", ".avi", ".mkv", ".webm", ".m4v", ".mv"}
 
@@ -28,6 +34,35 @@ MULTIPART_PATTERN = re.compile(r"^(.+):(\d+)(\.raw)?$")
 
 # Image extensions to process
 IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".webp"}
+
+# Pattern to match OG image files with timestamp: incident-og-2.0s.jpg
+OG_FILENAME_PATTERN = re.compile(r"^(.+)-og-(\d+\.?\d*)s\.jpg$")
+
+
+def load_og_tweaks(project_root: Path) -> dict[str, float]:
+    """Load custom OG timestamps from docs/data/og-tweaks.md."""
+    tweaks_path = project_root / "docs" / "data" / "og-tweaks.md"
+    tweaks = {}
+
+    if not tweaks_path.exists():
+        return tweaks
+
+    in_code_block = False
+    for line in tweaks_path.read_text().splitlines():
+        line = line.strip()
+        if line == "```":
+            in_code_block = not in_code_block
+            continue
+        if in_code_block and ":" in line and not line.startswith("#"):
+            parts = line.split(":", 1)
+            slug = parts[0].strip()
+            try:
+                timestamp = float(parts[1].strip())
+                tweaks[slug] = timestamp
+            except ValueError:
+                pass
+
+    return tweaks
 
 
 def parse_multipart_filename(path: Path) -> tuple[str, int] | None:
@@ -302,23 +337,23 @@ def process_image(input_path: Path, output_path: Path) -> bool:
         return False
 
 
-def generate_og_image(video_path: Path, og_path: Path) -> bool:
-    """Generate OG image (1200x630) from video at 2 second mark."""
-    print(f"  Generating OG image: {og_path.name}")
+def generate_og_image(video_path: Path, og_path: Path, timestamp: float) -> bool:
+    """Generate OG image (1200x630) from video at specified timestamp."""
+    print(f"  Generating OG image: {og_path.name} (at {timestamp}s)")
 
     cmd = [
         "ffmpeg",
         "-y",
         "-ss",
-        "2",  # Seek to 2 seconds
+        str(timestamp),
         "-i",
         str(video_path),
         "-vframes",
-        "1",  # Extract single frame
+        "1",
         "-vf",
         "scale=1200:630:force_original_aspect_ratio=decrease,pad=1200:630:(ow-iw)/2:(oh-ih)/2:black",
         "-q:v",
-        "2",  # High quality JPEG
+        "2",
         str(og_path),
     ]
 
@@ -336,9 +371,37 @@ def generate_og_image(video_path: Path, og_path: Path) -> bool:
         return False
 
 
-def get_og_path(video_output_path: Path) -> Path:
-    """Get OG image path for a video (e.g., incident.mp4 -> incident-og.jpg)."""
-    return video_output_path.with_name(video_output_path.stem + "-og.jpg")
+def get_og_path(video_output_path: Path, timestamp: float) -> Path:
+    """Get OG image path for a video with timestamp (e.g., incident.mp4 -> incident-og-2.0s.jpg)."""
+    ts_str = f"{timestamp:.1f}".rstrip("0").rstrip(".")
+    return video_output_path.with_name(f"{video_output_path.stem}-og-{ts_str}s.jpg")
+
+
+def find_existing_og_images(video_output_path: Path, output_dir: Path) -> list[Path]:
+    """Find all existing OG images for a video (any timestamp)."""
+    stem = video_output_path.stem
+    pattern = f"{stem}-og-*s.jpg"
+    return list(output_dir.glob(pattern))
+
+
+def cleanup_wrong_og_images(
+    video_output_path: Path, correct_og_path: Path, output_dir: Path
+) -> int:
+    """Delete OG images with wrong timestamps. Returns count of deleted files."""
+    deleted = 0
+    existing = find_existing_og_images(video_output_path, output_dir)
+    for og_file in existing:
+        if og_file != correct_og_path:
+            print(f"    Deleting old OG: {og_file.name}")
+            og_file.unlink()
+            deleted += 1
+    # Also delete old-style OG images without timestamp
+    old_style = output_dir / f"{video_output_path.stem}-og.jpg"
+    if old_style.exists():
+        print(f"    Deleting old OG: {old_style.name}")
+        old_style.unlink()
+        deleted += 1
+    return deleted
 
 
 def og_needs_processing(video_output_path: Path, og_path: Path) -> bool:
@@ -478,9 +541,15 @@ def main():
     print()
     print(f"Media: {processed} processed, {skipped} skipped, {errors} errors")
 
+    og_tweaks = load_og_tweaks(project_root)
+    if og_tweaks:
+        print()
+        print(f"Loaded {len(og_tweaks)} OG timestamp tweak(s)")
+
     og_processed = 0
     og_skipped = 0
     og_errors = 0
+    og_cleaned = 0
 
     print()
     print("Generating OG images for videos...")
@@ -489,21 +558,25 @@ def main():
         if not video_path.exists():
             continue
 
-        og_path = get_og_path(video_path)
+        slug = video_path.stem
+        timestamp = og_tweaks.get(slug, DEFAULT_OG_TIMESTAMP)
+        og_path = get_og_path(video_path, timestamp)
+
+        og_cleaned += cleanup_wrong_og_images(video_path, og_path, output_dir)
 
         if not args.force and not og_needs_processing(video_path, og_path):
             print(f"  Skipping OG (up to date): {og_path.name}")
             og_skipped += 1
             continue
 
-        if generate_og_image(video_path, og_path):
+        if generate_og_image(video_path, og_path, timestamp):
             og_processed += 1
         else:
             og_errors += 1
 
     print()
     print(
-        f"OG images: {og_processed} generated, {og_skipped} skipped, {og_errors} errors"
+        f"OG images: {og_processed} generated, {og_skipped} skipped, {og_cleaned} cleaned, {og_errors} errors"
     )
 
 
