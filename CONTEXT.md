@@ -24,6 +24,7 @@ If ~/.context.md doesn't exist, notify the user.
 10. `dev-docs/social-media-listing-procedure.md` - How to generate daily Bluesky update posts
 11. `dev-docs/ui-patterns.md` - **Read when doing UI work** - Reusable UI patterns (SVG icons, copy-to-clipboard, etc.)
 12. `dev-docs/url-routing.md` - **Read when doing URL/routing work** - Path-based URLs, Cloudflare Functions, social media sharing
+13. `dev-docs/preview-deployments.md` - **Read when testing branches** - How to use Cloudflare preview deployments for testing
 
 These docs are the source of truth for how this project works.
 
@@ -55,6 +56,10 @@ These docs are the source of truth for how this project works.
    - Existing incidents that got new sources added
    - Stories added to not_use.md (with reasons)
    - Stories already in not_use.md that came up again
+
+## Terminology
+
+**"Entry" and "Incident" are used interchangeably** throughout this project. The URL routing uses `/entry/` paths, but the code, documentation, and conversation may refer to them as "incidents" or "entries" - they mean the same thing (e.g., "find new incidents" = "find new entries").
 
 ## Project Overview
 
@@ -289,6 +294,8 @@ python-main -m http.server 8000 --directory docs
 ### Deployment
 
 This site is deployed via Cloudflare Pages from the `docs/` folder.
+
+**Preview Deployments:** Feature branches automatically get preview URLs at `<branch-name>.mn-ice-witness-github-io.pages.dev` (e.g., `feature-path-based-urls.mn-ice-witness-github-io.pages.dev`). Only pushes to `main` update the production site. See `dev-docs/preview-deployments.md` for full details.
 
 ## Key Guidelines
 
