@@ -145,6 +145,16 @@ Only change `last_updated` for **substantive story developments**:
 - ❌ Adding more sources (doesn't change the story)
 - ❌ Formatting/typo fixes
 
+**When updating `last_updated`, ALSO add an `## Updates` section** after the title and before Summary:
+```markdown
+# Incident Title
+
+## Updates
+- **Jan 20** - Description of what happened (not what you did)
+
+## Summary
+```
+
 See `dev-docs/adding-incidents.md` for full rules.
 
 ### Type Categories (exactly 5)
