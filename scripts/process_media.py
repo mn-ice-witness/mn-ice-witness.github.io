@@ -3,6 +3,7 @@
 Process raw media files for web delivery.
 - Videos: Compress with H.264, normalize audio (EBU R128)
 - Images: Convert to optimized JPEG
+- OG Images: Generate social media preview images (1200x630) from videos at 2 second mark
 
 Supports multi-part videos with `:01`, `:02` suffixes - concatenates them in order.
 
@@ -301,6 +302,54 @@ def process_image(input_path: Path, output_path: Path) -> bool:
         return False
 
 
+def generate_og_image(video_path: Path, og_path: Path) -> bool:
+    """Generate OG image (1200x630) from video at 2 second mark."""
+    print(f"  Generating OG image: {og_path.name}")
+
+    cmd = [
+        "ffmpeg",
+        "-y",
+        "-ss",
+        "2",  # Seek to 2 seconds
+        "-i",
+        str(video_path),
+        "-vframes",
+        "1",  # Extract single frame
+        "-vf",
+        "scale=1200:630:force_original_aspect_ratio=decrease,pad=1200:630:(ow-iw)/2:(oh-ih)/2:black",
+        "-q:v",
+        "2",  # High quality JPEG
+        str(og_path),
+    ]
+
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        if result.returncode != 0:
+            print(f"    Error: {result.stderr[:200]}")
+            return False
+
+        output_size = og_path.stat().st_size / 1024
+        print(f"    Generated: {output_size:.0f}KB")
+        return True
+    except FileNotFoundError:
+        print("    Error: ffmpeg not found. Install with: brew install ffmpeg")
+        return False
+
+
+def get_og_path(video_output_path: Path) -> Path:
+    """Get OG image path for a video (e.g., incident.mp4 -> incident-og.jpg)."""
+    return video_output_path.with_name(video_output_path.stem + "-og.jpg")
+
+
+def og_needs_processing(video_output_path: Path, og_path: Path) -> bool:
+    """Check if OG image needs to be generated."""
+    if not og_path.exists():
+        return True
+    if not video_output_path.exists():
+        return False
+    return video_output_path.stat().st_mtime > og_path.stat().st_mtime
+
+
 def process_multipart_video(
     base_name: str, parts: list[Path], output_dir: Path, force: bool
 ) -> tuple[int, int, int]:
@@ -391,26 +440,33 @@ def main():
     processed = 0
     skipped = 0
     errors = 0
+    video_outputs = []
 
     for base_name, parts in sorted(multipart_groups.items()):
         p, s, e = process_multipart_video(base_name, parts, output_dir, args.force)
         processed += p
         skipped += s
         errors += e
+        video_outputs.append(get_multipart_output_path(base_name, output_dir))
 
     for raw_path in sorted(single_files):
         output_path = get_output_path(raw_path, output_dir)
         if output_path is None:
             continue
 
+        suffix = raw_path.suffix.lower()
+        is_video = suffix in VIDEO_EXTENSIONS
+
         if not args.force and not needs_processing(raw_path, output_path):
             print(f"  Skipping (up to date): {raw_path.name}")
             skipped += 1
+            if is_video:
+                video_outputs.append(output_path)
             continue
 
-        suffix = raw_path.suffix.lower()
-        if suffix in VIDEO_EXTENSIONS:
+        if is_video:
             success = process_video(raw_path, output_path)
+            video_outputs.append(output_path)
         else:
             success = process_image(raw_path, output_path)
 
@@ -420,7 +476,35 @@ def main():
             errors += 1
 
     print()
-    print(f"Done: {processed} processed, {skipped} skipped, {errors} errors")
+    print(f"Media: {processed} processed, {skipped} skipped, {errors} errors")
+
+    og_processed = 0
+    og_skipped = 0
+    og_errors = 0
+
+    print()
+    print("Generating OG images for videos...")
+
+    for video_path in sorted(video_outputs):
+        if not video_path.exists():
+            continue
+
+        og_path = get_og_path(video_path)
+
+        if not args.force and not og_needs_processing(video_path, og_path):
+            print(f"  Skipping OG (up to date): {og_path.name}")
+            og_skipped += 1
+            continue
+
+        if generate_og_image(video_path, og_path):
+            og_processed += 1
+        else:
+            og_errors += 1
+
+    print()
+    print(
+        f"OG images: {og_processed} generated, {og_skipped} skipped, {og_errors} errors"
+    )
 
 
 if __name__ == "__main__":
