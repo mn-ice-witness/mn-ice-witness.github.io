@@ -21,10 +21,10 @@
     <link rel="canonical" href="https://mn-ice-witness.org/">
 
     <!-- Favicon and App Icons -->
-    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico?v=1769025781">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png?v=1769025781">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png?v=1769025781">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png?v=1769025781">
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.ico?v=1769025898">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png?v=1769025898">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png?v=1769025898">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png?v=1769025898">
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#121212">
 
@@ -48,7 +48,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css?v=1769025781">
+    <link rel="stylesheet" href="/css/style.css?v=1769025898">
     <!-- SPLASH DISABLED
     <script>
         (function() {
@@ -95,6 +95,63 @@
     </script>
 </head>
 <body>
+    <!-- SVG Symbol Definitions (hidden, reused via <use href="#icon-name"/>) -->
+    <svg style="display:none" aria-hidden="true">
+        <!-- Camera icon - media indicator -->
+        <symbol id="icon-camera" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+            <circle cx="12" cy="13" r="4"/>
+        </symbol>
+        <!-- Eye icon - viewed indicator -->
+        <symbol id="icon-eye" viewBox="0 0 24 24">
+            <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" fill="currentColor"/>
+        </symbol>
+        <!-- Link icon - share/copy link -->
+        <symbol id="icon-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+            <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+        </symbol>
+        <!-- Play icon (triangle) -->
+        <symbol id="icon-play" viewBox="0 0 24 24">
+            <polygon points="6,4 20,12 6,20" fill="currentColor"/>
+        </symbol>
+        <!-- Pause icon (two bars) -->
+        <symbol id="icon-pause" viewBox="0 0 24 24">
+            <rect x="6" y="4" width="4" height="16" rx="1" fill="currentColor"/>
+            <rect x="14" y="4" width="4" height="16" rx="1" fill="currentColor"/>
+        </symbol>
+        <!-- Restart icon (circular arrow) -->
+        <symbol id="icon-restart" viewBox="0 0 24 24">
+            <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z" fill="currentColor"/>
+        </symbol>
+        <!-- Speaker icon (volume) -->
+        <symbol id="icon-speaker" viewBox="0 0 24 24">
+            <path d="M3 9v6h4l5 5V4L7 9H3z" fill="currentColor"/>
+            <path class="speaker-waves" d="M18 12c0-2.05-1.18-3.82-2.9-4.68v9.36c1.72-.86 2.9-2.63 2.9-4.68z" fill="currentColor"/>
+        </symbol>
+        <!-- Mute X icon -->
+        <symbol id="icon-mute-x" viewBox="0 0 24 24">
+            <path d="M24 10.5l-2.5-2.5-2.5 2.5-2.5-2.5-2 2 2.5 2.5-2.5 2.5 2 2 2.5-2.5 2.5 2.5 2-2-2.5-2.5 2.5-2.5z" fill="currentColor"/>
+        </symbol>
+        <!-- Fullscreen enter icon -->
+        <symbol id="icon-fullscreen-enter" viewBox="0 0 24 24">
+            <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/>
+        </symbol>
+        <!-- Fullscreen exit icon -->
+        <symbol id="icon-fullscreen-exit" viewBox="0 0 24 24">
+            <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z" fill="currentColor"/>
+        </symbol>
+        <!-- Trust/shield icon -->
+        <symbol id="icon-trust" viewBox="0 0 24 24">
+            <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4zm0 10.99h7c-.53 4.12-3.28 7.79-7 8.94V12H5V6.3l7-3.11v8.8z" fill="currentColor"/>
+        </symbol>
+        <!-- Search icon -->
+        <symbol id="icon-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="10" cy="10" r="7"/>
+            <path d="M21 21l-5-5"/>
+        </symbol>
+    </svg>
+
     <!-- Opening Splash Montage - DISABLED
     <div class="splash-screen" id="splash">
         <div class="splash-montage">
@@ -139,10 +196,7 @@
             <button class="view-btn active" data-view="media">Media</button>
             <button class="view-btn" data-view="list">List</button>
             <button class="search-btn" id="search-btn" aria-label="Search incidents">
-                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="10" cy="10" r="7"/>
-                    <path d="M21 21l-5-5"/>
-                </svg>
+                <svg viewBox="0 0 24 24" width="18" height="18"><use href="#icon-search"/></svg>
             </button>
             <label class="sort-toggle" id="sort-toggle" title="Sort by recently updated">
                 <input type="checkbox" id="sort-updated-checkbox">
@@ -254,17 +308,17 @@
 
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <!-- Core modules (no dependencies) -->
-    <script src="/js/parser.js?v=1769025781"></script>
-    <script src="/js/router.js?v=1769025781"></script>
-    <script src="/js/media-controls.js?v=1769025781"></script>
+    <script src="/js/parser.js?v=1769025898"></script>
+    <script src="/js/router.js?v=1769025898"></script>
+    <script src="/js/media-controls.js?v=1769025898"></script>
     <!-- Feature modules -->
-    <script src="/js/view-state.js?v=1769025781"></script>
-    <script src="/js/splash.js?v=1769025781"></script>
-    <script src="/js/lightbox-content.js?v=1769025781"></script>
-    <script src="/js/lightbox.js?v=1769025781"></script>
-    <script src="/js/media-gallery.js?v=1769025781"></script>
-    <script src="/js/search.js?v=1769025781"></script>
+    <script src="/js/view-state.js?v=1769025898"></script>
+    <script src="/js/splash.js?v=1769025898"></script>
+    <script src="/js/lightbox-content.js?v=1769025898"></script>
+    <script src="/js/lightbox.js?v=1769025898"></script>
+    <script src="/js/media-gallery.js?v=1769025898"></script>
+    <script src="/js/search.js?v=1769025898"></script>
     <!-- Main app (last, coordinates all modules) -->
-    <script src="/js/app.js?v=1769025781"></script>
+    <script src="/js/app.js?v=1769025898"></script>
 </body>
 </html>

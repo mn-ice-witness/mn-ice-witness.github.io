@@ -24,7 +24,7 @@ If ~/.context.md doesn't exist, notify the user.
 **Feature-Specific:**
 6. `dev-docs/url-routing.md` - **Read when doing URL/routing work** - Path-based URLs, Cloudflare Functions
 7. `dev-docs/media-controls.md` - Video player controls strategy and fullscreen implementation
-8. `dev-docs/ui-patterns.md` - **Read when doing UI work** - Reusable UI patterns (SVG icons, copy-to-clipboard)
+8. `dev-docs/ui-patterns.md` - **Read when adding icons or UI elements** - SVG icon DRY pattern (NEVER inline SVGs)
 
 **Research & Content:**
 9. `dev-docs/research-sources.md` - Where to find and verify incidents

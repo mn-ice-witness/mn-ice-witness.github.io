@@ -2,23 +2,55 @@
 
 Reusable patterns and conventions for the site's user interface.
 
-## SVG Icon Reuse Pattern
+## SVG Icons — DRY Pattern (IMPORTANT)
 
-When using the same SVG icon multiple times on a page, define it once as a `<symbol>` and reference it with `<use>`. This keeps code clean and maintainable.
+**NEVER inline SVG paths directly.** Always use the symbol/use pattern for icons.
 
-### Pattern
+### Why
 
+- **DRY (Don't Repeat Yourself)** — Define once, use everywhere
+- **Maintainable** — Change an icon in one place, updates everywhere
+- **Smaller HTML** — References are tiny vs. full path data
+- **Consistent** — All icons come from the same source
+
+### How It Works
+
+1. **Define icons once** in `docs/index.html` inside the hidden `<svg>` block
+2. **Reference them** anywhere with `<use href="#icon-name"/>`
+
+### Adding a New Icon
+
+1. Add a `<symbol>` to the icon block in `docs/index.html`:
 ```html
-<!-- Define icons once (hidden) -->
 <svg style="display:none">
-  <symbol id="link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
-    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+  <!-- existing icons... -->
+  <symbol id="icon-yourname" viewBox="0 0 24 24">
+    <path d="..."/>
   </symbol>
 </svg>
+```
 
-<!-- Reuse anywhere -->
-<svg width="16" height="16"><use href="#link-icon"/></svg>
+2. Use it anywhere:
+```html
+<svg width="16" height="16"><use href="#icon-yourname"/></svg>
+```
+
+3. Document it in the table below
+
+### DON'T Do This
+
+```html
+<!-- BAD: Inline SVG repeated everywhere -->
+<svg viewBox="0 0 24 24" width="16" height="16">
+  <path d="M8 5v14l11-7z" fill="currentColor"/>
+</svg>
+```
+
+### DO This Instead
+
+```html
+<!-- GOOD: Reference the symbol -->
+<svg width="16" height="16"><use href="#icon-play"/></svg>
 ```
 
 ### Copy-to-Clipboard with Feedback
@@ -45,19 +77,30 @@ Header anchor links are handled via event delegation in `lightbox.js` (not inlin
 
 **HTML usage** (in `about.md`):
 ```html
-<h2 id="section-name">Section Title <a href="#section-name" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#link-icon"/></svg></a></h2>
+<h2 id="section-name">Section Title <a href="#section-name" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 ```
 
 ### Example Usage
 
 See `docs/about.md` for a complete implementation with anchored section headers (h2 level only).
 
-## Standard Icons
+## Available Icons
 
-Icons used throughout the site (from lightbox.js and elsewhere):
+All icons are defined in `docs/index.html`. Reference with `<use href="#icon-name"/>`.
 
-| Icon | Symbol ID | Use |
-|------|-----------|-----|
-| Chain link | `link-icon` | Copy link / share |
+| Symbol ID | Description | Used For |
+|-----------|-------------|----------|
+| `icon-camera` | Camera outline | Media indicator on list items |
+| `icon-eye` | Eye | Viewed indicator |
+| `icon-link` | Chain link | Copy link / share buttons |
+| `icon-play` | Play triangle | Video play button |
+| `icon-pause` | Pause bars | Video pause button |
+| `icon-restart` | Circular arrow | Video restart button |
+| `icon-speaker` | Speaker with waves | Volume on |
+| `icon-mute-x` | Speaker with X | Volume muted |
+| `icon-fullscreen-enter` | Expanding corners | Enter fullscreen |
+| `icon-fullscreen-exit` | Contracting corners | Exit fullscreen |
+| `icon-trust` | Shield with check | Trustworthiness indicator |
+| `icon-search` | Magnifying glass | Search button |
 
-When adding new icons, define them in the hidden `<svg>` block and document here.
+When adding new icons, add them to `docs/index.html` and document here.
