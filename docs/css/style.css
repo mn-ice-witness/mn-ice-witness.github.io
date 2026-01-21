@@ -868,7 +868,7 @@ body {
 .marker-immigrants { background: var(--type-immigrants); }
 .marker-citizens { background: var(--type-citizens); }
 .marker-fatal { background: var(--type-fatal); }
-.marker-schools { background: var(--type-schools); }
+.marker-schools-hospitals { background: var(--type-schools); }
 .marker-response { background: var(--type-response); }
 
 .section-title {
