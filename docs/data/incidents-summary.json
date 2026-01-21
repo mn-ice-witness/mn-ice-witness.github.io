@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1768970483,
+  "mediaVersion": 1768970726,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-20-brooklyn-park-officer-citizen-check.md",
@@ -2186,7 +2186,7 @@
       "injuries": "none",
       "trustworthiness": "high",
       "created": "2026-01-17T23:35:39",
-      "lastUpdated": "2026-01-17T23:35:39",
+      "lastUpdated": "2026-01-20T22:44:32",
       "mediaCount": 1,
       "notable": false,
       "hasLocalMedia": true,

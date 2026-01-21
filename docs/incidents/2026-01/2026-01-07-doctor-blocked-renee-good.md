@@ -9,7 +9,7 @@ victim_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-17T23:35:39
-last_updated: 2026-01-17T23:35:39
+last_updated: 2026-01-20T22:44:32
 ---
 
 # ICE Blocks Physician From Helping Shooting Victim
@@ -26,6 +26,7 @@ After ICE agent Jonathan Ross shot Renee Good, a bystander who identified himsel
 6. MPR News (Jan 17, 2026): [ICE agents are trained in CPR. They didn't use it on Renee Macklin Good](https://www.mprnews.org/story/2026/01/17/ice-agents-are-trained-in-cpr-they-didnt-use-it-on-renee-macklin-good)
 7. Star Tribune (Jan 2026): [Should ICE agents have refused bystander medical help at shooting scene?](https://www.startribune.com/should-ice-agents-have-refused-bystander-medical-help-at-shooting-scene/601560462)
 8. BP Daily (Jan 2026): ["I Don't Care": Video Shows ICE Agent Rejecting Doctor's Help For Shooting Victim Renee Good](https://www.bpdaily.com/ice-agent-dont-care-medical-help-renee-good/)
+9. Threads/@aaronparnas (Jan 2026): [Post about doctor blocked from helping Renee Good](https://www.threads.com/@aaronparnas/post/DTwVrTvkoXQ)
 - **VIDEO:** Facebook Reel: [ICE blocks doctor from helping Renee Good](https://www.facebook.com/reel/1613959399783824)
 
 ## Victim(s)
@@ -48,6 +49,7 @@ After ICE agent Jonathan Ross shot Renee Good, a bystander who identified himsel
 Heller told CNN the ambulance couldn't get through because vehicles "abandoned" by the ICE agents on scene were blocking the road.
 
 ## Medical Response Failures
+- There is credible evidence that Good was alive for 8 minutes after being shot
 - Agents waited 3 minutes to call 911 after the shooting
 - After brief medical assessment, agents left Good bleeding in her car
 - When emergency responders arrived, Good was "unresponsive, not breathing, with inconsistent, irregular, thready pulse activity"
