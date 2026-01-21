@@ -3,15 +3,17 @@
 
 
 
+
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
 target-richfield-employees
 observer-shoved-into-traffic
+brooklyn-park-officer-citizen-check
 ahmed-hassan-uber-driver
 mubashir-wrongful-detention
-oglala-sioux-still-detained
 bovino-cbs-interview
+jose-ramirez-native-american
 mankato-women-sprayed
 noem-pepper-spray-denial-backtrack
 silva-sosa-inver-grove-heights
@@ -20,6 +22,7 @@ observer-phone-snatched
 ramon-menera-accent-detained
 agriculture-press-conference
 eden-prairie-13-year-old
+oglala-sioux-still-detained
 nimco-omar-citizen-check
 garrison-gibson-battering-ram
 roosevelt-high-school
@@ -29,7 +32,6 @@ renee-good-shooting
 trump-mistakes-happen
 emmanuel-sackie-brooklyn-park
 jesse-ventura-roosevelt
-jose-ramirez-native-american
 rogelio-jimenez-brooklyn-park
 el-tapatio-willmar
 phil-maddox-did-you-not-learn
@@ -45,6 +47,7 @@ st-paul-public-works-snowplow-driver
 kong-vang-frogtown
 nasra-ahmed-st-paul-citizen
 lyn-lake-tear-gas
+brandon-saenz-doordash
 hani-duglof-medical
 pickup-truck-rams-protesters
 mercado-central-mother-children
@@ -57,4 +60,3 @@ dhs-response-saly-detention
 nadya-moldovan-refugee
 william-vermie-veteran-detained
 trump-vicious-animals-statement
-brooklyn-park-officer-citizen-check
