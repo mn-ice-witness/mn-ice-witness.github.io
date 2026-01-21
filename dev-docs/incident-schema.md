@@ -87,7 +87,7 @@ See `adding-incidents.md` for detailed guidance.
 | `observers` | People **detained or attacked for filming, observing, or protesting** ICE — targeted for what they were doing |
 | `immigrants` | Non-criminal immigrants detained (includes workplace raids) |
 | `schools-hospitals` | Actions at/near schools or hospitals, including patient targeting and workplace audits |
-| `response` | DHS/ICE official statements justifying specific incidents/arrests |
+| `response` | **FEDERAL GOVERNMENT ONLY:** DHS/ICE/CBP official statements (e.g., Trump, Noem, Bovino, @DHSgov). NOT for local police, mayors, governors, or other non-federal officials. |
 
 **Citizens vs Observers — Key Distinction:**
 Both categories may involve U.S. citizens being detained. Choose based on WHY they were targeted:
@@ -203,6 +203,19 @@ Posted on X (@DHSgov):
 ```
 
 ## Official Response Documents (standalone)
+
+**IMPORTANT: `type: response` is ONLY for federal government (DHS/ICE/CBP) statements.**
+
+Examples of `response`:
+- DHS press release justifying arrests
+- @DHSgov or @ICEgov tweets about an incident
+- Statements from Kristi Noem, Bovino, Trump about MN operations
+
+**NOT `response`** (use `citizens` instead):
+- Local police chiefs speaking about civil rights violations
+- Mayors or governors criticizing ICE
+- Sheriff statements about profiling concerns
+- Any non-federal official statement
 
 For DHS/ICE press releases and statements justifying specific arrests, create standalone documents with type `response`:
 
