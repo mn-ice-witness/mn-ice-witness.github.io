@@ -1,5 +1,5 @@
 {
-  "mediaVersion": 1769004435,
+  "mediaVersion": 1769004671,
   "incidents": [
     {
       "filePath": "incidents/2026-01/2026-01-20-trump-mistakes-happen.md",
@@ -29,30 +29,6 @@
         }
       ],
       "aspectRatio": 0.6055555555555555
-    },
-    {
-      "filePath": "incidents/2026-01/2026-01-20-east-side-thai-gun-drawn.md",
-      "title": "ICE Agent Enters St. Paul Restaurant with Gun Drawn, Accuses Owners of Hiding Suspect",
-      "summary": "An ICE agent entered East Side Thai restaurant at 879 Payne St in St. Paul with his handgun drawn during a street search on MLK Day. The agent accused the restaurant owners of hiding a suspect who had actually run past the business. The owners captured the incident on video. Co-owner Kou Vang said everyone in the restaurant was \"ok, just a little traumatized.\"",
-      "latestUpdate": null,
-      "date": "2026-01-20",
-      "time": "afternoon",
-      "location": "879 Payne St",
-      "city": "St. Paul",
-      "type": "schools-hospitals",
-      "status": "resolved",
-      "victimCitizenship": "us-citizen",
-      "injuries": "none",
-      "trustworthiness": "high",
-      "created": "2026-01-21T08:02:53",
-      "lastUpdated": "2026-01-21T08:02:53",
-      "mediaCount": 1,
-      "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaFiles": [],
-      "aspectRatio": null
     },
     {
       "filePath": "incidents/2026-01/2026-01-20-brooklyn-park-officer-citizen-check.md",
