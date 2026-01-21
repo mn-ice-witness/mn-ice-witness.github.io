@@ -1,12 +1,5 @@
 # About This Site
 
-<svg style="display:none">
-  <symbol id="link-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
-    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
-  </symbol>
-</svg>
-
 <p style="font-size: 0.9em; color: #666; font-style: italic;">A free, fact-based documentation of ICE enforcement and its impact on Minnesota communities, maintained by community volunteers. If you find this site useful, please help share. To report an incident (must be sourced by a reputable media outlet), submit a correction, or share additional media for a listed incident, contact us at <a href="mailto:mnicewitness@gmail.com">mnicewitness@gmail.com</a>. <span style="font-weight: bold; color: #666;">Last updated: January 21, 2026</span></p>
 
 <p class="about-social" style="margin-top: 0.5em;"><span style="color: #666; font-size: 0.9em; margin-right: 12px;">Follow Us:</span>
@@ -17,7 +10,7 @@
 <a href="https://bsky.app/profile/mnicewitness.bsky.social" target="_blank" title="Follow on Bluesky (@mnicewitness.bsky.social)"><svg width="17" height="17" viewBox="0 0 600 530" fill="#999"><path d="m135.72 44.03c66.496 49.921 138.02 151.14 164.28 205.46 26.262-54.316 97.782-155.54 164.28-205.46 47.98-36.021 125.72-63.892 125.72 24.795 0 17.712-10.155 148.79-16.111 170.07-20.703 73.984-96.144 92.854-163.25 81.433 117.3 19.964 147.14 86.092 82.697 152.22-122.39 125.59-175.91-31.511-189.63-71.766-2.514-7.3797-3.6904-10.832-3.7077-7.8964-0.0174-2.9357-1.1937 0.51669-3.7077 7.8964-13.714 40.255-67.233 197.36-189.63 71.766-64.444-66.128-34.605-132.26 82.697-152.22-67.108 11.421-142.55-7.4491-163.25-81.433-5.9562-21.282-16.111-152.36-16.111-170.07 0-88.687 77.742-60.816 125.72-24.795z"/></svg></a>
 </p>
 
-<h2 id="federal-position">The Federal Position <a href="#federal-position" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#link-icon"/></svg></a></h2>
+<h2 id="federal-position">The Federal Position <a href="#federal-position" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
 [Operation Metro Surge](https://www.pbs.org/newshour/politics/minnesota-and-the-twin-cities-sue-the-federal-government-to-stop-trumps-immigration-crackdown) was launched by the Trump administration in December 2025, deploying roughly 3,000 federal agents to Minnesota in what DHS has called its largest operation in history. The Trump administration contends that Operation Metro Surge targets "the worst of the worst" — criminals, gang members, and individuals with serious criminal histories.
 
@@ -29,7 +22,7 @@ The administration has repeatedly cited sanctuary city policies in Minneapolis a
 
 This messaging pattern — highlighting individual criminal cases to justify broader operations — appears consistently in DHS responses to criticism of enforcement tactics. When incidents documented on this site have drawn public scrutiny, DHS has responded by pointing to sanctuary policies and criminal cases rather than addressing the specific circumstances of those incidents.
 
-<h2 id="the-data">The Data: Who Is ICE Actually Arresting? <a href="#the-data" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#link-icon"/></svg></a></h2>
+<h2 id="the-data">The Data: Who Is ICE Actually Arresting? <a href="#the-data" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
 Independent analyses present different figures.
 
@@ -41,7 +34,7 @@ Aaron Reichlin-Melnick of the American Immigration Council noted: "DHS is implic
 
 **DHS claims about U.S. citizens have been fact-checked as false.** Secretary Noem stated on October 30, 2025: "No American citizens have been arrested or detained." [PolitiFact rated this claim "Pants on Fire"](https://www.politifact.com/factchecks/2025/oct/31/kristi-noem/immigration-ICE-arrest-US-citizen-Chicago/) — their lowest truthfulness rating. [NPR](https://www.npr.org/2025/11/05/nx-s1-5598373/npr-fact-checks-kristi-noem-on-ice-detaining-us-citizens) and [Poynter](https://www.poynter.org/fact-checking/2025/has-ice-arrested-american-citizens/) also found the claim to be inaccurate. ProPublica documented over 170 cases of U.S. citizens detained by immigration agents. [See full details](#2025-10-30-noem-no-citizens-arrested-claim).
 
-<h2 id="what-this-site-documents">What This Site Documents <a href="#what-this-site-documents" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#link-icon"/></svg></a></h2>
+<h2 id="what-this-site-documents">What This Site Documents <a href="#what-this-site-documents" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
 This site compiles sourced, verified incidents from Minnesota during Operation Metro Surge (December 2025 – present).
 
@@ -67,9 +60,9 @@ When enabled, incidents are sorted by when they were added or last had a signifi
 
 <div style="background: #f8f9fa; border: 1px solid #e2e2e2; border-radius: 6px; padding: 16px; margin: 16px 0;">
 
-<p style="margin-bottom: 12px;"><svg viewBox="0 0 24 24" width="16" height="16" style="vertical-align: middle; color: #7ba3c9;" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg> <strong>Camera</strong> — Incident has video or photo evidence in the media gallery.</p>
+<p style="margin-bottom: 12px;"><svg viewBox="0 0 24 24" width="16" height="16" style="vertical-align: middle; color: #7ba3c9;"><use href="#icon-camera"/></svg> <strong>Camera</strong> — Incident has video or photo evidence in the media gallery.</p>
 
-<p style="margin-bottom: 0;"><svg viewBox="0 0 24 24" width="16" height="16" style="vertical-align: middle; position: relative; top: 1px; color: #999;"><path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z" fill="currentColor"/></svg> <strong>Eye</strong> — You've viewed this incident. Viewed incidents are greyed out. <a href="#clear-viewed">Clear history</a>.</p>
+<p style="margin-bottom: 0;"><svg viewBox="0 0 24 24" width="16" height="16" style="vertical-align: middle; position: relative; top: 1px; color: #999;"><use href="#icon-eye"/></svg> <strong>Eye</strong> — You've viewed this incident. Viewed incidents are greyed out. <a href="#clear-viewed">Clear history</a>.</p>
 
 </div>
 
@@ -99,7 +92,7 @@ When enabled, incidents are sorted by when they were added or last had a signifi
 **Schools:**
 - [Border Patrol agents at Roosevelt High School; staff member detained](#2026-01-07-roosevelt-high-school)
 
-<h2 id="purpose">Purpose <a href="#purpose" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#link-icon"/></svg></a></h2>
+<h2 id="purpose">Purpose <a href="#purpose" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
 This site does not take a position on immigration policy. It documents reported incidents in Minnesota and the individuals affected.
 
@@ -109,7 +102,7 @@ Every incident on this site includes source links to news reports, videos, offic
 
 <p style="font-style: italic; font-weight: bold; color: #666; margin-top: 1.5em;">Note: Even non-citizens accused of crimes have the right to have their civil rights respected, to be given due process under the law, and to have their humanity honored. As the <a href="https://www.aclu.org/issues/immigrants-rights">ACLU states</a>: "The fundamental constitutional protections of due process and equal protection embodied in the Constitution and Bill of Rights apply to every person."</p>
 
-<h2 id="sources-used">Sources Used <a href="#sources-used" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#link-icon"/></svg></a></h2>
+<h2 id="sources-used">Sources Used <a href="#sources-used" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
 All incidents are documented using publicly available sources including:
 - Minnesota local news (Star Tribune, MPR News, WCCO, KARE11, Sahan Journal)
@@ -118,7 +111,7 @@ All incidents are documented using publicly available sources including:
 - Court filings and legal documents
 - Video evidence and eyewitness accounts
 
-<h2 id="investigations">Investigations & Analysis <a href="#investigations" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#link-icon"/></svg></a></h2>
+<h2 id="investigations">Investigations & Analysis <a href="#investigations" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
 In-depth reporting and analysis of ICE enforcement patterns and civil rights concerns:
 
@@ -137,7 +130,7 @@ In-depth reporting and analysis of ICE enforcement patterns and civil rights con
 - [2,000 federal agents sent to Minneapolis area to carry out 'largest immigration operation ever'](https://www.pbs.org/newshour/politics/2000-federal-agents-sent-to-minneapolis-area-to-carry-out-largest-immigration-operation-ever-ice-says) - PBS NewsHour
 - [ICE Videos Minnesota: What the footage shows](https://www.nytimes.com/2026/01/13/us/ice-videos-minnesota-trump-immigration.html) - New York Times
 
-<h2 id="operation-parris">Operation PARRIS: Targeting Refugees with Legal Status <a href="#operation-parris" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#link-icon"/></svg></a></h2>
+<h2 id="operation-parris">Operation PARRIS: Targeting Refugees with Legal Status <a href="#operation-parris" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
 A documented pattern has emerged of ICE targeting refugees who entered the United States legally and are awaiting green cards under **Operation PARRIS** (Post-Admission Refugee Reverification and Integrity Strengthening).
 
@@ -149,7 +142,7 @@ This pattern is documented in incidents on this site including:
 - [Silva Sosa parents detained 5 days after I-130 approval](#2026-01-12-silva-sosa-inver-grove-heights)
 - [Moldovan refugee Nadya detained while driving to church with family](#2026-01-17-nadya-moldovan-refugee)
 
-<h2 id="trustworthiness">Trustworthiness Ratings <a href="#trustworthiness" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#link-icon"/></svg></a></h2>
+<h2 id="trustworthiness">Trustworthiness Ratings <a href="#trustworthiness" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
 Each incident is rated for trustworthiness based on source quality and corroboration:
 
@@ -160,7 +153,7 @@ Each incident is rated for trustworthiness based on source quality and corrobora
 
 The trustworthiness rating appears at the bottom of each incident page.
 
-<h2 id="legal-observation">Legal Observation and Protest <a href="#legal-observation" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#link-icon"/></svg></a></h2>
+<h2 id="legal-observation">Legal Observation and Protest <a href="#legal-observation" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
 Multiple incidents on this site involve ICE agents warning observers not to film, or claiming "obstruction" against people at a distance. Supporters of ICE operations also argue that certain incidents are not civil rights concerns because observer behavior was unlawful. Here's what the law actually says.
 

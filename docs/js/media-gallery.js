@@ -197,38 +197,22 @@ const MediaGallery = {
             videoControls = `
                 <div class="media-controls">
                     <button class="media-control-btn play-pause-btn" aria-label="Play/Pause">
-                        <svg class="media-icon-pause" viewBox="0 0 24 24" width="24" height="24">
-                            <rect x="6" y="4" width="4" height="16" rx="1" fill="currentColor"/>
-                            <rect x="14" y="4" width="4" height="16" rx="1" fill="currentColor"/>
-                        </svg>
-                        <svg class="media-icon-play" viewBox="0 0 24 24" width="24" height="24" style="display:none">
-                            <polygon points="6,4 20,12 6,20" fill="currentColor"/>
-                        </svg>
+                        <svg class="media-icon-pause" viewBox="0 0 24 24" width="24" height="24"><use href="#icon-pause"/></svg>
+                        <svg class="media-icon-play" viewBox="0 0 24 24" width="24" height="24" style="display:none"><use href="#icon-play"/></svg>
                     </button>
                     <div class="time-slider-container">
                         <input type="range" class="time-slider" min="0" max="100" value="0" step="0.1" aria-label="Video progress">
                     </div>
                     <button class="media-control-btn restart-btn" aria-label="Restart">
-                        <svg viewBox="0 0 24 24" width="24" height="24">
-                            <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z" fill="currentColor"/>
-                        </svg>
+                        <svg viewBox="0 0 24 24" width="24" height="24"><use href="#icon-restart"/></svg>
                     </button>
                     <button class="media-control-btn audio-toggle muted" aria-label="Toggle sound">
-                        <svg class="speaker-icon" viewBox="0 0 24 24" width="24" height="24">
-                            <path d="M3 9v6h4l5 5V4L7 9H3z" fill="currentColor"/>
-                            <path class="speaker-waves" d="M18 12c0-2.05-1.18-3.82-2.9-4.68v9.36c1.72-.86 2.9-2.63 2.9-4.68z" fill="currentColor"/>
-                        </svg>
-                        <svg class="mute-x" viewBox="0 0 24 24" width="24" height="24">
-                            <path d="M24 10.5l-2.5-2.5-2.5 2.5-2.5-2.5-2 2 2.5 2.5-2.5 2.5 2 2 2.5-2.5 2.5 2.5 2-2-2.5-2.5 2.5-2.5z" fill="currentColor"/>
-                        </svg>
+                        <svg class="speaker-icon" viewBox="0 0 24 24" width="24" height="24"><use href="#icon-speaker"/></svg>
+                        <svg class="mute-x" viewBox="0 0 24 24" width="24" height="24"><use href="#icon-mute-x"/></svg>
                     </button>
                     <button class="media-control-btn fullscreen-btn" aria-label="Fullscreen">
-                        <svg class="fullscreen-enter" viewBox="0 0 24 24" width="24" height="24">
-                            <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/>
-                        </svg>
-                        <svg class="fullscreen-exit" viewBox="0 0 24 24" width="24" height="24" style="display:none">
-                            <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z" fill="currentColor"/>
-                        </svg>
+                        <svg class="fullscreen-enter" viewBox="0 0 24 24" width="24" height="24"><use href="#icon-fullscreen-enter"/></svg>
+                        <svg class="fullscreen-exit" viewBox="0 0 24 24" width="24" height="24" style="display:none"><use href="#icon-fullscreen-exit"/></svg>
                     </button>
                 </div>
             `;
@@ -237,12 +221,8 @@ const MediaGallery = {
             videoControls = `
                 <div class="media-controls">
                     <button class="media-control-btn fullscreen-btn" aria-label="Fullscreen">
-                        <svg class="fullscreen-enter" viewBox="0 0 24 24" width="24" height="24">
-                            <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z" fill="currentColor"/>
-                        </svg>
-                        <svg class="fullscreen-exit" viewBox="0 0 24 24" width="24" height="24" style="display:none">
-                            <path d="M5 16h3v3h2v-5H5v2zm3-8H5v2h5V5H8v3zm6 11h2v-3h3v-2h-5v5zm2-11V5h-2v5h5V8h-3z" fill="currentColor"/>
-                        </svg>
+                        <svg class="fullscreen-enter" viewBox="0 0 24 24" width="24" height="24"><use href="#icon-fullscreen-enter"/></svg>
+                        <svg class="fullscreen-exit" viewBox="0 0 24 24" width="24" height="24" style="display:none"><use href="#icon-fullscreen-exit"/></svg>
                     </button>
                 </div>
             `;
