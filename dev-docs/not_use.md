@@ -303,6 +303,27 @@ Stories are excluded when they don't meet the project's core focus:
 - Reason: Insufficient details - video evidence exists from state representative, but no victim identification, no corroborating news coverage with victim details, outcome unknown. May revisit if victim comes forward or more coverage emerges.
 - Date evaluated: 2026-01-20
 
+**Sun World Supermarket Arrest (Jan 20)**
+- Source: [Bring Me The News](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-tuesday-jan-20)
+- Date: January 20, 2026
+- Details: Video shows ICE inside Sun World Supermarket (892 Arcade St, St. Paul), an Asian grocery store, escorting a man out and placing him in a vehicle. A woman recording is heard saying "He's telling you he needs to get his documents."
+- Reason: Insufficient details - single source mention in BMTN daily list, no victim identification, no corroborating news coverage. May revisit if victim comes forward or more details emerge.
+- Date evaluated: 2026-01-21
+
+**Waite Park NE Minneapolis Arrest (Jan 20)**
+- Source: [Elliott Payne Instagram](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-tuesday-jan-20) via BMTN
+- Date: January 20, 2026
+- Details: Minneapolis City Council President Elliott Payne reported an arrest in the Waite Park neighborhood of Northeast Minneapolis, with agents detaining someone "delivering food to their family."
+- Reason: Insufficient details - brief mention by official without victim identification, no corroborating news coverage, no video. May revisit if victim or family comes forward.
+- Date evaluated: 2026-01-21
+
+**St. Cloud Washington Memorial Drive Arrest (Jan 20)**
+- Source: [Xidig TV](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-tuesday-jan-20) via BMTN
+- Date: January 20, 2026
+- Details: Footage from Xidig TV shows ICE agents arrested a man near Washington Memorial Drive and Division Street in St. Cloud.
+- Reason: Insufficient details - single source (Somali media outlet), no victim identification, no mainstream news coverage with additional details.
+- Date evaluated: 2026-01-21
+
 **Ridgedale Service Center Courthouse Arrests (Dec 29, 2025)**
 - Sources: [KARE 11](https://www.kare11.com/article/news/local/ice-announces-names-of-people-arrested-outside-courtrooms-at-ridgedale-service-center/89-9440cf5d-da4f-490e-ab26-7404bea3b320), [BMTN](https://bringmethenews.com/minnesota-news/2-arrested-during-ice-operation-at-hennepin-county-building-in-minnetonka), [Snopes](https://www.snopes.com/news/2025/12/30/ice-arrest-minnesota-video/)
 - Date: December 29, 2025
