@@ -4,6 +4,7 @@
 
 
 
+
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -14,6 +15,7 @@ ahmed-hassan-uber-driver
 mubashir-wrongful-detention
 bovino-cbs-interview
 jose-ramirez-native-american
+bovino-hexachloroethane-playground
 mankato-women-sprayed
 noem-pepper-spray-denial-backtrack
 silva-sosa-inver-grove-heights

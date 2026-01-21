@@ -23,6 +23,9 @@ This file is a **table of contents** for AI assistants. It tells you WHERE to fi
 
 These rules apply to almost every task. Do not skip them.
 
+### Abbreviations
+- **sm** = social media (see `dev-docs/social-media-listing-procedure.md`)
+
 ### Terminology
 **"Entry" and "Incident" are synonyms.** The codebase uses both interchangeably. URLs use `/entry/`, code and docs say "incident" - they mean the same thing.
 

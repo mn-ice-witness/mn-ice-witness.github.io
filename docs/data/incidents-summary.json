@@ -1,6 +1,40 @@
 {
   "incidents": [
     {
+      "filePath": "incidents/2026-01/2026-01-21-bovino-hexachloroethane-playground.md",
+      "title": "Border Patrol Deploys Toxic Green Gas Near School at Dismissal (UNVERIFIED)",
+      "summary": "Border Patrol Commander Greg Bovino and agents allegedly deployed multiple canisters of green chemical gas at Mueller Park, near Ella Baker Global Studies & Humanities Magnet School, just after school dismissal. A school bus was reportedly forced to drive through the gas while transporting students home.",
+      "latestUpdate": null,
+      "date": "2026-01-21",
+      "time": "afternoon",
+      "location": "Mueller Park, near Ella Baker Global Studies & Humanities Magnet School",
+      "city": "Minneapolis",
+      "type": [
+        "citizens",
+        "schools-hospitals"
+      ],
+      "status": "under-investigation",
+      "victimCitizenship": "unknown",
+      "injuries": "unknown",
+      "trustworthiness": "unverified",
+      "created": "2026-01-21T17:37:01",
+      "lastUpdated": "2026-01-21T17:37:01",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-21-bovino-hexachloroethane-playground.mp4",
+      "localMediaOgPath": "media/2026-01-21-bovino-hexachloroethane-playground-og-2s-1769039027.jpg",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-21-bovino-hexachloroethane-playground.mp4"
+        }
+      ],
+      "aspectRatio": 1.8815331010452963,
+      "mediaVersion": 1769039027
+    },
+    {
       "filePath": "incidents/2026-01/2026-01-20-trump-mistakes-happen.md",
       "title": "Trump on ICE Violence: \"Mistakes Happen\" While Focusing on \"Murders and Criminals\"",
       "summary": "At a White House briefing marking one year in office, President Trump acknowledged ICE agents \"make mistakes sometimes\" while defending enforcement operations. Like DHS Secretary Noem, Trump redirected attention to criminal deportees, flipping through pages of arrest records and stating agents are \"apprehending murderers and drug dealers.\" The statement drew criticism for dismissing documented civil rights abuses as isolated errors when evidence suggests a systemic pattern of racial profiling and excessive force.",

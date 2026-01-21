@@ -15,11 +15,12 @@ The site uses **clean path-based URLs** that work well for:
 | Content | URL Pattern | Example |
 |---------|-------------|---------|
 | Home (media view) | `/` | `mn-ice-witness.org/` |
-| Incident | `/incident/<slug>` | `mn-ice-witness.org/incident/2026-01-20-trump-mistakes-happen` |
+| Incident | `/entry/<slug>` | `mn-ice-witness.org/entry/2026-01-20-trump-mistakes-happen` |
 | About page | `/about` | `mn-ice-witness.org/about` |
 | About section | `/about/<section>` | `mn-ice-witness.org/about/sources-used` |
 | List view | `/list` | `mn-ice-witness.org/list` |
 | List category | `/list/<category>` | `mn-ice-witness.org/list/citizens` |
+| New & Updated | `/new-updated/<date>` | `mn-ice-witness.org/new-updated/01-20-2026` |
 
 ## How It Works
 
@@ -32,14 +33,16 @@ Path-based URLs require server-side handling. Cloudflare Pages Functions interce
 3. **Let JavaScript take over** - The app reads the URL path and displays the appropriate content
 
 ```
+functions/                      # At project root, not in docs/
+├── entry/
+│   └── [slug].js              # Handles /entry/<slug>
+├── about/
+│   └── [[path]].js            # Handles /about and /about/<section>
+├── list/
+│   └── [[category]].js        # Handles /list and /list/<category>
+└── new-updated/
+    └── [date].js              # Handles /new-updated/<MM-DD-YYYY>
 docs/
-├── functions/
-│   ├── incident/
-│   │   └── [slug].js      # Handles /incident/<anything>
-│   ├── about/
-│   │   └── [[path]].js    # Handles /about and /about/<section>
-│   └── list/
-│       └── [[category]].js # Handles /list and /list/<category>
 ├── index.html
 └── ...
 ```
@@ -116,10 +119,12 @@ This routing system touches:
 
 | File | Purpose |
 |------|---------|
-| `docs/functions/incident/[slug].js` | OG tags for incidents |
-| `docs/functions/about/[[path]].js` | OG tags for about pages |
-| `docs/functions/list/[[category]].js` | OG tags for list views |
-| `docs/js/app.js` | URL parsing, building, routing |
+| `functions/entry/[slug].js` | OG tags for incidents |
+| `functions/about/[[path]].js` | OG tags for about pages |
+| `functions/list/[[category]].js` | OG tags for list views |
+| `functions/new-updated/[date].js` | OG tags for new-updated pages |
+| `docs/js/router.js` | URL parsing, building |
+| `docs/js/app.js` | Route handling |
 | `docs/js/lightbox.js` | URL updates when opening/closing |
 | `bin/run-server.sh` | Wrangler for local dev |
 

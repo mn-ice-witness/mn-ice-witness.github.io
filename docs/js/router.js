@@ -29,6 +29,8 @@ const Router = {
                 return slug ? `/about/${slug}` : '/about';
             case 'list':
                 return slug ? `/list/${slug}` : '/list';
+            case 'new-updated':
+                return `/new-updated/${slug}`;
             case 'home':
             default:
                 return '/';
@@ -56,6 +58,9 @@ const Router = {
         if (path.startsWith('/list')) {
             const category = path.replace('/list', '').replace(/^\//, '') || null;
             return { type: 'list', category };
+        }
+        if (path.startsWith('/new-updated/')) {
+            return { type: 'new-updated', dateStr: path.replace('/new-updated/', '') };
         }
 
         // Fall back to hash-based routes for backwards compatibility
@@ -102,8 +107,8 @@ const Router = {
                 newPath = this.buildUrl('list', route.category);
                 break;
             case 'new-updated':
-                // Keep hash for new-updated for now (less common)
-                return;
+                newPath = this.buildUrl('new-updated', route.dateStr);
+                break;
             default:
                 newPath = '/';
         }
