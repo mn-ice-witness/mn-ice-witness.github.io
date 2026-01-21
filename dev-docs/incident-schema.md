@@ -180,12 +180,15 @@ Direct quotes or summaries.
 
 **IMPORTANT:** Use exactly one rating value. Do NOT use compound ratings like "medium-high".
 
+**See [Source Credibility Tiers](source-tiers.md)** for guidance on how different source types affect trustworthiness ratings.
+
 Examples:
 - **HIGH** - 3 independent sources (Star Tribune, MPR, Fox 9)
 - **HIGH** - Detailed Intercept investigation with named victim and direct quotes
-- **HIGH** - Video evidence shows incident clearly
+- **HIGH** - Video evidence + coverage by established local news
 - **MEDIUM** - 2 sources (local news + union statement)
 - **MEDIUM** - Well reported but no independent firsthand witnesses on scene to corroborate; account relies on victim/family statement
+- **MEDIUM** - Viral social media with video evidence, but no coverage from established news organizations (see source-tiers.md)
 - **LOW** - Single community paper report, needs corroboration
 ```
 
