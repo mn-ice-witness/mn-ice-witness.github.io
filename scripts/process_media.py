@@ -371,16 +371,19 @@ def generate_og_image(video_path: Path, og_path: Path, timestamp: float) -> bool
         return False
 
 
-def get_og_path(video_output_path: Path, timestamp: float) -> Path:
-    """Get OG image path for a video with timestamp (e.g., incident.mp4 -> incident-og-2.0s.jpg)."""
+def get_og_path(video_output_path: Path, timestamp: float, video_mtime: int) -> Path:
+    """Get OG image path for a video with timestamp and mtime (e.g., incident-og-2s-1769026840.jpg)."""
     ts_str = f"{timestamp:.1f}".rstrip("0").rstrip(".")
-    return video_output_path.with_name(f"{video_output_path.stem}-og-{ts_str}s.jpg")
+    return video_output_path.with_name(
+        f"{video_output_path.stem}-og-{ts_str}s-{video_mtime}.jpg"
+    )
 
 
 def find_existing_og_images(video_output_path: Path, output_dir: Path) -> list[Path]:
-    """Find all existing OG images for a video (any timestamp)."""
+    """Find all existing OG images for a video (any timestamp/mtime)."""
     stem = video_output_path.stem
-    pattern = f"{stem}-og-*s.jpg"
+    # Match both old format (slug-og-2s.jpg) and new format (slug-og-2s-1234567890.jpg)
+    pattern = f"{stem}-og-*.jpg"
     return list(output_dir.glob(pattern))
 
 
@@ -560,11 +563,13 @@ def main():
 
         slug = video_path.stem
         timestamp = og_tweaks.get(slug, DEFAULT_OG_TIMESTAMP)
-        og_path = get_og_path(video_path, timestamp)
+        video_mtime = int(video_path.stat().st_mtime)
+        og_path = get_og_path(video_path, timestamp, video_mtime)
 
         og_cleaned += cleanup_wrong_og_images(video_path, og_path, output_dir)
 
-        if not args.force and not og_needs_processing(video_path, og_path):
+        # If og_path exists with correct mtime in name, it's up to date
+        if not args.force and og_path.exists():
             print(f"  Skipping OG (up to date): {og_path.name}")
             og_skipped += 1
             continue

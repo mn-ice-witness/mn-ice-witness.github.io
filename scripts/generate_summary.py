@@ -49,10 +49,12 @@ def get_media_aspect_ratio(file_path: Path):
 
 
 def find_og_image(slug: str, media_dir: Path):
-    """Find OG image for a video using timestamp-based naming pattern (e.g., slug-og-2s.jpg)."""
-    pattern = f"{slug}-og-*s.jpg"
+    """Find OG image for a video using pattern (e.g., slug-og-2s-1234567890.jpg)."""
+    pattern = f"{slug}-og-*.jpg"
     matches = list(media_dir.glob(pattern))
     if matches:
+        # Return the most recent one if multiple exist
+        matches.sort(key=lambda p: p.stat().st_mtime, reverse=True)
         return f"media/{matches[0].name}"
     return None
 
