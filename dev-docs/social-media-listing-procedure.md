@@ -69,3 +69,22 @@ Run this to find incidents created or updated on a specific date:
 ```bash
 grep -l "created: 2026-01-19\|last_updated: 2026-01-19" docs/incidents/**/*.md
 ```
+
+## Individual Incident Posts
+
+For posting about a single incident, ask Claude: "Give me a SM post with url for [incident-slug]"
+
+### Copying Posts from CLI
+
+The CLI adds formatting (bullets, spacing) that breaks copy/paste. To get clean text:
+
+1. Ask Claude to write the post to an HTML file and open it in browser
+2. Copy from the browser window
+
+Claude will run:
+```bash
+cat > /tmp/post.html << 'EOF'
+<pre style="font-family: system-ui; font-size: 16px;">[POST TEXT HERE]</pre>
+EOF
+open /tmp/post.html
+```
