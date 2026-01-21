@@ -796,7 +796,7 @@ const Lightbox = {
 
         const mediaFiles = summaryData.localMediaFiles || [];
         if (mediaFiles.length === 0) {
-            const mediaUrl = App.getMediaUrl(summaryData.localMediaPath);
+            const mediaUrl = App.getMediaUrl(summaryData.localMediaPath, summaryData.mediaVersion);
             if (summaryData.localMediaType === 'video') {
                 return this.renderVideoElement(mediaUrl);
             } else if (summaryData.localMediaType === 'image') {
@@ -807,7 +807,7 @@ const Lightbox = {
 
         let html = '';
         for (const media of mediaFiles) {
-            const mediaUrl = App.getMediaUrl(media.path);
+            const mediaUrl = App.getMediaUrl(media.path, summaryData.mediaVersion);
             if (media.type === 'video') {
                 html += this.renderVideoElement(mediaUrl);
             } else if (media.type === 'image') {
