@@ -179,35 +179,38 @@ const App = {
      * Simple stemmer for search
      */
     stem(word) {
-        return word.toLowerCase()
-            .replace(/ing$/, '')
-            .replace(/ed$/, '')
-            .replace(/s$/, '')
-            .replace(/ies$/, 'y');
+        if (word.length <= 4) return word;
+        return word
+            .replace(/ies$/i, 'y')
+            .replace(/ied$/i, 'y')
+            .replace(/es$/i, '')
+            .replace(/ed$/i, '')
+            .replace(/ing$/i, '')
+            .replace(/s$/i, '');
     },
 
     /**
      * Get filtered incidents based on search query
      */
     getFilteredIncidents() {
-        if (!Search.query) return this.incidents;
+        const query = (typeof Search !== 'undefined' && Search.query) ? Search.query.toLowerCase().trim() : '';
+        if (!query) return this.incidents;
 
-        const terms = Search.query.toLowerCase().split(/\s+/).map(t => this.stem(t));
+        const terms = query.split(/\s+/).filter(t => t.length > 0);
+        const stemmedTerms = terms.map(t => this.stem(t));
 
         return this.incidents.filter(incident => {
-            const searchable = [
+            const searchText = [
                 incident.title,
                 incident.summary,
                 incident.location,
-                incident.city,
-                Array.isArray(incident.type) ? incident.type.join(' ') : incident.type
+                incident.city
             ].join(' ').toLowerCase();
 
-            return terms.every(term => {
-                if (searchable.includes(term)) return true;
-                const words = searchable.split(/\s+/);
-                return words.some(word => this.stem(word).includes(term));
-            });
+            const words = searchText.match(/\b\w+\b/g) || [];
+            const stemmedWords = new Set(words.map(w => this.stem(w)));
+
+            return stemmedTerms.every(stemmedTerm => stemmedWords.has(stemmedTerm));
         });
     },
 
