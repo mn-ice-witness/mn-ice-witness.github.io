@@ -30,7 +30,7 @@ const Lightbox = {
 
     handlePopState(e) {
         if (e.state && e.state.lightbox) {
-            if (e.state.slug === 'about' || App.aboutHashes.includes(e.state.slug)) {
+            if (e.state.slug === 'about' || App.aboutSections.includes(e.state.slug)) {
                 this.showAbout(e.state.slug === 'about' ? null : e.state.slug);
             } else if (e.state.slug && e.state.slug.startsWith('new-updated-')) {
                 const dateStr = e.state.slug.replace('new-updated-', '');
@@ -44,9 +44,9 @@ const Lightbox = {
                 this.showIncident(e.state.slug);
             }
         } else if (this.isOpen()) {
-            // Don't close if we're on an about hash (came directly via URL)
-            const hash = window.location.hash.slice(1);
-            if (hash === 'about' || App.aboutHashes.includes(hash)) {
+            // Don't close if we're on an about path (came directly via URL)
+            const route = App.parseUrl();
+            if (route.type === 'about') {
                 return;
             }
             this.closeLightbox();
@@ -70,8 +70,9 @@ const Lightbox = {
 
         this.currentIncidentData = incident;
         this.currentSlug = this.getSlugFromFilePath(incident.filePath);
-        if (window.location.hash !== '#' + this.currentSlug) {
-            history.pushState({ lightbox: true, slug: this.currentSlug }, '', '#' + this.currentSlug);
+        const targetPath = App.buildUrl('incident', this.currentSlug);
+        if (window.location.pathname !== targetPath) {
+            history.pushState({ lightbox: true, slug: this.currentSlug }, '', targetPath);
             this.openedViaPushState = true;
         } else {
             // Came directly via URL - no history to go back to
@@ -86,14 +87,14 @@ const Lightbox = {
         this.element.setAttribute('aria-hidden', 'false');
         document.body.style.overflow = 'hidden';
 
-        const targetHash = anchor || 'about';
-        this.currentSlug = targetHash;
-        if (window.location.hash !== '#' + targetHash) {
-            history.pushState({ lightbox: true, slug: targetHash }, '', '#' + targetHash);
+        this.currentSlug = anchor || 'about';
+        const targetPath = App.buildUrl('about', anchor);
+        if (window.location.pathname !== targetPath) {
+            history.pushState({ lightbox: true, slug: this.currentSlug }, '', targetPath);
             this.openedViaPushState = true;
         } else {
             // Set state even when coming directly via URL so popstate works correctly
-            history.replaceState({ lightbox: true, slug: targetHash }, '', '#' + targetHash);
+            history.replaceState({ lightbox: true, slug: this.currentSlug }, '', targetPath);
             this.openedViaPushState = false;
         }
 
@@ -397,7 +398,7 @@ const Lightbox = {
     },
 
     async renderIncidentContent(incident) {
-        const response = await fetch(incident.filePath);
+        const response = await fetch('/' + incident.filePath);
         const content = await response.text();
         const fullIncident = IncidentParser.parseIncident(content, incident.filePath);
 
@@ -420,7 +421,7 @@ const Lightbox = {
     },
 
     async renderAboutContent() {
-        const response = await fetch('about.md');
+        const response = await fetch('/about.md');
         const content = await response.text();
 
         const shareButton = `
@@ -446,9 +447,10 @@ const Lightbox = {
                 e.preventDefault();
                 const id = link.getAttribute('href')?.slice(1);
                 if (id) {
-                    const url = window.location.href.split('#')[0] + '#' + id;
+                    const url = window.location.origin + App.buildUrl('about', id);
                     navigator.clipboard.writeText(url);
-                    history.replaceState(null, '', '#' + id);
+                    history.replaceState({ lightbox: true, slug: id }, '', App.buildUrl('about', id));
+                    this.currentSlug = id;
                     link.classList.add('copied');
                     setTimeout(() => {
                         link.classList.remove('copied');
@@ -472,12 +474,12 @@ const Lightbox = {
         // Update URL based on scroll position
         this.bodyElement.addEventListener('scroll', () => {
             const scrollTop = this.bodyElement.scrollTop;
-            const hash = window.location.hash.slice(1);
+            const route = App.parseUrl();
 
-            // If near top, change to #about
+            // If near top, change to /about
             if (scrollTop < 100) {
-                if (hash !== 'about' && App.aboutHashes.includes(hash)) {
-                    history.replaceState({ lightbox: true, slug: 'about' }, '', '#about');
+                if (route.type === 'about' && route.section) {
+                    history.replaceState({ lightbox: true, slug: 'about' }, '', App.buildUrl('about'));
                     this.currentSlug = 'about';
                 }
                 return;
@@ -488,14 +490,15 @@ const Lightbox = {
             let currentSection = 'about';
             for (const section of sections) {
                 if (section.offsetTop <= scrollTop + 150) {
-                    if (App.aboutHashes.includes(section.id)) {
+                    if (App.aboutSections.includes(section.id)) {
                         currentSection = section.id;
                     }
                 }
             }
 
-            if (hash !== currentSection) {
-                history.replaceState({ lightbox: true, slug: currentSection }, '', '#' + currentSection);
+            if (this.currentSlug !== currentSection) {
+                const newPath = currentSection === 'about' ? App.buildUrl('about') : App.buildUrl('about', currentSection);
+                history.replaceState({ lightbox: true, slug: currentSection }, '', newPath);
                 this.currentSlug = currentSection;
             }
         });
@@ -509,7 +512,7 @@ const Lightbox = {
             } else {
                 // Came directly via URL - go to home page
                 this.closeLightbox();
-                history.replaceState(null, '', window.location.pathname);
+                history.replaceState(null, '', '/');
             }
         }
     },
@@ -528,17 +531,28 @@ const Lightbox = {
         this.openedViaPushState = false;
         this.returnToNewUpdated = null;
 
-        const hash = window.location.hash.slice(1);
-        const isListViewHash = hash === 'list' || App.sectionHashes.includes(hash);
-        if (isListViewHash) {
-            // Preserve list view section anchors - URL is already correct after back()
-        } else if (hash && hash !== 'media') {
-            history.replaceState(null, '', window.location.pathname);
+        // Check if we're on a list view path
+        const route = App.parseUrl();
+        if (route.type === 'list') {
+            // Preserve list view - URL is already correct after back()
+        } else if (route.type !== 'home') {
+            // Not on home, go there
+            history.replaceState(null, '', '/');
         }
     },
 
     copyShareLink() {
-        const url = window.location.origin + window.location.pathname + '#' + this.currentSlug;
+        // Build the appropriate URL based on what's currently open
+        let url;
+        if (this.currentSlug === 'about' || App.aboutSections.includes(this.currentSlug)) {
+            url = window.location.origin + App.buildUrl('about', this.currentSlug === 'about' ? null : this.currentSlug);
+        } else if (this.currentSlug && this.currentSlug.startsWith('new-updated-')) {
+            // Keep hash format for new-updated
+            url = window.location.origin + '/#' + this.currentSlug;
+        } else {
+            url = window.location.origin + App.buildUrl('incident', this.currentSlug);
+        }
+
         navigator.clipboard.writeText(url).then(() => {
             const btn = this.bodyElement.querySelector('.share-btn');
             const originalText = btn.textContent;

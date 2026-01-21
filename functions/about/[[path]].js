@@ -103,10 +103,6 @@ function buildAboutOgTags(origin, section) {
 }
 
 function injectOgTags(html, tags) {
-  // Remove existing OG and Twitter tags
-  html = html.replace(/<meta property="og:[^"]*"[^>]*>\n?/g, '');
-  html = html.replace(/<meta name="twitter:[^"]*"[^>]*>\n?/g, '');
-
   // Build new meta tags string
   const metaTags = Object.entries(tags).map(([key, value]) => {
     const escapedValue = value.replace(/"/g, '&quot;');
@@ -117,7 +113,7 @@ function injectOgTags(html, tags) {
     }
   }).join('\n');
 
-  // Inject after <head> opening or before </head>
+  // Replace the entire OG/Twitter section in one operation
   if (html.includes('<!-- Open Graph / Social Media -->')) {
     html = html.replace(
       /<!-- Open Graph \/ Social Media -->[\s\S]*?<!-- Twitter Card -->[\s\S]*?<meta name="twitter:image"[^>]*>/,

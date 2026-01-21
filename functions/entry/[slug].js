@@ -1,8 +1,8 @@
 /**
- * Cloudflare Pages Function for /incident/[slug]
+ * Cloudflare Pages Function for /entry/[slug]
  *
- * Intercepts incident URLs, injects Open Graph meta tags for social media sharing,
- * and returns the main index.html with the appropriate meta tags for the specific incident.
+ * Intercepts entry URLs, injects Open Graph meta tags for social media sharing,
+ * and returns the main index.html with the appropriate meta tags for the specific entry.
  */
 
 export async function onRequest(context) {
@@ -56,7 +56,7 @@ function buildOgTags(incident, origin, slug) {
   const description = incident.summary.length > 200
     ? incident.summary.substring(0, 197) + '...'
     : incident.summary;
-  const url = `${origin}/incident/${slug}`;
+  const url = `${origin}/entry/${slug}`;
 
   // Determine og:image - use local media if available, otherwise default
   let image = `${origin}/assets/og-image.jpg`;
@@ -84,10 +84,6 @@ function buildOgTags(incident, origin, slug) {
 }
 
 function injectOgTags(html, tags) {
-  // Remove existing OG and Twitter tags
-  html = html.replace(/<meta property="og:[^"]*"[^>]*>\n?/g, '');
-  html = html.replace(/<meta name="twitter:[^"]*"[^>]*>\n?/g, '');
-
   // Build new meta tags string
   const metaTags = Object.entries(tags).map(([key, value]) => {
     const escapedValue = value.replace(/"/g, '&quot;');
@@ -98,9 +94,8 @@ function injectOgTags(html, tags) {
     }
   }).join('\n');
 
-  // Inject after <head> opening or before </head>
+  // Replace the entire OG/Twitter section in one operation
   if (html.includes('<!-- Open Graph / Social Media -->')) {
-    // Replace the comment and following tags
     html = html.replace(
       /<!-- Open Graph \/ Social Media -->[\s\S]*?<!-- Twitter Card -->[\s\S]*?<meta name="twitter:image"[^>]*>/,
       `<!-- Open Graph / Social Media -->\n${metaTags}`

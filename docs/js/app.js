@@ -22,7 +22,7 @@ const App = {
         // Build clean path-based URLs
         switch (type) {
             case 'incident':
-                return `/incident/${slug}`;
+                return `/entry/${slug}`;
             case 'about':
                 return slug ? `/about/${slug}` : '/about';
             case 'list':
@@ -40,8 +40,8 @@ const App = {
         const hash = url.hash.slice(1);
 
         // Check path-based routes first
-        if (path.startsWith('/incident/')) {
-            return { type: 'incident', slug: path.replace('/incident/', '') };
+        if (path.startsWith('/entry/')) {
+            return { type: 'incident', slug: path.replace('/entry/', '') };
         }
         if (path.startsWith('/about')) {
             const section = path.replace('/about', '').replace(/^\//, '') || null;
@@ -593,7 +593,7 @@ const App = {
 
     async sortMediaByOrder(mediaIncidents) {
         try {
-            const response = await fetch(this.getMediaUrl('data/media-order.md'));
+            const response = await fetch(this.getMediaUrl('/data/media-order.md'));
             if (!response.ok) return mediaIncidents;
 
             const text = await response.text();
@@ -954,14 +954,16 @@ const App = {
     },
 
     async loadIncidents() {
-        const response = await fetch('data/incidents-summary.json');
+        const response = await fetch('/data/incidents-summary.json');
         const data = await response.json();
         this.incidents = data.incidents;
         this.mediaVersion = data.mediaVersion || '';
     },
 
     getMediaUrl(path) {
-        return this.mediaVersion ? `${path}?v=${this.mediaVersion}` : path;
+        // Ensure path is absolute for path-based routing
+        const absolutePath = path.startsWith('/') ? path : '/' + path;
+        return this.mediaVersion ? `${absolutePath}?v=${this.mediaVersion}` : absolutePath;
     },
 
     muteAllGalleryVideos() {

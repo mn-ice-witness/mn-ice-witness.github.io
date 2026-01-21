@@ -85,9 +85,7 @@ function buildListOgTags(origin, category) {
 }
 
 function injectOgTags(html, tags) {
-  html = html.replace(/<meta property="og:[^"]*"[^>]*>\n?/g, '');
-  html = html.replace(/<meta name="twitter:[^"]*"[^>]*>\n?/g, '');
-
+  // Build new meta tags string
   const metaTags = Object.entries(tags).map(([key, value]) => {
     const escapedValue = value.replace(/"/g, '&quot;');
     if (key.startsWith('og:')) {
@@ -97,6 +95,7 @@ function injectOgTags(html, tags) {
     }
   }).join('\n');
 
+  // Replace the entire OG/Twitter section in one operation
   if (html.includes('<!-- Open Graph / Social Media -->')) {
     html = html.replace(
       /<!-- Open Graph \/ Social Media -->[\s\S]*?<!-- Twitter Card -->[\s\S]*?<meta name="twitter:image"[^>]*>/,
