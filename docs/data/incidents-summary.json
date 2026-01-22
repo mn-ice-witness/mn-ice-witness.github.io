@@ -49,13 +49,18 @@
       "lastUpdated": "2026-01-22T13:38:10",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
+      "hasLocalMedia": true,
+      "localMediaType": "image",
+      "localMediaPath": "media/2026-01-22-sullivan-elementary-ice-food-flyers.jpg",
       "localMediaOgPath": null,
-      "localMediaFiles": [],
-      "aspectRatio": null,
-      "mediaVersion": null
+      "localMediaFiles": [
+        {
+          "type": "image",
+          "path": "media/2026-01-22-sullivan-elementary-ice-food-flyers.jpg"
+        }
+      ],
+      "aspectRatio": 1.566579634464752,
+      "mediaVersion": 1769111075
     },
     {
       "filePath": "incidents/2026-01/2026-01-21-observer-pinned-pepper-sprayed-face.md",
