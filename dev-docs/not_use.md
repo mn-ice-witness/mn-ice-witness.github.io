@@ -18,12 +18,20 @@ Stories are excluded when they don't meet the project's core focus:
 
 ### January 2026
 
+**Nekima Levy Armstrong, Chauntyll Allen, William Kelly Arrests (Jan 22)**
+- Sources: [KARE 11](https://www.kare11.com/article/news/local/ice-in-minnesota/nekima-levy-armstrong-arrested-in-cities-church-protest/89-ab545f86-3057-4ad3-b460-b250df95deba), [MPR News](https://www.mprnews.org/story/2026/01/22/nekima-levy-armstrong-arrested-cities-church-protest), [CBS Minnesota](https://www.cbsnews.com/minnesota/news/church-protesters-minneapolis-charges-federal-face-act/)
+- Date: January 22, 2026
+- Details: Attorney General Pam Bondi announced FBI/ICE arrested three people for their roles in the Jan 18 Cities Church protest: civil rights attorney Nekima Levy Armstrong, St. Paul school board member Chauntyll Allen, and William Kelly. Charged under 18 USC 241 (conspiracy against rights) and FACE Act violations. Armstrong released same day after judge rejected detention request.
+- Reason: **Political/institutional arrests by DOJ/FBI, not ICE enforcement.** While these individuals were protesting ICE, they were arrested by FBI for disrupting church services (FACE Act violation), not for filming/observing ICE operations. This is federal retaliation for anti-ICE activism, not a civil rights incident involving ICE enforcement against an individual. The underlying church protest was already excluded (see "Cities Church St. Paul Anti-ICE Protest" below).
+- Date evaluated: 2026-01-22
+
 **ICE Agent Shoots Venezuelan Man in North Minneapolis (Jan 14)**
-- Sources: NPR, CNN, Fox News, CBS Minnesota, Fox 9
+- Sources: NPR, CNN, Fox News, CBS Minnesota, Fox 9, [Star Tribune (FBI details)](https://www.startribune.com/fbi-reveals-how-mistaken-identity-by-ice-led-to-chase-shooting-of-venezuelan-immigrant-in-north-minneapolis/601567978), [Sahan Journal (release ordered)](https://sahanjournal.com/immigration/ice-north-minneapolis-shooting-detainees-released/)
 - Date: January 14, 2026
 - Details: ICE agent shot Venezuelan man (Julio Cesar Sosa-Celis) in the leg during arrest operation. DHS claims agent was "ambushed" by three men with shovels after a traffic stop. Hundreds of protesters gathered; tear gas deployed.
-- Reason: **Not a clear abuse of power case.** While tragic, this incident does not demonstrate an obvious unlawful use of authority. DHS claims agent was attacked with shovels during the arrest—this is disputed but not clearly disproven. Project incidents should document clear abuses or unconstitutional actions by ICE, not contested use-of-force cases where the facts are still under investigation. Note: The tear gas impact on children is documented separately in `2026-01-14-shawn-jackson-children-tear-gas.md`.
-- Date evaluated: 2026-01-15
+- **UPDATE (Jan 22):** FBI affidavit reveals ICE originally targeted someone else—the shooting resulted from mistaken identity. The two men being pursued were longtime friends and fellow DoorDash drivers, not the target of the traffic stop. Federal judge ordered both men released on their own recognizance.
+- Reason: **Not a clear abuse of power case.** While tragic, this incident does not demonstrate an obvious unlawful use of authority. DHS claims agent was attacked with shovels during the arrest—this is disputed but not clearly disproven. Project incidents should document clear abuses or unconstitutional actions by ICE, not contested use-of-force cases where the facts are still under investigation. Note: The tear gas impact on children is documented separately in `2026-01-14-shawn-jackson-children-tear-gas.md`. The FBI's mistaken identity revelation complicates the narrative but doesn't change the core issue: this was a contested use-of-force case, not a clear abuse.
+- Date evaluated: 2026-01-15 (updated 2026-01-22)
 - File removed: `incidents/2026-01/2026-01-14-north-minneapolis-venezuelan-shooting.md`
 
 **Over 100 Faribault High School Students Walk Out to Protest ICE**
