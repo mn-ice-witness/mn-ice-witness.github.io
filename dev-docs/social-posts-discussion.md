@@ -22,3 +22,15 @@ Add a section (possibly on the About page) collecting remarkable social media po
 - Should we distinguish between: witness footage, commentary, official statements, community responses?
 - How to handle posts that get deleted?
 - Attribution/privacy considerations?
+
+---
+
+## Our Posts (for X.com)
+
+### Willmar Student Arrest (Suban Noor)
+
+A Minnesota high school student was grabbed by ICE agents while picking up food for her family after work. She was dragged from her car and put into the back of an unmarked vehicle—in a small town, in the middle of winter.
+
+She had legal refugee status.
+
+mn-ice-witness.org is a sourced list of ICE incidents in MN. This incident: https://mn-ice-witness.org/entry/2026-01-13-willmar-student-arrested
