@@ -340,7 +340,7 @@ N. Outlet Name (Date): [Article/Video Title](URL)
 - **Date in parentheses** in format (Mon DD, YYYY)
 - **Colon** after the date
 - **Title in brackets** linked to URL
-- **Videos listed FIRST**, then articles
+- **Best/most compelling source first** - Lead with the primary source (original reporting, key video evidence, or the outlet that broke the story). This is often video but can be an article if that's the main reporting.
 - **Every source MUST have a link** - no link means it's not a source
 
 ### Video Sources
@@ -350,8 +350,23 @@ For video content, use platform name + "Video":
 2. YouTube Video (Jan 14, 2026): [Full press conference](URL)
 3. Facebook Video (Jan 12, 2026): [Witness footage of arrest](URL)
 4. X Video (Jan 13, 2026): [FOX 9 coverage](URL)
-5. CBS Video (Jan 14, 2026): [News report with footage](URL)
+5. TikTok Video (Jan 13, 2026): [Witness footage](URL)
+6. CBS Video (Jan 14, 2026): [News report with footage](URL)
 ```
+
+### Social Media (Non-Video) Sources
+For social media posts that aren't primarily video:
+```
+1. X Post (Jan 15, 2026): [@username thread](URL)
+2. Threads (Jan 15, 2026): [@username post](URL)
+3. Bluesky (Jan 15, 2026): [@username post](URL)
+4. Facebook Post (Jan 15, 2026): [Post description](URL)
+```
+
+**DO NOT use:**
+- `TikTok - @username:` (wrong format)
+- `- **VIDEO**` suffix (unnecessary)
+- Sources without dates
 
 ### Article Sources
 For articles, use outlet name:
@@ -363,8 +378,15 @@ For articles, use outlet name:
 10. New York Times (Jan 15, 2026): [Couple Says ICE Agents Gassed Them](URL)
 ```
 
-### Video Priority Order
-When an incident has multiple videos, order them by importance:
+### Source Priority Order
+Order sources by importance/value, not by type. When choosing what goes first:
+1. Original reporting that broke the story (often a local news outlet)
+2. Primary video evidence (interviews, press conferences, witness footage)
+3. Major news outlet coverage with additional details
+4. Syndicated coverage (Yahoo, AOL, NewsBreak reprinting original story)
+5. Social media shares/reposts
+
+When an incident has multiple videos, order videos by importance:
 1. Full interviews / press conferences with victim
 2. Original source video (posted by witness/victim)
 3. News outlet video coverage
