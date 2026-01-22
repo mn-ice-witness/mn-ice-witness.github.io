@@ -68,10 +68,10 @@ fridley-schools-closure
 saly-hmong-citizen-shirtless
 dhs-response-accent-detention
 dhs-response-saly-detention
-nadya-moldovan-refugee
 william-vermie-veteran-detained
 trump-vicious-animals-statement
 east-side-thai-gun-drawn
 dhs-response-crowd-control
 south-mpls-teenagers-detained
 sullivan-elementary-ice-food-flyers
+nadya-moldovan-refugee
