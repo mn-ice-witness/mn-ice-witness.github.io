@@ -138,7 +138,7 @@ UNVERIFIED incidents require additional formatting to clearly communicate their 
 ```markdown
 # Incident Title (UNVERIFIED)
 
-***No mainstream media has reported on this incident. It is based on social media posts only. If you have a media source, please [contact us](mailto:mnicewitness@proton.me).***
+***No mainstream media has reported on this incident. It is based on social media posts only. If you have a media source, please [contact us](mailto:mnicewitness@gmail.com).***
 
 ## Summary
 ```
