@@ -186,6 +186,69 @@ If the incident involves a refugee or immigrant with **pending legal status** (I
 - GoFundMe pages
 - Single witness accounts
 
+### Source Formatting Quick Reference
+
+**Format:** `N. Outlet Name (Mon DD, YYYY): [Title](URL)`
+
+**Platform-specific formats:**
+
+| Platform | Video | Non-Video |
+|----------|-------|-----------|
+| Instagram | `Instagram Video (Jan 15, 2026): [description](URL)` | `Instagram Post (Jan 15, 2026): [description](URL)` |
+| TikTok | `TikTok Video (Jan 15, 2026): [description](URL)` | (rare - TikTok is usually video) |
+| X/Twitter | `X Video (Jan 15, 2026): [description](URL)` | `X Post (Jan 15, 2026): [@handle thread](URL)` |
+| Facebook | `Facebook Video (Jan 15, 2026): [description](URL)` | `Facebook Post (Jan 15, 2026): [description](URL)` |
+| Threads | N/A | `Threads (Jan 15, 2026): [@handle post](URL)` |
+| Bluesky | N/A | `Bluesky (Jan 15, 2026): [@handle.bsky.social post](URL)` |
+| YouTube | `YouTube Video (Jan 15, 2026): [description](URL)` | N/A |
+| News sites | `FOX 9 Video (Jan 15, 2026): [description](URL)` | `FOX 9 (Jan 15, 2026): [Headline](URL)` |
+
+**See `incident-schema.md` for full formatting rules and examples of common mistakes.**
+
+## Common Mistakes to Avoid
+
+These are mistakes that LLMs frequently make when adding incidents. Read this section carefully.
+
+### Timestamps
+| Mistake | Why It's Wrong | Correct Approach |
+|---------|---------------|------------------|
+| `2026-01-19T12:00:00` | Rounded times are obviously fabricated | Run `./bin/timestamp.sh` and use the exact output |
+| `2026-01-19T14:30:00` | Round numbers reveal guessing | Never guess - always use the script |
+| Making up any timestamp | LLMs consistently fabricate plausible-looking times | The script is the ONLY valid source |
+
+### Source Formatting
+| Mistake | Why It's Wrong | Correct Format |
+|---------|---------------|----------------|
+| `[Instagram post](URL) - Source` | Wrong order, missing date | `Instagram Post (Jan 15, 2026): [description](URL)` |
+| `Star Tribune (Jan 2026): [Title](URL)` | Missing day in date | `Star Tribune (Jan 15, 2026): [Title](URL)` |
+| Source without any link | No link = not a source | Every source must have a clickable URL |
+| Business homepage as source | General pages don't prove anything | Link to specific post/article about incident |
+| `- **VIDEO** [Title](URL)` | Wrong format entirely | `Instagram Video (Jan 15, 2026): [Title](URL)` |
+
+### Source Ordering
+| Mistake | Why It's Wrong | Correct Approach |
+|---------|---------------|------------------|
+| "Videos first, then articles" | Misleading oversimplification | Best/most compelling first - could be video OR article |
+| Putting syndicated content first | Yahoo/AOL reposts are less valuable | Original reporting first, syndication last |
+
+### Internal Links
+| Mistake | Why It's Wrong | Correct Format |
+|---------|---------------|----------------|
+| `[link](2026-01-15-incident.md)` | Links to raw .md file | `[link](#2026-01-15-incident)` |
+| `[link](https://mnicefiles.com/#slug)` | Hardcodes domain | `[link](#slug)` |
+
+### Trustworthiness
+| Mistake | Why It's Wrong | Correct Approach |
+|---------|---------------|------------------|
+| `trustworthiness: medium-high` | Compound values not allowed | Pick exactly one: high, medium, low, unverified |
+| Rating HIGH without corroboration | Single-source stories need verification | See witness corroboration rule |
+
+### last_updated
+| Mistake | Why It's Wrong | Correct Approach |
+|---------|---------------|------------------|
+| Updating for every source added | Pollutes "Sort by Updated" view | Only update for substantive story changes |
+| Updating for formatting fixes | Not a story development | Only for case developments, status changes, new facts |
+
 ## Step 2: Create the File
 
 1. Determine the date of the incident

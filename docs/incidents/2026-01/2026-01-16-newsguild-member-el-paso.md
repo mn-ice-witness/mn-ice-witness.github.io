@@ -18,8 +18,8 @@ last_updated: 2026-01-17T16:15:46
 A member of the Minnesota Newspaper and Communications Guild was detained by ICE as part of Operation Metro Surge. The individual was transferred to an ICE detention facility in El Paso, Texas, where they are awaiting action on a petition for habeas corpus.
 
 ## Sources
-1. [Guild member detained by ICE in Minnesota](https://newsguild.org/guild-member-detained-by-ice-in-minnesota/) - The NewsGuild (TNG-CWA)
-2. [Guild member detained by ICE in Minnesota](https://www.editorandpublisher.com/stories/guild-member-detained-by-ice-in-minnesota,259707) - Editor & Publisher
+1. The NewsGuild (Jan 16, 2026): [Guild member detained by ICE in Minnesota](https://newsguild.org/guild-member-detained-by-ice-in-minnesota/)
+2. Editor & Publisher (Jan 17, 2026): [Guild member detained by ICE in Minnesota](https://www.editorandpublisher.com/stories/guild-member-detained-by-ice-in-minnesota,259707)
 
 ## Victim(s)
 - **Name:** Not disclosed

@@ -37,8 +37,8 @@ This incident occurred four days after that injunction was issued.
 
 ## Related Incidents
 
-- [DHS Secretary Noem Denies Pepper Spray Use, Then Backtracks](/entry/2026-01-18-noem-pepper-spray-denial-backtrack) (Jan 18)
-- [Two ICE Observers Pepper-Sprayed in Car, Detained 8 Hours](/entry/2026-01-11-siguenza-okeefe-detained) (Jan 11)
+- [DHS Secretary Noem Denies Pepper Spray Use, Then Backtracks](#2026-01-18-noem-pepper-spray-denial-backtrack) (Jan 18)
+- [Two ICE Observers Pepper-Sprayed in Car, Detained 8 Hours](#2026-01-11-siguenza-okeefe-detained) (Jan 11)
 
 ## Editorial Assessment
 

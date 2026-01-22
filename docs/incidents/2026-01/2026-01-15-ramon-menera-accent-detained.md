@@ -18,9 +18,9 @@ last_updated: 2026-01-18T01:02:13
 Ramon Menera, a U.S. citizen, was detained by Border Patrol agents outside his home in a Minneapolis suburb in front of his 5-year-old daughter. The agent accused him of not being a U.S. citizen "because of your accent." Menera was eventually released but described the traumatic impact on his daughter, who asked him afterward: "Are you okay? They were going to take you? I don't want to lose you."
 
 ## Sources
-1. CNN (Jan 17, 2026): [Border Patrol agent questions if man is US citizen 'because of your accent'](https://www.cnn.com/2026/01/17/us/video/border-patrol-detain-citizen-accent-vrtc) - **VIDEO**
-2. CNN Threads (Jan 2026): [Video of Ramon Menera detention](https://www.threads.com/@cnn/post/DTn1FDrCmbM/) - **VIDEO**
-3. TikTok - @cnn (Jan 2026): [Video coverage](https://www.tiktok.com/@cnn/video/7596362207516953911) - **VIDEO**
+1. CNN Video (Jan 17, 2026): [Border Patrol agent questions if man is US citizen 'because of your accent'](https://www.cnn.com/2026/01/17/us/video/border-patrol-detain-citizen-accent-vrtc)
+2. Threads Video (Jan 2026): [Video of Ramon Menera detention](https://www.threads.com/@cnn/post/DTn1FDrCmbM/)
+3. TikTok Video (Jan 2026): [Video coverage](https://www.tiktok.com/@cnn/video/7596362207516953911)
 
 ## Victim(s)
 - **Name:** Ramon Menera

@@ -18,13 +18,13 @@ last_updated: 2026-01-19T21:19:19
 A Hmong man named Saly, described as a naturalized U.S. citizen with no criminal record, was reportedly detained by ICE agents who broke down his apartment door. According to family members, agents did not allow him to put on proper clothing before taking him outside in approximately 10-degree weather. After driving him around for nearly an hour, questioning, and fingerprinting him, agents released him after determining he had no criminal history. The family believes ICE was searching for someone who previously lived at the address.
 
 ## Sources
-1. Facebook Post (Jan 2026): [Hmong American Experience page - Louansee Moua](https://www.facebook.com/share/v/18GcBq3Rwb/) - Family member account
-2. Facebook Post (Jan 2026): [Georgia Fort](https://www.facebook.com/ByGeorgiaFort/posts/update-multiple-members-of-the-hmong-community-confirm-the-man-taken-from-his-ea/1400574674857282/) - Community confirmation
-3. Threads Post (Jan 2026): [@don.moyn post](https://www.threads.com/@don.moyn/post/DTsao6ijVAd) - Repost of incident with photo
-4. **Video:** [Facebook Reel](https://www.facebook.com/reel/1986120352306275) - Incident footage
-5. Star Tribune (Jan 20, 2026): [St. Paul mayor 'livid' after ICE wrongly targets family friend](https://www.startribune.com/st-paul-mayor-livid-after-ice-wrongly-targets-family-friend-escorts-him-undressed-into-cold/601566974) - Mayor Her's response (paywalled)
-6. FOX 9 (Jan 2026): [St. Paul ICE raid: Elderly citizen taken in shorts and Crocs](https://www.fox9.com/news/st-paul-ice-raid-elderly-citizen-taken-shorts-crocs) - Mayor Her's quotes and response
-7. CBS Minnesota (Jan 19, 2026): [ICE arrests elderly Hmong-American citizen in St. Paul](https://www.cbsnews.com/minnesota/news/ice-elderly-hmong-american-citizen-arrested-st-paul/) - DHS response and community advocate quotes
+1. Facebook Video (Jan 18, 2026): [Hmong American Experience page - Louansee Moua](https://www.facebook.com/share/v/18GcBq3Rwb/)
+2. Facebook Post (Jan 19, 2026): [Georgia Fort](https://www.facebook.com/ByGeorgiaFort/posts/update-multiple-members-of-the-hmong-community-confirm-the-man-taken-from-his-ea/1400574674857282/)
+3. Threads (Jan 19, 2026): [@don.moyn post](https://www.threads.com/@don.moyn/post/DTsao6ijVAd)
+4. Facebook Video (Jan 18, 2026): [Incident footage](https://www.facebook.com/reel/1986120352306275)
+5. Star Tribune (Jan 20, 2026): [St. Paul mayor 'livid' after ICE wrongly targets family friend](https://www.startribune.com/st-paul-mayor-livid-after-ice-wrongly-targets-family-friend-escorts-him-undressed-into-cold/601566974)
+6. FOX 9 (Jan 19, 2026): [St. Paul ICE raid: Elderly citizen taken in shorts and Crocs](https://www.fox9.com/news/st-paul-ice-raid-elderly-citizen-taken-shorts-crocs)
+7. CBS Minnesota (Jan 19, 2026): [ICE arrests elderly Hmong-American citizen in St. Paul](https://www.cbsnews.com/minnesota/news/ice-elderly-hmong-american-citizen-arrested-st-paul/)
 8. NBC News (Jan 19, 2026): [U.S. citizen shares fear he felt when ICE took him from Minnesota home while nearly naked](https://www.nbcnews.com/news/us-news/us-citizen-shares-fear-felt-ice-took-minnesota-home-nearly-naked-rcna254890)
 9. Detroit News (Jan 19, 2026): [Hmong elder, a U.S. citizen, forced from Minnesota home at gunpoint, family says](https://www.detroitnews.com/story/news/nation/2026/01/19/hmong-elder-a-u-s-citizen-forced-from-minnesota-home-at-gunpoint-family-says/88258005007/)
 10. Raw Story (Jan 19, 2026): [ICE forces showering citizen outside into freezing weather in his underwear](https://www.rawstory.com/ice-us-citizen/)

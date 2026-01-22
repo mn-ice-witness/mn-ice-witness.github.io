@@ -20,7 +20,7 @@ FBI, ATF, and Hennepin County Sheriff's Office agents used a battering ram to en
 ## Sources
 1. CBS Minnesota (Jan 15, 2026): [Minneapolis family says federal agents raided wrong apartment looking for items stolen from FBI vehicles](https://www.cbsnews.com/minnesota/news/minneapolis-fbi-raid-wrong-home/)
 2. The Mirror (Jan 15, 2026): [ICE ransack Minneapolis woman's home after 'conducting search warrant in wrong home'](https://www.themirror.com/news/us-news/ice-ransack-minneapolis-womans-home-1623040)
-- **Video:** [CBS Minnesota report](https://www.youtube.com/watch?v=_mulYNgbs14) - YouTube
+3. YouTube Video (Jan 15, 2026): [CBS Minnesota report](https://www.youtube.com/watch?v=_mulYNgbs14)
 
 ## Victim(s)
 - **Name:** Alisa Porter and daughter

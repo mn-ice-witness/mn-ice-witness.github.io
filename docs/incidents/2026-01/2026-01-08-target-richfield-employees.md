@@ -33,8 +33,8 @@ Two Target drive-up employees, both U.S. citizens, were aggressively detained by
 13. Sahan Journal (Jan 2026): [ACLU federal lawsuit coverage including Javier Doe](https://sahanjournal.com/immigration/aclu-federal-lawsuit-ice-minnesota/)
 14. CNN Live Updates (Jan 15, 2026): [National live coverage](https://www.cnn.com/us/live-news/minneapolis-ice-shooting-protests-01-15-26)
 15. ACLU Press Release (Jan 2026): [ACLU sues federal government](https://www.aclu.org/press-releases/aclu-sues-federal-government-to-end-ice-cbps-practice-of-suspicionless-stops-warrantless-arrests-and-racial-profiling-of-minnesotans)
-16. Instagram Reel (Jan 2026): ["Target employee detained by ICE"](https://www.instagram.com/reel/DTY9Em3ASMU/)
-17. Instagram Reel (Jan 2026): ["A viral video reporting ICE arresting two US citizens"](https://www.instagram.com/reel/DTRPG3rjert/)
+16. Instagram Video (Jan 8, 2026): ["Target employee detained by ICE"](https://www.instagram.com/reel/DTY9Em3ASMU/)
+17. Instagram Video (Jan 8, 2026): ["A viral video reporting ICE arresting two US citizens"](https://www.instagram.com/reel/DTRPG3rjert/)
 
 ## Victim(s)
 

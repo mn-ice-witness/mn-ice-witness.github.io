@@ -20,7 +20,7 @@ Christina Rank, a 25-year-old special education paraprofessional and U.S. citize
 ## Sources
 1. Pioneer Press (Jan 12, 2026): [Inver Grove Heights special ed teacher held by ICE for nearly 12 hours](https://www.twincities.com/2026/01/12/inver-grove-heights-teacher-at-special-education-school-held-by-ice-for-nearly-12-hours/)
 2. Bring Me The News (Jan 12, 2026): [Twin Cities teaching assistant, a US citizen, arrested by federal agents outside school](https://bringmethenews.com/minnesota-news/twin-cities-teacher-a-us-citizen-arrested-by-federal-agents-outside-school)
-3. Facebook - Hrtwarming: [Christina Rank incident post](https://www.facebook.com/hrtwarming/posts/before-sunrise-on-a-quiet-monday-morning-25-year-old-christina-rank-arrived-at-t/1445116270977207/)
+3. Facebook Post (Jan 12, 2026): [Christina Rank incident post](https://www.facebook.com/hrtwarming/posts/before-sunrise-on-a-quiet-monday-morning-25-year-old-christina-rank-arrived-at-t/1445116270977207/)
 
 ## Victim(s)
 - **Name:** Christina Rank

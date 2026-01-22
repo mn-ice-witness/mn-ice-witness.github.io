@@ -26,8 +26,8 @@ Three Twin Cities law enforcement leaders held a joint press conference at the M
 6. Fox News (Jan 20, 2026): [Minnesota police chiefs allege some ICE agents racially profiled US citizens](https://www.foxnews.com/us/minnesota-police-chiefs-allege-some-ice-agents-racially-profiled-us-citizens-including-off-duty-officers)
 7. Washington Post (Jan 21, 2026): [ICE targeted off-duty officers in Twin Cities, local police say](https://www.washingtonpost.com/immigration/2026/01/21/minnesota-minneapolis-off-duty-police-targeted-ice/)
 8. Fox 9 (Jan 20, 2026): [Off-duty Minnesota officers allege racial profiling by ICE](https://www.fox9.com/news/offduty-minnesota-officers-allege-ice-racial-profiling-jan-2026)
-- **Social Media:** [Aaron Rupar post with video](https://bsky.app/profile/atrupar.com/post/3mcuopvhabn2r) - Bluesky
-- **Social Media:** [Aaron Rupar post](https://x.com/atrupar/status/2013664998908739946) - X/Twitter
+9. Bluesky (Jan 20, 2026): [Aaron Rupar post with video](https://bsky.app/profile/atrupar.com/post/3mcuopvhabn2r)
+10. X Post (Jan 20, 2026): [Aaron Rupar post](https://x.com/atrupar/status/2013664998908739946)
 
 ## Victim(s)
 - **Name:** Not disclosed

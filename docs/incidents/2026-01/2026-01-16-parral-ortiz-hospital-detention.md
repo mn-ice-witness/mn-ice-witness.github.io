@@ -18,8 +18,8 @@ last_updated: 2026-01-19T12:56:14
 Liborio Parral Ortiz was detained by ICE agents while driving his wife Bonfilia Sanchez Dominguez to the emergency room for severe back pain. Agents blocked their vehicle before they could reach Mercy Hospital Unity Campus in Fridley. Parral Ortiz was taken into custody and transported to El Paso, Texas within 20 hours—before his family could bring him his diabetes medication. His wife was taken to the hospital by ICE agents, but family members and her attorney were blocked from accessing her bedside.
 
 ## Sources
-1. [Medical emergency turns into nightmare as ICE detains Mounds View couple en route to ER](https://sahanjournal.com/health/ice-detains-mounds-view-couple/) - Sahan Journal (Jan 17, 2026)
-2. [GoFundMe: Liborio Parral & Bonfilia Sanchez](https://www.gofundme.com/f/LiborioParralBonfiliaSanchez) - Family fundraiser for legal fees
+1. Sahan Journal (Jan 17, 2026): [Medical emergency turns into nightmare as ICE detains Mounds View couple en route to ER](https://sahanjournal.com/health/ice-detains-mounds-view-couple/)
+2. GoFundMe (Jan 17, 2026): [Liborio Parral & Bonfilia Sanchez](https://www.gofundme.com/f/LiborioParralBonfiliaSanchez)
 
 ## Victim(s)
 - **Name:** Liborio Parral Ortiz (detained); Bonfilia Sanchez Dominguez (hospitalized, blocked from family)

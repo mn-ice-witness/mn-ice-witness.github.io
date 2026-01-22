@@ -22,8 +22,8 @@ Phil Maddox, a Minneapolis resident, was confronted by ICE agents while driving 
 2. FOX 9 (Jan 2026): [ICE agents caught on video asking if people have 'learned their lesson'](https://www.fox9.com/video/fmc-6wm2af9jx0lcu2hj)
 3. Inquisitr (Jan 13, 2026): [Video Shows ICE Agent Threatening Man Going to Church](https://www.inquisitr.com/video-shows-ice-agent-threatening-man-going-to-church-did-you-not-learn-from-what-just-happened)
 4. Raw Story (Jan 12, 2026): ['Did you not just learn?' ICE agents threaten MN churchgoer with Renee Good lesson](https://www.rawstory.com/renee-good-2674874951/)
-- **Video:** [Facebook Reel](https://www.facebook.com/reel/906204785493223) - Incident footage
-- **Video:** [Reddit post "Boxed in by ICE"](https://www.reddit.com/) - Original video post
+5. Facebook Video (Jan 12, 2026): [Incident footage](https://www.facebook.com/reel/906204785493223)
+6. Reddit Video (Jan 12, 2026): [Boxed in by ICE](https://www.reddit.com/)
 
 ## Victim(s)
 - **Name:** Phil Maddox

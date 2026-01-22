@@ -144,7 +144,7 @@ This allows us to make editorial judgments about incidents worth documenting whi
 Brief 2-3 sentence summary. First sentence appears in card preview.
 
 ## Sources
-All sources numbered. Videos first, then articles. Every source includes outlet name and date.
+All sources numbered. Best/most compelling source first (original reporting, key video, outlet that broke story). Every source includes outlet name and date.
 
 1. Instagram Video (Jan 15, 2026): [Shawn Jackson interview](URL)
 2. YouTube Video (Jan 14, 2026): [Full press conference](URL)
@@ -332,13 +332,13 @@ A U.S. citizen filming an ICE arrest was tackled and detained despite complying 
 ### Format
 Every source follows this format:
 ```
-N. Outlet Name (Date): [Article/Video Title](URL)
+N. Outlet Name (Mon DD, YYYY): [Article/Video Title](URL)
 ```
 
 - **All sources numbered** starting at 1
 - **Outlet name first** (FOX 9, Star Tribune, Instagram Video, etc.)
-- **Date in parentheses** in format (Mon DD, YYYY)
-- **Colon** after the date
+- **Date in parentheses** in format `(Mon DD, YYYY)` - always include the day
+- **Colon** after the closing parenthesis
 - **Title in brackets** linked to URL
 - **Best/most compelling source first** - Lead with the primary source (original reporting, key video evidence, or the outlet that broke the story). This is often video but can be an article if that's the main reporting.
 - **Every source MUST have a link** - no link means it's not a source
@@ -357,16 +357,34 @@ For video content, use platform name + "Video":
 ### Social Media (Non-Video) Sources
 For social media posts that aren't primarily video:
 ```
-1. X Post (Jan 15, 2026): [@username thread](URL)
+1. X Post (Jan 15, 2026): [@DHSgov statement](URL)
 2. Threads (Jan 15, 2026): [@username post](URL)
-3. Bluesky (Jan 15, 2026): [@username post](URL)
-4. Facebook Post (Jan 15, 2026): [Post description](URL)
+3. Bluesky (Jan 15, 2026): [@username.bsky.social post](URL)
+4. Facebook Post (Jan 15, 2026): [Business name statement](URL)
+5. Instagram Post (Jan 15, 2026): [@restaurantname announcement](URL)
 ```
 
-**DO NOT use:**
-- `TikTok - @username:` (wrong format)
-- `- **VIDEO**` suffix (unnecessary)
-- Sources without dates
+### Common Mistakes to Avoid
+
+**WRONG formats:**
+```
+3. [Instagram post](URL) - Francis Burger Joint          ❌ Wrong order, missing date
+4. TikTok - @username: [Video](URL)                      ❌ Wrong format entirely
+5. Facebook Post: [Description](URL)                     ❌ Missing date
+6. Star Tribune (Jan 2026): [Headline](URL)              ❌ Missing day - use full date
+7. [News article](URL) (Jan 15, 2026)                    ❌ Outlet name missing, wrong order
+8. **VIDEO** Instagram (Jan 15, 2026): [Title](URL)      ❌ Don't prefix with VIDEO
+9. Instagram Video (Jan 15, 2026): [Title](URL) - **VIDEO**  ❌ Don't suffix with VIDEO
+```
+
+**CORRECT formats:**
+```
+1. Instagram Post (Jan 15, 2026): [Francis Burger Joint statement](URL)  ✅
+2. TikTok Video (Jan 13, 2026): [@username witness footage](URL)         ✅
+3. Facebook Post (Jan 14, 2026): [Business announcement](URL)            ✅
+4. Star Tribune (Jan 15, 2026): [Headline text here](URL)                ✅
+5. Instagram Video (Jan 15, 2026): [Interview with witness](URL)         ✅
+```
 
 ### Article Sources
 For articles, use outlet name:

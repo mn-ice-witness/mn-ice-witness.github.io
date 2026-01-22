@@ -8,8 +8,8 @@ status: resolved
 victim_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
-created: 2026-01-18
-last_updated: 2026-01-18
+created: 2026-01-18T00:00:00
+last_updated: 2026-01-18T00:00:00
 ---
 
 # Restaurant Kitchen Manager Tackled and Detained While Observing ICE

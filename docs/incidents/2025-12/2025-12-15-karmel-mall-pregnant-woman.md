@@ -22,9 +22,9 @@ ICE agents detained at least four people near Karmel Mall, the nation's first So
 2. CBS News (Dec 15, 2025): [ICE agents clash with dozens of residents in streets of south Minneapolis](https://www.cbsnews.com/minnesota/news/ice-agents-south-minneapolis-clash-protests/)
 3. Minnesota Reformer (Dec 16, 2025): [Karmel Mall, once a bustling center of community, falls silent](https://minnesotareformer.com/2025/12/16/karmel-mall-once-a-bustling-center-of-community-falls-silent/)
 4. Star Tribune (Dec 16, 2025): [Witnesses and DHS offer starkly different accounts after woman dragged in Minneapolis ICE operation](https://www.startribune.com/witnesses-dhs-offer-starkly-different-accounts-after-woman-dragged-in-minneapolis-ice-operation/601548788)
-5. TMZ (Dec 17, 2025): [ICE Agents Drag Pregnant Woman on Minneapolis Street, on Video](https://www.tmz.com/2025/12/17/federal-agent-pregnant-woman-minneapolis-ice-raids/) - **Video**
+5. TMZ Video (Dec 17, 2025): [ICE Agents Drag Pregnant Woman on Minneapolis Street, on Video](https://www.tmz.com/2025/12/17/federal-agent-pregnant-woman-minneapolis-ice-raids/)
 6. Fox News (Dec 16, 2025): [Minneapolis police chief blasts ICE after agent seen dragging woman through street, kneeling on her back](https://www.foxnews.com/us/minneapolis-police-chief-blasts-ice-after-agent-seen-dragging-woman-through-street-kneeling-her-back)
-7. Inquisitr (Dec 16, 2025): ['She's Pregnant!' - Video Shows ICE Agents Drag Woman Across Street](https://www.inquisitr.com/shes-pregnant-video-shows-ice-agents-drag-woman-across-street-as-bystanders-beg-them-to-stop) - **Video**
+7. Inquisitr (Dec 16, 2025): ['She's Pregnant!' - Video Shows ICE Agents Drag Woman Across Street](https://www.inquisitr.com/shes-pregnant-video-shows-ice-agents-drag-woman-across-street-as-bystanders-beg-them-to-stop)
 
 ## Victim(s)
 - **Primary victim:** Pregnant Somali woman (name unknown)

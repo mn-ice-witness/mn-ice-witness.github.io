@@ -20,8 +20,8 @@ DHS posted on X defending the detention of a U.S. citizen whose accent was used 
 **Related incident:** [U.S. Citizen Detained Because of "Accent"](#2026-01-15-ramon-menera-accent-detained)
 
 ## Sources
-1. X Post (Jan 18, 2026): @DHSgov statement - **Primary source** (post removed; saved screenshot shown, text below)
-2. Bluesky (Jan 18, 2026): [Michael Kagan commentary](https://bsky.app/profile/michaelgkagan.bsky.social/post/3mcpvg6g3jc2w) - Immigration law professor's analysis
+1. X Post (Jan 18, 2026): [@DHSgov statement](https://x.com/DHSgov) (post removed; saved screenshot shown, text below)
+2. Bluesky (Jan 18, 2026): [Michael Kagan commentary](https://bsky.app/profile/michaelgkagan.bsky.social/post/3mcpvg6g3jc2w)
 
 ## Official Statement
 
