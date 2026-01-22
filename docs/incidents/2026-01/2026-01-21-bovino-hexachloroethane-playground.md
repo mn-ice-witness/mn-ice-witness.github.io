@@ -7,18 +7,16 @@ type: citizens, schools-hospitals
 status: under-investigation
 victim_citizenship: unknown
 injuries: unknown
-trustworthiness: unverified
+trustworthiness: high
 created: 2026-01-21T17:37:01
-last_updated: 2026-01-21T17:37:01
+last_updated: 2026-01-21T18:01:29
 ---
 
-# Border Patrol Commander Greg Bovino Deploys Hexachloroethane Gas Near School at Dismissal (UNVERIFIED)
-
-***No mainstream media has reported on this incident. It is based on social media posts only. If you have a media source, please [contact us](mailto:mnicewitness@proton.me).***
+# Border Patrol Commander Greg Bovino Deploys Hexachloroethane Gas Near School at Dismissal
 
 ## Summary
 
-Border Patrol Commander Greg Bovino and agents allegedly deployed multiple canisters of hexachloroethane (HC) gas at Mueller Park, near Ella Baker Global Studies & Humanities Magnet School, just after school dismissal. A school bus was reportedly forced to drive through the gas while transporting students home.
+Border Patrol Commander Greg Bovino deployed gas canisters at Mueller Park, near Ella Baker Global Studies & Humanities Magnet School, just after school dismissal. Video shows Bovino personally throwing the canister. A school bus was forced to drive through the gas while transporting students home.
 
 Hexachloroethane is classified as a chemical weapon under the [Chemical Weapons Convention](https://en.wikipedia.org/wiki/Hexachloroethane) and is banned from use in international warfare. The U.S. military phased out HC smoke grenades after a [1994 Army report](https://cbrneworld.com/privacy?view=article&id=1782:were-toxic-chemical-grenades-used-in-portland&catid=2) found that "exposure of unprotected soldiers to high concentrations of HC smoke for even a few minutes has resulted in injuries and fatalities."
 
@@ -26,12 +24,13 @@ The [EPA classifies hexachloroethane](https://www.epa.gov/sites/default/files/20
 
 ## Sources
 
-1. X Post (Jan 21, 2026): [@TheJFreakinC thread with video](https://x.com/TheJFreakinC/status/2014110030778241072)
-2. Threads Post (Jan 21, 2026): [@itsmemaudeholly](https://www.threads.com/@itsmemaudeholly/post/DTycrtNkgXU)
+1. Star Tribune (Jan 21, 2026): [ICE raids Minnesota live updates](https://www.startribune.com/ice-raids-minnesota/601546426)
+2. X Post (Jan 21, 2026): [@TheJFreakinC thread with video](https://x.com/TheJFreakinC/status/2014110030778241072)
+3. Threads Post (Jan 21, 2026): [@itsmemaudeholly](https://www.threads.com/@itsmemaudeholly/post/DTycrtNkgXU)
 
-## What Is Alleged
+## What Happened
 
-According to social media accounts:
+According to eyewitness accounts and video:
 
 - Agents fired multiple canisters of green chemical gas at Mueller Park
 - Gas spread across the playground, through the park, and into residential blocks
@@ -48,4 +47,4 @@ Bovino serves as Border Patrol Commander at Large. A federal judge found him ["o
 
 ## Editorial Assessment
 
-**UNVERIFIED** - Based on social media posts. Video reportedly exists. Consistent with documented concerns about HC gas deployment in Minneapolis, but requires mainstream media corroboration.
+**HIGH** - Star Tribune confirmed with video showing "U.S. Customs and Border Patrol Cmdr. Greg Bovino is seen deploying a gas canister at Mueller Park in south Minneapolis." Video shared by Ben Luhmann.

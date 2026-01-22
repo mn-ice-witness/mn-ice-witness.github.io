@@ -5,23 +5,25 @@
 
 
 
+
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
 target-richfield-employees
 observer-shoved-into-traffic
 brooklyn-park-officer-citizen-check
-ahmed-hassan-uber-driver
-mubashir-wrongful-detention
-bovino-cbs-interview
 jose-ramirez-native-american
 bovino-hexachloroethane-playground
+observer-pinned-pepper-sprayed-face
 mankato-women-sprayed
 noem-pepper-spray-denial-backtrack
 silva-sosa-inver-grove-heights
 siguenza-okeefe-detained
 observer-phone-snatched
 ramon-menera-accent-detained
+ahmed-hassan-uber-driver
+mubashir-wrongful-detention
+bovino-cbs-interview
 agriculture-press-conference
 eden-prairie-13-year-old
 oglala-sioux-still-detained

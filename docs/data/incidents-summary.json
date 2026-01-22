@@ -1,9 +1,40 @@
 {
   "incidents": [
     {
+      "filePath": "incidents/2026-01/2026-01-21-observer-pinned-pepper-sprayed-face.md",
+      "title": "Observer Pinned to Ground, Chemical Irritant Sprayed Directly Into Face",
+      "summary": "Federal agents pinned an observer to the ground and sprayed a chemical irritant directly into his face at 28th Street and Blaisdell Avenue S. in south Minneapolis. A Star Tribune photographer captured the moment of the spray being deployed at point-blank range while multiple agents held the man down.",
+      "latestUpdate": null,
+      "date": "2026-01-21",
+      "time": "afternoon",
+      "location": "28th Street and Blaisdell Avenue S.",
+      "city": "Minneapolis",
+      "type": "observers",
+      "status": "ongoing",
+      "victimCitizenship": "unknown",
+      "injuries": "unknown",
+      "trustworthiness": "high",
+      "created": "2026-01-21T18:01:29",
+      "lastUpdated": "2026-01-21T18:01:29",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": true,
+      "localMediaType": "image",
+      "localMediaPath": "media/2026-01-21-observer-pinned-pepper-sprayed-face.jpg",
+      "localMediaOgPath": null,
+      "localMediaFiles": [
+        {
+          "type": "image",
+          "path": "media/2026-01-21-observer-pinned-pepper-sprayed-face.jpg"
+        }
+      ],
+      "aspectRatio": 1.4002333722287048,
+      "mediaVersion": 1769040347
+    },
+    {
       "filePath": "incidents/2026-01/2026-01-21-bovino-hexachloroethane-playground.md",
-      "title": "Border Patrol Commander Greg Bovino Deploys Hexachloroethane Gas Near School at Dismissal (UNVERIFIED)",
-      "summary": "Border Patrol Commander Greg Bovino and agents allegedly deployed multiple canisters of hexachloroethane (HC) gas at Mueller Park, near Ella Baker Global Studies & Humanities Magnet School, just after school dismissal. A school bus was reportedly forced to drive through the gas while transporting students home.",
+      "title": "Border Patrol Commander Greg Bovino Deploys Hexachloroethane Gas Near School at Dismissal",
+      "summary": "Border Patrol Commander Greg Bovino deployed gas canisters at Mueller Park, near Ella Baker Global Studies & Humanities Magnet School, just after school dismissal. Video shows Bovino personally throwing the canister. A school bus was forced to drive through the gas while transporting students home.",
       "latestUpdate": null,
       "date": "2026-01-21",
       "time": "afternoon",
@@ -16,9 +47,9 @@
       "status": "under-investigation",
       "victimCitizenship": "unknown",
       "injuries": "unknown",
-      "trustworthiness": "unverified",
+      "trustworthiness": "high",
       "created": "2026-01-21T17:37:01",
-      "lastUpdated": "2026-01-21T17:37:01",
+      "lastUpdated": "2026-01-21T18:01:29",
       "mediaCount": 0,
       "notable": false,
       "hasLocalMedia": true,
