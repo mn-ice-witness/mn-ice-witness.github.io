@@ -15,7 +15,7 @@ last_updated: 2026-01-22T15:40:03
 # Hmong U.S. Citizen Detained Shirtless in Freezing Weather, Then Released
 
 ## Updates
-- **Jan 22** - KSTP investigation reveals one of ICE's targets (Lue Moua) has been in state prison since September 2024; the other (Kongmeng Vang) got a driver's license at a Circle Pines address, not the Thao residence
+- **Jan 22** - [KSTP investigation](https://kstp.com/kstp-news/top-news/man-ice-sought-in-humiliating-arrest-of-us-citizen-has-been-in-prison-since-2024/) reveals one of ICE's targets (Lue Moua) has been in state prison since September 2024; the other (Kongmeng Vang) got a driver's license at a Circle Pines address, not the Thao residence.
 
 ## Summary
 A Hmong man named Saly, described as a naturalized U.S. citizen with no criminal record, was reportedly detained by ICE agents who broke down his apartment door. According to family members, agents did not allow him to put on proper clothing before taking him outside in approximately 10-degree weather. After driving him around for nearly an hour, questioning, and fingerprinting him, agents released him after determining he had no criminal history. The family believes ICE was searching for someone who previously lived at the address.

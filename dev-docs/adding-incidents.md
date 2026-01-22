@@ -460,12 +460,21 @@ When making a MAJOR update to an incident, add an `## Updates` section right aft
 ...
 ```
 
-**Format:** Use simple dates like "Jan 18" — NOT full timestamps. The Updates section is user-facing and should be clean and readable.
+**Format:**
+- Use simple dates like "Jan 18" — NOT full timestamps
+- End each update with a period
+- Hyperlink to the source within the text (don't write out URLs)
+
+**Example with hyperlink:**
+```markdown
+- **Jan 22** - [KSTP investigation](URL) reveals target has been in prison since 2024.
+```
 
 **Write in plain language** — describe what happened, not what you did:
-- ✅ "Gibson alleges ICE took 'trophy photos' of him"
+- ✅ "[KSTP investigation](URL) reveals target has been in prison since 2024."
+- ✅ "Gibson alleges ICE took 'trophy photos' of him."
 - ❌ "Added press conference details"
-- ✅ "Nasra Ahmed describes being chained 'like Hannibal Lecter'"
+- ✅ "Nasra Ahmed describes being chained 'like Hannibal Lecter'."
 - ❌ "Added affected individual's first-person account; upgraded to HIGH trustworthiness"
 
 Never mention internal details like trustworthiness changes, source additions, or schema updates. Users don't care about our process — they want to know what happened.

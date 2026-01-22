@@ -101,12 +101,12 @@ Use documentary tone. Let facts speak for themselves.
 - ❌ Adding more sources, formatting fixes, rating changes
 
 ### Updates Section Placement
-**The `## Updates` section goes RIGHT AFTER THE TITLE, BEFORE SUMMARY** — never at the bottom. This is user-facing content readers see first. Structure:
+**The `## Updates` section goes RIGHT AFTER THE TITLE, BEFORE SUMMARY** — never at the bottom. This is user-facing content readers see first. Hyperlink to the source, end with a period:
 ```markdown
 # Incident Title
 
 ## Updates
-- **Jan 22** - Brief description of what happened
+- **Jan 22** - [KSTP investigation](URL) reveals new facts about the case.
 
 ## Summary
 ```
