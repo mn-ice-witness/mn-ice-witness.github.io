@@ -18,11 +18,11 @@ last_updated: 2026-01-21T19:05:36
 An ICE agent entered East Side Thai restaurant at 879 Payne Ave in St. Paul with his handgun drawn on MLK Day while pursuing someone who had run past the business. The agent accused the owners of hiding the person, which was false. The incident traumatized approximately 10 customers and 7 staff members. No one was detained at the restaurant.
 
 ## Sources
-1. Bluesky (Jan 21, 2026): [@treekisser post sharing news coverage](https://bsky.app/profile/treekisser.bsky.social/post/3mcxbjprp2c24)
-2. Bring Me The News (Jan 20, 2026): [Video shows ICE agent enter St. Paul restaurant with gun drawn during street search](https://bringmethenews.com/minnesota-news/video-shows-ice-agent-enter-st-paul-restaurant-with-gun-drawn-during-street-search)
-3. Yahoo News (Jan 20, 2026): [Video shows ICE agent enter St. Paul restaurant with gun drawn](https://www.yahoo.com/news/articles/video-shows-ice-agent-enter-200956838.html)
-4. AOL News (Jan 20, 2026): [Video shows ICE agent enter St. Paul restaurant with gun drawn](https://www.aol.com/news/video-shows-ice-agent-enter-200956466.html)
-5. NewsBreak (Jan 20, 2026): [Video shows ICE agent enter St. Paul restaurant with gun drawn](https://www.newsbreak.com/bring-me-the-news-560130/4451646645592-video-shows-ice-agent-enter-st-paul-restaurant-with-gun-drawn-during-street-search)
+1. Bring Me The News (Jan 20, 2026): [Video shows ICE agent enter St. Paul restaurant with gun drawn during street search](https://bringmethenews.com/minnesota-news/video-shows-ice-agent-enter-st-paul-restaurant-with-gun-drawn-during-street-search)
+2. Yahoo News (Jan 20, 2026): [Video shows ICE agent enter St. Paul restaurant with gun drawn](https://www.yahoo.com/news/articles/video-shows-ice-agent-enter-200956838.html)
+3. AOL News (Jan 20, 2026): [Video shows ICE agent enter St. Paul restaurant with gun drawn](https://www.aol.com/news/video-shows-ice-agent-enter-200956466.html)
+4. NewsBreak (Jan 20, 2026): [Video shows ICE agent enter St. Paul restaurant with gun drawn](https://www.newsbreak.com/bring-me-the-news-560130/4451646645592-video-shows-ice-agent-enter-st-paul-restaurant-with-gun-drawn-during-street-search)
+5. Bluesky (Jan 21, 2026): [@treekisser post](https://bsky.app/profile/treekisser.bsky.social/post/3mcxbjprp2c24)
 
 ## Owner Statement
 Co-owner Kou Vang posted on Facebook:
