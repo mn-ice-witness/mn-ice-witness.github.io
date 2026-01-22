@@ -69,4 +69,3 @@ nadya-moldovan-refugee
 william-vermie-veteran-detained
 trump-vicious-animals-statement
 east-side-thai-gun-drawn
-dhs-response-crowd-control
