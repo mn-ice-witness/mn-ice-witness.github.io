@@ -31,10 +31,25 @@ https://mn-ice-witness.org/new-updated/MM-DD-YYYY
 3. **Keep bullets SHORT** - 5-8 words max per bullet
 4. **Include numbers when striking** - "400K views", "5 days after approval"
 
-## What Gets Included
+## What Gets Included (MUST Match URL Logic)
 
-- **NEW**: Incidents with `created:` timestamp on that date
-- **UPDATED**: Incidents with `last_updated:` timestamp on that date (but created earlier)
+**CRITICAL:** The SM post must match what `/new-updated/MM-DD-YYYY` returns. The URL filtering logic is in `docs/js/lightbox.js` lines 182-186:
+
+- **NEW**: Incidents where `created:` starts with `YYYY-MM-DD` (the requested date)
+- **UPDATED**: Incidents where `last_updated:` starts with `YYYY-MM-DD` AND `created:` does NOT start with that date
+
+**Important:** We filter by the `created` and `last_updated` timestamps in the frontmatter, NOT by the incident `date:` field. An incident from January 9 that was added to the site on January 21 shows up as NEW on January 21.
+
+To find what the URL will return:
+```bash
+# Find NEW (created on date)
+grep -l "created: 2026-01-21" docs/incidents/**/*.md
+
+# Find UPDATED (last_updated on date, but created earlier)
+# Check files where last_updated matches but created doesn't
+grep -l "last_updated: 2026-01-21" docs/incidents/**/*.md
+# Then verify created date is different
+```
 
 Only include updates that are substantive story developments (new affected individual accounts, status changes, major new sources). Don't include minor source additions.
 

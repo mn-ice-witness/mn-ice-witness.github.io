@@ -75,7 +75,7 @@ const Search = {
     applyFilter() {
         if (typeof App !== 'undefined') {
             App.render();
-            if (App.currentView === 'media') {
+            if (ViewState.currentView === 'media') {
                 App.renderMediaGallery();
             }
         }
