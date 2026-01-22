@@ -18,8 +18,11 @@ last_updated: 2026-01-22T08:35:32
 U.S. Customs and Border Protection officers handcuffed and detained two teenagers in south Minneapolis on Wednesday afternoon after allegedly rear-ending their silver SUV. The teenage girl driver, who presented a U.S. passport to agents, was still placed in handcuffs and was seen crying in the back of a federal vehicle. At least two bystanders were arrested and agents deployed tear gas and pepper spray as crowds gathered to film and protest the arrest.
 
 ## Sources
-1. Facebook Video (Jan 22, 2026): [MPR News coverage - Ben Hovland photos/video](https://www.facebook.com/629478575/posts/10162619284788576/)
-2. YouTube Video (Jan 22, 2026): [MPR News footage](https://www.youtube.com/shorts/_O5IF0Ld8L4)
+1. MPR News (Jan 21, 2026): [Customs and Border Protection officers detain two teenagers in Minneapolis](https://www.mprnews.org/story/2026/01/21/customs-and-border-protection-officers-detain-two-teenagers-in-minneapolis)
+2. Facebook Video (Jan 22, 2026): [MPR News coverage - Ben Hovland photos/video](https://www.facebook.com/629478575/posts/10162619284788576/)
+3. YouTube Video (Jan 22, 2026): [MPR News footage](https://www.youtube.com/shorts/_O5IF0Ld8L4)
+4. KARE 11 (Jan 22, 2026): [5-year-old boy among four students detained by ICE, according to school leaders](https://www.kare11.com/article/news/local/5-year-old-boy-among-four-students-detained-by-ice-according-to-school-leaders-mn/89-113e2490-282c-4e5d-a472-f5cf8f18a94b)
+5. YouTube Video - WCCO CBS (Jan 22, 2026): [WCCO CBS coverage](https://youtu.be/r5G-bgqmljM)
 
 ## Affected Individual(s)
 - **Names:** Not disclosed
