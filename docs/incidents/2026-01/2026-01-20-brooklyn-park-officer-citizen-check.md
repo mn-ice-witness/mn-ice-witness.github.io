@@ -12,7 +12,7 @@ created: 2026-01-20T13:39:51
 last_updated: 2026-01-20T13:39:51
 ---
 
-# Metro Police Chiefs Call for End to Civil Rights Violations / Racially Discriminatory Citizen Checks; Off-Duty Brooklyn Park Police Officer Stopped at Gunpoint
+# Metro Police Chiefs Call for End to Civil Rights Violations / Racially Discriminatory Citizen Checks; Off-Duty Brooklyn Park Police Officer Stopped at Gunpoint, Asked for Papers
 
 ## Summary
 Three Twin Cities law enforcement leaders held a joint press conference at the Minnesota State Capitol on January 20 to address a pattern of ICE agents conducting racially discriminatory citizenship checks on people of color. Brooklyn Park Police Chief Mark Bruley disclosed that an off-duty Brooklyn Park police officer—a woman of color and U.S. citizen—was stopped by ICE agents who boxed in her vehicle, drew their weapons, and demanded paperwork to prove her citizenship. When she attempted to record the encounter, agents knocked the phone from her hands. "If it's happening to our officers, it pains me to think of how many community members fall victim daily," Bruley said. Hennepin County Sheriff Dawanna Witt called the incidents "concrete examples of profiling," while St. Paul Police Chief Axel Henry said "people are scared to death, afraid to go outside—not because their status is in question but because they know people get stopped based on appearance."
