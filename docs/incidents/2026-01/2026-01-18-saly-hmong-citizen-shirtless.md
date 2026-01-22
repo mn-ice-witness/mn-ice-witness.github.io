@@ -9,7 +9,7 @@ affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-19T10:14:30
-last_updated: 2026-01-19T21:19:19
+last_updated: 2026-01-22T15:40:03
 ---
 
 # Hmong U.S. Citizen Detained Shirtless in Freezing Weather, Then Released
@@ -100,3 +100,16 @@ The post notes that Saly's mother, Choua Thao, was a nurse during the war in Lao
 
 ## Editorial Assessment
 **HIGH** - DHS Assistant Secretary Tricia McLaughlin officially acknowledged this incident on January 19, 2026, confirming a U.S. citizen was detained and released at this address. While DHS disputes some details (claiming the citizen refused fingerprinting, family says he was fingerprinted), official corroboration confirms the core facts: ICE operation at this address, U.S. citizen detained, citizen released after verification. Video and photo evidence corroborate the encounter. Family account from Louansee Moua provides detailed witness testimony.
+
+## Updates
+
+### January 22, 2026 - One of ICE's Targets Has Been in Prison Since 2024
+KSTP investigation reveals that one of the two men ICE claimed to be seeking at the Thao residence has been incarcerated since before the raid occurred.
+
+**Lue Moua (52):** Has been held at the Minnesota Corrections Facility-Faribault since **September 4, 2024** - more than a year before ICE raided the Thao home. He has felony convictions including criminal sexual conduct, kidnapping, and parental custody violations dating back to 1992. His expected release date is January 7, 2027.
+
+**Kongmeng Vang:** DHS describes him as "wanted for sexual assault, gang activity and assault." KSTP found that a 33-year-old with this name and matching birth date received a Minnesota driver's license at a **Circle Pines address** in November 2025 - not at the Thao residence in St. Paul.
+
+This raises significant questions about ICE's intelligence and targeting methods, as one of their stated targets was already in state custody and easily verifiable through public records.
+
+**Source:** [KSTP (Jan 22, 2026): Man ICE sought in "humiliating" arrest of US citizen has been in prison since 2024](https://kstp.com/kstp-news/top-news/man-ice-sought-in-humiliating-arrest-of-us-citizen-has-been-in-prison-since-2024/)
