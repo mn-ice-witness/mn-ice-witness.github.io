@@ -19,6 +19,7 @@ U.S. Customs and Border Protection officers handcuffed and detained two teenager
 
 ## Sources
 1. Facebook Video (Jan 22, 2026): [MPR News coverage - Ben Hovland photos/video](https://www.facebook.com/629478575/posts/10162619284788576/)
+2. YouTube Video (Jan 22, 2026): [MPR News footage](https://www.youtube.com/shorts/_O5IF0Ld8L4)
 
 ## Affected Individual(s)
 - **Names:** Not disclosed
