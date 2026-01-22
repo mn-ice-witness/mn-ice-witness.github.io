@@ -45,6 +45,10 @@ According to eyewitness accounts and video:
 
 Bovino serves as Border Patrol Commander at Large. A federal judge found him ["outright lying"](https://www.fox9.com/news/border-patrol-chief-was-outright-lying-about-previous-ice-surge) about use of force during the Chicago operation. Multiple sources have raised concerns about [HC gas use in Minneapolis](https://www.minnpost.com/metro/2026/01/my-eyes-were-stinging-the-chemicals-used-by-ice-when-they-confront-protesters-tear-gas-minneapolis/).
 
+## Related Incidents
+
+- [DHS Response: Agents "Harassed" at Gas Stations, Used "Crowd Control Measures"](#2026-01-21-dhs-response-crowd-control) (Jan 21)
+
 ## Editorial Assessment
 
 **HIGH** - Star Tribune confirmed with video showing "U.S. Customs and Border Patrol Cmdr. Greg Bovino is seen deploying a gas canister at Mueller Park in south Minneapolis." Video shared by Ben Luhmann.
