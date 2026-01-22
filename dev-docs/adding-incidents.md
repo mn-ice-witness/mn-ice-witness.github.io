@@ -266,6 +266,20 @@ These are mistakes that LLMs frequently make when adding incidents. Read this se
 
 **This site's credibility depends on neutral, documentary tone.** Avoid emotional, excited, or loaded language throughout — in titles, summaries, source descriptions, and narrative text.
 
+#### Terminology: "Affected Individual(s)" NOT "Victim(s)"
+
+**IMPORTANT:** We use **"Affected Individual(s)"** instead of "Victim(s)" throughout this project.
+
+- **Section headers:** Use `## Affected Individual(s)` not `## Victim(s)`
+- **Frontmatter field:** Use `affected_individual_citizenship:` not `victim_citizenship:`
+- **In prose:** Say "the affected individual" or "affected individuals" — not "the victim" or "victims"
+
+**Why?** "Victim" carries emotional weight and implies a judgment. "Affected individual" is neutral and factual — it describes someone involved in an incident without prejudging the situation. This aligns with our goal of documentary journalism that presents facts and lets readers draw their own conclusions.
+
+**Exception:** Direct quotes from sources (news articles, officials, witnesses) may contain "victim" — preserve the original language in quotes.
+
+#### Neutral Language Table
+
 | Avoid (Emotional/Loaded) | Use Instead (Neutral) |
 |--------------------------|----------------------|
 | raid, ransack | search |

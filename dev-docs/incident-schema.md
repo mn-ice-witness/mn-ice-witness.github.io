@@ -2,6 +2,25 @@
 
 Every incident is a markdown file with YAML frontmatter. This document defines the exact schema.
 
+## ⚠️ Critical: Neutral Language
+
+**Use "Affected Individual(s)" — NOT "Victim(s)"**
+
+This project uses neutral, documentary language. The term "victim" carries emotional weight and implies judgment. Instead:
+
+| Don't Use | Use Instead |
+|-----------|-------------|
+| `victim_citizenship:` | `affected_individual_citizenship:` |
+| `## Victim(s)` | `## Affected Individual(s)` |
+| "the victim" | "the affected individual" |
+| "victims" | "affected individuals" |
+
+**Why?** We present facts and let readers draw conclusions. Neutral terminology maintains credibility and objectivity.
+
+**Exception:** Preserve "victim" in direct quotes from sources.
+
+See [adding-incidents.md](adding-incidents.md#language-guidelines) for complete language guidelines.
+
 ## File Naming
 
 ```
