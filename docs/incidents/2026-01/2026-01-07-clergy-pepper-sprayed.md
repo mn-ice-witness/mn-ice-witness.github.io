@@ -5,7 +5,7 @@ location: Portland Avenue (scene of Renee Good shooting)
 city: Minneapolis
 type: observers
 status: resolved
-victim_citizenship: us-citizens
+affected_individual_citizenship: us-citizens
 injuries: pepper-spray-exposure
 trustworthiness: high
 created: 2026-01-14T08:41:37
@@ -30,7 +30,7 @@ At least two pastors were shoved, shot at with pepper rounds, and exposed to pep
 10. Facebook Video (Jan 7, 2026): [Full livestream from scene](https://www.facebook.com/ashley.a.p.horan/videos/2047488219423690)
 11. Facebook Video (Jan 7, 2026): [Rev. Ashley Horan reel](https://www.facebook.com/reel/898902369494951)
 
-## Victim(s)
+## Affected Individual(s)
 
 ### Rev. Susie Hayward
 - **Church:** Creekside UCC, Minneapolis

@@ -387,7 +387,7 @@ class ICEMonitor:
         r.append("- [ ] 2+ independent sources")
         r.append("- [ ] Video/photo evidence")
         r.append("- [ ] DHS/ICE official response")
-        r.append("- [ ] Victim citizenship/status verified")
+        r.append("- [ ] Affected individual citizenship/status verified")
         r.append("- [ ] Witness accounts")
         r.append("- [ ] Legal filings (if any)")
         r.append("")

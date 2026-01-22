@@ -5,7 +5,7 @@ location: Cub Foods parking lot, Tamarack Village
 city: Woodbury
 type: observers
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
 created: 2026-01-14T14:50:07
@@ -26,7 +26,7 @@ Ryan Ecklund, a U.S. citizen and real estate agent, was detained by ICE for over
 6. CBS Minnesota Video (Jan 14, 2026): [Minnesotan says ICE arrested him for recording agents](https://www.cbsnews.com/minnesota/video/minnesotan-says-ice-arrested-him-for-recording-agents/)
 7. CBS Minnesota (Jan 2026): [US citizens in Minnesota share their stories of ICE detainments, intimidation](https://www.cbsnews.com/minnesota/news/us-citizen-in-minnesota-detained-intimidated-by-ice-federal-agents-operation-metro-surge/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Ryan Ecklund
 - **Citizenship:** U.S. Citizen
 - **Occupation:** Real estate agent
@@ -78,4 +78,4 @@ This incident represents a direct challenge to First Amendment rights to record 
 - DHS explicitly argued in court that following agents should not be protected speech
 
 ## Editorial Assessment
-**HIGH** - Multiple independent local sources (Fox 9, Pioneer Press, Bring Me The News), national syndication across FOX affiliates, named victim with specific details and direct quotes, tied to ongoing federal litigation. Victim's wife provided documentation on social media.
+**HIGH** - Multiple independent local sources (Fox 9, Pioneer Press, Bring Me The News), national syndication across FOX affiliates, named affected individual with specific details and direct quotes, tied to ongoing federal litigation. Affected individual's wife provided documentation on social media.

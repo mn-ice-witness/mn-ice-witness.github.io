@@ -5,7 +5,7 @@ location: Shearer's Foods manufacturing facility
 city: Perham
 type: immigrants
 status: ongoing
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: high
 created: 2026-01-14T09:04:50
@@ -21,7 +21,7 @@ ICE agents detained a single employee at Shearer's Foods manufacturing facility 
 1. InForum (Jan 13, 2026): [ICE agents at Shearer's Foods in Perham](https://www.inforum.com/news/local/ice-agents-at-shearers-foods-in-perham)
 2. InForum (Jan 13, 2026): [Residents, schools, students react to ICE activity around Greater Minnesota](https://www.inforum.com/news/minnesota/residents-schools-students-react-to-ice-activity-around-greater-minnesota)
 
-## Victim(s)
+## Affected Individual(s)
 - **Number detained:** 1 employee
 - **Employment:** Worker at Shearer's Foods (hired before Shearer's acquired the facility)
 - **Cooperation:** Employee cooperated with authorities, voluntarily accompanying agents

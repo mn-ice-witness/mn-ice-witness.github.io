@@ -14,7 +14,7 @@ Search existing incident files in `docs/incidents/` to ensure the incident isn't
 
 1. **Search by location** - Same address, intersection, or business name
 2. **Search by date** - Same day, even if different details emerged
-3. **Search by victim name** - If known
+3. **Search by affected individual's name** - If known
 4. **Search by keywords** - Key phrases from the incident
 
 ```bash
@@ -29,7 +29,7 @@ grep -r "bus stop" docs/incidents/
 
 1. Open the existing incident file
 2. Add new sources to the Sources section
-3. Add new details to relevant sections (Timeline, Victim info, etc.)
+3. Add new details to relevant sections (Timeline, Affected Individual info, etc.)
 4. Update `last_updated` in frontmatter
 5. Update Editorial Assessment if trustworthiness improves
 
@@ -97,10 +97,10 @@ Assign HIGH when ANY of these conditions are met:
 | Video/photo evidence | Bystander video shows incident, news embeds footage |
 | Investigative report from major outlet | The Intercept, ProPublica, major newspaper with named sources and direct quotes |
 | Single source + official corroboration | News report + ICE confirms arrest, or + lawsuit filed |
-| Single source + credible primary sources | Article with named elected officials, attorneys, or direct victim interviews |
+| Single source + credible primary sources | Article with named elected officials, attorneys, or direct affected individual interviews |
 
 **Examples of HIGH with single source:**
-- The Intercept detailed account with named victim and direct quotes → HIGH
+- The Intercept detailed account with named affected individual and direct quotes → HIGH
 - Sahan Journal report with city council member as witness → HIGH
 - Local paper report + ICE confirmation of arrest → HIGH
 
@@ -151,8 +151,8 @@ This allows editorial judgment about incidents worth documenting while clearly i
 
 | Condition | Why It Limits Rating |
 |-----------|---------------------|
-| No independent firsthand witnesses on scene | Cannot corroborate the account beyond victim's word |
-| Account relies solely on victim/family statement | No third-party verification of events |
+| No independent firsthand witnesses on scene | Cannot corroborate the account beyond affected individual's word |
+| Account relies solely on affected individual/family statement | No third-party verification of events |
 | Agency disputes incident occurred (e.g., "zero record") | Creates he-said/she-said without independent evidence |
 
 **Example:** A U.S. citizen claims they were stopped by ICE. Multiple news outlets report the story based on the citizen's account. However, no bystanders witnessed the stop, no video exists, and ICE claims "zero record" of the incident. This should be rated **MEDIUM** despite widespread media coverage, because the coverage is all sourced from a single account without independent corroboration.
@@ -273,7 +273,7 @@ These are mistakes that LLMs frequently make when adding incidents. Read this se
 | kidnapped, snatched | detained, arrested |
 | terrorize, brutalize | use force on |
 | horrific, shocking, disturbing | (omit - describe facts) |
-| innocent victim | person, resident, citizen |
+| innocent victim | person, resident, citizen, affected individual |
 | exclusive, breaking, bombshell | (omit - just describe content) |
 | explosive interview | interview |
 
@@ -285,7 +285,7 @@ These are mistakes that LLMs frequently make when adding incidents. Read this se
 
 **General principles:**
 - Report facts and let readers draw conclusions
-- Witness/victim quotes may contain emotional language, but narrative text should not
+- Witness/affected individual quotes may contain emotional language, but narrative text should not
 - Describe actions objectively: "agents used a battering ram to enter" not "agents violently smashed through the door"
 - Avoid superlatives and marketing language from news sources (strip out "exclusive," "shocking," etc.)
 - **For official statements:** Report what was said accurately, not your interpretation. If an official says "vicious animals" referring to "murderers & criminals," don't editorialize that as "calling immigrants vicious animals." Let readers draw their own conclusions about the rhetoric.
@@ -310,7 +310,7 @@ location: Specific location
 city: Minneapolis
 type: citizens
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: medium
 created: 2026-01-15T14:23:47   # ← Use ACTUAL current time, not rounded!
@@ -326,7 +326,7 @@ What happened in 2-3 sentences.
 1. [Source](URL) - Publication
 - **Video:** [Description](URL) - Source (if available)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** If public
 - **Citizenship:** Status
 
@@ -401,7 +401,7 @@ When new information emerges:
 |-------------|----------|
 | **Case developments** | Judge ruling, person released, charges filed, lawsuit filed |
 | **Status changes** | Detained → Released, Under investigation → Resolved |
-| **New facts about the incident** | Victim identity confirmed, location corrected, new details emerge |
+| **New facts about the incident** | Affected individual identity confirmed, location corrected, new details emerge |
 | **Merging incidents** | When combining duplicate incident files |
 | **Significant new witness accounts** | Major new testimony that changes understanding |
 
@@ -443,7 +443,7 @@ When making a MAJOR update to an incident, add an `## Updates` section right aft
 - ✅ "Gibson alleges ICE took 'trophy photos' of him"
 - ❌ "Added press conference details"
 - ✅ "Nasra Ahmed describes being chained 'like Hannibal Lecter'"
-- ❌ "Added victim's first-person account; upgraded to HIGH trustworthiness"
+- ❌ "Added affected individual's first-person account; upgraded to HIGH trustworthiness"
 
 Never mention internal details like trustworthiness changes, source additions, or schema updates. Users don't care about our process — they want to know what happened.
 
@@ -508,10 +508,10 @@ When an incident involves a refugee or immigrant with **pending legal status** b
 ### When to Add This Section
 
 Add when ANY of these apply:
-- Victim had an approved or pending I-130 petition
-- Victim was a refugee awaiting green card
-- Victim had valid immigration documents and was in a legal process
-- Victim was detained despite having legal status
+- Affected individual had an approved or pending I-130 petition
+- Affected individual was a refugee awaiting green card
+- Affected individual had valid immigration documents and was in a legal process
+- Affected individual was detained despite having legal status
 
 ### How to Add
 
@@ -524,7 +524,7 @@ Add when ANY of these apply:
 ```markdown
 ## Context: Operation PARRIS
 
-[Victim name]'s detention fits a documented pattern of ICE targeting refugees with pending green card applications under **Operation PARRIS** (Post-Admission Refugee Reverification and Integrity Strengthening). According to [Fox 9](https://www.fox9.com/news/minnesota-fraud-dhs-launching-operation-parris-target-refugees-jan-9), approximately 5,600 green card applicants in Minnesota are being targeted through this [official DHS operation](https://www.uscis.gov/newsroom/news-releases/dhs-launches-landmark-uscis-fraud-investigation-in-minnesota).
+[Affected individual's name]'s detention fits a documented pattern of ICE targeting refugees with pending green card applications under **Operation PARRIS** (Post-Admission Refugee Reverification and Integrity Strengthening). According to [Fox 9](https://www.fox9.com/news/minnesota-fraud-dhs-launching-operation-parris-target-refugees-jan-9), approximately 5,600 green card applicants in Minnesota are being targeted through this [official DHS operation](https://www.uscis.gov/newsroom/news-releases/dhs-launches-landmark-uscis-fraud-investigation-in-minnesota).
 
 [Global Refuge](https://www.globalrefuge.org/news/refugee-arrests-minnesota/) has documented that lawfully present refugees are being detained and transported to Texas within 24 hours with "no due process, no access to an attorney."
 ```

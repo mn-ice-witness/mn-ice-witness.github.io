@@ -5,7 +5,7 @@ location: Lyndale Avenue South & West Lake Street (in front of Wrecktangle Pizza
 city: Minneapolis
 type: observers
 status: resolved
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: minor
 trustworthiness: high
 created: 2026-01-14T08:01:12
@@ -26,7 +26,7 @@ Federal agents attempted to enter Wrecktangle Pizza at one of Minneapolis' busie
 6. CBS Minnesota (Jan 14, 2026): [Federal agents chased off from Minneapolis restaurant helping people impacted by increased ICE presence](https://www.cbsnews.com/minnesota/news/wrecktangle-pizza-stop-ice-south-minneapolis/)
 7. Daily Planet DC (Jan 14, 2026): [Minneapolis businesses, residents resist federal immigration enforcement surge](https://dailyplanetdc.com/2026/01/14/minneapolis-ice-resistance-businesses/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Names:** Unknown (multiple bystanders, protesters, and restaurant staff)
 - **Citizenship:** Unknown
 - **Details:** Crowd affected by tear gas near prominent local businesses

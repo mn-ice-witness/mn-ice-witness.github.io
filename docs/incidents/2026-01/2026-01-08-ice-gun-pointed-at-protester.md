@@ -5,7 +5,7 @@ location: Minneapolis (protests following Renee Good shooting)
 city: Minneapolis
 type: observers
 status: resolved
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: medium
 created: 2026-01-16T21:36:57
@@ -21,7 +21,7 @@ During protests in Minneapolis following the fatal shooting of Renee Good, video
 1. X Video (Jan 8, 2026): [Middle East Eye: ICE agent points gun at protester](https://x.com/MiddleEastEye/status/2009610981714931841/video/1)
 2. Peoples Dispatch (Jan 11, 2026): [Movement against ICE grows in the US](https://peoplesdispatch.org/2026/01/11/movement-against-ice-grows-in-the-us-in-the-wake-of-killing-of-renee-good/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Unknown
 - **Citizenship:** Unknown
 - **Background:** Protester at Minneapolis demonstrations

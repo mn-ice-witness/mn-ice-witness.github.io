@@ -5,7 +5,7 @@ location: Twin Cities metro area
 city: Minneapolis
 type: immigrants
 status: ongoing
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: medium
 created: 2026-01-17T16:15:46
@@ -21,7 +21,7 @@ A member of the Minnesota Newspaper and Communications Guild was detained by ICE
 1. The NewsGuild (Jan 16, 2026): [Guild member detained by ICE in Minnesota](https://newsguild.org/guild-member-detained-by-ice-in-minnesota/)
 2. Editor & Publisher (Jan 17, 2026): [Guild member detained by ICE in Minnesota](https://www.editorandpublisher.com/stories/guild-member-detained-by-ice-in-minnesota,259707)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Not disclosed
 - **Occupation:** Media worker, member of Minnesota Newspaper and Communications Guild (TNG-CWA)
 - **Citizenship:** Unknown

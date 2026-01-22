@@ -5,7 +5,7 @@ location: 600 block of Rose Avenue
 city: St. Paul
 type: immigrants
 status: ongoing
-victim_citizenship: undocumented
+affected_individual_citizenship: undocumented
 injuries: none-physical
 trustworthiness: high
 created: 2026-01-14T08:38:51
@@ -21,7 +21,7 @@ Jeffrey Suazo, a 26-year-old house painter from Honduras, was arrested after a 5
 1. Sahan Journal (Nov 26, 2025): [Family of man swept up in St. Paul ICE raid say agents entered without warrant](https://sahanjournal.com/immigration/st-paul-ice-raid-family-speaks-out/)
 2. Star Tribune (Nov 26, 2025): [Questions, conflicting accounts emerge after St. Paul ICE arrest, protests](https://www.startribune.com/conflicting-accounts-emerge-after-st-paul-ice-raid/601533942)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Jeffrey Suazo
 - **Age:** 26
 - **Origin:** Honduras

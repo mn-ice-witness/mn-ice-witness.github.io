@@ -5,7 +5,7 @@ location: Lower Afton Road apartment complex
 city: St. Paul
 type: citizens
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
 created: 2026-01-16T22:28:22
@@ -32,7 +32,7 @@ Nasra Mohamed Ahmed, a 23-year-old U.S. citizen born in Hennepin County, was det
 9. Facebook Post (Jan 2026): [Community member calling for legal action](https://www.facebook.com/story.php?story_fbid=25740710055571919&id=100001788329163)
 10. X Video (Jan 2026): [Video interview with Nasra Ahmed](https://x.com/FurkanGozukara/status/2013229204947554494)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Nasra Mohamed Ahmed
 - **Age:** 23
 - **Height/Weight:** 5'4", 112 lbs

@@ -5,7 +5,7 @@ location: Apartment complex
 city: Eden Prairie
 type: immigrants
 status: ongoing
-victim_citizenship: asylum-seeker
+affected_individual_citizenship: asylum-seeker
 injuries: serious
 trustworthiness: high
 created: 2026-01-14T08:54:15
@@ -26,7 +26,7 @@ ICE agents detained Gomez outside an Eden Prairie apartment complex while his 13
 6. Instagram Video (Dec 11, 2025): [ICE Detains 13-Year-Old Boy 500 Miles Away from Home](https://www.instagram.com/p/DPwqiviEbE1/)
 7. Instagram Video (Dec 11, 2025): [Jose Gomez detained in Eden Prairie](https://www.instagram.com/p/DSLG0fOkrfH/)
 
-## Victim(s)
+## Affected Individual(s)
 
 ### Father
 - **Name:** Gomez (first name not disclosed)

@@ -5,7 +5,7 @@ location: Minnesota State Capitol
 city: St. Paul
 type: immigrants
 status: ongoing
-victim_citizenship: legal-resident
+affected_individual_citizenship: legal-resident
 injuries: none
 trustworthiness: high
 created: 2026-01-19T10:42:44

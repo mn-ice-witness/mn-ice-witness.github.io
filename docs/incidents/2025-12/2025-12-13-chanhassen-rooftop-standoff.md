@@ -5,7 +5,7 @@ location: Construction site
 city: Chanhassen
 type: immigrants
 status: resolved-detained
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: medium
 created: 2026-01-14T08:54:15
@@ -24,7 +24,7 @@ Two construction workers, Edgar and Marco Chicaiza Dutan, took refuge on a roof 
 4. KSTP (Dec 13, 2025): [Apparent ICE operation targeting 2 men on roof in Chanhassen draws crowd](https://kstp.com/kstp-news/top-news/crowd-gathers-in-chanhassen-in-response-to-a-supposed-ice-arrest/)
 5. Minneapolis Daily News Podcast (Dec 14, 2025): [ICE Arrest Sparks Chanhassen Standoff](https://shows.acast.com/the-minneapolis-daily-news-now/episodes/6942505be0aa901b335b8593)
 
-## Victim(s)
+## Affected Individual(s)
 - **Names:** Edgar and Marco Chicaiza Dutan
 - **Occupation:** Construction workers
 - **Status:** Detained after standoff

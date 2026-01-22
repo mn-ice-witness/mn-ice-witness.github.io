@@ -5,7 +5,7 @@ location: 818 Grand Ave
 city: St. Paul
 type: observers
 status: ongoing
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-20T10:25:58
@@ -23,7 +23,7 @@ Three hours after ABC News aired an interview with Mischief Toy Store owner Abig
 3. Twin Cities Pioneer Press (Jan 19, 2026): [Hours after ABC News ran a story about Mischief Toy Store, ICE agents arrived at their door](https://www.twincities.com/2026/01/19/mischief-toy-store-ice-agents/)
 4. Yahoo News (Jan 19, 2026): [Hours after ABC News ran a story about Mischief Toy Store, ICE agents arrived at their door](https://www.yahoo.com/news/articles/hours-abc-news-ran-story-205400301.html)
 
-## Victim(s)
+## Affected Individual(s)
 - **Business:** Mischief Toy Store (legal name: Mischief LLC)
 - **Owners:** Dan Marshall, Millie Adelsheim, Abigail Adelsheim-Marshall
 - **Location:** 818 Grand Ave, St. Paul, Minnesota

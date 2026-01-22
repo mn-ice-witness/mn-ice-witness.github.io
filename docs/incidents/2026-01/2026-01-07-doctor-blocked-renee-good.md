@@ -5,7 +5,7 @@ location: 34th Street, Powderhorn Park area
 city: Minneapolis
 type: observers
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-17T23:35:39
@@ -18,7 +18,7 @@ last_updated: 2026-01-20T22:44:32
 - **Jan 20** - Credible evidence emerges that Good was alive for 8 minutes after being shot
 
 ## Summary
-After ICE agent Jonathan Ross shot Renee Good, a bystander who identified himself as a physician attempted to provide medical assistance. ICE agents refused to let him near the victim. When the bystander said "I'm a physician," an agent replied "I don't care." Agents claimed they had their own medics on the way, but witness Emily Heller reported it was at least 15 minutes before an ambulance arrived. ICE vehicles abandoned at the scene blocked the ambulance's access.
+After ICE agent Jonathan Ross shot Renee Good, a bystander who identified himself as a physician attempted to provide medical assistance. ICE agents refused to let him near the affected individual. When the bystander said "I'm a physician," an agent replied "I don't care." Agents claimed they had their own medics on the way, but witness Emily Heller reported it was at least 15 minutes before an ambulance arrived. ICE vehicles abandoned at the scene blocked the ambulance's access.
 
 ## Sources
 1. The Hill (Jan 2026): ['Can I check a pulse?': Video shows ICE preventing doctor from tending to Minneapolis shooting victim](https://thehill.com/homenews/state-watch/5679332-video-ice-minneapolis-shooting-renee-nicole-good/)
@@ -37,7 +37,7 @@ After ICE agent Jonathan Ross shot Renee Good, a bystander who identified himsel
 14. WBAL TV (Jan 2026): [911 transcripts, incident report details fatal ICE shooting of Renee Good](https://www.wbaltv.com/article/minneapolis-ice-shooting-renee-good/70020427)
 15. Facebook Video (Jan 7, 2026): [ICE blocks doctor from helping Renee Good](https://www.facebook.com/reel/1613959399783824)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Unidentified physician (bystander)
 - **Citizenship:** Unknown (U.S. citizen implied)
 - **Role:** Attempted to provide emergency medical care

@@ -36,7 +36,7 @@ https://mn-ice-witness.org/new-updated/MM-DD-YYYY
 - **NEW**: Incidents with `created:` timestamp on that date
 - **UPDATED**: Incidents with `last_updated:` timestamp on that date (but created earlier)
 
-Only include updates that are substantive story developments (new victim accounts, status changes, major new sources). Don't include minor source additions.
+Only include updates that are substantive story developments (new affected individual accounts, status changes, major new sources). Don't include minor source additions.
 
 ## Example Posts
 

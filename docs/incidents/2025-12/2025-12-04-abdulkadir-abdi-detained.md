@@ -5,7 +5,7 @@ location: Twin Cities area
 city: Minneapolis
 type: immigrants
 status: ongoing
-victim_citizenship: legal-resident
+affected_individual_citizenship: legal-resident
 injuries: none
 trustworthiness: medium
 created: 2026-01-14T08:01:12
@@ -22,7 +22,7 @@ Abdulkadir Sharif Abdi, 47, a Somali refugee who works as an addiction recovery 
 2. KARE 11 (Dec 5, 2025): [After fighting deportation in 2018, Somali refugee detained again](https://www.kare11.com/article/news/local/after-fighting-deportation-2018-somali-refugee-detained-again-in-ices-latest-twin-cities-operation/89-26c8050d-602f-4361-9048-e730f1ae6d5e)
 3. Racket MN (Dec 6, 2025): [The Week in ICE: Addiction Recovery Leader Detained](https://racketmn.com/the-week-in-ice-addiction-recovery-leader-detained-child-left-without-parents-citizen-mocked-for-hijab)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Abdulkadir Sharif Abdi
 - **Age:** 47
 - **Arrival:** Came to U.S. in 1996 as Somali refugee fleeing civil war

@@ -5,7 +5,7 @@ location: Outside work site
 city: St. Paul
 type: citizens
 status: ongoing
-victim_citizenship: legal-resident
+affected_individual_citizenship: legal-resident
 injuries: none
 trustworthiness: high
 created: 2026-01-18T22:24:48
@@ -21,7 +21,7 @@ A St. Paul Public Works employee working as a snowplow driver was detained by IC
 1. FOX 9 (Jan 18, 2026): [St. Paul Public Works says employee illegally detained by ICE](https://www.fox9.com/news/st-paul-public-works-says-employee-illegally-detained-ice)
 2. Pioneer Press (Jan 18, 2026): [Fundraiser organized for St. Paul Public Works employee facing deportation despite legal status](https://www.twincities.com/2026/01/18/fundraiser-organized-for-st-paul-public-works-employee-facing-deportation-despite-legal-status/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Not disclosed
 - **Occupation:** Snowplow driver, St. Paul Public Works
 - **Citizenship:** Legal resident with valid federal work authorization

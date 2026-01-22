@@ -48,7 +48,7 @@ Stories are excluded when they don't meet the project's core focus:
 - Source: Mercado Media social media post
 - Date: January 14, 2026
 - Details: Video showing ICE agents detaining someone on Lake Street opposite Chicago & Lake Liquors.
-- Reason: Insufficient details - single social media video, no victim identification, no corroborating news sources yet
+- Reason: Insufficient details - single social media video, no affected individual identification, no corroborating news sources yet
 - Date evaluated: 2026-01-14
 
 **Cedar Knolls Apple Valley Raid (Jan 14)**
@@ -69,20 +69,20 @@ Stories are excluded when they don't meet the project's core focus:
 - Source: Bring Me The News mention
 - Date: January 14, 2026
 - Details: Footage shared showing ICE conducting operation at apartment building across from Aquila Elementary School around dismissal time.
-- Reason: No victim identified, no detention documented at school. ICE near school but no direct incident with students or families. May revisit if more details emerge.
+- Reason: No affected individual identified, no detention documented at school. ICE near school but no direct incident with students or families. May revisit if more details emerge.
 - Date evaluated: 2026-01-14
 
 **Federal Prosecutors Resign Over ICE Shooting Investigation (Jan 14)**
 - Sources: [NPR](https://www.npr.org/2026/01/14/nx-s1-5676293/several-federal-prosecutors-in-minnesota-resign-over-ice-shooting-investigation), [NBC News](https://www.nbcnews.com/news/justice-department/least-3-prosecutors-resign-concerns-probe-minneapolis-ice-shooting-sou-rcna253876), [PBS](https://www.pbs.org/newshour/show/doj-prosecutors-resign-in-protest-over-handling-of-ice-shooting-investigation)
 - Date: January 14, 2026
 - Details: Six federal prosecutors (including Joseph Thompson, lead fraud prosecutor) resigned after DOJ pressure to investigate Renee Good's widow rather than ICE agent Jonathan Ross. Prosecutors objected to the direction of the investigation.
-- Reason: Political/institutional story - documents government response and internal DOJ conflict, not a civil rights incident involving ICE enforcement against a person. No victim detained or harmed in this story itself.
+- Reason: Political/institutional story - documents government response and internal DOJ conflict, not a civil rights incident involving ICE enforcement against a person. No affected individual detained or harmed in this story itself.
 - Date evaluated: 2026-01-16
 
 **Congressional Field Hearing on ICE Actions (Jan 16)**
 - Sources: Fox 9, Twin Cities Pioneer Press
 - Date: January 16, 2026
-- Details: Reps. Ilhan Omar and Pramila Jayapal held field hearing "Kidnapped and Disappeared" in St. Paul with testimony from victims and officials.
+- Details: Reps. Ilhan Omar and Pramila Jayapal held field hearing "Kidnapped and Disappeared" in St. Paul with testimony from affected individuals and officials.
 - Reason: Political/institutional story - legislative hearing, not a new civil rights incident. Testimonies reference incidents already documented elsewhere.
 - Date evaluated: 2026-01-16
 
@@ -97,7 +97,7 @@ Stories are excluded when they don't meet the project's core focus:
 - Source: [Bring Me The News](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-wednesday-jan-14)
 - Date: January 14, 2026
 - Details: Video shows man appearing unconscious while detained by ICE agents outside a commercial business. Agents appear to check vital signs. Shakopee PD says man was "medically cleared."
-- Reason: Insufficient details - no victim identification, no follow-up coverage, unclear circumstances. Video exists but no corroborating sources or victim statement.
+- Reason: Insufficient details - no affected individual identification, no follow-up coverage, unclear circumstances. Video exists but no corroborating sources or affected individual statement.
 - Date evaluated: 2026-01-16
 
 **St. Gabriel Church Surveillance Hopkins (Jan 4)**
@@ -118,7 +118,7 @@ Stories are excluded when they don't meet the project's core focus:
 - Source: [Star Tribune](https://www.startribune.com/with-ice-surge-spreading-across-state-rumors-and-anxiety-grow-in-greater-minnesota/601562255/)
 - Date: January 14, 2026
 - Details: Near Rochester's Ear of Corn Water Tower, ICE agent appeared ready to break through vehicle window with hammer until constitutional observers arrived.
-- Reason: Insufficient details - no arrest made, observer intervention prevented escalation, brief mention only. No victim identified.
+- Reason: Insufficient details - no arrest made, observer intervention prevented escalation, brief mention only. No affected individual identified.
 - Date evaluated: 2026-01-16
 
 **North Star Deli Kingfield - ICE Turned Away (Jan 2026)**
@@ -132,7 +132,7 @@ Stories are excluded when they don't meet the project's core focus:
 - Sources: Star Tribune (mentions), KARE 11 (mentions)
 - Date: January 7, 2026
 - Details: Teachers from Spanish immersion daycares detained, including one in parking lot. Workers described as "legally authorized to work."
-- Reason: Insufficient details - no victim names, unable to find detailed standalone coverage. Brief mentions in larger articles. May revisit if more coverage emerges with victim identification.
+- Reason: Insufficient details - no affected individual names, unable to find detailed standalone coverage. Brief mentions in larger articles. May revisit if more coverage emerges with affected individual identification.
 - Date evaluated: 2026-01-17
 
 **"Mamas of Cedar" Community Patrols**
@@ -153,7 +153,7 @@ Stories are excluded when they don't meet the project's core focus:
 - Source: [Bring Me The News](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-friday-jan-16) (reader witness photo)
 - Date: January 16, 2026
 - Details: Witness reported man ran into store yelling "I'm a US citizen, I'm a US citizen!" with armed, masked men in camo following, saying "we just want to talk to you." Person was "guided" out of store.
-- Reason: Insufficient details - single witness photo, no victim identification, no follow-up coverage, outcome unknown. No corroborating news sources.
+- Reason: Insufficient details - single witness photo, no affected individual identification, no follow-up coverage, outcome unknown. No corroborating news sources.
 - Date evaluated: 2026-01-17
 
 **New Hope Apartment Complexes ICE Presence (Jan 16)**
@@ -167,7 +167,7 @@ Stories are excluded when they don't meet the project's core focus:
 - Source: [Religion News Service](https://religionnews.com/2026/01/13/faith-leaders-are-denied-access-to-immigration-detainees-in-minnesota/)
 - Date: January 13, 2026
 - Details: Group of clergy seeking to offer pastoral care to immigrant detainees at federal building was denied, told "not at this time."
-- Reason: Access denial story - documents policy/practice but not a civil rights incident involving enforcement against a person. No victim detained or harmed in this story.
+- Reason: Access denial story - documents policy/practice but not a civil rights incident involving enforcement against a person. No affected individual detained or harmed in this story.
 - Date evaluated: 2026-01-17
 
 **Far-Right Counter-Protest at Minneapolis City Hall (Jan 17)**
@@ -181,7 +181,7 @@ Stories are excluded when they don't meet the project's core focus:
 - Source: [Minnesota Reformer](https://minnesotareformer.com/2026/01/16/these-are-the-arrests-youre-not-seeing/)
 - Date: January 14, 2026
 - Details: Neighbor's video captured ICE agent taking man into unmarked SUV at bus stop. Man was sheltering under heaters at the bus stop when agent approached. Video recorded by "Garrett Gundy."
-- Reason: Insufficient details - no victim identification, single source, no follow-up coverage. May revisit if victim comes forward or more coverage emerges.
+- Reason: Insufficient details - no affected individual identification, single source, no follow-up coverage. May revisit if affected individual comes forward or more coverage emerges.
 - Date evaluated: 2026-01-18
 
 **Asian American Teenager Arrested Outside Home, Offered to Get ID (Date Unknown)**
@@ -209,7 +209,7 @@ Stories are excluded when they don't meet the project's core focus:
 - Sources: [New Republic](https://newrepublic.com/post/205297/ice-minnesota-racial-profiling-refugees-deportations), [KARE 11](https://www.kare11.com/article/news/local/ice-in-minnesota/st-paul-mayor-kaohly-her-reports-ice-agents-asking-where-the-asian-people-live/89-10880612-bb5f-4bd2-978b-786ae8760afb), [Chicago Tribune/Twin Cities](https://www.chicagotribune.com/2026/01/12/st-paul-ice-activity/)
 - Date: January 2026
 - Details: Elizabeth Lugert-Thom reported on social media that two federal agents came to her door in St. Paul's North End, showed a picture asking if she knew someone, then asked "where the Hmong families lived" and "what about the Asian families?" She did not direct them to neighbors.
-- Reason: Pattern documentation / canvassing behavior - no detention, arrest, or direct civil rights violation against the resident. Valuable evidence of racial profiling patterns but not a specific enforcement incident with a victim. Could be referenced in context of broader racial profiling documentation.
+- Reason: Pattern documentation / canvassing behavior - no detention, arrest, or direct civil rights violation against the resident. Valuable evidence of racial profiling patterns but not a specific enforcement incident with an affected individual. Could be referenced in context of broader racial profiling documentation.
 - Date evaluated: 2026-01-19
 
 **Letter Carriers Protest Lake Street (Jan 18)**
@@ -230,14 +230,14 @@ Stories are excluded when they don't meet the project's core focus:
 - Source: [Bring Me The News](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-monday-jan-19) (via Elliott Payne Instagram)
 - Date: January 19, 2026
 - Details: City Council President Elliott Payne reported that a person was detained at the Quarry Shopping Center, "leaving a wife and a young baby without support." Payne warned undocumented residents to avoid the Quarry, particularly Target and Home Depot parking lots being used for ICE staging.
-- Reason: Insufficient details - brief mention by official without victim identification, no corroborating news coverage with specifics. May revisit if victim or family comes forward with details.
+- Reason: Insufficient details - brief mention by official without affected individual identification, no corroborating news coverage with specifics. May revisit if affected individual or family comes forward with details.
 - Date evaluated: 2026-01-19
 
 **Northeast Minneapolis "Roughed Up" Incident (Jan 18)**
 - Source: [Bring Me The News](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-monday-jan-19) (via Elliott Payne Instagram)
 - Date: January 18, 2026
 - Details: Elliott Payne reported ICE agents "snatched a human being off of our streets, roughed them up badly, and then pepper sprayed legal observers as they documented it all" in a Northeast Minneapolis neighborhood on Sunday.
-- Reason: Insufficient details - brief mention by official without victim identification, location specifics, or corroborating news coverage. May revisit if victim or witnesses come forward with details.
+- Reason: Insufficient details - brief mention by official without affected individual identification, location specifics, or corroborating news coverage. May revisit if victim or witnesses come forward with details.
 - Date evaluated: 2026-01-19
 
 **Powderhorn Park MLK Day Event Affected by ICE (Jan 19)**
@@ -272,7 +272,7 @@ Stories are excluded when they don't meet the project's core focus:
 - Sources: [Star Tribune](https://www.startribune.com/allegations-of-racial-profiling-of-us-citizens-on-the-rise-as-ice-surge-expands-in-minnesota/601564653), [Axios](https://www.axios.com/local/twin-cities/2026/01/16/midtown-global-market-businesses-ice-immigration)
 - Date: January 14, 2026
 - Details: ICE agents detained a man from inside Midtown Global Market on Lake St. in Minneapolis. A market staff person noted "They just abducted another person."
-- Reason: Insufficient details - no victim name or identification, no corroborating sources with victim details. May revisit if victim comes forward or more coverage emerges.
+- Reason: Insufficient details - no affected individual name or identification, no corroborating sources with affected individual details. May revisit if affected individual comes forward or more coverage emerges.
 - Date evaluated: 2026-01-20
 
 **DOJ Grand Jury Subpoenas to Minnesota Officials (Jan 20)**
@@ -293,28 +293,28 @@ Stories are excluded when they don't meet the project's core focus:
 - Sources: [Hometown Source](https://www.hometownsource.com/abc_newspapers/community/immigration-enforcement-activity-reported-across-anoka-county/article_592dae6f-1055-454d-9975-c98dd782acc2.html)
 - Date: January 9, 2026
 - Details: State Rep. Erin Koegel (DFL-Spring Lake Park) witnessed and recorded ICE agents detaining a Latino man in a black hoodie on University Avenue near Home Depot in Fridley. Agent "Ryan" refused to show warrant when asked. Agents took the man's vehicle. Koegel called it "racial profiling right out of the gate."
-- Reason: Insufficient details - video evidence exists from state representative, but no victim identification, no corroborating news coverage with victim details, outcome unknown. May revisit if victim comes forward or more coverage emerges.
+- Reason: Insufficient details - video evidence exists from state representative, but no affected individual identification, no corroborating news coverage with affected individual details, outcome unknown. May revisit if affected individual comes forward or more coverage emerges.
 - Date evaluated: 2026-01-20
 
 **Sun World Supermarket Arrest (Jan 20)**
 - Source: [Bring Me The News](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-tuesday-jan-20)
 - Date: January 20, 2026
 - Details: Video shows ICE inside Sun World Supermarket (892 Arcade St, St. Paul), an Asian grocery store, escorting a man out and placing him in a vehicle. A woman recording is heard saying "He's telling you he needs to get his documents."
-- Reason: Insufficient details - single source mention in BMTN daily list, no victim identification, no corroborating news coverage. May revisit if victim comes forward or more details emerge.
+- Reason: Insufficient details - single source mention in BMTN daily list, no affected individual identification, no corroborating news coverage. May revisit if affected individual comes forward or more details emerge.
 - Date evaluated: 2026-01-21
 
 **Waite Park NE Minneapolis Arrest (Jan 20)**
 - Source: [Elliott Payne Instagram](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-tuesday-jan-20) via BMTN
 - Date: January 20, 2026
 - Details: Minneapolis City Council President Elliott Payne reported an arrest in the Waite Park neighborhood of Northeast Minneapolis, with agents detaining someone "delivering food to their family."
-- Reason: Insufficient details - brief mention by official without victim identification, no corroborating news coverage, no video. May revisit if victim or family comes forward.
+- Reason: Insufficient details - brief mention by official without affected individual identification, no corroborating news coverage, no video. May revisit if affected individual or family comes forward.
 - Date evaluated: 2026-01-21
 
 **St. Cloud Washington Memorial Drive Arrest (Jan 20)**
 - Source: [Xidig TV](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-tuesday-jan-20) via BMTN
 - Date: January 20, 2026
 - Details: Footage from Xidig TV shows ICE agents arrested a man near Washington Memorial Drive and Division Street in St. Cloud.
-- Reason: Insufficient details - single source (Somali media outlet), no victim identification, no mainstream news coverage with additional details.
+- Reason: Insufficient details - single source (Somali media outlet), no affected individual identification, no mainstream news coverage with additional details.
 - Date evaluated: 2026-01-21
 
 **Ridgedale Service Center Courthouse Arrests (Dec 29, 2025)**

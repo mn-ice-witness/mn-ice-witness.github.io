@@ -5,7 +5,7 @@ location: Karmel Mall, Lake Street
 city: Minneapolis
 type: citizens
 status: resolved-released
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none-physical
 trustworthiness: high
 created: 2026-01-14T08:43:07
@@ -21,7 +21,7 @@ Abdikadir Noor, a 45-year-old Fridley resident who has been a U.S. citizen for 2
 1. Sahan Journal (Dec 17, 2025): [ACLU takes legal action against ICE for detaining U.S. citizens in Minnesota](https://sahanjournal.com/immigration/ice-minnesota-aclu-lawsuit-observer-rights/)
 2. Minnesota Reformer (Dec 17, 2025): [ACLU sues ICE, alleging agency violates constitutional rights](https://minnesotareformer.com/2025/12/17/aclu-sues-ice-alleging-agency-violates-constitutional-rights-of-observers-and-protesters/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Abdikadir Noor
 - **Age:** 45
 - **Residence:** Fridley, MN

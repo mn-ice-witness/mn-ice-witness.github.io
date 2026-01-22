@@ -5,7 +5,7 @@ location: Minnoco gas station, Penn Avenue and West 68th Street
 city: Richfield
 type: observers
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: medium
 created: 2026-01-14T08:54:15
@@ -22,7 +22,7 @@ Joseph Boman, a U.S. citizen and activist observer, was photographed by federal 
 2. Status Coup Substack (Jan 7, 2026): [EXCLUSIVE - ICE Sending False Tips to Cops of Being "Stalked" By Activists](https://www.statuscoupsubstack.com/p/exclusive-ice-sending-false-tips)
 3. X Post (Jan 7, 2026): [Update: Joseph Boman was released last night on probable cause hold](https://x.com/Combs0294/status/2004959262431388140)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Joseph Boman
 - **Citizenship:** U.S. Citizen
 - **Role:** Activist/observer monitoring ICE operations
@@ -43,4 +43,4 @@ This incident demonstrates:
 The incident occurred during "Operation Metro Surge" when federal agents appeared to be using tactics to sidestep a Minneapolis ordinance that restricts city police from cooperating with ICE. By coordinating with Hennepin County Sheriff instead, agents circumvented the city's restrictions.
 
 ## Editorial Assessment
-**MEDIUM** - Single source (Unicorn Riot) with photos showing surveillance. Named U.S. citizen victim. Demonstrates pattern of targeting observers and coordination with county law enforcement to avoid city restrictions.
+**MEDIUM** - Single source (Unicorn Riot) with photos showing surveillance. Named U.S. citizen affected individual. Demonstrates pattern of targeting observers and coordination with county law enforcement to avoid city restrictions.

@@ -5,7 +5,7 @@ location: Bus stop at 31st Street and Bloomington Avenue South
 city: Minneapolis
 type: immigrants
 status: ongoing
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: unknown
 trustworthiness: high
 created: 2026-01-15T20:00:44

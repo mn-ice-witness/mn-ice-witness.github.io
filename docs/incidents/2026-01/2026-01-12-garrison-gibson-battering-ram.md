@@ -5,7 +5,7 @@ location: 49th and Russell Avenue North
 city: Minneapolis
 type: immigrants
 status: ongoing
-victim_citizenship: legal-resident
+affected_individual_citizenship: legal-resident
 injuries: none
 trustworthiness: high
 created: 2026-01-14T08:27:46
@@ -37,7 +37,7 @@ Garrison Gibson, a 38-year-old Liberian citizen who has lived in the U.S. for ap
 12. CBS Minnesota (Jan 17, 2026): [1 day after judge orders release, agents re-arrest him at immigration check-in](https://www.cbsnews.com/minnesota/news/judge-orders-release-of-liberian-man-arrested-by-ice-in-minneapolis-home-invasion/)
 13. MPR News (Jan 18, 2026): [Garrison Gibson says ICE agents took 'trophy' photos after Minneapolis arrest](https://www.mprnews.org/story/2026/01/18/garrison-gibson-says-ice-agents-took-trophy-photos-locked-in-overcrowded-cell)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Garrison Gibson
 - **Age:** 37
 - **Origin:** Liberia (fled civil war as a child)

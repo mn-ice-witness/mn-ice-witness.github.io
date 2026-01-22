@@ -5,7 +5,7 @@ location: 34th Street and Park Avenue
 city: Minneapolis
 type: observers
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
 created: 2026-01-20T10:03:17
@@ -22,7 +22,7 @@ Combat-wounded Army veteran William Vermie was detained for approximately eight 
 2. KARE 11 (Jan 2026): [Army veteran says ICE agents detained him for hours without access to phone or his attorney](https://www.kare11.com/article/news/local/ice-in-minnesota/army-veteran-ice-agents-detained-without-access-attorney/89-2c0a17b4-78da-452d-9b6e-47e2ebb6fd31)
 3. 13 News Now (Jan 2026): [Army veteran says ICE agents detained him for hours without access to phone or his attorney](https://www.13newsnow.com/article/news/nation-world/army-veteran-ice-agents-detained-without-access-attorney/89-2c0a17b4-78da-452d-9b6e-47e2ebb6fd31)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** William Vermie
 - **Military Service:** U.S. Army, served in Iraq, Purple Heart recipient
 - **Citizenship:** U.S. Citizen
@@ -75,4 +75,4 @@ DHS did not address Vermie's detention specifically but issued a general stateme
 - [Attorneys denied access at Whipple Building](#2026-01-15-whipple-lawyers-denied-access)
 
 ## Editorial Assessment
-**HIGH** - ABC News video interview with victim, KARE 11 investigation, named victim and attorney with direct quotes, specific location and details. National news coverage including syndication to multiple outlets.
+**HIGH** - ABC News video interview with victim, KARE 11 investigation, named affected individual and attorney with direct quotes, specific location and details. National news coverage including syndication to multiple outlets.

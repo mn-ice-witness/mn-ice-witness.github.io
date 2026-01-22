@@ -24,7 +24,7 @@ location: string              # Required. Specific location
 city: string                  # Required. Minneapolis, St. Paul, etc.
 type: enum                    # Required. See types below
 status: enum                  # Required. ongoing | resolved | under-investigation
-victim_citizenship: enum      # Required. See values below
+affected_individual_citizenship: enum  # Required. See values below
 injuries: enum                # Required. none | minor | serious | fatal
 trustworthiness: enum         # Required. EXACTLY ONE OF: high | medium | low | unverified (no compound values like "medium-high")
 created: YYYY-MM-DDTHH:MM:SS  # Required. When incident was first added to site
@@ -99,7 +99,7 @@ Both categories may involve U.S. citizens being detained. Choose based on WHY th
 - Workplace raids of non-U.S. citizens → use `immigrants`
 - Do NOT use `citizen-detained`, `workplace-raid`, or other variant types
 
-### Victim Citizenship Values
+### Affected Individual Citizenship Values
 
 | Value | Meaning |
 |-------|---------|
@@ -152,7 +152,7 @@ All sources numbered. Best/most compelling source first (original reporting, key
 4. Star Tribune (Jan 14, 2026): [ICE agents clash with residents](URL)
 5. CNN (Jan 15, 2026): [Minneapolis family describes attack](URL)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** (if public, else "Not disclosed")
 - **Age:**
 - **Occupation:**
@@ -184,10 +184,10 @@ Direct quotes or summaries.
 
 Examples:
 - **HIGH** - 3 independent sources (Star Tribune, MPR, Fox 9)
-- **HIGH** - Detailed Intercept investigation with named victim and direct quotes
+- **HIGH** - Detailed Intercept investigation with named affected individual and direct quotes
 - **HIGH** - Video evidence + coverage by established local news
 - **MEDIUM** - 2 sources (local news + union statement)
-- **MEDIUM** - Well reported but no independent firsthand witnesses on scene to corroborate; account relies on victim/family statement
+- **MEDIUM** - Well reported but no independent firsthand witnesses on scene to corroborate; account relies on affected individual/family statement
 - **MEDIUM** - Viral social media with video evidence, but no coverage from established news organizations (see source-tiers.md)
 - **LOW** - Single community paper report, needs corroboration
 ```
@@ -230,7 +230,7 @@ location: DHS Press Release
 city: Minneapolis
 type: response
 status: resolved
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: high
 last_updated: YYYY-MM-DDTHH:MM:SS
@@ -284,7 +284,7 @@ location: Speedway, Snelling & Portland
 city: St. Paul
 type: observers
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
 created: 2026-01-13T14:30:00
@@ -300,7 +300,7 @@ A U.S. citizen filming an ICE arrest was tackled and detained despite complying 
 1. FOX 9 Video (Jan 11, 2026): [Arrest footage from scene](https://www.fox9.com/...)
 2. FOX 9 (Jan 11, 2026): [Video shows bystander tackled at Speedway](https://www.fox9.com/...)
 
-## Victim(s)
+## Affected Individual(s)
 - **Citizenship:** U.S. Citizen
 - **Status:** Released same day
 
@@ -405,8 +405,8 @@ Order sources by importance/value, not by type. When choosing what goes first:
 5. Social media shares/reposts
 
 When an incident has multiple videos, order videos by importance:
-1. Full interviews / press conferences with victim
-2. Original source video (posted by witness/victim)
+1. Full interviews / press conferences with affected individual
+2. Original source video (posted by witness/affected individual)
 3. News outlet video coverage
 4. Social media reposts
 

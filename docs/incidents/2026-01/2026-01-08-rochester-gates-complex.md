@@ -5,7 +5,7 @@ location: Gates of Rochester complex and various locations
 city: Rochester
 type: immigrants
 status: ongoing
-victim_citizenship: various
+affected_individual_citizenship: various
 injuries: possible (hammer used on window)
 trustworthiness: high
 created: 2026-01-14T09:04:50

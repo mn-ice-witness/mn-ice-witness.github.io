@@ -5,7 +5,7 @@ location: Apple Valley / El Fresco Restaurant, Bloomington
 city: Bloomington
 type: immigrants
 status: ongoing
-victim_citizenship: undocumented
+affected_individual_citizenship: undocumented
 injuries: none
 trustworthiness: high
 created: 2026-01-14T08:01:12
@@ -21,7 +21,7 @@ Juan Manuel Arellano Zepeda, 48, owner of El Fresco restaurant in Bloomington, w
 1. Newsweek (Jan 7, 2026): [Minnesota Restaurant Owner Reported Missing, Now Confirmed Detained by ICE](https://www.newsweek.com/minnesota-restaurant-owner-reported-missing-now-confirmed-detained-by-ice-11344576)
 2. MSN (Jan 7, 2026): [Minnesota restaurant owner reported missing, now confirmed detained by ICE](https://www.msn.com/en-us/news/us/minnesota-restaurant-owner-reported-missing-now-confirmed-detained-by-ice/ar-AA1U3G0u)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Juan Manuel Arellano Zepeda
 - **Age:** 48
 - **Occupation:** Restaurant owner (El Fresco, Bloomington)

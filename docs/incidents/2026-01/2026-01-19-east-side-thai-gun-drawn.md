@@ -5,7 +5,7 @@ location: East Side Thai, 879 Payne Ave
 city: St. Paul
 type: citizens
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: medium
 created: 2026-01-21T19:05:36

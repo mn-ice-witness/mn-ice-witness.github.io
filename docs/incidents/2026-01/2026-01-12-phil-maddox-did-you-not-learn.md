@@ -5,7 +5,7 @@ location: South Minneapolis neighborhood
 city: Minneapolis
 type: observers
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-19T11:13:23
@@ -25,7 +25,7 @@ Phil Maddox, a Minneapolis resident, was confronted by ICE agents while driving 
 5. Facebook Video (Jan 12, 2026): [Incident footage](https://www.facebook.com/reel/906204785493223)
 6. Reddit Video (Jan 12, 2026): [Boxed in by ICE](https://www.reddit.com/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Phil Maddox
 - **Citizenship:** U.S. citizen
 - **Background:** Local Minneapolis resident monitoring federal agent activity in his neighborhood
@@ -63,4 +63,4 @@ The Intercept documented multiple ICE agents using similar language in separate 
 - The woman responds: "Learned what? What's our lesson here? What do you want us to learn?"
 
 ## Editorial Assessment
-**HIGH** - Investigative report from The Intercept with named victim (Phil Maddox) providing direct quotes and interview. Corroborated by FOX 9 local news coverage. Multiple video sources including Reddit original post and Facebook reel. The pattern of agents invoking Renee Good's killing as a threat was documented across multiple separate encounters.
+**HIGH** - Investigative report from The Intercept with named affected individual (Phil Maddox) providing direct quotes and interview. Corroborated by FOX 9 local news coverage. Multiple video sources including Reddit original post and Facebook reel. The pattern of agents invoking Renee Good's killing as a threat was documented across multiple separate encounters.

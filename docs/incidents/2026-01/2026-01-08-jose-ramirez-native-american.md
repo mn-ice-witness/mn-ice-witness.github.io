@@ -5,7 +5,7 @@ location: Hy-Vee, Robbinsdale
 city: Robbinsdale
 type: citizens
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
 created: 2026-01-14T08:01:12
@@ -30,7 +30,7 @@ Jose Roberto "Beto" Ramirez, 20, U.S. citizen and Red Lake Nation descendant, wa
 10. X Video (Jan 8, 2026): [X post with arrest footage](https://x.com/LongTimeHistory/status/2009499306676322337)
 11. Star Tribune (Jan 18, 2026): [Allegations of racial profiling of U.S. citizens on the rise as ICE surge expands in Minnesota](https://www.startribune.com/allegations-of-racial-profiling-of-us-citizens-on-the-rise-as-ice-surge-expands-in-minnesota/601564653)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Jose Roberto "Beto" Ramirez
 - **Age:** 20
 - **Citizenship:** U.S. Citizen (born Minneapolis)

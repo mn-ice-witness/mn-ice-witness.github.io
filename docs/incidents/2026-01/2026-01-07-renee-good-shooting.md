@@ -5,7 +5,7 @@ location: 34th Street, Powderhorn Park area
 city: Minneapolis
 type: observers
 status: under-investigation
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: fatal
 trustworthiness: high
 created: 2026-01-14T08:01:12
@@ -48,7 +48,7 @@ Renee Nicole Good, a 37-year-old U.S. citizen, was fatally shot by ICE agent Jon
 28. NBC News (Jan 17, 2026): [Federal officials investigating Renee Good's partner](https://www.nbcnews.com/politics/justice-department/federal-officials-investigating-renee-goods-widow-shooting-probe-sourc-rcna254038)
 29. Truthout (Jan 17, 2026): [DOJ Push to Investigate Renee Good's Widow Sparks Mass Resignation](https://truthout.org/articles/doj-push-to-investigate-renee-goods-widow-sparks-mass-resignation/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Renee Nicole Good
 - **Age:** 37
 - **Occupation:** Poet, mother

@@ -5,7 +5,7 @@ location: En route to schools
 city: St. Paul
 type: schools-hospitals
 status: resolved
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: high
 created: 2026-01-16T09:20:36
@@ -22,7 +22,7 @@ Federal ICE agents pulled over two St. Paul Public Schools contract vans while s
 2. MPR News (Jan 15, 2026): [Two St. Paul school vans were pulled over by federal agents](https://www.mprnews.org/story/2026/01/15/ice-shooting-minneapolis-minnesota-latest-updates)
 3. CBS Minnesota (Jan 15, 2026): [St. Paul Public Schools offering temporary virtual learning](https://www.cbsnews.com/minnesota/news/st-paul-schools-virtual-learning-ice/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Affected:** Students and teachers aboard two contract school vans
 - **Number:** Multiple students and staff members (exact count not disclosed)
 - **Citizenship:** Students are minors; citizenship status not relevant to incident

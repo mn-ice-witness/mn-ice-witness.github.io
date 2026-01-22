@@ -5,7 +5,7 @@ location: Pancho's Taqueria and Mexican Cafe, Circle Pines
 city: Circle Pines
 type: immigrants
 status: ongoing
-victim_citizenship: legal-resident
+affected_individual_citizenship: legal-resident
 injuries: none
 trustworthiness: high
 created: 2026-01-15T09:33:17
@@ -25,7 +25,7 @@ A restaurant worker at Pancho's Taqueria and Mexican Cafe in Circle Pines with a
 5. Bring Me The News (Jan 18, 2026): [Fundraiser established for Circle Pines restaurant worker taken by ICE](https://bringmethenews.com/minnesota-news/fundraiser-established-for-circle-pines-restaurant-worker-taken-by-ice)
 6. GoFundMe (Jan 2026): [Kevin's Legal Fund (organized by Stacey Chase)](https://www.gofundme.com/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Kevin (last name not publicly disclosed)
 - **Occupation:** Restaurant worker at Pancho's Taqueria
 - **Citizenship:** Legal visa holder with asylum protections

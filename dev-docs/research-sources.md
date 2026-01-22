@@ -140,6 +140,6 @@ Most local stations have video on their websites.
 - Single anonymous social media post
 - Unverified "friend of a friend" claims
 - No specific date/location
-- No identifiable victim
+- No identifiable affected individual
 - Contradicts known facts
 - Only appears on partisan sites

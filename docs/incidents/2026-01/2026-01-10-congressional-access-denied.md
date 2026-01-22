@@ -5,7 +5,7 @@ location: Bishop Henry Whipple Federal Building
 city: Minneapolis
 type: immigrants
 status: resolved
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: high
 created: 2026-01-19T09:57:48

@@ -5,7 +5,7 @@ location: Target Store, 6445 Richfield Pkwy
 city: Richfield
 type: citizens
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: serious
 trustworthiness: high
 created: 2026-01-14T08:01:12
@@ -15,7 +15,7 @@ last_updated: 2026-01-14T08:01:12
 # Two U.S. Citizen Target Employees Detained and Injured
 
 ## Summary
-Two Target drive-up employees, both U.S. citizens, were aggressively detained by CBP agents at the Richfield Target store. Both sustained injuries. According to witnesses, agents asked the workers if they were citizens; when they didn't answer and tried to go inside, they were grabbed and pinned to the ground. One victim, a 22-year-old Latino man identified in court documents as "Javier Doe," had a knee pressed into his neck, was driven around in an SUV while agents played loud music, and was eventually dumped in a Walmart parking lot in Bloomington. He required emergency medical care and is now a plaintiff in the ACLU class-action lawsuit against ICE.
+Two Target drive-up employees, both U.S. citizens, were aggressively detained by CBP agents at the Richfield Target store. Both sustained injuries. According to witnesses, agents asked the workers if they were citizens; when they didn't answer and tried to go inside, they were grabbed and pinned to the ground. One affected individual, a 22-year-old Latino man identified in court documents as "Javier Doe," had a knee pressed into his neck, was driven around in an SUV while agents played loud music, and was eventually dumped in a Walmart parking lot in Bloomington. He required emergency medical care and is now a plaintiff in the ACLU class-action lawsuit against ICE.
 
 ## Sources
 1. Bring Me The News Video (Jan 9, 2026): [Border agents descend on Richfield Target](https://bringmethenews.com/minnesota-news/video-border-agents-descend-on-richfield-target-store-arrest-drive-up-workers)
@@ -36,9 +36,9 @@ Two Target drive-up employees, both U.S. citizens, were aggressively detained by
 16. Instagram Video (Jan 8, 2026): ["Target employee detained by ICE"](https://www.instagram.com/reel/DTY9Em3ASMU/)
 17. Instagram Video (Jan 8, 2026): ["A viral video reporting ICE arresting two US citizens"](https://www.instagram.com/reel/DTRPG3rjert/)
 
-## Victim(s)
+## Affected Individual(s)
 
-### Victim 1: "Javier Doe" (ACLU lawsuit plaintiff)
+### Affected Individual 1: "Javier Doe" (ACLU lawsuit plaintiff)
 - **Name:** "Javier Doe" (pseudonym used in lawsuit for protection)
 - **Age:** 22
 - **Residence:** Richfield, MN
@@ -47,7 +47,7 @@ Two Target drive-up employees, both U.S. citizens, were aggressively detained by
 - **Ethnicity:** Latino/Hispanic
 - **Injuries:** Head injury from being slammed into SUV; required emergency medical care
 
-### Victim 2
+### Affected Individual 2
 - **Name:** Not disclosed (shouted his name on video)
 - **Occupation:** Target drive-up employee
 - **Citizenship:** U.S. Citizen
@@ -103,4 +103,4 @@ Javier Doe is one of three plaintiffs in ACLU of Minnesota's class-action lawsui
 - Javier Doe now ACLU lawsuit plaintiff
 
 ## Editorial Assessment
-**HIGH** - Video evidence, multiple news sources (7+), statements from elected officials, ACLU federal lawsuit filing. Both victims confirmed as U.S. citizens by Rep. Howard who spoke with them directly. Javier Doe's account corroborated by lawsuit sworn allegations.
+**HIGH** - Video evidence, multiple news sources (7+), statements from elected officials, ACLU federal lawsuit filing. Both affected individuals confirmed as U.S. citizens by Rep. Howard who spoke with them directly. Javier Doe's account corroborated by lawsuit sworn allegations.

@@ -5,7 +5,7 @@ location: Fort Snelling ICE Facility
 city: Minneapolis
 type: citizens
 status: ongoing
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: unknown
 trustworthiness: high
 created: 2026-01-14T12:18:26
@@ -34,7 +34,7 @@ Four days after ICE detained four Oglala Sioux tribal members from a Minneapolis
 14. MPR News (Jan 16, 2026): [Oglala Sioux Tribe says it cannot confirm tribal members were detained by ICE in Minneapolis](https://www.mprnews.org/story/2026/01/16/oglala-sioux-tribe-says-it-cannot-confirm-tribal-members-were-detained-by-ice-in-minneapolis) (Note: Tribe questions verification of membership claims)
 15. Bluesky - Christopher Webb (Jan 20, 2026): ["The irony of ICE detaining and disappearing the original Americans..."](https://bsky.app/profile/cwebbonline.com/post/3mcszm7fu4s25) - Commentary with Lakota proverb (6.3K likes)
 
-## Victim(s)
+## Affected Individual(s)
 - **Number:** Four detained on Jan 10; three still held as of Jan 14
 - **Citizenship:** U.S. Citizens (per Indian Citizenship Act of 1924), enrolled Oglala Sioux Tribe members
 - **Status:** Homeless, were sheltering under bridge near Little Earth housing complex in East Phillips neighborhood

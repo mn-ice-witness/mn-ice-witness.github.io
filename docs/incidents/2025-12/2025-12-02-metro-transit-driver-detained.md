@@ -5,7 +5,7 @@ location: Minneapolis area (en route to work)
 city: Minneapolis
 type: immigrants
 status: resolved
-victim_citizenship: legal-resident
+affected_individual_citizenship: legal-resident
 injuries: none
 trustworthiness: high
 created: 2026-01-15T20:00:44
@@ -22,7 +22,7 @@ A Somali-American Metro Transit bus operator was detained by ICE on December 2, 
 2. Workday Magazine (Jan 14, 2026): [Metro Transit Workers Rally at Bus Stop Where ICE Abduction Took Place](https://workdaymagazine.org/metro-transit-workers-rally-at-bus-stop-where-ice-abduction-took-place-demand-ice-not-interfere-with-transit-operations/)
 3. ATU Local 1005 (Jan 14, 2026): [ATU Local 1005 Press Conference January 14, 2026](https://atu1005.com/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Not disclosed (protected by union)
 - **Ethnicity:** Somali-American
 - **Occupation:** Metro Transit bus operator, ATU Local 1005 member

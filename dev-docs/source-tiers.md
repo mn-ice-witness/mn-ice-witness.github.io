@@ -93,7 +93,7 @@ These sources lack editorial oversight and may simply repost viral content witho
 
 **Note:** Social media CAN be valuable primary source material when it contains:
 - Original video of an incident
-- First-person accounts from victims/witnesses
+- First-person accounts from affected individuals/witnesses
 - Named individuals making verifiable claims
 
 The issue is when Tier 3 sources are the **only** coverage—meaning no journalist has independently verified the claims.
@@ -129,7 +129,7 @@ Tier 3 sources often:
 
 ## Examples
 
-**HIGH trustworthiness:** "Incident covered by Star Tribune, Fox 9, and MPR News with named victim and official statements."
+**HIGH trustworthiness:** "Incident covered by Star Tribune, Fox 9, and MPR News with named affected individual and official statements."
 
 **MEDIUM trustworthiness:** "Viral TikTok video shows incident clearly. Multiple social media reposts and coverage by IBTimes UK. No Minnesota local news coverage found."
 

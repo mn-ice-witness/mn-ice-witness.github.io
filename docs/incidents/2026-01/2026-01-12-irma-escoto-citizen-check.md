@@ -5,7 +5,7 @@ location: El Taquito Taco Shop, West St. Paul
 city: West St. Paul
 type: citizens
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-14T20:05:01
@@ -21,7 +21,7 @@ Irma Escoto, a U.S. citizen born in New Mexico, was surrounded by ICE agents whi
 1. CBS Minnesota (Jan 12, 2026): [U.S. citizens recount being detained by ICE during Minnesota operation](https://www.cbsnews.com/minnesota/news/us-citizens-arrested-by-ice-minneapolis/)
 2. Star Tribune (Jan 18, 2026): [Allegations of racial profiling of U.S. citizens on the rise as ICE surge expands in Minnesota](https://www.startribune.com/allegations-of-racial-profiling-of-us-citizens-on-the-rise-as-ice-surge-expands-in-minnesota/601564653)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Irma Escoto
 - **Citizenship:** U.S. citizen (born in New Mexico)
 - **Occupation:** Co-owner of El Taquito Taco Shop
@@ -41,4 +41,4 @@ WCCO reached out to ICE for more information. The agency has not responded.
 This incident is part of a documented pattern of U.S. citizens being subjected to citizenship checks during Operation Metro Surge. The encounter prompted the Escoto family to have documentation readily available, reflecting the fear among American citizens in Minnesota of being stopped based on their appearance.
 
 ## Editorial Assessment
-**HIGH** - Video evidence (restaurant security footage, bystander video). Named victims (Irma and Luis Escoto) with direct quotes in established local outlet (CBS Minnesota/WCCO). Business owners willing to speak publicly about the incident.
+**HIGH** - Video evidence (restaurant security footage, bystander video). Named affected individuals (Irma and Luis Escoto) with direct quotes in established local outlet (CBS Minnesota/WCCO). Business owners willing to speak publicly about the incident.

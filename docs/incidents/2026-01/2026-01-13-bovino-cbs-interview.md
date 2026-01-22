@@ -5,7 +5,7 @@ location: WCCO-TV Interview
 city: Minneapolis
 type: response
 status: ongoing
-victim_citizenship: various
+affected_individual_citizenship: various
 injuries: none
 trustworthiness: high
 created: 2026-01-15T23:23:27

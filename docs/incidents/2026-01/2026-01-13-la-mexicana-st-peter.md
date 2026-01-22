@@ -5,7 +5,7 @@ location: La Mexicana Market and Restaurant, downtown St. Peter
 city: St. Peter
 type: immigrants
 status: ongoing
-victim_citizenship: undocumented
+affected_individual_citizenship: undocumented
 injuries: none
 trustworthiness: high
 created: 2026-01-14T09:04:50
@@ -20,7 +20,7 @@ ICE agents arrested a customer at La Mexicana Market and Restaurant in St. Peter
 ## Sources
 1. St. Peter Herald (Jan 13, 2026): [Region responds as ICE activity surges in Southern Minnesota](https://www.southernminn.com/st_peter_herald/news/region-responds-as-ice-activity-surges-in-southern-minnesota/article_0feb9e76-16c4-4aa8-b4ef-853db9bf955c.html)
 
-## Victim(s)
+## Affected Individual(s)
 - **Description:** Local customer
 - **Transportation:** Had biked to the store
 - **Activity:** Paying for a drink at the time of arrest

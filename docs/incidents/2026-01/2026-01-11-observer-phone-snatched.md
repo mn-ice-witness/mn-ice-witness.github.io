@@ -5,7 +5,7 @@ location: Minneapolis
 city: Minneapolis
 type: observers
 status: resolved
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: low
 created: 2026-01-20T13:41:49
@@ -22,7 +22,7 @@ Video circulating on social media shows an ICE agent approaching a woman who was
 ## Sources
 1. Threads (Jan 11, 2026): [@dougdedecker post](https://www.threads.com/@dougdedecker/post/DTY74cCiuCF/video-ice-assault-in-minneapolis-the-cell-phone-is-the-best-weapon-we-have) - "ICE assault in Minneapolis. The cell phone is the best weapon we have."
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Unknown
 - **Citizenship:** Unknown
 - **Status:** Phone snatched while filming

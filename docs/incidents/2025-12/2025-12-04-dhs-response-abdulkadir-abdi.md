@@ -5,7 +5,7 @@ location: DHS Press Release
 city: Minneapolis
 type: response
 status: ongoing
-victim_citizenship: legal-resident
+affected_individual_citizenship: legal-resident
 injuries: none
 trustworthiness: high
 created: 2026-01-14T13:25:50

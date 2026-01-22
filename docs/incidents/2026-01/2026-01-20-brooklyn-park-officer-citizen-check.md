@@ -5,7 +5,7 @@ location: Minnesota State Capitol / Twin Cities metro area
 city: St. Paul
 type: citizens
 status: ongoing
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-20T13:39:51
@@ -29,7 +29,7 @@ Three Twin Cities law enforcement leaders held a joint press conference at the M
 9. Bluesky (Jan 20, 2026): [Aaron Rupar post with video](https://bsky.app/profile/atrupar.com/post/3mcuopvhabn2r)
 10. X Post (Jan 20, 2026): [Aaron Rupar post](https://x.com/atrupar/status/2013664998908739946)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Not disclosed
 - **Occupation:** Brooklyn Park Police Officer (off-duty at time of incident)
 - **Citizenship:** U.S. Citizen

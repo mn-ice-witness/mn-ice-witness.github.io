@@ -5,7 +5,7 @@ location: DHS Non-Response
 city: Minneapolis
 type: response
 status: ongoing
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-14T12:35:56

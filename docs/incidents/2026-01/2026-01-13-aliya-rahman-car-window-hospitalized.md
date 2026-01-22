@@ -5,7 +5,7 @@ location: 34th Street and Park Avenue
 city: Minneapolis
 type: citizens
 status: under-investigation
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: serious
 trustworthiness: high
 created: 2026-01-15T23:23:27
@@ -48,7 +48,7 @@ Aliya Rahman, a 43-year-old U.S. citizen and software engineer, was dragged from
 25. KSAT San Antonio (Jan 16, 2026): [Federal immigration agents filmed dragging a woman from her car](https://www.ksat.com/news/national/2026/01/16/federal-immigration-agents-filmed-dragging-a-woman-from-her-car-in-minneapolis/)
 26. Facebook Video (Jan 2026): [Video coverage](https://www.facebook.com/reel/1298284502358086/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Aliya Rahman
 - **Age:** 43
 - **Citizenship:** U.S. citizen (born in U.S., raised in Bangladesh)
@@ -100,4 +100,4 @@ A DHS spokesperson disputed Rahman's account, claiming she was an "agitator" who
 State Senator Omar Fateh wrote on X: "This is what living under a federal siege looks like. This isn't about public safety—this is terrorism."
 
 ## Editorial Assessment
-**HIGH** - Video evidence from multiple sources shows the incident clearly. Victim publicly identified. Hospitalization and assault injuries confirmed by legal counsel. Multiple independent news outlets verified and published footage. Video went viral with millions of views.
+**HIGH** - Video evidence from multiple sources shows the incident clearly. Affected individual publicly identified. Hospitalization and assault injuries confirmed by legal counsel. Multiple independent news outlets verified and published footage. Video went viral with millions of views.

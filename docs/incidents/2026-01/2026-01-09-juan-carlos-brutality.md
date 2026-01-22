@@ -5,7 +5,7 @@ location: Chicago Avenue near 24th Street
 city: Minneapolis
 type: observers
 status: under-investigation
-victim_citizenship: legal-resident
+affected_individual_citizenship: legal-resident
 injuries: serious
 trustworthiness: high
 created: 2026-01-14T08:01:12
@@ -32,7 +32,7 @@ U.S. Border Patrol agents violently arrested Juan Carlos, a legal U.S. resident 
 12. CNN Video (Jan 18, 2026): [Video appears to show DHS agent kneeing person in face](https://www.cnn.com/2026/01/18/world/video/man-kneed-by-ice-sandoval-rdr-011812aseg1-cnni-us-fast)
 13. WALB/Gray TV (Jan 18, 2026): [ICE officer seen kneeing detained man in the head](https://www.walb.com/2026/01/18/ice-officer-seen-kneeing-detained-man-head/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Juan Carlos
 - **Citizenship:** Legal U.S. resident
 - **Occupation:** Homeless, living in his car

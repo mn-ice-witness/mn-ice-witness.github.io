@@ -5,7 +5,7 @@ location: Near Target store
 city: Minneapolis
 type: citizens
 status: resolved-released
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: medium
 created: 2026-01-14T09:04:50
@@ -29,7 +29,7 @@ Adnan Hisri, the 20-year-old U.S.-born son of Rep. Ilhan Omar, was stopped by fe
 9. X Post (Dec 15, 2025): [@Combs0294 on racial profiling](https://x.com/Combs0294/status/2001107480474960204)
 10. Star Tribune (Jan 18, 2026): [Allegations of racial profiling of U.S. citizens on the rise as ICE surge expands in Minnesota](https://www.startribune.com/allegations-of-racial-profiling-of-us-citizens-on-the-rise-as-ice-surge-expands-in-minnesota/601564653)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Adnan Hisri
 - **Age:** 20
 - **Citizenship:** U.S. Citizen (born in United States)
@@ -62,4 +62,4 @@ This incident highlights concerns about:
 - Minnesota being home to the largest Somali community in the U.S.
 
 ## Editorial Assessment
-**MEDIUM** - While well reported by multiple national news sources, there were no other firsthand witnesses present on scene to corroborate the account. The incident relies solely on Rep. Omar's statement about her son's experience. DHS disputes the incident occurred and claims "zero record" of the stop. Named U.S. citizen victim and the pattern of U.S. citizens being stopped is consistent with other documented incidents, but the lack of independent witnesses or corroborating evidence warrants medium rather than higher trustworthiness.
+**MEDIUM** - While well reported by multiple national news sources, there were no other firsthand witnesses present on scene to corroborate the account. The incident relies solely on Rep. Omar's statement about her son's experience. DHS disputes the incident occurred and claims "zero record" of the stop. Named U.S. citizen affected individual and the pattern of U.S. citizens being stopped is consistent with other documented incidents, but the lack of independent witnesses or corroborating evidence warrants medium rather than higher trustworthiness.

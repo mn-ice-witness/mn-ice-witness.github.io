@@ -5,7 +5,7 @@ location: Speedway Gas Station, Snelling Ave & Portland Ave
 city: St. Paul
 type: observers
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
 created: 2026-01-14T08:01:12
@@ -28,7 +28,7 @@ At a Speedway gas station, federal agents smashed a man's car window to arrest h
 8. Mediaite Video (Jan 13, 2026): [Fox News airs footage](https://www.mediaite.com/media/tv/fox-news-airs-footage-of-man-mauled-by-feds-at-gas-station-as-graphic-says-ice-agents-are-doing-their-jobs/)
 9. Facebook Reel (Jan 2026): [Speedway arrest footage](https://www.facebook.com/reel/2019008555624601)
 
-## Victim(s)
+## Affected Individual(s)
 
 ### Primary Target
 - **Citizenship:** Honduran national (per DHS)

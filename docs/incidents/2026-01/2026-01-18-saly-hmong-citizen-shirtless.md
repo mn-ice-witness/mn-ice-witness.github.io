@@ -5,7 +5,7 @@ location: East Side apartment (exact address unknown)
 city: St. Paul
 type: citizens
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-19T10:14:30
@@ -36,7 +36,7 @@ A Hmong man named Saly, described as a naturalized U.S. citizen with no criminal
 16. ABC News (Jan 20, 2026): [US citizen says ICE removed him from his Minnesota home in his underwear after warrantless search](https://abcnews.go.com/US/wireStory/us-citizen-ice-removed-minnesota-home-underwear-after-129372047)
 17. PBS News (Jan 20, 2026): [A U.S. citizen says ICE forced open the door to his Minnesota home](https://www.pbs.org/newshour/nation/a-u-s-citizen-says-ice-forced-open-the-door-to-his-minnesota-home-and-removed-him-in-his-underwear-after-a-warrantless-search)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** ChongLy Scott Thao (also referred to as "Saly" by family)
 - **Citizenship:** Naturalized U.S. citizen (per family account)
 - **Criminal Record:** None (per family account)

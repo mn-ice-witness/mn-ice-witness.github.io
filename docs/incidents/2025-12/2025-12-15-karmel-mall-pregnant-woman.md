@@ -5,7 +5,7 @@ location: Karmel Mall, Lake Street
 city: Minneapolis
 type: immigrants
 status: unknown
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: unknown
 trustworthiness: high
 created: 2026-01-14T08:01:12
@@ -26,8 +26,8 @@ ICE agents detained at least four people near Karmel Mall, the nation's first So
 6. Fox News (Dec 16, 2025): [Minneapolis police chief blasts ICE after agent seen dragging woman through street, kneeling on her back](https://www.foxnews.com/us/minneapolis-police-chief-blasts-ice-after-agent-seen-dragging-woman-through-street-kneeling-her-back)
 7. Inquisitr (Dec 16, 2025): ['She's Pregnant!' - Video Shows ICE Agents Drag Woman Across Street](https://www.inquisitr.com/shes-pregnant-video-shows-ice-agents-drag-woman-across-street-as-bystanders-beg-them-to-stop)
 
-## Victim(s)
-- **Primary victim:** Pregnant Somali woman (name unknown)
+## Affected Individual(s)
+- **Primary affected individual:** Pregnant Somali woman (name unknown)
 - **Others detained:** At least 3 additional people
 - **Released:** One Somali U.S. citizen
 
@@ -60,7 +60,7 @@ Disputed witness accounts, stating the woman "rushed an ICE vehicle and attempte
 ### Minneapolis Police Chief Brian O'Hara
 Said at a news conference that local police were called to the scene by a federal agent who claimed officers needed help. But when police arrived, there was no violence against federal officers, O'Hara said, adding that other law enforcement agencies may have been using "questionable methods."
 
-## Victim Status
+## Affected Individual Status
 A close friend of the woman told a witness that she was released from ICE custody a few hours later on Monday. Per the Star Tribune, the woman is Mexican and a legal resident. Her pregnancy could not be independently confirmed.
 
 ## Community Impact

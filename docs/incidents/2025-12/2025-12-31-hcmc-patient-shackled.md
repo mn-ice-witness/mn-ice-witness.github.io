@@ -5,7 +5,7 @@ location: Hennepin County Medical Center (HCMC)
 city: Minneapolis
 type: immigrants, schools-hospitals
 status: resolved
-victim_citizenship: undocumented
+affected_individual_citizenship: undocumented
 injuries: unknown
 trustworthiness: high
 created: 2026-01-14T08:27:46
@@ -25,7 +25,7 @@ ICE agents entered Hennepin County Medical Center's emergency department without
 5. MPR News (Jan 14, 2026): [ICE agents appear at Twin Cities hospitals, alarming health care workers](https://www.mprnews.org/story/2026/01/14/ice-agents-at-twin-cities-hospitals-alarm-medical-staff)
 6. OR Manager (Jan 15, 2026): [Workers describe 'disruptive' ICE presence inside Minneapolis' Hennepin County Medical Center](https://www.ormanager.com/briefs/workers-describe-disruptive-ice-presence-inside-minneapolis-hennepin-county-medical-center/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Not disclosed (patient confidentiality)
 - **Citizenship:** Undocumented
 - **Medical Status:** Described as "high medical risk"

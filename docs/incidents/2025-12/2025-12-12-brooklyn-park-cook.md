@@ -5,7 +5,7 @@ location: Crumbs and Coffee restaurant
 city: Brooklyn Park
 type: immigrants
 status: ongoing
-victim_citizenship: undocumented
+affected_individual_citizenship: undocumented
 injuries: none
 trustworthiness: high
 created: 2026-01-14T08:54:15
@@ -20,7 +20,7 @@ Jorge Vergara Rubio, an Ecuadorian cook, was arrested by ICE outside his employe
 ## Sources
 1. Hometown Source (Dec 13, 2025): [Arrest of Brooklyn Park cook heightens ICE concerns](https://www.hometownsource.com/press_and_news/news/publicsafety/arrest-of-brooklyn-park-cook-heightens-ice-concerns/article_e7bc4b44-f14d-4d22-a0e3-c0d90ec1bf96.html)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Jorge Vergara Rubio
 - **Origin:** Ecuador
 - **Occupation:** Cook at Crumbs and Coffee
@@ -43,4 +43,4 @@ ICE agents arrested Rubio outside Crumbs and Coffee, his workplace in Brooklyn P
 This arrest occurred during the early phase of "Operation Metro Surge," before the January 2026 escalation that brought 2,000+ agents to the Twin Cities. It demonstrated ICE enforcement reaching into suburban communities.
 
 ## Editorial Assessment
-**HIGH** - Local news coverage with named victim and employer statement. ICE confirmation of arrest. Demonstrates pattern of workplace enforcement and conflicting claims about legal work status.
+**HIGH** - Local news coverage with named affected individual and employer statement. ICE confirmation of arrest. Demonstrates pattern of workplace enforcement and conflicting claims about legal work status.

@@ -5,7 +5,7 @@ location: Roosevelt High School
 city: Minneapolis
 type: schools-hospitals
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
 created: 2026-01-14T08:01:12
@@ -31,7 +31,7 @@ Federal agents descended on Roosevelt High School during dismissal, tackled seve
 11. KARE 11 (Jan 8, 2026): [Witnesses say agents arrest staff, tear gas students](https://www.kare11.com/article/news/local/ice-agents-flood-into-roosevelt-high-school-in-minneapolis/89-e0d004b0-bb3d-41b7-949c-e4867f97f7c9)
 12. CBS Minnesota (Jan 8, 2026): [Feds descend on Roosevelt High School](https://www.cbsnews.com/minnesota/news/roosevelt-high-school-federal-clash-mps-cancels-classes/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Not publicly disclosed
 - **Role:** Special education assistant
 - **Citizenship:** U.S. Citizen

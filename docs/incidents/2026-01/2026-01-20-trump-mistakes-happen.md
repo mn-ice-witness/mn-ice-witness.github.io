@@ -5,7 +5,7 @@ location: White House Briefing
 city: Washington D.C.
 type: response
 status: resolved
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: high
 created: 2026-01-20T23:28:36

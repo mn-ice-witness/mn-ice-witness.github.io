@@ -5,7 +5,7 @@ location: Wilderness Inquiry, 930 E., Bloomington
 city: Bloomington
 type: immigrants
 status: resolved-detained
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: high
 created: 2026-01-14T08:33:42
@@ -21,7 +21,7 @@ A man being pursued by ICE agents fled on foot and took refuge inside the Wilder
 1. Sahan Journal (Jan 7, 2026): [ICE target seeks refuge in Bloomington office, prompting standoff](https://sahanjournal.com/immigration/immigration-arrest-standoff-bloomington-wilderness-inquiry/)
 2. Bring Me The News (Jan 7, 2026): [Where has ICE been operating in Twin Cities](https://bringmethenews.com/minnesota-news/where-has-ice-been-operating-in-twin-cities-since-escalation-against-immigrants-by-trump-administration)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Not disclosed
 - **Citizenship:** Unknown
 - **Related:** Girlfriend identified as Michelle Zarazua

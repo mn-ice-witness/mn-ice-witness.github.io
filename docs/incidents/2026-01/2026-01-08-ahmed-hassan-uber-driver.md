@@ -5,7 +5,7 @@ location: Minneapolis-St. Paul Airport parking lot
 city: Minneapolis
 type: citizens
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-14T08:01:12
@@ -24,7 +24,7 @@ Ahmed Bin Hassan, 38, Somali American U.S. citizen and Uber driver, was confront
 4. Instagram Video (Jan 8, 2026): [Viral video of Somali-American uber driver in Minneapolis](https://www.instagram.com/reel/DTQY7mrgJO0/)
 5. Common Dreams (Jan 2026): ['Where Were You Born?' ICE Conducting Show-Me-Your-Papers Stops in Minnesota](https://www.commondreams.org/news/ice-citizen-checks-minneapolis)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Ahmed Bin Hassan
 - **Age:** 38
 - **Citizenship:** U.S. Citizen (naturalized 2016)
@@ -36,4 +36,4 @@ Hassan was in airport parking lot when agents knocked on his window. He later sa
 He remained defiant, refused ID, and mocked their use of unit designations instead of real names.
 
 ## Editorial Assessment
-**HIGH** - Detailed investigative report from The Intercept (nationally recognized outlet) with named victim, direct quotes, and specific details of the encounter.
+**HIGH** - Detailed investigative report from The Intercept (nationally recognized outlet) with named affected individual, direct quotes, and specific details of the encounter.

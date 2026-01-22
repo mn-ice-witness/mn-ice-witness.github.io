@@ -5,7 +5,7 @@ location: CBS Face the Nation Interview
 city: Minneapolis
 type: response
 status: resolved
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: high
 created: 2026-01-18T22:01:07

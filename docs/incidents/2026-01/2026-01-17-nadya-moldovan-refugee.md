@@ -5,7 +5,7 @@ location: Driving to church
 city: Unknown
 type: immigrants
 status: detained
-victim_citizenship: refugee
+affected_individual_citizenship: refugee
 injuries: none
 trustworthiness: unverified
 created: 2026-01-19T23:09:36
@@ -26,7 +26,7 @@ Nadya, a Moldovan refugee with legal status awaiting her green card, was detaine
 4. Twin Cities Pioneer Press (Jan 18, 2026): [5,600 Green Card applicants in Minnesota targeted through Operation PARRIS](https://www.twincities.com/2026/01/18/5600-green-card-applicants-in-minnesota-targeted-through-operation-parris/)
 5. Global Refuge (Jan 18, 2026): [Global Refuge statement on refugee arrests in Minnesota](https://www.globalrefuge.org/news/refugee-arrests-minnesota/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Nadya (last name unknown)
 - **Origin:** Moldova
 - **Immigration Status:** Refugee with legal status, in process of obtaining green card

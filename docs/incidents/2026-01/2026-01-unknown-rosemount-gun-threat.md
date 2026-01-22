@@ -5,7 +5,7 @@ location: Rosemount
 city: Rosemount
 type: observers
 status: unknown
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: low
 created: 2026-01-14T08:01:12
@@ -20,7 +20,7 @@ An ICE agent reportedly waved a gun sideways at a motorist in a threatening mann
 ## Sources
 1. Racket MN (Jan 14, 2026): [ICE in the Twin Cities: New Day, Same Occupying Fascist Army](https://racketmn.com/ice-in-the-twin-cities-mn-new-day-same-occupying-fascist-army)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Unknown
 - **Citizenship:** Unknown
 - **Details:** Motorist threatened with firearm by ICE agent

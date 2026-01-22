@@ -5,7 +5,7 @@ location: DOJ Official Statement
 city: Minneapolis
 type: response
 status: ongoing
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: fatal
 trustworthiness: high
 created: 2026-01-14T13:25:50

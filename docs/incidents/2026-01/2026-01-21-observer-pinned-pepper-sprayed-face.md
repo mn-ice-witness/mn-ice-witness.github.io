@@ -5,7 +5,7 @@ location: 28th Street and Blaisdell Avenue S.
 city: Minneapolis
 type: observers
 status: ongoing
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: unknown
 trustworthiness: high
 created: 2026-01-21T18:01:29
@@ -24,7 +24,7 @@ Federal agents pinned an observer to the ground and sprayed a chemical irritant 
 2. Reddit (Jan 21, 2026): [r/FedEmployees post with photo](https://www.reddit.com/r/FedEmployees/comments/1qjdnhw/observer_being_arrested_and_pepper_sprayed_at/)
 3. Threads (Jan 21, 2026): [@msbellaf post](https://www.threads.com/@msbellaf/post/DTyf2oUFQ52)
 
-## Victim(s)
+## Affected Individual(s)
 
 - **Name:** Unknown
 - **Status:** Pinned to ground by multiple agents, pepper sprayed directly in face

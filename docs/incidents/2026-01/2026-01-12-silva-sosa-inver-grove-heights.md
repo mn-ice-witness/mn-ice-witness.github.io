@@ -5,7 +5,7 @@ location: Traffic stop near residence
 city: Inver Grove Heights
 type: immigrants
 status: ongoing
-victim_citizenship: undocumented
+affected_individual_citizenship: undocumented
 injuries: none
 trustworthiness: high
 created: 2026-01-19T18:00:00
@@ -24,7 +24,7 @@ A couple who have lived in Minnesota since 1999 were detained by ICE during a tr
 4. Twin Cities Pioneer Press (Jan 18, 2026): [5,600 Green Card applicants in Minnesota targeted through Operation PARRIS](https://www.twincities.com/2026/01/18/5600-green-card-applicants-in-minnesota-targeted-through-operation-parris/)
 5. Global Refuge (Jan 2026): [Global Refuge statement on refugee arrests in Minnesota](https://www.globalrefuge.org/news/refugee-arrests-minnesota/)
 
-## Victim(s)
+## Affected Individual(s)
 
 ### Parents
 - **Names:** Not disclosed (surname Silva Sosa)

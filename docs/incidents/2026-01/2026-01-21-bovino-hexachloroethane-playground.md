@@ -3,9 +3,9 @@ date: 2026-01-21
 time: afternoon
 location: Mueller Park, near Ella Baker Global Studies & Humanities Magnet School
 city: Minneapolis
-type: citizens, schools-hospitals
+type: schools
 status: under-investigation
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: unknown
 trustworthiness: high
 created: 2026-01-21T17:37:01

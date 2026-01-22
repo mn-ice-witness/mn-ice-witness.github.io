@@ -5,7 +5,7 @@ location: TruNorth Solar factory
 city: Arden Hills
 type: immigrants
 status: unknown
-victim_citizenship: undocumented
+affected_individual_citizenship: undocumented
 injuries: unknown
 trustworthiness: medium
 created: 2026-01-14T09:04:50

@@ -5,7 +5,7 @@ location: City bus stop, Seward neighborhood
 city: Minneapolis
 type: schools-hospitals
 status: ongoing
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: medium
 created: 2026-01-18T01:26:05
@@ -22,7 +22,7 @@ A 12th-grade student at Hiawatha Academies, a public charter school in Minneapol
 2. Bring Me The News (Jan 15, 2026): [List of major ICE raids, updates in Minnesota on Thursday, Jan. 15](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-thursday-jan-15)
 3. Bring Me The News (Jan 2026): [Rising anger over ICE raids near Minnesota schools](https://bringmethenews.com/minnesota-news/rising-anger-over-ice-raids-near-minnesota-schools)
 
-## Victim(s)
+## Affected Individual(s)
 - **Grade:** 12th grade
 - **School:** Hiawatha Academies (public charter school, Seward neighborhood)
 - **Citizenship:** Unknown

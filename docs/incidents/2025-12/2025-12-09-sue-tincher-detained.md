@@ -5,7 +5,7 @@ location: 2100 block of Oliver Avenue N
 city: Minneapolis
 type: observers
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
 created: 2026-01-14T08:01:12
@@ -29,7 +29,7 @@ Sue Tincher, a 55-year-old Minneapolis resident and U.S. citizen, was detained f
 9. X Post (Dec 9, 2025): [@LittleCongress post](https://x.com/LittleCongress/status/1999500734174278013)
 10. X Post (Dec 10, 2025): [@snopes confirmation post](https://x.com/snopes/status/2002529506620309718)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Sue Tincher
 - **Age:** 55
 - **Citizenship:** U.S. Citizen
@@ -49,7 +49,7 @@ Sue Tincher, a 55-year-old Minneapolis resident and U.S. citizen, was detained f
 - Hand bruising from tight handcuffing
 - No serious injuries
 
-## Victim Statement
+## Affected Individual Statement
 
 ### Sue Tincher
 "There was no warning, no explanation, no chance to comply."
@@ -65,4 +65,4 @@ Sent letter to Homeland Security Secretary Kristi Noem demanding review of the a
 Tincher is a named plaintiff in ACLU of Minnesota lawsuit (Tincher v. Noem) challenging ICE violence and misconduct towards Minnesotans exercising First Amendment rights.
 
 ## Editorial Assessment
-**HIGH** - Named victim with detailed first-person account. ACLU lawsuit plaintiff. Governor Walz response. Multiple news sources and legal documentation.
+**HIGH** - Named affected individual with detailed first-person account. ACLU lawsuit plaintiff. Governor Walz response. Multiple news sources and legal documentation.

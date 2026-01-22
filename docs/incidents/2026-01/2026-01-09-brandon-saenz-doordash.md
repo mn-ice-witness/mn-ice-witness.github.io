@@ -5,7 +5,7 @@ location: Saint Paul residential neighborhood
 city: St. Paul
 type: immigrants
 status: ongoing
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: medium
 created: 2026-01-21T16:38:05
@@ -30,7 +30,7 @@ Brandon Steven Saenz was arrested by ICE agents when he and his wife arrived at 
 10. MundoNow (Jan 2026): [Delivery Driver Flees ICE and Takes Refuge in a Customer's Home](https://mundonow.com/en/ice-chase-of-immigrant-delivery-driver/)
 11. The Nerd Stash (Jan 2026): [Brave Minnesota Woman Stands Up to ICE Agents](https://thenerdstash.com/brave-minnesota-woman-stands-up-to-ice-agents-after-female-doordasher-takes-shelter-in-her-home-its-time-we-rise-up/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Brandon Steven Saenz
 - **Status:** Arrested by ICE
 - **Background:** Was doing DoorDash deliveries with his wife when ICE arrived
@@ -56,6 +56,6 @@ The wife stated that she and her husband "had never committed any crime" and des
 This incident occurred approximately two days after ICE agent Jonathan Ross fatally shot Renee Good in south Minneapolis on January 7, 2026, during a period of heightened ICE activity in the Twin Cities.
 
 ## Editorial Assessment
-**MEDIUM** - Primary documentation is through viral TikTok videos by the homeowner (@stormibabyy27) with corroborating updates identifying the victim by name (Brandon Steven Saenz). Multiple social media reposts and some minor international news coverage (IBTimes UK, Inkl). Video evidence exists showing the standoff at the home. The victim's name was confirmed in a follow-up post by @a.lyssa.lorencreations.
+**MEDIUM** - Primary documentation is through viral TikTok videos by the homeowner (@stormibabyy27) with corroborating updates identifying the affected individual by name (Brandon Steven Saenz). Multiple social media reposts and some minor international news coverage (IBTimes UK, Inkl). Video evidence exists showing the standoff at the home. The affected individual's name was confirmed in a follow-up post by @a.lyssa.lorencreations.
 
-**Why MEDIUM (not HIGH):** This incident was not covered by any established news organizations (Fox 9, KARE 11, CBS Minnesota, Star Tribune, MPR News, etc.). All sources are social media posts or minor web outlets that aggregate viral content. While the video evidence is compelling and the victim is named, the lack of independent journalistic verification means we cannot confirm details beyond what appears in the videos and social media posts.
+**Why MEDIUM (not HIGH):** This incident was not covered by any established news organizations (Fox 9, KARE 11, CBS Minnesota, Star Tribune, MPR News, etc.). All sources are social media posts or minor web outlets that aggregate viral content. While the video evidence is compelling and the affected individual is named, the lack of independent journalistic verification means we cannot confirm details beyond what appears in the videos and social media posts.

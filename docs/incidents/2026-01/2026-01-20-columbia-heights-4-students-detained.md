@@ -5,7 +5,7 @@ location: Columbia Heights Public School District
 city: Columbia Heights
 type: schools-hospitals
 status: ongoing
-victim_citizenship: asylum-seeker
+affected_individual_citizenship: asylum-seeker
 injuries: none
 trustworthiness: high
 created: 2026-01-22T12:00:00
@@ -22,7 +22,7 @@ Four students from Columbia Heights Public School District have been detained by
 2. Sahan Journal (Jan 22, 2026): ['Why detain a 5-year-old?' Columbia Heights school leaders speak out over students taken by ICE](https://sahanjournal.com/education/ice-minnesota-columbia-heights-students-detained/)
 3. Bring Me The News (Jan 20, 2026): [List of major ICE raids, updates in Minnesota on Tuesday, Jan. 20](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-tuesday-jan-20)
 
-## Victim(s)
+## Affected Individual(s)
 
 ### Liam Ramos (5 years old)
 - **Grade:** Kindergarten/preschool
@@ -71,4 +71,4 @@ Columbia Heights Public Schools shifted to a Flex Learning Day "out of an abunda
 This incident is part of "Operation Metro Surge," a surge of federal immigration enforcement in the Twin Cities. Reports indicate ICE has been active in multiple areas including circling school property waiting for families to pick up their children.
 
 ## Editorial Assessment
-**HIGH** - Superintendent press conference reported by multiple mainstream outlets (CBS Minnesota, Sahan Journal). School district provided photo evidence. Named victim (Liam Ramos) with specific details about detention circumstances and family's legal status (active asylum case).
+**HIGH** - Superintendent press conference reported by multiple mainstream outlets (CBS Minnesota, Sahan Journal). School district provided photo evidence. Named affected individual (Liam Ramos) with specific details about detention circumstances and family's legal status (active asylum case).

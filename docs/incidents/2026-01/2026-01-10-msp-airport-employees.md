@@ -5,7 +5,7 @@ location: Minneapolis-St. Paul International Airport
 city: Minneapolis
 type: immigrants
 status: unknown
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: medium
 created: 2026-01-14T08:01:12
@@ -21,7 +21,7 @@ Multiple airport employees were detained by ICE agents operating beyond security
 1. Bring Me The News (Jan 10, 2026): [ICE at MSP: Deportation flights and employee arrests during immigration crackdown](https://bringmethenews.com/minnesota-news/ice-at-msp-deportation-flights-and-employee-arrests-during-immigration-crackdown)
 2. WCCO Radio (Jan 10, 2026): [Groups at MSP Airport share experience as more federal ICE officers converge](https://www.audacy.com/wccoradio/news/local/groups-msp-airport-share-experience-more-ice-officers-arrive)
 
-## Victim(s)
+## Affected Individual(s)
 - **Names:** Unknown (at least 6 employees)
 - **Citizenship:** Had proper work authorization
 - **Occupation:** Airport workers (hospitality, transportation)
@@ -43,4 +43,4 @@ They have not been able to make contact with four of these employees since they 
 Two busloads of detained immigrants were loaded onto a private jet at MSP Airport on Friday. Deportation flights are leaving via private airline companies such as GlobalX, with detainees ushered onto jets outside Signature Aviation.
 
 ## Editorial Assessment
-**MEDIUM** - Union statements from UNITE HERE Local 17 and SEIU Local 26 provide institutional credibility. However, individual victims not identified. Workplace raid at major transportation hub.
+**MEDIUM** - Union statements from UNITE HERE Local 17 and SEIU Local 26 provide institutional credibility. However, individual affected individuals not identified. Workplace raid at major transportation hub.

@@ -5,7 +5,7 @@ location: Woodbury
 city: Woodbury
 type: immigrants
 status: ongoing
-victim_citizenship: asylum-seeker
+affected_individual_citizenship: asylum-seeker
 injuries: serious
 trustworthiness: high
 created: 2026-01-14T08:01:12
@@ -24,7 +24,7 @@ Hani Duglof, 32, who came to Minnesota from Libya in 2014 for life-saving medica
 4. FOX 9 Video (Jan 14, 2026): [Libyan immigrant with rare genetic skin disorder detained by ICE tells story](https://www.fox9.com/news/libyan-immigrant-rare-genetic-skin-disorder-detained-ice-tells-story)
 5. Star Tribune (Jan 15, 2026): [ICE detainee with severe skin disorder is going home](https://www.startribune.com/ice-detainee-with-severe-skin-disorder-going-home/601564192)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Hani Duglof
 - **Age:** 32
 - **Origin:** Libya

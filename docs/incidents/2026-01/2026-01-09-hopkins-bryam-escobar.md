@@ -5,7 +5,7 @@ location: En route to work
 city: Hopkins
 type: immigrants
 status: resolved-released
-victim_citizenship: undocumented
+affected_individual_citizenship: undocumented
 injuries: none
 trustworthiness: high
 created: 2026-01-14T08:38:51
@@ -21,7 +21,7 @@ Bryam Escobar Martinez, a father of two from Hopkins, was detained by ICE while 
 1. MPR News (Jan 10, 2026): [Hopkins family demands answers after ICE arrests father](https://www.mprnews.org/story/2026/01/09/hopkins-ice-arrest-of-father-disrupts-family-of-four)
 2. MPR News (Jan 10, 2026): [Court orders Hopkins man detained by ICE released from custody](https://www.mprnews.org/story/2026/01/12/court-orders-hopkins-man-detained-by-ice-in-latest-enforcement-surge-released-from-custody)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Bryam Escobar Martinez
 - **Citizenship:** Undocumented
 - **Family:** Married to Estefany Escobar; father of two children
