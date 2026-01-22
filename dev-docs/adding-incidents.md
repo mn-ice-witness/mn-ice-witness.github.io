@@ -390,13 +390,16 @@ When new information emerges:
 
 1. **If updating `last_updated`** — Run `./bin/timestamp.sh` FIRST and copy the output
 2. Edit the markdown file
-3. **Only update `last_updated` for substantive story changes** (see below)
-4. Paste the timestamp from step 1 into `last_updated` (do NOT type it manually)
-5. Add new sources to Sources section
-6. Update Editorial Assessment if trustworthiness changes
-7. Commit with message like "Update: New video evidence for Speedway incident"
+3. **For major story updates:** Add/update the `## Updates` section **RIGHT AFTER THE TITLE, BEFORE SUMMARY** (see below)
+4. **Only update `last_updated` for substantive story changes** (see below)
+5. Paste the timestamp from step 1 into `last_updated` (do NOT type it manually)
+6. Add new sources to Sources section
+7. Update Editorial Assessment if trustworthiness changes
+8. Commit with message like "Update: New video evidence for Speedway incident"
 
 **⚠️ CRITICAL:** Never type a timestamp like `2026-01-22T12:00:00` from memory. LLMs always get this wrong. The script is the ONLY valid source for timestamps.
+
+**⚠️ CRITICAL:** The `## Updates` section goes at the TOP of the document (after title, before Summary), NOT at the bottom. This is user-facing content that readers see first.
 
 ### When to Update `last_updated`
 

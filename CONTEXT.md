@@ -100,6 +100,17 @@ Use documentary tone. Let facts speak for themselves.
 - ✅ Court rulings, releases, status changes, new facts
 - ❌ Adding more sources, formatting fixes, rating changes
 
+### Updates Section Placement
+**The `## Updates` section goes RIGHT AFTER THE TITLE, BEFORE SUMMARY** — never at the bottom. This is user-facing content readers see first. Structure:
+```markdown
+# Incident Title
+
+## Updates
+- **Jan 22** - Brief description of what happened
+
+## Summary
+```
+
 ---
 
 ## Quick Reference: What Doc to Read
