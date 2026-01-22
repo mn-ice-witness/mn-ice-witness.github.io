@@ -209,12 +209,14 @@ If the incident involves a refugee or immigrant with **pending legal status** (I
 
 These are mistakes that LLMs frequently make when adding incidents. Read this section carefully.
 
-### Timestamps
+### Timestamps — #1 LLM Mistake
 | Mistake | Why It's Wrong | Correct Approach |
 |---------|---------------|------------------|
-| `2026-01-19T12:00:00` | Rounded times are obviously fabricated | Run `./bin/timestamp.sh` and use the exact output |
-| `2026-01-19T14:30:00` | Round numbers reveal guessing | Never guess - always use the script |
-| Making up any timestamp | LLMs consistently fabricate plausible-looking times | The script is the ONLY valid source |
+| `2026-01-19T12:00:00` | Rounded times are obviously fabricated | Run `./bin/timestamp.sh` FIRST, then copy-paste |
+| `2026-01-19T14:30:00` | Round numbers reveal guessing | Never type timestamps from memory |
+| Typing ANY timestamp manually | LLMs ALWAYS get this wrong | Script output is the ONLY valid source |
+
+**⚠️ This is the most common LLM error.** Before editing ANY timestamp field, run `./bin/timestamp.sh` and copy its output. Do not proceed without doing this step first.
 
 ### Source Formatting
 | Mistake | Why It's Wrong | Correct Format |
@@ -386,11 +388,15 @@ git push
 
 When new information emerges:
 
-1. Edit the markdown file
-2. **Only update `last_updated` for substantive story changes** (see below)
-3. Add new sources to Sources section
-4. Update Editorial Assessment if trustworthiness changes
-5. Commit with message like "Update: New video evidence for Speedway incident"
+1. **If updating `last_updated`** — Run `./bin/timestamp.sh` FIRST and copy the output
+2. Edit the markdown file
+3. **Only update `last_updated` for substantive story changes** (see below)
+4. Paste the timestamp from step 1 into `last_updated` (do NOT type it manually)
+5. Add new sources to Sources section
+6. Update Editorial Assessment if trustworthiness changes
+7. Commit with message like "Update: New video evidence for Speedway incident"
+
+**⚠️ CRITICAL:** Never type a timestamp like `2026-01-22T12:00:00` from memory. LLMs always get this wrong. The script is the ONLY valid source for timestamps.
 
 ### When to Update `last_updated`
 

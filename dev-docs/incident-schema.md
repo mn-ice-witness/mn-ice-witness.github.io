@@ -55,14 +55,14 @@ last_updated: YYYY-MM-DDTHH:MM:SS  # Required. When last MAJOR update occurred (
 
 **Format:** Full ISO 8601 timestamp with seconds: `YYYY-MM-DDTHH:MM:SS`
 
-#### ⚠️ USE THE ACTUAL CURRENT TIME (Critical!)
+#### ⚠️ MANDATORY: Run the timestamp script (Critical!)
 
-**To get the current timestamp, run:**
+**You MUST run this command and copy-paste its output:**
 ```bash
 ./bin/timestamp.sh
 ```
 
-**Never guess or make up a timestamp** — LLMs consistently fabricate plausible-looking times that are wrong.
+**Do NOT type a timestamp manually** — LLMs ALWAYS fabricate plausible-looking times (like `12:00:00` or `14:30:00`) that are wrong. Run the script, copy, paste. No exceptions.
 
 | Example | Correct? |
 |---------|----------|
