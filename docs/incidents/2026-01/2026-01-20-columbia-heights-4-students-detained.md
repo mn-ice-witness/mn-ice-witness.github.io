@@ -25,6 +25,10 @@ Four students from Columbia Heights Public School District have been detained by
 5. Bring Me The News (Jan 20, 2026): [List of major ICE raids, updates in Minnesota on Tuesday, Jan. 20](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-tuesday-jan-20)
 6. Threads (Jan 21, 2026): [@aaronparnas post](https://www.threads.com/@aaronparnas/post/DTzCL57FF_f)
 
+## Related Incidents
+
+- [DHS Response: "Child Was ABANDONED," Father "Fled on Foot"](#2026-01-21-dhs-response-5-year-old-bait)
+
 ## Affected Individual(s)
 
 ### Liam Ramos (5 years old)
