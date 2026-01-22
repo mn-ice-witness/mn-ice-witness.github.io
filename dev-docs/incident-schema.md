@@ -98,7 +98,11 @@ See `adding-incidents.md` for detailed guidance.
 
 ### Type Values
 
-**IMPORTANT: There are exactly 5 incident types. Use ONLY these values:**
+**⚠️ CRITICAL: There are EXACTLY 5 incident types. Use ONLY these values:**
+
+```
+citizens | observers | immigrants | schools-hospitals | response
+```
 
 | Value | Use For |
 |-------|---------|
@@ -108,15 +112,18 @@ See `adding-incidents.md` for detailed guidance.
 | `schools-hospitals` | Actions at/near schools or hospitals, including patient targeting and workplace audits |
 | `response` | **FEDERAL GOVERNMENT ONLY:** DHS/ICE/CBP official statements (e.g., Trump, Noem, Bovino, @DHSgov). NOT for local police, mayors, governors, or other non-federal officials. |
 
+**Do NOT invent types.** Values like `schools`, `workplace-raid`, `citizen-detained`, or any other variation will break filtering.
+
 **Citizens vs Observers — Key Distinction:**
 Both categories may involve U.S. citizens being detained. Choose based on WHY they were targeted:
 - **`citizens`** = Racial profiling or mistaken identity. Person was just living their life (working, driving, shopping, walking).
 - **`observers`** = First Amendment retaliation. Person was actively filming, following, watching, or protesting ICE.
 
-**Notes:**
-- **Multiple types ARE allowed** - use comma-separated values (e.g., `type: citizens, schools-hospitals`) when an incident fits multiple categories
+**Multiple Types:**
+- Multiple types ARE allowed — use comma-separated values (e.g., `type: citizens, schools-hospitals`)
+- **The FIRST type determines the category shown in media cards and the NEW/UPDATED list view**
+- Order matters: put the most relevant category first
 - Workplace raids of non-U.S. citizens → use `immigrants`
-- Do NOT use `citizen-detained`, `workplace-raid`, or other variant types
 
 ### Affected Individual Citizenship Values
 

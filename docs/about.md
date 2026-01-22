@@ -18,7 +18,7 @@ DHS Secretary Kristi Noem [directed ICE](https://www.dhs.gov/news/2025/12/19/und
 
 The administration has also cited sanctuary city policies in Minneapolis and St. Paul as a factor in the scope of its enforcement operations. In a January 14, 2026 statement, DHS stated that local policies had resulted in the release of ["nearly 470 criminal illegal aliens"](https://www.dhs.gov/news/2026/01/14/mayor-freys-sanctuary-policies-release-criminal-illegal-aliens-jails-back).
 
-<h2 id="the-data">The Data: Who Is ICE Actually Arresting? <a href="#the-data" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
+<h2 id="the-data">Arrest Data <a href="#the-data" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
 Independent analyses present different figures.
 
@@ -28,7 +28,7 @@ DHS created a "Worst of the Worst" database at WOW.DHS.GOV. According to [Common
 
 Aaron Reichlin-Melnick of the American Immigration Council noted: "DHS is implicitly admitting that less than 5% of the people it arrests are people they believe are 'the worst of the worst.'"
 
-**DHS claims about U.S. citizens have been fact-checked as false.** Secretary Noem stated on October 30, 2025: "No American citizens have been arrested or detained." [PolitiFact rated this claim "Pants on Fire"](https://www.politifact.com/factchecks/2025/oct/31/kristi-noem/immigration-ICE-arrest-US-citizen-Chicago/) — their lowest truthfulness rating. [NPR](https://www.npr.org/2025/11/05/nx-s1-5598373/npr-fact-checks-kristi-noem-on-ice-detaining-us-citizens) and [Poynter](https://www.poynter.org/fact-checking/2025/has-ice-arrested-american-citizens/) also found the claim to be inaccurate. ProPublica documented over 170 cases of U.S. citizens detained by immigration agents. [See full details](#2025-10-30-noem-no-citizens-arrested-claim).
+**Regarding U.S. citizens:** Secretary Noem stated on October 30, 2025: "No American citizens have been arrested or detained." [PolitiFact rated this claim "Pants on Fire"](https://www.politifact.com/factchecks/2025/oct/31/kristi-noem/immigration-ICE-arrest-US-citizen-Chicago/). [NPR](https://www.npr.org/2025/11/05/nx-s1-5598373/npr-fact-checks-kristi-noem-on-ice-detaining-us-citizens) and [Poynter](https://www.poynter.org/fact-checking/2025/has-ice-arrested-american-citizens/) also disputed the claim. ProPublica documented over 170 cases of U.S. citizens detained by immigration agents. [See full details](#2025-10-30-noem-no-citizens-arrested-claim).
 
 <h2 id="what-this-site-documents">What This Site Documents <a href="#what-this-site-documents" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
@@ -38,13 +38,13 @@ This site compiles sourced, verified incidents from Minnesota during Operation M
 
 Incidents are organized into five categories:
 
-- **Citizens** — U.S. citizens/legal residents randomly targeted while going about daily life (working, driving, shopping)
-- **Observers** — People targeted for filming, observing, or protesting ICE operations
+- **Citizens** — U.S. citizens/legal residents detained while going about daily life (working, driving, shopping)
+- **Observers** — People detained while filming, observing, or protesting ICE operations
 - **Immigrants** — Non-criminal immigrants detained, including workplace raids
 - **Schools/Hospitals** — Actions at or near schools, hospitals, and healthcare institutions
 - **Response** — Official DHS/ICE statements about specific incidents
 
-*Note: "Citizens" and "Observers" may both involve U.S. citizens. The distinction is whether they were randomly targeted (Citizens) or targeted for their First Amendment activity (Observers).*
+*Note: "Citizens" and "Observers" may both involve U.S. citizens. The distinction is whether they were encountered during routine activities (Citizens) or while engaged in observation/protest (Observers).*
 
 <p style="color: #8a9aaf; font-weight: bold; font-style: italic; margin-top: 1.5em;">For real-time, crowd-sourced ICE sighting reports and alerts, visit <a href="https://iceout.org/en/" style="color: #7ba3c9;">iceout.org</a> (People Over Papers).</p>
 
@@ -126,15 +126,15 @@ In-depth reporting and analysis of ICE enforcement patterns and civil rights con
 - [2,000 federal agents sent to Minneapolis area to carry out 'largest immigration operation ever'](https://www.pbs.org/newshour/politics/2000-federal-agents-sent-to-minneapolis-area-to-carry-out-largest-immigration-operation-ever-ice-says) - PBS NewsHour
 - [ICE Videos Minnesota: What the footage shows](https://www.nytimes.com/2026/01/13/us/ice-videos-minnesota-trump-immigration.html) - New York Times
 
-<h2 id="operation-parris">Operation PARRIS: Targeting Refugees with Legal Status <a href="#operation-parris" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
+<h2 id="operation-parris">Operation PARRIS <a href="#operation-parris" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
-A documented pattern has emerged of ICE targeting refugees who entered the United States legally and are awaiting green cards under **Operation PARRIS** (Post-Admission Refugee Reverification and Integrity Strengthening).
+**Operation PARRIS** (Post-Admission Refugee Reverification and Integrity Strengthening) is a DHS fraud investigation program affecting refugees who entered the United States legally and are awaiting green cards.
 
-According to [Fox 9](https://www.fox9.com/news/minnesota-fraud-dhs-launching-operation-parris-target-refugees-jan-9), an [official USCIS press release](https://www.uscis.gov/newsroom/news-releases/dhs-launches-landmark-uscis-fraud-investigation-in-minnesota), and the [Twin Cities Pioneer Press](https://www.twincities.com/2026/01/18/5600-green-card-applicants-in-minnesota-targeted-through-operation-parris/), approximately **5,600 green card applicants in Minnesota** are being targeted through this operation. These are individuals who followed every rule, submitted their applications, and are legally present in the country.
+According to [Fox 9](https://www.fox9.com/news/minnesota-fraud-dhs-launching-operation-parris-target-refugees-jan-9), an [official USCIS press release](https://www.uscis.gov/newsroom/news-releases/dhs-launches-landmark-uscis-fraud-investigation-in-minnesota), and the [Twin Cities Pioneer Press](https://www.twincities.com/2026/01/18/5600-green-card-applicants-in-minnesota-targeted-through-operation-parris/), approximately **5,600 green card applicants in Minnesota** are affected by this operation. These individuals have pending applications and are legally present in the country.
 
 [Global Refuge reports](https://www.globalrefuge.org/news/refugee-arrests-minnesota/) that lawfully admitted refugees are being detained and transported to Texas within 24 hours with "no due process, no access to an attorney."
 
-This pattern is documented in incidents on this site including:
+Related incidents on this site:
 - [Silva Sosa parents detained 5 days after I-130 approval](#2026-01-12-silva-sosa-inver-grove-heights)
 - [Moldovan refugee Nadya detained while driving to church with family](#2026-01-17-nadya-moldovan-refugee)
 
@@ -151,10 +151,10 @@ The trustworthiness rating appears at the bottom of each incident page.
 
 <h2 id="legal-observation">Legal Observation and Protest <a href="#legal-observation" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
-Multiple incidents on this site involve ICE agents warning observers not to film, or claiming "obstruction" against people at a distance. Supporters of ICE operations also argue that certain incidents are not civil rights concerns because observer behavior was unlawful. Here's what the law actually says.
+Multiple incidents on this site involve disputes over filming and observer conduct. The following summarizes the legal framework.
 
 **What is protected:** [Federal courts across at least ten circuits](https://www.eff.org/deeplinks/2025/02/yes-you-have-right-film-ice) have ruled that recording law enforcement in public is a First Amendment right ([NYCLU guide](https://www.nyclu.org/resources/know-your-rights/you-have-right-film-ice)). Verbal criticism — including profanity — is protected under [*City of Houston v. Hill* (1987)](https://en.wikipedia.org/wiki/Contempt_of_cop). Whistles, chanting, and singing are [protected activities](https://www.aclu.org/know-your-rights/protesters-rights), though narrowly-tailored noise restrictions may apply in specific contexts.
 
 **What is not protected:** Physical obstruction — blocking officers, surrounding vehicles, or stepping between an agent and a detainee — can result in federal charges.
 
-**What the data shows:** While DHS has [claimed](https://www.cato.org/commentary/dhs-says-videotaping-ice-agents-illegal-federal-courts-disagree) filming constitutes interference, [federal courts disagree](https://firstamendment.mtsu.edu/article/filming-the-police/). A [ProPublica investigation](https://www.propublica.org/article/immigration-dhs-american-citizens-arrested-detained-against-will) found that of ~130 Americans arrested for allegedly impeding ICE officers, cases "often wilted under scrutiny" — nearly 50 were never charged or dismissed. In [Chicago](https://www.cbsnews.com/chicago/news/charges-dropped-broadview-ice-protesters-grand-jury/) and [Portland](https://www.opb.org/article/2025/12/03/protestors-arrested-at-portland-ice-facility-wait-months-without-charges/), most protester charges were dropped.
+**Case outcomes:** A [ProPublica investigation](https://www.propublica.org/article/immigration-dhs-american-citizens-arrested-detained-against-will) found that of ~130 Americans arrested for allegedly impeding ICE officers, nearly 50 were never charged or had charges dismissed. In [Chicago](https://www.cbsnews.com/chicago/news/charges-dropped-broadview-ice-protesters-grand-jury/) and [Portland](https://www.opb.org/article/2025/12/03/protestors-arrested-at-portland-ice-facility-wait-months-without-charges/), most protester charges were dropped.

@@ -3,7 +3,7 @@ date: 2026-01-21
 time: afternoon
 location: Mueller Park, near Ella Baker Global Studies & Humanities Magnet School
 city: Minneapolis
-type: schools
+type: schools-hospitals
 status: under-investigation
 affected_individual_citizenship: unknown
 injuries: unknown
@@ -25,8 +25,9 @@ The [EPA classifies hexachloroethane](https://www.epa.gov/sites/default/files/20
 ## Sources
 
 1. Star Tribune (Jan 21, 2026): [ICE raids Minnesota live updates](https://www.startribune.com/ice-raids-minnesota/601546426)
-2. X Post (Jan 21, 2026): [@TheJFreakinC thread with video](https://x.com/TheJFreakinC/status/2014110030778241072)
-3. Threads Post (Jan 21, 2026): [@itsmemaudeholly](https://www.threads.com/@itsmemaudeholly/post/DTycrtNkgXU)
+2. Star Tribune (Jan 21, 2026): [Preschooler and three other students detained by ICE, school district leader says](https://www.startribune.com/preschooler-and-three-other-students-detained-by-ice-school-district-leader-says/601568045)
+3. X Post (Jan 21, 2026): [@TheJFreakinC thread with video](https://x.com/TheJFreakinC/status/2014110030778241072)
+4. Threads Post (Jan 21, 2026): [@itsmemaudeholly](https://www.threads.com/@itsmemaudeholly/post/DTycrtNkgXU)
 
 ## What Happened
 
