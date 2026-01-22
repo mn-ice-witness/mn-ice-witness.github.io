@@ -20,7 +20,8 @@ Four students from Columbia Heights Public School District have been detained by
 ## Sources
 1. CBS Minnesota (Jan 22, 2026): [ICE has arrested four children in same Minnesota school district](https://www.cbsnews.com/minnesota/news/minnesota-school-children-ice-arrests-columbia-heights/)
 2. Sahan Journal (Jan 22, 2026): ['Why detain a 5-year-old?' Columbia Heights school leaders speak out over students taken by ICE](https://sahanjournal.com/education/ice-minnesota-columbia-heights-students-detained/)
-3. Bring Me The News (Jan 20, 2026): [List of major ICE raids, updates in Minnesota on Tuesday, Jan. 20](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-tuesday-jan-20)
+3. Star Tribune (Jan 21, 2026): [Preschooler and three other students detained by ICE, school district leader says](https://www.startribune.com/preschooler-and-three-other-students-detained-by-ice-school-district-leader-says/601568045)
+4. Bring Me The News (Jan 20, 2026): [List of major ICE raids, updates in Minnesota on Tuesday, Jan. 20](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-tuesday-jan-20)
 
 ## Affected Individual(s)
 
