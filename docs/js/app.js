@@ -54,6 +54,9 @@ const App = {
         // Handle initial route
         this.handleInitialRoute();
 
+        // Sync URL with filter state (localStorage -> URL if needed)
+        ViewState.syncUrlWithFilterState();
+
         // Render based on route
         const route = Router.parseUrl();
         if (route.type === 'list' || route.category) {
@@ -118,6 +121,11 @@ const App = {
      * Open content based on route
      */
     openFromRoute(route) {
+        // Handle filter=new param (applies to any route type)
+        if (route.filter === 'new') {
+            ViewState.enableSortByUpdated();
+        }
+
         switch (route.type) {
             case 'incident':
                 const incident = this.incidents.find(i => {

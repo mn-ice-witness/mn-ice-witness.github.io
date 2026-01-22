@@ -27,6 +27,24 @@ const ViewState = {
         this.initClearViewed();
     },
 
+    /**
+     * Sync URL to match sortByUpdated state (call after route handling)
+     * If localStorage has filter on but URL doesn't, update URL
+     */
+    syncUrlWithFilterState() {
+        const route = Router.parseUrl();
+        const urlHasFilter = route.filter === 'new';
+
+        // Only sync for home/list routes (not lightbox content)
+        if (route.type !== 'home' && route.type !== 'list') return;
+
+        // If state and URL match, nothing to do
+        if (this.sortByUpdated === urlHasFilter) return;
+
+        // Update URL to match state
+        this.updateUrlWithFilter();
+    },
+
     // ==================== VIEWED INCIDENTS ====================
 
     /**
@@ -162,10 +180,8 @@ const ViewState = {
                 sectionNav.style.display = this.sortByUpdated ? 'none' : '';
             }
 
-            // Update URL to /list
-            if (this.currentView === 'list') {
-                window.history.replaceState({}, '', Router.buildUrl('list'));
-            }
+            // Update URL with filter param
+            this.updateUrlWithFilter();
 
             // Re-render via App
             if (typeof App !== 'undefined') {
@@ -180,6 +196,15 @@ const ViewState = {
     },
 
     /**
+     * Update URL to include or remove ?filter=new based on sortByUpdated state
+     */
+    updateUrlWithFilter() {
+        const basePath = this.currentView === 'list' ? Router.buildUrl('list') : '/';
+        const newUrl = Router.buildUrlWithFilter(basePath, this.sortByUpdated);
+        window.history.replaceState({}, '', newUrl);
+    },
+
+    /**
      * Disable sort by updated (when navigating to a specific category)
      */
     disableSortByUpdated() {
@@ -187,6 +212,28 @@ const ViewState = {
         this.saveSortPreference();
         const checkbox = document.getElementById('sort-updated-checkbox');
         if (checkbox) checkbox.checked = false;
+    },
+
+    /**
+     * Enable sort by updated (when ?filter=new is in URL)
+     */
+    enableSortByUpdated() {
+        this.sortByUpdated = true;
+        this.saveSortPreference();
+        const checkbox = document.getElementById('sort-updated-checkbox');
+        if (checkbox) checkbox.checked = true;
+
+        // Update nav visibility
+        const sectionNav = document.getElementById('section-nav');
+        if (sectionNav) {
+            sectionNav.style.display = 'none';
+        }
+
+        // Update toggle visual state
+        const toggle = document.getElementById('view-toggle');
+        if (toggle) {
+            toggle.classList.remove('list-active');
+        }
     },
 
     // ==================== VIEW TOGGLE ====================
@@ -248,15 +295,13 @@ const ViewState = {
     },
 
     /**
-     * Update URL to reflect current view
+     * Update URL to reflect current view (preserves filter param)
      */
     updateUrlView(view) {
         localStorage.setItem('preferredView', view);
-        if (view === 'list') {
-            window.history.replaceState({}, '', Router.buildUrl('list'));
-        } else {
-            window.history.replaceState({}, '', '/');
-        }
+        const basePath = view === 'list' ? Router.buildUrl('list') : '/';
+        const newUrl = Router.buildUrlWithFilter(basePath, this.sortByUpdated);
+        window.history.replaceState({}, '', newUrl);
     },
 
     /**

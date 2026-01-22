@@ -365,7 +365,8 @@ const Lightbox = {
                 history.back();
             } else {
                 this.closeLightbox();
-                history.replaceState(null, '', '/');
+                const homeUrl = Router.buildUrlWithFilter('/', ViewState.sortByUpdated);
+                history.replaceState(null, '', homeUrl);
             }
         }
     },

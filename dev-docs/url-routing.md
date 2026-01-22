@@ -22,6 +22,21 @@ The site uses **clean path-based URLs** that work well for:
 | List category | `/list/<category>` | `mn-ice-witness.org/list/citizens` |
 | New & Updated | `/new-updated/<date>` | `mn-ice-witness.org/new-updated/01-20-2026` |
 
+### Filter Parameter
+
+The `?filter=new` query parameter can be added to any URL to enable the "NEW/UPDATED" checkbox:
+
+| URL | Behavior |
+|-----|----------|
+| `/?filter=new` | Media view with NEW/UPDATED filter enabled |
+| `/list?filter=new` | List view with NEW/UPDATED filter enabled |
+
+When the user toggles the NEW/UPDATED checkbox:
+- Checking it adds `?filter=new` to the URL
+- Unchecking it removes the parameter
+
+This allows sharing links with the filter pre-enabled.
+
 ## How It Works
 
 ### Cloudflare Pages Functions
