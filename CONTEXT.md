@@ -60,6 +60,9 @@ Use the output for `created` and `last_updated` fields. Format: `YYYY-MM-DDTHH:M
 
 Multiple types allowed via comma: `type: citizens, schools-hospitals`
 
+### Unverified Incidents
+Incidents with `trustworthiness: unverified` are **hidden from the main page** (both media gallery and list view). They appear only at `/unverified`, sorted by update date.
+
 ### SVG Icons
 **NEVER inline SVG paths.** Always use the symbol/use pattern:
 

@@ -17,7 +17,7 @@ const Router = {
 
     /**
      * Build a clean path-based URL
-     * @param {string} type - 'incident', 'about', 'list', or 'home'
+     * @param {string} type - 'incident', 'about', 'list', 'unverified', or 'home'
      * @param {string|null} slug - Optional slug/section/category
      * @returns {string} URL path
      */
@@ -31,6 +31,8 @@ const Router = {
                 return slug ? `/list/${slug}` : '/list';
             case 'new-updated':
                 return `/new-updated/${slug}`;
+            case 'unverified':
+                return '/unverified';
             case 'home':
             default:
                 return '/';
@@ -62,6 +64,9 @@ const Router = {
         }
         if (path.startsWith('/new-updated/')) {
             return { type: 'new-updated', dateStr: path.replace('/new-updated/', ''), filter };
+        }
+        if (path === '/unverified') {
+            return { type: 'unverified', filter };
         }
 
         // Fall back to hash-based routes for backwards compatibility

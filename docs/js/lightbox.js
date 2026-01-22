@@ -50,7 +50,9 @@ const Lightbox = {
      */
     handlePopState(e) {
         if (e.state && e.state.lightbox) {
-            if (e.state.slug === 'about' || Router.aboutSections.includes(e.state.slug)) {
+            if (e.state.slug === 'unverified') {
+                this.showUnverified();
+            } else if (e.state.slug === 'about' || Router.aboutSections.includes(e.state.slug)) {
                 this.showAbout(e.state.slug === 'about' ? null : e.state.slug);
             } else if (e.state.slug && e.state.slug.startsWith('new-updated-')) {
                 const dateStr = e.state.slug.replace('new-updated-', '');
@@ -210,6 +212,81 @@ const Lightbox = {
     },
 
     /**
+     * Open unverified incidents page
+     */
+    openUnverified() {
+        this.element.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+
+        this.currentSlug = 'unverified';
+        const targetPath = Router.buildUrl('unverified');
+
+        if (window.location.pathname !== targetPath) {
+            history.pushState({ lightbox: true, slug: 'unverified' }, '', targetPath);
+            this.openedViaPushState = true;
+        } else {
+            history.replaceState({ lightbox: true, slug: 'unverified' }, '', targetPath);
+            this.openedViaPushState = false;
+        }
+
+        const unverifiedIncidents = App.getUnverifiedIncidents();
+        this.bodyElement.innerHTML = this.renderUnverifiedContent(unverifiedIncidents);
+        this.bodyElement.querySelector('.share-btn')?.addEventListener('click', () => this.copyShareLink());
+        this.setupUnverifiedLinks();
+    },
+
+    /**
+     * Render unverified page content
+     */
+    renderUnverifiedContent(incidents) {
+        const shareButton = LightboxContent.renderShareButton();
+
+        let html = `
+            ${shareButton}
+            <div class="unverified-content">
+                <h1>Unverified Reports</h1>
+                <p class="unverified-plea">We are seeking help verifying these incidents. If you have any information about any of these reports — news articles, photos, videos, or first-hand accounts — please <a href="mailto:mnicewitness@gmail.com">contact us</a>.</p>
+        `;
+
+        if (incidents.length === 0) {
+            html += '<p class="unverified-empty">No unverified incidents at this time.</p>';
+        } else {
+            html += '<ul class="unverified-list">';
+            for (const incident of incidents) {
+                const slug = App.getIncidentId(incident);
+                const type = Array.isArray(incident.type) ? incident.type[0] : incident.type;
+                const label = App.categoryLabels[type] || type.toUpperCase();
+                const date = new Date(incident.date + 'T12:00:00');
+                const dateStr = date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+                html += `<li>
+                    <a href="#${slug}" class="unverified-link" data-slug="${slug}">
+                        <span class="category-label">${label}:</span> ${incident.title}
+                    </a>
+                    <p class="unverified-meta">${incident.location} &middot; ${dateStr}</p>
+                    ${incident.summary ? `<p class="unverified-summary">${incident.summary}</p>` : ''}
+                </li>`;
+            }
+            html += '</ul>';
+        }
+
+        html += '</div>';
+        return html;
+    },
+
+    /**
+     * Setup click handlers for unverified incident links
+     */
+    setupUnverifiedLinks() {
+        this.bodyElement.querySelectorAll('.unverified-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                const slug = link.dataset.slug;
+                this.openIncidentBySlug(slug);
+            });
+        });
+    },
+
+    /**
      * Open invalid date error
      */
     open404InvalidDate(dateStr) {
@@ -351,6 +428,26 @@ const Lightbox = {
         if (this.savedScrollPositions[this.currentSlug]) {
             this.bodyElement.scrollTop = this.savedScrollPositions[this.currentSlug];
             delete this.savedScrollPositions[this.currentSlug];
+        }
+    },
+
+    /**
+     * Show unverified page (for popstate)
+     */
+    showUnverified() {
+        this.element.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+
+        this.currentSlug = 'unverified';
+
+        const unverifiedIncidents = App.getUnverifiedIncidents();
+        this.bodyElement.innerHTML = this.renderUnverifiedContent(unverifiedIncidents);
+        this.bodyElement.querySelector('.share-btn')?.addEventListener('click', () => this.copyShareLink());
+        this.setupUnverifiedLinks();
+
+        if (this.savedScrollPositions['unverified']) {
+            this.bodyElement.scrollTop = this.savedScrollPositions['unverified'];
+            delete this.savedScrollPositions['unverified'];
         }
     },
 
@@ -612,7 +709,9 @@ const Lightbox = {
      */
     copyShareLink() {
         let url;
-        if (this.currentSlug === 'about' || Router.aboutSections.includes(this.currentSlug)) {
+        if (this.currentSlug === 'unverified') {
+            url = window.location.origin + Router.buildUrl('unverified');
+        } else if (this.currentSlug === 'about' || Router.aboutSections.includes(this.currentSlug)) {
             url = window.location.origin + Router.buildUrl('about', this.currentSlug === 'about' ? null : this.currentSlug);
         } else if (this.currentSlug && this.currentSlug.startsWith('new-updated-')) {
             url = window.location.origin + '/#' + this.currentSlug;

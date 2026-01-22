@@ -147,6 +147,10 @@ const App = {
                 Lightbox.openNewUpdated(route.dateStr);
                 break;
 
+            case 'unverified':
+                Lightbox.openUnverified();
+                break;
+
             case 'list':
                 ViewState.switchView('list', true);
                 if (route.category) {
@@ -198,16 +202,18 @@ const App = {
     },
 
     /**
-     * Get filtered incidents based on search query
+     * Get filtered incidents based on search query (excludes unverified)
      */
     getFilteredIncidents() {
         const query = (typeof Search !== 'undefined' && Search.query) ? Search.query.toLowerCase().trim() : '';
-        if (!query) return this.incidents;
+        // Filter out unverified incidents from main display
+        const verified = this.incidents.filter(i => i.trustworthiness !== 'unverified');
+        if (!query) return verified;
 
         const terms = query.split(/\s+/).filter(t => t.length > 0);
         const stemmedTerms = terms.map(t => this.stem(t));
 
-        return this.incidents.filter(incident => {
+        return verified.filter(incident => {
             const searchText = [
                 incident.title,
                 incident.summary,
@@ -220,6 +226,19 @@ const App = {
 
             return stemmedTerms.every(stemmedTerm => stemmedWords.has(stemmedTerm));
         });
+    },
+
+    /**
+     * Get unverified incidents sorted by update date
+     */
+    getUnverifiedIncidents() {
+        return this.incidents
+            .filter(i => i.trustworthiness === 'unverified')
+            .sort((a, b) => {
+                const dateA = a.lastUpdated || a.created || a.date;
+                const dateB = b.lastUpdated || b.created || b.date;
+                return dateB.localeCompare(dateA);
+            });
     },
 
     // ==================== INCIDENT HELPERS ====================
@@ -266,7 +285,15 @@ const App = {
         nav.querySelectorAll('.nav-pill').forEach(pill => {
             pill.addEventListener('click', (e) => {
                 e.preventDefault();
-                const section = pill.getAttribute('href').slice(1);
+                const href = pill.getAttribute('href');
+
+                // Handle unverified link specially
+                if (href === '/unverified') {
+                    Lightbox.openUnverified();
+                    return;
+                }
+
+                const section = href.slice(1);
 
                 // Ensure list view
                 if (ViewState.currentView !== 'list') {

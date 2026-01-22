@@ -2,6 +2,13 @@
 
 When an incident has `trustworthiness: unverified`, follow these guidelines:
 
+## Display Behavior
+
+Unverified incidents are **hidden from the main page** (both media gallery and list view). They only appear on the dedicated `/unverified` page, sorted by update date. This separation:
+- Keeps the main site focused on verified incidents
+- Provides a dedicated space for readers who want to help verify reports
+- Prevents unverified claims from being mixed with confirmed incidents
+
 ## Required Elements
 
 ### 1. Plea for Information (Top of Body)
