@@ -23,6 +23,7 @@ Four students from Columbia Heights Public School District have been detained by
 3. Star Tribune (Jan 21, 2026): [Preschooler and three other students detained by ICE, school district leader says](https://www.startribune.com/preschooler-and-three-other-students-detained-by-ice-school-district-leader-says/601568045)
 4. MPR News (Jan 21, 2026): [ICE detains 5-year old Minnesota boy; lawyer says agents used him as 'bait'](https://www.mprnews.org/story/2026/01/21/ice-detains-5year-old-minnesota-boy-lawyer-says-agents-used-him-as-bait)
 5. Bring Me The News (Jan 20, 2026): [List of major ICE raids, updates in Minnesota on Tuesday, Jan. 20](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-tuesday-jan-20)
+6. Threads (Jan 21, 2026): [@aaronparnas post](https://www.threads.com/@aaronparnas/post/DTzCL57FF_f)
 
 ## Affected Individual(s)
 
