@@ -207,13 +207,18 @@
       "lastUpdated": "2026-01-21T19:05:36",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaOgPath": null,
-      "localMediaFiles": [],
-      "aspectRatio": null,
-      "mediaVersion": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-19-east-side-thai-gun-drawn.mp4",
+      "localMediaOgPath": "media/2026-01-19-east-side-thai-gun-drawn-og-2s-1769044446.jpg",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-19-east-side-thai-gun-drawn.mp4"
+        }
+      ],
+      "aspectRatio": 1.835820895522388,
+      "mediaVersion": 1769044446
     },
     {
       "filePath": "incidents/2026-01/2026-01-19-dhs-response-saly-detention.md",

@@ -7,6 +7,7 @@
 
 
 
+
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -46,6 +47,7 @@ shawn-jackson-children-tear-gas
 porter-wrong-address-raid
 sue-tincher-detained
 doctor-blocked-renee-good
+columbia-heights-4-students-detained
 clergy-pepper-sprayed
 christian-molina-car-rammed
 st-paul-public-works-snowplow-driver
@@ -65,4 +67,4 @@ dhs-response-saly-detention
 nadya-moldovan-refugee
 william-vermie-veteran-detained
 trump-vicious-animals-statement
-columbia-heights-4-students-detained
+east-side-thai-gun-drawn
