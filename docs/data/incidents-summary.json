@@ -337,37 +337,6 @@
       "mediaVersion": 1769151459
     },
     {
-      "filePath": "incidents/2026-01/2026-01-19-east-side-thai-gun-drawn.md",
-      "title": "ICE Agent Enters Restaurant With Gun Drawn While Chasing Child",
-      "summary": "An ICE agent entered East Side Thai restaurant at 879 Payne Ave in St. Paul with his handgun drawn on MLK Day while pursuing someone who had run past the business. The agent accused the owners of hiding the person, which was false. The incident traumatized approximately 10 customers and 7 staff members. No one was detained at the restaurant.",
-      "latestUpdate": null,
-      "date": "2026-01-19",
-      "time": "afternoon",
-      "location": "East Side Thai, 879 Payne Ave",
-      "city": "St. Paul",
-      "type": "citizens",
-      "status": "resolved",
-      "affectedIndividualCitizenship": "us-citizen",
-      "injuries": "none",
-      "trustworthiness": "medium",
-      "created": "2026-01-21T19:05:36",
-      "lastUpdated": "2026-01-21T19:05:36",
-      "mediaCount": 0,
-      "notable": false,
-      "hasLocalMedia": true,
-      "localMediaType": "video",
-      "localMediaPath": "media/2026-01-19-east-side-thai-gun-drawn.mp4",
-      "localMediaOgPath": "media/2026-01-19-east-side-thai-gun-drawn-og-2s-1769151459.jpg",
-      "localMediaFiles": [
-        {
-          "type": "video",
-          "path": "media/2026-01-19-east-side-thai-gun-drawn.mp4"
-        }
-      ],
-      "aspectRatio": 1.835820895522388,
-      "mediaVersion": 1769151459
-    },
-    {
       "filePath": "incidents/2026-01/2026-01-19-dhs-response-saly-detention.md",
       "title": "DHS Response: Defends Detention of Hmong Citizen, Claims Sex Offender Targets at Large \u2014 Family Disputes as \"False\"",
       "summary": "A DHS response posted on X defends the detention of a U.S. citizen (ChongLy Scott Thao) at his St. Paul home, claiming ICE was conducting a \"targeted operation\" for two convicted sex offenders who \"remain at large.\" The statement claims the citizen \"refused to be fingerprinted or facially ID'd\" and \"matched the description of the targets.\"",
@@ -2865,14 +2834,14 @@
     },
     {
       "filePath": "incidents/2026-01/2026-01-07-teenager-tackled-snow.md",
-      "title": "Teenager Tackled in Snow by ICE Agent While Yelling \"I'm Legal\"",
-      "summary": "Video footage verified by the Associated Press shows an ICE agent chasing and tackling a teenager in the snow in Minneapolis on January 7, 2026. The teen, who had been in a car that hit a tree before the foot chase, was heard yelling \"I'm legal! I'm legal!\" while being restrained. Minnesota Secretary of State Steve Simon shared the video, calling it \"a cruel disgrace.\" The teenager's identity and outcome remain unknown.",
+      "title": "Teenager Tackled in Snow by ICE Agent",
+      "summary": "Video footage verified by the Associated Press shows an ICE agent chasing and tackling a teenager in the snow in Minneapolis on January 7, 2026. The teen, who had been in a car that hit a tree before the foot chase, can be heard yelling \"Yo soy legal\" (\"I am legal\" in Spanish) while being restrained face-down in the snow. Minnesota Secretary of State Steve Simon shared the video, calling it \"a cruel disgrace.\" The teenager's identity, legal status, and outcome remain unverified.",
       "latestUpdate": null,
       "date": "2026-01-07",
       "time": "unknown",
       "location": "Minneapolis",
       "city": "Minneapolis",
-      "type": "citizens",
+      "type": "immigrants",
       "status": "unknown",
       "affectedIndividualCitizenship": "unknown",
       "injuries": "unknown",
