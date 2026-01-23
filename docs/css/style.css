@@ -1908,3 +1908,89 @@ body {
     color: #7ba3c9 !important;
     text-decoration: none !important;
 }
+
+/* About page intro paragraph */
+.about-intro {
+    font-size: 0.9em;
+    color: #666;
+    font-style: italic;
+}
+
+.about-intro .about-last-updated {
+    font-weight: bold;
+}
+
+/* About page "Follow Us:" label */
+.about-follow-label {
+    color: #666;
+    font-size: 0.9em;
+    margin-right: 12px;
+}
+
+/* About page callout box (icon legend) */
+.about-callout-box {
+    background: #f8f9fa;
+    border: 1px solid #e2e2e2;
+    border-radius: 6px;
+    padding: 16px;
+    margin: 16px 0;
+}
+
+.about-callout-box p {
+    margin-bottom: 12px;
+}
+
+.about-callout-box p:last-child {
+    margin-bottom: 0;
+}
+
+/* About page note paragraphs */
+.about-note {
+    font-style: italic;
+    font-weight: bold;
+    color: #666;
+    margin-top: 1.5em;
+}
+
+/* About page external site callout */
+.about-external-callout {
+    color: #8a9aaf;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 1.5em;
+}
+
+.about-external-callout a {
+    color: #7ba3c9;
+}
+
+/* About page trustworthiness badges */
+.about-badge {
+    color: white;
+    padding: 2px 6px;
+    border-radius: 2px;
+    font-size: 0.75em;
+    font-weight: 700;
+}
+
+.about-badge-high {
+    background: var(--trust-high);
+}
+
+.about-badge-medium {
+    background: var(--trust-medium);
+}
+
+.about-badge-low {
+    background: var(--trust-low);
+}
+
+.about-badge-unverified {
+    background: #999;
+}
+
+/* Incident inline notes (e.g., Operation PARRIS pattern) */
+.incident-note {
+    color: #888;
+    font-style: italic;
+}

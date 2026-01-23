@@ -15,7 +15,7 @@ last_updated: 2026-01-20T22:24:33
 # High School Student with Legal Status Arrested in Downtown Willmar
 
 ## Summary
-Suban Noor, a 19-year-old Somali woman and 11th-grade student at Willmar Senior High School, was arrested by ICE agents in downtown Willmar while picking up food for her family. She had legal refugee status (Form I-94) and her family had an active Green Card application. The arrest caused approximately 90% of Somali students to miss school the following day. Noor was released five days later on Friday, Jan 17. <em style="color: #888;">**Note: This story seems to follow a pattern of Operation PARRIS (Post-Admission Refugee Reverification and Integrity Strengthening) -- see more details on this below.**</em>
+Suban Noor, a 19-year-old Somali woman and 11th-grade student at Willmar Senior High School, was arrested by ICE agents in downtown Willmar while picking up food for her family. She had legal refugee status (Form I-94) and her family had an active Green Card application. The arrest caused approximately 90% of Somali students to miss school the following day. Noor was released five days later on Friday, Jan 17. <em class="incident-note">**Note: This story seems to follow a pattern of Operation PARRIS (Post-Admission Refugee Reverification and Integrity Strengthening) -- see more details on this below.**</em>
 
 ## Sources
 1. West Central Tribune (Jan 13, 2026): [Federal immigration agents make arrests Monday in Willmar](https://www.wctrib.com/news/local/federal-immigration-agents-make-arrests-monday-in-willmar)

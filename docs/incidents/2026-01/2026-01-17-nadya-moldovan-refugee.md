@@ -17,7 +17,7 @@ last_updated: 2026-01-19T23:09:36
 ***No mainstream media has reported on this incident. It is based on social media posts only. If you have a media source, please [contact us](mailto:mnicewitness@gmail.com).***
 
 ## Summary
-Nadya, a Moldovan refugee with legal status awaiting her green card, was detained by ICE on January 17, 2026 while driving from her home to church with her husband and three children. Five ICE vehicles stopped the family shortly after they left their house. Despite the family explaining they had refugee status and were in the process of obtaining green cards, ICE detained only Nadya and released her husband and children. She has been held in poor conditions, in handcuffs and sleeping on the floor. <em style="color: #888;">**Note: This story seems to follow a pattern of Operation PARRIS (Post-Admission Refugee Reverification and Integrity Strengthening) -- see more details on this below.**</em>
+Nadya, a Moldovan refugee with legal status awaiting her green card, was detained by ICE on January 17, 2026 while driving from her home to church with her husband and three children. Five ICE vehicles stopped the family shortly after they left their house. Despite the family explaining they had refugee status and were in the process of obtaining green cards, ICE detained only Nadya and released her husband and children. She has been held in poor conditions, in handcuffs and sleeping on the floor. <em class="incident-note">**Note: This story seems to follow a pattern of Operation PARRIS (Post-Admission Refugee Reverification and Integrity Strengthening) -- see more details on this below.**</em>
 
 ## Sources
 1. GoFundMe Campaign: [Help Nadya's Family](https://gofund.me/98a7c81da) - Created by sister Victoria

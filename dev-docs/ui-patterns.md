@@ -102,5 +102,47 @@ All icons are defined in `docs/index.html`. Reference with `<use href="#icon-nam
 | `icon-fullscreen-exit` | Contracting corners | Exit fullscreen |
 | `icon-trust` | Shield with check | Trustworthiness indicator |
 | `icon-search` | Magnifying glass | Search button |
+| `icon-facebook` | Facebook logo | Social media links |
+| `icon-x` | X (Twitter) logo | Social media links |
+| `icon-instagram` | Instagram logo | Social media links |
+| `icon-threads` | Threads logo | Social media links |
+| `icon-bluesky` | Bluesky logo | Social media links |
 
 When adding new icons, add them to `docs/index.html` and document here.
+
+## Markdown File Strategy
+
+**Principle:** Markdown files should contain primarily text/content. Move code (HTML, CSS, SVG) to their proper locations.
+
+### What SHOULD be in markdown files
+
+- Pure markdown syntax (headers, lists, links, bold, italic, blockquotes)
+- YAML frontmatter (incident files)
+- Minimal HTML for specific needs:
+  - `<h2 id="...">` with anchor links (required for copy-link functionality)
+  - `<p class="...">` or `<div class="...">` using CSS classes (no inline styles)
+  - `<svg>` with `<use href="#icon-name"/>` references (not inline paths)
+  - `<em class="incident-note">` for styled notes
+
+### What should NOT be in markdown files
+
+- Inline `style="..."` attributes — use CSS classes instead
+- Inline SVG paths — add icons to `index.html` as symbols, use `<use href="#icon-name"/>`
+- Repeated styling patterns — extract to CSS classes
+
+### CSS Classes for Markdown Content
+
+| Class | Used In | Purpose |
+|-------|---------|---------|
+| `.about-intro` | about.md | Intro paragraph styling |
+| `.about-last-updated` | about.md | Bold timestamp |
+| `.about-follow-label` | about.md | "Follow Us:" label |
+| `.about-social` | about.md | Social media links container |
+| `.about-callout-box` | about.md | Icon legend box |
+| `.about-note` | about.md | Italic note paragraphs |
+| `.about-external-callout` | about.md | External link callout |
+| `.about-badge` | about.md | Trustworthiness badges base |
+| `.about-badge-high/medium/low/unverified` | about.md | Badge colors |
+| `.incident-note` | incident files | Styled inline notes |
+| `.media-icon` | various | Camera icon color |
+| `.viewed-icon` | various | Eye icon color |
