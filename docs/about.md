@@ -48,8 +48,6 @@ Incidents are organized into five categories:
 
 *Note: "Citizens" and "Observers" may both involve U.S. citizens. The distinction is whether they were encountered during routine activities (Citizens) or while engaged in observation/protest (Observers).*
 
-<p class="about-external-callout">For real-time, crowd-sourced ICE sighting reports and alerts, visit <a href="https://iceout.org/en/">iceout.org</a> (People Over Papers).</p>
-
 ### NEW/UPDATED
 
 When enabled, incidents are sorted by when they were added or last had a significant update (e.g., judge ruling, person released). This lets you easily see new content if you visit the site regularly. With this off, in the 'List' view incidents are sorted by category and then by incident date.
@@ -134,3 +132,7 @@ Multiple incidents on this site involve disputes over filming and observer condu
 **What is not protected:** Physical obstruction — blocking officers, surrounding vehicles, or stepping between an agent and a detainee — can result in federal charges.
 
 **Case outcomes:** A [ProPublica investigation](https://www.propublica.org/article/immigration-dhs-american-citizens-arrested-detained-against-will) found that of ~130 Americans arrested for allegedly impeding ICE officers, nearly 50 were never charged or had charges dismissed. In [Chicago](https://www.cbsnews.com/chicago/news/charges-dropped-broadview-ice-protesters-grand-jury/) and [Portland](https://www.opb.org/article/2025/12/03/protestors-arrested-at-portland-ice-facility-wait-months-without-charges/), most protester charges were dropped.
+
+<h2 id="related-resources">Related Resources <a href="#related-resources" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
+
+- [iceout.org](https://iceout.org/en/) — Real-time, crowd-sourced ICE sighting reports and alerts (People Over Papers)
