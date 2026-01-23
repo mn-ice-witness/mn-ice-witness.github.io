@@ -3,7 +3,7 @@ date: 2026-01-07
 time: unknown
 location: Minneapolis
 city: Minneapolis
-type: citizens
+type: immigrants
 status: unknown
 affected_individual_citizenship: unknown
 injuries: unknown
@@ -12,10 +12,10 @@ created: 2026-01-23T13:00:29
 last_updated: 2026-01-23T13:00:29
 ---
 
-# Teenager Tackled in Snow by ICE Agent While Yelling "I'm Legal"
+# Teenager Tackled in Snow by ICE Agent
 
 ## Summary
-Video footage verified by the Associated Press shows an ICE agent chasing and tackling a teenager in the snow in Minneapolis on January 7, 2026. The teen, who had been in a car that hit a tree before the foot chase, was heard yelling "I'm legal! I'm legal!" while being restrained. Minnesota Secretary of State Steve Simon shared the video, calling it "a cruel disgrace." The teenager's identity and outcome remain unknown.
+Video footage verified by the Associated Press shows an ICE agent chasing and tackling a teenager in the snow in Minneapolis on January 7, 2026. The teen, who had been in a car that hit a tree before the foot chase, can be heard yelling "Yo soy legal" ("I am legal" in Spanish) while being restrained face-down in the snow. Minnesota Secretary of State Steve Simon shared the video, calling it "a cruel disgrace." The teenager's identity, legal status, and outcome remain unverified.
 
 ## Sources
 1. The Mirror (Jan 23, 2026): [Horror video appears to show screaming minor being chased down and detained by ICE](https://www.themirror.com/news/us-news/ice-arrests-immigration-minors-protests-1636242)
@@ -27,8 +27,8 @@ Video footage verified by the Associated Press shows an ICE agent chasing and ta
 ## Affected Individual(s)
 - **Name:** Unknown
 - **Age:** Teenager (minor)
-- **Citizenship:** Claims to be legal ("I'm legal! I'm legal!")
-- **Status:** Unknown
+- **Legal Status:** Unverified (teen yelled "Yo soy legal" during detention)
+- **Outcome:** Unknown
 
 ## What Happened
 According to the Associated Press, which independently verified the video:
@@ -36,7 +36,7 @@ According to the Associated Press, which independently verified the video:
 1. A teenager was in a car that hit a tree
 2. An ICE agent chased the teen on foot
 3. The agent tackled the teenager in the snow
-4. While being restrained, the teen yelled "I'm legal! I'm legal!"
+4. While restrained face-down, the teen yelled "Yo soy legal" ("I am legal")
 5. The teen was handcuffed and taken into custody
 
 The video was recorded by Minneapolis resident Skylar Fehlen, who told the AP the teenager was "yelling for help" before being tackled.
@@ -49,6 +49,8 @@ Simon shared the video on X, writing:
 > "ICE agents in Minneapolis chase, tackle, and handcuff a child in the freezing cold and snow while he yells 'I'm legal! I'm legal!' How does this make us safer? How does this target 'the worst of the worst?' Horrifying and shameful."
 
 He called the incident "a cruel disgrace."
+
+*Note: The Mirror reports the teen said "Yo soy legal" (Spanish). Simon's post quoted it in English.*
 
 ## Context
 This incident occurred on the same day as the fatal shooting of Renee Good by ICE agent Jonathan Ross in Minneapolis, during the early days of Operation Metro Surge.
