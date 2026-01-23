@@ -1,6 +1,6 @@
 # About This Site
 
-<p class="about-intro">A free, fact-based documentation of ICE enforcement and its impact on Minnesota communities, maintained by community volunteers. If you find this site useful, please help share. To report an incident (must be sourced by a reputable media outlet), submit a correction, or share additional media for a listed incident, contact us at <a href="mailto:mnicewitness@gmail.com">mnicewitness@gmail.com</a>. We are also seeking help verifying <a href="/unverified">unverified reports</a>. <span class="about-last-updated">Last updated: January 23, 2026</span></p>
+<p class="about-intro">A free, fact-based documentation of ICE enforcement and its impact on Minnesota communities, maintained by community volunteers. If you find this site useful, please help share. To report an incident (must be sourced by a reputable media outlet), submit a correction, or share additional media for a listed incident, contact us at <a href="mailto:mnicewitness@gmail.com">mnicewitness@gmail.com</a> — please include compelling social media links as it's often hard to track those down. We are also seeking help verifying <a href="/unverified">unverified reports</a>. <span class="about-last-updated">Last updated: January 23, 2026</span></p>
 
 <p class="about-social"><span class="about-follow-label">Follow Us:</span>
 <a href="https://www.facebook.com/profile.php?id=61586835122502" target="_blank" title="Follow on Facebook"><svg width="17" height="17"><use href="#icon-facebook"/></svg></a>
