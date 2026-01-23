@@ -1,37 +1,6 @@
 {
   "incidents": [
     {
-      "filePath": "incidents/_no_add/2026-01-19-east-side-thai-gun-drawn.md",
-      "title": "ICE Agent Enters East Side Thai Restaurant With Gun Drawn",
-      "summary": "An ICE agent entered East Side Thai restaurant at 879 Payne Ave in St. Paul with his handgun drawn on MLK Day while pursuing someone who had run past the business. The agent accused the owners of hiding the person, which was false. The incident traumatized approximately 10 customers and 7 staff members. No one was detained at the restaurant.",
-      "latestUpdate": null,
-      "date": "Unknown",
-      "time": "unknown",
-      "location": "Unknown location",
-      "city": "Minneapolis",
-      "type": "unknown",
-      "status": "unknown",
-      "affectedIndividualCitizenship": "unknown",
-      "injuries": "unknown",
-      "trustworthiness": "unverified",
-      "created": null,
-      "lastUpdated": "Unknown",
-      "mediaCount": 0,
-      "notable": false,
-      "hasLocalMedia": true,
-      "localMediaType": "video",
-      "localMediaPath": "media/2026-01-19-east-side-thai-gun-drawn.mp4",
-      "localMediaOgPath": "media/2026-01-19-east-side-thai-gun-drawn-og-2s-1769151459.jpg",
-      "localMediaFiles": [
-        {
-          "type": "video",
-          "path": "media/2026-01-19-east-side-thai-gun-drawn.mp4"
-        }
-      ],
-      "aspectRatio": 1.835820895522388,
-      "mediaVersion": 1769151459
-    },
-    {
       "filePath": "incidents/2026-01/2026-01-22-tipan-toddler-father-detained.md",
       "title": "2-Year-Old and Father Detained During Traffic Stop; Judge Orders Toddler Released",
       "summary": "ICE detained Elvis Joel Tipan Echeverria and his 2-year-old daughter Chloe Renata Tipan Villacis during a traffic stop in South Minneapolis as they drove home from the grocery store. Minneapolis City Council member Jason Chavez reported the detention and organized community support. A federal judge ordered the toddler released by 9:30 PM the following day after attorneys filed emergency habeas corpus petitions citing asylum claims and warrantless arrest.",
@@ -365,6 +334,37 @@
         }
       ],
       "aspectRatio": 1.3528748590755355,
+      "mediaVersion": 1769151459
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-19-east-side-thai-gun-drawn.md",
+      "title": "ICE Agent Enters East Side Thai Restaurant With Gun Drawn",
+      "summary": "An ICE agent entered East Side Thai restaurant at 879 Payne Ave in St. Paul with his handgun drawn on MLK Day while pursuing someone who had run past the business. The agent accused the owners of hiding the person, which was false. The incident traumatized approximately 10 customers and 7 staff members. No one was detained at the restaurant.",
+      "latestUpdate": null,
+      "date": "2026-01-19",
+      "time": "afternoon",
+      "location": "East Side Thai, 879 Payne Ave",
+      "city": "St. Paul",
+      "type": "citizens",
+      "status": "resolved",
+      "affectedIndividualCitizenship": "us-citizen",
+      "injuries": "none",
+      "trustworthiness": "medium",
+      "created": "2026-01-21T19:05:36",
+      "lastUpdated": "2026-01-21T19:05:36",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-19-east-side-thai-gun-drawn.mp4",
+      "localMediaOgPath": "media/2026-01-19-east-side-thai-gun-drawn-og-2s-1769151459.jpg",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-19-east-side-thai-gun-drawn.mp4"
+        }
+      ],
+      "aspectRatio": 1.835820895522388,
       "mediaVersion": 1769151459
     },
     {
@@ -2779,7 +2779,7 @@
       "filePath": "incidents/2026-01/2026-01-07-renee-good-shooting.md",
       "title": "Renee Nicole Good Shot and Killed by ICE Agent",
       "summary": "Renee Nicole Good, a 37-year-old U.S. citizen, was fatally shot by ICE agent Jonathan Ross after she stopped her SUV in the street near where agents were conducting immigration enforcement. Good had just dropped her 6-year-old son off at school.",
-      "latestUpdate": null,
+      "latestUpdate": "[Hennepin County Medical Examiner](https://www.nbcnews.com/news/us-news/renee-good-was-shot-head-autopsy-commissioned-family-finds-rcna255335) ruled manner of death as \"homicide\" with cause of death \"multiple gunshot wounds.\"",
       "date": "2026-01-07",
       "time": "morning",
       "location": "34th Street, Powderhorn Park area",
@@ -2790,7 +2790,7 @@
       "injuries": "fatal",
       "trustworthiness": "high",
       "created": "2026-01-14T08:01:12",
-      "lastUpdated": "2026-01-14T08:01:12",
+      "lastUpdated": "2026-01-23T12:56:40",
       "mediaCount": 0,
       "notable": false,
       "hasLocalMedia": true,
@@ -2853,6 +2853,32 @@
       "trustworthiness": "high",
       "created": "2026-01-14T12:35:56",
       "lastUpdated": "2026-01-14T12:35:56",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaOgPath": null,
+      "localMediaFiles": [],
+      "aspectRatio": null,
+      "mediaVersion": null
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-07-teenager-tackled-snow.md",
+      "title": "Teenager Tackled in Snow by ICE Agent While Yelling \"I'm Legal\"",
+      "summary": "Video footage verified by the Associated Press shows an ICE agent chasing and tackling a teenager in the snow in Minneapolis on January 7, 2026. The teen, who had been in a car that hit a tree before the foot chase, was heard yelling \"I'm legal! I'm legal!\" while being restrained. Minnesota Secretary of State Steve Simon shared the video, calling it \"a cruel disgrace.\" The teenager's identity and outcome remain unknown.",
+      "latestUpdate": null,
+      "date": "2026-01-07",
+      "time": "unknown",
+      "location": "Minneapolis",
+      "city": "Minneapolis",
+      "type": "citizens",
+      "status": "unknown",
+      "affectedIndividualCitizenship": "unknown",
+      "injuries": "unknown",
+      "trustworthiness": "medium",
+      "created": "2026-01-23T13:00:29",
+      "lastUpdated": "2026-01-23T13:00:29",
       "mediaCount": 0,
       "notable": false,
       "hasLocalMedia": false,

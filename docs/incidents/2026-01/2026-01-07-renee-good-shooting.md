@@ -9,10 +9,14 @@ affected_individual_citizenship: us-citizen
 injuries: fatal
 trustworthiness: high
 created: 2026-01-14T08:01:12
-last_updated: 2026-01-14T08:01:12
+last_updated: 2026-01-23T12:56:40
 ---
 
 # Renee Nicole Good Shot and Killed by ICE Agent
+
+## Updates
+- **Jan 22** - [Hennepin County Medical Examiner](https://www.nbcnews.com/news/us-news/renee-good-was-shot-head-autopsy-commissioned-family-finds-rcna255335) ruled manner of death as "homicide" with cause of death "multiple gunshot wounds."
+- **Jan 21** - [Independent autopsy](https://www.startribune.com/law-firm-independent-autopsy/601568258) released by family attorneys (Romanucci & Blandin) reveals three gunshot wounds: left forearm, right breast (both non-life-threatening), and fatal head wound with entrance near left temple and exit on right side.
 
 ## Summary
 Renee Nicole Good, a 37-year-old U.S. citizen, was fatally shot by ICE agent Jonathan Ross after she stopped her SUV in the street near where agents were conducting immigration enforcement. Good had just dropped her 6-year-old son off at school.
@@ -47,6 +51,11 @@ Renee Nicole Good, a 37-year-old U.S. citizen, was fatally shot by ICE agent Jon
 27. CNN (Jan 16, 2026): [911 transcripts and incident report reveal where Good was shot](https://www.cnn.com/2026/01/16/us/renee-good-shooting-incident-report)
 28. NBC News (Jan 17, 2026): [Federal officials investigating Renee Good's partner](https://www.nbcnews.com/politics/justice-department/federal-officials-investigating-renee-goods-widow-shooting-probe-sourc-rcna254038)
 29. Truthout (Jan 17, 2026): [DOJ Push to Investigate Renee Good's Widow Sparks Mass Resignation](https://truthout.org/articles/doj-push-to-investigate-renee-goods-widow-sparks-mass-resignation/)
+30. Star Tribune (Jan 21, 2026): [Law firm's independent autopsy details Renee Good's gunshot wounds](https://www.startribune.com/law-firm-independent-autopsy/601568258)
+31. MPR News (Jan 22, 2026): [Independent autopsy outlines Renee Good's gunshot wounds](https://www.mprnews.org/story/2026/01/22/independent-autopsy-outlines-renee-goods-gunshot-wounds)
+32. NBC News (Jan 22, 2026): [Renee Good was shot in the head, autopsy commissioned by her family finds](https://www.nbcnews.com/news/us-news/renee-good-was-shot-head-autopsy-commissioned-family-finds-rcna255335)
+33. Washington Post (Jan 22, 2026): [Partial results of private autopsy on Renee Good released](https://www.washingtonpost.com/nation/2026/01/22/renee-good-shooting-autopsy-ice-minneapolis/)
+34. Common Dreams (Jan 22, 2026): [Independent Autopsy Provides 'Strong Evidence' Against ICE Agent Who Killed Renee Good](https://www.commondreams.org/news/renee-good)
 
 ## Affected Individual(s)
 - **Name:** Renee Nicole Good
