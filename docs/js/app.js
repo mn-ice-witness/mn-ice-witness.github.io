@@ -61,6 +61,14 @@ const App = {
         } else {
             ViewState.switchView(ViewState.getPreferredView(), true);
         }
+
+        // Preload top videos in background (useful when starting in list view)
+        const preload = () => MediaGallery.preloadTopVideos(4);
+        if ('requestIdleCallback' in window) {
+            requestIdleCallback(preload);
+        } else {
+            setTimeout(preload, 1000);
+        }
     },
 
     /**

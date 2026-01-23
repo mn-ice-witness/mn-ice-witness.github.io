@@ -12,6 +12,8 @@
  */
 
 const MediaGallery = {
+    preloadedVideos: new Set(),
+
     /**
      * Get number of columns based on viewport width
      */
@@ -127,6 +129,7 @@ const MediaGallery = {
         gallery.appendChild(footer);
 
         this.setupScrollToPlay(gallery);
+        this.setupPrefetchObserver(gallery);
     },
 
     /**
@@ -301,5 +304,59 @@ const MediaGallery = {
         document.querySelectorAll('.media-card .audio-toggle').forEach(btn => {
             btn.classList.add('muted');
         });
+    },
+
+    /**
+     * Preload top videos in background (call while in list view)
+     * Uses link preload for efficient background loading without creating video elements
+     */
+    async preloadTopVideos(count = 4) {
+        if (typeof App === 'undefined' || !App.incidents) return;
+
+        let mediaIncidents = App.incidents.filter(i => i.hasLocalMedia && i.localMediaType === 'video');
+        if (mediaIncidents.length === 0) return;
+
+        if (!ViewState.sortByUpdated) {
+            mediaIncidents = await this.sortByOrder(mediaIncidents);
+        }
+
+        const toPreload = mediaIncidents.slice(0, count);
+
+        toPreload.forEach(incident => {
+            const mediaUrl = App.getMediaUrl(incident.localMediaPath, incident.mediaVersion);
+            if (this.preloadedVideos.has(mediaUrl)) return;
+
+            const link = document.createElement('link');
+            link.rel = 'preload';
+            link.as = 'video';
+            link.href = mediaUrl;
+            document.head.appendChild(link);
+
+            this.preloadedVideos.add(mediaUrl);
+        });
+    },
+
+    /**
+     * Setup prefetch observer for videos approaching viewport
+     * Uses larger root margin to start loading before visible
+     */
+    setupPrefetchObserver(gallery) {
+        const videos = gallery.querySelectorAll('.media-card-video');
+
+        const prefetchObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const video = entry.target;
+                    const src = video.src.split('#')[0];
+                    if (!this.preloadedVideos.has(src)) {
+                        video.preload = 'auto';
+                        this.preloadedVideos.add(src);
+                    }
+                    prefetchObserver.unobserve(video);
+                }
+            });
+        }, { rootMargin: '200px 0px' });
+
+        videos.forEach(video => prefetchObserver.observe(video));
     }
 };
