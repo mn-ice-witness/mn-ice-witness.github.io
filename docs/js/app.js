@@ -24,14 +24,29 @@ const App = {
         'fatal': 'FATAL'
     },
 
-    // Section configuration
-    sections: [
-        { type: 'citizens', title: 'U.S. Citizens / Legal Residents', desc: 'U.S. Citizens / Legal Residents stopped or detained while going about their daily lives' },
-        { type: 'observers', title: 'Bystanders & Observers', desc: 'People filming, observing, or nearby who were confronted or detained.' },
-        { type: 'immigrants', title: 'Community Members Targeted', desc: 'Documented encounters affecting community members, some involving apparent legal violations.' },
-        { type: 'schools-hospitals', title: 'Schools & Hospitals', desc: 'Enforcement activity in or near sensitive locations.' },
-        { type: 'response', title: 'Official Responses', desc: 'Statements and responses from federal, state, and local officials.' }
-    ],
+    // Section configuration - populated from HTML on init
+    sections: [],
+
+    // Read section titles/descriptions from HTML (single source of truth)
+    initSections() {
+        // Maps data type -> HTML element ID
+        const typeToId = {
+            'citizens': 'citizens',
+            'observers': 'observers',
+            'immigrants': 'immigrants',
+            'schools-hospitals': 'schools',
+            'response': 'response'
+        };
+        this.sections = Object.entries(typeToId).map(([type, id]) => {
+            const el = document.getElementById(id);
+            if (!el) return { type, title: type, desc: '' };
+            return {
+                type,
+                title: el.querySelector('.section-title')?.textContent || type,
+                desc: el.querySelector('.section-desc')?.textContent || ''
+            };
+        });
+    },
 
     // Delegate to Router
     get sectionHashes() { return Router.sectionHashes; },
@@ -41,6 +56,7 @@ const App = {
      * Initialize the application
      */
     async init() {
+        this.initSections();
         await this.loadIncidents();
 
         // Initialize modules
