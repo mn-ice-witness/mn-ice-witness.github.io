@@ -134,6 +134,7 @@ Use documentary tone. Let facts speak for themselves.
 | **Notable incidents feature** | `notable-incidents.md` |
 | **Operation PARRIS context** | `operation-parris.md` |
 | **Outreach/sharing** | `outreach-templates.md`, `contacts.md` |
+| **OG image (social sharing)** | `og-image.md` |
 
 ---
 
@@ -148,6 +149,7 @@ GIT_MN_ICE_FILES/
 │   └── timestamp.sh     # Get current timestamp
 ├── scripts/
 │   ├── generate_summary.py   # Creates incidents-summary.json
+│   ├── generate_og_image.py  # Creates og-image.jpg collage
 │   └── process_media.py      # Compresses raw_media → docs/media
 ├── raw_media/           # Source video/images (NEVER modified)
 └── docs/                # Website content (deployed to Cloudflare)
@@ -194,6 +196,7 @@ GIT_MN_ICE_FILES/
 | `media-controls.md` | Video player, fullscreen |
 | `adding-video-audio.md` | System audio capture |
 | `media-candidates.md` | Videos to research |
+| `og-image.md` | Social sharing image generation |
 
 ### Research & Content
 | Doc | Contents |
@@ -244,6 +247,9 @@ python-main scripts/process_media.py
 
 # Regenerate incidents JSON
 python-main scripts/generate_summary.py
+
+# Generate OG image from source folder
+python-main scripts/generate_og_image.py docs/og-image
 
 # Get current timestamp (ALWAYS use this)
 ./bin/timestamp.sh

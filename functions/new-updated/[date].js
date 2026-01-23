@@ -1,80 +1,23 @@
 /**
  * Cloudflare Pages Function for /new-updated/[date]
  *
- * Intercepts new-updated URLs, injects Open Graph meta tags for social media sharing,
- * and returns the main index.html. The date format is MM-DD-YYYY.
+ * Redirects old URLs to new /summaries/ URLs.
+ * Old format: /new-updated/MM-DD-YYYY
+ * New format: /summaries/YYYY-MM-DD/
  */
 
 export async function onRequest(context) {
   const { params } = context;
-  const dateStr = params.date;
+  const dateStr = params.date; // MM-DD-YYYY
 
-  const baseUrl = new URL(context.request.url);
-  baseUrl.pathname = '/index.html';
-
-  const indexResponse = await fetch(baseUrl.toString());
-  let html = await indexResponse.text();
-
-  const ogTags = buildOgTags(dateStr, baseUrl.origin);
-  html = injectOgTags(html, ogTags);
-
-  return new Response(html, {
-    headers: {
-      'Content-Type': 'text/html;charset=UTF-8',
-    },
-  });
-}
-
-function buildOgTags(dateStr, origin) {
-  const url = `${origin}/new-updated/${dateStr}`;
-  const title = `New & Updated: ${formatDate(dateStr)}`;
-  const description = `Incidents added or updated on ${formatDate(dateStr)} documenting ICE/CBP civil rights incidents in Minnesota.`;
-  const image = `${origin}/assets/og-image.jpg`;
-
-  return {
-    'og:title': `${title} | MN ICE Witness`,
-    'og:description': description,
-    'og:url': url,
-    'og:image': image,
-    'og:type': 'website',
-    'twitter:card': 'summary_large_image',
-    'twitter:title': `${title} | MN ICE Witness`,
-    'twitter:description': description,
-    'twitter:image': image,
-  };
-}
-
-function formatDate(dateStr) {
   const parts = dateStr.split('-');
   if (parts.length === 3) {
     const [month, day, year] = parts;
-    const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
-    const monthIndex = parseInt(month, 10) - 1;
-    if (monthIndex >= 0 && monthIndex < 12) {
-      return `${monthNames[monthIndex]} ${parseInt(day, 10)}, ${year}`;
-    }
-  }
-  return dateStr;
-}
+    const isoDate = `${year}-${month}-${day}`;
+    const newUrl = `/summaries/${isoDate}/`;
 
-function injectOgTags(html, tags) {
-  const metaTags = Object.entries(tags).map(([key, value]) => {
-    const escapedValue = value.replace(/"/g, '&quot;');
-    if (key.startsWith('og:')) {
-      return `    <meta property="${key}" content="${escapedValue}">`;
-    } else {
-      return `    <meta name="${key}" content="${escapedValue}">`;
-    }
-  }).join('\n');
-
-  if (html.includes('<!-- Open Graph / Social Media -->')) {
-    html = html.replace(
-      /<!-- Open Graph \/ Social Media -->[\s\S]*?<!-- Twitter Card -->[\s\S]*?<meta name="twitter:image"[^>]*>/,
-      `<!-- Open Graph / Social Media -->\n${metaTags}`
-    );
-  } else {
-    html = html.replace('</head>', `${metaTags}\n</head>`);
+    return Response.redirect(new URL(newUrl, context.request.url).toString(), 301);
   }
 
-  return html;
+  return new Response('Invalid date format. Expected: MM-DD-YYYY', { status: 400 });
 }

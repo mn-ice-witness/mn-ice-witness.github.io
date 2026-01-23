@@ -65,6 +65,15 @@ const Router = {
         if (path.startsWith('/new-updated/')) {
             return { type: 'new-updated', dateStr: path.replace('/new-updated/', ''), filter };
         }
+        if (path.startsWith('/summaries/')) {
+            // Convert YYYY-MM-DD to MM-DD-YYYY for lightbox
+            const isoDate = path.replace('/summaries/', '').replace(/\/$/, '');
+            const parts = isoDate.split('-');
+            if (parts.length === 3) {
+                const dateStr = `${parts[1]}-${parts[2]}-${parts[0]}`;
+                return { type: 'new-updated', dateStr, filter };
+            }
+        }
         if (path === '/unverified') {
             return { type: 'unverified', filter };
         }
