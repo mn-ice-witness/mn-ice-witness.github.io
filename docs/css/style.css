@@ -415,8 +415,8 @@ body {
 .nav-dropdown {
     display: none;
     width: 100%;
-    padding: 8px 12px;
-    font-size: 0.85rem;
+    padding: 6px 10px;
+    font-size: 0.64rem;
     font-weight: 600;
     font-family: var(--font-sans);
     color: var(--color-text);
