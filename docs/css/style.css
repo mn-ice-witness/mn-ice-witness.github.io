@@ -421,8 +421,8 @@ body {
 }
 
 .view-btn {
-    padding: 6px 14px;
-    font-size: 1rem;
+    padding: 5px 12px;
+    font-size: 1.1rem;
     font-weight: 600;
     color: var(--color-text-secondary);
     background: #dae1e8;
@@ -1991,7 +1991,7 @@ body {
 /* About page intro paragraph */
 .about-intro {
     font-size: 0.9em;
-    color: #666;
+    color: #444;
     font-style: italic;
 }
 
