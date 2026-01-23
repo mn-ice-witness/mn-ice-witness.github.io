@@ -13,6 +13,7 @@
 
 
 
+
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -61,6 +62,7 @@ nasra-ahmed-st-paul-citizen
 lyn-lake-tear-gas
 brandon-saenz-doordash
 hani-duglof-medical
+tipan-toddler-father-detained
 pickup-truck-rams-protesters
 mercado-central-mother-children
 christina-rank-teacher
