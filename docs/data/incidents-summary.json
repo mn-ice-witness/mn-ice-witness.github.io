@@ -338,7 +338,7 @@
     },
     {
       "filePath": "incidents/2026-01/2026-01-19-east-side-thai-gun-drawn.md",
-      "title": "ICE Agent Enters East Side Thai Restaurant With Gun Drawn",
+      "title": "ICE Agent Enters Restaurant With Gun Drawn While Chasing Child",
       "summary": "An ICE agent entered East Side Thai restaurant at 879 Payne Ave in St. Paul with his handgun drawn on MLK Day while pursuing someone who had run past the business. The agent accused the owners of hiding the person, which was false. The incident traumatized approximately 10 customers and 7 staff members. No one was detained at the restaurant.",
       "latestUpdate": null,
       "date": "2026-01-19",
@@ -2881,13 +2881,18 @@
       "lastUpdated": "2026-01-23T13:00:29",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaOgPath": null,
-      "localMediaFiles": [],
-      "aspectRatio": null,
-      "mediaVersion": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-07-teenager-tackled-snow.mp4",
+      "localMediaOgPath": "media/2026-01-07-teenager-tackled-snow-og-2s-1769196137.jpg",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-07-teenager-tackled-snow.mp4"
+        }
+      ],
+      "aspectRatio": 0.6277777777777778,
+      "mediaVersion": 1769196137
     },
     {
       "filePath": "incidents/2026-01/2026-01-07-roosevelt-high-school.md",
