@@ -422,7 +422,7 @@ body {
 
 .view-btn {
     padding: 8px 20px;
-    font-size: 0.85rem;
+    font-size: 1rem;
     font-weight: 600;
     color: var(--color-text-secondary);
     background: #dae1e8;
