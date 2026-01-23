@@ -26,7 +26,7 @@ const App = {
 
     // Section configuration
     sections: [
-        { type: 'citizens', title: 'U.S. Citizens Detained', desc: 'American citizens stopped, questioned, or detained by federal agents during immigration enforcement.' },
+        { type: 'citizens', title: 'U.S. Citizens / Legal Residents', desc: 'U.S. Citizens / Legal Residents stopped or detained while going about their daily lives' },
         { type: 'observers', title: 'Bystanders & Observers', desc: 'People filming, observing, or nearby who were confronted or detained.' },
         { type: 'immigrants', title: 'Community Members Targeted', desc: 'Documented encounters affecting community members, some involving apparent legal violations.' },
         { type: 'schools-hospitals', title: 'Schools & Hospitals', desc: 'Enforcement activity in or near sensitive locations.' },
