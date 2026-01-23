@@ -75,4 +75,4 @@ DHS did not address Vermie's detention specifically but issued a general stateme
 - [Attorneys denied access at Whipple Building](/entry/2026-01-15-whipple-lawyers-denied-access)
 
 ## Editorial Assessment
-**HIGH** - ABC News video interview with victim, KARE 11 investigation, named affected individual and attorney with direct quotes, specific location and details. National news coverage including syndication to multiple outlets.
+**HIGH** - ABC News video interview with Vermie, KARE 11 investigation, named affected individual and attorney with direct quotes, specific location and details. National news coverage including syndication to multiple outlets.

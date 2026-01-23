@@ -56,4 +56,4 @@ No specific statement has been issued regarding this incident.
 This incident occurred the same morning that Renee Good was fatally shot by ICE agent Jonathan Ross in Minneapolis. The timing may have influenced ICE's decision to release Orozco. State Rep. Brad Tabke documented ICE activity at a DR Horton homebuilding operation in Shakopee around this time, with workers installing roofs coming under ICE scrutiny.
 
 ## Editorial Assessment
-**MEDIUM** - Single source (Sahan Journal) with named affected individual and direct quotes. Victim sought medical attention for documented injuries. Pattern consistent with other citizen detentions during Operation Metro Surge. Awaiting corroboration from additional news outlets.
+**MEDIUM** - Single source (Sahan Journal) with named affected individual and direct quotes. He sought medical attention for documented injuries. Pattern consistent with other citizen detentions during Operation Metro Surge. Awaiting corroboration from additional news outlets.
