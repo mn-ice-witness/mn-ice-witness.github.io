@@ -81,6 +81,8 @@ const App = {
         const route = Router.parseUrl();
         if (route.type === 'list' || route.category) {
             ViewState.switchView('list', true);
+        } else if (route.type === 'media') {
+            ViewState.switchView('media', true);
         } else {
             ViewState.switchView(ViewState.getPreferredView(), true);
         }
@@ -142,6 +144,15 @@ const App = {
     handleInitialRoute() {
         const route = Router.parseUrl();
         Router.upgradeLegacyUrl(route);
+
+        // Redirect bare '/' to preferred view
+        if (route.type === 'home') {
+            const preferredView = ViewState.getPreferredView();
+            const newPath = Router.buildUrl(preferredView);
+            history.replaceState(null, '', newPath);
+            route.type = preferredView;
+        }
+
         this.openFromRoute(route);
     },
 
@@ -185,6 +196,10 @@ const App = {
                     ViewState.disableSortByUpdated();
                     this.scrollToSection(route.category);
                 }
+                break;
+
+            case 'media':
+                ViewState.switchView('media', true);
                 break;
 
             case 'home':

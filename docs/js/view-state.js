@@ -35,8 +35,8 @@ const ViewState = {
         const route = Router.parseUrl();
         const urlHasFilter = route.filter === 'new';
 
-        // Only sync for home/list routes (not lightbox content)
-        if (route.type !== 'home' && route.type !== 'list') return;
+        // Only sync for media/list routes (not lightbox content)
+        if (route.type !== 'media' && route.type !== 'list') return;
 
         // If state and URL match, nothing to do
         if (this.sortByUpdated === urlHasFilter) return;
@@ -199,7 +199,7 @@ const ViewState = {
      * Update URL to include or remove ?filter=new based on sortByUpdated state
      */
     updateUrlWithFilter() {
-        const basePath = this.currentView === 'list' ? Router.buildUrl('list') : '/';
+        const basePath = this.currentView === 'list' ? Router.buildUrl('list') : Router.buildUrl('media');
         const newUrl = Router.buildUrlWithFilter(basePath, this.sortByUpdated);
         window.history.replaceState({}, '', newUrl);
     },
@@ -299,15 +299,19 @@ const ViewState = {
      */
     updateUrlView(view) {
         localStorage.setItem('preferredView', view);
-        const basePath = view === 'list' ? Router.buildUrl('list') : '/';
+        const basePath = view === 'list' ? Router.buildUrl('list') : Router.buildUrl('media');
         const newUrl = Router.buildUrlWithFilter(basePath, this.sortByUpdated);
         window.history.replaceState({}, '', newUrl);
     },
 
     /**
      * Get preferred view from localStorage
+     * First-time visitors: desktop -> media, mobile -> list
      */
     getPreferredView() {
-        return localStorage.getItem('preferredView') || 'list';
+        const stored = localStorage.getItem('preferredView');
+        if (stored) return stored;
+        const isMobile = window.innerWidth < 768;
+        return isMobile ? 'list' : 'media';
     }
 };

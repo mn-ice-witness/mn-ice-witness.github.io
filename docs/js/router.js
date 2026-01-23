@@ -17,7 +17,7 @@ const Router = {
 
     /**
      * Build a clean path-based URL
-     * @param {string} type - 'incident', 'about', 'list', 'unverified', or 'home'
+     * @param {string} type - 'incident', 'about', 'list', 'media', 'unverified', or 'home'
      * @param {string|null} slug - Optional slug/section/category
      * @returns {string} URL path
      */
@@ -29,6 +29,8 @@ const Router = {
                 return slug ? `/about/${slug}` : '/about';
             case 'list':
                 return slug ? `/list/${slug}` : '/list';
+            case 'media':
+                return '/media';
             case 'new-updated':
                 return `/new-updated/${slug}`;
             case 'unverified':
@@ -62,6 +64,9 @@ const Router = {
             const category = path.replace('/list', '').replace(/^\//, '') || null;
             return { type: 'list', category, filter };
         }
+        if (path === '/media') {
+            return { type: 'media', filter };
+        }
         if (path.startsWith('/new-updated/')) {
             return { type: 'new-updated', dateStr: path.replace('/new-updated/', ''), filter };
         }
@@ -90,7 +95,7 @@ const Router = {
                 return { type: 'list', category: hash, legacy: true, filter };
             }
             if (hash === 'media') {
-                return { type: 'home', legacy: true, filter };
+                return { type: 'media', legacy: true, filter };
             }
             if (hash.startsWith('new-updated-')) {
                 return { type: 'new-updated', dateStr: hash.replace('new-updated-', ''), legacy: true, filter };
@@ -149,6 +154,9 @@ const Router = {
                 break;
             case 'list':
                 newPath = this.buildUrl('list', route.category);
+                break;
+            case 'media':
+                newPath = this.buildUrl('media');
                 break;
             case 'new-updated':
                 newPath = this.buildUrl('new-updated', route.dateStr);

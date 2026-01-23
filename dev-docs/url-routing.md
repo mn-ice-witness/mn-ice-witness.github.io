@@ -14,13 +14,15 @@ The site uses **clean path-based URLs** that work well for:
 
 | Content | URL Pattern | Example |
 |---------|-------------|---------|
-| Home (media view) | `/` | `mn-ice-witness.org/` |
+| Media gallery | `/media` | `mn-ice-witness.org/media` |
+| List view | `/list` | `mn-ice-witness.org/list` |
+| List category | `/list/<category>` | `mn-ice-witness.org/list/citizens` |
 | Incident | `/entry/<slug>` | `mn-ice-witness.org/entry/2026-01-20-trump-mistakes-happen` |
 | About page | `/about` | `mn-ice-witness.org/about` |
 | About section | `/about/<section>` | `mn-ice-witness.org/about/sources-used` |
-| List view | `/list` | `mn-ice-witness.org/list` |
-| List category | `/list/<category>` | `mn-ice-witness.org/list/citizens` |
 | New & Updated | `/new-updated/<date>` | `mn-ice-witness.org/new-updated/01-20-2026` |
+
+**Note:** The bare URL `/` redirects to the user's preferred view (`/list` or `/media`) stored in localStorage. First-time visitors go to `/list`.
 
 ### Filter Parameter
 
@@ -55,6 +57,8 @@ functions/                      # At project root, not in docs/
 │   └── [[path]].js            # Handles /about and /about/<section>
 ├── list/
 │   └── [[category]].js        # Handles /list and /list/<category>
+├── media/
+│   └── index.js               # Handles /media
 └── new-updated/
     └── [date].js              # Handles /new-updated/<MM-DD-YYYY>
 docs/
@@ -137,9 +141,11 @@ This routing system touches:
 | `functions/entry/[slug].js` | OG tags for incidents |
 | `functions/about/[[path]].js` | OG tags for about pages |
 | `functions/list/[[category]].js` | OG tags for list views |
+| `functions/media/index.js` | OG tags for media gallery |
 | `functions/new-updated/[date].js` | OG tags for new-updated pages |
 | `docs/js/router.js` | URL parsing, building |
 | `docs/js/app.js` | Route handling |
+| `docs/js/view-state.js` | View preference and URL updates |
 | `docs/js/lightbox.js` | URL updates when opening/closing |
 | `bin/run-server.sh` | Wrangler for local dev |
 
