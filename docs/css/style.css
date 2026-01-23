@@ -90,7 +90,7 @@ body {
 }
 
 .splash-1 {
-    background: url('../images/splash-4.jpg?v=9') center/cover no-repeat;
+    background: url('../og-image/og_image_3.jpg?v=10') center/cover no-repeat;
     top: 5%;
     left: -5%;
     transform: rotate(-6deg) scale(0.8);
@@ -99,7 +99,7 @@ body {
 }
 
 .splash-2 {
-    background: url('../images/splash-5.jpg?v=9') center/cover no-repeat;
+    background: url('../og-image/og_image_4.jpg?v=10') center/cover no-repeat;
     bottom: 5%;
     right: -5%;
     transform: rotate(4deg) scale(0.8);
@@ -108,7 +108,7 @@ body {
 }
 
 .splash-3 {
-    background: url('../images/splash-3.jpg?v=9') center/cover no-repeat;
+    background: url('../og-image/og_image_2.jpg?v=10') center/cover no-repeat;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.8);
@@ -118,7 +118,7 @@ body {
 }
 
 .splash-4 {
-    background: url('../images/splash-1.jpg?v=9') center/cover no-repeat;
+    background: url('../og-image/og_image_0.jpg?v=10') center/cover no-repeat;
     top: 5%;
     right: -5%;
     transform: rotate(5deg) scale(0.8);
@@ -128,7 +128,7 @@ body {
 }
 
 .splash-5 {
-    background: url('../images/splash-2.jpg?v=9') center/cover no-repeat;
+    background: url('../og-image/og_image_1.jpg?v=10') center/cover no-repeat;
     bottom: 5%;
     left: -5%;
     transform: rotate(-4deg) scale(0.8);
@@ -369,6 +369,9 @@ body {
     padding: 8px 16px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    position: sticky;
+    top: 49px;
+    z-index: 100;
 }
 
 .nav-inner {
