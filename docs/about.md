@@ -64,32 +64,6 @@ When enabled, incidents are sorted by when they were added or last had a signifi
 
 </div>
 
-### Examples
-
-**U.S. Citizens:**
-- [U.S. citizen tackled and detained during lunch break](#2025-12-10-mubashir-wrongful-detention)
-- [Two Target employees, both U.S. citizens, detained and injured](#2026-01-08-target-richfield-employees)
-- [Woodbury man detained 9 hours for filming ICE agents](#2026-01-13-ryan-ecklund-filming-detained)
-- [Brandon Sigüenza detained, pepper-sprayed, interrogated about organizers](#2026-01-12-siguenza-okeefe-detained)
-- [Native American U.S. citizen punched and detained](#2026-01-08-jose-ramirez-native-american)
-- [Latino U.S. citizen's car rammed by ICE; released after confirming identity](#2026-01-12-christian-molina-car-rammed)
-
-**Legal Residents:**
-- [Legal resident brutalized by Border Patrol, hospitalized](#2026-01-09-juan-carlos-brutality)
-- [Libyan man with legal status detained and shackled despite medical condition](#2026-01-11-hani-duglof-medical)
-- [High school student with legal refugee status arrested](#2026-01-13-willmar-student-arrested)
-
-**Families and Children:**
-- [13-year-old boy handcuffed, thrown to ground](#2025-12-11-eden-prairie-13-year-old)
-- [Parents separated from 7-year-old; forced entry captured on Ring camera](#2025-12-06-burnsville-family-separated)
-
-**Observers and Bystanders:**
-- [Aliya Rahman dragged from car, hospitalized](#2026-01-13-aliya-rahman-car-window-hospitalized)
-- [Two observers detained 8 hours, pressured to name organizers](#2026-01-12-siguenza-okeefe-detained)
-
-**Schools:**
-- [Border Patrol agents at Roosevelt High School; staff member detained](#2026-01-07-roosevelt-high-school)
-
 <h2 id="purpose">Purpose <a href="#purpose" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
 This site does not take a position on immigration policy. It documents reported incidents in Minnesota and the individuals affected.
