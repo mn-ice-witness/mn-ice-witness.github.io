@@ -143,14 +143,32 @@ This routing system touches:
 | `docs/js/lightbox.js` | URL updates when opening/closing |
 | `bin/run-server.sh` | Wrangler for local dev |
 
+## Inter-Incident Links
+
+Incident markdown files can link to other incidents using path URLs:
+
+```markdown
+See: [DHS Response](/entry/2026-01-18-dhs-response-juan-carlos)
+```
+
+`setupIncidentLinks()` in `lightbox.js` intercepts these clicks and opens the linked incident in the same lightbox via `openIncidentBySlug()`. This:
+- Saves scroll position of the current incident
+- Pushes new history state for the linked incident
+- Allows back-button to return to the previous incident with scroll restored
+
+**Both link formats work:**
+- Path links: `/entry/slug` (preferred for new content)
+- Hash links: `#slug` (legacy, still supported)
+
 ## Testing
 
 1. Start local server: `./bin/run-server.sh`
 2. Open `http://localhost:8000`
-3. Click an incident - URL should change to `/incident/slug`
-4. Copy link - should copy the `/incident/slug` URL
+3. Click an incident - URL should change to `/entry/slug`
+4. Copy link - should copy the `/entry/slug` URL
 5. Paste that URL directly - should open the incident
 6. Test legacy URLs like `/#slug` - should redirect to clean URL
+7. **Test inter-incident links:** Open an incident that links to another (e.g., Juan Carlos → DHS Response), close the second, verify back-button returns to first with scroll preserved
 
 ## Troubleshooting
 

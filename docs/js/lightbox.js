@@ -533,13 +533,27 @@ const Lightbox = {
 
     /**
      * Setup incident links in content
+     * Handles both hash links (#slug) and path links (/entry/slug)
      */
     setupIncidentLinks() {
+        // Handle hash links (#slug)
         this.bodyElement.querySelectorAll('a[href^="#"]').forEach(link => {
             if (link.classList.contains('header-link')) return;
 
             const slug = link.getAttribute('href').slice(1);
             if (slug && slug !== 'about' && slug !== this.currentSlug) {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    this.openIncidentBySlug(slug);
+                });
+            }
+        });
+
+        // Handle path-based links (/entry/slug)
+        this.bodyElement.querySelectorAll('a[href^="/entry/"]').forEach(link => {
+            const href = link.getAttribute('href');
+            const slug = href.replace('/entry/', '');
+            if (slug && slug !== this.currentSlug) {
                 link.addEventListener('click', (e) => {
                     e.preventDefault();
                     this.openIncidentBySlug(slug);
