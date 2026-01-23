@@ -14,7 +14,7 @@
 const ViewState = {
     viewedIncidents: new Set(),
     sortByUpdated: false,
-    currentView: 'media',
+    currentView: 'list',
 
     /**
      * Initialize view state from localStorage
@@ -263,6 +263,6 @@ const ViewState = {
      * Get preferred view from localStorage
      */
     getPreferredView() {
-        return localStorage.getItem('preferredView') || 'media';
+        return localStorage.getItem('preferredView') || 'list';
     }
 };

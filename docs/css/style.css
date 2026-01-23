@@ -313,8 +313,9 @@ body {
 }
 
 .site-tagline {
-    font-size: 0.75rem;
-    color: var(--color-text-secondary);
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--color-text);
     max-width: 400px;
     margin: 0 auto;
 }
@@ -364,10 +365,7 @@ body {
 .section-nav {
     background: var(--color-surface);
     border-bottom: 1px solid var(--color-border);
-    padding: 4px 16px;
-    position: sticky;
-    top: 0;
-    z-index: 100;
+    padding: 8px 16px;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
 }
@@ -423,8 +421,8 @@ body {
 }
 
 .view-btn {
-    padding: 6px 16px;
-    font-size: 0.75rem;
+    padding: 8px 20px;
+    font-size: 0.85rem;
     font-weight: 600;
     color: var(--color-text-secondary);
     background: #dae1e8;
