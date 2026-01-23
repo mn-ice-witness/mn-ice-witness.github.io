@@ -127,6 +127,8 @@ Both categories may involve U.S. citizens being detained. Choose based on WHY th
 
 ### Affected Individual Citizenship Values
 
+**⚠️ IMPORTANT: Citizenship is NOT a category.** This field is internal metadata about the affected individual. It is NOT displayed in the UI header alongside the type. The 5 `type` values are the ONLY categories shown to users.
+
 | Value | Meaning |
 |-------|---------|
 | `us-citizen` | U.S. Citizen |
@@ -134,6 +136,10 @@ Both categories may involve U.S. citizens being detained. Choose based on WHY th
 | `asylum-seeker` | Pending asylum application |
 | `undocumented` | No legal status |
 | `unknown` | Status not confirmed |
+| `n/a` | Not applicable (e.g., DHS response documents) |
+| `various` | Multiple individuals with different statuses |
+
+**Do NOT use:** `refugee` (use `legal-resident`), `mixed-status-household` (use `various`), `legal-status` (use `legal-resident`), `us-citizens` plural (use `us-citizen`)
 
 ## Body Structure
 

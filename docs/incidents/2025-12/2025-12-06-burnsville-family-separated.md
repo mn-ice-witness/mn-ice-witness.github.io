@@ -5,7 +5,7 @@ location: McAndrews Road
 city: Burnsville
 type: immigrants
 status: ongoing
-affected_individual_citizenship: mixed-status-household
+affected_individual_citizenship: various
 injuries: none-physical
 trustworthiness: high
 created: 2026-01-14T08:38:51

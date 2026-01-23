@@ -5,7 +5,7 @@ location: Driving to church
 city: Unknown
 type: immigrants
 status: detained
-affected_individual_citizenship: refugee
+affected_individual_citizenship: legal-resident
 injuries: none
 trustworthiness: unverified
 created: 2026-01-19T23:09:36

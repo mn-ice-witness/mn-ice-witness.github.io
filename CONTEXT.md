@@ -54,8 +54,8 @@ This is not optional. Do not type `2026-01-22T12:00:00` or any other time from m
 
 **NO compound values** like "medium-high" or "low-medium". Pick one.
 
-### Incident Types
-**Exactly 5 types exist:**
+### Incident Types (Categories)
+**Exactly 5 types exist — these are the ONLY categories shown in UI:**
 - `citizens` - U.S. citizens racially profiled or mistakenly targeted
 - `observers` - People targeted for filming/observing/protesting ICE
 - `immigrants` - Non-criminal immigrants detained
@@ -63,6 +63,8 @@ This is not optional. Do not type `2026-01-22T12:00:00` or any other time from m
 - `response` - DHS/ICE official statements
 
 Multiple types allowed via comma: `type: citizens, schools-hospitals`
+
+**Note:** `affected_individual_citizenship` (us-citizen, asylum-seeker, etc.) is metadata, NOT a category. It is not displayed in the UI header.
 
 ### Unverified Incidents
 Incidents with `trustworthiness: unverified` are **hidden from the main page** (both media gallery and list view). They appear only at `/unverified`, sorted by update date.

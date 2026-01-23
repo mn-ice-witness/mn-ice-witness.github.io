@@ -128,7 +128,6 @@ const LightboxContent = {
             </div>
             <div class="lightbox-meta">
                 <span class="tag tag-type" data-type="${incident.type}">${IncidentParser.formatTypeLabel(incident.type)}</span>
-                ${incident.affectedIndividualCitizenship !== 'unknown' ? `<span class="tag tag-citizenship">${IncidentParser.formatCitizenshipLabel(incident.affectedIndividualCitizenship)}</span>` : ''}
                 <span class="tag">${incident.location}</span>
                 <span class="tag">${IncidentParser.formatDate(incident.date)}</span>
             </div>

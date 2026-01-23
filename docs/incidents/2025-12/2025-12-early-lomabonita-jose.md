@@ -5,7 +5,7 @@ location: Lomabonita restaurant, Margaret Street and White Bear Avenue
 city: St. Paul (East Side)
 type: immigrants
 status: ongoing
-affected_individual_citizenship: legal-status
+affected_individual_citizenship: legal-resident
 injuries: none
 trustworthiness: medium
 created: 2026-01-14T08:54:15

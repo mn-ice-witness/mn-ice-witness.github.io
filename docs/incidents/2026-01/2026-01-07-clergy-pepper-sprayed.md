@@ -5,7 +5,7 @@ location: Portland Avenue (scene of Renee Good shooting)
 city: Minneapolis
 type: observers
 status: resolved
-affected_individual_citizenship: us-citizens
+affected_individual_citizenship: us-citizen
 injuries: pepper-spray-exposure
 trustworthiness: high
 created: 2026-01-14T08:41:37
