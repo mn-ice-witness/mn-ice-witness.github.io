@@ -364,6 +364,34 @@ const App = {
                 this.scrollToSection(section);
             });
         });
+
+        // Handle dropdown (for narrow phones)
+        const dropdown = document.getElementById('category-dropdown');
+        if (dropdown) {
+            dropdown.addEventListener('change', (e) => {
+                const value = e.target.value;
+                if (!value) return;
+
+                const section = value.slice(1);
+
+                // Ensure list view
+                if (ViewState.currentView !== 'list') {
+                    ViewState.switchView('list', true);
+                }
+
+                // Disable sort by updated for category navigation
+                ViewState.disableSortByUpdated();
+
+                // Update URL
+                history.replaceState({}, '', Router.buildUrl('list', section));
+
+                // Scroll to section
+                this.scrollToSection(section);
+
+                // Reset dropdown to placeholder
+                e.target.value = '';
+            });
+        }
     },
 
     /**
