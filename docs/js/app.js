@@ -67,6 +67,10 @@ const App = {
         // Setup section navigation
         this.initSectionNav();
 
+        // Set scroll offset CSS variable and update on resize
+        this.updateScrollOffset();
+        window.addEventListener('resize', () => this.updateScrollOffset());
+
         // Handle initial route
         this.handleInitialRoute();
 
@@ -190,6 +194,29 @@ const App = {
     },
 
     /**
+     * Get total height of sticky elements at top of page
+     * Calculates dynamically based on rendered elements
+     */
+    getStickyOffset() {
+        let offset = 0;
+        const viewToggle = document.querySelector('.view-toggle');
+        const sectionNav = document.querySelector('.section-nav');
+        if (viewToggle) offset += viewToggle.offsetHeight;
+        if (sectionNav && getComputedStyle(sectionNav).position === 'sticky') {
+            offset += sectionNav.offsetHeight;
+        }
+        return offset;
+    },
+
+    /**
+     * Update CSS custom property for scroll-padding-top
+     */
+    updateScrollOffset() {
+        const offset = this.getStickyOffset();
+        document.documentElement.style.setProperty('--scroll-offset', offset + 'px');
+    },
+
+    /**
      * Scroll to a section in list view
      * Maps URL category names to section type IDs (e.g., 'schools' -> 'schools-hospitals')
      */
@@ -197,7 +224,10 @@ const App = {
         const sectionId = this.categoryToSectionId(category);
         setTimeout(() => {
             const el = document.getElementById(sectionId);
-            if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            if (!el) return;
+            const offset = this.getStickyOffset();
+            const targetY = el.getBoundingClientRect().top + window.scrollY - offset;
+            window.scrollTo({ top: targetY, behavior: 'smooth' });
         }, 100);
     },
 

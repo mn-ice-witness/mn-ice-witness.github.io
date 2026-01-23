@@ -26,6 +26,9 @@ These rules apply to almost every task. Do not skip them.
 ### Abbreviations
 - **sm** = social media (see `dev-docs/social-media-listing-procedure.md`)
 
+### Browser Testing
+**Do NOT use Playwright** for browser testing unless explicitly asked. The user will test manually.
+
 ### Terminology
 **"Entry" and "Incident" are synonyms.** The codebase uses both interchangeably. URLs use `/entry/`, code and docs say "incident" - they mean the same thing.
 
