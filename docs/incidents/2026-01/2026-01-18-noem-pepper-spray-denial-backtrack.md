@@ -57,11 +57,11 @@ In polling released alongside the interview:
 - 61% of Americans describe ICE's detention tactics as "too tough" (up from 56% in November)
 
 ## Related Incidents
-- [Clergy Pepper Sprayed at Federal Building](#2026-01-07-clergy-pepper-sprayed) (Jan 7)
-- [Two ICE Observers Pepper-Sprayed in Car, Detained 8 Hours](#2026-01-11-siguenza-okeefe-detained) (Jan 11)
-- [Two Young Women Sprayed Directly in Face in Mankato](#2026-01-13-mankato-women-sprayed) (Jan 13)
-- [Lyn-Lake Tear Gas Deployment](#2026-01-13-lyn-lake-tear-gas) (Jan 13)
-- [Shawn Jackson Children Tear Gassed](#2026-01-14-shawn-jackson-children-tear-gas) (Jan 14)
+- [Clergy Pepper Sprayed at Federal Building](/entry/2026-01-07-clergy-pepper-sprayed) (Jan 7)
+- [Two ICE Observers Pepper-Sprayed in Car, Detained 8 Hours](/entry/2026-01-11-siguenza-okeefe-detained) (Jan 11)
+- [Two Young Women Sprayed Directly in Face in Mankato](/entry/2026-01-13-mankato-women-sprayed) (Jan 13)
+- [Lyn-Lake Tear Gas Deployment](/entry/2026-01-13-lyn-lake-tear-gas) (Jan 13)
+- [Shawn Jackson Children Tear Gassed](/entry/2026-01-14-shawn-jackson-children-tear-gas) (Jan 14)
 
 ## Editorial Assessment
 **HIGH** - Primary source is the official CBS transcript and video of the interview. Noem's statements and the subsequent backtrack when confronted with evidence are documented on the record. Judge Menendez's ruling provides independent verification that chemical agents were used against peaceful protesters.

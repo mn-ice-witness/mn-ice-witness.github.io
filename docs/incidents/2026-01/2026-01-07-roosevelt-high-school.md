@@ -69,7 +69,7 @@ Significant dispute over: (1) whether tear gas was used; (2) whether staffer ass
 
 ## Aftermath
 - Schools closed Jan 8-9
-- [Jesse Ventura visited school next day](#2026-01-08-jesse-ventura-roosevelt), condemned actions
+- [Jesse Ventura visited school next day](/entry/2026-01-08-jesse-ventura-roosevelt), condemned actions
 - State lawsuit filed
 
 ## Editorial Assessment

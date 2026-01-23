@@ -30,7 +30,7 @@ Four students from Columbia Heights Public School District have been detained by
 
 ## Related Incidents
 
-- [DHS Response: "Child Was ABANDONED," Father "Fled on Foot"](#2026-01-21-dhs-response-5-year-old-bait)
+- [DHS Response: "Child Was ABANDONED," Father "Fled on Foot"](/entry/2026-01-21-dhs-response-5-year-old-bait)
 
 ## Affected Individual(s)
 

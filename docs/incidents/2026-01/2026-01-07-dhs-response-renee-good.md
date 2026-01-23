@@ -24,7 +24,7 @@ Hours after ICE agent Jonathan Ross shot and killed Renee Good, DHS Secretary Kr
 4. Fox News (Jan 8, 2026): [Report](https://www.foxnews.com/us/renee-nicole-good-part-ice-watch-group-dhs-sources-say)
 
 ## Related Incident
-See full incident details: [Renee Nicole Good Shot and Killed by ICE Agent](#2026-01-07-renee-good-shooting)
+See full incident details: [Renee Nicole Good Shot and Killed by ICE Agent](/entry/2026-01-07-renee-good-shooting)
 
 ## Official Statements
 

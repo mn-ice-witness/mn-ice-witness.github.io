@@ -47,7 +47,7 @@ Bovino serves as Border Patrol Commander at Large. A federal judge found him ["o
 
 ## Related Incidents
 
-- [DHS Response: Agents "Harassed" at Gas Stations, Used "Crowd Control Measures"](#2026-01-21-dhs-response-crowd-control) (Jan 21)
+- [DHS Response: Agents "Harassed" at Gas Stations, Used "Crowd Control Measures"](/entry/2026-01-21-dhs-response-crowd-control) (Jan 21)
 
 ## Editorial Assessment
 

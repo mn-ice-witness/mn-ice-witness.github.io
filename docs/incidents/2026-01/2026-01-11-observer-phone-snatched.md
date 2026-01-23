@@ -50,7 +50,7 @@ Social media commenters noted: "He took 17 steps to approach her. She was nowher
 ## Context
 This incident reportedly occurred during the same period as other documented observer confrontations in Minneapolis. Multiple videos from this time period show ICE agents physically confronting observers who were filming operations.
 
-**Note:** This is a separate incident from the [observer shoved into traffic](#2026-01-11-observer-shoved-into-traffic) on the same date, which involved a man standing in front of an ICE vehicle.
+**Note:** This is a separate incident from the [observer shoved into traffic](/entry/2026-01-11-observer-shoved-into-traffic) on the same date, which involved a man standing in front of an ICE vehicle.
 
 ## Editorial Assessment
 **LOW** - Single social media source (Threads) but video appears to be from NBC Nightly News broadcast with chyron "NEW VIDEO SHOWS MINNEAPOLIS RESIDENTS CONFRONTING ICE AGENTS." Original NBC source not yet located.

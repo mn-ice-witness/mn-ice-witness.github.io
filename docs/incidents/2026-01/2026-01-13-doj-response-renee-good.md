@@ -23,7 +23,7 @@ Deputy Attorney General Todd Blanche announced there is "no basis for a criminal
 3. Fox News (Jan 13, 2026): [DOJ says 'no basis' for civil rights investigation](https://www.foxnews.com/us/justice-department-declines-civil-rights-investigation-minneapolis-ice-officer-killing)
 
 ## Related Incident
-See full incident details: [Renee Nicole Good Shot and Killed by ICE Agent](#2026-01-07-renee-good-shooting)
+See full incident details: [Renee Nicole Good Shot and Killed by ICE Agent](/entry/2026-01-07-renee-good-shooting)
 
 ## Official Statements
 

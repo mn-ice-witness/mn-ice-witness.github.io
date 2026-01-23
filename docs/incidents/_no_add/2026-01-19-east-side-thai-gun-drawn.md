@@ -60,7 +60,7 @@ She added: "My business was disrupted, and now my staff are hesitant to come to 
 - **History:** Elle came to the U.S. and worked as a waitress at the restaurant when her cousin owned it, later taking over with her husband
 
 ## Context
-This incident occurred during a period of intense ICE activity on St. Paul's East Side. The same day, an elderly Hmong-American U.S. citizen, ChongLy "Saly" Scott Thao, was detained in his underwear and Crocs during a raid on the same side of the city. See related incident: [Saly Thao detained](#2026-01-18-saly-hmong-citizen-shirtless).
+This incident occurred during a period of intense ICE activity on St. Paul's East Side. The same day, an elderly Hmong-American U.S. citizen, ChongLy "Saly" Scott Thao, was detained in his underwear and Crocs during a raid on the same side of the city. See related incident: [Saly Thao detained](/entry/2026-01-18-saly-hmong-citizen-shirtless).
 
 St. Paul Mayor Kaohly Her expressed fury over the East Side targeting.
 

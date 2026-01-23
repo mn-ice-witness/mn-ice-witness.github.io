@@ -21,7 +21,7 @@ In the first Operation Metro Surge press release, DHS labeled Abdulkadir Sharif 
 1. DHS (Dec 4, 2025): [DHS Press Release - Operation Metro Surge Arrests](https://www.dhs.gov/news/2025/12/04/ice-arrests-worst-worst-criminal-illegal-aliens-during-operation-metro-surge)
 
 ## Related Incident
-See full incident details: [Addiction Recovery Leader Detained, Labeled "Gang Member"](#2025-12-04-abdulkadir-abdi-detained)
+See full incident details: [Addiction Recovery Leader Detained, Labeled "Gang Member"](/entry/2025-12-04-abdulkadir-abdi-detained)
 
 ## Official Statement
 

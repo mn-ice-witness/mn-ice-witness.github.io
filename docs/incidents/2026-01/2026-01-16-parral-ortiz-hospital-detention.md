@@ -56,7 +56,7 @@ Shelly reported that when she and her brother arrived at the hospital, ICE agent
 
 ## Related Incidents
 This family was targeted in multiple ICE operations:
-- **January 15, 2026:** Workers at El Tapatio restaurant in Willmar (owned by this couple) were detained after ICE agents ate lunch at the restaurant and followed employees after closing. See: [El Tapatio Willmar incident](#2026-01-15-el-tapatio-willmar)
+- **January 15, 2026:** Workers at El Tapatio restaurant in Willmar (owned by this couple) were detained after ICE agents ate lunch at the restaurant and followed employees after closing. See: [El Tapatio Willmar incident](/entry/2026-01-15-el-tapatio-willmar)
 
 ## Context
 This incident is part of a broader pattern of ICE presence at Minnesota hospitals during Operation Metro Surge. Health care workers have reported ICE agents at Hennepin County Medical Center, Regions Hospital, and other facilities. At a Hennepin County Board of Commissioners meeting, medical staff expressed concern that ICE presence creates fear among patients and staff, potentially deterring people from seeking medical care.
