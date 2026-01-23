@@ -363,6 +363,9 @@ body {
 /* ==================== NAVIGATION ==================== */
 
 .section-nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
     background: var(--color-surface);
     border-bottom: 1px solid var(--color-border);
     padding: 8px 16px;
