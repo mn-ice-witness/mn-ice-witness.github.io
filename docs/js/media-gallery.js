@@ -314,9 +314,10 @@ const MediaGallery = {
 
     /**
      * Preload top videos in background (call while in list view)
-     * Uses link preload for efficient background loading without creating video elements
+     * Creates hidden video elements with preload="auto" for reliable cross-browser loading
+     * Note: <link rel="preload" as="video"> is not supported in Chrome/Safari
      */
-    async preloadTopVideos(count = 4) {
+    async preloadTopVideos(count = 6) {
         if (typeof App === 'undefined' || !App.incidents) return;
 
         let mediaIncidents = App.incidents.filter(i => i.hasLocalMedia && i.localMediaType === 'video');
@@ -332,11 +333,19 @@ const MediaGallery = {
             const mediaUrl = App.getMediaUrl(incident.localMediaPath, incident.mediaVersion);
             if (this.preloadedVideos.has(mediaUrl)) return;
 
-            const link = document.createElement('link');
-            link.rel = 'preload';
-            link.as = 'video';
-            link.href = mediaUrl;
-            document.head.appendChild(link);
+            const video = document.createElement('video');
+            video.preload = 'auto';
+            video.muted = true;
+            video.playsInline = true;
+            video.src = mediaUrl;
+            video.style.cssText = 'position:absolute;width:1px;height:1px;opacity:0;pointer-events:none;';
+            document.body.appendChild(video);
+
+            video.addEventListener('canplaythrough', () => {
+                video.remove();
+            }, { once: true });
+
+            setTimeout(() => video.remove(), 30000);
 
             this.preloadedVideos.add(mediaUrl);
         });
@@ -344,7 +353,8 @@ const MediaGallery = {
 
     /**
      * Setup prefetch observer for videos approaching viewport
-     * Uses larger root margin to start loading before visible
+     * Uses large root margin (500px) to start loading well before visible
+     * This gives time for videos to buffer during scrolling
      */
     setupPrefetchObserver(gallery) {
         const videos = gallery.querySelectorAll('.media-card-video');
@@ -361,7 +371,7 @@ const MediaGallery = {
                     prefetchObserver.unobserve(video);
                 }
             });
-        }, { rootMargin: '200px 0px' });
+        }, { rootMargin: '500px 0px' });
 
         videos.forEach(video => prefetchObserver.observe(video));
     }

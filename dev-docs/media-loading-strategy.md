@@ -7,8 +7,8 @@ This document describes how videos and images are loaded in the media gallery, w
 The site uses a **multi-stage preloading strategy** to balance fast video playback with minimal bandwidth waste:
 
 1. **Metadata-only by default** - Videos load only dimensions/duration initially
-2. **Background preload on init** - Top 4 videos preload while user views list
-3. **Scroll-ahead prefetch** - Videos load 200px before entering viewport
+2. **Background preload on init** - Top 6 videos fully preload while user views list
+3. **Scroll-ahead prefetch** - Videos load 500px before entering viewport
 4. **Play on visibility** - Videos auto-play when 40% visible
 
 ## The Problem We're Solving
@@ -56,9 +56,10 @@ if ('requestIdleCallback' in window) {
 **How it works:**
 1. App loads and renders list view (default)
 2. Browser goes idle (user is reading list)
-3. `requestIdleCallback` fires, calling `preloadTopVideos(4)`
-4. Creates `<link rel="preload" as="video">` for first 4 videos
-5. Browser fetches videos in background at low priority
+3. `requestIdleCallback` fires, calling `preloadTopVideos()`
+4. Creates hidden `<video preload="auto">` elements for first 6 videos
+5. Browser fetches videos in background
+6. Hidden videos self-remove after `canplaythrough` or 30s timeout
 
 **Why `requestIdleCallback`?**
 - Doesn't block main thread or initial render
@@ -68,30 +69,50 @@ if ('requestIdleCallback' in window) {
 Location: `docs/js/media-gallery.js` → `preloadTopVideos()`
 
 ```javascript
-async preloadTopVideos(count = 4) {
+async preloadTopVideos(count = 6) {
     // Get video incidents in display order
     let mediaIncidents = App.incidents.filter(i => i.hasLocalMedia && i.localMediaType === 'video');
     if (!ViewState.sortByUpdated) {
         mediaIncidents = await this.sortByOrder(mediaIncidents);
     }
 
-    // Create preload links for top N
+    // Create hidden video elements for top N
     const toPreload = mediaIncidents.slice(0, count);
     toPreload.forEach(incident => {
-        const link = document.createElement('link');
-        link.rel = 'preload';
-        link.as = 'video';
-        link.href = mediaUrl;
-        document.head.appendChild(link);
+        const mediaUrl = App.getMediaUrl(incident.localMediaPath, incident.mediaVersion);
+        if (this.preloadedVideos.has(mediaUrl)) return;
+
+        const video = document.createElement('video');
+        video.preload = 'auto';
+        video.muted = true;
+        video.playsInline = true;
+        video.src = mediaUrl;
+        video.style.cssText = 'position:absolute;width:1px;height:1px;opacity:0;pointer-events:none;';
+        document.body.appendChild(video);
+
+        // Self-remove after loaded or timeout
+        video.addEventListener('canplaythrough', () => video.remove(), { once: true });
+        setTimeout(() => video.remove(), 30000);
+
+        this.preloadedVideos.add(mediaUrl);
     });
 }
 ```
 
-**Why link preload instead of hidden video elements?**
-- Lower memory footprint
-- Browser manages priority automatically
-- Doesn't create unnecessary DOM elements
-- Works even before gallery is rendered
+**Why hidden video elements instead of `<link rel="preload">`?**
+
+`<link rel="preload" as="video">` is **NOT supported in Chrome or Safari** - it throws console warnings:
+```
+<link rel=preload> uses an unsupported `as` value
+```
+
+The valid `as` values are: `audio`, `document`, `fetch`, `font`, `image`, `script`, `style`, `track`, `worker`. Note that `video` is NOT in this list despite appearing in some documentation.
+
+Hidden video elements with `preload="auto"`:
+- Work reliably across all browsers
+- Leverage browser's native video buffering
+- Self-clean after loading completes
+- Track loaded URLs to avoid duplicates
 
 ### Stage 3: Scroll-Ahead Prefetch Observer
 
@@ -107,7 +128,7 @@ setupPrefetchObserver(gallery) {
                 prefetchObserver.unobserve(video);  // Only trigger once
             }
         });
-    }, { rootMargin: '200px 0px' });  // 200px ahead of viewport
+    }, { rootMargin: '500px 0px' });  // 500px ahead of viewport
 
     videos.forEach(video => prefetchObserver.observe(video));
 }
@@ -115,14 +136,15 @@ setupPrefetchObserver(gallery) {
 
 **How it works:**
 1. When gallery renders, observer watches all videos
-2. When a video is 200px from viewport, observer fires
+2. When a video is 500px from viewport, observer fires
 3. Changes `preload` from `metadata` to `auto`
 4. Browser starts loading actual video data
 5. Observer unobserves (one-time trigger)
 
-**Why 200px root margin?**
-- Gives ~1-2 seconds of scroll time to load
-- Not so large that we load too many videos
+**Why 500px root margin?**
+- Gives ~2-4 seconds of scroll time to load
+- Accounts for fast scrolling on mobile
+- Ensures videos are buffered before they become visible
 - Balances responsiveness vs bandwidth
 
 ### Stage 4: Play on Visibility
@@ -169,7 +191,7 @@ const MediaGallery = {
 ```
 
 Both `preloadTopVideos()` and `setupPrefetchObserver()` track URLs in `preloadedVideos` Set to avoid:
-- Duplicate preload links
+- Duplicate preload requests
 - Re-triggering preload for already-loaded videos
 - Unnecessary network requests
 
@@ -181,8 +203,8 @@ Both `preloadTopVideos()` and `setupPrefetchObserver()` track URLs in `preloaded
 ├─────────────────────────────────────────────────────────────────────┤
 │  1. Load incidents JSON                                             │
 │  2. Render list view (default)                                      │
-│  3. requestIdleCallback → preloadTopVideos(4)                       │
-│     └── Creates <link rel="preload"> for videos 1-4                 │
+│  3. requestIdleCallback → preloadTopVideos(6)                       │
+│     └── Creates hidden <video preload="auto"> for videos 1-6        │
 └─────────────────────────────────────────────────────────────────────┘
                                   │
                                   ▼
@@ -192,7 +214,7 @@ Both `preloadTopVideos()` and `setupPrefetchObserver()` track URLs in `preloaded
 │  1. MediaGallery.render() creates video elements                    │
 │     └── All videos: preload="metadata"                              │
 │  2. setupPrefetchObserver() watches all videos                      │
-│     └── rootMargin: 200px (load before visible)                     │
+│     └── rootMargin: 500px (load before visible)                     │
 │  3. setupScrollToPlay() watches all videos                          │
 │     └── threshold: 40% (play when visible)                          │
 └─────────────────────────────────────────────────────────────────────┘
@@ -201,7 +223,7 @@ Both `preloadTopVideos()` and `setupPrefetchObserver()` track URLs in `preloaded
 ┌─────────────────────────────────────────────────────────────────────┐
 │                         USER SCROLLS DOWN                           │
 ├─────────────────────────────────────────────────────────────────────┤
-│  Video enters 200px zone:                                           │
+│  Video enters 500px zone:                                           │
 │    └── prefetchObserver fires → preload="auto" → starts loading     │
 │                                                                     │
 │  Video 40% visible:                                                 │
@@ -216,65 +238,99 @@ Both `preloadTopVideos()` and `setupPrefetchObserver()` track URLs in `preloaded
 
 | Setting | Location | Current Value | Notes |
 |---------|----------|---------------|-------|
-| Background preload count | `app.js` | 4 | Number of videos to preload on init |
-| Prefetch root margin | `media-gallery.js` | 200px | How far ahead to start loading |
+| Background preload count | `media-gallery.js` | 6 | Number of videos to preload on init |
+| Prefetch root margin | `media-gallery.js` | 500px | How far ahead to start loading |
 | Play threshold | `media-gallery.js` | 0.4 (40%) | Visibility ratio to trigger play |
 
 ## Bandwidth Considerations
 
 **What we load immediately:**
 - Metadata for all videos (~few KB each)
-- Full video data for top 4 videos (background, low priority)
+- Full video data for top 6 videos (background, during idle time)
 
 **What we load on scroll:**
-- Videos within 200px of viewport
+- Videos within 500px of viewport
 
 **What we never load:**
 - Videos user never scrolls to
 
 **Estimated bandwidth for typical session:**
 - List view only: ~0 video data
-- Media view, no scroll: ~4 videos × ~2-5MB = 8-20MB
+- Media view, no scroll: ~6 videos × ~2-5MB = 12-30MB
 - Media view, full scroll: All videos
+
+## Browser Compatibility
+
+### `<link rel="preload" as="video">` - NOT SUPPORTED
+
+Despite appearing in some documentation, `as="video"` is **not supported**:
+
+| Browser | Support |
+|---------|---------|
+| Chrome | ❌ Logs warning, ignores |
+| Safari | ❌ Logs warning, ignores |
+| Firefox | ⚠️ Partial (appends to DOM instead) |
+| Edge | ❌ Logs warning, ignores |
+
+**Our solution:** Use hidden `<video preload="auto">` elements instead. This works reliably across all browsers.
+
+### IntersectionObserver - WELL SUPPORTED
+
+| Browser | Support |
+|---------|---------|
+| Chrome 51+ | ✅ |
+| Safari 12.1+ | ✅ |
+| Firefox 55+ | ✅ |
+| Edge 15+ | ✅ |
 
 ## Known Limitations
 
-1. **`<link rel="preload" as="video">` browser support**
-   - Works in Chrome, Edge, Firefox
-   - Safari support is inconsistent
-   - Fallback: Videos still load via prefetch observer
+1. **No prioritization within preload**
+   - All 6 background videos load with same priority
+   - Could potentially prioritize video 1 > 2 > 3 > 4 > 5 > 6
 
-2. **No prioritization within preload**
-   - All 4 background videos load with same priority
-   - Could potentially prioritize video 1 > 2 > 3 > 4
-
-3. **Column layout affects visibility order**
+2. **Column layout affects visibility order**
    - Masonry layout means "first" video might not be top-left
    - Prefetch observer handles this dynamically
 
-4. **No cancellation of in-flight requests**
+3. **No cancellation of in-flight requests**
    - If user quickly switches views, preloads continue
    - Browser handles this reasonably well
+
+4. **Hidden video elements use some memory**
+   - 6 videos × ~few MB each during preload
+   - Self-remove after `canplaythrough` or 30s timeout
 
 ## Future Improvements to Consider
 
 ### Adaptive preload count
 ```javascript
 // Adjust based on connection speed
-const count = navigator.connection?.effectiveType === '4g' ? 6 : 2;
+const count = navigator.connection?.effectiveType === '4g' ? 8 : 3;
 MediaGallery.preloadTopVideos(count);
 ```
 
 ### Prioritized preloading
 ```javascript
-// Load first video with high priority, rest with low
-link.fetchPriority = index === 0 ? 'high' : 'low';
+// Load first video immediately, stagger the rest
+toPreload.forEach((incident, index) => {
+    setTimeout(() => preloadVideo(incident), index * 500);
+});
 ```
 
 ### Save-Data header respect
 ```javascript
 // Skip preloading if user has Save-Data enabled
 if (navigator.connection?.saveData) return;
+```
+
+### Battery-aware preloading
+```javascript
+// Reduce preloading on low battery
+if ('getBattery' in navigator) {
+    const battery = await navigator.getBattery();
+    if (!battery.charging && battery.level < 0.15) return;
+}
 ```
 
 ### Poster images instead of #t=0.001
@@ -302,12 +358,19 @@ To verify preloading is working:
 1. Open DevTools → Network tab
 2. Filter by "media" or video file extension
 3. Load site in list view
-4. Watch for 4 video requests after ~1 second (background preload)
+4. Watch for 6 video requests after ~1 second (background preload)
 5. Switch to media view
-6. Scroll slowly and watch prefetch requests fire 200px ahead
+6. Scroll slowly and watch prefetch requests fire 500px ahead
 
 To test without preloading:
 ```javascript
 // In console, before switching to media view:
 MediaGallery.preloadedVideos.clear();
 ```
+
+## References
+
+- [web.dev - Fast playback with preload](https://web.dev/articles/fast-playback-with-preload)
+- [web.dev - Lazy loading video](https://web.dev/articles/lazy-loading-video)
+- [Can I use - link rel preload](https://caniuse.com/link-rel-preload)
+- [MDN - IntersectionObserver](https://developer.mozilla.org/en-US/docs/Web/API/IntersectionObserver)
