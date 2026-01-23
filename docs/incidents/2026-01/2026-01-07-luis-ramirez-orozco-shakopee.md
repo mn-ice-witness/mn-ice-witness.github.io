@@ -1,7 +1,7 @@
 ---
 date: 2026-01-07
 time: morning
-location: Construction site
+location: Shakopee
 city: Shakopee
 type: citizens
 status: resolved

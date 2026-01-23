@@ -1,7 +1,7 @@
 ---
 date: 2026-01-17
 time: unknown
-location: Driving to church
+location: Unknown
 city: Unknown
 type: immigrants
 status: detained

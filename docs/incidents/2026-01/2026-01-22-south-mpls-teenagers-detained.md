@@ -1,7 +1,7 @@
 ---
 date: 2026-01-22
 time: afternoon
-location: South Minneapolis (exact address unknown)
+location: South Minneapolis
 city: Minneapolis
 type: citizens
 status: under-investigation

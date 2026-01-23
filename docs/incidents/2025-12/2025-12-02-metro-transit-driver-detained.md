@@ -1,7 +1,7 @@
 ---
 date: 2025-12-02
 time: morning
-location: Minneapolis area (en route to work)
+location: Minneapolis
 city: Minneapolis
 type: immigrants
 status: resolved

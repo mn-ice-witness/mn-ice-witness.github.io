@@ -1,7 +1,7 @@
 ---
 date: 2026-01-09
 time: morning
-location: En route to work
+location: Hopkins
 city: Hopkins
 type: immigrants
 status: resolved-released

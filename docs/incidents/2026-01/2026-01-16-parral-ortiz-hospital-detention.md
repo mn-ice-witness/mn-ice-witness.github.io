@@ -1,7 +1,7 @@
 ---
 date: 2026-01-16
 time: "06:30"
-location: En route to Mercy Hospital Unity Campus
+location: Mounds View
 city: Mounds View
 type: immigrants, schools-hospitals
 status: ongoing

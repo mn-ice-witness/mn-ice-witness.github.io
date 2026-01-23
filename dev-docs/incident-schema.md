@@ -129,17 +129,17 @@ Both categories may involve U.S. citizens being detained. Choose based on WHY th
 
 **⚠️ IMPORTANT: Citizenship is NOT a category.** This field is internal metadata about the affected individual. It is NOT displayed in the UI header alongside the type. The 5 `type` values are the ONLY categories shown to users.
 
-| Value | Meaning |
-|-------|---------|
-| `us-citizen` | U.S. Citizen |
-| `legal-resident` | Green card, visa, legal status |
-| `asylum-seeker` | Pending asylum application |
-| `undocumented` | No legal status |
-| `unknown` | Status not confirmed |
-| `n/a` | Not applicable (e.g., DHS response documents) |
-| `various` | Multiple individuals with different statuses |
+| Value | Display Label | Meaning |
+|-------|---------------|---------|
+| `us-citizen` | Citizen | U.S. citizen (born or naturalized) |
+| `legal-resident` | Legal Resident | Green card, visa, legal status |
+| `asylum-seeker` | Immigrant Pending Status | Asylum seeker, TPS, DACA, temporary/pending status |
+| `undocumented` | Immigrant | No current legal status |
+| `unknown` | *(not displayed)* | Status not confirmed |
+| `n/a` | *(not displayed)* | Not applicable (e.g., DHS response documents) |
+| `various` | *(handled specially)* | Multiple individuals with different statuses |
 
-**Do NOT use:** `refugee` (use `legal-resident`), `mixed-status-household` (use `various`), `legal-status` (use `legal-resident`), `us-citizens` plural (use `us-citizen`)
+**Do NOT use:** `refugee` (use `legal-resident` if green card, `asylum-seeker` if still in refugee status), `mixed-status-household` (use `various`), `legal-status` (use `legal-resident`), `us-citizens` plural (use `us-citizen`)
 
 ## Body Structure
 

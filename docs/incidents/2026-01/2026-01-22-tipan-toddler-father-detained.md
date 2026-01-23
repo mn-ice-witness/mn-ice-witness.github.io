@@ -1,7 +1,7 @@
 ---
 date: 2026-01-22
 time: unknown
-location: South Minneapolis, driving from grocery store
+location: South Minneapolis
 city: Minneapolis
 type: immigrants
 status: resolved

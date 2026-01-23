@@ -1,7 +1,7 @@
 ---
 date: 2026-01-14
 time: unknown
-location: Outside work site
+location: St. Paul
 city: St. Paul
 type: citizens
 status: ongoing

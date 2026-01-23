@@ -1,7 +1,7 @@
 ---
 date: 2026-01-09
 time: unknown
-location: Saint Paul residential neighborhood
+location: Saint Paul
 city: St. Paul
 type: immigrants
 status: ongoing

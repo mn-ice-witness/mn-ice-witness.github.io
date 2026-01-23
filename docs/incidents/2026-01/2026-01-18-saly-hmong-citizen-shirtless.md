@@ -1,7 +1,7 @@
 ---
 date: 2026-01-18
 time: unknown
-location: East Side apartment (exact address unknown)
+location: East Side
 city: St. Paul
 type: citizens
 status: resolved

@@ -78,11 +78,11 @@ const IncidentParser = {
 
     formatCitizenshipLabel(citizenship) {
         const labels = {
-            'us-citizen': 'U.S. Citizen',
+            'us-citizen': 'Citizen',
             'legal-resident': 'Legal Resident',
-            'undocumented': 'Undocumented',
-            'asylum-seeker': 'Asylum Seeker',
-            'unknown': 'Unknown'
+            'asylum-seeker': 'Immigrant Pending Status',
+            'undocumented': 'Immigrant',
+            'unknown': ''
         };
         return labels[citizenship] || citizenship;
     },

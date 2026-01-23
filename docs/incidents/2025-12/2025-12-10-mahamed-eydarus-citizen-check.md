@@ -1,7 +1,7 @@
 ---
 date: 2025-12-10
 time: morning
-location: Fridley (residential area)
+location: Fridley
 city: Fridley
 type: citizens
 status: resolved

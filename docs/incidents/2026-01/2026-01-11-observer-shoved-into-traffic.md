@@ -1,7 +1,7 @@
 ---
 date: 2026-01-11
 time: unknown
-location: Minneapolis street
+location: Minneapolis
 city: Minneapolis
 type: observers
 status: resolved

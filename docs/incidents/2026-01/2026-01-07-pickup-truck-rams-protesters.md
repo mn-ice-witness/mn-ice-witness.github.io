@@ -1,7 +1,7 @@
 ---
 date: 2026-01-07
 time: afternoon
-location: Alley off 34th Street, near Portland Avenue
+location: 34th Street and Portland Avenue
 city: Minneapolis
 type: observers
 status: resolved

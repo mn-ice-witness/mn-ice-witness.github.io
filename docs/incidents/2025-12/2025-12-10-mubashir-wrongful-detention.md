@@ -1,7 +1,7 @@
 ---
 date: 2025-12-10
 time: afternoon
-location: Cedar-Riverside neighborhood, near restaurant
+location: Cedar-Riverside
 city: Minneapolis
 type: citizens
 status: resolved

@@ -1,7 +1,7 @@
 ---
 date: 2026-01-12
 time: morning
-location: South Minneapolis neighborhood
+location: South Minneapolis
 city: Minneapolis
 type: observers
 status: resolved

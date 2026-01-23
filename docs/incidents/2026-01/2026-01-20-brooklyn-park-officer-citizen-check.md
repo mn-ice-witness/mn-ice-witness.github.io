@@ -1,7 +1,7 @@
 ---
 date: 2026-01-20
 time: unknown
-location: Minnesota State Capitol / Twin Cities metro area
+location: Minnesota State Capitol
 city: St. Paul
 type: citizens
 status: ongoing

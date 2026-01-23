@@ -1,7 +1,7 @@
 ---
 date: 2026-01-08
 time: unknown
-location: Minneapolis (protests following Renee Good shooting)
+location: Minneapolis
 city: Minneapolis
 type: observers
 status: resolved
