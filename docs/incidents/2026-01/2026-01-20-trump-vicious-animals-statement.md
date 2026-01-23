@@ -5,7 +5,7 @@ location: Truth Social
 city: n/a
 type: response
 status: resolved
-victim_citizenship: n/a
+affected_individual_citizenship: n/a
 injuries: n/a
 trustworthiness: high
 created: 2026-01-20T12:00:00

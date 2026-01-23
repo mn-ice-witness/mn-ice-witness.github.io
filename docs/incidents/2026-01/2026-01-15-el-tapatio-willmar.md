@@ -5,7 +5,7 @@ location: El Tapatio Restaurant, First Street South
 city: Willmar
 type: immigrants
 status: ongoing
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: high
 created: 2026-01-16T21:33:51
@@ -36,7 +36,7 @@ Four ICE agents ate lunch at El Tapatio, a family-owned Mexican restaurant in Wi
 16. DNYUZ (Jan 2026): [ICE agents detain workers who had just served them lunch](https://dnyuz.com/2026/01/16/ice-agents-detain-workers-who-had-just-served-them-lunch/)
 17. [GoFundMe: Liborio Parral & Bonfilia Sanchez](https://www.gofundme.com/f/LiborioParralBonfiliaSanchez) - Family fundraiser confirming owner identities
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Liborio Parral Ortiz and Bonfilia Sanchez Dominguez (owners); third person (dishwasher) not identified
 - **Age:** Unknown (owners' son is 20)
 - **Occupation:** Restaurant owners (2) and dishwasher (1)

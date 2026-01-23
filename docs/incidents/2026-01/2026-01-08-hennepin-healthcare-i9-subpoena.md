@@ -5,7 +5,7 @@ location: Hennepin Healthcare
 city: Minneapolis
 type: schools-hospitals
 status: ongoing
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: high
 created: 2026-01-15T22:45:52

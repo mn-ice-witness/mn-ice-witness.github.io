@@ -5,7 +5,7 @@ location: Portland Avenue
 city: Minneapolis
 type: observers
 status: resolved-released
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none-physical
 trustworthiness: high
 created: 2026-01-14T08:41:37
@@ -27,7 +27,7 @@ Rev. Kenny Callaghan, a Minneapolis pastor, was detained by ICE agents on Januar
 7. The Mirror US (Jan 2026): [Minneapolis pastor claims ICE agent 'waved gun' in his face](https://www.themirror.com/news/politics/minneapolis-pastor-claims-ice-agent-1615376)
 8. Yahoo News (Jan 2026): [Minneapolis Pastor Says He Was Detained by ICE](https://www.yahoo.com/news/articles/minneapolis-pastor-says-detained-ice-212824861.html)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Rev. Kenny Callaghan
 - **Occupation:** Pastor
 - **Citizenship:** U.S. Citizen
@@ -67,4 +67,4 @@ Callaghan stated that the experience revealed how ICE operations use "fear and i
 Same day: Renee Good shot and killed by ICE agent nearby.
 
 ## Editorial Assessment
-**HIGH** - Multiple news sources (KARE 11, The Advocate, New Republic) with consistent first-person account. Named victim willing to speak publicly. Direct quotes from ICE agent documented. Clear evidence of racial profiling admission by federal agent.
+**HIGH** - Multiple news sources (KARE 11, The Advocate, New Republic) with consistent first-person account. Named affected individual willing to speak publicly. Direct quotes from ICE agent documented. Clear evidence of racial profiling admission by federal agent.

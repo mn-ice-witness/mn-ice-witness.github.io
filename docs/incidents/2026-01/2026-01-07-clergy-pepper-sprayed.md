@@ -5,7 +5,7 @@ location: Portland Avenue (scene of Renee Good shooting)
 city: Minneapolis
 type: observers
 status: resolved
-victim_citizenship: us-citizens
+affected_individual_citizenship: us-citizens
 injuries: pepper-spray-exposure
 trustworthiness: high
 created: 2026-01-14T08:41:37
@@ -27,10 +27,10 @@ At least two pastors were shoved, shot at with pepper rounds, and exposed to pep
 7. Anabaptist World (Jan 2026): ['She could have been any of us' - Faith leaders mourn Renee Good](https://anabaptistworld.org/she-could-have-been-any-of-us-faith-leaders-mourn-renee-good-in-minneapolis/)
 8. Sojourners (Jan 2026): [Minneapolis Faith Leaders Amplify Demands for ICE to Repent](https://sojo.net/articles/news/minneapolis-faith-leaders-amplify-demands-ice-repent)
 9. UU World Magazine (Jan 2026): [Unitarian Universalists in Minneapolis Protest ICE Killing](https://www.uuworld.org/articles/renee-nicole-good-minneapolis-mutual-aid-unitarian-universalism)
-10. Facebook Live - Rev. Ashley Horan (Jan 7, 2026): [Full livestream from scene](https://www.facebook.com/ashley.a.p.horan/videos/2047488219423690) - **VIDEO** (1:59:39)
-11. Facebook Reel - Rev. Ashley Horan (Jan 2026): [Facebook Reel](https://www.facebook.com/reel/898902369494951)
+10. Facebook Video (Jan 7, 2026): [Full livestream from scene](https://www.facebook.com/ashley.a.p.horan/videos/2047488219423690)
+11. Facebook Video (Jan 7, 2026): [Rev. Ashley Horan reel](https://www.facebook.com/reel/898902369494951)
 
-## Victim(s)
+## Affected Individual(s)
 
 ### Rev. Susie Hayward
 - **Church:** Creekside UCC, Minneapolis

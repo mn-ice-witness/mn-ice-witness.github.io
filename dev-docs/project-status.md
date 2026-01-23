@@ -5,12 +5,12 @@ Current state of the MN ICE Files project.
 ## Documented Incidents (14 total)
 
 ### Fatal Incidents (1)
-| Date | Incident | Victim | Trust |
+| Date | Incident | Affected Individual | Trust |
 |------|----------|--------|-------|
 | Jan 7, 2026 | Renee Good shooting | U.S. Citizen | High |
 
 ### U.S. Citizens Detained (5)
-| Date | Incident | Victim | Trust |
+| Date | Incident | Affected Individual | Trust |
 |------|----------|--------|-------|
 | Jan 8, 2026 | Jose Ramirez (Native American) | U.S. Citizen | High |
 | Jan 8, 2026 | Little Earth (4 Oglala Sioux) | U.S. Citizens | Medium |
@@ -19,7 +19,7 @@ Current state of the MN ICE Files project.
 | Dec 10, 2025 | Mubashir (lunch break) | U.S. Citizen | High |
 
 ### Bystanders Arrested (4)
-| Date | Incident | Victim | Trust |
+| Date | Incident | Affected Individual | Trust |
 |------|----------|--------|-------|
 | Jan 13, 2026 | Aliya Rahman dragged from car, hospitalized | U.S. Citizen | High |
 | Jan 12, 2026 | Sigüenza & O'Keefe (8hr detention) | U.S. Citizens | High |
@@ -27,14 +27,14 @@ Current state of the MN ICE Files project.
 | Dec 9, 2025 | North Mpls observer | U.S. Citizen | High |
 
 ### Community Members Detained (3)
-| Date | Incident | Victim | Trust |
+| Date | Incident | Affected Individual | Trust |
 |------|----------|--------|-------|
 | Jan 11, 2026 | Hani Duglof (medical) | Asylum Seeker | High |
 | Jan 6, 2026 | El Fresco restaurant owner | Undocumented | High |
 | Dec 4, 2025 | Abdulkadir Abdi (recovery leader) | Legal Resident | Medium |
 
 ### School Incidents (1)
-| Date | Incident | Victim | Trust |
+| Date | Incident | Affected Individual | Trust |
 |------|----------|--------|-------|
 | Jan 7, 2026 | Roosevelt High School | U.S. Citizen | High |
 

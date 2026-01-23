@@ -5,7 +5,7 @@ location: Construction site
 city: Shakopee
 type: citizens
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: serious
 trustworthiness: medium
 created: 2026-01-16T22:28:22
@@ -20,7 +20,7 @@ Luis Ramirez Orozco, a Latino U.S. citizen, was tackled and detained by ICE agen
 ## Sources
 1. Sahan Journal (Jan 14, 2026): [Minnesotans increasingly see racial profiling from ICE agents](https://sahanjournal.com/immigration/ice-racial-profiling-minnesota-citizens-detained/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Luis Ramirez Orozco
 - **Citizenship:** U.S. Citizen
 - **Ethnicity:** Latino
@@ -56,4 +56,4 @@ No specific statement has been issued regarding this incident.
 This incident occurred the same morning that Renee Good was fatally shot by ICE agent Jonathan Ross in Minneapolis. The timing may have influenced ICE's decision to release Orozco. State Rep. Brad Tabke documented ICE activity at a DR Horton homebuilding operation in Shakopee around this time, with workers installing roofs coming under ICE scrutiny.
 
 ## Editorial Assessment
-**MEDIUM** - Single source (Sahan Journal) with named victim and direct quotes. Victim sought medical attention for documented injuries. Pattern consistent with other citizen detentions during Operation Metro Surge. Awaiting corroboration from additional news outlets.
+**MEDIUM** - Single source (Sahan Journal) with named affected individual and direct quotes. Victim sought medical attention for documented injuries. Pattern consistent with other citizen detentions during Operation Metro Surge. Awaiting corroboration from additional news outlets.

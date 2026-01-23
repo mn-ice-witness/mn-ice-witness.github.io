@@ -189,7 +189,7 @@ def process_incident(file_path, docs_dir, media_dir):
         "city": meta.get("city", "Minneapolis"),
         "type": parse_type(meta.get("type", "unknown")),
         "status": meta.get("status", "unknown"),
-        "victimCitizenship": meta.get("victim_citizenship", "unknown"),
+        "affectedIndividualCitizenship": meta.get("affected_individual_citizenship", "unknown"),
         "injuries": meta.get("injuries", "unknown"),
         "trustworthiness": meta.get("trustworthiness", "unverified"),
         "created": meta.get("created"),

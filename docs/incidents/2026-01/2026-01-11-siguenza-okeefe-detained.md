@@ -5,7 +5,7 @@ location: 16th Ave S & E 42nd Street
 city: Minneapolis
 type: observers
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
 created: 2026-01-14T08:01:12
@@ -27,7 +27,7 @@ Brandon Sigüenza (32) and Patty O'Keefe (36), both U.S. citizens monitoring ICE
 7. Cato Institute X (Jan 2026): [@CatoInstitute post on Siguenza and O'Keefe](https://x.com/CatoInstitute/status/2011831267273138324)
 8. Threads (Jan 2026): [U.S. citizens Patty O'Keefe and Brandon Siguenza detained by ICE](https://www.threads.com/@klgfortexas/post/DTcRk2REkOI/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Patty O'Keefe:** 36, U.S. Citizen
 - **Brandon Sigüenza:** 32, U.S. Citizen
 

@@ -5,7 +5,7 @@ location: Near Mercado Central, Lake Street
 city: Minneapolis
 type: immigrants
 status: ongoing
-victim_citizenship: undocumented
+affected_individual_citizenship: undocumented
 injuries: none
 trustworthiness: low
 created: 2026-01-18T13:33:29
@@ -20,7 +20,7 @@ A mother was arrested by ICE while cashing a check near Mercado Central on Lake 
 ## Sources
 1. Minnesota Reformer (Jan 16, 2026): [These are the arrests you're not seeing](https://minnesotareformer.com/2026/01/16/these-are-the-arrests-youre-not-seeing/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Unknown
 - **Citizenship:** Presumed undocumented
 - **Children:** Two sons (one middle-school age, one young high-schooler)
@@ -47,4 +47,4 @@ On the broader situation: "There are a number of people that are stuck at home, 
 Mercado Central is home to dozens of Latino-owned businesses. Community patrollers have been stationing themselves around the clock at the market, hoping to make workers and customers feel safe enough to do business during Operation Metro Surge.
 
 ## Editorial Assessment
-**LOW** - Single source (Minnesota Reformer). No victim identification. Compelling account from named advocate (Luis Argueta Jr., Unidos MN) who directly interacted with the children. Needs corroboration or additional coverage to raise trustworthiness.
+**LOW** - Single source (Minnesota Reformer). No affected individual identification. Compelling account from named advocate (Luis Argueta Jr., Unidos MN) who directly interacted with the children. Needs corroboration or additional coverage to raise trustworthiness.

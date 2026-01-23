@@ -5,7 +5,7 @@ location: Under bridge near Little Earth Housing Project
 city: Minneapolis
 type: citizens
 status: resolved-released
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-14T08:01:12
@@ -30,7 +30,7 @@ Four homeless men, all enrolled members of the Oglala Sioux Tribe and U.S. citiz
 10. MPR News (Jan 13, 2026): [South Dakota tribe Oglala Sioux demands release of Lakota men in Minneapolis detained by ICE](https://www.mprnews.org/story/2026/01/13/south-dakota-tribe-oglala-sioux-demands-release-of-lakota-men-in-minneapolis-detained-by-ice)
 11. MR Online (Jan 15, 2026): [ICE detains Indigenous people in Minneapolis, tribes cite treaty violations](https://mronline.org/2026/01/15/ice-detains-indigenous-people-in-minneapolis-tribes-cite-treaty-violations/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Number:** Four
 - **Names:** Not disclosed (taken into custody without names being recorded)
 - **Citizenship:** U.S. Citizens, enrolled Oglala Sioux Tribe members

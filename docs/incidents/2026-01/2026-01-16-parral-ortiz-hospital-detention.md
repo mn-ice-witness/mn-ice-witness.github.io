@@ -5,7 +5,7 @@ location: En route to Mercy Hospital Unity Campus
 city: Mounds View
 type: immigrants, schools-hospitals
 status: ongoing
-victim_citizenship: undocumented
+affected_individual_citizenship: undocumented
 injuries: none
 trustworthiness: medium
 created: 2026-01-19T12:56:14
@@ -18,10 +18,10 @@ last_updated: 2026-01-19T12:56:14
 Liborio Parral Ortiz was detained by ICE agents while driving his wife Bonfilia Sanchez Dominguez to the emergency room for severe back pain. Agents blocked their vehicle before they could reach Mercy Hospital Unity Campus in Fridley. Parral Ortiz was taken into custody and transported to El Paso, Texas within 20 hours—before his family could bring him his diabetes medication. His wife was taken to the hospital by ICE agents, but family members and her attorney were blocked from accessing her bedside.
 
 ## Sources
-1. [Medical emergency turns into nightmare as ICE detains Mounds View couple en route to ER](https://sahanjournal.com/health/ice-detains-mounds-view-couple/) - Sahan Journal (Jan 17, 2026)
-2. [GoFundMe: Liborio Parral & Bonfilia Sanchez](https://www.gofundme.com/f/LiborioParralBonfiliaSanchez) - Family fundraiser for legal fees
+1. Sahan Journal (Jan 17, 2026): [Medical emergency turns into nightmare as ICE detains Mounds View couple en route to ER](https://sahanjournal.com/health/ice-detains-mounds-view-couple/)
+2. GoFundMe (Jan 17, 2026): [Liborio Parral & Bonfilia Sanchez](https://www.gofundme.com/f/LiborioParralBonfiliaSanchez)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Liborio Parral Ortiz (detained); Bonfilia Sanchez Dominguez (hospitalized, blocked from family)
 - **Age:** Unknown
 - **Occupation:** Manufacturing worker (20 years at local company); restaurant owners (El Tapatio in Willmar)
@@ -62,4 +62,4 @@ This family was targeted in multiple ICE operations:
 This incident is part of a broader pattern of ICE presence at Minnesota hospitals during Operation Metro Surge. Health care workers have reported ICE agents at Hennepin County Medical Center, Regions Hospital, and other facilities. At a Hennepin County Board of Commissioners meeting, medical staff expressed concern that ICE presence creates fear among patients and staff, potentially deterring people from seeking medical care.
 
 ## Editorial Assessment
-**MEDIUM** - Single news source (Sahan Journal) with detailed victim and family interviews. The GoFundMe campaign corroborates background details about the family. The story includes direct quotes from family members and specific timeline details. The connection to the well-documented El Tapatio incident (same family) adds credibility. Rating could be upgraded to HIGH if additional news outlets cover the story or if official records (ICE detainee locator confirmation) are documented.
+**MEDIUM** - Single news source (Sahan Journal) with detailed affected individual and family interviews. The GoFundMe campaign corroborates background details about the family. The story includes direct quotes from family members and specific timeline details. The connection to the well-documented El Tapatio incident (same family) adds credibility. Rating could be upgraded to HIGH if additional news outlets cover the story or if official records (ICE detainee locator confirmation) are documented.

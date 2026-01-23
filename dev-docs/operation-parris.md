@@ -21,7 +21,7 @@ Global Refuge has documented that lawfully admitted refugees are being detained 
 
 Add a "Context: Operation PARRIS" section to any incident where:
 
-1. **Victim is a refugee with legal status** (not undocumented)
+1. **Affected individual is a refugee with legal status** (not undocumented)
 2. **Pending immigration application** (I-130, green card, etc.)
 3. **Detained despite legal presence** (had valid documents, followed proper process)
 
@@ -41,7 +41,7 @@ At the end of the Summary text, add:
 ```markdown
 ## Context: Operation PARRIS
 
-[Victim name]'s detention fits a documented pattern of ICE targeting refugees with pending green card applications under **Operation PARRIS** (Post-Admission Refugee Reverification and Integrity Strengthening). According to [Fox 9](https://www.fox9.com/news/minnesota-fraud-dhs-launching-operation-parris-target-refugees-jan-9), approximately 5,600 green card applicants in Minnesota are being targeted through this [official DHS operation](https://www.uscis.gov/newsroom/news-releases/dhs-launches-landmark-uscis-fraud-investigation-in-minnesota).
+[Affected individual's name]'s detention fits a documented pattern of ICE targeting refugees with pending green card applications under **Operation PARRIS** (Post-Admission Refugee Reverification and Integrity Strengthening). According to [Fox 9](https://www.fox9.com/news/minnesota-fraud-dhs-launching-operation-parris-target-refugees-jan-9), approximately 5,600 green card applicants in Minnesota are being targeted through this [official DHS operation](https://www.uscis.gov/newsroom/news-releases/dhs-launches-landmark-uscis-fraud-investigation-in-minnesota).
 
 [Global Refuge](https://www.globalrefuge.org/news/refugee-arrests-minnesota/) has documented that lawfully present refugees are being detained and transported to Texas within 24 hours with "no due process, no access to an attorney."
 ```

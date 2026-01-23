@@ -5,7 +5,7 @@ location: Downtown Willmar
 city: Willmar
 type: citizens, schools-hospitals
 status: resolved
-victim_citizenship: legal-resident
+affected_individual_citizenship: legal-resident
 injuries: none
 trustworthiness: high
 created: 2026-01-14T08:19:50
@@ -21,8 +21,10 @@ Suban Noor, a 19-year-old Somali woman and 11th-grade student at Willmar Senior 
 1. West Central Tribune (Jan 13, 2026): [Federal immigration agents make arrests Monday in Willmar](https://www.wctrib.com/news/local/federal-immigration-agents-make-arrests-monday-in-willmar)
 2. MinnPost (Jan 13, 2026): [Ugly rhetoric, fears of ICE raids test an 'All-America City'](https://www.minnpost.com/greater-minnesota/2026/01/ugly-rhetoric-fears-of-ice-raids-test-an-all-america-city-with-criticism-of-willmars-somali-community/)
 3. InForum (Jan 17, 2026): [Willmar high school student released days after being detained by ICE](https://www.inforum.com/news/minnesota/willmar-high-school-student-released-days-after-being-detained-by-ice)
+4. West Central Tribune (Jan 17, 2026): [Willmar Senior High student arrested Monday by ICE has been released](https://www.wctrib.com/news/local/willmar-senior-high-student-arrested-monday-by-ice-has-been-released)
+5. KWLM Willmar Radio (Jan 17, 2026): [Willmar High School student who was detained by ICE has been released...El Tapatio reopens](https://www.willmarradio.com/news/willmar-high-school-student-who-was-detained-by-ice-has-been-released-el-tapatio-reopens/article_5131120c-a99a-4d98-855e-5dc39a826848.html)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Suban Noor
 - **Age:** 19
 - **Occupation:** High school student (11th grade, Willmar Senior High School)
@@ -64,7 +66,7 @@ During the Tuesday protest against ICE actions, agents deployed chemical irritan
 
 This detention fits a documented pattern of ICE targeting refugees with pending green card applications under **Operation PARRIS** (Post-Admission Refugee Reverification and Integrity Strengthening). According to [Fox 9](https://www.fox9.com/news/minnesota-fraud-dhs-launching-operation-parris-target-refugees-jan-9), approximately 5,600 green card applicants in Minnesota are being targeted through this [official DHS operation](https://www.uscis.gov/newsroom/news-releases/dhs-launches-landmark-uscis-fraud-investigation-in-minnesota).
 
-The victim had legal refugee status (Form I-94) and her family had an active Green Card application pending - exactly the profile being targeted under this operation.
+The affected individual had legal refugee status (Form I-94) and her family had an active Green Card application pending - exactly the profile being targeted under this operation.
 
 [Global Refuge](https://www.globalrefuge.org/news/refugee-arrests-minnesota/) has documented that lawfully present refugees are being detained and transported to Texas within 24 hours with "no due process, no access to an attorney."
 

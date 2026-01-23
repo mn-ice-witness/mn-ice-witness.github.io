@@ -5,7 +5,7 @@ location: St. Gabriel the Archangel Catholic Church, 13th Avenue South
 city: Hopkins
 type: immigrants
 status: resolved-deported
-victim_citizenship: undocumented
+affected_individual_citizenship: undocumented
 injuries: none
 trustworthiness: high
 created: 2026-01-14T08:33:42
@@ -22,7 +22,7 @@ Francisco Paredes, a 46-year-old church maintenance worker and choir member who 
 2. Catholic World Report (Jan 9, 2026): [ICE deported Minnesota church employee, surveilled parish](https://www.catholicworldreport.com/2026/01/09/minnesota-ice-catholic-church/)
 3. Star Tribune (Jan 10, 2026): [A day in the life of a Hispanic pastor during Minnesota's ICE surge](https://www.startribune.com/mn-hispanic-community-reaction-ice-arrests-deportation/601563257)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Francisco Paredes
 - **Age:** 46
 - **Origin:** Mexico

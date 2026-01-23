@@ -5,7 +5,7 @@ location: Near 24 Somali Mall
 city: Minneapolis
 type: citizens
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-14T17:54:18
@@ -28,7 +28,7 @@ Nimco Omar, a U.S. citizen and Somali American, was surrounded by four masked fe
 8. The Real News (Jan 12, 2026): ['Where were you born?' ICE conducting show-me-your-papers stops in Minnesota neighborhoods](https://therealnews.com/ice-show-me-your-papers-stops-in-minnesota-neighborhoods)
 9. Yahoo News (Jan 12, 2026): [Woman Stands Firm Against Border Patrol Agent's Demand for ID in Minneapolis](https://www.yahoo.com/news/videos/woman-stands-firm-against-border-002529662.html)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Nimco Omar
 - **Age:** Not disclosed
 - **Occupation:** Not disclosed
@@ -72,4 +72,4 @@ Cited this incident as evidence of "unlawful racial profiling by DHS agents" in 
 There is no federal law requiring U.S. citizens to carry proof of their citizenship. Immigration agents are barred from carrying out indiscriminate searches unless they have reasonable suspicion to believe that someone is in the country without authorization. No such thing as a "citizen check" exists in American law.
 
 ## Editorial Assessment
-**HIGH** - Video evidence filmed by the victim clearly documents the encounter. Multiple news outlets (FOX 9, Common Dreams, The Real News, Yahoo News) covered the incident with consistent details. The video was distributed via Storyful and cited by Minnesota Attorney General Keith Ellison in the state's lawsuit against DHS. Omar's quotes and the agents' statements are directly captured in the footage.
+**HIGH** - Video evidence filmed by the affected individual clearly documents the encounter. Multiple news outlets (FOX 9, Common Dreams, The Real News, Yahoo News) covered the incident with consistent details. The video was distributed via Storyful and cited by Minnesota Attorney General Keith Ellison in the state's lawsuit against DHS. Omar's quotes and the agents' statements are directly captured in the footage.

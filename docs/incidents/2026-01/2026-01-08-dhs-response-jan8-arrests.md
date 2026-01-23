@@ -5,7 +5,7 @@ location: DHS Press Release
 city: Minneapolis
 type: response
 status: resolved
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: high
 created: 2026-01-14T12:35:56

@@ -5,7 +5,7 @@ location: Traffic stop near residence
 city: Inver Grove Heights
 type: immigrants
 status: ongoing
-victim_citizenship: undocumented
+affected_individual_citizenship: undocumented
 injuries: none
 trustworthiness: high
 created: 2026-01-19T18:00:00
@@ -19,12 +19,12 @@ A couple who have lived in Minnesota since 1999 were detained by ICE during a tr
 
 ## Sources
 1. CBS Minnesota (Jan 19, 2026): [Minnesota sisters "burnt out" 1 week after parents detained, sent to Texas ICE facility](https://www.cbsnews.com/minnesota/news/minnesota-parents-arrested-by-ice-inver-grove-heights-held-in-el-paso/)
-2. CBS Minnesota Video (Jan 19, 2026): [Sisters fighting to get parents back after ICE arrest](https://www.cbsnews.com/minnesota/video/sisters-fighting-to-get-parents-back-after-ice-arrest/) - **VIDEO** (3:22)
+2. CBS Minnesota Video (Jan 19, 2026): [Sisters fighting to get parents back after ICE arrest](https://www.cbsnews.com/minnesota/video/sisters-fighting-to-get-parents-back-after-ice-arrest/)
 3. Fox 9 (Jan 9, 2026): [DHS launching 'Operation PARRIS' to target Minnesota refugees](https://www.fox9.com/news/minnesota-fraud-dhs-launching-operation-parris-target-refugees-jan-9) - Context on refugee targeting
 4. Twin Cities Pioneer Press (Jan 18, 2026): [5,600 Green Card applicants in Minnesota targeted through Operation PARRIS](https://www.twincities.com/2026/01/18/5600-green-card-applicants-in-minnesota-targeted-through-operation-parris/)
-5. Global Refuge: [Global Refuge statement on refugee arrests in Minnesota](https://www.globalrefuge.org/news/refugee-arrests-minnesota/)
+5. Global Refuge (Jan 2026): [Global Refuge statement on refugee arrests in Minnesota](https://www.globalrefuge.org/news/refugee-arrests-minnesota/)
 
-## Victim(s)
+## Affected Individual(s)
 
 ### Parents
 - **Names:** Not disclosed (surname Silva Sosa)

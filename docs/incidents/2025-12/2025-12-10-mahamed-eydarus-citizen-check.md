@@ -5,7 +5,7 @@ location: Fridley (residential area)
 city: Fridley
 type: citizens
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-15T20:00:44
@@ -23,7 +23,7 @@ Mahamed Eydarus, a 25-year-old U.S. citizen of Somali descent from Fridley, was 
 3. Sahan Journal (Jan 15, 2026): [ACLU lawsuit: ICE violates constitutional rights in Minnesota](https://sahanjournal.com/immigration/aclu-federal-lawsuit-ice-minnesota/)
 4. Star Tribune (Jan 15, 2026): [ACLU sues feds over alleged racial profiling in Twin Cities immigration surge](https://www.startribune.com/aclu-sues-feds-over-alleged-racial-profiling-in-twin-cities-immigration-surge/601564707)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Mahamed Eydarus
 - **Age:** 25
 - **Residence:** Fridley, MN
@@ -59,7 +59,7 @@ According to the ACLU lawsuit filed January 15, 2026:
 - **First Amendment:** Religious expression (demanding removal of niqab)
 - **Equal Protection:** Racial profiling based on ethnicity and language
 
-## Impact on Victim
+## Impact on Affected Individual
 Per the lawsuit: "Mr. Eydarus is scared to go about his daily life in public, as he fears being again detained based on his Somali descent and appearance."
 
 ## Official Accounts

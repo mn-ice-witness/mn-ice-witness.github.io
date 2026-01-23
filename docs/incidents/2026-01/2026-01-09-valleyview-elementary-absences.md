@@ -5,7 +5,7 @@ location: Valleyview Elementary School
 city: Bloomington
 type: schools-hospitals
 status: resolved
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: medium
 created: 2026-01-14T08:19:50

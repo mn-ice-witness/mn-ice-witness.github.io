@@ -5,7 +5,7 @@ location: Minneapolis street
 city: Minneapolis
 type: observers
 status: resolved
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: minor
 trustworthiness: high
 created: 2026-01-14T15:13:20
@@ -30,7 +30,7 @@ Video shows an ICE agent shoving a man who was filming their vehicle into oncomi
 10. Cleveland 19 (Jan 13, 2026): [CNN affiliate coverage](https://www.cleveland19.com/2026/01/13/man-obstructing-ice-vehicle-shoved-by-officer-into-oncoming-traffic-video-shows/)
 11. Alaska's News Source (Jan 13, 2026): [CNN affiliate coverage](https://www.alaskasnewssource.com/2026/01/13/man-obstructing-ice-vehicle-shoved-by-officer-into-oncoming-traffic-video-shows/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Not identified
 - **Citizenship:** Unknown
 - **Status:** Appeared uninjured in video

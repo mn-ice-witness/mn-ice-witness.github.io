@@ -5,7 +5,7 @@ location: Pilllar Forum, 2300 Central Ave NE
 city: Minneapolis
 type: observers
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
 created: 2026-01-14T08:01:12
@@ -20,7 +20,7 @@ Musicians and concert attendees were pepper-sprayed and hit with batons by ICE a
 ## Sources
 1. Star Tribune (Jan 12, 2026): [Music fans say ICE agents pepper-sprayed them outside all-ages Minneapolis rock venue](https://www.startribune.com/fans-scuffle-ice-agents-minneapolis-all-ages-venue-pilllar-forum-northeast-central-pepper-spray/601562747)
 
-## Victim(s)
+## Affected Individual(s)
 - **Names:** Multiple unnamed musicians and concert-goers
 - **Citizenship:** U.S. Citizens
 - **Details:** Several customers and musicians were pepper-sprayed, at least two hit with batons

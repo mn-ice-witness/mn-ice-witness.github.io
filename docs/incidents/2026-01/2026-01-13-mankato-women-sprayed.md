@@ -5,7 +5,7 @@ location: Near Mankato East High School
 city: Mankato
 type: observers
 status: resolved
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: chemical irritant exposure
 trustworthiness: medium
 created: 2026-01-14T09:04:50
@@ -21,7 +21,7 @@ Two young women were pepper sprayed directly in the face (chemical irritant) by 
 1. Facebook Video (Jan 13, 2026): [Women sprayed with chemical irritant](https://www.facebook.com/reel/3898161177152426)
 2. Star Tribune (Jan 13, 2026): [ICE activity, increasing in rural Minnesota and cities outside metro, increases anxiety](https://www.startribune.com/with-ice-surge-spreading-across-state-rumors-and-anxiety-grow-in-greater-minnesota/601562255)
 
-## Victim(s)
+## Affected Individual(s)
 - Two young women (names not disclosed)
 - Sprayed with chemical irritant
 

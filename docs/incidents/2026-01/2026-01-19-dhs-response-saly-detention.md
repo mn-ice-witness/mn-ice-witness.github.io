@@ -5,7 +5,7 @@ location: X @TriciaOhio
 city: St. Paul
 type: response
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-19T15:00:40

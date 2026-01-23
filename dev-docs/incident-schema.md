@@ -2,6 +2,25 @@
 
 Every incident is a markdown file with YAML frontmatter. This document defines the exact schema.
 
+## ⚠️ Critical: Neutral Language
+
+**Use "Affected Individual(s)" — NOT "Victim(s)"**
+
+This project uses neutral, documentary language. The term "victim" carries emotional weight and implies judgment. Instead:
+
+| Don't Use | Use Instead |
+|-----------|-------------|
+| `victim_citizenship:` | `affected_individual_citizenship:` |
+| `## Victim(s)` | `## Affected Individual(s)` |
+| "the victim" | "the affected individual" |
+| "victims" | "affected individuals" |
+
+**Why?** We present facts and let readers draw conclusions. Neutral terminology maintains credibility and objectivity.
+
+**Exception:** Preserve "victim" in direct quotes from sources.
+
+See [adding-incidents.md](adding-incidents.md#language-guidelines) for complete language guidelines.
+
 ## File Naming
 
 ```
@@ -24,7 +43,7 @@ location: string              # Required. Specific location
 city: string                  # Required. Minneapolis, St. Paul, etc.
 type: enum                    # Required. See types below
 status: enum                  # Required. ongoing | resolved | under-investigation
-victim_citizenship: enum      # Required. See values below
+affected_individual_citizenship: enum  # Required. See values below
 injuries: enum                # Required. none | minor | serious | fatal
 trustworthiness: enum         # Required. EXACTLY ONE OF: high | medium | low | unverified (no compound values like "medium-high")
 created: YYYY-MM-DDTHH:MM:SS  # Required. When incident was first added to site
@@ -36,14 +55,14 @@ last_updated: YYYY-MM-DDTHH:MM:SS  # Required. When last MAJOR update occurred (
 
 **Format:** Full ISO 8601 timestamp with seconds: `YYYY-MM-DDTHH:MM:SS`
 
-#### ⚠️ USE THE ACTUAL CURRENT TIME (Critical!)
+#### ⚠️ MANDATORY: Run the timestamp script (Critical!)
 
-**To get the current timestamp, run:**
+**You MUST run this command and copy-paste its output:**
 ```bash
 ./bin/timestamp.sh
 ```
 
-**Never guess or make up a timestamp** — LLMs consistently fabricate plausible-looking times that are wrong.
+**Do NOT type a timestamp manually** — LLMs ALWAYS fabricate plausible-looking times (like `12:00:00` or `14:30:00`) that are wrong. Run the script, copy, paste. No exceptions.
 
 | Example | Correct? |
 |---------|----------|
@@ -79,7 +98,11 @@ See `adding-incidents.md` for detailed guidance.
 
 ### Type Values
 
-**IMPORTANT: There are exactly 5 incident types. Use ONLY these values:**
+**⚠️ CRITICAL: There are EXACTLY 5 incident types. Use ONLY these values:**
+
+```
+citizens | observers | immigrants | schools-hospitals | response
+```
 
 | Value | Use For |
 |-------|---------|
@@ -87,19 +110,22 @@ See `adding-incidents.md` for detailed guidance.
 | `observers` | People **detained or attacked for filming, observing, or protesting** ICE — targeted for what they were doing |
 | `immigrants` | Non-criminal immigrants detained (includes workplace raids) |
 | `schools-hospitals` | Actions at/near schools or hospitals, including patient targeting and workplace audits |
-| `response` | DHS/ICE official statements justifying specific incidents/arrests |
+| `response` | **FEDERAL GOVERNMENT ONLY:** DHS/ICE/CBP official statements (e.g., Trump, Noem, Bovino, @DHSgov). NOT for local police, mayors, governors, or other non-federal officials. |
+
+**Do NOT invent types.** Values like `schools`, `workplace-raid`, `citizen-detained`, or any other variation will break filtering.
 
 **Citizens vs Observers — Key Distinction:**
 Both categories may involve U.S. citizens being detained. Choose based on WHY they were targeted:
 - **`citizens`** = Racial profiling or mistaken identity. Person was just living their life (working, driving, shopping, walking).
 - **`observers`** = First Amendment retaliation. Person was actively filming, following, watching, or protesting ICE.
 
-**Notes:**
-- **Multiple types ARE allowed** - use comma-separated values (e.g., `type: citizens, schools-hospitals`) when an incident fits multiple categories
+**Multiple Types:**
+- Multiple types ARE allowed — use comma-separated values (e.g., `type: citizens, schools-hospitals`)
+- **The FIRST type determines the category shown in media cards and the NEW/UPDATED list view**
+- Order matters: put the most relevant category first
 - Workplace raids of non-U.S. citizens → use `immigrants`
-- Do NOT use `citizen-detained`, `workplace-raid`, or other variant types
 
-### Victim Citizenship Values
+### Affected Individual Citizenship Values
 
 | Value | Meaning |
 |-------|---------|
@@ -125,7 +151,7 @@ For incidents with `trustworthiness: unverified`, add two special elements:
 ```markdown
 # Incident Title (UNVERIFIED)
 
-***No mainstream media has reported on this incident. It is based on social media posts only. If you have a media source, please [contact us](mailto:mnicewitness@proton.me).***
+***No mainstream media has reported on this incident. It is based on social media posts only. If you have a media source, please [contact us](mailto:mnicewitness@gmail.com).***
 
 ## Summary
 ```
@@ -144,7 +170,7 @@ This allows us to make editorial judgments about incidents worth documenting whi
 Brief 2-3 sentence summary. First sentence appears in card preview.
 
 ## Sources
-All sources numbered. Videos first, then articles. Every source includes outlet name and date.
+All sources numbered. Best/most compelling source first (original reporting, key video, outlet that broke story). Every source includes outlet name and date.
 
 1. Instagram Video (Jan 15, 2026): [Shawn Jackson interview](URL)
 2. YouTube Video (Jan 14, 2026): [Full press conference](URL)
@@ -152,7 +178,7 @@ All sources numbered. Videos first, then articles. Every source includes outlet 
 4. Star Tribune (Jan 14, 2026): [ICE agents clash with residents](URL)
 5. CNN (Jan 15, 2026): [Minneapolis family describes attack](URL)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** (if public, else "Not disclosed")
 - **Age:**
 - **Occupation:**
@@ -180,12 +206,15 @@ Direct quotes or summaries.
 
 **IMPORTANT:** Use exactly one rating value. Do NOT use compound ratings like "medium-high".
 
+**See [Source Credibility Tiers](source-tiers.md)** for guidance on how different source types affect trustworthiness ratings.
+
 Examples:
 - **HIGH** - 3 independent sources (Star Tribune, MPR, Fox 9)
-- **HIGH** - Detailed Intercept investigation with named victim and direct quotes
-- **HIGH** - Video evidence shows incident clearly
+- **HIGH** - Detailed Intercept investigation with named affected individual and direct quotes
+- **HIGH** - Video evidence + coverage by established local news
 - **MEDIUM** - 2 sources (local news + union statement)
-- **MEDIUM** - Well reported but no independent firsthand witnesses on scene to corroborate; account relies on victim/family statement
+- **MEDIUM** - Well reported but no independent firsthand witnesses on scene to corroborate; account relies on affected individual/family statement
+- **MEDIUM** - Viral social media with video evidence, but no coverage from established news organizations (see source-tiers.md)
 - **LOW** - Single community paper report, needs corroboration
 ```
 
@@ -204,6 +233,19 @@ Posted on X (@DHSgov):
 
 ## Official Response Documents (standalone)
 
+**IMPORTANT: `type: response` is ONLY for federal government (DHS/ICE/CBP) statements.**
+
+Examples of `response`:
+- DHS press release justifying arrests
+- @DHSgov or @ICEgov tweets about an incident
+- Statements from Kristi Noem, Bovino, Trump about MN operations
+
+**NOT `response`** (use `citizens` instead):
+- Local police chiefs speaking about civil rights violations
+- Mayors or governors criticizing ICE
+- Sheriff statements about profiling concerns
+- Any non-federal official statement
+
 For DHS/ICE press releases and statements justifying specific arrests, create standalone documents with type `response`:
 
 ```markdown
@@ -214,7 +256,7 @@ location: DHS Press Release
 city: Minneapolis
 type: response
 status: resolved
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: high
 last_updated: YYYY-MM-DDTHH:MM:SS
@@ -268,7 +310,7 @@ location: Speedway, Snelling & Portland
 city: St. Paul
 type: observers
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
 created: 2026-01-13T14:30:00
@@ -284,7 +326,7 @@ A U.S. citizen filming an ICE arrest was tackled and detained despite complying 
 1. FOX 9 Video (Jan 11, 2026): [Arrest footage from scene](https://www.fox9.com/...)
 2. FOX 9 (Jan 11, 2026): [Video shows bystander tackled at Speedway](https://www.fox9.com/...)
 
-## Victim(s)
+## Affected Individual(s)
 - **Citizenship:** U.S. Citizen
 - **Status:** Released same day
 
@@ -316,15 +358,15 @@ A U.S. citizen filming an ICE arrest was tackled and detained despite complying 
 ### Format
 Every source follows this format:
 ```
-N. Outlet Name (Date): [Article/Video Title](URL)
+N. Outlet Name (Mon DD, YYYY): [Article/Video Title](URL)
 ```
 
 - **All sources numbered** starting at 1
 - **Outlet name first** (FOX 9, Star Tribune, Instagram Video, etc.)
-- **Date in parentheses** in format (Mon DD, YYYY)
-- **Colon** after the date
+- **Date in parentheses** in format `(Mon DD, YYYY)` - always include the day
+- **Colon** after the closing parenthesis
 - **Title in brackets** linked to URL
-- **Videos listed FIRST**, then articles
+- **Best/most compelling source first** - Lead with the primary source (original reporting, key video evidence, or the outlet that broke the story). This is often video but can be an article if that's the main reporting.
 - **Every source MUST have a link** - no link means it's not a source
 
 ### Video Sources
@@ -334,7 +376,40 @@ For video content, use platform name + "Video":
 2. YouTube Video (Jan 14, 2026): [Full press conference](URL)
 3. Facebook Video (Jan 12, 2026): [Witness footage of arrest](URL)
 4. X Video (Jan 13, 2026): [FOX 9 coverage](URL)
-5. CBS Video (Jan 14, 2026): [News report with footage](URL)
+5. TikTok Video (Jan 13, 2026): [Witness footage](URL)
+6. CBS Video (Jan 14, 2026): [News report with footage](URL)
+```
+
+### Social Media (Non-Video) Sources
+For social media posts that aren't primarily video:
+```
+1. X Post (Jan 15, 2026): [@DHSgov statement](URL)
+2. Threads (Jan 15, 2026): [@username post](URL)
+3. Bluesky (Jan 15, 2026): [@username.bsky.social post](URL)
+4. Facebook Post (Jan 15, 2026): [Business name statement](URL)
+5. Instagram Post (Jan 15, 2026): [@restaurantname announcement](URL)
+```
+
+### Common Mistakes to Avoid
+
+**WRONG formats:**
+```
+3. [Instagram post](URL) - Francis Burger Joint          ❌ Wrong order, missing date
+4. TikTok - @username: [Video](URL)                      ❌ Wrong format entirely
+5. Facebook Post: [Description](URL)                     ❌ Missing date
+6. Star Tribune (Jan 2026): [Headline](URL)              ❌ Missing day - use full date
+7. [News article](URL) (Jan 15, 2026)                    ❌ Outlet name missing, wrong order
+8. **VIDEO** Instagram (Jan 15, 2026): [Title](URL)      ❌ Don't prefix with VIDEO
+9. Instagram Video (Jan 15, 2026): [Title](URL) - **VIDEO**  ❌ Don't suffix with VIDEO
+```
+
+**CORRECT formats:**
+```
+1. Instagram Post (Jan 15, 2026): [Francis Burger Joint statement](URL)  ✅
+2. TikTok Video (Jan 13, 2026): [@username witness footage](URL)         ✅
+3. Facebook Post (Jan 14, 2026): [Business announcement](URL)            ✅
+4. Star Tribune (Jan 15, 2026): [Headline text here](URL)                ✅
+5. Instagram Video (Jan 15, 2026): [Interview with witness](URL)         ✅
 ```
 
 ### Article Sources
@@ -347,10 +422,17 @@ For articles, use outlet name:
 10. New York Times (Jan 15, 2026): [Couple Says ICE Agents Gassed Them](URL)
 ```
 
-### Video Priority Order
-When an incident has multiple videos, order them by importance:
-1. Full interviews / press conferences with victim
-2. Original source video (posted by witness/victim)
+### Source Priority Order
+Order sources by importance/value, not by type. When choosing what goes first:
+1. Original reporting that broke the story (often a local news outlet)
+2. Primary video evidence (interviews, press conferences, witness footage)
+3. Major news outlet coverage with additional details
+4. Syndicated coverage (Yahoo, AOL, NewsBreak reprinting original story)
+5. Social media shares/reposts
+
+When an incident has multiple videos, order videos by importance:
+1. Full interviews / press conferences with affected individual
+2. Original source video (posted by witness/affected individual)
 3. News outlet video coverage
 4. Social media reposts
 

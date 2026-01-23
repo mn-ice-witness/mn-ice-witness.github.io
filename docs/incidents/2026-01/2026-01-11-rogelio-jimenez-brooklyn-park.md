@@ -5,7 +5,7 @@ location: Brooklyn Boulevard
 city: Brooklyn Park
 type: citizens
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
 created: 2026-01-14T20:05:01
@@ -21,7 +21,7 @@ Rogelio Jimenez, a U.S. citizen, was forcibly removed from his car by masked ICE
 1. CBS Video (Jan 13, 2026): [During Minneapolis operation, ICE has repeatedly arrested U.S. citizens](https://www.cbsnews.com/minnesota/video/during-minneapolis-operation-ice-has-repeatedly-arrested-u-s-citizens/)
 2. CBS News (Jan 13, 2026): [U.S. citizens recount being detained by ICE during Minnesota operation](https://www.cbsnews.com/minnesota/news/us-citizens-arrested-by-ice-minneapolis/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Rogelio Jimenez
 - **Citizenship:** U.S. citizen
 - **Heritage:** Mexican-American
@@ -37,7 +37,7 @@ He was driven around for approximately 20 minutes before being released. His car
 ## ICE Explanation
 An agent told Jimenez they were looking for someone with the same name.
 
-## Victim's Statement
+## Affected Individual's Statement
 Jimenez believes he was targeted in part for his Mexican heritage and the Mexican flag decals on his vehicle.
 
 ## Official Response
@@ -49,4 +49,4 @@ This incident is part of a documented pattern of ICE detaining U.S. citizens dur
 U.S. Border Patrol Commander Greg Bovino stated that people who are in the country legally "shouldn't be concerned," but dozens of similar reports on social media have prompted many Americans in Minnesota to carry passports and other legal documents out of fear of being stopped.
 
 ## Editorial Assessment
-**HIGH** - Video evidence from multiple angles (dashcam, cell phone, bystander). Named victim (Rogelio Jimenez) with direct quotes in established local outlet (CBS Minnesota/WCCO). ICE has not responded to request for comment.
+**HIGH** - Video evidence from multiple angles (dashcam, cell phone, bystander). Named affected individual (Rogelio Jimenez) with direct quotes in established local outlet (CBS Minnesota/WCCO). ICE has not responded to request for comment.

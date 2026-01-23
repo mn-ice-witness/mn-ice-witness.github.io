@@ -5,7 +5,7 @@ location: Cedar-Riverside neighborhood, near restaurant
 city: Minneapolis
 type: citizens
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
 created: 2026-01-14T08:01:12
@@ -31,7 +31,7 @@ Mubashir, a 20-year-old U.S. citizen and Somali American, was tackled, placed in
 11. CNN (Dec 13, 2025): [ICE detains US citizen in Minneapolis: He went on his lunch break and ended up in a chokehold](https://www.cnn.com/2025/12/13/us/ice-minneapolis-us-citizen)
 12. Newsweek (Dec 13, 2025): [US Citizen Arrested by ICE After Offering to Show Passport Sparks Backlash](https://www.newsweek.com/us-citizen-arrested-by-ice-after-offering-to-show-passport-sparks-backlash-11191525)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Mubashir (requested first name only)
 - **Age:** 20
 - **Occupation:** Restaurant worker
@@ -105,4 +105,4 @@ At least two other Somali U.S. citizens were arrested by ICE and released the sa
 This incident occurred during "Operation Metro Surge," an ICE enforcement operation targeting the Twin Cities that began in December 2025. By December 10, over 400 arrests had been made across Minnesota. The operation specifically targeted Somali immigrant communities. 70% of those arrested lacked criminal convictions, according to CATO Institute analysis.
 
 ## Editorial Assessment
-**HIGH** - Extensively documented incident with video evidence, press conference featuring the victim, statements from multiple city and state officials, and coverage from over a dozen major news outlets. Core facts are consistent across all sources. DHS's "reasonable suspicion" defense is disputed by victim's account and local officials. The discrepancy over whether Mubashir "fled" or "simply turned around" is the primary point of contention.
+**HIGH** - Extensively documented incident with video evidence, press conference featuring the affected individual, statements from multiple city and state officials, and coverage from over a dozen major news outlets. Core facts are consistent across all sources. DHS's "reasonable suspicion" defense is disputed by affected individual's account and local officials. The discrepancy over whether Mubashir "fled" or "simply turned around" is the primary point of contention.

@@ -5,7 +5,7 @@ location: Eastside Co-op, 2551 Central Ave NE
 city: Minneapolis
 type: observers
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-14T08:01:12
@@ -26,11 +26,11 @@ Minneapolis City Council President Elliott Payne was shoved by a masked ICE agen
 6. The Mirror (Jan 2026): [ICE agent captured violently shoving Minneapolis city official](https://www.themirror.com/news/us-news/ice-agent-captured-violently-shoving-1618728)
 7. Mediaite (Jan 2026): [Minneapolis City Council President Fears ICE Will 'Kill' Him While Documenting Protester Takedowns](https://www.mediaite.com/media/tv/minneapolis-city-council-president-fears-ice-will-kill-him-while-documenting-protester-takedowns/)
 8. Augusta Free Press (Jan 2026): [Minneapolis City Council leader on ICE: 'Worried that they'll kill me'](https://augustafreepress.com/news/minneapolis-city-council-leader-on-ice-im-worried-that-theyll-kill-me/)
-9. uPolitics (Jan 2026): [VIDEO: Masked ICE Agent Shoves Minneapolis City Council President Elliott Payne On Public Sidewalk](https://upolitics.com/news/video-masked-ice-agent-shoves-minneapolis-city-council-president-elliott-payne-on-public-sidewalk/) - **VIDEO**
-10. Yahoo News Video (Jan 2026): [Masked ICE agent shoves Minneapolis City Council president](https://www.yahoo.com/news/videos/masked-ice-agent-shoves-minneapolis-183434740.html) - **VIDEO**
+9. uPolitics Video (Jan 2026): [Masked ICE Agent Shoves Minneapolis City Council President Elliott Payne On Public Sidewalk](https://upolitics.com/news/video-masked-ice-agent-shoves-minneapolis-city-council-president-elliott-payne-on-public-sidewalk/)
+10. Yahoo News Video (Jan 2026): [Masked ICE agent shoves Minneapolis City Council president](https://www.yahoo.com/news/videos/masked-ice-agent-shoves-minneapolis-183434740.html)
 11. CNN Live Updates (Jan 15, 2026): [Minneapolis shootings and protests](https://www.cnn.com/us/live-news/minneapolis-ice-shooting-protests-01-15-26?post-id=cmkfudw7f001m356pt806xv4f)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Elliott Payne
 - **Position:** Minneapolis City Council President
 - **Citizenship:** U.S. Citizen
@@ -42,7 +42,7 @@ Minneapolis City Council President Elliott Payne was shoved by a masked ICE agen
 - **Assault** - Masked ICE agent shoves Payne at a bus stop
 - **Aftermath** - Payne shares video to BlueSky
 
-## Victim Statement
+## Affected Individual Statement
 
 ### Elliott Payne
 "If this is how they treat the President of the Minneapolis City Council who is legally observing, just think of what they're doing to everyone else in our City."
@@ -51,4 +51,4 @@ Minneapolis City Council President Elliott Payne was shoved by a masked ICE agen
 The incident occurred as Attorney General Keith Ellison, along with mayors of St. Paul and Minneapolis, filed a federal lawsuit against the Trump administration to end the surge of ICE agents. Ellison noted the number of ICE agents in the Twin Cities (~2,000) surpasses the combined police forces of Minneapolis and St. Paul.
 
 ## Editorial Assessment
-**HIGH** - Video evidence shared by victim (elected official). Multiple news outlets covered. Clear documentation of treatment of legal observers.
+**HIGH** - Video evidence shared by affected individual (elected official). Multiple news outlets covered. Clear documentation of treatment of legal observers.

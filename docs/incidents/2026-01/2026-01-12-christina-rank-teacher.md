@@ -5,7 +5,7 @@ location: Concord Education Center, Inver Grove Heights
 city: Inver Grove Heights
 type: citizens, schools-hospitals
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-14T08:01:12
@@ -20,9 +20,9 @@ Christina Rank, a 25-year-old special education paraprofessional and U.S. citize
 ## Sources
 1. Pioneer Press (Jan 12, 2026): [Inver Grove Heights special ed teacher held by ICE for nearly 12 hours](https://www.twincities.com/2026/01/12/inver-grove-heights-teacher-at-special-education-school-held-by-ice-for-nearly-12-hours/)
 2. Bring Me The News (Jan 12, 2026): [Twin Cities teaching assistant, a US citizen, arrested by federal agents outside school](https://bringmethenews.com/minnesota-news/twin-cities-teacher-a-us-citizen-arrested-by-federal-agents-outside-school)
-3. Facebook - Hrtwarming: [Christina Rank incident post](https://www.facebook.com/hrtwarming/posts/before-sunrise-on-a-quiet-monday-morning-25-year-old-christina-rank-arrived-at-t/1445116270977207/)
+3. Facebook Post (Jan 12, 2026): [Christina Rank incident post](https://www.facebook.com/hrtwarming/posts/before-sunrise-on-a-quiet-monday-morning-25-year-old-christina-rank-arrived-at-t/1445116270977207/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Christina Rank
 - **Age:** 25
 - **Citizenship:** U.S. Citizen
@@ -49,4 +49,4 @@ Described the lack of information as "terrible," stating: "You don't know where 
 Called the detention "shocking" and said her office was working to learn more. Craig has introduced legislation to keep ICE out of sensitive locations such as schools, daycares and churches.
 
 ## Editorial Assessment
-**HIGH** - Multiple news sources, named victim and family members, official response from U.S. Representative. School incident at sensitive location.
+**HIGH** - Multiple news sources, named affected individual and family members, official response from U.S. Representative. School incident at sensitive location.

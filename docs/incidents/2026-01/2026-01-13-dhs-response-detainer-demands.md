@@ -5,7 +5,7 @@ location: DHS Official Statement
 city: Minneapolis
 type: response
 status: ongoing
-victim_citizenship: various
+affected_individual_citizenship: various
 injuries: none
 trustworthiness: high
 created: 2026-01-14T13:57:51

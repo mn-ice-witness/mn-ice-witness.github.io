@@ -5,7 +5,7 @@ location: Driving to church
 city: Unknown
 type: immigrants
 status: detained
-victim_citizenship: refugee
+affected_individual_citizenship: refugee
 injuries: none
 trustworthiness: unverified
 created: 2026-01-19T23:09:36
@@ -20,13 +20,13 @@ last_updated: 2026-01-19T23:09:36
 Nadya, a Moldovan refugee with legal status awaiting her green card, was detained by ICE on January 17, 2026 while driving from her home to church with her husband and three children. Five ICE vehicles stopped the family shortly after they left their house. Despite the family explaining they had refugee status and were in the process of obtaining green cards, ICE detained only Nadya and released her husband and children. She has been held in poor conditions, in handcuffs and sleeping on the floor. <em class="incident-note">**Note: This story seems to follow a pattern of Operation PARRIS (Post-Admission Refugee Reverification and Integrity Strengthening) -- see more details on this below.**</em>
 
 ## Sources
-1. GoFundMe Campaign: [Help Nadya's Family](https://gofund.me/98a7c81da) - Created by sister Victoria
-2. Facebook Post: [Original post](https://www.facebook.com/story.php?story_fbid=10162794987643843&id=507338842)
-3. Fox 9 (Jan 9, 2026): [DHS launching 'Operation PARRIS' to target Minnesota refugees](https://www.fox9.com/news/minnesota-fraud-dhs-launching-operation-parris-target-refugees-jan-9) - Context on refugee targeting
-4. Twin Cities Pioneer Press (Jan 18, 2026): [5,600 Green Card applicants in Minnesota targeted through Operation PARRIS](https://www.twincities.com/2026/01/18/5600-green-card-applicants-in-minnesota-targeted-through-operation-parris/) - Context on refugee targeting
-5. Global Refuge: [Global Refuge statement on refugee arrests in Minnesota](https://www.globalrefuge.org/news/refugee-arrests-minnesota/) - Context on refugee targeting
+1. GoFundMe (Jan 19, 2026): [Help Nadya's Family](https://gofund.me/98a7c81da)
+2. Facebook Post (Jan 19, 2026): [Original post](https://www.facebook.com/story.php?story_fbid=10162794987643843&id=507338842)
+3. Fox 9 (Jan 9, 2026): [DHS launching 'Operation PARRIS' to target Minnesota refugees](https://www.fox9.com/news/minnesota-fraud-dhs-launching-operation-parris-target-refugees-jan-9)
+4. Twin Cities Pioneer Press (Jan 18, 2026): [5,600 Green Card applicants in Minnesota targeted through Operation PARRIS](https://www.twincities.com/2026/01/18/5600-green-card-applicants-in-minnesota-targeted-through-operation-parris/)
+5. Global Refuge (Jan 18, 2026): [Global Refuge statement on refugee arrests in Minnesota](https://www.globalrefuge.org/news/refugee-arrests-minnesota/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Nadya (last name unknown)
 - **Origin:** Moldova
 - **Immigration Status:** Refugee with legal status, in process of obtaining green card

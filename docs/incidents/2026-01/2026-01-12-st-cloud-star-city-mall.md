@@ -5,7 +5,7 @@ location: Star City Mall, Division Street
 city: St. Cloud
 type: immigrants
 status: resolved
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: minor
 trustworthiness: high
 created: 2026-01-14T08:38:51

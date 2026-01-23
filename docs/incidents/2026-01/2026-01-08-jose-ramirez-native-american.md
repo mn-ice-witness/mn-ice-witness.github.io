@@ -5,7 +5,7 @@ location: Hy-Vee, Robbinsdale
 city: Robbinsdale
 type: citizens
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
 created: 2026-01-14T08:01:12
@@ -26,11 +26,11 @@ Jose Roberto "Beto" Ramirez, 20, U.S. citizen and Red Lake Nation descendant, wa
 6. Sahan Journal (Jan 2026): [Minnesotans increasingly see racial profiling from ICE agents](https://sahanjournal.com/immigration/ice-racial-profiling-minnesota-citizens-detained/)
 7. Fox 9 (Jan 2026): [Oglala Sioux leaders seek missing members detained by ICE in Minneapolis](https://www.fox9.com/news/oglala-sioux-leaders-seek-missing-members-detained-ice-minneapolis)
 8. The Daily Beast (Jan 12, 2026): [Yet Another ICE Nightmare Unfolds Miles Away From Renee Nicole Good Shooting](https://www.thedailybeast.com/yet-another-ice-nightmare-unfolds-miles-away-from-renee-nicole-good-shooting-in-minnesota/)
-- **Video:** [Aunt's Facebook Live of arrest - original audio](https://www.thedailybeast.com/yet-another-ice-nightmare-unfolds-miles-away-from-renee-nicole-good-shooting-in-minnesota/) - The Daily Beast
-- **Video:** [X post with arrest footage (music overlay)](https://x.com/LongTimeHistory/status/2009499306676322337) - @LongTimeHistory
-9. Star Tribune (Jan 18, 2026): [Allegations of racial profiling of U.S. citizens on the rise as ICE surge expands in Minnesota](https://www.startribune.com/allegations-of-racial-profiling-of-us-citizens-on-the-rise-as-ice-surge-expands-in-minnesota/601564653)
+9. Facebook Video (Jan 8, 2026): [Aunt's Facebook Live of arrest - original audio](https://www.thedailybeast.com/yet-another-ice-nightmare-unfolds-miles-away-from-renee-nicole-good-shooting-in-minnesota/)
+10. X Video (Jan 8, 2026): [X post with arrest footage](https://x.com/LongTimeHistory/status/2009499306676322337)
+11. Star Tribune (Jan 18, 2026): [Allegations of racial profiling of U.S. citizens on the rise as ICE surge expands in Minnesota](https://www.startribune.com/allegations-of-racial-profiling-of-us-citizens-on-the-rise-as-ice-surge-expands-in-minnesota/601564653)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Jose Roberto "Beto" Ramirez
 - **Age:** 20
 - **Citizenship:** U.S. Citizen (born Minneapolis)

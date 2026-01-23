@@ -5,7 +5,7 @@ location: El Burrito Mercado, Cesar Chavez and State Streets, District del Sol
 city: St. Paul
 type: immigrants
 status: ongoing
-victim_citizenship: various
+affected_individual_citizenship: various
 injuries: none
 trustworthiness: high
 created: 2026-01-15T20:00:44

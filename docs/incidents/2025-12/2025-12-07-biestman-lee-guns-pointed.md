@@ -5,7 +5,7 @@ location: Church of the Assumption of the Blessed Mary, Richfield
 city: Richfield
 type: observers
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-14T08:01:12
@@ -21,7 +21,7 @@ John Biestman and Janet Lee, a married couple in their late 60s from Linden Hill
 1. Minnesota Reformer (Dec 17, 2025): [ACLU sues ICE, alleging agency violates constitutional rights of observers and protesters](https://minnesotareformer.com/2025/12/17/aclu-sues-ice-alleging-agency-violates-constitutional-rights-of-observers-and-protesters/)
 2. ACLU-MN (Dec 17, 2025): [ACLU-MN, Pro Bono Partners Sue to Protect Protesters, Observers and Journalists](https://www.aclu-mn.org/press-releases/1a/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Names:** John Biestman and Janet Lee
 - **Ages:** Late 60s
 - **Citizenship:** U.S. Citizens

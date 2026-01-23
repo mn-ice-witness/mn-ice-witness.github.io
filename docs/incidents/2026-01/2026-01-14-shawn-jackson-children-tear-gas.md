@@ -5,7 +5,7 @@ location: 600 block of 24th Avenue North
 city: Minneapolis
 type: observers
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: serious
 trustworthiness: high
 created: 2026-01-15T15:19:43
@@ -35,7 +35,7 @@ Shawn Jackson and his family were leaving a relative's home after his son's bask
 15. Global News Canada (Jan 2026): [Children hospitalized after tear gas deployed by ICE in Minneapolis](https://globalnews.ca/news/11617045/children-hospitalized-tear-gas-deployed-ice-minneapolis-video/)
 16. Sahan Journal (Jan 2026): [North Minneapolis ICE shooting report immigration](https://sahanjournal.com/public-safety/north-minneapolis-ice-shooting-report-immigration/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Shawn Jackson (father), Destiny Jackson (mother)
 - **Children:** 6 children ages 6 months to 11 years
 - **Citizenship:** U.S. Citizens
@@ -78,4 +78,4 @@ Performed CPR on the 6-month-old infant who stopped breathing after tear gas exp
 This incident occurred during protests that erupted after an ICE agent shot a man during a traffic stop in North Minneapolis. The Jackson family was uninvolved bystanders caught in the escalating confrontation between federal agents and community members.
 
 ## Editorial Assessment
-**HIGH** - Multiple independent sources (FOX 9, Bring Me The News, The Mirror). Named victims with direct quotes. Video evidence. Medical records would corroborate hospitalization of three children including infant.
+**HIGH** - Multiple independent sources (FOX 9, Bring Me The News, The Mirror). Named affected individuals with direct quotes. Video evidence. Medical records would corroborate hospitalization of three children including infant.

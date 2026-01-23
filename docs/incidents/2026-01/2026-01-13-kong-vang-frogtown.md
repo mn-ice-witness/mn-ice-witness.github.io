@@ -5,7 +5,7 @@ location: Frogtown neighborhood
 city: St. Paul
 type: citizens
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-18T22:49:05
@@ -23,7 +23,7 @@ Kong Vang, a U.S. citizen working from home in St. Paul's Frogtown neighborhood,
 3. Yahoo News (Jan 14, 2026): [St. Paul Man Refuses to Open Door for Federal Agents in Viral Video](https://www.yahoo.com/news/articles/st-paul-man-refuses-open-211750001.html)
 4. Angry Asian Man (Jan 16, 2026): [Coverage of Kong Vang encounter](https://blog.angryasianman.com/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Kong Vang
 - **Citizenship:** U.S. Citizen
 - **Background:** Lives with his parents (who immigrated from Laos in the 1970s), his sister, and his son. All family members are U.S. citizens.
@@ -54,4 +54,4 @@ On why he believes he was targeted: "I was really curious and wondering why they
 Vang said he posted the video to help others in his community know their rights during ICE encounters.
 
 ## Editorial Assessment
-**HIGH** - Video evidence with 400,000+ views, covered by FOX 9, syndicated by Yahoo News, and picked up by Angry Asian Man blog. Named victim with direct quotes.
+**HIGH** - Video evidence with 400,000+ views, covered by FOX 9, syndicated by Yahoo News, and picked up by Angry Asian Man blog. Named affected individual with direct quotes.

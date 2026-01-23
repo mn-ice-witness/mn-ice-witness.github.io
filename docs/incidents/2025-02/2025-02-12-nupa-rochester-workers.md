@@ -5,7 +5,7 @@ location: Nupa Restaurant, Civic Center Drive
 city: Rochester
 type: immigrants
 status: resolved
-victim_citizenship: undocumented
+affected_individual_citizenship: undocumented
 injuries: none
 trustworthiness: high
 created: 2026-01-14T12:22:11
@@ -23,7 +23,7 @@ ICE officers detained two brothers—both cooks at Nupa Mediterranean restaurant
 3. KTTC (Feb 12, 2025): [UPDATE: Nupa confirms two employees arrested by ICE](https://www.kttc.com/2025/02/12/rpd-confirms-ice-presence-rochester-wednesday/)
 4. Star Tribune (Feb 13, 2025): [Two restaurant workers detained as ICE descends on Rochester, MN](https://www.startribune.com/ice-raids-target-workers-at-popular-rochester-restaurant/601221686)
 
-## Victim(s)
+## Affected Individual(s)
 - **Number detained:** 2 (brothers)
 - **Occupation:** Cooks at Nupa restaurant
 - **Criminal history:** None, according to restaurant owner

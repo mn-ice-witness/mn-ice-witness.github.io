@@ -38,8 +38,14 @@ const MediaGallery = {
             return;
         }
 
-        // Sort by custom order unless sorting by updated
-        if (!ViewState.sortByUpdated) {
+        // Sort by updated date or custom order
+        if (ViewState.sortByUpdated) {
+            mediaIncidents = [...mediaIncidents].sort((a, b) => {
+                const dateA = a.lastUpdated || a.date;
+                const dateB = b.lastUpdated || b.date;
+                return dateB.localeCompare(dateA);
+            });
+        } else {
             mediaIncidents = await this.sortByOrder(mediaIncidents);
         }
 

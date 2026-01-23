@@ -5,7 +5,7 @@ location: Bishop Henry Whipple Federal Building
 city: Minneapolis
 type: immigrants
 status: ongoing
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: high
 created: 2026-01-19T09:50:58
@@ -21,7 +21,7 @@ Multiple attorneys allege the Department of Homeland Security is denying detaine
 1. ABC News (Jan 18, 2026): [Lawyers allege Dept. of Homeland Security is denying legal counsel to Minnesota detainees](https://abcnews.go.com/US/lawyers-allege-dept-homeland-security-denying-legal-counsel/story?id=129335914)
 2. Lawyers, Guns & Money (Jan 18, 2026): [The chaos exception to the Sixth Amendment](https://www.lawyersgunsmoneyblog.com/2026/01/the-chaos-exception-to-the-sixth-amendment)
 
-## Victim(s)
+## Affected Individual(s)
 - **Detainees affected:** Multiple, number unknown
 - **Notable cases cited:**
   - [William Vermie](#2026-01-13-william-vermie-veteran-detained), U.S. citizen and Iraq War veteran detained as bystander to an immigration enforcement operation

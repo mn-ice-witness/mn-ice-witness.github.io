@@ -5,7 +5,7 @@ location: Family Dollar parking lot
 city: Brooklyn Park
 type: citizens
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: serious
 trustworthiness: high
 created: 2026-01-14T16:15:50
@@ -23,7 +23,7 @@ Emmanuel Sackie, a Liberian-born naturalized U.S. citizen, was detained by ICE a
 3. FrontPageAfrica (Jan 7, 2026): [Liberian-Born U.S. Citizen Hospitalized After Alleged Rough Encounter With ICE Agents in Minnesota](https://frontpageafricaonline.com/news/liberian-born-u-s-citizen-hospitalized-after-alleged-rough-encounter-with-ice-agents-in-minnesota/)
 4. CBS Minnesota (Jan 7, 2026): [U.S. citizens recount being detained by ICE during Minnesota operation](https://www.cbsnews.com/minnesota/news/us-citizens-arrested-by-ice-minneapolis/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Emmanuel Sackie
 - **Origin:** Liberia
 - **Citizenship:** Naturalized U.S. Citizen
@@ -61,4 +61,4 @@ ICE officials have not publicly commented on this incident.
 Sackie was hospitalized with significant bruising from the encounter. He expressed that the experience made him question whether citizenship documentation provides adequate protection during immigration operations.
 
 ## Editorial Assessment
-**HIGH** - Two independent sources (CBS Minnesota and FrontPageAfrica). Video evidence exists. Named victim with direct quotes. Hospitalization documented. Pattern consistent with other citizen detentions during Operation Metro Surge.
+**HIGH** - Two independent sources (CBS Minnesota and FrontPageAfrica). Video evidence exists. Named affected individual with direct quotes. Hospitalization documented. Pattern consistent with other citizen detentions during Operation Metro Surge.

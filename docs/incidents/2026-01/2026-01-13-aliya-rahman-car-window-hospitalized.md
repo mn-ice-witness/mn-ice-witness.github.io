@@ -3,9 +3,9 @@ date: 2026-01-13
 time: morning
 location: 34th Street and Park Avenue
 city: Minneapolis
-type: citizen
+type: citizens
 status: under-investigation
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: serious
 trustworthiness: high
 created: 2026-01-15T23:23:27
@@ -21,8 +21,8 @@ last_updated: 2026-01-20T15:16:31
 Aliya Rahman, a 43-year-old U.S. citizen and software engineer, was dragged from her car by ICE agents after they smashed her window. She was driving to an appointment at the Traumatic Brain Injury Center when agents blocked her path. After being taken into custody, Rahman repeatedly requested medical attention but was denied. She lost consciousness in her cell and was finally taken to a hospital, where she was treated for injuries consistent with assault. The video went viral with millions of views.
 
 ## Sources
-1. TikTok - @hubbandtheheavyhearts (Jan 2026): [Disabled woman pulled from car](https://www.tiktok.com/@hubbandtheheavyhearts/video/7595071988637519134) - **VIDEO**
-2. CNN (Jan 20, 2026): [Rahman's first on-camera interview after the assault](https://www.cnn.com/2026/01/20/us/video/woman-dragged-from-car-by-ice-ldn-digvid-vrtc) - **INTERVIEW**
+1. TikTok Video (Jan 2026): [Disabled woman pulled from car](https://www.tiktok.com/@hubbandtheheavyhearts/video/7595071988637519134)
+2. CNN Video (Jan 20, 2026): [Rahman's first on-camera interview after the assault](https://www.cnn.com/2026/01/20/us/video/woman-dragged-from-car-by-ice-ldn-digvid-vrtc)
 3. Reuters Photo (Jan 13, 2026): [Reuters photo by Tim Evans](https://archive.ph/helw8/image)
 4. Sahan Journal Video (Jan 13, 2026): [Sahan Journal footage](https://sahanjournal.com/public-safety/minneapolis-ice-confront-observers-door-knocking-powderhorn/)
 5. Raw Story Video (Jan 13, 2026): [Raw Story coverage with video](https://www.rawstory.com/ice-disabled-woman/)
@@ -46,9 +46,9 @@ Aliya Rahman, a 43-year-old U.S. citizen and software engineer, was dragged from
 23. CBS News / 60 Minutes (Jan 2026): [Minneapolis police chief responds to ICE enforcement](https://www.cbsnews.com/news/minneapolis-police-chief-responds-to-ice-enforcement-60-minutes/)
 24. Salon (Jan 17, 2026): ["I thought I was going to die": US citizen forced from her car by ICE](https://www.salon.com/2026/01/17/i-thought-i-was-going-to-die-us-citizen-forced-from-her-car-by-ice/)
 25. KSAT San Antonio (Jan 16, 2026): [Federal immigration agents filmed dragging a woman from her car](https://www.ksat.com/news/national/2026/01/16/federal-immigration-agents-filmed-dragging-a-woman-from-her-car-in-minneapolis/)
-26. Facebook reel: [Video coverage](https://www.facebook.com/reel/1298284502358086/)
+26. Facebook Video (Jan 2026): [Video coverage](https://www.facebook.com/reel/1298284502358086/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Aliya Rahman
 - **Age:** 43
 - **Citizenship:** U.S. citizen (born in U.S., raised in Bangladesh)
@@ -100,4 +100,4 @@ A DHS spokesperson disputed Rahman's account, claiming she was an "agitator" who
 State Senator Omar Fateh wrote on X: "This is what living under a federal siege looks like. This isn't about public safety—this is terrorism."
 
 ## Editorial Assessment
-**HIGH** - Video evidence from multiple sources shows the incident clearly. Victim publicly identified. Hospitalization and assault injuries confirmed by legal counsel. Multiple independent news outlets verified and published footage. Video went viral with millions of views.
+**HIGH** - Video evidence from multiple sources shows the incident clearly. Affected individual publicly identified. Hospitalization and assault injuries confirmed by legal counsel. Multiple independent news outlets verified and published footage. Video went viral with millions of views.

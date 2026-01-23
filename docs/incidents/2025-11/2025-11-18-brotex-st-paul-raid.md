@@ -5,7 +5,7 @@ location: Bro-Tex Inc., 830 N. Hampden Ave (off University Ave)
 city: St. Paul
 type: immigrants
 status: resolved-detained
-victim_citizenship: undocumented
+affected_individual_citizenship: undocumented
 injuries: protesters pepper-sprayed
 trustworthiness: high
 created: 2026-01-14T09:04:50
@@ -23,7 +23,7 @@ Federal agents raided Bro-Tex Inc., a cleaning products manufacturer in St. Paul
 3. Pioneer Press (Nov 20, 2025): [St. Paul ICE raid: 14 arrested for immigration violations, agency says](https://www.twincities.com/2025/11/20/ice-14-arrested-st-paul-warehouse-bro-tex/)
 4. Minnesota Reformer (Nov 18, 2025): [Dozens of federal agents raid St. Paul business, sparking protest](https://minnesotareformer.com/2025/11/18/dozens-of-federal-agents-raid-st-paul-business-sparking-protest/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Number detained:** 14 workers
 - **Company:** Bro-Tex Inc. (makes and distributes wipes, towels and other absorbent cleaning products)
 - **Immigration status:** Detained for immigration violations

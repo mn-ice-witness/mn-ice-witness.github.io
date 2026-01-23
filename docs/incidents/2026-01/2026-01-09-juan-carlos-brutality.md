@@ -5,7 +5,7 @@ location: Chicago Avenue near 24th Street
 city: Minneapolis
 type: observers
 status: under-investigation
-victim_citizenship: legal-resident
+affected_individual_citizenship: legal-resident
 injuries: serious
 trustworthiness: high
 created: 2026-01-14T08:01:12
@@ -18,9 +18,9 @@ last_updated: 2026-01-14T08:01:12
 U.S. Border Patrol agents violently arrested Juan Carlos, a legal U.S. resident who was observing ICE activity from his car near 22nd & Chicago in south Minneapolis. Video shows agents pinning him to the ground, with one agent kneeing him in the face at least five times. He was hospitalized with difficulty breathing.
 
 ## Sources
-1. Facebook Reel (Jan 2026): [Juan Carlos brutality footage](https://www.facebook.com/reel/1175869304712769)
+1. Facebook Video (Jan 9, 2026): [Juan Carlos brutality footage](https://www.facebook.com/reel/1175869304712769)
 2. Facebook Video (Jan 10, 2026): [Josh Helfgott original viral post](https://www.facebook.com/joshhelfgott1/posts/pfbid032rBE8GN4tLDPHWkGRRX2atX1prMLtPYcJZvtcAxaKXwTFHNV113WdwNm1A8Hdr7gl)
-3. Threads Video (Jan 10, 2026): [Agent kneeing Juan Carlos](https://www.threads.com/@hereswhykevin/post/DTWJwHNiYw8)
+3. Threads (Jan 10, 2026): [Agent kneeing Juan Carlos](https://www.threads.com/@hereswhykevin/post/DTWJwHNiYw8)
 4. X Video (Jan 10, 2026): [Aftermath and injuries](https://x.com/cbarbermd/status/2010836926841176191)
 5. Minnesota Reformer (Jan 10, 2026): [U.S. Border Patrol agent knees man in face in Minneapolis as other agents hold him down](https://minnesotareformer.com/2026/01/12/u-s-border-patrol-knees-man-in-face-in-minneapolis-as-other-agents-hold-him-down/)
 6. GoFundMe (Jan 10, 2026): [Support Juan Carlos After Assault and Hospitalization](https://www.gofundme.com/f/support-juan-carlos-after-assault-and-hospitalization)
@@ -28,11 +28,11 @@ U.S. Border Patrol agents violently arrested Juan Carlos, a legal U.S. resident 
 8. Snopes Fact Check (Jan 16, 2026): [Investigation into the images of Juan Carlos](https://www.snopes.com/news/2026/01/16/juan-carlos-ice-images/)
 9. TMZ (Jan 16, 2026): [CBP officer knee man in face Minneapolis](https://www.tmz.com/2026/01/16/cbp-officer-knee-man-in-face-minneapolis/)
 10. News From The States (Jan 2026): [US Border Patrol agent knees man in face in Minneapolis](https://www.newsfromthestates.com/article/us-border-patrol-agent-knees-man-face-minneapolis-other-agents-hold-him-down)
-11. Instagram Reel (Jan 2026): ["Legally observing ICE activity in his neighborhood"](https://www.instagram.com/reel/DTZQELiAp0h/)
+11. Instagram Video (Jan 9, 2026): ["Legally observing ICE activity in his neighborhood"](https://www.instagram.com/reel/DTZQELiAp0h/)
 12. CNN Video (Jan 18, 2026): [Video appears to show DHS agent kneeing person in face](https://www.cnn.com/2026/01/18/world/video/man-kneed-by-ice-sandoval-rdr-011812aseg1-cnni-us-fast)
 13. WALB/Gray TV (Jan 18, 2026): [ICE officer seen kneeing detained man in the head](https://www.walb.com/2026/01/18/ice-officer-seen-kneeing-detained-man-head/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Juan Carlos
 - **Citizenship:** Legal U.S. resident
 - **Occupation:** Homeless, living in his car

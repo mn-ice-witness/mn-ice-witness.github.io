@@ -5,7 +5,7 @@ location: Lomabonita restaurant, Margaret Street and White Bear Avenue
 city: St. Paul (East Side)
 type: immigrants
 status: ongoing
-victim_citizenship: legal-status
+affected_individual_citizenship: legal-status
 injuries: none
 trustworthiness: medium
 created: 2026-01-14T08:54:15
@@ -20,7 +20,7 @@ Jose, a Salvadoran immigrant with legal withholding-of-removal protection status
 ## Sources
 1. Unicorn Riot (Jan 7, 2026): [ICE Agents Alter Tactics, Work With Impunity While Violating US Citizen's Rights in Minnesota](https://unicornriot.ninja/2026/ice-agents-alter-tactics-work-with-impunity-while-violating-us-citizens-rights-in-minnesota/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Jose (last name withheld for safety)
 - **Origin:** El Salvador
 - **Legal Status:** Withholding of removal protection (legal status meant to bar deportation)

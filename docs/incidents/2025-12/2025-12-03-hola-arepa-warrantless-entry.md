@@ -5,7 +5,7 @@ location: Hola Arepa, Nicollet Avenue
 city: Minneapolis
 type: immigrants
 status: resolved
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: high
 created: 2026-01-17T11:14:22

@@ -54,6 +54,9 @@ const App = {
         // Handle initial route
         this.handleInitialRoute();
 
+        // Sync URL with filter state (localStorage -> URL if needed)
+        ViewState.syncUrlWithFilterState();
+
         // Render based on route
         const route = Router.parseUrl();
         if (route.type === 'list' || route.category) {
@@ -126,6 +129,11 @@ const App = {
      * Open content based on route
      */
     openFromRoute(route) {
+        // Handle filter=new param (applies to any route type)
+        if (route.filter === 'new') {
+            ViewState.enableSortByUpdated();
+        }
+
         switch (route.type) {
             case 'incident':
                 const incident = this.incidents.find(i => {
@@ -145,6 +153,10 @@ const App = {
 
             case 'new-updated':
                 Lightbox.openNewUpdated(route.dateStr);
+                break;
+
+            case 'unverified':
+                Lightbox.openUnverified();
                 break;
 
             case 'list':
@@ -198,16 +210,18 @@ const App = {
     },
 
     /**
-     * Get filtered incidents based on search query
+     * Get filtered incidents based on search query (excludes unverified)
      */
     getFilteredIncidents() {
         const query = (typeof Search !== 'undefined' && Search.query) ? Search.query.toLowerCase().trim() : '';
-        if (!query) return this.incidents;
+        // Filter out unverified incidents from main display
+        const verified = this.incidents.filter(i => i.trustworthiness !== 'unverified');
+        if (!query) return verified;
 
         const terms = query.split(/\s+/).filter(t => t.length > 0);
         const stemmedTerms = terms.map(t => this.stem(t));
 
-        return this.incidents.filter(incident => {
+        return verified.filter(incident => {
             const searchText = [
                 incident.title,
                 incident.summary,
@@ -220,6 +234,19 @@ const App = {
 
             return stemmedTerms.every(stemmedTerm => stemmedWords.has(stemmedTerm));
         });
+    },
+
+    /**
+     * Get unverified incidents sorted by update date
+     */
+    getUnverifiedIncidents() {
+        return this.incidents
+            .filter(i => i.trustworthiness === 'unverified')
+            .sort((a, b) => {
+                const dateA = a.lastUpdated || a.created || a.date;
+                const dateB = b.lastUpdated || b.created || b.date;
+                return dateB.localeCompare(dateA);
+            });
     },
 
     // ==================== INCIDENT HELPERS ====================
@@ -266,7 +293,15 @@ const App = {
         nav.querySelectorAll('.nav-pill').forEach(pill => {
             pill.addEventListener('click', (e) => {
                 e.preventDefault();
-                const section = pill.getAttribute('href').slice(1);
+                const href = pill.getAttribute('href');
+
+                // Handle unverified link specially
+                if (href === '/unverified') {
+                    Lightbox.openUnverified();
+                    return;
+                }
+
+                const section = href.slice(1);
 
                 // Ensure list view
                 if (ViewState.currentView !== 'list') {
@@ -377,6 +412,10 @@ const App = {
 
         const categoryPrefix = showCategory ? `<span class="category-label">${label}:</span> ` : '';
 
+        const mediaIcon = incident.hasLocalMedia ? `
+            <svg class="media-icon" viewBox="0 0 24 24" width="16" height="16"><use href="#icon-camera"/></svg>
+        ` : '';
+
         const viewedIcon = viewed ? `
             <svg class="viewed-icon" viewBox="0 0 24 24" width="16" height="16"><use href="#icon-eye"/></svg>
         ` : '';
@@ -392,6 +431,7 @@ const App = {
                     <span class="row-location">${incident.location}</span>
                 </div>
                 <div class="row-meta">
+                    ${mediaIcon}
                     ${viewedIcon}
                 </div>
             </article>

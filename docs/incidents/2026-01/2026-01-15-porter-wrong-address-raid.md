@@ -5,7 +5,7 @@ location: 2928 Apartment, South Minneapolis
 city: Minneapolis
 type: citizens
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: high
 created: 2026-01-16T16:02:47
@@ -20,9 +20,9 @@ FBI, ATF, and Hennepin County Sheriff's Office agents used a battering ram to en
 ## Sources
 1. CBS Minnesota (Jan 15, 2026): [Minneapolis family says federal agents raided wrong apartment looking for items stolen from FBI vehicles](https://www.cbsnews.com/minnesota/news/minneapolis-fbi-raid-wrong-home/)
 2. The Mirror (Jan 15, 2026): [ICE ransack Minneapolis woman's home after 'conducting search warrant in wrong home'](https://www.themirror.com/news/us-news/ice-ransack-minneapolis-womans-home-1623040)
-- **Video:** [CBS Minnesota report](https://www.youtube.com/watch?v=_mulYNgbs14) - YouTube
+3. YouTube Video (Jan 15, 2026): [CBS Minnesota report](https://www.youtube.com/watch?v=_mulYNgbs14)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Alisa Porter and daughter
 - **Citizenship:** U.S. Citizens
 - **Background:** Porter was at a doctor's appointment when neighbors called to inform her that federal agents had handcuffed her daughter and were searching her home
@@ -55,4 +55,4 @@ A neighbor called Porter during the search to inform her what was happening.
 This search occurred during a period of heightened federal law enforcement activity in Minneapolis related to Operation Metro Surge. The items stolen from FBI vehicles were taken during protests following ICE shooting incidents in the area. This was not an immigration enforcement action but is included to document the broader federal enforcement presence affecting Minneapolis residents.
 
 ## Editorial Assessment
-**HIGH** - Multiple independent sources (CBS Minnesota, The Mirror), video evidence from Ring doorbell camera, and documented discrepancy between warrant address (2926) and victim's address (2928 Apt 2). Federal agency confirmed the operation occurred.
+**HIGH** - Multiple independent sources (CBS Minnesota, The Mirror), video evidence from Ring doorbell camera, and documented discrepancy between warrant address (2926) and affected individual's address (2928 Apt 2). Federal agency confirmed the operation occurred.

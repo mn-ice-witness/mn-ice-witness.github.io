@@ -58,7 +58,7 @@ const IncidentParser = {
             city: meta.city || 'Minneapolis',
             type: meta.type || 'unknown',
             status: meta.status || 'unknown',
-            victimCitizenship: meta.victim_citizenship || 'unknown',
+            affectedIndividualCitizenship: meta.affected_individual_citizenship || 'unknown',
             injuries: meta.injuries || 'unknown',
             trustworthiness: meta.trustworthiness || 'unverified',
             lastUpdated: meta.last_updated || meta.date || 'Unknown'

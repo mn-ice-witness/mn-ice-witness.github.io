@@ -5,7 +5,7 @@ location: McAndrews Road
 city: Burnsville
 type: immigrants
 status: ongoing
-victim_citizenship: mixed-status-household
+affected_individual_citizenship: mixed-status-household
 injuries: none-physical
 trustworthiness: high
 created: 2026-01-14T08:38:51
@@ -25,7 +25,7 @@ ICE agents raided a home on McAndrews Road in Burnsville, breaking down doors an
 5. NBC News (Dec 8, 2025): [ICE raided a Minnesota home, arresting 4 and frightening U.S. citizens](https://www.nbcnews.com/news/us-news/ring-camera-shows-ice-raid-minnesota-home-us-citizens-scared-4-arreste-rcna248189)
 6. Inquisitr (Dec 8, 2025): [Ring Camera Captures ICE Agents Snatching Parents From Their 7-Year-Old](https://www.inquisitr.com/ring-camera-captures-ice-agents-snatching-parents-from-their-7-year-old-in-minnesota)
 
-## Victim(s)
+## Affected Individual(s)
 **Detained:**
 - Rosibel Rivera Amaya
 - Jose Otero Rodriguez

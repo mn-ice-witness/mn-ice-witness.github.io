@@ -5,7 +5,7 @@ location: Roosevelt High School
 city: Minneapolis
 type: schools-hospitals
 status: resolved
-victim_citizenship: n/a
+affected_individual_citizenship: n/a
 injuries: none
 trustworthiness: high
 created: 2026-01-14T13:25:50

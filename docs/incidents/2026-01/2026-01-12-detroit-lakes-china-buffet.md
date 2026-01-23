@@ -5,7 +5,7 @@ location: China Buffet restaurant, 317 Frazee Street
 city: Detroit Lakes
 type: immigrants
 status: ongoing
-victim_citizenship: undocumented
+affected_individual_citizenship: undocumented
 injuries: none
 trustworthiness: high
 created: 2026-01-14T09:04:50
@@ -21,7 +21,7 @@ ICE agents arrested a Honduran man outside the China Buffet restaurant in Detroi
 1. Detroit Lakes Online (Jan 12, 2026): [ICE officers arrest man at Detroit Lakes restaurant on Monday](https://www.dl-online.com/news/local/ice-officers-arrest-man-at-detroit-lakes-restaurant-on-monday)
 2. Valley News Live (Jan 12, 2026): [ICE presence confirmed in Detroit Lakes](https://www.valleynewslive.com/2026/01/12/ice-presence-confirmed-detroit-lakes/)
 
-## Victim(s)
+## Affected Individual(s)
 - **Origin:** Honduras
 - **Relationship:** Boyfriend of Grace Waawaate-Ikwe Roberts (White Earth woman)
 - **Destination:** ICE Field Office, 1 Federal Drive, Fort Snelling

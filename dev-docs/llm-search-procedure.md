@@ -110,15 +110,15 @@ site:threads.net ICE Minnesota [month year]
 #### Important Notes on Social Media
 - Social media posts alone are NOT sufficient for HIGH trustworthiness
 - Look for videos that were later picked up by news outlets
-- When you find a viral video, search for the victim's name or location to find news coverage
+- When you find a viral video, search for the affected individual's name or location to find news coverage
 - If a social media post has video but no news pickup, add to "Needs More Research" and rate MEDIUM at best
 
 ### Step 6: Search the General Web
 
 In addition to specific news sites, always search the general web for incidents:
 ```
-"victim full name" ICE detained
-"victim full name" Minnesota
+"affected individual full name" ICE detained
+"affected individual full name" Minnesota
 incident location ICE arrest [date]
 ```
 
@@ -131,13 +131,13 @@ This catches coverage from smaller outlets, syndicated stories, and social media
 For each potential incident found:
 
 1. **Check by date** - Do we have `docs/incidents/YYYY-MM/YYYY-MM-DD-*.md` for that date?
-2. **Check by victim name** - Grep for victim names in existing files
+2. **Check by affected individual's name** - Grep for names in existing files
 3. **Check by location** - Search for the street, business, or neighborhood
 4. **Check not_use.md** - Is this story already evaluated and rejected?
 
 ```bash
 # Example checks
-grep -ri "victim name" docs/incidents/
+grep -ri "person name" docs/incidents/
 grep -ri "location" docs/incidents/
 grep -i "story keywords" dev-docs/not_use.md
 ```
@@ -192,7 +192,7 @@ List incidents that need additional verification before documenting
 2. **Use quotes for exact phrases** - "Bring Me The News" ensures that site
 3. **Check list articles** - Sites like BMTN often publish "List of major ICE raids on [date]"
 4. **Follow up on vague mentions** - If a search mentions an incident briefly, search specifically for it
-5. **Look for updates** - Existing incidents may have new information (updated video, victim spoke out, lawsuit filed)
+5. **Look for updates** - Existing incidents may have new information (updated video, affected individual spoke out, lawsuit filed)
 
 ## After Searching
 
@@ -204,7 +204,7 @@ List incidents that need additional verification before documenting
 
 ### Updating Incident Content When New Information Emerges
 
-When new sources contain significant new information (court rulings, releases, new charges, victim statements), update the incident file accordingly:
+When new sources contain significant new information (court rulings, releases, new charges, affected individual statements), update the incident file accordingly:
 
 1. **Update the Summary** - Reflect major developments (e.g., judge's ruling, release, new charges)
 2. **Update Status** - Change `ongoing` to `resolved` if case concluded
@@ -278,7 +278,7 @@ These daily lists often contain brief mentions of incidents that may warrant the
 ## Efficiency Tips for Recurring Searches
 
 1. **Run parallel web searches** - Use 4-5 WebSearch calls in a single message for speed
-2. **Grep before creating** - Before creating a new incident, grep for victim name/location
+2. **Grep before creating** - Before creating a new incident, grep for affected individual's name/location
 3. **Update existing files generously** - Adding sources to existing incidents is valuable work
 4. **Track what you've checked** - Report "Already documented" and "In not_use.md" findings
 5. **Date-specific searches** - Include specific dates (e.g., "January 16 17 2026") in queries
@@ -318,7 +318,7 @@ Already documented (confirmed good coverage):
 
 Added to not_use.md:
 - Burnsville Salvation Army (Jan 16) - insufficient details
-- New Hope apartment ICE presence - no specific victims
+- New Hope apartment ICE presence - no specific affected individuals
 - Far-right counter-protest - protest only, no enforcement incident
 
 In not_use.md (already excluded):

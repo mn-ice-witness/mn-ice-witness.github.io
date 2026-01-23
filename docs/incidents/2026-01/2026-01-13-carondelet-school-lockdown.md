@@ -5,7 +5,7 @@ location: Carondelet Catholic School, Upper Campus
 city: Minneapolis
 type: schools-hospitals
 status: resolved
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: medium
 created: 2026-01-15T09:33:17

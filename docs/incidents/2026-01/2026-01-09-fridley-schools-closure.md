@@ -5,7 +5,7 @@ location: Fridley Public Schools (district-wide)
 city: Fridley
 type: schools-hospitals
 status: resolved
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: high
 created: 2026-01-19T11:33:24

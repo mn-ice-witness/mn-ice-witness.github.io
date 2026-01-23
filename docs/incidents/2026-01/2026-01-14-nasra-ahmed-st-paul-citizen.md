@@ -5,7 +5,7 @@ location: Lower Afton Road apartment complex
 city: St. Paul
 type: citizens
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
 created: 2026-01-16T22:28:22
@@ -27,12 +27,12 @@ Nasra Mohamed Ahmed, a 23-year-old U.S. citizen born in Hennepin County, was det
 4. The Mirror US (Jan 18, 2026): [US citizen scarred and bruised after she was shoved to the ground and detained by ICE for 2 days](https://www.themirror.com/news/us-news/citizen-scarred-bruised-detained-ice-1626179)
 5. Complex (Jan 18, 2026): [Woman Injured, Detained, and Released by ICE Despite Being U.S. Citizen](https://www.complex.com/life/a/backwoodsaltar/us-citizen-st-paul-woman-nasra-ahmed-detained-by-ice)
 6. Inquisitr (Jan 18, 2026): [ICE Agents Pulled 23-Year-Old in a Surprise Raid, Then Left Her Scarred and Bruised](https://www.inquisitr.com/ice-agents-pulled-23-year-old-in-a-surprise-raid-then-left-her-scarred-and-bruised-they-had-a-padlock-on-me)
-7. Facebook post: [Community member account](https://www.facebook.com/story.php?story_fbid=25714350694874522&id=100001788329163) - Notes she was on her way to pick up a prescription
-8. Facebook post (Somlai): [Personal account](https://www.facebook.com/100078874290085/posts/869036045735531/)
-9. Facebook post: [Community member calling for legal action](https://www.facebook.com/story.php?story_fbid=25740710055571919&id=100001788329163)
-10. X post (Furkan Gözükara): [Video interview with Nasra Ahmed](https://x.com/FurkanGozukara/status/2013229204947554494)
+7. Facebook Post (Jan 2026): [Community member account](https://www.facebook.com/story.php?story_fbid=25714350694874522&id=100001788329163)
+8. Facebook Post (Jan 2026): [Personal account](https://www.facebook.com/100078874290085/posts/869036045735531/)
+9. Facebook Post (Jan 2026): [Community member calling for legal action](https://www.facebook.com/story.php?story_fbid=25740710055571919&id=100001788329163)
+10. X Video (Jan 2026): [Video interview with Nasra Ahmed](https://x.com/FurkanGozukara/status/2013229204947554494)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Nasra Mohamed Ahmed
 - **Age:** 23
 - **Height/Weight:** 5'4", 112 lbs

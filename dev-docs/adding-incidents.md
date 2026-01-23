@@ -14,7 +14,7 @@ Search existing incident files in `docs/incidents/` to ensure the incident isn't
 
 1. **Search by location** - Same address, intersection, or business name
 2. **Search by date** - Same day, even if different details emerged
-3. **Search by victim name** - If known
+3. **Search by affected individual's name** - If known
 4. **Search by keywords** - Key phrases from the incident
 
 ```bash
@@ -29,7 +29,7 @@ grep -r "bus stop" docs/incidents/
 
 1. Open the existing incident file
 2. Add new sources to the Sources section
-3. Add new details to relevant sections (Timeline, Victim info, etc.)
+3. Add new details to relevant sections (Timeline, Affected Individual info, etc.)
 4. Update `last_updated` in frontmatter
 5. Update Editorial Assessment if trustworthiness improves
 
@@ -97,10 +97,10 @@ Assign HIGH when ANY of these conditions are met:
 | Video/photo evidence | Bystander video shows incident, news embeds footage |
 | Investigative report from major outlet | The Intercept, ProPublica, major newspaper with named sources and direct quotes |
 | Single source + official corroboration | News report + ICE confirms arrest, or + lawsuit filed |
-| Single source + credible primary sources | Article with named elected officials, attorneys, or direct victim interviews |
+| Single source + credible primary sources | Article with named elected officials, attorneys, or direct affected individual interviews |
 
 **Examples of HIGH with single source:**
-- The Intercept detailed account with named victim and direct quotes → HIGH
+- The Intercept detailed account with named affected individual and direct quotes → HIGH
 - Sahan Journal report with city council member as witness → HIGH
 - Local paper report + ICE confirmation of arrest → HIGH
 
@@ -138,7 +138,7 @@ UNVERIFIED incidents require additional formatting to clearly communicate their 
 ```markdown
 # Incident Title (UNVERIFIED)
 
-***No mainstream media has reported on this incident. It is based on social media posts only. If you have a media source, please [contact us](mailto:mnicewitness@proton.me).***
+***No mainstream media has reported on this incident. It is based on social media posts only. If you have a media source, please [contact us](mailto:mnicewitness@gmail.com).***
 
 ## Summary
 ```
@@ -151,8 +151,8 @@ This allows editorial judgment about incidents worth documenting while clearly i
 
 | Condition | Why It Limits Rating |
 |-----------|---------------------|
-| No independent firsthand witnesses on scene | Cannot corroborate the account beyond victim's word |
-| Account relies solely on victim/family statement | No third-party verification of events |
+| No independent firsthand witnesses on scene | Cannot corroborate the account beyond affected individual's word |
+| Account relies solely on affected individual/family statement | No third-party verification of events |
 | Agency disputes incident occurred (e.g., "zero record") | Creates he-said/she-said without independent evidence |
 
 **Example:** A U.S. citizen claims they were stopped by ICE. Multiple news outlets report the story based on the citizen's account. However, no bystanders witnessed the stop, no video exists, and ICE claims "zero record" of the incident. This should be rated **MEDIUM** despite widespread media coverage, because the coverage is all sourced from a single account without independent corroboration.
@@ -186,6 +186,71 @@ If the incident involves a refugee or immigrant with **pending legal status** (I
 - GoFundMe pages
 - Single witness accounts
 
+### Source Formatting Quick Reference
+
+**Format:** `N. Outlet Name (Mon DD, YYYY): [Title](URL)`
+
+**Platform-specific formats:**
+
+| Platform | Video | Non-Video |
+|----------|-------|-----------|
+| Instagram | `Instagram Video (Jan 15, 2026): [description](URL)` | `Instagram Post (Jan 15, 2026): [description](URL)` |
+| TikTok | `TikTok Video (Jan 15, 2026): [description](URL)` | (rare - TikTok is usually video) |
+| X/Twitter | `X Video (Jan 15, 2026): [description](URL)` | `X Post (Jan 15, 2026): [@handle thread](URL)` |
+| Facebook | `Facebook Video (Jan 15, 2026): [description](URL)` | `Facebook Post (Jan 15, 2026): [description](URL)` |
+| Threads | N/A | `Threads (Jan 15, 2026): [@handle post](URL)` |
+| Bluesky | N/A | `Bluesky (Jan 15, 2026): [@handle.bsky.social post](URL)` |
+| YouTube | `YouTube Video (Jan 15, 2026): [description](URL)` | N/A |
+| News sites | `FOX 9 Video (Jan 15, 2026): [description](URL)` | `FOX 9 (Jan 15, 2026): [Headline](URL)` |
+
+**See `incident-schema.md` for full formatting rules and examples of common mistakes.**
+
+## Common Mistakes to Avoid
+
+These are mistakes that LLMs frequently make when adding incidents. Read this section carefully.
+
+### Timestamps — #1 LLM Mistake
+| Mistake | Why It's Wrong | Correct Approach |
+|---------|---------------|------------------|
+| `2026-01-19T12:00:00` | Rounded times are obviously fabricated | Run `./bin/timestamp.sh` FIRST, then copy-paste |
+| `2026-01-19T14:30:00` | Round numbers reveal guessing | Never type timestamps from memory |
+| Typing ANY timestamp manually | LLMs ALWAYS get this wrong | Script output is the ONLY valid source |
+
+**⚠️ This is the most common LLM error.** Before editing ANY timestamp field, run `./bin/timestamp.sh` and copy its output. Do not proceed without doing this step first.
+
+### Source Formatting
+| Mistake | Why It's Wrong | Correct Format |
+|---------|---------------|----------------|
+| `[Instagram post](URL) - Source` | Wrong order, missing date | `Instagram Post (Jan 15, 2026): [description](URL)` |
+| `Star Tribune (Jan 2026): [Title](URL)` | Missing day in date | `Star Tribune (Jan 15, 2026): [Title](URL)` |
+| Source without any link | No link = not a source | Every source must have a clickable URL |
+| Business homepage as source | General pages don't prove anything | Link to specific post/article about incident |
+| `- **VIDEO** [Title](URL)` | Wrong format entirely | `Instagram Video (Jan 15, 2026): [Title](URL)` |
+
+### Source Ordering
+| Mistake | Why It's Wrong | Correct Approach |
+|---------|---------------|------------------|
+| "Videos first, then articles" | Misleading oversimplification | Best/most compelling first - could be video OR article |
+| Putting syndicated content first | Yahoo/AOL reposts are less valuable | Original reporting first, syndication last |
+
+### Internal Links
+| Mistake | Why It's Wrong | Correct Format |
+|---------|---------------|----------------|
+| `[link](2026-01-15-incident.md)` | Links to raw .md file | `[link](#2026-01-15-incident)` |
+| `[link](https://mnicefiles.com/#slug)` | Hardcodes domain | `[link](#slug)` |
+
+### Trustworthiness
+| Mistake | Why It's Wrong | Correct Approach |
+|---------|---------------|------------------|
+| `trustworthiness: medium-high` | Compound values not allowed | Pick exactly one: high, medium, low, unverified |
+| Rating HIGH without corroboration | Single-source stories need verification | See witness corroboration rule |
+
+### last_updated
+| Mistake | Why It's Wrong | Correct Approach |
+|---------|---------------|------------------|
+| Updating for every source added | Pollutes "Sort by Updated" view | Only update for substantive story changes |
+| Updating for formatting fixes | Not a story development | Only for case developments, status changes, new facts |
+
 ## Step 2: Create the File
 
 1. Determine the date of the incident
@@ -203,6 +268,20 @@ If the incident involves a refugee or immigrant with **pending legal status** (I
 
 **This site's credibility depends on neutral, documentary tone.** Avoid emotional, excited, or loaded language throughout — in titles, summaries, source descriptions, and narrative text.
 
+#### Terminology: "Affected Individual(s)" NOT "Victim(s)"
+
+**IMPORTANT:** We use **"Affected Individual(s)"** instead of "Victim(s)" throughout this project.
+
+- **Section headers:** Use `## Affected Individual(s)` not `## Victim(s)`
+- **Frontmatter field:** Use `affected_individual_citizenship:` not `victim_citizenship:`
+- **In prose:** Say "the affected individual" or "affected individuals" — not "the victim" or "victims"
+
+**Why?** "Victim" carries emotional weight and implies a judgment. "Affected individual" is neutral and factual — it describes someone involved in an incident without prejudging the situation. This aligns with our goal of documentary journalism that presents facts and lets readers draw their own conclusions.
+
+**Exception:** Direct quotes from sources (news articles, officials, witnesses) may contain "victim" — preserve the original language in quotes.
+
+#### Neutral Language Table
+
 | Avoid (Emotional/Loaded) | Use Instead (Neutral) |
 |--------------------------|----------------------|
 | raid, ransack | search |
@@ -210,7 +289,7 @@ If the incident involves a refugee or immigrant with **pending legal status** (I
 | kidnapped, snatched | detained, arrested |
 | terrorize, brutalize | use force on |
 | horrific, shocking, disturbing | (omit - describe facts) |
-| innocent victim | person, resident, citizen |
+| innocent victim | person, resident, citizen, affected individual |
 | exclusive, breaking, bombshell | (omit - just describe content) |
 | explosive interview | interview |
 
@@ -222,7 +301,7 @@ If the incident involves a refugee or immigrant with **pending legal status** (I
 
 **General principles:**
 - Report facts and let readers draw conclusions
-- Witness/victim quotes may contain emotional language, but narrative text should not
+- Witness/affected individual quotes may contain emotional language, but narrative text should not
 - Describe actions objectively: "agents used a battering ram to enter" not "agents violently smashed through the door"
 - Avoid superlatives and marketing language from news sources (strip out "exclusive," "shocking," etc.)
 - **For official statements:** Report what was said accurately, not your interpretation. If an official says "vicious animals" referring to "murderers & criminals," don't editorialize that as "calling immigrants vicious animals." Let readers draw their own conclusions about the rhetoric.
@@ -247,7 +326,7 @@ location: Specific location
 city: Minneapolis
 type: citizens
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: medium
 created: 2026-01-15T14:23:47   # ← Use ACTUAL current time, not rounded!
@@ -263,7 +342,7 @@ What happened in 2-3 sentences.
 1. [Source](URL) - Publication
 - **Video:** [Description](URL) - Source (if available)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** If public
 - **Citizenship:** Status
 
@@ -309,11 +388,18 @@ git push
 
 When new information emerges:
 
-1. Edit the markdown file
-2. **Only update `last_updated` for substantive story changes** (see below)
-3. Add new sources to Sources section
-4. Update Editorial Assessment if trustworthiness changes
-5. Commit with message like "Update: New video evidence for Speedway incident"
+1. **If updating `last_updated`** — Run `./bin/timestamp.sh` FIRST and copy the output
+2. Edit the markdown file
+3. **For major story updates:** Add/update the `## Updates` section **RIGHT AFTER THE TITLE, BEFORE SUMMARY** (see below)
+4. **Only update `last_updated` for substantive story changes** (see below)
+5. Paste the timestamp from step 1 into `last_updated` (do NOT type it manually)
+6. Add new sources to Sources section
+7. Update Editorial Assessment if trustworthiness changes
+8. Commit with message like "Update: New video evidence for Speedway incident"
+
+**⚠️ CRITICAL:** Never type a timestamp like `2026-01-22T12:00:00` from memory. LLMs always get this wrong. The script is the ONLY valid source for timestamps.
+
+**⚠️ CRITICAL:** The `## Updates` section goes at the TOP of the document (after title, before Summary), NOT at the bottom. This is user-facing content that readers see first.
 
 ### When to Update `last_updated`
 
@@ -338,7 +424,7 @@ When new information emerges:
 |-------------|----------|
 | **Case developments** | Judge ruling, person released, charges filed, lawsuit filed |
 | **Status changes** | Detained → Released, Under investigation → Resolved |
-| **New facts about the incident** | Victim identity confirmed, location corrected, new details emerge |
+| **New facts about the incident** | Affected individual identity confirmed, location corrected, new details emerge |
 | **Merging incidents** | When combining duplicate incident files |
 | **Significant new witness accounts** | Major new testimony that changes understanding |
 
@@ -374,13 +460,22 @@ When making a MAJOR update to an incident, add an `## Updates` section right aft
 ...
 ```
 
-**Format:** Use simple dates like "Jan 18" — NOT full timestamps. The Updates section is user-facing and should be clean and readable.
+**Format:**
+- Use simple dates like "Jan 18" — NOT full timestamps
+- End each update with a period
+- Hyperlink to the source within the text (don't write out URLs)
+
+**Example with hyperlink:**
+```markdown
+- **Jan 22** - [KSTP investigation](URL) reveals target has been in prison since 2024.
+```
 
 **Write in plain language** — describe what happened, not what you did:
-- ✅ "Gibson alleges ICE took 'trophy photos' of him"
+- ✅ "[KSTP investigation](URL) reveals target has been in prison since 2024."
+- ✅ "Gibson alleges ICE took 'trophy photos' of him."
 - ❌ "Added press conference details"
-- ✅ "Nasra Ahmed describes being chained 'like Hannibal Lecter'"
-- ❌ "Added victim's first-person account; upgraded to HIGH trustworthiness"
+- ✅ "Nasra Ahmed describes being chained 'like Hannibal Lecter'."
+- ❌ "Added affected individual's first-person account; upgraded to HIGH trustworthiness"
 
 Never mention internal details like trustworthiness changes, source additions, or schema updates. Users don't care about our process — they want to know what happened.
 
@@ -445,10 +540,10 @@ When an incident involves a refugee or immigrant with **pending legal status** b
 ### When to Add This Section
 
 Add when ANY of these apply:
-- Victim had an approved or pending I-130 petition
-- Victim was a refugee awaiting green card
-- Victim had valid immigration documents and was in a legal process
-- Victim was detained despite having legal status
+- Affected individual had an approved or pending I-130 petition
+- Affected individual was a refugee awaiting green card
+- Affected individual had valid immigration documents and was in a legal process
+- Affected individual was detained despite having legal status
 
 ### How to Add
 
@@ -461,7 +556,7 @@ Add when ANY of these apply:
 ```markdown
 ## Context: Operation PARRIS
 
-[Victim name]'s detention fits a documented pattern of ICE targeting refugees with pending green card applications under **Operation PARRIS** (Post-Admission Refugee Reverification and Integrity Strengthening). According to [Fox 9](https://www.fox9.com/news/minnesota-fraud-dhs-launching-operation-parris-target-refugees-jan-9), approximately 5,600 green card applicants in Minnesota are being targeted through this [official DHS operation](https://www.uscis.gov/newsroom/news-releases/dhs-launches-landmark-uscis-fraud-investigation-in-minnesota).
+[Affected individual's name]'s detention fits a documented pattern of ICE targeting refugees with pending green card applications under **Operation PARRIS** (Post-Admission Refugee Reverification and Integrity Strengthening). According to [Fox 9](https://www.fox9.com/news/minnesota-fraud-dhs-launching-operation-parris-target-refugees-jan-9), approximately 5,600 green card applicants in Minnesota are being targeted through this [official DHS operation](https://www.uscis.gov/newsroom/news-releases/dhs-launches-landmark-uscis-fraud-investigation-in-minnesota).
 
 [Global Refuge](https://www.globalrefuge.org/news/refugee-arrests-minnesota/) has documented that lawfully present refugees are being detained and transported to Texas within 24 hours with "no due process, no access to an attorney."
 ```

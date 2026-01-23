@@ -5,7 +5,7 @@ location: East 35th Street near Park Avenue
 city: Minneapolis
 type: citizens
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
 created: 2026-01-14T08:01:12
@@ -26,7 +26,7 @@ ICE agents followed and rammed into the car of Christian Molina, a 40-year-old L
 6. MS NOW (Jan 13, 2026): [Clashes escalate between protesters, immigration officers in Minneapolis](https://www.ms.now/news/clashes-escalate-between-protesters-immigration-officers-in-minneapolis)
 7. Star Tribune (Jan 18, 2026): [Allegations of racial profiling of U.S. citizens on the rise as ICE surge expands in Minnesota](https://www.startribune.com/allegations-of-racial-profiling-of-us-citizens-on-the-rise-as-ice-surge-expands-in-minnesota/601564653)
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Christian Molina
 - **Age:** 40
 - **Citizenship:** U.S. Citizen
@@ -40,7 +40,7 @@ ICE agents followed and rammed into the car of Christian Molina, a 40-year-old L
 - **Crowd gathers** - ~100 observers arrive, blowing whistles and honking horns
 - **Release** - Agents release Molina after confirming his identity
 
-## Victim Statement
+## Affected Individual Statement
 
 ### Christian Molina
 "Because I look Latino, that's it, I don't look white or got blue eyes."
@@ -60,4 +60,4 @@ Minneapolis City Council Member Jason Chavez arrived at the scene. A crowd of ap
 The incident occurred two blocks from where Renee Nicole Good was killed by an ICE agent on January 7.
 
 ## Editorial Assessment
-**HIGH** - Detailed reporting from Sahan Journal with named victim, witness accounts, and city council member present. Clear documentation of racial profiling.
+**HIGH** - Detailed reporting from Sahan Journal with named affected individual, witness accounts, and city council member present. Clear documentation of racial profiling.

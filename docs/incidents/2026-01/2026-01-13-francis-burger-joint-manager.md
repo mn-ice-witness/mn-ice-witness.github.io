@@ -5,11 +5,11 @@ location: East Lake Street
 city: Minneapolis
 type: observers
 status: resolved
-victim_citizenship: us-citizen
+affected_individual_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
-created: 2026-01-18
-last_updated: 2026-01-18
+created: 2026-01-18T00:00:00
+last_updated: 2026-01-18T00:00:00
 ---
 
 # Restaurant Kitchen Manager Tackled and Detained While Observing ICE
@@ -23,7 +23,7 @@ The kitchen manager at Francis Burger Joint's East Lake Street location in Minne
 3. [Instagram post](https://www.instagram.com/p/DTdqQFSksuR/) - Francis Burger Joint
 4. [Facebook post](https://www.facebook.com/share/p/1C8XtJe1Ec/) - Francis Burger Joint
 
-## Victim(s)
+## Affected Individual(s)
 - **Name:** Not disclosed
 - **Role:** Kitchen manager at Francis Burger Joint
 - **Citizenship:** U.S. citizen
@@ -68,4 +68,4 @@ The restaurant implemented new safety protocols:
 - Staff know exactly what to say and who to call
 
 ## Editorial Assessment
-**HIGH** - Multiple sources including Mpls.St.Paul Magazine feature article and Yahoo News coverage. Named co-owner (Lindsey Johnston) provides direct, detailed account with multiple quotes. The victim's name is not disclosed but incident details are specific.
+**HIGH** - Multiple sources including Mpls.St.Paul Magazine feature article and Yahoo News coverage. Named co-owner (Lindsey Johnston) provides direct, detailed account with multiple quotes. The affected individual's name is not disclosed but incident details are specific.

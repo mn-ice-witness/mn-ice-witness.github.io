@@ -5,7 +5,7 @@ location: Construction site
 city: Chanhassen
 type: immigrants
 status: resolved-detained
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: medium
 created: 2026-01-14T08:54:15
@@ -19,12 +19,12 @@ Two construction workers, Edgar and Marco Chicaiza Dutan, took refuge on a roof 
 
 ## Sources
 1. EP Local News (Dec 19, 2025): [ICE detains Eden Prairie man; Chanhassen standoff follows](https://www.eplocalnews.org/2025/12/19/ice-detains-eden-prairie-man-chanhassen-standoff-follows/)
-2. Sahan Journal (Dec 2025): [Man held after Chanhassen roof standoff sues to stop deportation](https://sahanjournal.com/immigration/chanhassen-ice-operation-roof-arrest/)
-3. Fox 9 (Dec 2025): [Chanhassen ICE operation - Authorities say enforcement was targeted](https://www.fox9.com/news/chanhassen-ice-operation-authorities-say-enforcement-targeted-dec-2025)
-4. KSTP (Dec 2025): [Apparent ICE operation targeting 2 men on roof in Chanhassen draws crowd](https://kstp.com/kstp-news/top-news/crowd-gathers-in-chanhassen-in-response-to-a-supposed-ice-arrest/)
-5. Minneapolis Daily News Podcast (Dec 2025): [ICE Arrest Sparks Chanhassen Standoff](https://shows.acast.com/the-minneapolis-daily-news-now/episodes/6942505be0aa901b335b8593)
+2. Sahan Journal (Dec 14, 2025): [Man held after Chanhassen roof standoff sues to stop deportation](https://sahanjournal.com/immigration/chanhassen-ice-operation-roof-arrest/)
+3. Fox 9 (Dec 13, 2025): [Chanhassen ICE operation - Authorities say enforcement was targeted](https://www.fox9.com/news/chanhassen-ice-operation-authorities-say-enforcement-targeted-dec-2025)
+4. KSTP (Dec 13, 2025): [Apparent ICE operation targeting 2 men on roof in Chanhassen draws crowd](https://kstp.com/kstp-news/top-news/crowd-gathers-in-chanhassen-in-response-to-a-supposed-ice-arrest/)
+5. Minneapolis Daily News Podcast (Dec 14, 2025): [ICE Arrest Sparks Chanhassen Standoff](https://shows.acast.com/the-minneapolis-daily-news-now/episodes/6942505be0aa901b335b8593)
 
-## Victim(s)
+## Affected Individual(s)
 - **Names:** Edgar and Marco Chicaiza Dutan
 - **Occupation:** Construction workers
 - **Status:** Detained after standoff

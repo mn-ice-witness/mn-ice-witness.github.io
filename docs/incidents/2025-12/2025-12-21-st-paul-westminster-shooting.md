@@ -5,7 +5,7 @@ location: 1300 block of Westminster Street
 city: St. Paul
 type: immigrants
 status: under-investigation
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: minor
 trustworthiness: high
 created: 2026-01-14T08:01:12

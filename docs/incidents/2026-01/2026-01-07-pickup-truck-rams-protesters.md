@@ -5,7 +5,7 @@ location: Alley off 34th Street, near Portland Avenue
 city: Minneapolis
 type: observers
 status: resolved
-victim_citizenship: unknown
+affected_individual_citizenship: unknown
 injuries: unknown
 trustworthiness: medium
 created: 2026-01-19T19:14:34
@@ -21,7 +21,7 @@ In the chaotic aftermath of the Renee Good shooting, federal agents drove a whit
 1. Bluesky Video (Jan 8, 2026): [Em Cassel video of agents ramming community members](https://bsky.app/profile/biketrouble.bsky.social/post/3mbwqgsornc2d)
 2. Racket (Jan 7, 2026): ['Get the Fuck Out of Minneapolis'](https://racketmn.com/ice-shooting-killing-minneapolis-mn)
 
-## Victim(s)
+## Affected Individual(s)
 - **Names:** Not disclosed
 - **Citizenship:** Unknown
 - **Injuries:** Unknown, but Em Cassel reported people were "knocked to the ground"
