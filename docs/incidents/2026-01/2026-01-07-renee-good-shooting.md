@@ -15,7 +15,7 @@ last_updated: 2026-01-23T12:56:40
 # Renee Nicole Good Shot and Killed by ICE Agent
 
 ## Updates
-- **Jan 22** - [Hennepin County Medical Examiner](https://www.nbcnews.com/news/us-news/renee-good-was-shot-head-autopsy-commissioned-family-finds-rcna255335) ruled manner of death as "homicide" with cause of death "multiple gunshot wounds."
+- **Jan 22** - [Autopsy commissioned by family](https://www.nbcnews.com/news/us-news/renee-good-was-shot-head-autopsy-commissioned-family-finds-rcna255335) found cause of death was multiple gunshot wounds.
 - **Jan 21** - [Independent autopsy](https://www.startribune.com/law-firm-independent-autopsy/601568258) released by family attorneys (Romanucci & Blandin) reveals three gunshot wounds: left forearm, right breast (both non-life-threatening), and fatal head wound with entrance near left temple and exit on right side.
 
 ## Summary
