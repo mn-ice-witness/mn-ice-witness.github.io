@@ -1,3 +1,6 @@
+<!-- NO_ADD: This incident doesn't fit any of our categories - no one was detained at the restaurant,
+     the agent entered during a street pursuit and left. Keeping file in case we change our mind. -->
+
 ---
 date: 2026-01-19
 time: afternoon
