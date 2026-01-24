@@ -454,7 +454,7 @@ const App = {
                 <header class="section-header">
                     <div class="section-marker marker-${section.type}"></div>
                     <div>
-                        <h2 class="section-title">${section.title}</h2>
+                        <h2 class="section-title">${section.title} <span class="section-count">(${sectionIncidents.length})</span></h2>
                         <p class="section-desc">${section.desc}</p>
                     </div>
                 </header>
