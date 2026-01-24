@@ -15,7 +15,7 @@ last_updated: 2026-01-23T19:21:21
 # 2-Year-Old and Father Detained Near Powderhorn; Flown to Texas Despite Court Order
 
 ## Updates
-- **Jan 23** - [ICE flew father and daughter to Texas](https://kstp.com/kstp-news/top-news/ice-flew-2-year-old-to-texas-despite-court-order-to-release-her-from-custody/) at 8:30 PM, 19 minutes after a federal judge ordered the toddler released. A government attorney pledged ICE would honor the ruling and return the girl to Minnesota on Friday.
+- **Jan 23** - [ICE flew the 2-year-old and her father to Texas](https://kstp.com/kstp-news/top-news/ice-flew-2-year-old-to-texas-despite-court-order-to-release-her-from-custody/), separating the child from her mother, 19 minutes after a federal judge ordered the toddler released. A government attorney pledged to return the girl to Minnesota on Friday.
 
 ## Summary
 ICE detained Elvis Joel Tipan Echeverria and his 2-year-old daughter Chloe Renata Tipan Villacis near Powderhorn Park in South Minneapolis as they returned from a grocery store. Attorneys for the family say they were asylum-seekers pulled over without a warrant and did not have a final order for removal. A federal judge ordered the toddler released by 9:30 PM, but ICE placed both on a commercial flight to Texas 19 minutes after the order was signed. A government attorney subsequently pledged to return the girl to Minnesota.
