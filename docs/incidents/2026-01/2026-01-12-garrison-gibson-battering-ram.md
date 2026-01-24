@@ -52,21 +52,10 @@ According to court filings, Gibson has resided in the U.S. for approximately two
 He had checked in with ICE officials approximately two weeks before the arrest.
 
 ## Timeline
-- **2009** - Final immigration removal order issued
-- **~2022** - Placed under ICE supervision
-- **Late Dec 2025** - Gibson checks in with ICE as required
-- **Jan 12, 2026 morning** - Armed ICE agents arrive at home
-- **During raid** - Family demands to see judicial warrant
-- **Entry** - Agents use battering ram to break down door
-- **Arrest** - Gibson taken into custody
-- **Within 24 hours** - Habeas petition filed in federal court
-- **After arrest** - Gibson flown to Fort Bliss Army base in El Paso, Texas
-- **After habeas filing** - Judge ordered DHS to return Gibson to Minnesota
-- **Jan 16, 2026** - Federal judge rules arrest violated Fourth Amendment, orders release
-- **Jan 16, 2026 (evening)** - Gibson released from custody
-- **Jan 17, 2026** - Re-arrested at routine immigration check-in
-- **Jan 17, 2026 (evening)** - Released again after ICE admits error; required to wear ankle monitor
-- **Jan 18, 2026** - Gibson holds press conference, alleges "trophy photos" and overcrowded cell
+- **Jan 12, 2026** - ICE uses battering ram to enter home; family demands judicial warrant but agents show only administrative warrant; Gibson arrested
+- **Jan 16, 2026** - Federal judge rules arrest violated Fourth Amendment, orders immediate release
+- **Jan 17, 2026** - Re-arrested at routine check-in; released again same day after ICE admits error
+- **Jan 18, 2026** - Gibson holds press conference alleging "trophy photos" and overcrowded cell; now wears ankle monitor
 
 ## The Warrant Issue
 - Family alleges agents presented only an administrative warrant signed by an immigration officer, not a judge

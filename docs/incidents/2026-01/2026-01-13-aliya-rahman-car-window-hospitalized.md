@@ -59,15 +59,10 @@ Aliya Rahman, a 43-year-old U.S. citizen and software engineer, was dragged from
 - **Legal:** Represented by Alexa Van Brunt, MacArthur Justice Center
 
 ## Timeline
-- **~9:40 AM** - Community response networks send alerts about ICE door-knocking in Powderhorn
-- **Morning** - Rahman driving to Traumatic Brain Injury Center appointment
-- **Confrontation** - Agents block her path at 34th and Park
-- **Escalation** - Agent smashes passenger window while others cut seatbelt
-- **Arrest** - Rahman dragged through driver's side door by multiple agents
-- **Detention** - Taken to detention center; repeatedly asks for doctor, denied
-- **Medical emergency** - Rahman loses consciousness in cell
-- **Hospitalization** - Finally taken to hospital, treated for assault injuries
-- **Aftermath** - ICE deploys chemical irritants at scene; 100+ observers gather
+- **Morning** - Rahman driving to TBI Center appointment when ICE agents block her path at 34th and Park
+- **Arrest** - Agents smash window, cut seatbelt, and drag Rahman from car; she screams "I'm disabled!"
+- **Detention** - Repeatedly denied medical attention until she loses consciousness in cell
+- **Hospitalization** - Finally taken to hospital; treated for injuries consistent with assault
 
 ## What the Video Shows
 - Woman in vehicle arguing with agents
