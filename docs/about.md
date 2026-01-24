@@ -36,7 +36,7 @@ Incidents are organized into five categories:
 - **Schools/Hospitals** — Actions at or near schools, hospitals, and healthcare institutions
 - **Response** — Official DHS/ICE statements about specific incidents
 
-*Note: "Citizens" and "Observers" may both involve U.S. citizens. The distinction is whether they were detained as suspected undocumented individuals (Citizens) or while engaged in observation/protest (Observers).*
+*Note: "Citizens" and "Observers" may both involve U.S. citizens. The distinction is whether they were targeted in racially-profiled enforcement operations (Citizens) or detained while filming or protesting (Observers). A few Citizens incidents involve other circumstances.*
 
 <h2 id="notes-on-response">Notes on Response <a href="#notes-on-response" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
