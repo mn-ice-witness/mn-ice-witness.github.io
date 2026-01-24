@@ -15,7 +15,7 @@ last_updated: 2026-01-14T12:35:56
 # DHS Response: Speedway Bystander "Hit an Officer"
 
 ## Summary
-DHS posted on X claiming a U.S. citizen bystander at the Speedway gas station arrest "did not comply with the lawfully given order, and instead responded by hitting an officer." Multiple video angles contradict this claim, showing the citizen complying before being tackled.
+DHS posted on X stating that a U.S. citizen bystander at the Speedway gas station arrest "did not comply with the lawfully given order, and instead responded by hitting an officer." Multiple video angles from the scene show a different sequence of events, with the citizen appearing to comply before being tackled.
 
 ## Sources
 1. X Video (Jan 12, 2026): [DHS official statement](https://x.com/DHSgov/status/2010802240517521519)
@@ -49,4 +49,4 @@ Video sources: FOX 9, CNN, BlueSky, Getty Images
 **Video Evidence:** Shows citizen backing up as instructed before physical contact
 
 ## Editorial Assessment
-**HIGH** - Official DHS statement directly contradicted by extensive video evidence from multiple independent sources including FOX 9 and CNN.
+**HIGH** - Official DHS statement documented. Video evidence from multiple independent sources including FOX 9 and CNN shows a different sequence of events than described in the statement.

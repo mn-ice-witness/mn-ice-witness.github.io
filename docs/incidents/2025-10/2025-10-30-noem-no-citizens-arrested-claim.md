@@ -15,12 +15,12 @@ last_updated: 2026-01-14T20:26:03
 # DHS Secretary Noem: "No American Citizens Have Been Arrested or Detained"
 
 ## Summary
-DHS Secretary Kristi Noem stated at a press conference that "no American citizens have been arrested or detained" by immigration agents. PolitiFact rated this claim "Pants on Fire" (their lowest truthfulness rating), and NPR and Poynter also found it to be inaccurate. ProPublica documented over 170 cases of U.S. citizens detained by immigration agents nationwide.
+DHS Secretary Kristi Noem stated at a press conference that "no American citizens have been arrested or detained" by immigration agents. Multiple fact-checking organizations disputed this claim, including PolitiFact, NPR, and Poynter. ProPublica documented over 170 cases of U.S. citizens detained by immigration agents nationwide.
 
 ## Sources
 1. Facebook Video (Oct 30, 2025): [Noem: "No citizens arrested or detained"](https://www.facebook.com/share/r/182qPHAp7o/)
 2. YouTube Video (Oct 30, 2025): [Noem Statement](https://www.youtube.com/watch?v=0KiGZZD11bw)
-3. PolitiFact (Oct 31, 2025): [PolitiFact Fact-Check: Pants on Fire](https://www.politifact.com/factchecks/2025/oct/31/kristi-noem/immigration-ICE-arrest-US-citizen-Chicago/)
+3. PolitiFact (Oct 31, 2025): [PolitiFact Fact-Check](https://www.politifact.com/factchecks/2025/oct/31/kristi-noem/immigration-ICE-arrest-US-citizen-Chicago/)
 4. Poynter (Nov 1, 2025): [Has ICE Arrested American Citizens?](https://www.poynter.org/fact-checking/2025/has-ice-arrested-american-citizens/)
 5. NPR (Nov 5, 2025): [NPR Fact-Check: Noem on ICE Detaining US Citizens](https://www.npr.org/2025/11/05/nx-s1-5598373/npr-fact-checks-kristi-noem-on-ice-detaining-us-citizens)
 6. House Oversight Committee (Oct 20, 2025): [Congressional Letter to Secretary Noem](https://oversightdemocrats.house.gov/sites/evo-subsites/democrats-oversight.house.gov/files/evo-media-document/2025-10-20-letter-from-blumenthal-and-garcia-to-noem.pdf)
@@ -36,8 +36,8 @@ At a press conference in Gary, Indiana, Secretary Noem stated:
 
 ## Fact-Check Results
 
-### PolitiFact Rating: Pants on Fire
-PolitiFact, part of the Poynter Institute, rated Noem's claim **"Pants on Fire"** — their lowest truthfulness rating. They noted that lawsuits, news reports, and even DHS's own statements contradict the claim.
+### PolitiFact Assessment
+PolitiFact, part of the Poynter Institute, found Noem's claim to be inaccurate. They noted that lawsuits, news reports, and even DHS's own statements contradict the claim.
 
 ### NPR Analysis
 NPR concluded: "It is not true, and there's plenty of evidence that it's false. Many news outlets, including NPR, have reported on and spoken with U.S. citizens who've been arrested or temporarily detained by immigration agents."

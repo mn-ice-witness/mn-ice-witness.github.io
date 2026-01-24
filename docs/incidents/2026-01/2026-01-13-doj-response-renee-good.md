@@ -15,7 +15,7 @@ last_updated: 2026-01-14T13:25:50
 # DOJ Declines Civil Rights Investigation into Good Shooting
 
 ## Summary
-Deputy Attorney General Todd Blanche announced there is "no basis for a criminal civil rights investigation" into the killing of Renee Good by ICE agent Jonathan Ross. Six federal prosecutors in Minnesota resigned in protest, citing DOJ pressure to investigate Good's activist ties rather than the shooting itself.
+Deputy Attorney General Todd Blanche announced there is "no basis for a criminal civil rights investigation" into the shooting death of Renee Good by ICE agent Jonathan Ross. Six federal prosecutors in Minnesota resigned, citing concerns about DOJ pressure to investigate Good's activist ties rather than the shooting itself.
 
 ## Sources
 1. CBS News (Jan 13, 2026): [DOJ sees no basis for civil rights probe in Minnesota ICE shooting](https://www.cbsnews.com/news/doj-civil-rights-division-will-not-investigate-minneapolis-ice-shooting-sources-say/)
@@ -32,7 +32,7 @@ See full incident details: [Renee Nicole Good Shot and Killed by ICE Agent](/ent
 
 > "The law does not require police to gamble with their lives in the face of a serious threat of harm. Rather, they may use deadly force when they face an immediate threat of significant physical harm."
 
-Blanche stated there is "currently no basis for a criminal civil rights investigation" into the killing.
+Blanche stated there is "currently no basis for a criminal civil rights investigation" into the shooting.
 
 ### DOJ Civil Rights Division
 Leadership in the Civil Rights Division, overseen by Harmeet Dhillon, informed staff there would not be an investigation into the shooting. Multiple career prosecutors offered to participate but were instructed not to do so.

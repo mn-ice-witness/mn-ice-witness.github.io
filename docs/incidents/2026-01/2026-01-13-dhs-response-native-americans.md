@@ -46,8 +46,9 @@ The tribe's memorandum stated:
 **Minnesota Native American Caucus:**
 > "Native peoples are Indigenous to this country, existing on this continent for thousands of years before the colonization of this nation — rendering deportation impossible and absurd."
 
-## What DHS Did NOT Address
+## Unanswered Questions
 
+The following questions remain unaddressed in DHS communications:
 - Why U.S. citizens were detained for 12+ hours
 - Why detained individuals' names were not recorded
 - How homeless citizens without documentation should prove citizenship

@@ -12,7 +12,7 @@ created: 2026-01-19T15:00:40
 last_updated: 2026-01-19T17:54:25
 ---
 
-# DHS Response: Defends Detention of Hmong Citizen, Claims Sex Offender Targets at Large — Family Disputes as "False"
+# DHS Response: Defends Detention of Hmong Citizen, Claims Sex Offender Targets at Large — Family Disputes Claims
 
 ## Summary
 A DHS response posted on X defends the detention of a U.S. citizen (ChongLy Scott Thao) at his St. Paul home, claiming ICE was conducting a "targeted operation" for two convicted sex offenders who "remain at large." The statement claims the citizen "refused to be fingerprinted or facially ID'd" and "matched the description of the targets."
@@ -38,7 +38,7 @@ Full statement from Tricia McLaughlin, DHS Assistant Secretary (@TriciaOhio):
 
 ## Family Rebuttal (January 19, 2026)
 
-On the same day, the family issued a formal press release categorically disputing DHS claims. Immigration policy expert Aaron Reichlin-Melnick (@ReichlinMelnick) shared the statement on X, writing: "NEW: the family of the elderly US citizen dragged out of his house by ICE in his underwear when it was 12 degrees and snowing says in a statement that @TriciaOhio's claims are FALSE. They say no other men live at the house (only his family) and that NO WARRANT was ever shown."
+On the same day, the family issued a formal press release categorically disputing DHS claims. Immigration policy expert Aaron Reichlin-Melnick (@ReichlinMelnick) shared the statement on X, writing: "NEW: the family of the elderly US citizen dragged out of his house by ICE in his underwear when it was 12 degrees and snowing says in a statement that @TriciaOhio's claims are FALSE. They say no other men live at the house (only his family) and that NO WARRANT was ever shown." (capitalization in original)
 
 ### Full Family Statement
 

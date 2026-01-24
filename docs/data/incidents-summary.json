@@ -277,7 +277,7 @@
     {
       "filePath": "incidents/2026-01/2026-01-20-trump-mistakes-happen.md",
       "title": "Trump on ICE Violence: \"Mistakes Happen\" While Focusing on \"Murders and Criminals\"",
-      "summary": "At a White House briefing marking one year in office, President Trump acknowledged ICE agents \"make mistakes sometimes\" while defending enforcement operations. Like DHS Secretary Noem, Trump redirected attention to criminal deportees, flipping through pages of arrest records and stating agents are \"apprehending murderers and drug dealers.\" The statement drew criticism for dismissing documented civil rights abuses as isolated errors when evidence suggests a systemic pattern of racial profiling and excessive force.",
+      "summary": "At a White House briefing marking one year in office, President Trump acknowledged ICE agents \"make mistakes sometimes\" while defending enforcement operations. Trump displayed arrest records at the podium, stating agents are \"apprehending murderers and drug dealers.\" Civil rights organizations and critics have characterized enforcement incidents as systemic rather than isolated.",
       "latestUpdate": null,
       "date": "2026-01-20",
       "time": "unknown",
@@ -400,7 +400,7 @@
     },
     {
       "filePath": "incidents/2026-01/2026-01-19-dhs-response-saly-detention.md",
-      "title": "DHS Response: Defends Detention of Hmong Citizen, Claims Sex Offender Targets at Large \u2014 Family Disputes as \"False\"",
+      "title": "DHS Response: Defends Detention of Hmong Citizen, Claims Sex Offender Targets at Large \u2014 Family Disputes Claims",
       "summary": "A DHS response posted on X defends the detention of a U.S. citizen (ChongLy Scott Thao) at his St. Paul home, claiming ICE was conducting a \"targeted operation\" for two convicted sex offenders who \"remain at large.\" The statement claims the citizen \"refused to be fingerprinted or facially ID'd\" and \"matched the description of the targets.\"",
       "latestUpdate": null,
       "date": "2026-01-19",
@@ -467,7 +467,7 @@
     {
       "filePath": "incidents/2026-01/2026-01-18-noem-pepper-spray-denial-backtrack.md",
       "title": "DHS Secretary Noem Defends Raids as Targeting 'Criminals and Rapists,' Denies Pepper Spray Use on CBS",
-      "summary": "Homeland Security Secretary Kristi Noem denied on CBS's \"Face the Nation\" that federal agents had used pepper spray and similar tactics curtailed by a judicial order, claiming the judge \"told us we couldn't do what we already aren't doing.\" When confronted with video evidence, she backtracked and blamed protesters, saying agents \"only use those chemical agents when there's violence happening.\"",
+      "summary": "Homeland Security Secretary Kristi Noem denied on CBS's \"Face the Nation\" that federal agents had used pepper spray and similar tactics curtailed by a judicial order, claiming the judge \"told us we couldn't do what we already aren't doing.\" When CBS showed video evidence, Noem shifted her position, stating agents \"only use those chemical agents when there's violence happening.\"",
       "latestUpdate": null,
       "date": "2026-01-18",
       "time": "morning",
@@ -1504,7 +1504,7 @@
     {
       "filePath": "incidents/2026-01/2026-01-13-doj-response-renee-good.md",
       "title": "DOJ Declines Civil Rights Investigation into Good Shooting",
-      "summary": "Deputy Attorney General Todd Blanche announced there is \"no basis for a criminal civil rights investigation\" into the killing of Renee Good by ICE agent Jonathan Ross. Six federal prosecutors in Minnesota resigned in protest, citing DOJ pressure to investigate Good's activist ties rather than the shooting itself.",
+      "summary": "Deputy Attorney General Todd Blanche announced there is \"no basis for a criminal civil rights investigation\" into the shooting death of Renee Good by ICE agent Jonathan Ross. Six federal prosecutors in Minnesota resigned, citing concerns about DOJ pressure to investigate Good's activist ties rather than the shooting itself.",
       "latestUpdate": null,
       "date": "2026-01-13",
       "time": "unknown",
@@ -1946,7 +1946,7 @@
     {
       "filePath": "incidents/2026-01/2026-01-11-dhs-response-speedway-bystander.md",
       "title": "DHS Response: Speedway Bystander \"Hit an Officer\"",
-      "summary": "DHS posted on X claiming a U.S. citizen bystander at the Speedway gas station arrest \"did not comply with the lawfully given order, and instead responded by hitting an officer.\" Multiple video angles contradict this claim, showing the citizen complying before being tackled.",
+      "summary": "DHS posted on X stating that a U.S. citizen bystander at the Speedway gas station arrest \"did not comply with the lawfully given order, and instead responded by hitting an officer.\" Multiple video angles from the scene show a different sequence of events, with the citizen appearing to comply before being tackled.",
       "latestUpdate": null,
       "date": "2026-01-11",
       "time": "unknown",
@@ -2871,7 +2871,7 @@
     {
       "filePath": "incidents/2026-01/2026-01-07-dhs-response-renee-good.md",
       "title": "DHS Response: Good \"Weaponized Her Vehicle\"",
-      "summary": "Hours after ICE agent Jonathan Ross shot and killed Renee Good, DHS Secretary Kristi Noem and spokesperson Tricia McLaughlin claimed Good \"weaponized her vehicle\" in an attempt to run over officers, calling it \"an act of domestic terrorism.\" Multiple independent video analyses have questioned these claims.",
+      "summary": "Hours after ICE agent Jonathan Ross shot and killed Renee Good, DHS Secretary Kristi Noem and spokesperson Tricia McLaughlin stated Good \"weaponized her vehicle\" in an attempt to run over officers, calling it \"an act of domestic terrorism.\" Multiple independent video analyses have presented different interpretations of the events.",
       "latestUpdate": null,
       "date": "2026-01-07",
       "time": "unknown",
@@ -3533,7 +3533,7 @@
     {
       "filePath": "incidents/2025-12/2025-12-04-dhs-response-abdulkadir-abdi.md",
       "title": "DHS Response: Abdulkadir Abdi \"Gang Member\"",
-      "summary": "In the first Operation Metro Surge press release, DHS labeled Abdulkadir Sharif Abdi as a current gang member, directly contradicting a 2018 federal court finding that he had \"turned his life around\" and his family's statements that he is not currently in a gang.",
+      "summary": "In the first Operation Metro Surge press release, DHS labeled Abdulkadir Sharif Abdi as a current gang member. This characterization differs from a 2018 federal court finding that he had \"turned his life around\" and his family's statements that he is not currently in a gang.",
       "latestUpdate": null,
       "date": "2025-12-04",
       "time": "unknown",
@@ -3715,7 +3715,7 @@
     {
       "filePath": "incidents/2025-10/2025-10-30-noem-no-citizens-arrested-claim.md",
       "title": "DHS Secretary Noem: \"No American Citizens Have Been Arrested or Detained\"",
-      "summary": "DHS Secretary Kristi Noem stated at a press conference that \"no American citizens have been arrested or detained\" by immigration agents. PolitiFact rated this claim \"Pants on Fire\" (their lowest truthfulness rating), and NPR and Poynter also found it to be inaccurate. ProPublica documented over 170 cases of U.S. citizens detained by immigration agents nationwide.",
+      "summary": "DHS Secretary Kristi Noem stated at a press conference that \"no American citizens have been arrested or detained\" by immigration agents. Multiple fact-checking organizations disputed this claim, including PolitiFact, NPR, and Poynter. ProPublica documented over 170 cases of U.S. citizens detained by immigration agents nationwide.",
       "latestUpdate": null,
       "date": "2025-10-30",
       "time": "unknown",

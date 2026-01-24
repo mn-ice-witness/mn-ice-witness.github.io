@@ -23,8 +23,8 @@ Vice President JD Vance visited Minneapolis on January 23, 2026, and addressed t
 1. NBC News Video (Jan 23, 2026): [Vance reacts to ICE detainment of 5-year-old boy in Minneapolis](https://www.nbcnews.com/now/video/vance-reacts-to-ice-detainment-of-5-year-old-boy-in-minneapolis-256411717612)
 2. ABC News Video (Jan 23, 2026): [Vance responds after image shows 5-year-old detained by ICE](https://abcnews.go.com/GMA/News/video/vance-responds-after-image-shows-5-year-detained-129484344)
 3. CBS Minnesota (Jan 23, 2026): [Vice President JD Vance says "failure of cooperation" by local, state authorities to blame for chaos](https://www.cbsnews.com/minnesota/news/jd-vance-minneapolis-visit-ice-operation/)
-4. The New Republic (Jan 23, 2026): [Trump's ICE Goons Detained a 5-Year-Old. Then JD Vance Made It Worse.](https://newrepublic.com/article/205616/jd-vance-minneapolis-ice-5-year-old)
-5. Raw Story (Jan 23, 2026): [CNN host flattens JD Vance claim used to justify detention of 5-year-old boy: 'Not true'](https://www.rawstory.com/ice-agents-detain-boy-freeze/)
+4. The New Republic (Jan 23, 2026): [Vance responds to 5-year-old detention](https://newrepublic.com/article/205616/jd-vance-minneapolis-ice-5-year-old)
+5. Raw Story (Jan 23, 2026): [CNN host disputes Vance claim about 5-year-old detention](https://www.rawstory.com/ice-agents-detain-boy-freeze/)
 6. KARE 11 (Jan 23, 2026): [Lawyer disputes Vance claims about 5-year-old arrest by ICE, 'inhumane and unacceptable'](https://www.kare11.com/article/news/local/ice-in-minnesota/lawyer-vance-5-year-old-arrest-ice-columbia-heights/89-f5f5b915-c6d5-4512-a846-364b98b465cf)
 7. FOX 9 (Jan 23, 2026): [5-year-old detained by ICE in Columbia Heights: Family came into US the 'right' way](https://www.fox9.com/news/columbia-heights-child-ice-detained)
 8. CBC News (Jan 23, 2026): [Minnesota officials, Trump administration offer very different takes on ICE's detainment of boy, 5](https://www.cbc.ca/news/world/ice-arrest-minnesota-preschooler-breakdown-9.7057414)
@@ -106,23 +106,23 @@ Columbia Heights Superintendent Zena Stenvik also stated she viewed the family's
 
 Neither Vance nor DHS has directly addressed school officials' claim that ICE used the 5-year-old as "bait"—instructing him to knock on the door to draw out other family members. Vance's remarks focused on the "freeze to death" framing rather than the sequence of events alleged by school officials.
 
-## Analysis of Vance's Reasoning
+## Analysis
 
-### The Logic of His Argument
+### The Administration's Framing
 
-Vance presented what rhetoricians call a "false dilemma"—framing the situation as a binary choice between detaining the child and letting him freeze. This framing obscures the third option that was reportedly available: school officials on scene offered to take the child.
+Vance presented the situation as a choice between detaining the child and letting him freeze. School officials have stated a third option was available: they offered to take the child back to school.
 
-His "universal immunity" argument applies a general principle (you can't exempt all parents) to a specific case without addressing whether this particular operation was conducted appropriately or whether this particular family had legal status that should have affected the decision.
+His "universal immunity" argument applies a general principle (you can't exempt all parents) to a specific case without addressing whether this particular family had legal status that should have affected the decision.
 
-### Concerns Raised by Critics
+### Points Raised by Critics
 
-1. **Factual accuracy:** The "freeze to death" claim appears to contradict multiple eyewitness accounts from school officials who were present and offered to care for the child.
+1. **The "freeze to death" claim:** School officials who were present have stated they offered to care for the child, which would have provided an alternative to the scenario Vance described.
 
-2. **Legal status characterization:** Calling the father an "illegal alien" may be inaccurate if the family entered through CBP One with pending asylum claims. Even if one disagrees with asylum policies, describing someone with an active legal case as "illegal" is contested.
+2. **Legal status characterization:** The family's attorney states they entered through CBP One with pending asylum claims. Describing someone with an active legal case as an "illegal alien" is disputed by immigration advocates.
 
-3. **Deflection from the core allegation:** By focusing on the "freeze to death" scenario, Vance avoided addressing the allegation that agents used a child to knock on a door—the behavior school officials called using a child as "bait."
+3. **The "bait" allegation:** Vance's remarks focused on the "freeze to death" framing rather than addressing the allegation that agents instructed the child to knock on the door.
 
-4. **Acknowledgment of mistakes without accountability:** Vance's statement that "you're going to have people that make mistakes" acknowledges imperfection but doesn't address whether this case represents such a mistake or what consequences would follow.
+4. **Accountability:** Vance's statement that "you're going to have people that make mistakes" did not address whether this case represents such a mistake or what consequences would follow.
 
 ## Editorial Assessment
 

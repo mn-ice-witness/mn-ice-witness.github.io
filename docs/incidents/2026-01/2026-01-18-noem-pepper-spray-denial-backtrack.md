@@ -15,7 +15,7 @@ last_updated: 2026-01-18T23:55:30
 # DHS Secretary Noem Defends Raids as Targeting 'Criminals and Rapists,' Denies Pepper Spray Use on CBS
 
 ## Summary
-Homeland Security Secretary Kristi Noem denied on CBS's "Face the Nation" that federal agents had used pepper spray and similar tactics curtailed by a judicial order, claiming the judge "told us we couldn't do what we already aren't doing." When confronted with video evidence, she backtracked and blamed protesters, saying agents "only use those chemical agents when there's violence happening."
+Homeland Security Secretary Kristi Noem denied on CBS's "Face the Nation" that federal agents had used pepper spray and similar tactics curtailed by a judicial order, claiming the judge "told us we couldn't do what we already aren't doing." When CBS showed video evidence, Noem shifted her position, stating agents "only use those chemical agents when there's violence happening."
 
 ## Sources
 1. CBS News (Jan 18, 2026): [Transcript: Homeland Security Secretary Kristi Noem on "Face the Nation"](https://www.cbsnews.com/news/kristi-noem-face-the-nation-transcript-01-18-2026/)
@@ -28,7 +28,7 @@ Homeland Security Secretary Kristi Noem denied on CBS's "Face the Nation" that f
 - **Jan 18, morning** - Noem appears on CBS "Face the Nation" with Margaret Brennan
 - **During interview** - Noem claims judge's order was "a little ridiculous" and "didn't change anything"
 - **During interview** - CBS shows video evidence of chemical agent use
-- **During interview** - Noem backtracks, blames protesters for the use of force
+- **During interview** - Noem shifts position, says agents use chemical agents "when there's violence happening"
 
 ## Official Statement
 
@@ -39,15 +39,15 @@ When asked about the federal court order restricting chemical agent use, Noem st
 
 > "That judge's order didn't change anything for how we're operating on the ground, because it's basically telling us to do what we've already been doing."
 
-### The Backtrack
-After CBS showed video evidence backing up accounts provided to the court, Noem changed course and blamed protesters:
+### Subsequent Statement
+After CBS showed video evidence consistent with accounts provided to the court, Noem stated:
 
 > "We only use those chemical agents when there's violence happening and perpetuating and you need to be able to establish law and order to keep people safe."
 
-## Fact Check
+## Court Record
 
 ### Judge Menendez's Findings
-The federal court found that chemical agents were used against protesters on at least four separate occasions. Judge Menendez ruled that the evidence of chemical agent use was "uncontroverted" and rejected government claims that all such deployments occurred only after agents were attacked.
+The federal court found that chemical agents were used against protesters on at least four separate occasions. Judge Menendez ruled that the evidence of chemical agent use was "uncontroverted" and found the government's claims that all such deployments occurred only after agents were attacked to be unsupported by the record.
 
 The court determined that "protected conduct—including peaceful protesting and observation—had motivated the agents' actions" and that federal agents deployed substances to punish protesters exercising "protected First Amendment rights to assemble and to observe and protest ICE operations."
 
@@ -64,4 +64,4 @@ In polling released alongside the interview:
 - [Shawn Jackson Children Tear Gassed](/entry/2026-01-14-shawn-jackson-children-tear-gas) (Jan 14)
 
 ## Editorial Assessment
-**HIGH** - Primary source is the official CBS transcript and video of the interview. Noem's statements and the subsequent backtrack when confronted with evidence are documented on the record. Judge Menendez's ruling provides independent verification that chemical agents were used against peaceful protesters.
+**HIGH** - Primary source is the official CBS transcript and video of the interview. Noem's initial and subsequent statements are documented on the record. Judge Menendez's ruling provides court findings that chemical agents were used against peaceful protesters.

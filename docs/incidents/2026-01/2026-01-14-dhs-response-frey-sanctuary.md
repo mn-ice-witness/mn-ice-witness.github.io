@@ -58,11 +58,15 @@ This statement follows a consistent DHS pattern of highlighting individual crimi
 - Detention of U.S. citizens and legal residents
 - Use of force against observers and bystanders
 
-### Contested Premise
-The DHS framing conflates sanctuary policies with support for criminal activity. However:
-- Individuals with criminal charges are still prosecuted through the criminal justice system
-- Sanctuary policies affect whether local jails assist with *immigration* enforcement, not criminal enforcement
-- The featured case involves an individual who *was* charged, prosecuted, and facing criminal justice proceedings
+### Sanctuary Policy Debate
+The debate over sanctuary policies centers on different interpretations:
+
+**DHS position:** Sanctuary policies release individuals who could be transferred to ICE custody, allowing them to reoffend.
+
+**Sanctuary city position:**
+- Individuals with criminal charges are prosecuted through the criminal justice system regardless of sanctuary policies
+- Sanctuary policies address whether local jails assist with *immigration* enforcement, not criminal prosecution
+- The featured case involves an individual who was charged and prosecuted through the criminal justice system
 
 ## Editorial Assessment
-**HIGH** - Official DHS press release. The statement represents the federal government's position on sanctuary city policies. The featured criminal case is cited to support policy arguments; readers should note this is a single case used to characterize broader policy impacts. The statement continues DHS's pattern of responding to criticism of enforcement operations by highlighting criminal cases.
+**HIGH** - Official DHS press release. The statement represents the federal government's position on sanctuary city policies. The featured criminal case is cited to support policy arguments.

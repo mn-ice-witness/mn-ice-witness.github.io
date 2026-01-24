@@ -15,7 +15,7 @@ last_updated: 2026-01-14T12:35:56
 # DHS Response: Good "Weaponized Her Vehicle"
 
 ## Summary
-Hours after ICE agent Jonathan Ross shot and killed Renee Good, DHS Secretary Kristi Noem and spokesperson Tricia McLaughlin claimed Good "weaponized her vehicle" in an attempt to run over officers, calling it "an act of domestic terrorism." Multiple independent video analyses have questioned these claims.
+Hours after ICE agent Jonathan Ross shot and killed Renee Good, DHS Secretary Kristi Noem and spokesperson Tricia McLaughlin stated Good "weaponized her vehicle" in an attempt to run over officers, calling it "an act of domestic terrorism." Multiple independent video analyses have presented different interpretations of the events.
 
 ## Sources
 1. NBC News (Jan 8, 2026): [Contrasting accounts](https://www.nbcnews.com/news/us-news/federal-law-enforcement-involved-ice-related-shooting-minneapolis-rcna252812)
@@ -44,7 +44,7 @@ DHS claimed Good "followed federal ICE agents to two other locations prior to th
 
 ### Claim: Good "weaponized her vehicle" to run over officers
 
-**Video Evidence:** Multiple independent analyses have questioned this claim:
+**Video Evidence:** Multiple independent analyses have offered different assessments:
 - Minneapolis Mayor Jacob Frey: Video "did not appear to suggest" vehicle was being used as weapon
 - Thomas Warrick (former DHS deputy assistant secretary for counterterrorism): "Deadly force was not required to resolve the incident"
 - Bellingcat analyzed 5 videos and found Good was turning away from Ross when shot
@@ -63,4 +63,4 @@ DHS claimed Good "followed federal ICE agents to two other locations prior to th
 - **January 13:** Deputy AG Todd Blanche said there was "no basis for a criminal civil rights investigation"
 
 ## Editorial Assessment
-**HIGH** - Official DHS statements well-documented. Claims disputed by local officials, independent security experts, and video analysis from multiple news organizations.
+**HIGH** - Official DHS statements well-documented. Local officials, independent security experts, and video analyses from multiple news organizations have offered differing interpretations of the events.

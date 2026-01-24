@@ -25,7 +25,7 @@ DHS posted on X claiming Border Patrol agents were "repeatedly harassed and bloc
 3. Video (Instagram): [Gas station confrontation footage](https://www.instagram.com/reels/DTyrnFdkRSK/)
 4. Video (Facebook): [Gas station confrontation footage](https://www.facebook.com/reel/1439489157581713/)
 5. Mediaite (Jan 22, 2026): [DHS Says Protesters Won't Let Immigration Agents Pee in Peace](https://www.mediaite.com/media/news/dhs-says-protesters-wont-let-immigration-agents-pee-in-peace-simply-trying-to-take-bathroom-breaks/)
-6. New Republic (Jan 22, 2026): [CBP Chief and His Goons Shamed Out of Minnesota Gas Station](https://newrepublic.com/post/205524/customs-border-protection-cbp-bovino-minnesota-gas-station)
+6. New Republic (Jan 22, 2026): [CBP chief confronted at Minnesota gas station](https://newrepublic.com/post/205524/customs-border-protection-cbp-bovino-minnesota-gas-station)
 
 ## Related Incidents
 
@@ -50,4 +50,4 @@ The incident occurred four days after U.S. District Judge Katherine Menendez iss
 
 ## Editorial Assessment
 
-**HIGH** - Official DHS statement on @DHSgov. Statement characterizes events differently than video evidence showing gas deployed at a playground near a school while children were heading to buses.
+**HIGH** - Official DHS statement on @DHSgov. Video evidence from the same day shows gas deployed at a playground near a school during dismissal; see related incidents for details.
