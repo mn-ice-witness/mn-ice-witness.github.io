@@ -18,13 +18,18 @@
       "lastUpdated": "2026-01-23T20:50:18",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaOgPath": null,
-      "localMediaFiles": [],
-      "aspectRatio": null,
-      "mediaVersion": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-23-vance-response-5-year-old-detention.mp4",
+      "localMediaOgPath": "media/2026-01-23-vance-response-5-year-old-detention-og-2s-1769224109.jpg",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-23-vance-response-5-year-old-detention.mp4"
+        }
+      ],
+      "aspectRatio": 1.636111111111111,
+      "mediaVersion": 1769224109
     },
     {
       "filePath": "incidents/2026-01/2026-01-22-tipan-toddler-father-detained.md",

@@ -12,25 +12,17 @@
 <a href="https://bsky.app/profile/mnicewitness.bsky.social" target="_blank" title="Follow on Bluesky (@mnicewitness.bsky.social)"><svg width="17" height="17"><use href="#icon-bluesky"/></svg></a>
 </p>
 
+<h2 id="using-this-site">Using This Site <a href="#using-this-site" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
+
+- **NEW/UPDATED toggle** — When enabled, incidents are sorted by when they were added or last updated (e.g., judge ruling, person released). With this off, incidents are sorted by category and then by date.
+- <svg viewBox="0 0 24 24" width="16" height="16" class="media-icon"><use href="#icon-camera"/></svg> **Camera icon** — Incident has video or photo evidence in the media gallery.
+- <svg viewBox="0 0 24 24" width="16" height="16" class="viewed-icon"><use href="#icon-eye"/></svg> **Eye icon** — You've viewed this incident. Viewed incidents are greyed out. <a href="#clear-viewed">Clear history</a>.
+
 <h2 id="background">Background <a href="#background" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
 [Operation Metro Surge](https://www.pbs.org/newshour/politics/minnesota-and-the-twin-cities-sue-the-federal-government-to-stop-trumps-immigration-crackdown) was launched by the Trump administration in December 2025, deploying roughly 3,000 federal agents to Minnesota in what DHS has called its largest operation in history. The administration states that Operation Metro Surge targets individuals with criminal histories, gang affiliations, and outstanding removal orders.
 
 DHS Secretary Kristi Noem [directed ICE](https://www.dhs.gov/news/2025/12/19/under-president-trump-and-secretary-noem-department-homeland-security-has-historic) to prioritize arrests of gang members and individuals with violent criminal records. DHS press releases highlight arrests of individuals with criminal backgrounds.
-
-The administration has also cited sanctuary city policies in Minneapolis and St. Paul as a factor in the scope of its enforcement operations. In a January 14, 2026 statement, DHS stated that local policies had resulted in the release of ["nearly 470 criminal illegal aliens"](https://www.dhs.gov/news/2026/01/14/mayor-freys-sanctuary-policies-release-criminal-illegal-aliens-jails-back).
-
-<h2 id="the-data">Arrest Data <a href="#the-data" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
-
-Independent analyses present different figures.
-
-According to [Fortune](https://fortune.com/2025/07/12/ice-raids-trump-immigration-crackdown-deportation-no-criminal-convictions/), **72% of ICE detainees have no criminal convictions**. The Cato Institute found that **5% of those booked into ICE detention had violent criminal convictions**, while **73% had no convictions at all**.
-
-DHS created a "Worst of the Worst" database at WOW.DHS.GOV. According to [Common Dreams](https://www.commondreams.org/news/dhs-worst-of-worst-database), this database contains **9,738 people** out of more than **220,000 ICE arrests** — approximately **4%**.
-
-Aaron Reichlin-Melnick of the American Immigration Council noted: "DHS is implicitly admitting that less than 5% of the people it arrests are people they believe are 'the worst of the worst.'"
-
-**Regarding U.S. citizens:** Secretary Noem stated on October 30, 2025: "No American citizens have been arrested or detained." [PolitiFact rated this claim "Pants on Fire"](https://www.politifact.com/factchecks/2025/oct/31/kristi-noem/immigration-ICE-arrest-US-citizen-Chicago/). [NPR](https://www.npr.org/2025/11/05/nx-s1-5598373/npr-fact-checks-kristi-noem-on-ice-detaining-us-citizens) and [Poynter](https://www.poynter.org/fact-checking/2025/has-ice-arrested-american-citizens/) also disputed the claim. ProPublica documented over 170 cases of U.S. citizens detained by immigration agents. [See full details](#2025-10-30-noem-no-citizens-arrested-claim).
 
 <h2 id="what-this-site-documents">What This Site Documents <a href="#what-this-site-documents" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
@@ -48,19 +40,29 @@ Incidents are organized into five categories:
 
 *Note: "Citizens" and "Observers" may both involve U.S. citizens. The distinction is whether they were encountered during routine activities (Citizens) or while engaged in observation/protest (Observers).*
 
-### NEW/UPDATED
+<h2 id="notes-on-response">Notes on Response <a href="#notes-on-response" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
-When enabled, incidents are sorted by when they were added or last had a significant update (e.g., judge ruling, person released). This lets you easily see new content if you visit the site regularly. With this off, in the 'List' view incidents are sorted by category and then by incident date.
+This site includes a **Response** category to document official statements from DHS and ICE about specific incidents. We attempt to find and include official responses wherever available.
 
-### List View Icons
+**The administration's position:** The Trump administration has argued that street enforcement operations would be less disruptive if local authorities cooperated more fully with ICE. Border czar Tom Homan stated: "Let us in the damn jail. Frey and Walz could fix this today." The administration contends that when counties decline to honor ICE detainer requests, agents must conduct arrests in the community rather than in controlled jail settings — which the administration argues leads to the confrontational scenes documented in many of these incidents.
 
-<div class="about-callout-box">
+In a January 14, 2026 statement, DHS stated that sanctuary city policies in Minneapolis and St. Paul had resulted in the release of ["nearly 470 criminal illegal aliens"](https://www.dhs.gov/news/2026/01/14/mayor-freys-sanctuary-policies-release-criminal-illegal-aliens-jails-back). A [New York Times investigation](https://www.nytimes.com/2026/01/22/us/ice-minnesota-inmates.html) found the situation is more complex: Minnesota state prisons do transfer inmates to ICE upon release (84 last year), but county jails have varying policies, and some sheriffs cite legal liability concerns after lawsuits found detaining people solely on ICE requests exceeded their authority.
 
-<p><svg viewBox="0 0 24 24" width="16" height="16" class="media-icon"><use href="#icon-camera"/></svg> <strong>Camera</strong> — Incident has video or photo evidence in the media gallery.</p>
+DHS has also cited [hostile crowds creating unsafe conditions](/entry/2026-01-21-dhs-response-crowd-control) — including incidents where agents were followed to gas stations, had food thrown at them, and in one instance an agent was spit on. The administration argues that such confrontations create tense environments where split-second decisions must be made, and that verbal harassment (yelling, whistles, crowds surrounding vehicles) contributes to dangerous situations for both officers and the public.
 
-<p><svg viewBox="0 0 24 24" width="16" height="16" class="viewed-icon"><use href="#icon-eye"/></svg> <strong>Eye</strong> — You've viewed this incident. Viewed incidents are greyed out. <a href="#clear-viewed">Clear history</a>.</p>
+**Context:** Legal observers and civil liberties organizations maintain that filming and verbal protest are constitutionally protected activities, that observers have a right to document enforcement actions, and that the presence of witnesses serves a public accountability function. Courts have issued injunctions limiting the use of force against peaceful observers. The question of what constitutes "obstruction" versus protected observation remains contested in multiple pending cases.
 
-</div>
+<h2 id="the-data">Arrest Data <a href="#the-data" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
+
+Independent analyses present different figures.
+
+According to [Fortune](https://fortune.com/2025/07/12/ice-raids-trump-immigration-crackdown-deportation-no-criminal-convictions/), **72% of ICE detainees have no criminal convictions**. The Cato Institute found that **5% of those booked into ICE detention had violent criminal convictions**, while **73% had no convictions at all**.
+
+DHS created a "Worst of the Worst" database at WOW.DHS.GOV. According to [Common Dreams](https://www.commondreams.org/news/dhs-worst-of-worst-database), this database contains **9,738 people** out of more than **220,000 ICE arrests** — approximately **4%**.
+
+Aaron Reichlin-Melnick of the American Immigration Council noted: "DHS is implicitly admitting that less than 5% of the people it arrests are people they believe are 'the worst of the worst.'"
+
+**Regarding U.S. citizens:** Secretary Noem stated on October 30, 2025: "No American citizens have been arrested or detained." [PolitiFact rated this claim "Pants on Fire"](https://www.politifact.com/factchecks/2025/oct/31/kristi-noem/immigration-ICE-arrest-US-citizen-Chicago/). [NPR](https://www.npr.org/2025/11/05/nx-s1-5598373/npr-fact-checks-kristi-noem-on-ice-detaining-us-citizens) and [Poynter](https://www.poynter.org/fact-checking/2025/has-ice-arrested-american-citizens/) also disputed the claim. ProPublica documented over 170 cases of U.S. citizens detained by immigration agents. [See full details](#2025-10-30-noem-no-citizens-arrested-claim).
 
 <h2 id="purpose">Purpose <a href="#purpose" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 

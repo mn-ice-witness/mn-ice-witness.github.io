@@ -16,6 +16,7 @@
 
 
 
+
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -82,3 +83,4 @@ nadya-moldovan-refugee
 east-side-thai-gun-drawn
 teenager-tackled-snow
 amundson-zemien-seizure-first-responders
+vance-response-5-year-old-detention
