@@ -29,7 +29,7 @@ Add a section (possibly on the About page) collecting remarkable social media po
 
 ### Willmar Student Arrest (Suban Noor)
 
-A Minnesota high school student was grabbed by ICE agents while picking up food for her family after work. She was dragged from her car and put into the back of an unmarked vehicle—in a small town, in the middle of winter.
+A Minnesota high school student was detained by ICE agents while picking up food for her family after work. She was removed from her car and put into an unmarked vehicle—in a small town, in the middle of winter.
 
 She had legal refugee status.
 

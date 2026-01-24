@@ -31,7 +31,7 @@ The purpose is twofold:
 
 2. Maintain a comprehensive, running list of all sourced incidents.
 
-The site focuses on incidents that challenge the narrative that this is simply about deporting criminals.
+The site documents all sourced incidents, including those involving U.S. citizens, legal residents, and non-criminal community members.
 
 I'm trying to reach people who aren't following this closely or who may lean conservative but could have their minds opened to what's actually happening here.
 
