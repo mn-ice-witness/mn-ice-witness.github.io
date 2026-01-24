@@ -16,6 +16,7 @@ last_updated: 2026-01-23T17:00:00
 
 ## Updates
 - **Jan 23** - FBI agent Tracee Mergen, a supervisor in the Minneapolis field office, [resigned](https://www.nytimes.com/2026/01/23/us/fbi-agent-ice-shooting-renee-good.html) after bureau leadership in Washington pressured her to discontinue a civil rights inquiry into Jonathan Ross.
+- **Jan 22** - [Hennepin County Medical Examiner](https://www.fox9.com/news/minneapolis-ice-shooting-renee-goods-death-homicide-hennepin-medical-examiner-jan-23) officially ruled death a homicide, cause "multiple gunshot wounds" from being "shot by a law enforcement officer."
 - **Jan 22** - [Autopsy commissioned by family](https://www.nbcnews.com/news/us-news/renee-good-was-shot-head-autopsy-commissioned-family-finds-rcna255335) found cause of death was multiple gunshot wounds.
 - **Jan 21** - [Independent autopsy](https://www.startribune.com/law-firm-independent-autopsy/601568258) released by family attorneys (Romanucci & Blandin) reveals three gunshot wounds: left forearm, right breast (both non-life-threatening), and fatal head wound with entrance near left temple and exit on right side.
 
@@ -58,6 +59,8 @@ Renee Nicole Good, a 37-year-old U.S. citizen, was fatally shot by ICE agent Jon
 33. Washington Post (Jan 22, 2026): [Partial results of private autopsy on Renee Good released](https://www.washingtonpost.com/nation/2026/01/22/renee-good-shooting-autopsy-ice-minneapolis/)
 34. Common Dreams (Jan 22, 2026): [Independent Autopsy Provides 'Strong Evidence' Against ICE Agent Who Killed Renee Good](https://www.commondreams.org/news/renee-good)
 35. New York Times (Jan 23, 2026): [F.B.I. Agent Who Tried to Investigate ICE Officer in Shooting Resigns](https://www.nytimes.com/2026/01/23/us/fbi-agent-ice-shooting-renee-good.html)
+36. FOX 9 (Jan 22, 2026): [Hennepin County Medical Examiner rules Renee Good's death a homicide](https://www.fox9.com/news/minneapolis-ice-shooting-renee-goods-death-homicide-hennepin-medical-examiner-jan-23)
+37. Star Tribune (Jan 22, 2026): [County medical examiner classifies Renee Good's death as homicide](https://www.startribune.com/hennepin-county-medical-examiner-renee-good-death-homicide/601568759)
 
 ## Affected Individual(s)
 - **Name:** Renee Nicole Good

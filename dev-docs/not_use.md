@@ -325,6 +325,27 @@ Stories are excluded when they don't meet the project's core focus:
 - Reason: Insufficient details - single source (Somali media outlet), no affected individual identification, no mainstream news coverage with additional details.
 - Date evaluated: 2026-01-21
 
+**MSP Airport Clergy Protest Arrests (Jan 23)**
+- Sources: [CBS Minnesota](https://www.cbsnews.com/minnesota/news/clergy-members-arrested-minneapolis-st-paul-international-airport/), [FOX 9](https://www.fox9.com/news/ice-out-protests-mn-jan-23-2026), [KARE 11](https://www.kare11.com/article/news/local/ice-in-minnesota/law-enforcement-load-protesters-into-school-buses-at-msp/89-b100a221-ff5d-4636-905b-d4830d4d34ea), [MPR News](https://www.mprnews.org/story/2026/01/23/clergy-and-protesters-gather-at-msp-airport-to-demonstrate-against-ice)
+- Date: January 23, 2026
+- Details: Approximately 100 clergy and protesters were arrested outside Minneapolis-St. Paul International Airport during a protest against ICE deportation flights. Protesters issued misdemeanor citations for trespassing and failure to comply with a peace officer after exceeding permit limits. All released same day.
+- Reason: Protest arrests by airport police, not ICE enforcement incident. Protesters charged with trespassing/permit violations, not targeted for observing ICE or civil rights work.
+- Date evaluated: 2026-01-23
+
+**School Parking Lot ICE Presence (Jan 23)**
+- Sources: [FOX 9](https://www.fox9.com/news/ice-minnesota-updates-jan-23-2026), [Star Tribune](https://www.startribune.com/preschooler-and-three-other-students-detained-by-ice-school-district-leader-says/601568045)
+- Date: January 23, 2026
+- Details: School district reported ICE agents were found in a school parking lot at about 10:30 a.m. School was closed due to extreme cold; no students present. Per district protocol, administration approached the vehicle, verified ICE presence, and asked agents to leave. Vehicle left without incident.
+- Reason: No incident occurred - ICE agents left when asked. No detention, arrest, or civil rights violation. Successfully prevented encounter.
+- Date evaluated: 2026-01-23
+
+**Whipple Building Dispersal and Tear Gas (Jan 23)**
+- Sources: [KARE 11](https://www.kare11.com/article/news/local/ice-in-minnesota/dispersal-orders-issued-at-whipple-federal-building/89-43ac6654-939d-4b73-b333-535f89b63d61), [MPR News](https://www.mprnews.org/story/2026/01/23/antiice-protests-outside-whipple-federal-building-brings-arrests), [Fox News](https://www.foxnews.com/us/federal-agents-deploy-tear-gas-rubber-bullets-protesters-outside-minneapolis-federal-building)
+- Date: January 23, 2026
+- Details: Dispersal orders issued at Whipple Federal Building during "ICE Out" protests. Hennepin County Sheriff's Office reported ice chunks thrown at vehicles and windows broken. State Patrol confirmed objects thrown. Agents entered crowd, arrested one person, deployed tear gas as they departed.
+- Reason: Protest coverage - documents protest response but no specific civil rights incident. Individual arrested for throwing objects, not for observing/documenting ICE. Broader protest-related tear gas use, not targeting specific individual.
+- Date evaluated: 2026-01-23
+
 **Ridgedale Service Center Courthouse Arrests (Dec 29, 2025)**
 - Sources: [KARE 11](https://www.kare11.com/article/news/local/ice-announces-names-of-people-arrested-outside-courtrooms-at-ridgedale-service-center/89-9440cf5d-da4f-490e-ab26-7404bea3b320), [BMTN](https://bringmethenews.com/minnesota-news/2-arrested-during-ice-operation-at-hennepin-county-building-in-minnetonka), [Snopes](https://www.snopes.com/news/2025/12/30/ice-arrest-minnesota-video/)
 - Date: December 29, 2025
