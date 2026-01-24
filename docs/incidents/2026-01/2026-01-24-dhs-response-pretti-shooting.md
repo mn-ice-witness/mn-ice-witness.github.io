@@ -15,10 +15,10 @@ last_updated: 2026-01-24T16:54:42
 # DHS Response: Pretti "Violently Resisted"
 
 ## Updates
-- **Jan 24** - Video from multiple angles appears to directly contradict administration claims. Footage shows Pretti was holding a phone, not a weapon, and that an agent removed his holstered gun before the shooting.
+- **Jan 24** - Video from multiple angles shows Pretti was holding a phone, not a weapon, and that an agent removed his holstered gun before the shooting.
 
 ## Summary
-Following the fatal shooting of Alex Pretti by federal agents, DHS Secretary Kristi Noem, White House advisor Stephen Miller, and other administration officials have consistently claimed Pretti approached officers with a handgun and "violently resisted" attempts to disarm him. However, video evidence from multiple angles appears to directly dispute this account, showing Pretti was holding a phone and that his gun was removed from its holster by an agent before he was shot. At a press conference, Border Patrol Commander Greg Bovino defended the shooting, claiming the officer fired "defensive shots" and that federal law enforcement had been "under attack" in Minneapolis. Bovino described the officer as "highly trained" with eight years of experience. Critics point out that video evidence shows multiple agents had Pretti on the ground when he was shot, and local officials have disputed the federal narrative.
+Following the fatal shooting of Alex Pretti by federal agents, DHS Secretary Kristi Noem, White House advisor Stephen Miller, and other administration officials have consistently claimed Pretti approached officers with a handgun and "violently resisted" attempts to disarm him. Video from multiple angles shows Pretti was holding a phone, not a weapon, and that his gun was removed from its holster by an agent before he was shot. At a press conference, Border Patrol Commander Greg Bovino defended the shooting, claiming the officer fired "defensive shots" and that federal law enforcement had been "under attack" in Minneapolis. Bovino described the officer as "highly trained" with eight years of experience. Video shows multiple agents had Pretti on the ground when he was shot.
 
 ## Sources
 1. FOX 9 (Jan 24, 2026): [Border Patrol fatally shoots man](https://www.fox9.com/news/ice-mn-third-federal-agents-shooting-minneapolis)
@@ -70,4 +70,4 @@ Bovino declined to identify the officer involved and refused to answer a WCCO qu
 - Hennepin County Attorney Mary Moriarty and Attorney General Keith Ellison have announced a joint state investigation
 
 ## Editorial Assessment
-**HIGH** - Official DHS statements well-documented. Video evidence from multiple angles directly contradicts administration claims that Pretti approached with a weapon; footage shows he was holding a phone and his gun was removed by an agent before the shooting. The circumstances remain under investigation by both federal and state authorities.
+**HIGH** - Official DHS statements well-documented. Video from multiple angles shows Pretti was holding a phone, not a weapon, and that his gun was removed by an agent before the shooting. The circumstances remain under investigation by both federal and state authorities.
