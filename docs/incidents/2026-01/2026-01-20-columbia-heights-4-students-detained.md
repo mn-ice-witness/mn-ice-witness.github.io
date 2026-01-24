@@ -31,8 +31,9 @@ Four students from Columbia Heights Public School District have been detained by
 
 ## Related Incidents
 
-- [DHS Response: "Child Was ABANDONED," Father "Fled on Foot"](/entry/2026-01-21-dhs-response-5-year-old-bait)
-- [Vice President Vance Defends 5-Year-Old's Detention: "What Are They Supposed to Do?"](/entry/2026-01-23-vance-response-5-year-old-detention)
+- [DHS Response: "Child Was ABANDONED," Father "Fled on Foot"](#2026-01-21-dhs-response-5-year-old-bait)
+- [Bovino: "We Are Experts in Dealing With Children"](#2026-01-23-bovino-experts-dealing-children)
+- [Vice President Vance Defends 5-Year-Old's Detention: "What Are They Supposed to Do?"](#2026-01-23-vance-response-5-year-old-detention)
 
 ## Affected Individual(s)
 

@@ -32,8 +32,9 @@ Vice President JD Vance visited Minneapolis on January 23, 2026, and addressed t
 
 ## Related Incidents
 
-- [Four Columbia Heights Students Detained by ICE, Including 5-Year-Old Sent to Texas](/entry/2026-01-20-columbia-heights-4-students-detained)
-- [DHS Response: "Child Was ABANDONED," Father "Fled on Foot"](/entry/2026-01-21-dhs-response-5-year-old-bait)
+- [Four Columbia Heights Students Detained by ICE, Including 5-Year-Old Sent to Texas](#2026-01-20-columbia-heights-4-students-detained)
+- [Bovino: "We Are Experts in Dealing With Children"](#2026-01-23-bovino-experts-dealing-children)
+- [DHS Response: "Child Was ABANDONED," Father "Fled on Foot"](#2026-01-21-dhs-response-5-year-old-bait)
 
 ## Vice President Vance's Statements
 

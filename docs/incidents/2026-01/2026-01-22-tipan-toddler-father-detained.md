@@ -73,6 +73,11 @@ DHS also stated that "the child and father are now reunited at a federal facilit
 ### Minneapolis City Council
 Council member Jason Chavez reported the detention and organized a GoFundMe campaign to support the family with legal fees, bond requests, rent, and other necessities. The campaign raised over $58,000 from more than 1,600 donors.
 
+## Related Incidents
+
+- [Four Columbia Heights Students Detained by ICE, Including 5-Year-Old Sent to Texas](#2026-01-20-columbia-heights-4-students-detained)
+- [Bovino: "We Are Experts in Dealing With Children"](#2026-01-23-bovino-experts-dealing-children)
+
 ## Context
 This detention occurred during ICE's Operation Metro Surge in the Twin Cities. It came one day after the high-profile detention of 5-year-old Liam Conejo Ramos and his father at school pickup in Columbia Heights, making it the second case of a young child detained within 48 hours.
 
