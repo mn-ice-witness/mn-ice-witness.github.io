@@ -23,11 +23,12 @@ Vice President JD Vance visited Minneapolis on January 23, 2026, and addressed t
 1. NBC News Video (Jan 23, 2026): [Vance reacts to ICE detainment of 5-year-old boy in Minneapolis](https://www.nbcnews.com/now/video/vance-reacts-to-ice-detainment-of-5-year-old-boy-in-minneapolis-256411717612)
 2. ABC News Video (Jan 23, 2026): [Vance responds after image shows 5-year-old detained by ICE](https://abcnews.go.com/GMA/News/video/vance-responds-after-image-shows-5-year-detained-129484344)
 3. CBS Minnesota (Jan 23, 2026): [Vice President JD Vance says "failure of cooperation" by local, state authorities to blame for chaos](https://www.cbsnews.com/minnesota/news/jd-vance-minneapolis-visit-ice-operation/)
-4. The New Republic (Jan 23, 2026): [Vance responds to 5-year-old detention](https://newrepublic.com/article/205616/jd-vance-minneapolis-ice-5-year-old)
-5. Raw Story (Jan 23, 2026): [CNN host disputes Vance claim about 5-year-old detention](https://www.rawstory.com/ice-agents-detain-boy-freeze/)
-6. KARE 11 (Jan 23, 2026): [Lawyer disputes Vance claims about 5-year-old arrest by ICE, 'inhumane and unacceptable'](https://www.kare11.com/article/news/local/ice-in-minnesota/lawyer-vance-5-year-old-arrest-ice-columbia-heights/89-f5f5b915-c6d5-4512-a846-364b98b465cf)
-7. FOX 9 (Jan 23, 2026): [5-year-old detained by ICE in Columbia Heights: Family came into US the 'right' way](https://www.fox9.com/news/columbia-heights-child-ice-detained)
-8. CBC News (Jan 23, 2026): [Minnesota officials, Trump administration offer very different takes on ICE's detainment of boy, 5](https://www.cbc.ca/news/world/ice-arrest-minnesota-preschooler-breakdown-9.7057414)
+4. Star Tribune (Jan 23, 2026): [Witnesses dispute DHS claim that 5-year-old was 'abandoned' prior to ICE detainment](https://www.startribune.com/witnesses-dispute-dhs-claim-that-5-year-old-was-abandoned-prior-to-ice-detainment/601569307)
+5. The New Republic (Jan 23, 2026): [Vance responds to 5-year-old detention](https://newrepublic.com/article/205616/jd-vance-minneapolis-ice-5-year-old)
+6. Raw Story (Jan 23, 2026): [CNN host disputes Vance claim about 5-year-old detention](https://www.rawstory.com/ice-agents-detain-boy-freeze/)
+7. KARE 11 (Jan 23, 2026): [Lawyer disputes Vance claims about 5-year-old arrest by ICE, 'inhumane and unacceptable'](https://www.kare11.com/article/news/local/ice-in-minnesota/lawyer-vance-5-year-old-arrest-ice-columbia-heights/89-f5f5b915-c6d5-4512-a846-364b98b465cf)
+8. FOX 9 (Jan 23, 2026): [5-year-old detained by ICE in Columbia Heights: Family came into US the 'right' way](https://www.fox9.com/news/columbia-heights-child-ice-detained)
+9. CBC News (Jan 23, 2026): [Minnesota officials, Trump administration offer very different takes on ICE's detainment of boy, 5](https://www.cbc.ca/news/world/ice-arrest-minnesota-preschooler-breakdown-9.7057414)
 
 ## Related Incidents
 
