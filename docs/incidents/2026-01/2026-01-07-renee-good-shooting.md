@@ -9,12 +9,13 @@ affected_individual_citizenship: us-citizen
 injuries: fatal
 trustworthiness: high
 created: 2026-01-14T08:01:12
-last_updated: 2026-01-23T12:56:40
+last_updated: 2026-01-23T17:00:00
 ---
 
 # Renee Nicole Good Shot and Killed by ICE Agent
 
 ## Updates
+- **Jan 23** - FBI agent Tracee Mergen, a supervisor in the Minneapolis field office, [resigned](https://www.nytimes.com/2026/01/23/us/fbi-agent-ice-shooting-renee-good.html) after bureau leadership in Washington pressured her to discontinue a civil rights inquiry into Jonathan Ross.
 - **Jan 22** - [Autopsy commissioned by family](https://www.nbcnews.com/news/us-news/renee-good-was-shot-head-autopsy-commissioned-family-finds-rcna255335) found cause of death was multiple gunshot wounds.
 - **Jan 21** - [Independent autopsy](https://www.startribune.com/law-firm-independent-autopsy/601568258) released by family attorneys (Romanucci & Blandin) reveals three gunshot wounds: left forearm, right breast (both non-life-threatening), and fatal head wound with entrance near left temple and exit on right side.
 
@@ -56,6 +57,7 @@ Renee Nicole Good, a 37-year-old U.S. citizen, was fatally shot by ICE agent Jon
 32. NBC News (Jan 22, 2026): [Renee Good was shot in the head, autopsy commissioned by her family finds](https://www.nbcnews.com/news/us-news/renee-good-was-shot-head-autopsy-commissioned-family-finds-rcna255335)
 33. Washington Post (Jan 22, 2026): [Partial results of private autopsy on Renee Good released](https://www.washingtonpost.com/nation/2026/01/22/renee-good-shooting-autopsy-ice-minneapolis/)
 34. Common Dreams (Jan 22, 2026): [Independent Autopsy Provides 'Strong Evidence' Against ICE Agent Who Killed Renee Good](https://www.commondreams.org/news/renee-good)
+35. New York Times (Jan 23, 2026): [F.B.I. Agent Who Tried to Investigate ICE Officer in Shooting Resigns](https://www.nytimes.com/2026/01/23/us/fbi-agent-ice-shooting-renee-good.html)
 
 ## Affected Individual(s)
 - **Name:** Renee Nicole Good
@@ -94,6 +96,7 @@ Witnesses reported Good had stopped in the middle of the street and motioned for
 ## Aftermath
 - Fundraiser reached $1.5 million for Good's family
 - Six federal prosecutors in Minnesota resigned January 13 over DOJ direction to investigate Becca Good rather than agent Ross
+- FBI supervisor Tracee Mergen resigned January 23 after FBI leadership pressured her to discontinue civil rights inquiry into agent Ross
 - State lawsuit filed against DHS, ICE, and CBP
 - 9th ICE shooting since September 2025
 - FBI investigation reportedly focusing on Becca Good (Renee's partner) rather than agent Ross

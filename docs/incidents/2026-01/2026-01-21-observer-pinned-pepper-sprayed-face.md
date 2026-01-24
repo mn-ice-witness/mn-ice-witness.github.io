@@ -9,7 +9,7 @@ affected_individual_citizenship: unknown
 injuries: unknown
 trustworthiness: high
 created: 2026-01-21T18:01:29
-last_updated: 2026-01-21T18:01:29
+last_updated: 2026-01-23T17:00:00
 ---
 
 # Observer Pinned to Ground, Chemical Irritant Sprayed Directly Into Face
@@ -23,6 +23,7 @@ Federal agents pinned an observer to the ground and sprayed a chemical irritant 
 1. Star Tribune Photo (Jan 21, 2026): [ICE raids Minnesota live updates](https://www.startribune.com/ice-raids-minnesota/601546426) - Photo by Richard Tsong-Taatarii
 2. Reddit (Jan 21, 2026): [r/FedEmployees post with photo](https://www.reddit.com/r/FedEmployees/comments/1qjdnhw/observer_being_arrested_and_pepper_sprayed_at/)
 3. Threads (Jan 21, 2026): [@msbellaf post](https://www.threads.com/@msbellaf/post/DTyf2oUFQ52)
+4. New York Times (Jan 23, 2026): [Minneapolis Man Pepper Sprayed While Pinned in Searing New Video](https://www.nytimes.com/2026/01/23/us/minneapolis-man-pepper-sprayed-pinned-video.html)
 
 ## Affected Individual(s)
 
