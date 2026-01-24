@@ -17,6 +17,7 @@ Use --force to reprocess all files regardless of timestamps.
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import subprocess
 import tempfile
@@ -152,9 +153,90 @@ def get_video_dimensions(path: Path) -> tuple[int, int]:
     return int(width), int(height)
 
 
-def concatenate_videos(input_paths: list[Path], output_path: Path) -> bool:
-    """Concatenate videos, using first video's dimensions as canvas, letterboxing others."""
-    print(f"  Concatenating {len(input_paths)} parts into: {output_path.name}")
+def measure_loudnorm(input_path: Path) -> dict | None:
+    """First pass of two-pass loudnorm: measure audio levels."""
+    cmd = [
+        "ffmpeg",
+        "-i",
+        str(input_path),
+        "-af",
+        "loudnorm=I=-16:TP=-1.5:LRA=11:print_format=json",
+        "-f",
+        "null",
+        "-",
+    ]
+
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        for line in result.stderr.split("\n"):
+            if line.strip().startswith("{"):
+                start = result.stderr.find("{", result.stderr.find(line))
+                end = result.stderr.find("}", start) + 1
+                json_str = result.stderr[start:end]
+                return json.loads(json_str)
+    except Exception:
+        pass
+    return None
+
+
+def preprocess_video_part(input_path: Path, output_path: Path) -> bool:
+    """Pre-process a video part: crop edges and normalize audio (two-pass loudnorm)."""
+    print(f"    Pre-processing: {input_path.name}")
+
+    measured = measure_loudnorm(input_path)
+    if measured:
+        loudnorm_filter = (
+            f"loudnorm=I=-16:TP=-1.5:LRA=11:"
+            f"measured_I={measured['input_i']}:"
+            f"measured_TP={measured['input_tp']}:"
+            f"measured_LRA={measured['input_lra']}:"
+            f"measured_thresh={measured['input_thresh']}:"
+            f"offset={measured['target_offset']}:"
+            f"linear=true"
+        )
+        print(f"      Measured loudness: {measured['input_i']} LUFS")
+    else:
+        loudnorm_filter = "loudnorm=I=-16:TP=-1.5:LRA=11"
+        print("      Using single-pass loudnorm (measurement failed)")
+
+    cmd = [
+        "ffmpeg",
+        "-y",
+        "-i",
+        str(input_path),
+        "-vf",
+        "crop=iw-16:ih-16:8:8,scale=-2:min(720\\,ih),fps=30",
+        "-af",
+        loudnorm_filter,
+        "-c:v",
+        "libx264",
+        "-crf",
+        "18",
+        "-preset",
+        "fast",
+        "-c:a",
+        "aac",
+        "-b:a",
+        "128k",
+        str(output_path),
+    ]
+
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        if result.returncode != 0:
+            print(f"      Error: {result.stderr[:200]}")
+            return False
+        return True
+    except FileNotFoundError:
+        print("      Error: ffmpeg not found. Install with: brew install ffmpeg")
+        return False
+
+
+def concatenate_preprocessed_videos(input_paths: list[Path], output_path: Path) -> bool:
+    """Concatenate pre-processed videos with shadow boxing to match canvas size."""
+    print(
+        f"  Concatenating {len(input_paths)} pre-processed parts into: {output_path.name}"
+    )
 
     dimensions = [get_video_dimensions(p) for p in input_paths]
     canvas_width, canvas_height = dimensions[0]
@@ -162,7 +244,7 @@ def concatenate_videos(input_paths: list[Path], output_path: Path) -> bool:
     canvas_height += canvas_height % 2
 
     for i, (path, (w, h)) in enumerate(zip(input_paths, dimensions)):
-        print(f"    Part {i + 1}: {path.name} ({w}x{h})")
+        print(f"    Part {i + 1}: ({w}x{h})")
     print(f"    Target canvas (from part 1): {canvas_width}x{canvas_height}")
 
     inputs = []
@@ -196,11 +278,15 @@ def concatenate_videos(input_paths: list[Path], output_path: Path) -> bool:
         "-c:v",
         "libx264",
         "-preset",
-        "fast",
+        "slow",
         "-crf",
-        "18",
+        "35",
         "-c:a",
         "aac",
+        "-b:a",
+        "128k",
+        "-movflags",
+        "+faststart",
         str(output_path),
     ]
 
@@ -419,7 +505,7 @@ def og_needs_processing(video_output_path: Path, og_path: Path) -> bool:
 def process_multipart_video(
     base_name: str, parts: list[Path], output_dir: Path, force: bool
 ) -> tuple[int, int, int]:
-    """Process a multi-part video: concatenate parts, then compress."""
+    """Process a multi-part video: preprocess each part (crop + loudnorm), then concatenate."""
     output_path = get_multipart_output_path(base_name, output_dir)
 
     if not force and not multipart_needs_processing(parts, output_path):
@@ -431,17 +517,32 @@ def process_multipart_video(
     for i, p in enumerate(parts, 1):
         print(f"    Part {i}: {p.name}")
 
-    with tempfile.NamedTemporaryFile(suffix=".mov", delete=False) as tmp:
-        concat_path = Path(tmp.name)
+    preprocessed_paths = []
+    try:
+        for i, part_path in enumerate(parts, 1):
+            tmp = tempfile.NamedTemporaryFile(suffix=".mp4", delete=False)
+            preprocessed_path = Path(tmp.name)
+            tmp.close()
 
-    if not concatenate_videos(parts, concat_path):
-        concat_path.unlink(missing_ok=True)
-        return (0, 0, 1)
+            if not preprocess_video_part(part_path, preprocessed_path):
+                for p in preprocessed_paths:
+                    p.unlink(missing_ok=True)
+                return (0, 0, 1)
+            preprocessed_paths.append(preprocessed_path)
 
-    success = process_video(concat_path, output_path)
-    concat_path.unlink(missing_ok=True)
+        success = concatenate_preprocessed_videos(preprocessed_paths, output_path)
+
+    finally:
+        for p in preprocessed_paths:
+            p.unlink(missing_ok=True)
 
     if success:
+        input_size = sum(p.stat().st_size for p in parts) / (1024 * 1024)
+        output_size = output_path.stat().st_size / (1024 * 1024)
+        ratio = (1 - output_size / input_size) * 100
+        print(
+            f"    Compressed: {input_size:.1f}MB -> {output_size:.1f}MB ({ratio:.0f}% reduction)"
+        )
         return (1, 0, 0)
     return (0, 0, 1)
 
