@@ -1,6 +1,7 @@
 # Media Gallery Order
 # List incident slugs in display order (one per line)
 
+
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -67,3 +68,5 @@ south-mpls-teenagers-detained
 sullivan-elementary-ice-food-flyers
 nadya-moldovan-refugee
 vance-response-5-year-old-detention
+alex-pretti-shooting
+jana-shortal-journalist-pepper-sprayed

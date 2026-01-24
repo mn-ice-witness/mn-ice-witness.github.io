@@ -1,0 +1,62 @@
+---
+date: 2026-01-24
+time: unknown
+location: DHS Official Statement
+city: Minneapolis
+type: response
+status: under-investigation
+affected_individual_citizenship: us-citizen
+injuries: fatal
+trustworthiness: high
+created: 2026-01-24T13:40:15
+last_updated: 2026-01-24T13:40:15
+---
+
+# DHS Response: Pretti "Violently Resisted"
+
+## Summary
+Following the fatal shooting of Alex Pretti by federal agents, DHS claimed Pretti approached officers with a handgun and "violently resisted" attempts to disarm him. DHS stated the agent fired "defensive shots" in self-defense. However, video evidence shows multiple agents had Pretti on the ground when he was shot, and local officials have disputed the federal narrative.
+
+## Sources
+1. FOX 9 (Jan 24, 2026): [Border Patrol fatally shoots man](https://www.fox9.com/news/ice-mn-third-federal-agents-shooting-minneapolis)
+2. Fox News (Jan 24, 2026): [Federal agents involved in Minneapolis shooting, DHS says suspect was armed](https://www.foxnews.com/us/border-patrol-involved-shooting-reported-minneapolis)
+3. NPR (Jan 24, 2026): [Man shot dead by federal immigration officers](https://www.npr.org/2026/01/24/nx-s1-5687276/man-shot-dead-minneapolis)
+4. The Blaze (Jan 24, 2026): [DHS: Armed suspect fatally shot, "violently resisted" disarming attempt](https://www.theblaze.com/news/dhs-armed-suspect-fatally-shot-by-federal-agent-in-minneapolis-suspect-violently-resisted-disarming-attempt)
+5. CBS Minnesota (Jan 24, 2026): [Federal agents fatally shoot another Minneapolis resident](https://www.cbsnews.com/minnesota/live-updates/reported-shooting-south-minneapolis-federal-agents-protesters/)
+
+## Related Incident
+See full incident details: [Alex Pretti Shot and Killed by Federal Agents](#2026-01-24-alex-pretti-shooting)
+
+## Official Statements
+
+### DHS Statement
+> "At 9:05 AM CT, as DHS law enforcement officers were conducting a targeted operation in Minneapolis against an illegal alien wanted for violent assault, an individual approached US Border Patrol officers with a 9 mm semi-automatic handgun."
+
+DHS stated Pretti "violently resisted" officers' attempts to disarm him.
+
+> "Fearing for his life and the lives and safety of fellow officers, an agent fired defensive shots."
+
+DHS claimed Pretti possessed two additional magazines and no identification. The agency provided a photograph of the alleged firearm, identified by CNN as a SIG Sauer Emperor Scorpion.
+
+### Border Patrol Commander Greg Bovino
+Characterized the shooting as officers firing "defensive shots."
+
+## Fact Check
+
+### Claim: Pretti "approached" officers with a handgun
+**Context:** Minneapolis Police Chief Brian O'Hara confirmed Pretti was a lawful gun owner with a valid permit to carry. He had no criminal history beyond traffic tickets.
+
+### Claim: Pretti "violently resisted" disarming
+**Video Evidence:** Witness video shows multiple agents (Mayor Frey described "more than six masked agents") wrestling Pretti to the ground before shots were fired. Critics note Pretti appeared to be subdued when he was fatally shot.
+
+### Claim: Agent fired "defensive shots"
+**Local Response:** Mayor Jacob Frey stated he saw "a video of more than six masked agents pummeling one of our constituents and shooting him to death." Governor Tim Walz called the shooting "sickening."
+
+## Context
+- This is the third shooting by federal agents in Minnesota in three weeks
+- Pretti was a U.S. citizen, licensed nurse, and University of Minnesota graduate
+- The FBI has blocked the Minnesota Bureau of Criminal Apprehension from the investigation
+- Hennepin County Attorney Mary Moriarty and Attorney General Keith Ellison have announced a joint state investigation
+
+## Editorial Assessment
+**HIGH** - Official DHS statements well-documented. Video evidence and statements from local officials present a conflicting account of events. The circumstances remain under investigation by both federal and state authorities.
