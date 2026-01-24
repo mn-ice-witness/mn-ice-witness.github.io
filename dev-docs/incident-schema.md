@@ -192,6 +192,8 @@ All sources numbered. Best/most compelling source first (original reporting, key
 - **Background:** Brief relevant context
 
 ## Timeline
+**Keep timelines concise.** Capture only major moments, not every step. A timeline should highlight 3-7 key events, not provide a minute-by-minute narrative. Include: arrival/start, pivotal actions (arrests, use of force, key confrontations), and resolution/departure.
+
 - **HH:MM** - Event 1
 - **HH:MM** - Event 2
 - **Later** - Event 3
