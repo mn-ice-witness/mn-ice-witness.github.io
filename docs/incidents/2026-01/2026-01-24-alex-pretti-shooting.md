@@ -33,6 +33,7 @@ Federal agents fatally shot Alex Jeffrey Pretti, a 37-year-old U.S. citizen, lic
 10. CNN (Jan 24, 2026): [Live updates: Man shot and killed by federal agents](https://www.cnn.com/us/live-news/ice-minneapolis-shooting-01-24-26)
 11. Al Jazeera (Jan 24, 2026): [US federal agents shoot and kill another person in Minneapolis](https://www.aljazeera.com/news/2026/1/24/us-federal-agents-shoot-another-person-in-minneapolis-governor)
 12. Bluesky (Jan 24, 2026): [Bellingcat analysis of video](https://bsky.app/profile/bellingcat.com/post/3md6vleoxks2t)
+13. Bluesky (Jan 24, 2026): [Bellingcat video analysis](https://bsky.app/profile/bellingcat.com/post/3md733zyf722w)
 
 ## Affected Individual(s)
 - **Name:** Alex Jeffrey Pretti
