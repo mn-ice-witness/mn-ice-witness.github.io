@@ -18,20 +18,21 @@ last_updated: 2026-01-24T13:40:15
 ***Note: Responsibility for this incident has not been determined. DHS claims the man approached agents with a firearm and "violently resisted" disarming. However, critics and local officials note that video shows multiple agents had the man on the ground when he was fatally shot. Several unverified online analyses (including one by [Bellingcat](https://bsky.app/profile/bellingcat.com/post/3md6vleoxks2t), sourced below) claim that Pretti was disarmed before being shot. Hennepin County Attorney Mary Moriarty and Minnesota Attorney General Keith Ellison have announced a joint state investigation and are asking residents to [submit evidence](https://www.kare11.com/article/news/local/ice-in-minnesota/mn-attorney-general-hennepin-county-attorney-ask-residents-to-submit-evidence-in-ice-shooting-investigation/89-9dda09e8-f299-4f3a-bc5f-a938dba30fb1). The FBI has cut the Minnesota Bureau of Criminal Apprehension off from the federal investigation.***
 
 ## Summary
-Federal agents fatally shot Alex Jeffrey Pretti, a 37-year-old U.S. citizen, licensed nurse, and lawful gun owner, in south Minneapolis. This is the third fatal shooting involving federal agents in Minnesota in three weeks, following the killing of Renee Good and the shooting of a Venezuelan man. Video shows multiple agents wrestling Pretti to the ground before shooting him multiple times.
+Federal agents fatally shot Alex Jeffrey Pretti, a 37-year-old U.S. citizen, licensed nurse, and lawful gun owner, in south Minneapolis. This is the second fatal shooting involving federal agents in Minnesota in three weeks, following the killing of Renee Good. Video shows multiple agents wrestling Pretti to the ground before shooting him multiple times.
 
 ## Sources
 1. Bluesky Video (Jan 24, 2026): [@alexip718.com pink coat witness video](https://bsky.app/profile/alexip718.com/post/3md6uyjftvc2f)
-2. Star Tribune (Jan 24, 2026): [Man fatally shot by federal agents in south Minneapolis](https://www.startribune.com/man-fatally-shot-by-federal-agents-in-south-minneapolis/601570050)
-3. FOX 9 (Jan 24, 2026): [Border Patrol fatally shoots man](https://www.fox9.com/news/ice-mn-third-federal-agents-shooting-minneapolis)
-4. Sahan Journal (Jan 24, 2026): [Federal agents shoot, kill Minneapolis man](https://sahanjournal.com/immigration/ice-shooting-nicollet-avenue-minneapolis/)
-5. CBS Minnesota (Jan 24, 2026): [Federal agents fatally shoot another Minneapolis resident](https://www.cbsnews.com/minnesota/live-updates/reported-shooting-south-minneapolis-federal-agents-protesters/)
-6. NPR (Jan 24, 2026): [Man shot dead by federal immigration officers](https://www.npr.org/2026/01/24/nx-s1-5687276/man-shot-dead-minneapolis)
-7. NBC News (Jan 24, 2026): [Federal agents shoot and kill person in Minnesota](https://www.nbcnews.com/news/us-news/minneapolis-investigating-ice-shooting-rcna255733)
-8. KARE 11 (Jan 24, 2026): [AG, County Attorney ask residents to submit evidence](https://www.kare11.com/article/news/local/ice-in-minnesota/mn-attorney-general-hennepin-county-attorney-ask-residents-to-submit-evidence-in-ice-shooting-investigation/89-9dda09e8-f299-4f3a-bc5f-a938dba30fb1)
-9. CNN (Jan 24, 2026): [Live updates: Man shot and killed by federal agents](https://www.cnn.com/us/live-news/ice-minneapolis-shooting-01-24-26)
-10. Al Jazeera (Jan 24, 2026): [US federal agents shoot and kill another person in Minneapolis](https://www.aljazeera.com/news/2026/1/24/us-federal-agents-shoot-another-person-in-minneapolis-governor)
-11. Bluesky (Jan 24, 2026): [Bellingcat analysis of video](https://bsky.app/profile/bellingcat.com/post/3md6vleoxks2t)
+2. Bluesky Video (Jan 24, 2026): [@helioscrivener pink coat witness video](https://bsky.app/profile/helioscrivener.bsky.social/post/3md6vjqm5oc2y)
+3. Star Tribune (Jan 24, 2026): [Man fatally shot by federal agents in south Minneapolis](https://www.startribune.com/man-fatally-shot-by-federal-agents-in-south-minneapolis/601570050)
+4. FOX 9 (Jan 24, 2026): [Border Patrol fatally shoots man](https://www.fox9.com/news/ice-mn-third-federal-agents-shooting-minneapolis)
+5. Sahan Journal (Jan 24, 2026): [Federal agents shoot, kill Minneapolis man](https://sahanjournal.com/immigration/ice-shooting-nicollet-avenue-minneapolis/)
+6. CBS Minnesota (Jan 24, 2026): [Federal agents fatally shoot another Minneapolis resident](https://www.cbsnews.com/minnesota/live-updates/reported-shooting-south-minneapolis-federal-agents-protesters/)
+7. NPR (Jan 24, 2026): [Man shot dead by federal immigration officers](https://www.npr.org/2026/01/24/nx-s1-5687276/man-shot-dead-minneapolis)
+8. NBC News (Jan 24, 2026): [Federal agents shoot and kill person in Minnesota](https://www.nbcnews.com/news/us-news/minneapolis-investigating-ice-shooting-rcna255733)
+9. KARE 11 (Jan 24, 2026): [AG, County Attorney ask residents to submit evidence](https://www.kare11.com/article/news/local/ice-in-minnesota/mn-attorney-general-hennepin-county-attorney-ask-residents-to-submit-evidence-in-ice-shooting-investigation/89-9dda09e8-f299-4f3a-bc5f-a938dba30fb1)
+10. CNN (Jan 24, 2026): [Live updates: Man shot and killed by federal agents](https://www.cnn.com/us/live-news/ice-minneapolis-shooting-01-24-26)
+11. Al Jazeera (Jan 24, 2026): [US federal agents shoot and kill another person in Minneapolis](https://www.aljazeera.com/news/2026/1/24/us-federal-agents-shoot-another-person-in-minneapolis-governor)
+12. Bluesky (Jan 24, 2026): [Bellingcat analysis of video](https://bsky.app/profile/bellingcat.com/post/3md6vleoxks2t)
 
 ## Affected Individual(s)
 - **Name:** Alex Jeffrey Pretti
