@@ -257,6 +257,9 @@ def main():
 
     incidents = []
     for md_file in incidents_dir.rglob("*.md"):
+        # Skip files starting with underscore (commented out/draft incidents)
+        if md_file.name.startswith("_"):
+            continue
         incident = process_incident(md_file, docs_dir, media_dir)
         incidents.append(incident)
 

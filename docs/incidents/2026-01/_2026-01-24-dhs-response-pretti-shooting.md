@@ -15,7 +15,7 @@ last_updated: 2026-01-24T13:40:15
 # DHS Response: Pretti "Violently Resisted"
 
 ## Summary
-Following the fatal shooting of Alex Pretti by federal agents, DHS claimed Pretti approached officers with a handgun and "violently resisted" attempts to disarm him. DHS stated the agent fired "defensive shots" in self-defense. However, video evidence shows multiple agents had Pretti on the ground when he was shot, and local officials have disputed the federal narrative.
+Following the fatal shooting of Alex Pretti by federal agents, DHS claimed Pretti approached officers with a handgun and "violently resisted" attempts to disarm him. At a press conference, Border Patrol Commander Greg Bovino defended the shooting, claiming the officer fired "defensive shots" and that federal law enforcement had been "under attack" in Minneapolis. Bovino described the officer as "highly trained" with eight years of experience. Critics point out that video evidence shows multiple agents had Pretti on the ground when he was shot, and local officials have disputed the federal narrative.
 
 ## Sources
 1. FOX 9 (Jan 24, 2026): [Border Patrol fatally shoots man](https://www.fox9.com/news/ice-mn-third-federal-agents-shooting-minneapolis)
@@ -39,7 +39,15 @@ DHS stated Pretti "violently resisted" officers' attempts to disarm him.
 DHS claimed Pretti possessed two additional magazines and no identification. The agency provided a photograph of the alleged firearm, identified by CNN as a SIG Sauer Emperor Scorpion.
 
 ### Border Patrol Commander Greg Bovino
-Characterized the shooting as officers firing "defensive shots."
+At an afternoon press conference, Bovino stated:
+- DHS officers were conducting a "targeted operation" seeking a man with a criminal history including domestic assault, disorderly conduct, and driving without a valid license
+- The officer who shot Pretti was "highly trained and had been serving as a Border Patrol agent for eight years" with "extensive training as a range safety officer and less lethal officer"
+- Federal law enforcement has been "under attack" in Minneapolis
+- Officers fired "defensive shots" at Pretti, who was armed
+- The "situation is evolving and more information is forthcoming"
+- Federal agents "need state and local law enforcement to help us coordinate to get violent criminals off the street"
+
+Bovino declined to identify the officer involved and refused to answer a WCCO question about video evidence that contradicts the DHS narrative. He did not state whether Pretti pulled a gun or where the gun was when he was shot.
 
 ## Fact Check
 
