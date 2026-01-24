@@ -10,7 +10,7 @@ injuries: fatal
 trustworthiness: high
 media: 2026-01-24-alex-pretti-shooting.mp4
 created: 2026-01-24T13:40:15
-last_updated: 2026-01-24T16:44:03
+last_updated: 2026-01-24T16:54:42
 ---
 
 # Alex Pretti Shot and Killed by Federal Agents
@@ -18,7 +18,7 @@ last_updated: 2026-01-24T16:44:03
 ## Updates
 - **Jan 24** - [New video evidence](https://bsky.app/profile/joshuaeakle.com/post/3md76ihzrg22y) appears to show Pretti was holding a phone, not a weapon, and that an agent removed his gun before the shooting.
 
-***Note: Responsibility for this incident has not been determined. DHS claims the man approached agents with a firearm and "violently resisted" disarming. However, critics and local officials note that video shows multiple agents had the man on the ground when he was fatally shot. Several unverified online analyses (including one by [Bellingcat](https://bsky.app/profile/bellingcat.com/post/3md6vleoxks2t), sourced below) claim that Pretti was disarmed before being shot; posts on Bluesky and X appear to corroborate this analysis. Hennepin County Attorney Mary Moriarty and Minnesota Attorney General Keith Ellison have announced a joint state investigation and are asking residents to [submit evidence](https://www.kare11.com/article/news/local/ice-in-minnesota/mn-attorney-general-hennepin-county-attorney-ask-residents-to-submit-evidence-in-ice-shooting-investigation/89-9dda09e8-f299-4f3a-bc5f-a938dba30fb1). The FBI has cut the Minnesota Bureau of Criminal Apprehension off from the federal investigation.***
+***Note: DHS Secretary Kristi Noem, White House advisor Stephen Miller, and other administration officials have consistently claimed Pretti approached agents with a firearm and "violently resisted" disarming. However, video from multiple angles directly disputes this account: footage shows Pretti was holding a phone, not a weapon, and that an agent removed his holstered gun before the shooting. Analysis by [Bellingcat](https://bsky.app/profile/bellingcat.com/post/3md6vleoxks2t) and independent posts on Bluesky and X corroborate this. Hennepin County Attorney Mary Moriarty and Minnesota Attorney General Keith Ellison have announced a joint state investigation and are asking residents to [submit evidence](https://www.kare11.com/article/news/local/ice-in-minnesota/mn-attorney-general-hennepin-county-attorney-ask-residents-to-submit-evidence-in-ice-shooting-investigation/89-9dda09e8-f299-4f3a-bc5f-a938dba30fb1). The FBI has cut the Minnesota Bureau of Criminal Apprehension off from the federal investigation.***
 
 ## Summary
 Federal agents fatally shot Alex Jeffrey Pretti, a 37-year-old U.S. citizen, licensed nurse, and lawful gun owner, in south Minneapolis. This is the second fatal shooting involving federal agents in Minnesota in three weeks, following the killing of Renee Good. Video shows multiple agents wrestling Pretti to the ground before shooting him multiple times.
@@ -63,7 +63,7 @@ Video recorded by a woman in a pink coat (shared by Dropsite News) shows the mom
 ## Official Accounts
 
 ### DHS Statement
-DHS claims Pretti "approached US Border Patrol officers with a 9 mm semi-automatic handgun" and "violently resisted" officers' attempts to disarm him. DHS stated the agent fired "defensive shots" and that Pretti possessed two additional magazines and no identification. DHS provided a photo of the alleged firearm, identified by CNN as a SIG Sauer Emperor Scorpion.
+DHS Secretary Kristi Noem, White House advisor Stephen Miller, and other administration officials claim Pretti "approached US Border Patrol officers with a 9 mm semi-automatic handgun" and "violently resisted" officers' attempts to disarm him. Video from multiple angles directly contradicts this claim, showing Pretti was holding a phone and that his holstered gun was removed by an agent before the shooting. DHS stated the agent fired "defensive shots" and that Pretti possessed two additional magazines and no identification. DHS provided a photo of the alleged firearm, identified by CNN as a SIG Sauer Emperor Scorpion.
 
 See related: [DHS Response: Pretti "Violently Resisted"](#2026-01-24-dhs-response-pretti-shooting)
 

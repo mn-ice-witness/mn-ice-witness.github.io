@@ -9,13 +9,16 @@ affected_individual_citizenship: us-citizen
 injuries: fatal
 trustworthiness: high
 created: 2026-01-24T13:40:15
-last_updated: 2026-01-24T13:40:15
+last_updated: 2026-01-24T16:54:42
 ---
 
 # DHS Response: Pretti "Violently Resisted"
 
+## Updates
+- **Jan 24** - Video from multiple angles appears to directly contradict administration claims. Footage shows Pretti was holding a phone, not a weapon, and that an agent removed his holstered gun before the shooting.
+
 ## Summary
-Following the fatal shooting of Alex Pretti by federal agents, DHS claimed Pretti approached officers with a handgun and "violently resisted" attempts to disarm him. At a press conference, Border Patrol Commander Greg Bovino defended the shooting, claiming the officer fired "defensive shots" and that federal law enforcement had been "under attack" in Minneapolis. Bovino described the officer as "highly trained" with eight years of experience. Critics point out that video evidence shows multiple agents had Pretti on the ground when he was shot, and local officials have disputed the federal narrative.
+Following the fatal shooting of Alex Pretti by federal agents, DHS Secretary Kristi Noem, White House advisor Stephen Miller, and other administration officials have consistently claimed Pretti approached officers with a handgun and "violently resisted" attempts to disarm him. However, video evidence from multiple angles appears to directly dispute this account, showing Pretti was holding a phone and that his gun was removed from its holster by an agent before he was shot. At a press conference, Border Patrol Commander Greg Bovino defended the shooting, claiming the officer fired "defensive shots" and that federal law enforcement had been "under attack" in Minneapolis. Bovino described the officer as "highly trained" with eight years of experience. Critics point out that video evidence shows multiple agents had Pretti on the ground when he was shot, and local officials have disputed the federal narrative.
 
 ## Sources
 1. FOX 9 (Jan 24, 2026): [Border Patrol fatally shoots man](https://www.fox9.com/news/ice-mn-third-federal-agents-shooting-minneapolis)
@@ -52,13 +55,13 @@ Bovino declined to identify the officer involved and refused to answer a WCCO qu
 ## Fact Check
 
 ### Claim: Pretti "approached" officers with a handgun
-**Context:** Minneapolis Police Chief Brian O'Hara confirmed Pretti was a lawful gun owner with a valid permit to carry. He had no criminal history beyond traffic tickets.
+**Video Evidence:** Multiple videos from different angles show Pretti was holding a phone, not a weapon. Analysis by Bellingcat and independent observers on social media show an agent removed Pretti's holstered gun before the shooting occurred. Minneapolis Police Chief Brian O'Hara confirmed Pretti was a lawful gun owner with a valid permit to carry.
 
 ### Claim: Pretti "violently resisted" disarming
-**Video Evidence:** Witness video shows multiple agents (Mayor Frey described "more than six masked agents") wrestling Pretti to the ground before shots were fired. Critics note Pretti appeared to be subdued when he was fatally shot.
+**Video Evidence:** Witness video shows multiple agents (Mayor Frey described "more than six masked agents") wrestling Pretti to the ground before shots were fired. Video shows Pretti was already on the ground and subdued when he was fatally shot.
 
 ### Claim: Agent fired "defensive shots"
-**Local Response:** Mayor Jacob Frey stated he saw "a video of more than six masked agents pummeling one of our constituents and shooting him to death." Governor Tim Walz called the shooting "sickening."
+**Video Evidence:** Footage from multiple angles shows Pretti pinned to the ground by several agents when shots were fired. Mayor Jacob Frey stated he saw "a video of more than six masked agents pummeling one of our constituents and shooting him to death." Governor Tim Walz called the shooting "sickening."
 
 ## Context
 - This is the third shooting by federal agents in Minnesota in three weeks
@@ -67,4 +70,4 @@ Bovino declined to identify the officer involved and refused to answer a WCCO qu
 - Hennepin County Attorney Mary Moriarty and Attorney General Keith Ellison have announced a joint state investigation
 
 ## Editorial Assessment
-**HIGH** - Official DHS statements well-documented. Video evidence and statements from local officials present a conflicting account of events. The circumstances remain under investigation by both federal and state authorities.
+**HIGH** - Official DHS statements well-documented. Video evidence from multiple angles directly contradicts administration claims that Pretti approached with a weapon; footage shows he was holding a phone and his gun was removed by an agent before the shooting. The circumstances remain under investigation by both federal and state authorities.
