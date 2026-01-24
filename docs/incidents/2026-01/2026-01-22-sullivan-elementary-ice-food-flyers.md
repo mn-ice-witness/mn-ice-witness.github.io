@@ -14,11 +14,11 @@ last_updated: 2026-01-23T23:22:42
 
 # School Warns ICE Distributing Food Support Flyers (UNVERIFIED)
 
-***The school message appears to be authentic, but the underlying claim that ICE is distributing food flyers has NOT been independently verified by any journalist or official source. If you have any information—especially photos of the actual flyers—please [contact us](mailto:mnicewitness@proton.me).***
+***The school sent this warning, but did ICE actually distribute flyers? No one has produced a flyer or described receiving one. If you have seen these flyers or know how the school learned about them, please [contact us](mailto:mnicewitness@proton.me).***
 
 ## Summary
 
-School message is verified; underlying claim about ICE flyers is NOT. Anne Sullivan STEAM School sent a warning via TalkingPoints on Jan 22, 2026, but no journalist has seen the alleged flyers and no major Minnesota media has covered this story. We need: photos of the flyers, or independent confirmation ICE distributed them.
+The school warning is real, but we don't know if ICE actually distributed flyers. Anne Sullivan STEAM School sent a message on Jan 22, 2026 claiming ICE is distributing food flyers—but no flyer has been produced, no one has described receiving one, and no journalist has confirmed ICE did this. We need: an actual flyer, or anyone who received/saw one.
 
 ## The School Message
 
@@ -33,14 +33,15 @@ The message read:
 - **The source**: Steve McPherson, a Minneapolis-based writer ([@steventurous.bsky.social](https://bsky.app/profile/steventurous.bsky.social)), shared the message on Bluesky, stating it came from the middle school's Signal chat
 - **The school is real**: Anne Sullivan STEAM School is part of Minneapolis Public Schools
 
-## What is NOT Verified
+## The Key Unknown: Did ICE Actually Do This?
 
-- **No journalist has seen or photographed the alleged ICE flyers**
-- **No major Minnesota media has covered this story** (Star Tribune, MPR News, KARE11, KSTP, WCCO, Fox9 have not reported on the flyer claim)
-- **No official Minneapolis Public Schools statement** about ICE flyers has been published
-- **No ICE/DHS response** to this specific allegation
-- **The flyers themselves have not been described in detail** - we don't know what they look like, what they say, or where they were distributed
-- **We don't know who reported the flyers to the school** or how the school learned about them
+**We do not know if ICE actually distributed any flyers.** We only know the school sent a warning claiming they did.
+
+- **No one has produced, photographed, or described an actual flyer** - not a single flyer has been shown to journalists or the public
+- **We don't know how the school learned about the flyers** - did a parent report receiving one? Did someone see them being distributed? The school's message says "we have learned" but doesn't say how
+- **No major Minnesota media has investigated or confirmed the claim** (Star Tribune, MPR News, KARE11, KSTP, WCCO, Fox9 have not reported on this)
+- **No official Minneapolis Public Schools statement** beyond the TalkingPoints message
+- **No ICE/DHS response** confirming or denying
 
 ## Media Coverage
 
@@ -78,4 +79,4 @@ However, we found no documented cases of ICE specifically using food assistance 
 
 ## Editorial Assessment
 
-**UNVERIFIED** - The school message is authentic, but the underlying claim about ICE distributing food flyers has not been independently verified. No major Minnesota media has covered this story. No one has produced or photographed the alleged flyers.
+**UNVERIFIED** - The school sent this warning, but we have no evidence ICE actually distributed any flyers. No flyer has been produced. No one has described receiving one. No journalist has confirmed the claim.
