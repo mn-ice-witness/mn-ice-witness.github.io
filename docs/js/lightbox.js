@@ -70,6 +70,10 @@ const Lightbox = {
             if (route.type === 'about') {
                 return;
             }
+            if (route.type === 'unverified') {
+                this.showUnverified();
+                return;
+            }
             this.closeLightbox();
         }
     },
