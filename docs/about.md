@@ -20,9 +20,7 @@
 
 <h2 id="background">Background <a href="#background" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
-[Operation Metro Surge](https://www.pbs.org/newshour/politics/minnesota-and-the-twin-cities-sue-the-federal-government-to-stop-trumps-immigration-crackdown) was launched by the Trump administration in December 2025, deploying roughly 3,000 federal agents to Minnesota in what DHS has called its largest operation in history. The administration states that Operation Metro Surge targets individuals with criminal histories, gang affiliations, and outstanding removal orders.
-
-DHS Secretary Kristi Noem [directed ICE](https://www.dhs.gov/news/2025/12/19/under-president-trump-and-secretary-noem-department-homeland-security-has-historic) to prioritize arrests of gang members and individuals with violent criminal records. DHS press releases highlight arrests of individuals with criminal backgrounds.
+[Operation Metro Surge](https://www.pbs.org/newshour/politics/minnesota-and-the-twin-cities-sue-the-federal-government-to-stop-trumps-immigration-crackdown) was launched by the Trump administration in December 2025, deploying roughly 3,000 federal agents to Minnesota in what DHS has called its largest operation in history.
 
 <h2 id="what-this-site-documents">What This Site Documents <a href="#what-this-site-documents" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
@@ -50,11 +48,21 @@ In a January 14, 2026 statement, DHS stated that sanctuary city policies in Minn
 
 DHS has also cited [hostile crowds creating unsafe conditions](/entry/2026-01-21-dhs-response-crowd-control) — including incidents where agents were followed to gas stations, had food thrown at them, and in one instance an agent was spit on. The administration argues that such confrontations create tense environments where split-second decisions must be made, and that verbal harassment (yelling, whistles, crowds surrounding vehicles) contributes to dangerous situations for both officers and the public.
 
-**Context:** Legal observers and civil liberties organizations maintain that filming and verbal protest are constitutionally protected activities, that observers have a right to document enforcement actions, and that the presence of witnesses serves a public accountability function. Courts have issued injunctions limiting the use of force against peaceful observers. The question of what constitutes "obstruction" versus protected observation remains contested in multiple pending cases.
+<h2 id="legal-observation">Legal Observation and Protest <a href="#legal-observation" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
-<h2 id="the-data">Arrest Data <a href="#the-data" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
+Multiple incidents on this site involve disputes over filming and observer conduct. Legal observers and civil liberties organizations maintain that filming and verbal protest are constitutionally protected activities, and that the presence of witnesses serves a public accountability function. Courts have issued injunctions limiting the use of force against peaceful observers. The question of what constitutes "obstruction" versus protected observation remains contested in multiple pending cases.
 
-Independent analyses present different figures.
+**What is protected:** [Federal courts across at least ten circuits](https://www.eff.org/deeplinks/2025/02/yes-you-have-right-film-ice) have ruled that recording law enforcement in public is a First Amendment right ([NYCLU guide](https://www.nyclu.org/resources/know-your-rights/you-have-right-film-ice)). Verbal criticism — including profanity — is protected under [*City of Houston v. Hill* (1987)](https://en.wikipedia.org/wiki/Contempt_of_cop). Whistles, chanting, and singing are [protected activities](https://www.aclu.org/know-your-rights/protesters-rights), though narrowly-tailored noise restrictions may apply in specific contexts.
+
+**What is not protected:** Physical obstruction — blocking officers, surrounding vehicles, or stepping between an agent and a detainee — can result in federal charges.
+
+**Case outcomes:** A [ProPublica investigation](https://www.propublica.org/article/immigration-dhs-american-citizens-arrested-detained-against-will) found that of ~130 Americans arrested for allegedly impeding ICE officers, nearly 50 were never charged or had charges dismissed. In [Chicago](https://www.cbsnews.com/chicago/news/charges-dropped-broadview-ice-protesters-grand-jury/) and [Portland](https://www.opb.org/article/2025/12/03/protestors-arrested-at-portland-ice-facility-wait-months-without-charges/), most protester charges were dropped.
+
+<h2 id="the-data">"Criminals and Murderers" & Arrest Data <a href="#the-data" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
+
+The administration states that Operation Metro Surge targets individuals with criminal histories, gang affiliations, and outstanding removal orders. DHS Secretary Kristi Noem [directed ICE](https://www.dhs.gov/news/2025/12/19/under-president-trump-and-secretary-noem-department-homeland-security-has-historic) to prioritize arrests of gang members and individuals with violent criminal records. DHS press releases highlight arrests of individuals with criminal backgrounds. President Trump [defended enforcement operations](#2026-01-20-trump-mistakes-happen) by flipping through arrest records, stating agents are "apprehending murderers and drug dealers" while acknowledging agents "make mistakes sometimes."
+
+Critics contend the data tells a different story.
 
 According to [Fortune](https://fortune.com/2025/07/12/ice-raids-trump-immigration-crackdown-deportation-no-criminal-convictions/), **72% of ICE detainees have no criminal convictions**. The Cato Institute found that **5% of those booked into ICE detention had violent criminal convictions**, while **73% had no convictions at all**.
 
@@ -62,30 +70,13 @@ DHS created a "Worst of the Worst" database at WOW.DHS.GOV. According to [Common
 
 Aaron Reichlin-Melnick of the American Immigration Council noted: "DHS is implicitly admitting that less than 5% of the people it arrests are people they believe are 'the worst of the worst.'"
 
-**Regarding U.S. citizens:** Secretary Noem stated on October 30, 2025: "No American citizens have been arrested or detained." [PolitiFact rated this claim "Pants on Fire"](https://www.politifact.com/factchecks/2025/oct/31/kristi-noem/immigration-ICE-arrest-US-citizen-Chicago/). [NPR](https://www.npr.org/2025/11/05/nx-s1-5598373/npr-fact-checks-kristi-noem-on-ice-detaining-us-citizens) and [Poynter](https://www.poynter.org/fact-checking/2025/has-ice-arrested-american-citizens/) also disputed the claim. ProPublica documented over 170 cases of U.S. citizens detained by immigration agents. [See full details](#2025-10-30-noem-no-citizens-arrested-claim).
-
-<h2 id="purpose">Purpose <a href="#purpose" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
-
-This site does not take a position on immigration policy. It documents reported incidents in Minnesota and the individuals affected.
-
-The incidents documented here raise questions about the scope and conduct of enforcement operations. U.S. citizens and legal residents have reported being detained. Families have been separated. Observers have reported being pressured for information about organizers.
-
-Every incident on this site includes source links to news reports, videos, official statements, and court documents. Readers can verify each claim independently.
+**Regarding U.S. citizens:** Secretary Noem stated on October 30, 2025: "No American citizens have been arrested or detained." [PolitiFact](https://www.politifact.com/factchecks/2025/oct/31/kristi-noem/immigration-ICE-arrest-US-citizen-Chicago/), [NPR](https://www.npr.org/2025/11/05/nx-s1-5598373/npr-fact-checks-kristi-noem-on-ice-detaining-us-citizens), and [Poynter](https://www.poynter.org/fact-checking/2025/has-ice-arrested-american-citizens/) found this statement to be inaccurate. ProPublica documented over 170 cases of U.S. citizens detained by immigration agents. [See full details](#2025-10-30-noem-no-citizens-arrested-claim).
 
 <p class="about-note">Note: Even non-citizens accused of crimes have the right to have their civil rights respected and to be given due process under the law.</p>
 
-<h2 id="sources-used">Sources Used <a href="#sources-used" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
+<h2 id="investigations">Large-Scale Investigations & Analysis <a href="#investigations" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
-All incidents are documented using publicly available sources including:
-- Minnesota local news (Star Tribune, MPR News, WCCO, KARE11, Sahan Journal)
-- National news (AP, Reuters, CNN, PBS, NPR)
-- Official statements from DHS, ICE, and local government
-- Court filings and legal documents
-- Video evidence and eyewitness accounts
-
-<h2 id="investigations">Investigations & Analysis <a href="#investigations" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
-
-In-depth reporting and analysis of ICE enforcement patterns and civil rights concerns:
+This site focuses on documenting individual incidents. For in-depth reporting and analysis of broader ICE enforcement patterns and civil rights concerns, see these investigations:
 
 **National Investigations:**
 - [Immigration Agents Have Often Grabbed and Mistreated Citizens, Congressional Investigators Find](https://www.propublica.org/article/immigration-agents-detained-mistreated-citizens-congressional-investigation) - ProPublica
@@ -125,16 +116,3 @@ Each incident is rated for trustworthiness based on source quality and corrobora
 
 The trustworthiness rating appears at the bottom of each incident page.
 
-<h2 id="legal-observation">Legal Observation and Protest <a href="#legal-observation" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
-
-Multiple incidents on this site involve disputes over filming and observer conduct. The following summarizes the legal framework.
-
-**What is protected:** [Federal courts across at least ten circuits](https://www.eff.org/deeplinks/2025/02/yes-you-have-right-film-ice) have ruled that recording law enforcement in public is a First Amendment right ([NYCLU guide](https://www.nyclu.org/resources/know-your-rights/you-have-right-film-ice)). Verbal criticism — including profanity — is protected under [*City of Houston v. Hill* (1987)](https://en.wikipedia.org/wiki/Contempt_of_cop). Whistles, chanting, and singing are [protected activities](https://www.aclu.org/know-your-rights/protesters-rights), though narrowly-tailored noise restrictions may apply in specific contexts.
-
-**What is not protected:** Physical obstruction — blocking officers, surrounding vehicles, or stepping between an agent and a detainee — can result in federal charges.
-
-**Case outcomes:** A [ProPublica investigation](https://www.propublica.org/article/immigration-dhs-american-citizens-arrested-detained-against-will) found that of ~130 Americans arrested for allegedly impeding ICE officers, nearly 50 were never charged or had charges dismissed. In [Chicago](https://www.cbsnews.com/chicago/news/charges-dropped-broadview-ice-protesters-grand-jury/) and [Portland](https://www.opb.org/article/2025/12/03/protestors-arrested-at-portland-ice-facility-wait-months-without-charges/), most protester charges were dropped.
-
-<h2 id="related-resources">Related Resources <a href="#related-resources" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
-
-- [iceout.org](https://iceout.org/en/) — Real-time, crowd-sourced ICE sighting reports and alerts (People Over Papers)
