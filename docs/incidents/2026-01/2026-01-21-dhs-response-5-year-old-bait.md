@@ -25,6 +25,7 @@ DHS posted on X responding to reports that ICE agents used a 5-year-old child as
 ## Related Incidents
 
 - [Four Columbia Heights Students Detained by ICE, Including 5-Year-Old Sent to Texas](/entry/2026-01-20-columbia-heights-4-students-detained)
+- [Vice President Vance Defends 5-Year-Old's Detention: "What Are They Supposed to Do?"](/entry/2026-01-23-vance-response-5-year-old-detention)
 
 ## Official Statement
 

@@ -1,6 +1,32 @@
 {
   "incidents": [
     {
+      "filePath": "incidents/2026-01/2026-01-23-vance-response-5-year-old-detention.md",
+      "title": "Vice President Vance Defends 5-Year-Old's Detention: \"What Are They Supposed to Do?\"",
+      "summary": "Vice President JD Vance visited Minneapolis on January 23, 2026, and addressed the detention of 5-year-old Liam Conejo Ramos. Vance defended ICE's actions, arguing the alternative would have been to \"let a 5-year-old child freeze to death\" and that exempting parents from arrest would grant universal immunity. Critics disputed his key claims, including the \"freeze to death\" scenario and his characterization of the family's legal status.",
+      "latestUpdate": null,
+      "date": "2026-01-23",
+      "time": "afternoon",
+      "location": "Minneapolis Visit",
+      "city": "Minneapolis",
+      "type": "response",
+      "status": "resolved",
+      "affectedIndividualCitizenship": "n/a",
+      "injuries": "none",
+      "trustworthiness": "high",
+      "created": "2026-01-23T20:50:18",
+      "lastUpdated": "2026-01-23T20:50:18",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaOgPath": null,
+      "localMediaFiles": [],
+      "aspectRatio": null,
+      "mediaVersion": null
+    },
+    {
       "filePath": "incidents/2026-01/2026-01-22-tipan-toddler-father-detained.md",
       "title": "2-Year-Old and Father Detained Near Powderhorn; Flown to Texas Despite Court Order",
       "summary": "ICE detained Elvis Joel Tipan Echeverria and his 2-year-old daughter Chloe Renata Tipan Villacis near Powderhorn Park in South Minneapolis as they returned from a grocery store. Attorneys for the family say they were asylum-seekers pulled over without a warrant and did not have a final order for removal. A federal judge ordered the toddler released by 9:30 PM, but ICE placed both on a commercial flight to Texas 19 minutes after the order was signed. A government attorney subsequently pledged to return the girl to Minnesota.",
