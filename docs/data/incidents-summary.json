@@ -32,6 +32,37 @@
       "mediaVersion": 1769191657
     },
     {
+      "filePath": "incidents/2026-01/2026-01-22-amundson-zemien-seizure-first-responders.md",
+      "title": "Two Detained Women Become First Responders After ICE Agent Has Seizure",
+      "summary": "Tippy Amundson (39) and Heather Zemien (55), both U.S. citizens, were detained by ICE in Brooklyn Park. While being transported to Whipple Federal Building, an ICE agent had a seizure. The women recognized the emergency when the agents did not, directed them to call 911, and provided first aid after being uncuffed. Despite saving the agent's life, they were still taken to Whipple. Upon release, a commanding officer told them: \"You need to tell everybody that we treated you kindly.\"",
+      "latestUpdate": null,
+      "date": "2026-01-22",
+      "time": "afternoon",
+      "location": "Welcome Avenue, Brooklyn Park (near Aldi)",
+      "city": "Brooklyn Park",
+      "type": "observers",
+      "status": "resolved",
+      "affectedIndividualCitizenship": "us-citizen",
+      "injuries": "none",
+      "trustworthiness": "high",
+      "created": "2026-01-23T20:07:14",
+      "lastUpdated": "2026-01-23T20:07:14",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-22-amundson-zemien-seizure-first-responders.mp4",
+      "localMediaOgPath": "media/2026-01-22-amundson-zemien-seizure-first-responders-og-2s-1769220697.jpg",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-22-amundson-zemien-seizure-first-responders.mp4"
+        }
+      ],
+      "aspectRatio": 1.8072289156626506,
+      "mediaVersion": 1769220697
+    },
+    {
       "filePath": "incidents/2026-01/2026-01-22-south-mpls-teenagers-detained.md",
       "title": "CBP Detains Two Teenagers After Rear-Ending Their Vehicle, Deploys Tear Gas on Bystanders",
       "summary": "U.S. Customs and Border Protection officers handcuffed and detained two teenagers in south Minneapolis on Wednesday afternoon after allegedly rear-ending their silver SUV. The teenage girl driver, who presented a U.S. passport to agents, was still placed in handcuffs and was seen crying in the back of a federal vehicle. At least two bystanders were arrested and agents deployed tear gas and pepper spray as crowds gathered to film and protest the arrest.",
@@ -2853,7 +2884,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-07-teenager-tackled-snow.mp4",
-      "localMediaOgPath": "media/2026-01-07-teenager-tackled-snow-og-custom.jpg",
+      "localMediaOgPath": "media/2026-01-07-teenager-tackled-snow-og-2s-1769196137.jpg",
       "localMediaFiles": [
         {
           "type": "video",
