@@ -9,7 +9,7 @@
       "time": "09:05",
       "location": "26th Street and Nicollet Avenue",
       "city": "Minneapolis",
-      "type": "citizens",
+      "type": "observers",
       "status": "under-investigation",
       "affectedIndividualCitizenship": "us-citizen",
       "injuries": "fatal",
@@ -21,7 +21,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-24-alex-pretti-shooting.mp4",
-      "localMediaOgPath": "media/2026-01-24-alex-pretti-shooting-og-2s-1769284003.jpg",
+      "localMediaOgPath": "media/2026-01-24-alex-pretti-shooting-og-2s-1769284570.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -29,7 +29,7 @@
         }
       ],
       "aspectRatio": 0.6194444444444445,
-      "mediaVersion": 1769284003
+      "mediaVersion": 1769284570
     },
     {
       "filePath": "incidents/2026-01/2026-01-24-jana-shortal-journalist-pepper-sprayed.md",
