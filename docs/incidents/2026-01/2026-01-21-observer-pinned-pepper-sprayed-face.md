@@ -9,7 +9,7 @@ affected_individual_citizenship: unknown
 injuries: unknown
 trustworthiness: high
 created: 2026-01-21T18:01:29
-last_updated: 2026-01-23T17:00:00
+last_updated: 2026-01-21T18:01:29
 ---
 
 # Observer Pinned to Ground, Chemical Irritant Sprayed Directly Into Face

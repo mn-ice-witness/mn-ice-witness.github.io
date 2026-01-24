@@ -248,8 +248,9 @@ These are mistakes that LLMs frequently make when adding incidents. Read this se
 ### last_updated
 | Mistake | Why It's Wrong | Correct Approach |
 |---------|---------------|------------------|
-| Updating for every source added | Pollutes "Sort by Updated" view | Only update for substantive story changes |
-| Updating for formatting fixes | Not a story development | Only for case developments, status changes, new facts |
+| Updating for every source added | Pollutes "Sort by Updated" view | Only update when adding a `## Updates` entry |
+| Updating for formatting fixes | Not a story development | Only update when adding a `## Updates` entry |
+| Updating without adding `## Updates` entry | Timestamp and Updates must stay in sync | If no `## Updates` entry, don't touch `last_updated` |
 
 ## Step 2: Create the File
 
@@ -403,7 +404,12 @@ When new information emerges:
 
 ### When to Update `last_updated`
 
-**IMPORTANT:** The `last_updated` field powers the "Sort by Updated" feature on the website. Only update it for **substantive story developments** — not routine maintenance.
+**CRITICAL RULE:** Only update `last_updated` when you are ALSO adding an entry to the `## Updates` section at the top of the file. The timestamp and Updates section must stay in sync.
+
+- Adding a source? **DO NOT** touch `last_updated`
+- Adding an `## Updates` entry about a case development? **DO** update `last_updated`
+
+The `last_updated` field powers the "Sort by Updated" feature on the website. Only update it for **substantive story developments** — not routine maintenance.
 
 #### ⚠️ USE THE ACTUAL CURRENT TIME (Critical!)
 
