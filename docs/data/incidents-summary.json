@@ -52,7 +52,7 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-22-amundson-zemien-seizure-first-responders.mp4",
-      "localMediaOgPath": "media/2026-01-22-amundson-zemien-seizure-first-responders-og-2s-1769220697.jpg",
+      "localMediaOgPath": "media/2026-01-22-amundson-zemien-seizure-first-responders-og-2s-1769221530.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -60,7 +60,7 @@
         }
       ],
       "aspectRatio": 1.8072289156626506,
-      "mediaVersion": 1769220697
+      "mediaVersion": 1769221530
     },
     {
       "filePath": "incidents/2026-01/2026-01-22-south-mpls-teenagers-detained.md",
