@@ -10,6 +10,7 @@ observer-pinned-pepper-sprayed-face
 brooklyn-park-officer-citizen-check
 observer-shoved-into-traffic
 teenager-tackled-snow
+alex-pretti-shooting
 mankato-women-sprayed
 noem-pepper-spray-denial-backtrack
 bovino-hexachloroethane-playground
@@ -34,6 +35,7 @@ renee-good-shooting
 trump-mistakes-happen
 emmanuel-sackie-brooklyn-park
 jesse-ventura-roosevelt
+jana-shortal-journalist-pepper-sprayed
 rogelio-jimenez-brooklyn-park
 el-tapatio-willmar
 phil-maddox-did-you-not-learn
@@ -68,5 +70,3 @@ south-mpls-teenagers-detained
 sullivan-elementary-ice-food-flyers
 nadya-moldovan-refugee
 vance-response-5-year-old-detention
-alex-pretti-shooting
-jana-shortal-journalist-pepper-sprayed
