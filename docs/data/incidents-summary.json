@@ -4,7 +4,7 @@
       "filePath": "incidents/2026-01/2026-01-24-alex-pretti-shooting.md",
       "title": "Alex Pretti Shot and Killed by Federal Agents",
       "summary": "Federal agents fatally shot Alex Jeffrey Pretti, a 37-year-old U.S. citizen, licensed nurse, and lawful gun owner, in south Minneapolis. This is the second fatal shooting involving federal agents in Minnesota in three weeks, following the killing of Renee Good. Video shows multiple agents wrestling Pretti to the ground before shooting him multiple times.",
-      "latestUpdate": null,
+      "latestUpdate": "[New video evidence](https://bsky.app/profile/joshuaeakle.com/post/3md76ihzrg22y) appears to show Pretti was holding a phone, not a weapon, and that an agent removed his gun before the shooting.",
       "date": "2026-01-24",
       "time": "09:05",
       "location": "26th Street and Nicollet Avenue",
@@ -15,13 +15,13 @@
       "injuries": "fatal",
       "trustworthiness": "high",
       "created": "2026-01-24T13:40:15",
-      "lastUpdated": "2026-01-24T13:40:15",
+      "lastUpdated": "2026-01-24T16:44:03",
       "mediaCount": 0,
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-24-alex-pretti-shooting.mp4",
-      "localMediaOgPath": "media/2026-01-24-alex-pretti-shooting-og-2s-1769286539.jpg",
+      "localMediaOgPath": "media/2026-01-24-alex-pretti-shooting-og-2s-1769295039.jpg",
       "localMediaFiles": [
         {
           "type": "video",
@@ -29,7 +29,7 @@
         }
       ],
       "aspectRatio": 0.6055555555555555,
-      "mediaVersion": 1769286539
+      "mediaVersion": 1769295039
     },
     {
       "filePath": "incidents/2026-01/2026-01-24-jana-shortal-journalist-pepper-sprayed.md",

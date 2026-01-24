@@ -10,12 +10,15 @@ injuries: fatal
 trustworthiness: high
 media: 2026-01-24-alex-pretti-shooting.mp4
 created: 2026-01-24T13:40:15
-last_updated: 2026-01-24T13:40:15
+last_updated: 2026-01-24T16:44:03
 ---
 
 # Alex Pretti Shot and Killed by Federal Agents
 
-***Note: Responsibility for this incident has not been determined. DHS claims the man approached agents with a firearm and "violently resisted" disarming. However, critics and local officials note that video shows multiple agents had the man on the ground when he was fatally shot. Several unverified online analyses (including one by [Bellingcat](https://bsky.app/profile/bellingcat.com/post/3md6vleoxks2t), sourced below) claim that Pretti was disarmed before being shot. Hennepin County Attorney Mary Moriarty and Minnesota Attorney General Keith Ellison have announced a joint state investigation and are asking residents to [submit evidence](https://www.kare11.com/article/news/local/ice-in-minnesota/mn-attorney-general-hennepin-county-attorney-ask-residents-to-submit-evidence-in-ice-shooting-investigation/89-9dda09e8-f299-4f3a-bc5f-a938dba30fb1). The FBI has cut the Minnesota Bureau of Criminal Apprehension off from the federal investigation.***
+## Updates
+- **Jan 24** - [New video evidence](https://bsky.app/profile/joshuaeakle.com/post/3md76ihzrg22y) appears to show Pretti was holding a phone, not a weapon, and that an agent removed his gun before the shooting.
+
+***Note: Responsibility for this incident has not been determined. DHS claims the man approached agents with a firearm and "violently resisted" disarming. However, critics and local officials note that video shows multiple agents had the man on the ground when he was fatally shot. Several unverified online analyses (including one by [Bellingcat](https://bsky.app/profile/bellingcat.com/post/3md6vleoxks2t), sourced below) claim that Pretti was disarmed before being shot; posts on Bluesky and X appear to corroborate this analysis. Hennepin County Attorney Mary Moriarty and Minnesota Attorney General Keith Ellison have announced a joint state investigation and are asking residents to [submit evidence](https://www.kare11.com/article/news/local/ice-in-minnesota/mn-attorney-general-hennepin-county-attorney-ask-residents-to-submit-evidence-in-ice-shooting-investigation/89-9dda09e8-f299-4f3a-bc5f-a938dba30fb1). The FBI has cut the Minnesota Bureau of Criminal Apprehension off from the federal investigation.***
 
 ## Summary
 Federal agents fatally shot Alex Jeffrey Pretti, a 37-year-old U.S. citizen, licensed nurse, and lawful gun owner, in south Minneapolis. This is the second fatal shooting involving federal agents in Minnesota in three weeks, following the killing of Renee Good. Video shows multiple agents wrestling Pretti to the ground before shooting him multiple times.
@@ -34,6 +37,8 @@ Federal agents fatally shot Alex Jeffrey Pretti, a 37-year-old U.S. citizen, lic
 11. Al Jazeera (Jan 24, 2026): [US federal agents shoot and kill another person in Minneapolis](https://www.aljazeera.com/news/2026/1/24/us-federal-agents-shoot-another-person-in-minneapolis-governor)
 12. Bluesky (Jan 24, 2026): [Bellingcat analysis of video](https://bsky.app/profile/bellingcat.com/post/3md6vleoxks2t)
 13. Bluesky (Jan 24, 2026): [Bellingcat video analysis](https://bsky.app/profile/bellingcat.com/post/3md733zyf722w)
+14. X/Twitter Video (Jan 24, 2026): [@robdoar video analysis](https://x.com/robdoar/status/2015150225317388508)
+15. Bluesky Video (Jan 24, 2026): [@joshuaeakle.com video analysis](https://bsky.app/profile/joshuaeakle.com/post/3md76ihzrg22y)
 
 ## Affected Individual(s)
 - **Name:** Alex Jeffrey Pretti
