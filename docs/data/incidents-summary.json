@@ -1,9 +1,9 @@
 {
   "incidents": [
     {
-      "filePath": "incidents/2026-01/2026-01-25-dhs-response-bovino-gun-deflection.md",
+      "filePath": "incidents/2026-01/2026-01-25-bovino-pretti-had-gun-response.md",
       "title": "Bovino on Pretti: \"Let's Take a Look at the Gun\"; Second Amendment Groups Raise Concerns",
-      "summary": "At a press conference following the fatal shooting of Alex Pretti, Border Patrol Commander Greg Bovino deflected a reporter's question about whether Pretti ever reached for or brandished his weapon. When asked directly, Bovino pivoted: \"This is under investigation. Those facts will come to light, but let's take a look at the gun.\" He then displayed a photo of Pretti's firearm and described it as \"semi-automatic high capacity type, possibly a SIG Sauer.\" The deflection sparked concern from Second Amendment advocacy groups, who argue that merely possessing a legal firearm does not justify lethal force. Gun Owners of America, Second Amendment Foundation, and Minnesota Gun Owners Caucus have all called for a full investigation.",
+      "summary": "At a press conference following the fatal shooting of Alex Pretti, Border Patrol Commander Greg Bovino was asked whether Pretti ever reached for or brandished his weapon. Bovino stated the matter was under investigation: \"This is under investigation. Those facts will come to light, but let's take a look at the gun.\" Rather than directly answering whether Pretti reached for his weapon, Bovino pivoted to displaying a photo of Pretti's firearm, describing it as \"semi-automatic high capacity type, possibly a SIG Sauer.\" The shooting has sparked concern from Second Amendment advocacy groups, who argue that merely possessing a legal firearm does not justify lethal force. Gun Owners of America, Second Amendment Foundation, and Minnesota Gun Owners Caucus have all called for a full investigation.",
       "latestUpdate": null,
       "date": "2026-01-25",
       "time": "unknown",
@@ -20,12 +20,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-25-dhs-response-bovino-gun-deflection.mp4",
-      "localMediaOgPath": "media/2026-01-25-dhs-response-bovino-gun-deflection-og-2s-1769350319.jpg",
+      "localMediaPath": "media/2026-01-25-bovino-pretti-had-gun-response.mp4",
+      "localMediaOgPath": "media/2026-01-25-bovino-pretti-had-gun-response-og-2s-1769350319.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-25-dhs-response-bovino-gun-deflection.mp4"
+          "path": "media/2026-01-25-bovino-pretti-had-gun-response.mp4"
         }
       ],
       "aspectRatio": 1.8026905829596414,
@@ -61,7 +61,7 @@
       "filePath": "incidents/2026-01/2026-01-24-alex-pretti-shooting.md",
       "title": "Alex Pretti Shot and Killed by Federal Agents",
       "summary": "Federal agents fatally shot Alex Jeffrey Pretti, a 37-year-old U.S. citizen, licensed nurse, and lawful gun owner, in south Minneapolis. This is the second fatal shooting involving federal agents in Minnesota in three weeks, following the killing of Renee Good. Video shows multiple agents wrestling Pretti to the ground before shooting him multiple times.",
-      "latestUpdate": "When asked if Pretti reached for his gun, Commander Bovino [deflects](#2026-01-25-dhs-response-bovino-gun-deflection): \"Let's take a look at the gun.\" Gun rights groups demand answers.",
+      "latestUpdate": "When asked if Pretti reached for his gun, Commander Bovino [defers to investigation](#2026-01-25-bovino-pretti-had-gun-response): \"Let's take a look at the gun.\" Gun rights groups raise concerns.",
       "date": "2026-01-24",
       "time": "09:05",
       "location": "26th Street and Nicollet Avenue",

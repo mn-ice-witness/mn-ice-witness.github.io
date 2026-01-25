@@ -126,6 +126,7 @@ Use documentary tone. Let facts speak for themselves.
 | If you're doing... | Read these dev-docs |
 |-------------------|---------------------|
 | **Adding a new incident** | `adding-incidents.md`, `incident-schema.md`, `not_use.md` |
+| **Renaming an incident ID** | `id-reassignment.md` |
 | **Searching for new incidents** | `llm-search-procedure.md`, `research-sources.md`, `not_use.md` |
 | **Modifying JavaScript** | `architecture.md` (JS module reference), `code-review-findings.md` |
 | **Modifying CSS** | `architecture.md` (CSS structure section) |
@@ -198,6 +199,7 @@ GIT_MN_ICE_FILES/
 |-----|----------|
 | `url-routing.md` | Path-based URLs, Cloudflare Functions, OG tags |
 | `single-page-navigation.md` | Hash navigation, section links |
+| `id-reassignment.md` | Renaming incident IDs with redirects |
 
 ### UI & Media
 | Doc | Contents |

@@ -8,9 +8,25 @@
 export async function onRequest(context) {
   const { params, env } = context;
   const slug = params.slug;
+  const baseUrl = new URL(context.request.url);
+
+  // Check for redirects first
+  const redirectUrl = new URL(context.request.url);
+  redirectUrl.pathname = '/data/redirects.json';
+
+  try {
+    const redirectResponse = await fetch(redirectUrl.toString());
+    const redirectData = await redirectResponse.json();
+
+    if (redirectData.redirects && redirectData.redirects[slug]) {
+      const newSlug = redirectData.redirects[slug];
+      return Response.redirect(`${baseUrl.origin}/entry/${newSlug}`, 301);
+    }
+  } catch (e) {
+    // If redirect fetch fails, continue without redirecting
+  }
 
   // Fetch the base index.html
-  const baseUrl = new URL(context.request.url);
   baseUrl.pathname = '/index.html';
 
   const indexResponse = await fetch(baseUrl.toString());
