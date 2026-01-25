@@ -354,7 +354,7 @@ const MediaGallery = {
 
     /**
      * Preload a single video and wait for partial buffer before continuing
-     * Resolves when 10% buffered (or 2 seconds, whichever is less) to give
+     * Resolves when 10% buffered (or 5 seconds, whichever is less) to give
      * priority to earlier videos without fully blocking later ones
      */
     preloadSingleVideo(mediaUrl) {
@@ -374,7 +374,7 @@ const MediaGallery = {
                 if (resolved) return;
                 if (video.buffered.length > 0 && video.duration > 0) {
                     const bufferedEnd = video.buffered.end(0);
-                    const targetSeconds = Math.min(video.duration * 0.1, 2);
+                    const targetSeconds = Math.min(video.duration * 0.1, 5);
                     if (bufferedEnd >= targetSeconds) {
                         resolved = true;
                         resolve();
