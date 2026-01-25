@@ -284,6 +284,37 @@ This section describes what each JavaScript file does. For LLMs: read this befor
 
 ---
 
+### `docs/data/og-tweaks.md`
+
+**Purpose:** Custom timestamps for OG (social preview) image extraction from videos.
+
+**Format:** Markdown with code block containing `slug: timestamp` pairs.
+
+**Example:**
+```
+2026-01-13-aliya-rahman-car-window-hospitalized: 3.5
+```
+
+**Default:** 2.0 seconds if not specified.
+
+**Used by:** `scripts/process_media.py`
+
+---
+
+### `docs/data/high-quality-videos.md`
+
+**Purpose:** List of videos that should use less compression for better visual quality.
+
+**Format:** Markdown with code block containing one slug per line.
+
+**Effect:** Videos listed here are encoded at CRF 23 instead of the default CRF 35.
+
+**When to use:** For videos where visual clarity is important (e.g., videos showing key evidence, faces, or text).
+
+**Used by:** `scripts/process_media.py`
+
+---
+
 ## CSS Structure
 
 `docs/css/style.css` (~1912 lines) is organized into clearly marked sections:

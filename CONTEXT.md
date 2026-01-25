@@ -168,7 +168,9 @@ GIT_MN_ICE_FILES/
     ├── media/           # Processed video/images
     └── data/
         ├── incidents-summary.json  # Auto-generated, don't edit
-        └── media-order.md          # Controls gallery ordering
+        ├── media-order.md          # Controls gallery ordering
+        ├── og-tweaks.md            # Custom OG image timestamps
+        └── high-quality-videos.md  # Videos needing less compression
 ```
 
 ---

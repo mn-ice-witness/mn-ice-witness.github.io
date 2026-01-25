@@ -69,27 +69,21 @@ def load_og_tweaks(project_root: Path) -> dict[str, float]:
 
 
 def load_high_quality_videos(project_root: Path) -> set[str]:
-    """Load list of videos that should use higher quality encoding from docs/data/og-tweaks.md."""
-    tweaks_path = project_root / "docs" / "data" / "og-tweaks.md"
+    """Load list of videos that should use higher quality encoding from docs/data/high-quality-videos.md."""
+    hq_path = project_root / "docs" / "data" / "high-quality-videos.md"
     high_quality = set()
 
-    if not tweaks_path.exists():
+    if not hq_path.exists():
         return high_quality
 
-    in_quality_section = False
     in_code_block = False
-    for line in tweaks_path.read_text().splitlines():
-        if "High Quality" in line or "high-quality" in line.lower():
-            in_quality_section = True
+    for line in hq_path.read_text().splitlines():
+        line = line.strip()
+        if line == "```":
+            in_code_block = not in_code_block
             continue
-        if in_quality_section:
-            if line.strip() == "```":
-                in_code_block = not in_code_block
-                continue
-            if in_code_block and line.strip() and not line.strip().startswith("#"):
-                high_quality.add(line.strip())
-            if line.startswith("## ") and in_quality_section and not in_code_block:
-                in_quality_section = False
+        if in_code_block and line and not line.startswith("#"):
+            high_quality.add(line)
 
     return high_quality
 
