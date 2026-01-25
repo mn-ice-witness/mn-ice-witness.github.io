@@ -87,13 +87,27 @@ const App = {
             ViewState.switchView(ViewState.getPreferredView(), true);
         }
 
-        // Background preload disabled - testing if scroll-ahead prefetch (500px) is sufficient
-        // const preload = () => MediaGallery.preloadTopVideos(4);
-        // if ('requestIdleCallback' in window) {
-        //     requestIdleCallback(preload);
-        // } else {
-        //     setTimeout(preload, 1000);
-        // }
+        // Preload first 2 videos via fetch if starting in list view (warm browser cache)
+        if (ViewState.currentView === 'list') {
+            this.preloadFirstVideos(2);
+        }
+    },
+
+    /**
+     * Preload videos via fetch to warm browser cache (used when starting in list view)
+     */
+    async preloadFirstVideos(count) {
+        let mediaIncidents = this.incidents.filter(i => i.hasLocalMedia && i.localMediaType === 'video');
+        if (mediaIncidents.length === 0) return;
+
+        if (!ViewState.sortByUpdated) {
+            mediaIncidents = await MediaGallery.sortByOrder(mediaIncidents);
+        }
+
+        mediaIncidents.slice(0, count).forEach(incident => {
+            const url = this.getMediaUrl(incident.localMediaPath, incident.mediaVersion);
+            fetch(url).then(r => r.blob()).catch(() => {});
+        });
     },
 
     /**
