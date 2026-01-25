@@ -688,6 +688,14 @@ const Lightbox = {
         if (!video) return;
 
         const container = video.closest('.local-media-container');
+        const loadingOverlay = container?.querySelector('.video-loading-overlay');
+
+        // Hide loading overlay when video can play
+        if (loadingOverlay) {
+            const hideOverlay = () => loadingOverlay.classList.add('hidden');
+            video.addEventListener('canplay', hideOverlay, { once: true });
+            if (video.readyState >= 3) hideOverlay();
+        }
 
         MediaControls.setupVideoControls({
             video,

@@ -35,11 +35,13 @@ const LightboxContent = {
     renderLocalMedia(summaryData) {
         if (!summaryData || !summaryData.hasLocalMedia) return '';
 
+        const posterUrl = summaryData.localMediaOgPath ? App.getMediaUrl(summaryData.localMediaOgPath, summaryData.mediaVersion) : '';
+
         const mediaFiles = summaryData.localMediaFiles || [];
         if (mediaFiles.length === 0) {
             const mediaUrl = App.getMediaUrl(summaryData.localMediaPath, summaryData.mediaVersion);
             if (summaryData.localMediaType === 'video') {
-                return this.renderVideoElement(mediaUrl);
+                return this.renderVideoElement(mediaUrl, posterUrl);
             } else if (summaryData.localMediaType === 'image') {
                 return this.renderImageElement(mediaUrl);
             }
@@ -50,7 +52,7 @@ const LightboxContent = {
         for (const media of mediaFiles) {
             const mediaUrl = App.getMediaUrl(media.path, summaryData.mediaVersion);
             if (media.type === 'video') {
-                html += this.renderVideoElement(mediaUrl);
+                html += this.renderVideoElement(mediaUrl, posterUrl);
             } else if (media.type === 'image') {
                 html += this.renderImageElement(mediaUrl);
             }
@@ -61,12 +63,14 @@ const LightboxContent = {
     /**
      * Render a video element with controls
      */
-    renderVideoElement(mediaUrl) {
+    renderVideoElement(mediaUrl, posterUrl = '') {
+        const posterAttr = posterUrl ? ` poster="${posterUrl}"` : '';
         return `
             <div class="local-media-container">
-                <video class="local-media-video" autoplay muted playsinline disableRemotePlayback>
+                <video class="local-media-video" autoplay muted playsinline disableRemotePlayback${posterAttr}>
                     <source src="${mediaUrl}" type="video/mp4">
                 </video>
+                <div class="video-loading-overlay"><div class="video-loading-spinner"></div></div>
                 <div class="media-controls">
                     <button class="media-control-btn play-pause-btn" aria-label="Play/Pause">
                         <svg class="media-icon-pause" viewBox="0 0 24 24" width="24" height="24"><use href="#icon-pause"/></svg>

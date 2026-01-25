@@ -202,7 +202,10 @@ const MediaGallery = {
 
         if (incident.localMediaType === 'video') {
             const videoSrc = mediaUrl + '#t=0.001';
-            mediaElement = `<video class="media-card-video" src="${videoSrc}" muted loop playsinline preload="metadata" disableRemotePlayback></video>`;
+            const posterUrl = incident.localMediaOgPath ? App.getMediaUrl(incident.localMediaOgPath, incident.mediaVersion) : '';
+            const posterAttr = posterUrl ? ` poster="${posterUrl}"` : '';
+            mediaElement = `<video class="media-card-video" src="${videoSrc}"${posterAttr} muted loop playsinline preload="metadata" disableRemotePlayback></video>
+                <div class="video-loading-overlay"><div class="video-loading-spinner"></div></div>`;
             videoControls = `
                 <div class="media-controls">
                     <button class="media-control-btn play-pause-btn" aria-label="Play/Pause">
@@ -270,6 +273,15 @@ const MediaGallery = {
      */
     setupVideoCardControls(cardEl, video) {
         const container = cardEl.querySelector('.media-card-media');
+        const loadingOverlay = cardEl.querySelector('.video-loading-overlay');
+
+        // Hide loading overlay when video can play
+        if (loadingOverlay) {
+            const hideOverlay = () => loadingOverlay.classList.add('hidden');
+            video.addEventListener('canplay', hideOverlay, { once: true });
+            // Also hide if video is already ready (cached)
+            if (video.readyState >= 3) hideOverlay();
+        }
 
         MediaControls.setupVideoControls({
             video,
