@@ -136,6 +136,7 @@ Use documentary tone. Let facts speak for themselves.
 | **Processing media files** | `architecture.md` (media pipeline), `adding-video-audio.md` |
 | **Testing on preview branch** | `preview-deployments.md` |
 | **Understanding deployment** | `DEPLOYMENT.md` |
+| **Cloudflare settings/CDN** | `cloudflare-configuration.md` |
 | **Refactoring code** | `refactoring-plan.md`, `code-review-findings.md` |
 | **Social media posts** | `social-media-listing-procedure.md` |
 | **Official DHS responses** | `researching-responses.md` |
@@ -226,6 +227,7 @@ GIT_MN_ICE_FILES/
 | Doc | Contents |
 |-----|----------|
 | `DEPLOYMENT.md` | Cloudflare, DNS, deployment |
+| `cloudflare-configuration.md` | Pro plan settings, CDN vs Stream, cost decisions |
 | `preview-deployments.md` | Testing branches |
 | `scaling-strategy.md` | Data metrics, thresholds |
 | `project-status.md` | Current state |
