@@ -16,6 +16,7 @@ last_updated: 2026-01-24T18:42:00
 # Alex Pretti Shot and Killed by Federal Agents
 
 ## Updates
+- **Jan 25** - Vice President Vance [claims on X](#2026-01-25-vance-engineered-chaos-unique) that "engineered chaos" in Minneapolis is "unique" and caused by "far left agitators, working with local authorities." Vance provided no evidence for this assertion.
 - **Jan 24, 6:42 PM** - Pretti's parents, Michael and Susan Pretti, release [statement](https://bsky.app/profile/jeffrueter.bsky.social/post/3md7iqqr5622i) calling their son "a good man" and demanding the truth be told.
 - **Jan 24** - [New video evidence](https://bsky.app/profile/joshuaeakle.com/post/3md76ihzrg22y) appears to show Pretti was holding a phone, not a weapon, and that an agent removed his gun before the shooting.
 
