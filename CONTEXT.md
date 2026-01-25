@@ -144,6 +144,7 @@ Use documentary tone. Let facts speak for themselves.
 | **Operation PARRIS context** | `operation-parris.md` |
 | **Outreach/sharing** | `outreach-templates.md`, `contacts.md` |
 | **OG image (social sharing)** | `og-image.md` |
+| **Logo/favicon management** | `logo-management.md` |
 
 ---
 
@@ -209,6 +210,7 @@ GIT_MN_ICE_FILES/
 | `adding-video-audio.md` | System audio capture |
 | `media-candidates.md` | Videos to research |
 | `og-image.md` | Social sharing image generation |
+| `logo-management.md` | Favicon/logo creation and switching |
 
 ### Research & Content
 | Doc | Contents |
