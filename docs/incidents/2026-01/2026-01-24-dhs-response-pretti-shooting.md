@@ -23,6 +23,7 @@ Following the fatal shooting of Alex Pretti by federal agents, DHS Secretary Kri
 3. NPR (Jan 24, 2026): [Man shot dead by federal immigration officers](https://www.npr.org/2026/01/24/nx-s1-5687276/man-shot-dead-minneapolis)
 4. The Blaze (Jan 24, 2026): [DHS: Armed suspect fatally shot, "violently resisted" disarming attempt](https://www.theblaze.com/news/dhs-armed-suspect-fatally-shot-by-federal-agent-in-minneapolis-suspect-violently-resisted-disarming-attempt)
 5. CBS Minnesota (Jan 24, 2026): [Federal agents fatally shoot another Minneapolis resident](https://www.cbsnews.com/minnesota/live-updates/reported-shooting-south-minneapolis-federal-agents-protesters/)
+6. X/Twitter (Jan 24, 2026): [@Sec_Noem statement](https://x.com/Sec_Noem/status/2015202988923711951)
 
 ## Related Incident
 See full incident details: [Alex Pretti Shot and Killed by Federal Agents](#2026-01-24-alex-pretti-shooting)
