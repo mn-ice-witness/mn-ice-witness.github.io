@@ -1,7 +1,7 @@
 ---
 date: 2026-01-22
 time: "13:09"
-location: Powderhorn Park area, South Minneapolis
+location: Chicago Avenue and 35th Street, South Minneapolis
 city: Minneapolis
 type: immigrants
 status: ongoing
@@ -18,7 +18,7 @@ last_updated: 2026-01-23T19:21:21
 - **Jan 23** - [ICE flew the 2-year-old and her father to Texas](https://kstp.com/kstp-news/top-news/ice-flew-2-year-old-to-texas-despite-court-order-to-release-her-from-custody/), separating the child from her mother, 19 minutes after a federal judge ordered the toddler released. A government attorney pledged to return the girl to Minnesota on Friday.
 
 ## Summary
-ICE detained Elvis Joel Tipan Echeverria and his 2-year-old daughter Chloe Renata Tipan Villacis near Powderhorn Park in South Minneapolis as they returned from a grocery store. Attorneys for the family say they were asylum-seekers pulled over without a warrant and did not have a final order for removal. A federal judge ordered the toddler released by 9:30 PM, but ICE placed both on a commercial flight to Texas 19 minutes after the order was signed. A government attorney subsequently pledged to return the girl to Minnesota.
+ICE agents followed Elvis Joel Tipan Echeverria and his 2-year-old daughter Chloe Renata Tipan Villacis from a grocery store to their home near Chicago Avenue and 35th Street in South Minneapolis, where they detained them. Attorneys for the family say they were asylum-seekers pulled over without a warrant and did not have a final order for removal. A federal judge ordered the toddler released by 9:30 PM, but ICE placed both on a commercial flight to Texas 19 minutes after the order was signed. A government attorney subsequently pledged to return the girl to Minnesota.
 
 ## Sources
 1. Star Tribune (Jan 23, 2026): [Agents detain and send 2-year-old girl and her father to Texas despite court order to release toddler](https://www.startribune.com/agents-detain-and-send-2-year-old-girl-and-her-father-to-texas-despite-court-order-to-release-toddler/601569252)
@@ -26,6 +26,7 @@ ICE detained Elvis Joel Tipan Echeverria and his 2-year-old daughter Chloe Renat
 3. NBC News (Jan 23, 2026): [2-year-old girl and father taken by ICE in Minneapolis, local lawmaker says](https://www.nbcnews.com/news/us-news/2-year-old-girl-father-taken-ice-minneapolis-immigration-rcna255603)
 4. KARE 11 (Jan 23, 2026): [ICE detains 2-year-old and father, Minneapolis city council member says](https://www.kare11.com/article/news/local/ice-in-minnesota/ice-detains-2-year-old-and-father-minneapolis-city-council-member-says/89-c1383d48-7d9d-4c39-a2ee-481f358eabec)
 5. GoFundMe (Jan 22, 2026): [Help bring 2-Year-Old Chloe and Her Father Home](https://www.gofundme.com/f/help-bring-2yearold-chloe-and-her-father-home)
+6. Bring Me The News (Jan 23, 2026): [Federal agents detain 2-year-old girl and her father in south Minneapolis](https://bringmethenews.com/minnesota-news/federal-agents-detain-2-year-old-girl-and-her-father-in-south-minneapolis)
 
 ## Affected Individual(s)
 - **Name:** Elvis Joel Tipan Echeverria (father)
@@ -38,7 +39,7 @@ ICE detained Elvis Joel Tipan Echeverria and his 2-year-old daughter Chloe Renat
 - **Status:** Flown to Texas despite court order; government pledged return
 
 ## What Happened
-At approximately 1:09 PM on January 22, 2026, Border Patrol agents stopped Elvis and his 2-year-old daughter Chloe near Powderhorn Park in South Minneapolis as they returned from a grocery store. Both were detained.
+At approximately 1:09 PM on January 22, 2026, Border Patrol agents followed Elvis and his 2-year-old daughter Chloe from a grocery store to their home near Chicago Avenue and 35th Street in South Minneapolis. Agents detained both at the scene.
 
 According to family attorneys, the two were asylum-seekers who were pulled over without a warrant and did not have a final order for removal.
 
