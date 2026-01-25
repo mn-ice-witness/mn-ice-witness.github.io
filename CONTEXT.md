@@ -127,16 +127,22 @@ Use documentary tone. Let facts speak for themselves.
 |-------------------|---------------------|
 | **Adding a new incident** | `adding-incidents.md`, `incident-schema.md`, `not_use.md` |
 | **Renaming an incident ID** | `id-reassignment.md` |
+| **Hiding/drafting an incident** | `hiding-incidents.md` |
 | **Searching for new incidents** | `llm-search-procedure.md`, `research-sources.md`, `not_use.md` |
+| **Assessing source credibility** | `source-tiers.md`, `adding-incidents.md` |
+| **Handling unverified incidents** | `unverified-incidents.md` |
+| **Status/citizenship values** | `status-categories.md` |
 | **Modifying JavaScript** | `architecture.md` (JS module reference), `code-review-findings.md` |
 | **Modifying CSS** | `architecture.md` (CSS structure section) |
 | **URL/routing work** | `url-routing.md`, `single-page-navigation.md` |
 | **Video player changes** | `media-controls.md` |
+| **Video loading/performance** | `media-loading-strategy.md` |
 | **Adding icons or UI elements** | `ui-patterns.md` |
 | **Processing media files** | `architecture.md` (media pipeline), `adding-video-audio.md` |
 | **Testing on preview branch** | `preview-deployments.md` |
 | **Understanding deployment** | `DEPLOYMENT.md` |
 | **Cloudflare settings/CDN** | `cloudflare-configuration.md` |
+| **Analytics/tracking** | `analytics-decision.md`, `removed-tracking.md` |
 | **Refactoring code** | `refactoring-plan.md`, `code-review-findings.md` |
 | **Social media posts** | `social-media-listing-procedure.md` |
 | **Official DHS responses** | `researching-responses.md` |
@@ -144,7 +150,7 @@ Use documentary tone. Let facts speak for themselves.
 | **Notable incidents feature** | `notable-incidents.md` |
 | **Operation PARRIS context** | `operation-parris.md` |
 | **Outreach/sharing** | `outreach-templates.md`, `contacts.md` |
-| **OG image (social sharing)** | `og-image.md` |
+| **OG image (social sharing)** | `og-image.md`, `custom-og-images.md` |
 | **Logo/favicon management** | `logo-management.md` |
 
 ---
@@ -189,6 +195,7 @@ GIT_MN_ICE_FILES/
 | `architecture.md` | System design, JS module reference, CSS structure, Python scripts, media pipeline |
 | `incident-schema.md` | Frontmatter schema, body structure, source formatting |
 | `adding-incidents.md` | Step-by-step guide, duplicate checking, trustworthiness criteria |
+| `hiding-incidents.md` | Temporarily hide drafts/unpublished incidents using underscore prefix |
 
 ### Code Quality
 | Doc | Contents |
@@ -208,18 +215,23 @@ GIT_MN_ICE_FILES/
 |-----|----------|
 | `ui-patterns.md` | SVG icon pattern, available icons |
 | `media-controls.md` | Video player, fullscreen |
+| `media-loading-strategy.md` | Video preloading, scroll-ahead prefetch, bandwidth optimization |
 | `adding-video-audio.md` | System audio capture |
 | `media-candidates.md` | Videos to research |
 | `og-image.md` | Social sharing image generation |
+| `custom-og-images.md` | Replace auto-generated OG images with custom screenshots |
 | `logo-management.md` | Favicon/logo creation and switching |
 
 ### Research & Content
 | Doc | Contents |
 |-----|----------|
 | `research-sources.md` | News sources, social accounts |
+| `source-tiers.md` | Source credibility tiers (Tier 1/2/3) for trustworthiness ratings |
 | `researching-responses.md` | Finding DHS/ICE responses |
 | `llm-search-procedure.md` | Daily search workflow |
 | `not_use.md` | Rejected stories |
+| `unverified-incidents.md` | Procedure for handling unverified incidents |
+| `status-categories.md` | Citizenship status values and location formatting |
 | `operation-parris.md` | Refugee detention context |
 | `notable-incidents.md` | Notable flag feature |
 
@@ -246,6 +258,9 @@ GIT_MN_ICE_FILES/
 | `meta-not-use.md` | About page story exclusions |
 | `social-posts-discussion.md` | Social posts ideas |
 | `media-complications-ice-tactics.md` | Media coverage links |
+| `analytics-decision.md` | Analytics options and tradeoffs (GA vs Cloudflare vs none) |
+| `removed-tracking.md` | Preserves removed GA/tracking code for reference |
+| `google-analytics.md` | GA property ID and code snippet (currently disabled) |
 
 ---
 
