@@ -10,7 +10,7 @@ injuries: fatal
 trustworthiness: high
 media: 2026-01-24-alex-pretti-shooting.mp4
 created: 2026-01-24T13:40:15
-last_updated: 2026-01-24T18:42:00
+last_updated: 2026-01-25T10:54:50
 ---
 
 # Alex Pretti Shot and Killed by Federal Agents
