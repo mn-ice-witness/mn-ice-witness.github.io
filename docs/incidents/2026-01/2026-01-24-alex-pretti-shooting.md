@@ -10,12 +10,13 @@ injuries: fatal
 trustworthiness: high
 media: 2026-01-24-alex-pretti-shooting.mp4
 created: 2026-01-24T13:40:15
-last_updated: 2026-01-24T16:54:42
+last_updated: 2026-01-24T18:42:00
 ---
 
 # Alex Pretti Shot and Killed by Federal Agents
 
 ## Updates
+- **Jan 24, 6:42 PM** - Pretti's parents, Michael and Susan Pretti, release [statement](#family-statement) calling their son "a good man" and demanding the truth be told.
 - **Jan 24** - [New video evidence](https://bsky.app/profile/joshuaeakle.com/post/3md76ihzrg22y) appears to show Pretti was holding a phone, not a weapon, and that an agent removed his gun before the shooting.
 
 ***Note: DHS Secretary Kristi Noem, White House advisor Stephen Miller, and other administration officials have consistently claimed Pretti approached agents with a firearm and "violently resisted" disarming. Video from multiple angles shows Pretti was holding a phone, not a weapon, and that an agent removed his holstered gun before the shooting. Analysis by [Bellingcat](https://bsky.app/profile/bellingcat.com/post/3md6vleoxks2t) and independent posts on Bluesky and X corroborate this. Hennepin County Attorney Mary Moriarty and Minnesota Attorney General Keith Ellison have announced a joint state investigation and are asking residents to [submit evidence](https://www.kare11.com/article/news/local/ice-in-minnesota/mn-attorney-general-hennepin-county-attorney-ask-residents-to-submit-evidence-in-ice-shooting-investigation/89-9dda09e8-f299-4f3a-bc5f-a938dba30fb1). The FBI has cut the Minnesota Bureau of Criminal Apprehension off from the federal investigation.***
@@ -44,7 +45,7 @@ Federal agents fatally shot Alex Jeffrey Pretti, a 37-year-old U.S. citizen, lic
 - **Name:** Alex Jeffrey Pretti
 - **Age:** 37
 - **Citizenship:** U.S. citizen
-- **Occupation:** Licensed nurse, University of Minnesota graduate
+- **Occupation:** ICU nurse at Minneapolis VA hospital, University of Minnesota graduate
 - **Gun status:** Lawful gun owner with permit to carry
 - **Criminal history:** None (traffic tickets only)
 - **Residence:** South Minneapolis
@@ -82,6 +83,18 @@ Confirmed Pretti was a lawful gun owner with a permit to carry. Stated police "h
 
 **Hennepin County Attorney Mary Moriarty:**
 Called for the scene to be secured by local law enforcement. Announced joint investigation with Attorney General Keith Ellison and requested public submit evidence through online portal.
+
+## Family Statement
+
+**Statement from Michael and Susan Pretti, Parents of Alex Jeffrey Pretti (Jan 24, 2026 at 6:42 PM):**
+
+> "We are heartbroken but also very angry.
+>
+> Alex was a kindhearted soul who cared deeply for his family and friends and also the American veterans whom he cared for as an ICU nurse at the Minneapolis VA hospital. Alex wanted to make a difference in this world. Unfortunately, he will not be with us to see his impact.
+>
+> I do not throw around the 'hero' term lightly. However, his last thought and act was to protect a woman. The sickening lies told about our son by the administration are reprehensible and disgusting. Alex is clearly not holding a gun when attacked by Trump's murdering and cowardly ICE thugs. He had his phone in his right hand and his empty left hand is raised above his head while trying to protect the woman ICE just pushed down, all while being pepper sprayed.
+>
+> Please get the truth out about our son. He was a good man. Thank you."
 
 ## Editorial Assessment
 **HIGH** - Multiple independent news sources, video evidence from witness, official statements from both DHS and local officials. Footage shows multiple agents on top of Pretti when shots were fired. The circumstances remain disputed between federal and local authorities.
