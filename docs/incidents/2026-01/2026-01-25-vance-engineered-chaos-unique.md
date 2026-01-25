@@ -12,7 +12,7 @@ created: 2026-01-25T07:59:29
 last_updated: 2026-01-25T07:59:29
 ---
 
-# Vance: "Engineered Chaos" Unique to Minneapolis
+# Vance on Pretti: "Engineered Chaos" Unique to Minneapolis
 
 ## Summary
 

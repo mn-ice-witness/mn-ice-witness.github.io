@@ -11,7 +11,7 @@ trustworthiness: high
 created: 2026-01-25T08:10:21
 ---
 
-# Bovino: "Let's Take a Look at the Gun"; Second Amendment Groups Raise Concerns
+# Bovino on Pretti: "Let's Take a Look at the Gun"; Second Amendment Groups Raise Concerns
 
 ## Summary
 At a press conference following the fatal shooting of Alex Pretti, Border Patrol Commander Greg Bovino deflected a reporter's question about whether Pretti ever reached for or brandished his weapon. When asked directly, Bovino pivoted: "This is under investigation. Those facts will come to light, but let's take a look at the gun." He then displayed a photo of Pretti's firearm and described it as "semi-automatic high capacity type, possibly a SIG Sauer." The deflection sparked concern from Second Amendment advocacy groups, who argue that merely possessing a legal firearm does not justify lethal force. Gun Owners of America, Second Amendment Foundation, and Minnesota Gun Owners Caucus have all called for a full investigation.
