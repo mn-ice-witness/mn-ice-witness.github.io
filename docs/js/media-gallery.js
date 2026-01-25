@@ -353,8 +353,9 @@ const MediaGallery = {
     },
 
     /**
-     * Preload a single video and wait for it to be ready
-     * Returns a Promise that resolves when video is playable or times out
+     * Preload a single video and wait for partial buffer before continuing
+     * Resolves when 10% buffered (or 2 seconds, whichever is less) to give
+     * priority to earlier videos without fully blocking later ones
      */
     preloadSingleVideo(mediaUrl) {
         return new Promise((resolve) => {
@@ -367,14 +368,40 @@ const MediaGallery = {
             document.body.appendChild(video);
 
             this.preloadedVideos.add(mediaUrl);
+            let resolved = false;
+
+            const checkBuffer = () => {
+                if (resolved) return;
+                if (video.buffered.length > 0 && video.duration > 0) {
+                    const bufferedEnd = video.buffered.end(0);
+                    const targetSeconds = Math.min(video.duration * 0.1, 2);
+                    if (bufferedEnd >= targetSeconds) {
+                        resolved = true;
+                        resolve();
+                    }
+                }
+            };
 
             const cleanup = () => {
                 video.remove();
-                resolve();
             };
 
-            video.addEventListener('canplaythrough', cleanup, { once: true });
-            setTimeout(cleanup, 30000);
+            video.addEventListener('progress', checkBuffer);
+            video.addEventListener('canplaythrough', () => {
+                if (!resolved) {
+                    resolved = true;
+                    resolve();
+                }
+                cleanup();
+            }, { once: true });
+
+            setTimeout(() => {
+                if (!resolved) {
+                    resolved = true;
+                    resolve();
+                }
+                cleanup();
+            }, 30000);
         });
     },
 
