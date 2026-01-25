@@ -16,12 +16,14 @@ last_updated: 2026-01-24T18:42:00
 # Alex Pretti Shot and Killed by Federal Agents
 
 ## Updates
+- **Jan 25** - [CNN video analysis](https://www.cnn.com/2026/01/25/us/video/minneapolis-ice-shooting-alex-pretti-visual-analysis-digvid) contradicts DHS claims, showing Pretti holding phone, not weapon.
 - **Jan 25** - When asked if Pretti reached for his gun, Commander Bovino [defers to investigation](#2026-01-25-bovino-pretti-had-gun-response): "Let's take a look at the gun." Gun rights groups raise concerns.
 - **Jan 25** - Vice President Vance [claims on X](#2026-01-25-vance-engineered-chaos-unique) that "engineered chaos" in Minneapolis is "unique" and caused by "far left agitators, working with local authorities." Vance provided no evidence for this assertion.
+- **Jan 24** - U.S. District Judge Eric Tostrud [grants temporary restraining order](https://www.foxnews.com/politics/judge-blocks-trump-admin-destroying-altering-evidence-deadly-minneapolis-shooting) barring DHS from destroying or altering evidence.
 - **Jan 24, 6:42 PM** - Pretti's parents, Michael and Susan Pretti, release [statement](https://bsky.app/profile/jeffrueter.bsky.social/post/3md7iqqr5622i) calling their son "a good man" and demanding the truth be told.
 - **Jan 24** - [New video evidence](https://bsky.app/profile/joshuaeakle.com/post/3md76ihzrg22y) appears to show Pretti was holding a phone, not a weapon, and that an agent removed his gun before the shooting.
 
-***Note: DHS Secretary Kristi Noem, White House advisor Stephen Miller, and other administration officials have consistently claimed Pretti approached agents with a firearm and "violently resisted" disarming. Video from multiple angles shows Pretti was holding a phone, not a weapon, and that an agent removed his holstered gun before the shooting. Analysis by [Bellingcat](https://bsky.app/profile/bellingcat.com/post/3md6vleoxks2t) and independent posts on Bluesky and X corroborate this. Hennepin County Attorney Mary Moriarty and Minnesota Attorney General Keith Ellison have announced a joint state investigation and are asking residents to [submit evidence](https://www.kare11.com/article/news/local/ice-in-minnesota/mn-attorney-general-hennepin-county-attorney-ask-residents-to-submit-evidence-in-ice-shooting-investigation/89-9dda09e8-f299-4f3a-bc5f-a938dba30fb1). The FBI has cut the Minnesota Bureau of Criminal Apprehension off from the federal investigation.***
+***Note: DHS Secretary Kristi Noem, White House advisor Stephen Miller, and other administration officials have consistently claimed Pretti approached agents with a firearm and "violently resisted" disarming. Video from multiple angles shows Pretti was holding a phone, not a weapon, and that an agent removed his holstered gun before the shooting. Analysis by [Bellingcat](https://bsky.app/profile/bellingcat.com/post/3md6vleoxks2t), [CNN video analysis](https://www.cnn.com/2026/01/25/us/video/minneapolis-ice-shooting-alex-pretti-visual-analysis-digvid), and independent posts on Bluesky and X corroborate this. Hennepin County Attorney Mary Moriarty and Minnesota Attorney General Keith Ellison have announced a joint state investigation and are asking residents to [submit evidence](https://www.kare11.com/article/news/local/ice-in-minnesota/mn-attorney-general-hennepin-county-attorney-ask-residents-to-submit-evidence-in-ice-shooting-investigation/89-9dda09e8-f299-4f3a-bc5f-a938dba30fb1). The FBI has cut the Minnesota Bureau of Criminal Apprehension off from the federal investigation. U.S. District Judge Eric Tostrud granted a temporary restraining order barring DHS from destroying or altering evidence.***
 
 ## Summary
 Federal agents fatally shot Alex Jeffrey Pretti, a 37-year-old U.S. citizen, licensed nurse, and lawful gun owner, in south Minneapolis. This is the second fatal shooting involving federal agents in Minnesota in three weeks, following the killing of Renee Good. Video shows multiple agents wrestling Pretti to the ground before shooting him multiple times.
@@ -42,6 +44,12 @@ Federal agents fatally shot Alex Jeffrey Pretti, a 37-year-old U.S. citizen, lic
 13. Bluesky (Jan 24, 2026): [Bellingcat video analysis](https://bsky.app/profile/bellingcat.com/post/3md733zyf722w)
 14. X/Twitter Video (Jan 24, 2026): [@robdoar video analysis](https://x.com/robdoar/status/2015150225317388508)
 15. Bluesky Video (Jan 24, 2026): [@joshuaeakle.com video analysis](https://bsky.app/profile/joshuaeakle.com/post/3md76ihzrg22y)
+16. Fox News (Jan 24, 2026): [Judge blocks Trump admin from destroying evidence](https://www.foxnews.com/politics/judge-blocks-trump-admin-destroying-altering-evidence-deadly-minneapolis-shooting)
+17. The Hill (Jan 24, 2026): [Judge orders DHS to preserve evidence](https://thehill.com/regulation/court-battles/5705220-judge-blocks-destroying-altering-evidence-minneapolis-shooting/)
+18. CNN (Jan 25, 2026): [Video analysis sheds new light on killing](https://www.cnn.com/2026/01/25/us/video/minneapolis-ice-shooting-alex-pretti-visual-analysis-digvid) - **VIDEO**
+19. Al Jazeera (Jan 25, 2026): [Who was Alex Pretti?](https://www.aljazeera.com/news/2026/1/25/who-was-alex-pretti-the-nurse-shot-dead-by-federal-agents-in-minneapolis)
+20. NPR (Jan 25, 2026): [5 things to know about the latest Minneapolis shooting](https://www.npr.org/2026/01/25/nx-s1-5687361/minneapolis-shooting-latest-alex-pretti)
+21. Wikipedia: [Killing of Alex Pretti](https://en.wikipedia.org/wiki/Killing_of_Alex_Pretti)
 
 ## Affected Individual(s)
 - **Name:** Alex Jeffrey Pretti

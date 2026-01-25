@@ -28,6 +28,9 @@ Four students from Columbia Heights Public School District have been detained by
 8. NBC News (Jan 22, 2026): [ICE detains 4 Minnesota students, including 5-year-old, school district says](https://www.nbcnews.com/news/us-news/ice-detains-4-minnesota-students-5-year-old-school-district-says-rcna255366)
 9. Washington Post (Jan 22, 2026): [Liam Ramos, 5-year-old taken by ICE in Minnesota, is in Texas](https://www.washingtonpost.com/immigration/2026/01/22/minnesota-ice-columbia-heights-school/)
 10. New York Times (Jan 22, 2026): [Liam Ramos, 5, Detained by ICE in Minneapolis](https://www.nytimes.com/2026/01/22/us/liam-detention-ice-minneapolis.html)
+11. CBS News (Jan 23, 2026): [5-year-old has active immigration case, preventing deportation for now](https://www.cbsnews.com/news/5-year-old-ice-minneapolis-immigration/)
+12. Al Jazeera (Jan 23, 2026): [US officers detain 5-year-old boy as Minnesota immigration raids continue](https://www.aljazeera.com/news/2026/1/23/us-officers-detain-5-year-old-boy-as-minnesota-immigration-raids-continue)
+13. ABC News (Jan 23, 2026): [Top ICE official accuses father of detained 5-year-old of 'abandoning his child'](https://abcnews.go.com/US/top-ice-official-accuses-father-detained-5-year/story?id=129500186)
 
 ## Related Incidents
 

@@ -18,6 +18,27 @@ Stories are excluded when they don't meet the project's core focus:
 
 ### January 2026
 
+**Class Action Lawsuit Against Operation PARRIS (Jan 24)**
+- Sources: [Star Tribune](https://www.startribune.com/class-action-lawsuit-filed-against-federal-operation-targeting-minnesotas-legal-refugees/601570032), [IRAP](https://refugeerights.org/news-resources/refugees-sue-trump-administration-to-stop-ice-terror-campaign)
+- Date: January 24, 2026
+- Details: Five refugees and legal groups (IRAP, Berger Montague, CHRCL, Advocates for Human Rights) filed class action lawsuit against federal officials over Operation PARRIS, which is re-examining ~5,600 Minnesota refugees' status. Lawsuit alleges violations of Immigration and Nationality Act and Constitution; seeks to stop warrantless arrests and coercive interrogation of lawfully present refugees.
+- Reason: **Legal/policy story** - documents legal challenge to systemic program, not a specific civil rights incident. Individual refugee detentions under Operation PARRIS are documented as separate incidents.
+- Date evaluated: 2026-01-25
+
+**Mayo Clinic Healthcare Workers Walkout (Jan 23)**
+- Sources: [MPR News](https://www.mprnews.org/story/2026/01/23/health-care-providers-at-mayo-clinic-walk-out-in-protest-of-ice-cbp-operations)
+- Date: January 23, 2026
+- Details: Mayo Clinic medical residents and fellows organized a 15-minute walkout in Rochester to call for an end to federal immigration enforcement actions. Similar walkouts at Hennepin Healthcare and University of Minnesota. Providers noted patients are afraid to come in for appointments and pick up prescriptions.
+- Reason: **Protest coverage only** - documents healthcare worker protest, not a civil rights incident or enforcement action against a person.
+- Date evaluated: 2026-01-25
+
+**Fong Khang Pardoned Then Detained (Jan 21)**
+- Sources: [Star Tribune](https://www.startribune.com/he-was-pardoned-by-the-state-on-tuesday-picked-up-by-ice-on-wednesday/601568766)
+- Date: January 21, 2026
+- Details: Fong Khang, 46, a legal permanent resident since 1983, was detained by ICE less than 24 hours after receiving a unanimous pardon from the Minnesota Board of Pardons (Walz, Ellison, Hudson) for 8 criminal convictions from nearly 20 years ago (thefts, driving without license, false info to police). He owns two auto repair shops in the Twin Cities. Now detained in Texas facing deportation to Laos. His lawsuit claims the pardon "eliminates any legal basis for removal."
+- Reason: **Detainee with criminal convictions.** While the state pardon is notable, Khang had a documented criminal history that made him deportable under federal law. This is a legal/policy story about whether state pardons can eliminate federal deportation grounds, not a civil rights abuse case. The core question is constitutional (federal vs state authority), not ICE misconduct.
+- Date evaluated: 2026-01-25
+
 **Nekima Levy Armstrong, Chauntyll Allen, William Kelly Arrests (Jan 22)**
 - Sources: [KARE 11](https://www.kare11.com/article/news/local/ice-in-minnesota/nekima-levy-armstrong-arrested-in-cities-church-protest/89-ab545f86-3057-4ad3-b460-b250df95deba), [MPR News](https://www.mprnews.org/story/2026/01/22/nekima-levy-armstrong-arrested-cities-church-protest), [CBS Minnesota](https://www.cbsnews.com/minnesota/news/church-protesters-minneapolis-charges-federal-face-act/)
 - Date: January 22, 2026
