@@ -328,9 +328,6 @@ const MediaGallery = {
      * Preload top videos in background (call while in list view)
      * Creates hidden video elements with preload="auto" for reliable cross-browser loading
      * Note: <link rel="preload" as="video"> is not supported in Chrome/Safari
-     *
-     * Videos are loaded SEQUENTIALLY (one at a time) so the first video gets
-     * 100% of available bandwidth and is ready as fast as possible.
      */
     async preloadTopVideos(count = 6) {
         if (typeof App === 'undefined' || !App.incidents) return;
@@ -344,21 +341,10 @@ const MediaGallery = {
 
         const toPreload = mediaIncidents.slice(0, count);
 
-        for (const incident of toPreload) {
+        toPreload.forEach(incident => {
             const mediaUrl = App.getMediaUrl(incident.localMediaPath, incident.mediaVersion);
-            if (this.preloadedVideos.has(mediaUrl)) continue;
+            if (this.preloadedVideos.has(mediaUrl)) return;
 
-            await this.preloadSingleVideo(mediaUrl);
-        }
-    },
-
-    /**
-     * Preload a single video and wait for partial buffer before continuing
-     * Resolves when 10% buffered (or 5 seconds, whichever is less) to give
-     * priority to earlier videos without fully blocking later ones
-     */
-    preloadSingleVideo(mediaUrl) {
-        return new Promise((resolve) => {
             const video = document.createElement('video');
             video.preload = 'auto';
             video.muted = true;
@@ -367,48 +353,20 @@ const MediaGallery = {
             video.style.cssText = 'position:absolute;width:1px;height:1px;opacity:0;pointer-events:none;';
             document.body.appendChild(video);
 
-            this.preloadedVideos.add(mediaUrl);
-            let resolved = false;
-
-            const checkBuffer = () => {
-                if (resolved) return;
-                if (video.buffered.length > 0 && video.duration > 0) {
-                    const bufferedEnd = video.buffered.end(0);
-                    const targetSeconds = Math.min(video.duration * 0.1, 5);
-                    if (bufferedEnd >= targetSeconds) {
-                        resolved = true;
-                        resolve();
-                    }
-                }
-            };
-
-            const cleanup = () => {
-                video.remove();
-            };
-
-            video.addEventListener('progress', checkBuffer);
             video.addEventListener('canplaythrough', () => {
-                if (!resolved) {
-                    resolved = true;
-                    resolve();
-                }
-                cleanup();
+                video.remove();
             }, { once: true });
 
-            setTimeout(() => {
-                if (!resolved) {
-                    resolved = true;
-                    resolve();
-                }
-                cleanup();
-            }, 30000);
+            setTimeout(() => video.remove(), 30000);
+
+            this.preloadedVideos.add(mediaUrl);
         });
     },
 
     /**
      * Setup prefetch observer for videos approaching viewport
-     * Uses large root margin (1000px) to start loading well before visible
-     * This gives 2-3 cards of lead time on mobile for buffering during scroll
+     * Uses large root margin (500px) to start loading well before visible
+     * This gives time for videos to buffer during scrolling
      */
     setupPrefetchObserver(gallery) {
         const videos = gallery.querySelectorAll('.media-card-video');
@@ -425,7 +383,7 @@ const MediaGallery = {
                     prefetchObserver.unobserve(video);
                 }
             });
-        }, { rootMargin: '1000px 0px' });
+        }, { rootMargin: '500px 0px' });
 
         videos.forEach(video => prefetchObserver.observe(video));
     }
