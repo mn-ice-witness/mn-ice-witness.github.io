@@ -5,6 +5,8 @@ This creates a single JSON file with all metadata needed for table rendering,
 eliminating the need to fetch individual markdown files on page load.
 """
 
+from __future__ import annotations
+
 import json
 import re
 import subprocess
@@ -15,6 +17,18 @@ from pathlib import Path
 # Media extensions for detecting local media
 VIDEO_EXTENSIONS = {".mp4", ".webm"}
 IMAGE_EXTENSIONS = {".webp", ".jpg", ".jpeg", ".png"}
+
+# Pattern to extract date from filename: YYYY-MM-DD-rest
+DATE_PATTERN = re.compile(r"^(\d{4})-(\d{2})-(\d{2})-")
+
+
+def get_date_folder(slug: str) -> str | None:
+    """Extract YYYY-MM/DD folder path from slug."""
+    match = DATE_PATTERN.match(slug)
+    if match:
+        year, month, day = match.groups()
+        return f"{year}-{month}/{day}"
+    return None
 
 
 def get_media_aspect_ratio(file_path: Path):
@@ -50,10 +64,21 @@ def get_media_aspect_ratio(file_path: Path):
 
 def find_og_image(slug: str, media_dir: Path):
     """Find OG image for a video using pattern (e.g., slug-og-2s-1234567890.jpg)."""
+    date_folder = get_date_folder(slug)
     pattern = f"{slug}-og-*.jpg"
+
+    # Check date-based folder first
+    if date_folder:
+        folder_path = media_dir / date_folder
+        if folder_path.exists():
+            matches = list(folder_path.glob(pattern))
+            if matches:
+                matches.sort(key=lambda p: p.stat().st_mtime, reverse=True)
+                return f"media/{date_folder}/{matches[0].name}"
+
+    # Fall back to flat structure
     matches = list(media_dir.glob(pattern))
     if matches:
-        # Return the most recent one if multiple exist
         matches.sort(key=lambda p: p.stat().st_mtime, reverse=True)
         return f"media/{matches[0].name}"
     return None
@@ -74,22 +99,37 @@ def get_local_media(slug: str, media_dir: Path) -> dict:
     if not media_dir.exists():
         return result
 
+    # Determine the search directory and path prefix
+    date_folder = get_date_folder(slug)
+    if date_folder:
+        folder_path = media_dir / date_folder
+        if folder_path.exists():
+            search_dir = folder_path
+            path_prefix = f"media/{date_folder}"
+        else:
+            # Fall back to flat structure
+            search_dir = media_dir
+            path_prefix = "media"
+    else:
+        search_dir = media_dir
+        path_prefix = "media"
+
     media_files = []
 
     # Collect all matching video files
     for ext in VIDEO_EXTENSIONS:
-        media_path = media_dir / f"{slug}{ext}"
+        media_path = search_dir / f"{slug}{ext}"
         if media_path.exists():
             media_files.append(
-                {"type": "video", "path": f"media/{slug}{ext}", "file": media_path}
+                {"type": "video", "path": f"{path_prefix}/{slug}{ext}", "file": media_path}
             )
 
     # Collect all matching image files
     for ext in IMAGE_EXTENSIONS:
-        media_path = media_dir / f"{slug}{ext}"
+        media_path = search_dir / f"{slug}{ext}"
         if media_path.exists():
             media_files.append(
-                {"type": "image", "path": f"media/{slug}{ext}", "file": media_path}
+                {"type": "image", "path": f"{path_prefix}/{slug}{ext}", "file": media_path}
             )
 
     if media_files:

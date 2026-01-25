@@ -41,6 +41,18 @@ IMAGE_EXTENSIONS = {".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".webp"}
 # Pattern to match OG image files with timestamp: incident-og-2.0s.jpg
 OG_FILENAME_PATTERN = re.compile(r"^(.+)-og-(\d+\.?\d*)s\.jpg$")
 
+# Pattern to extract date from filename: YYYY-MM-DD-rest
+DATE_PATTERN = re.compile(r"^(\d{4})-(\d{2})-(\d{2})-")
+
+
+def get_date_folder(filename: str) -> str | None:
+    """Extract YYYY-MM/DD folder path from filename."""
+    match = DATE_PATTERN.match(filename)
+    if match:
+        year, month, day = match.groups()
+        return f"{year}-{month}/{day}"
+    return None
+
 
 def load_og_tweaks(project_root: Path) -> dict[str, float]:
     """Load custom OG timestamps from docs/data/og-tweaks.md."""
@@ -263,6 +275,9 @@ def concatenate_preprocessed_videos(
         f"  Concatenating {len(input_paths)} pre-processed parts into: {output_path.name}{quality_note}"
     )
 
+    # Ensure output directory exists
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
     dimensions = [get_video_dimensions(p) for p in input_paths]
     canvas_width, canvas_height = dimensions[0]
     canvas_width += canvas_width % 2
@@ -327,18 +342,25 @@ def concatenate_preprocessed_videos(
 
 
 def get_output_path(raw_path: Path, output_dir: Path) -> Path:
-    """Convert raw filename to output filename."""
+    """Convert raw filename to output filename, using date-based folder structure."""
     stem = raw_path.stem
     # Remove .raw suffix if present
     if stem.endswith(".raw"):
         stem = stem[:-4]
 
+    # Determine date folder from stem
+    date_folder = get_date_folder(stem)
+    if date_folder:
+        target_dir = output_dir / date_folder
+    else:
+        target_dir = output_dir
+
     # Determine output extension based on input type
     suffix = raw_path.suffix.lower()
     if suffix in VIDEO_EXTENSIONS:
-        return output_dir / f"{stem}.mp4"
+        return target_dir / f"{stem}.mp4"
     elif suffix in IMAGE_EXTENSIONS:
-        return output_dir / f"{stem}.jpg"  # Use JPEG for compatibility
+        return target_dir / f"{stem}.jpg"  # Use JPEG for compatibility
     return None
 
 
@@ -352,7 +374,15 @@ def get_multipart_output_path(base_name: str, output_dir: Path) -> Path:
         if stem.endswith(ext):
             stem = stem[: -len(ext)]
             break
-    return output_dir / f"{stem}.mp4"
+
+    # Determine date folder from stem
+    date_folder = get_date_folder(stem)
+    if date_folder:
+        target_dir = output_dir / date_folder
+    else:
+        target_dir = output_dir
+
+    return target_dir / f"{stem}.mp4"
 
 
 def needs_processing(raw_path: Path, output_path: Path) -> bool:
@@ -374,6 +404,9 @@ def process_video(input_path: Path, output_path: Path, crf: int = DEFAULT_CRF) -
     """Process video: compress with H.264, normalize audio, crop edges, optimize for web."""
     quality_note = " (high quality)" if crf < DEFAULT_CRF else ""
     print(f"  Processing video: {input_path.name}{quality_note}")
+
+    # Ensure output directory exists
+    output_path.parent.mkdir(parents=True, exist_ok=True)
 
     cmd = [
         "ffmpeg",
@@ -422,6 +455,9 @@ def process_image(input_path: Path, output_path: Path) -> bool:
     """Process image: convert to optimized JPEG."""
     print(f"  Processing image: {input_path.name}")
 
+    # Ensure output directory exists
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+
     cmd = [
         "ffmpeg",
         "-y",  # Overwrite output
@@ -451,7 +487,16 @@ def process_image(input_path: Path, output_path: Path) -> bool:
 
 def find_custom_og_source(slug: str, raw_dir: Path) -> Path | None:
     """Find a custom OG source image (slug.raw_og.png/jpg) in raw_media/."""
+    # Determine date folder from slug
+    date_folder = get_date_folder(slug)
+
     for ext in [".png", ".jpg", ".jpeg"]:
+        # Check date-based folder first
+        if date_folder:
+            custom_path = raw_dir / date_folder / f"{slug}.raw_og{ext}"
+            if custom_path.exists():
+                return custom_path
+        # Fall back to flat structure
         custom_path = raw_dir / f"{slug}.raw_og{ext}"
         if custom_path.exists():
             return custom_path
@@ -461,6 +506,9 @@ def find_custom_og_source(slug: str, raw_dir: Path) -> Path | None:
 def process_custom_og_image(input_path: Path, og_path: Path) -> bool:
     """Process a custom OG image: scale to 1200x630 with letterboxing."""
     print(f"  Processing custom OG: {input_path.name} -> {og_path.name}")
+
+    # Ensure output directory exists
+    og_path.parent.mkdir(parents=True, exist_ok=True)
 
     cmd = [
         "ffmpeg",
@@ -498,6 +546,9 @@ def get_custom_og_path(video_output_path: Path, source_mtime: int) -> Path:
 def generate_og_image(video_path: Path, og_path: Path, timestamp: float) -> bool:
     """Generate OG image (1200x630) from video at specified timestamp."""
     print(f"  Generating OG image: {og_path.name} (at {timestamp}s)")
+
+    # Ensure output directory exists
+    og_path.parent.mkdir(parents=True, exist_ok=True)
 
     cmd = [
         "ffmpeg",
@@ -648,7 +699,7 @@ def main():
     all_extensions = VIDEO_EXTENSIONS | IMAGE_EXTENSIONS
     raw_files = [
         f
-        for f in raw_dir.iterdir()
+        for f in raw_dir.rglob("*")  # Recursively find all files in date folders
         if f.is_file()
         and f.suffix.lower() in all_extensions
         and not f.name.startswith("Screen")

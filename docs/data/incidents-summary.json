@@ -20,12 +20,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-25-bovino-pretti-had-gun-response.mp4",
-      "localMediaOgPath": "media/2026-01-25-bovino-pretti-had-gun-response-og-2s-1769350319.jpg",
+      "localMediaPath": "media/2026-01/25/2026-01-25-bovino-pretti-had-gun-response.mp4",
+      "localMediaOgPath": "media/2026-01/25/2026-01-25-bovino-pretti-had-gun-response-og-2s-1769361344.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-25-bovino-pretti-had-gun-response.mp4"
+          "path": "media/2026-01/25/2026-01-25-bovino-pretti-had-gun-response.mp4"
         }
       ],
       "aspectRatio": 1.8026905829596414,
@@ -77,16 +77,16 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-24-alex-pretti-shooting.mp4",
-      "localMediaOgPath": "media/2026-01-24-alex-pretti-shooting-og-custom-1769303249.jpg",
+      "localMediaPath": "media/2026-01/24/2026-01-24-alex-pretti-shooting.mp4",
+      "localMediaOgPath": "media/2026-01/24/2026-01-24-alex-pretti-shooting-og-custom-1769303249.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-24-alex-pretti-shooting.mp4"
+          "path": "media/2026-01/24/2026-01-24-alex-pretti-shooting.mp4"
         },
         {
           "type": "image",
-          "path": "media/2026-01-24-alex-pretti-shooting.jpg"
+          "path": "media/2026-01/24/2026-01-24-alex-pretti-shooting.jpg"
         }
       ],
       "aspectRatio": 0.5861111111111111,
@@ -112,12 +112,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "image",
-      "localMediaPath": "media/2026-01-24-jana-shortal-journalist-pepper-sprayed.jpg",
+      "localMediaPath": "media/2026-01/24/2026-01-24-jana-shortal-journalist-pepper-sprayed.jpg",
       "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
-          "path": "media/2026-01-24-jana-shortal-journalist-pepper-sprayed.jpg"
+          "path": "media/2026-01/24/2026-01-24-jana-shortal-journalist-pepper-sprayed.jpg"
         }
       ],
       "aspectRatio": 0.5689424364123159,
@@ -143,12 +143,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-24-dhs-response-pretti-shooting.mp4",
-      "localMediaOgPath": "media/2026-01-24-dhs-response-pretti-shooting-og-2s-1769306698.jpg",
+      "localMediaPath": "media/2026-01/24/2026-01-24-dhs-response-pretti-shooting.mp4",
+      "localMediaOgPath": "media/2026-01/24/2026-01-24-dhs-response-pretti-shooting-og-2s-1769361344.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-24-dhs-response-pretti-shooting.mp4"
+          "path": "media/2026-01/24/2026-01-24-dhs-response-pretti-shooting.mp4"
         }
       ],
       "aspectRatio": 1.8305084745762712,
@@ -174,12 +174,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-23-vance-response-5-year-old-detention.mp4",
-      "localMediaOgPath": "media/2026-01-23-vance-response-5-year-old-detention-og-2s-1769224109.jpg",
+      "localMediaPath": "media/2026-01/23/2026-01-23-vance-response-5-year-old-detention.mp4",
+      "localMediaOgPath": "media/2026-01/23/2026-01-23-vance-response-5-year-old-detention-og-2s-1769361344.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-23-vance-response-5-year-old-detention.mp4"
+          "path": "media/2026-01/23/2026-01-23-vance-response-5-year-old-detention.mp4"
         }
       ],
       "aspectRatio": 1.636111111111111,
@@ -231,12 +231,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "image",
-      "localMediaPath": "media/2026-01-22-tipan-toddler-father-detained.jpg",
+      "localMediaPath": "media/2026-01/22/2026-01-22-tipan-toddler-father-detained.jpg",
       "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
-          "path": "media/2026-01-22-tipan-toddler-father-detained.jpg"
+          "path": "media/2026-01/22/2026-01-22-tipan-toddler-father-detained.jpg"
         }
       ],
       "aspectRatio": 1.8831168831168832,
@@ -262,12 +262,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-22-amundson-zemien-seizure-first-responders.mp4",
-      "localMediaOgPath": "media/2026-01-22-amundson-zemien-seizure-first-responders-og-2s-1769221530.jpg",
+      "localMediaPath": "media/2026-01/22/2026-01-22-amundson-zemien-seizure-first-responders.mp4",
+      "localMediaOgPath": "media/2026-01/22/2026-01-22-amundson-zemien-seizure-first-responders-og-2s-1769361344.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-22-amundson-zemien-seizure-first-responders.mp4"
+          "path": "media/2026-01/22/2026-01-22-amundson-zemien-seizure-first-responders.mp4"
         }
       ],
       "aspectRatio": 1.8072289156626506,
@@ -293,12 +293,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-22-south-mpls-teenagers-detained.mp4",
-      "localMediaOgPath": "media/2026-01-22-south-mpls-teenagers-detained-og-2s-1769151459.jpg",
+      "localMediaPath": "media/2026-01/22/2026-01-22-south-mpls-teenagers-detained.mp4",
+      "localMediaOgPath": "media/2026-01/22/2026-01-22-south-mpls-teenagers-detained-og-2s-1769151459.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-22-south-mpls-teenagers-detained.mp4"
+          "path": "media/2026-01/22/2026-01-22-south-mpls-teenagers-detained.mp4"
         }
       ],
       "aspectRatio": 0.5888888888888889,
@@ -324,12 +324,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "image",
-      "localMediaPath": "media/2026-01-22-sullivan-elementary-ice-food-flyers.jpg",
+      "localMediaPath": "media/2026-01/22/2026-01-22-sullivan-elementary-ice-food-flyers.jpg",
       "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
-          "path": "media/2026-01-22-sullivan-elementary-ice-food-flyers.jpg"
+          "path": "media/2026-01/22/2026-01-22-sullivan-elementary-ice-food-flyers.jpg"
         }
       ],
       "aspectRatio": 1.566579634464752,
@@ -355,12 +355,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "image",
-      "localMediaPath": "media/2026-01-21-observer-pinned-pepper-sprayed-face.jpg",
+      "localMediaPath": "media/2026-01/21/2026-01-21-observer-pinned-pepper-sprayed-face.jpg",
       "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
-          "path": "media/2026-01-21-observer-pinned-pepper-sprayed-face.jpg"
+          "path": "media/2026-01/21/2026-01-21-observer-pinned-pepper-sprayed-face.jpg"
         }
       ],
       "aspectRatio": 1.4002333722287048,
@@ -412,12 +412,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-21-bovino-hexachloroethane-playground.mp4",
-      "localMediaOgPath": "media/2026-01-21-bovino-hexachloroethane-playground-og-2s-1769151459.jpg",
+      "localMediaPath": "media/2026-01/21/2026-01-21-bovino-hexachloroethane-playground.mp4",
+      "localMediaOgPath": "media/2026-01/21/2026-01-21-bovino-hexachloroethane-playground-og-2s-1769151459.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-21-bovino-hexachloroethane-playground.mp4"
+          "path": "media/2026-01/21/2026-01-21-bovino-hexachloroethane-playground.mp4"
         }
       ],
       "aspectRatio": 1.8815331010452963,
@@ -443,12 +443,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-21-dhs-response-crowd-control.mp4",
-      "localMediaOgPath": "media/2026-01-21-dhs-response-crowd-control-og-2s-1769151459.jpg",
+      "localMediaPath": "media/2026-01/21/2026-01-21-dhs-response-crowd-control.mp4",
+      "localMediaOgPath": "media/2026-01/21/2026-01-21-dhs-response-crowd-control-og-2s-1769151459.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-21-dhs-response-crowd-control.mp4"
+          "path": "media/2026-01/21/2026-01-21-dhs-response-crowd-control.mp4"
         }
       ],
       "aspectRatio": 1.8095238095238095,
@@ -474,12 +474,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-20-trump-mistakes-happen.mp4",
-      "localMediaOgPath": "media/2026-01-20-trump-mistakes-happen-og-2s-1769028051.jpg",
+      "localMediaPath": "media/2026-01/20/2026-01-20-trump-mistakes-happen.mp4",
+      "localMediaOgPath": "media/2026-01/20/2026-01-20-trump-mistakes-happen-og-2s-1769028051.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-20-trump-mistakes-happen.mp4"
+          "path": "media/2026-01/20/2026-01-20-trump-mistakes-happen.mp4"
         }
       ],
       "aspectRatio": 0.6055555555555555,
@@ -505,12 +505,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-20-brooklyn-park-officer-citizen-check.mp4",
-      "localMediaOgPath": "media/2026-01-20-brooklyn-park-officer-citizen-check-og-2s-1769028044.jpg",
+      "localMediaPath": "media/2026-01/20/2026-01-20-brooklyn-park-officer-citizen-check.mp4",
+      "localMediaOgPath": "media/2026-01/20/2026-01-20-brooklyn-park-officer-citizen-check-og-2s-1769028044.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-20-brooklyn-park-officer-citizen-check.mp4"
+          "path": "media/2026-01/20/2026-01-20-brooklyn-park-officer-citizen-check.mp4"
         }
       ],
       "aspectRatio": 1.8764940239043826,
@@ -536,12 +536,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "image",
-      "localMediaPath": "media/2026-01-20-trump-vicious-animals-statement.jpg",
+      "localMediaPath": "media/2026-01/20/2026-01-20-trump-vicious-animals-statement.jpg",
       "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
-          "path": "media/2026-01-20-trump-vicious-animals-statement.jpg"
+          "path": "media/2026-01/20/2026-01-20-trump-vicious-animals-statement.jpg"
         }
       ],
       "aspectRatio": 1.7518248175182483,
@@ -567,12 +567,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "image",
-      "localMediaPath": "media/2026-01-20-columbia-heights-4-students-detained.jpg",
+      "localMediaPath": "media/2026-01/20/2026-01-20-columbia-heights-4-students-detained.jpg",
       "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
-          "path": "media/2026-01-20-columbia-heights-4-students-detained.jpg"
+          "path": "media/2026-01/20/2026-01-20-columbia-heights-4-students-detained.jpg"
         }
       ],
       "aspectRatio": 1.3528748590755355,
@@ -598,12 +598,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "image",
-      "localMediaPath": "media/2026-01-19-dhs-response-saly-detention.jpg",
+      "localMediaPath": "media/2026-01/19/2026-01-19-dhs-response-saly-detention.jpg",
       "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
-          "path": "media/2026-01-19-dhs-response-saly-detention.jpg"
+          "path": "media/2026-01/19/2026-01-19-dhs-response-saly-detention.jpg"
         }
       ],
       "aspectRatio": 1.1822660098522169,
@@ -629,16 +629,16 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-18-saly-hmong-citizen-shirtless.mp4",
-      "localMediaOgPath": "media/2026-01-18-saly-hmong-citizen-shirtless-og-2s-1769028034.jpg",
+      "localMediaPath": "media/2026-01/18/2026-01-18-saly-hmong-citizen-shirtless.mp4",
+      "localMediaOgPath": "media/2026-01/18/2026-01-18-saly-hmong-citizen-shirtless-og-2s-1769028034.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-18-saly-hmong-citizen-shirtless.mp4"
+          "path": "media/2026-01/18/2026-01-18-saly-hmong-citizen-shirtless.mp4"
         },
         {
           "type": "image",
-          "path": "media/2026-01-18-saly-hmong-citizen-shirtless.jpg"
+          "path": "media/2026-01/18/2026-01-18-saly-hmong-citizen-shirtless.jpg"
         }
       ],
       "aspectRatio": 0.7111111111111111,
@@ -664,12 +664,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-18-noem-pepper-spray-denial-backtrack.mp4",
-      "localMediaOgPath": "media/2026-01-18-noem-pepper-spray-denial-backtrack-og-2s-1769027796.jpg",
+      "localMediaPath": "media/2026-01/18/2026-01-18-noem-pepper-spray-denial-backtrack.mp4",
+      "localMediaOgPath": "media/2026-01/18/2026-01-18-noem-pepper-spray-denial-backtrack-og-2s-1769027796.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-18-noem-pepper-spray-denial-backtrack.mp4"
+          "path": "media/2026-01/18/2026-01-18-noem-pepper-spray-denial-backtrack.mp4"
         }
       ],
       "aspectRatio": 1.8537735849056605,
@@ -721,12 +721,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "image",
-      "localMediaPath": "media/2026-01-18-dhs-response-accent-detention.jpg",
+      "localMediaPath": "media/2026-01/18/2026-01-18-dhs-response-accent-detention.jpg",
       "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
-          "path": "media/2026-01-18-dhs-response-accent-detention.jpg"
+          "path": "media/2026-01/18/2026-01-18-dhs-response-accent-detention.jpg"
         }
       ],
       "aspectRatio": 0.5621734587251829,
@@ -778,12 +778,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "image",
-      "localMediaPath": "media/2026-01-17-nadya-moldovan-refugee.jpg",
+      "localMediaPath": "media/2026-01/17/2026-01-17-nadya-moldovan-refugee.jpg",
       "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
-          "path": "media/2026-01-17-nadya-moldovan-refugee.jpg"
+          "path": "media/2026-01/17/2026-01-17-nadya-moldovan-refugee.jpg"
         }
       ],
       "aspectRatio": 0.8549618320610687,
@@ -916,12 +916,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-15-el-tapatio-willmar.mp4",
-      "localMediaOgPath": "media/2026-01-15-el-tapatio-willmar-og-2s-1769028018.jpg",
+      "localMediaPath": "media/2026-01/15/2026-01-15-el-tapatio-willmar.mp4",
+      "localMediaOgPath": "media/2026-01/15/2026-01-15-el-tapatio-willmar-og-2s-1769028018.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-15-el-tapatio-willmar.mp4"
+          "path": "media/2026-01/15/2026-01-15-el-tapatio-willmar.mp4"
         }
       ],
       "aspectRatio": 0.6277777777777778,
@@ -947,12 +947,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-15-porter-wrong-address-raid.mp4",
-      "localMediaOgPath": "media/2026-01-15-porter-wrong-address-raid-og-2s-1769028025.jpg",
+      "localMediaPath": "media/2026-01/15/2026-01-15-porter-wrong-address-raid.mp4",
+      "localMediaOgPath": "media/2026-01/15/2026-01-15-porter-wrong-address-raid-og-2s-1769028025.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-15-porter-wrong-address-raid.mp4"
+          "path": "media/2026-01/15/2026-01-15-porter-wrong-address-raid.mp4"
         }
       ],
       "aspectRatio": 1.8111111111111111,
@@ -978,12 +978,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "image",
-      "localMediaPath": "media/2026-01-15-mercado-central-mother-children.jpg",
+      "localMediaPath": "media/2026-01/15/2026-01-15-mercado-central-mother-children.jpg",
       "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
-          "path": "media/2026-01-15-mercado-central-mother-children.jpg"
+          "path": "media/2026-01/15/2026-01-15-mercado-central-mother-children.jpg"
         }
       ],
       "aspectRatio": 0.5351288056206089,
@@ -1061,12 +1061,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-15-ramon-menera-accent-detained.mp4",
-      "localMediaOgPath": "media/2026-01-15-ramon-menera-accent-detained-og-2s-1769028032.jpg",
+      "localMediaPath": "media/2026-01/15/2026-01-15-ramon-menera-accent-detained.mp4",
+      "localMediaOgPath": "media/2026-01/15/2026-01-15-ramon-menera-accent-detained-og-2s-1769028032.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-15-ramon-menera-accent-detained.mp4"
+          "path": "media/2026-01/15/2026-01-15-ramon-menera-accent-detained.mp4"
         }
       ],
       "aspectRatio": 0.6412429378531074,
@@ -1118,12 +1118,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-14-shawn-jackson-children-tear-gas.mp4",
-      "localMediaOgPath": "media/2026-01-14-shawn-jackson-children-tear-gas-og-2s-1769028011.jpg",
+      "localMediaPath": "media/2026-01/14/2026-01-14-shawn-jackson-children-tear-gas.mp4",
+      "localMediaOgPath": "media/2026-01/14/2026-01-14-shawn-jackson-children-tear-gas-og-2s-1769028011.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-14-shawn-jackson-children-tear-gas.mp4"
+          "path": "media/2026-01/14/2026-01-14-shawn-jackson-children-tear-gas.mp4"
         }
       ],
       "aspectRatio": 0.6222222222222222,
@@ -1149,12 +1149,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-14-circle-pines-restaurant-worker.mp4",
-      "localMediaOgPath": "media/2026-01-14-circle-pines-restaurant-worker-og-2s-1769027999.jpg",
+      "localMediaPath": "media/2026-01/14/2026-01-14-circle-pines-restaurant-worker.mp4",
+      "localMediaOgPath": "media/2026-01/14/2026-01-14-circle-pines-restaurant-worker-og-2s-1769027999.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-14-circle-pines-restaurant-worker.mp4"
+          "path": "media/2026-01/14/2026-01-14-circle-pines-restaurant-worker.mp4"
         }
       ],
       "aspectRatio": 0.6972222222222222,
@@ -1180,12 +1180,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-14-st-paul-public-works-snowplow-driver.mp4",
-      "localMediaOgPath": "media/2026-01-14-st-paul-public-works-snowplow-driver-og-2s-1769028016.jpg",
+      "localMediaPath": "media/2026-01/14/2026-01-14-st-paul-public-works-snowplow-driver.mp4",
+      "localMediaOgPath": "media/2026-01/14/2026-01-14-st-paul-public-works-snowplow-driver-og-2s-1769028016.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-14-st-paul-public-works-snowplow-driver.mp4"
+          "path": "media/2026-01/14/2026-01-14-st-paul-public-works-snowplow-driver.mp4"
         }
       ],
       "aspectRatio": 1.8384615384615384,
@@ -1211,12 +1211,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "image",
-      "localMediaPath": "media/2026-01-14-nasra-ahmed-st-paul-citizen.jpg",
+      "localMediaPath": "media/2026-01/14/2026-01-14-nasra-ahmed-st-paul-citizen.jpg",
       "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
-          "path": "media/2026-01-14-nasra-ahmed-st-paul-citizen.jpg"
+          "path": "media/2026-01/14/2026-01-14-nasra-ahmed-st-paul-citizen.jpg"
         }
       ],
       "aspectRatio": 1.8295964125560538,
@@ -1242,12 +1242,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-14-agriculture-press-conference.mp4",
-      "localMediaOgPath": "media/2026-01-14-agriculture-press-conference-og-2s-1769027994.jpg",
+      "localMediaPath": "media/2026-01/14/2026-01-14-agriculture-press-conference.mp4",
+      "localMediaOgPath": "media/2026-01/14/2026-01-14-agriculture-press-conference-og-2s-1769027994.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-14-agriculture-press-conference.mp4"
+          "path": "media/2026-01/14/2026-01-14-agriculture-press-conference.mp4"
         }
       ],
       "aspectRatio": 1.8153310104529616,
@@ -1299,12 +1299,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-14-oglala-sioux-still-detained.mp4",
-      "localMediaOgPath": "media/2026-01-14-oglala-sioux-still-detained-og-2s-1769028005.jpg",
+      "localMediaPath": "media/2026-01/14/2026-01-14-oglala-sioux-still-detained.mp4",
+      "localMediaOgPath": "media/2026-01/14/2026-01-14-oglala-sioux-still-detained-og-2s-1769028005.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-14-oglala-sioux-still-detained.mp4"
+          "path": "media/2026-01/14/2026-01-14-oglala-sioux-still-detained.mp4"
         }
       ],
       "aspectRatio": 1.8057142857142856,
@@ -1356,12 +1356,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-13-bovino-cbs-interview.mp4",
-      "localMediaOgPath": "media/2026-01-13-bovino-cbs-interview-og-2s-1769027958.jpg",
+      "localMediaPath": "media/2026-01/13/2026-01-13-bovino-cbs-interview.mp4",
+      "localMediaOgPath": "media/2026-01/13/2026-01-13-bovino-cbs-interview-og-2s-1769027958.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-13-bovino-cbs-interview.mp4"
+          "path": "media/2026-01/13/2026-01-13-bovino-cbs-interview.mp4"
         }
       ],
       "aspectRatio": 1.5574712643678161,
@@ -1387,12 +1387,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-13-mankato-women-sprayed.mp4",
-      "localMediaOgPath": "media/2026-01-13-mankato-women-sprayed-og-2s-1769027978.jpg",
+      "localMediaPath": "media/2026-01/13/2026-01-13-mankato-women-sprayed.mp4",
+      "localMediaOgPath": "media/2026-01/13/2026-01-13-mankato-women-sprayed-og-2s-1769027978.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-13-mankato-women-sprayed.mp4"
+          "path": "media/2026-01/13/2026-01-13-mankato-women-sprayed.mp4"
         }
       ],
       "aspectRatio": 0.6388888888888888,
@@ -1444,12 +1444,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-13-ryan-ecklund-filming-detained.mp4",
-      "localMediaOgPath": "media/2026-01-13-ryan-ecklund-filming-detained-og-2s-1769027983.jpg",
+      "localMediaPath": "media/2026-01/13/2026-01-13-ryan-ecklund-filming-detained.mp4",
+      "localMediaOgPath": "media/2026-01/13/2026-01-13-ryan-ecklund-filming-detained-og-2s-1769027983.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-13-ryan-ecklund-filming-detained.mp4"
+          "path": "media/2026-01/13/2026-01-13-ryan-ecklund-filming-detained.mp4"
         }
       ],
       "aspectRatio": 0.6166666666666667,
@@ -1530,12 +1530,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-13-elliott-payne-pushed.mp4",
-      "localMediaOgPath": "media/2026-01-13-elliott-payne-pushed-og-2s-1769027960.jpg",
+      "localMediaPath": "media/2026-01/13/2026-01-13-elliott-payne-pushed.mp4",
+      "localMediaOgPath": "media/2026-01/13/2026-01-13-elliott-payne-pushed-og-2s-1769027960.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-13-elliott-payne-pushed.mp4"
+          "path": "media/2026-01/13/2026-01-13-elliott-payne-pushed.mp4"
         }
       ],
       "aspectRatio": 0.6166666666666667,
@@ -1587,12 +1587,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "image",
-      "localMediaPath": "media/2026-01-13-francis-burger-joint-manager.jpg",
+      "localMediaPath": "media/2026-01/13/2026-01-13-francis-burger-joint-manager.jpg",
       "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
-          "path": "media/2026-01-13-francis-burger-joint-manager.jpg"
+          "path": "media/2026-01/13/2026-01-13-francis-burger-joint-manager.jpg"
         }
       ],
       "aspectRatio": 0.7590132827324478,
@@ -1670,12 +1670,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-13-william-vermie-veteran-detained.mp4",
-      "localMediaOgPath": "media/2026-01-13-william-vermie-veteran-detained-og-2s-1769027770.jpg",
+      "localMediaPath": "media/2026-01/13/2026-01-13-william-vermie-veteran-detained.mp4",
+      "localMediaOgPath": "media/2026-01/13/2026-01-13-william-vermie-veteran-detained-og-2s-1769027770.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-13-william-vermie-veteran-detained.mp4"
+          "path": "media/2026-01/13/2026-01-13-william-vermie-veteran-detained.mp4"
         }
       ],
       "aspectRatio": 1.8222222222222222,
@@ -1753,12 +1753,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-13-kong-vang-frogtown.mp4",
-      "localMediaOgPath": "media/2026-01-13-kong-vang-frogtown-og-2s-1769027969.jpg",
+      "localMediaPath": "media/2026-01/13/2026-01-13-kong-vang-frogtown.mp4",
+      "localMediaOgPath": "media/2026-01/13/2026-01-13-kong-vang-frogtown-og-2s-1769027969.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-13-kong-vang-frogtown.mp4"
+          "path": "media/2026-01/13/2026-01-13-kong-vang-frogtown.mp4"
         }
       ],
       "aspectRatio": 1.8384615384615384,
@@ -1784,12 +1784,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-13-aliya-rahman-car-window-hospitalized.mp4",
-      "localMediaOgPath": "media/2026-01-13-aliya-rahman-car-window-hospitalized-og-3.5s-1769304326.jpg",
+      "localMediaPath": "media/2026-01/13/2026-01-13-aliya-rahman-car-window-hospitalized.mp4",
+      "localMediaOgPath": "media/2026-01/13/2026-01-13-aliya-rahman-car-window-hospitalized-og-3.5s-1769361344.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-13-aliya-rahman-car-window-hospitalized.mp4"
+          "path": "media/2026-01/13/2026-01-13-aliya-rahman-car-window-hospitalized.mp4"
         }
       ],
       "aspectRatio": 1.8208955223880596,
@@ -1815,12 +1815,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-13-lyn-lake-tear-gas.mp4",
-      "localMediaOgPath": "media/2026-01-13-lyn-lake-tear-gas-og-2s-1769027976.jpg",
+      "localMediaPath": "media/2026-01/13/2026-01-13-lyn-lake-tear-gas.mp4",
+      "localMediaOgPath": "media/2026-01/13/2026-01-13-lyn-lake-tear-gas-og-2s-1769027976.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-13-lyn-lake-tear-gas.mp4"
+          "path": "media/2026-01/13/2026-01-13-lyn-lake-tear-gas.mp4"
         }
       ],
       "aspectRatio": 2.1485943775100402,
@@ -1846,12 +1846,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-12-phil-maddox-did-you-not-learn.mp4",
-      "localMediaOgPath": "media/2026-01-12-phil-maddox-did-you-not-learn-og-2s-1769027941.jpg",
+      "localMediaPath": "media/2026-01/12/2026-01-12-phil-maddox-did-you-not-learn.mp4",
+      "localMediaOgPath": "media/2026-01/12/2026-01-12-phil-maddox-did-you-not-learn-og-2s-1769027941.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-12-phil-maddox-did-you-not-learn.mp4"
+          "path": "media/2026-01/12/2026-01-12-phil-maddox-did-you-not-learn.mp4"
         }
       ],
       "aspectRatio": 0.6194444444444445,
@@ -1903,16 +1903,16 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-12-silva-sosa-inver-grove-heights.mp4",
-      "localMediaOgPath": "media/2026-01-12-silva-sosa-inver-grove-heights-og-2s-1769027953.jpg",
+      "localMediaPath": "media/2026-01/12/2026-01-12-silva-sosa-inver-grove-heights.mp4",
+      "localMediaOgPath": "media/2026-01/12/2026-01-12-silva-sosa-inver-grove-heights-og-2s-1769027953.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-12-silva-sosa-inver-grove-heights.mp4"
+          "path": "media/2026-01/12/2026-01-12-silva-sosa-inver-grove-heights.mp4"
         },
         {
           "type": "image",
-          "path": "media/2026-01-12-silva-sosa-inver-grove-heights.jpg"
+          "path": "media/2026-01/12/2026-01-12-silva-sosa-inver-grove-heights.jpg"
         }
       ],
       "aspectRatio": 1.7718120805369129,
@@ -1993,12 +1993,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "image",
-      "localMediaPath": "media/2026-01-12-christina-rank-teacher.jpg",
+      "localMediaPath": "media/2026-01/12/2026-01-12-christina-rank-teacher.jpg",
       "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
-          "path": "media/2026-01-12-christina-rank-teacher.jpg"
+          "path": "media/2026-01/12/2026-01-12-christina-rank-teacher.jpg"
         }
       ],
       "aspectRatio": 0.7989347536617842,
@@ -2024,12 +2024,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-12-christian-molina-car-rammed.mp4",
-      "localMediaOgPath": "media/2026-01-12-christian-molina-car-rammed-og-2s-1769027917.jpg",
+      "localMediaPath": "media/2026-01/12/2026-01-12-christian-molina-car-rammed.mp4",
+      "localMediaOgPath": "media/2026-01/12/2026-01-12-christian-molina-car-rammed-og-2s-1769027917.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-12-christian-molina-car-rammed.mp4"
+          "path": "media/2026-01/12/2026-01-12-christian-molina-car-rammed.mp4"
         }
       ],
       "aspectRatio": 0.6722222222222223,
@@ -2055,12 +2055,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-12-nimco-omar-citizen-check.mp4",
-      "localMediaOgPath": "media/2026-01-12-nimco-omar-citizen-check-og-2s-1769027930.jpg",
+      "localMediaPath": "media/2026-01/12/2026-01-12-nimco-omar-citizen-check.mp4",
+      "localMediaOgPath": "media/2026-01/12/2026-01-12-nimco-omar-citizen-check-og-2s-1769027930.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-12-nimco-omar-citizen-check.mp4"
+          "path": "media/2026-01/12/2026-01-12-nimco-omar-citizen-check.mp4"
         }
       ],
       "aspectRatio": 1.811965811965812,
@@ -2112,12 +2112,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-12-garrison-gibson-battering-ram.mp4",
-      "localMediaOgPath": "media/2026-01-12-garrison-gibson-battering-ram-og-2s-1769027926.jpg",
+      "localMediaPath": "media/2026-01/12/2026-01-12-garrison-gibson-battering-ram.mp4",
+      "localMediaOgPath": "media/2026-01/12/2026-01-12-garrison-gibson-battering-ram-og-2s-1769027926.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-12-garrison-gibson-battering-ram.mp4"
+          "path": "media/2026-01/12/2026-01-12-garrison-gibson-battering-ram.mp4"
         }
       ],
       "aspectRatio": 1.9305555555555556,
@@ -2169,12 +2169,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-11-observer-shoved-into-traffic.mp4",
-      "localMediaOgPath": "media/2026-01-11-observer-shoved-into-traffic-og-2s-1769027887.jpg",
+      "localMediaPath": "media/2026-01/11/2026-01-11-observer-shoved-into-traffic.mp4",
+      "localMediaOgPath": "media/2026-01/11/2026-01-11-observer-shoved-into-traffic-og-2s-1769027887.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-11-observer-shoved-into-traffic.mp4"
+          "path": "media/2026-01/11/2026-01-11-observer-shoved-into-traffic.mp4"
         }
       ],
       "aspectRatio": 0.6694444444444444,
@@ -2200,12 +2200,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-11-speedway-st-paul.mp4",
-      "localMediaOgPath": "media/2026-01-11-speedway-st-paul-og-2s-1769027912.jpg",
+      "localMediaPath": "media/2026-01/11/2026-01-11-speedway-st-paul.mp4",
+      "localMediaOgPath": "media/2026-01/11/2026-01-11-speedway-st-paul-og-2s-1769027912.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-11-speedway-st-paul.mp4"
+          "path": "media/2026-01/11/2026-01-11-speedway-st-paul.mp4"
         }
       ],
       "aspectRatio": 1.8066666666666666,
@@ -2231,12 +2231,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-11-observer-phone-snatched.mp4",
-      "localMediaOgPath": "media/2026-01-11-observer-phone-snatched-og-2s-1769027885.jpg",
+      "localMediaPath": "media/2026-01/11/2026-01-11-observer-phone-snatched.mp4",
+      "localMediaOgPath": "media/2026-01/11/2026-01-11-observer-phone-snatched-og-2s-1769027885.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-11-observer-phone-snatched.mp4"
+          "path": "media/2026-01/11/2026-01-11-observer-phone-snatched.mp4"
         }
       ],
       "aspectRatio": 1.8047808764940239,
@@ -2262,12 +2262,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "image",
-      "localMediaPath": "media/2026-01-11-hani-duglof-medical.jpg",
+      "localMediaPath": "media/2026-01/11/2026-01-11-hani-duglof-medical.jpg",
       "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
-          "path": "media/2026-01-11-hani-duglof-medical.jpg"
+          "path": "media/2026-01/11/2026-01-11-hani-duglof-medical.jpg"
         }
       ],
       "aspectRatio": 0.9417293233082706,
@@ -2293,12 +2293,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-11-siguenza-okeefe-detained.mp4",
-      "localMediaOgPath": "media/2026-01-11-siguenza-okeefe-detained-og-2s-1769027905.jpg",
+      "localMediaPath": "media/2026-01/11/2026-01-11-siguenza-okeefe-detained.mp4",
+      "localMediaOgPath": "media/2026-01/11/2026-01-11-siguenza-okeefe-detained-og-2s-1769027905.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-11-siguenza-okeefe-detained.mp4"
+          "path": "media/2026-01/11/2026-01-11-siguenza-okeefe-detained.mp4"
         }
       ],
       "aspectRatio": 1.6194444444444445,
@@ -2324,12 +2324,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-11-rogelio-jimenez-brooklyn-park.mp4",
-      "localMediaOgPath": "media/2026-01-11-rogelio-jimenez-brooklyn-park-og-2s-1769027892.jpg",
+      "localMediaPath": "media/2026-01/11/2026-01-11-rogelio-jimenez-brooklyn-park.mp4",
+      "localMediaOgPath": "media/2026-01/11/2026-01-11-rogelio-jimenez-brooklyn-park-og-2s-1769027892.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-11-rogelio-jimenez-brooklyn-park.mp4"
+          "path": "media/2026-01/11/2026-01-11-rogelio-jimenez-brooklyn-park.mp4"
         }
       ],
       "aspectRatio": 1.8166666666666667,
@@ -2485,12 +2485,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-09-brandon-saenz-doordash.mp4",
-      "localMediaOgPath": "media/2026-01-09-brandon-saenz-doordash-og-2s-1769151459.jpg",
+      "localMediaPath": "media/2026-01/09/2026-01-09-brandon-saenz-doordash.mp4",
+      "localMediaOgPath": "media/2026-01/09/2026-01-09-brandon-saenz-doordash-og-2s-1769151459.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-09-brandon-saenz-doordash.mp4"
+          "path": "media/2026-01/09/2026-01-09-brandon-saenz-doordash.mp4"
         }
       ],
       "aspectRatio": 0.7472222222222222,
@@ -2568,12 +2568,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "image",
-      "localMediaPath": "media/2026-01-09-fridley-schools-closure.jpg",
+      "localMediaPath": "media/2026-01/09/2026-01-09-fridley-schools-closure.jpg",
       "localMediaOgPath": null,
       "localMediaFiles": [
         {
           "type": "image",
-          "path": "media/2026-01-09-fridley-schools-closure.jpg"
+          "path": "media/2026-01/09/2026-01-09-fridley-schools-closure.jpg"
         }
       ],
       "aspectRatio": 0.7575360419397117,
@@ -2599,16 +2599,16 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-09-juan-carlos-brutality.mp4",
-      "localMediaOgPath": "media/2026-01-09-juan-carlos-brutality-og-2s-1769027883.jpg",
+      "localMediaPath": "media/2026-01/09/2026-01-09-juan-carlos-brutality.mp4",
+      "localMediaOgPath": "media/2026-01/09/2026-01-09-juan-carlos-brutality-og-2s-1769027883.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-09-juan-carlos-brutality.mp4"
+          "path": "media/2026-01/09/2026-01-09-juan-carlos-brutality.mp4"
         },
         {
           "type": "image",
-          "path": "media/2026-01-09-juan-carlos-brutality.jpg"
+          "path": "media/2026-01/09/2026-01-09-juan-carlos-brutality.jpg"
         }
       ],
       "aspectRatio": 1.086111111111111,
@@ -2634,12 +2634,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-08-ahmed-hassan-uber-driver.mp4",
-      "localMediaOgPath": "media/2026-01-08-ahmed-hassan-uber-driver-og-2s-1769027861.jpg",
+      "localMediaPath": "media/2026-01/08/2026-01-08-ahmed-hassan-uber-driver.mp4",
+      "localMediaOgPath": "media/2026-01/08/2026-01-08-ahmed-hassan-uber-driver-og-2s-1769027861.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-08-ahmed-hassan-uber-driver.mp4"
+          "path": "media/2026-01/08/2026-01-08-ahmed-hassan-uber-driver.mp4"
         }
       ],
       "aspectRatio": 0.5888888888888889,
@@ -2743,12 +2743,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-08-jesse-ventura-roosevelt.mp4",
-      "localMediaOgPath": "media/2026-01-08-jesse-ventura-roosevelt-og-2s-1769027871.jpg",
+      "localMediaPath": "media/2026-01/08/2026-01-08-jesse-ventura-roosevelt.mp4",
+      "localMediaOgPath": "media/2026-01/08/2026-01-08-jesse-ventura-roosevelt-og-2s-1769027871.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-08-jesse-ventura-roosevelt.mp4"
+          "path": "media/2026-01/08/2026-01-08-jesse-ventura-roosevelt.mp4"
         }
       ],
       "aspectRatio": 1.675,
@@ -2774,12 +2774,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-08-ice-gun-pointed-at-protester.mp4",
-      "localMediaOgPath": "media/2026-01-08-ice-gun-pointed-at-protester-og-2s-1769027863.jpg",
+      "localMediaPath": "media/2026-01/08/2026-01-08-ice-gun-pointed-at-protester.mp4",
+      "localMediaOgPath": "media/2026-01/08/2026-01-08-ice-gun-pointed-at-protester-og-2s-1769027863.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-08-ice-gun-pointed-at-protester.mp4"
+          "path": "media/2026-01/08/2026-01-08-ice-gun-pointed-at-protester.mp4"
         }
       ],
       "aspectRatio": 0.5861111111111111,
@@ -2857,12 +2857,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-08-target-richfield-employees.mp4",
-      "localMediaOgPath": "media/2026-01-08-target-richfield-employees-og-2s-1769304365.jpg",
+      "localMediaPath": "media/2026-01/08/2026-01-08-target-richfield-employees.mp4",
+      "localMediaOgPath": "media/2026-01/08/2026-01-08-target-richfield-employees-og-2s-1769361344.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-08-target-richfield-employees.mp4"
+          "path": "media/2026-01/08/2026-01-08-target-richfield-employees.mp4"
         }
       ],
       "aspectRatio": 0.7583333333333333,
@@ -2888,16 +2888,16 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-08-jose-ramirez-native-american.mp4",
-      "localMediaOgPath": "media/2026-01-08-jose-ramirez-native-american-og-2s-1769027875.jpg",
+      "localMediaPath": "media/2026-01/08/2026-01-08-jose-ramirez-native-american.mp4",
+      "localMediaOgPath": "media/2026-01/08/2026-01-08-jose-ramirez-native-american-og-2s-1769027875.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-08-jose-ramirez-native-american.mp4"
+          "path": "media/2026-01/08/2026-01-08-jose-ramirez-native-american.mp4"
         },
         {
           "type": "image",
-          "path": "media/2026-01-08-jose-ramirez-native-american.jpg"
+          "path": "media/2026-01/08/2026-01-08-jose-ramirez-native-american.jpg"
         }
       ],
       "aspectRatio": 0.6361111111111111,
@@ -2923,12 +2923,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-07-doctor-blocked-renee-good.mp4",
-      "localMediaOgPath": "media/2026-01-07-doctor-blocked-renee-good-og-2s-1769027842.jpg",
+      "localMediaPath": "media/2026-01/07/2026-01-07-doctor-blocked-renee-good.mp4",
+      "localMediaOgPath": "media/2026-01/07/2026-01-07-doctor-blocked-renee-good-og-2s-1769027842.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-07-doctor-blocked-renee-good.mp4"
+          "path": "media/2026-01/07/2026-01-07-doctor-blocked-renee-good.mp4"
         }
       ],
       "aspectRatio": 0.7805555555555556,
@@ -3006,12 +3006,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-07-renee-good-shooting.mp4",
-      "localMediaOgPath": "media/2026-01-07-renee-good-shooting-og-2s-1769027847.jpg",
+      "localMediaPath": "media/2026-01/07/2026-01-07-renee-good-shooting.mp4",
+      "localMediaOgPath": "media/2026-01/07/2026-01-07-renee-good-shooting-og-2s-1769027847.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-07-renee-good-shooting.mp4"
+          "path": "media/2026-01/07/2026-01-07-renee-good-shooting.mp4"
         }
       ],
       "aspectRatio": 0.5888888888888889,
@@ -3037,12 +3037,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-07-clergy-pepper-sprayed.mp4",
-      "localMediaOgPath": "media/2026-01-07-clergy-pepper-sprayed-og-2s-1769027836.jpg",
+      "localMediaPath": "media/2026-01/07/2026-01-07-clergy-pepper-sprayed.mp4",
+      "localMediaOgPath": "media/2026-01/07/2026-01-07-clergy-pepper-sprayed-og-2s-1769027836.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-07-clergy-pepper-sprayed.mp4"
+          "path": "media/2026-01/07/2026-01-07-clergy-pepper-sprayed.mp4"
         }
       ],
       "aspectRatio": 1.8222222222222222,
@@ -3094,12 +3094,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-07-teenager-tackled-snow.mp4",
-      "localMediaOgPath": "media/2026-01-07-teenager-tackled-snow-og-2s-1769304359.jpg",
+      "localMediaPath": "media/2026-01/07/2026-01-07-teenager-tackled-snow.mp4",
+      "localMediaOgPath": "media/2026-01/07/2026-01-07-teenager-tackled-snow-og-2s-1769361344.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-07-teenager-tackled-snow.mp4"
+          "path": "media/2026-01/07/2026-01-07-teenager-tackled-snow.mp4"
         }
       ],
       "aspectRatio": 0.6277777777777778,
@@ -3125,12 +3125,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-07-roosevelt-high-school.mp4",
-      "localMediaOgPath": "media/2026-01-07-roosevelt-high-school-og-2s-1769027851.jpg",
+      "localMediaPath": "media/2026-01/07/2026-01-07-roosevelt-high-school.mp4",
+      "localMediaOgPath": "media/2026-01/07/2026-01-07-roosevelt-high-school-og-2s-1769027851.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-07-roosevelt-high-school.mp4"
+          "path": "media/2026-01/07/2026-01-07-roosevelt-high-school.mp4"
         }
       ],
       "aspectRatio": 0.8833333333333333,
@@ -3156,12 +3156,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-07-pickup-truck-rams-protesters.mp4",
-      "localMediaOgPath": "media/2026-01-07-pickup-truck-rams-protesters-og-2s-1769027843.jpg",
+      "localMediaPath": "media/2026-01/07/2026-01-07-pickup-truck-rams-protesters.mp4",
+      "localMediaOgPath": "media/2026-01/07/2026-01-07-pickup-truck-rams-protesters-og-2s-1769027843.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-07-pickup-truck-rams-protesters.mp4"
+          "path": "media/2026-01/07/2026-01-07-pickup-truck-rams-protesters.mp4"
         }
       ],
       "aspectRatio": 2.1854545454545455,
@@ -3187,12 +3187,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2026-01-06-emmanuel-sackie-brooklyn-park.mp4",
-      "localMediaOgPath": "media/2026-01-06-emmanuel-sackie-brooklyn-park-og-2s-1769027827.jpg",
+      "localMediaPath": "media/2026-01/06/2026-01-06-emmanuel-sackie-brooklyn-park.mp4",
+      "localMediaOgPath": "media/2026-01/06/2026-01-06-emmanuel-sackie-brooklyn-park-og-2s-1769027827.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2026-01-06-emmanuel-sackie-brooklyn-park.mp4"
+          "path": "media/2026-01/06/2026-01-06-emmanuel-sackie-brooklyn-park.mp4"
         }
       ],
       "aspectRatio": 1.6722222222222223,
@@ -3533,12 +3533,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2025-12-11-eden-prairie-13-year-old.mp4",
-      "localMediaOgPath": "media/2025-12-11-eden-prairie-13-year-old-og-2s-1769027812.jpg",
+      "localMediaPath": "media/2025-12/11/2025-12-11-eden-prairie-13-year-old.mp4",
+      "localMediaOgPath": "media/2025-12/11/2025-12-11-eden-prairie-13-year-old-og-2s-1769027812.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2025-12-11-eden-prairie-13-year-old.mp4"
+          "path": "media/2025-12/11/2025-12-11-eden-prairie-13-year-old.mp4"
         }
       ],
       "aspectRatio": 1.9,
@@ -3564,12 +3564,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2025-12-10-mubashir-wrongful-detention.mp4",
-      "localMediaOgPath": "media/2025-12-10-mubashir-wrongful-detention-og-2s-1769027807.jpg",
+      "localMediaPath": "media/2025-12/10/2025-12-10-mubashir-wrongful-detention.mp4",
+      "localMediaOgPath": "media/2025-12/10/2025-12-10-mubashir-wrongful-detention-og-2s-1769027807.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2025-12-10-mubashir-wrongful-detention.mp4"
+          "path": "media/2025-12/10/2025-12-10-mubashir-wrongful-detention.mp4"
         }
       ],
       "aspectRatio": 1.6083333333333334,
@@ -3621,12 +3621,12 @@
       "notable": false,
       "hasLocalMedia": true,
       "localMediaType": "video",
-      "localMediaPath": "media/2025-12-09-sue-tincher-detained.mp4",
-      "localMediaOgPath": "media/2025-12-09-sue-tincher-detained-og-2s-1769027799.jpg",
+      "localMediaPath": "media/2025-12/09/2025-12-09-sue-tincher-detained.mp4",
+      "localMediaOgPath": "media/2025-12/09/2025-12-09-sue-tincher-detained-og-2s-1769027799.jpg",
       "localMediaFiles": [
         {
           "type": "video",
-          "path": "media/2025-12-09-sue-tincher-detained.mp4"
+          "path": "media/2025-12/09/2025-12-09-sue-tincher-detained.mp4"
         }
       ],
       "aspectRatio": 0.9333333333333333,
