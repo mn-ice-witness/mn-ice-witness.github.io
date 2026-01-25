@@ -1,5 +1,49 @@
 /* MN ICE Files - NYT Visual Style */
 
+/* Self-hosted fonts (no external tracking) */
+@font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('/assets/fonts/libre-franklin-400.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url('/assets/fonts/libre-franklin-500.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('/assets/fonts/libre-franklin-600.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('/assets/fonts/libre-franklin-700.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url('/assets/fonts/playfair-display-600.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url('/assets/fonts/playfair-display-700.woff2') format('woff2');
+}
+
 :root {
     --font-serif: 'Playfair Display', Georgia, serif;
     --font-sans: 'Libre Franklin', -apple-system, BlinkMacSystemFont, sans-serif;
