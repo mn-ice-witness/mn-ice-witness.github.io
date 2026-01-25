@@ -204,8 +204,8 @@ const MediaGallery = {
             const videoSrc = mediaUrl + '#t=0.001';
             const posterUrl = incident.localMediaOgPath ? App.getMediaUrl(incident.localMediaOgPath, incident.mediaVersion) : '';
             const posterAttr = posterUrl ? ` poster="${posterUrl}"` : '';
-            mediaElement = `<video class="media-card-video" src="${videoSrc}"${posterAttr} muted loop playsinline preload="metadata" disableRemotePlayback></video>
-                <div class="video-loading-overlay"><div class="video-loading-spinner"></div></div>`;
+            // Spinner disabled - draws eye when multiple videos loading. Poster image provides loading feedback.
+            mediaElement = `<video class="media-card-video" src="${videoSrc}"${posterAttr} muted loop playsinline preload="metadata" disableRemotePlayback></video>`;
             videoControls = `
                 <div class="media-controls">
                     <button class="media-control-btn play-pause-btn" aria-label="Play/Pause">
@@ -273,15 +273,14 @@ const MediaGallery = {
      */
     setupVideoCardControls(cardEl, video) {
         const container = cardEl.querySelector('.media-card-media');
-        const loadingOverlay = cardEl.querySelector('.video-loading-overlay');
 
-        // Hide loading overlay when video can play
-        if (loadingOverlay) {
-            const hideOverlay = () => loadingOverlay.classList.add('hidden');
-            video.addEventListener('canplay', hideOverlay, { once: true });
-            // Also hide if video is already ready (cached)
-            if (video.readyState >= 3) hideOverlay();
-        }
+        // Spinner disabled - see renderCard() comment
+        // const loadingOverlay = cardEl.querySelector('.video-loading-overlay');
+        // if (loadingOverlay) {
+        //     const hideOverlay = () => loadingOverlay.classList.add('hidden');
+        //     video.addEventListener('canplay', hideOverlay, { once: true });
+        //     if (video.readyState >= 3) hideOverlay();
+        // }
 
         MediaControls.setupVideoControls({
             video,
