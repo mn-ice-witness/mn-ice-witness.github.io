@@ -26,6 +26,10 @@
         {
           "type": "video",
           "path": "media/2026-01-24-alex-pretti-shooting.mp4"
+        },
+        {
+          "type": "image",
+          "path": "media/2026-01-24-alex-pretti-shooting.jpg"
         }
       ],
       "aspectRatio": 0.5861111111111111,
