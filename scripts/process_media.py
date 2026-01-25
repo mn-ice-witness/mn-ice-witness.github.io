@@ -254,10 +254,13 @@ def preprocess_video_part(input_path: Path, output_path: Path) -> bool:
         return False
 
 
-def concatenate_preprocessed_videos(input_paths: list[Path], output_path: Path) -> bool:
+def concatenate_preprocessed_videos(
+    input_paths: list[Path], output_path: Path, crf: int = DEFAULT_CRF
+) -> bool:
     """Concatenate pre-processed videos with shadow boxing to match canvas size."""
+    quality_note = " (high quality)" if crf < DEFAULT_CRF else ""
     print(
-        f"  Concatenating {len(input_paths)} pre-processed parts into: {output_path.name}"
+        f"  Concatenating {len(input_paths)} pre-processed parts into: {output_path.name}{quality_note}"
     )
 
     dimensions = [get_video_dimensions(p) for p in input_paths]
@@ -302,7 +305,7 @@ def concatenate_preprocessed_videos(input_paths: list[Path], output_path: Path) 
         "-preset",
         "slow",
         "-crf",
-        "35",
+        str(crf),
         "-c:a",
         "aac",
         "-b:a",
@@ -572,7 +575,11 @@ def og_needs_processing(video_output_path: Path, og_path: Path) -> bool:
 
 
 def process_multipart_video(
-    base_name: str, parts: list[Path], output_dir: Path, force: bool
+    base_name: str,
+    parts: list[Path],
+    output_dir: Path,
+    force: bool,
+    crf: int = DEFAULT_CRF,
 ) -> tuple[int, int, int]:
     """Process a multi-part video: preprocess each part (crop + loudnorm), then concatenate."""
     output_path = get_multipart_output_path(base_name, output_dir)
@@ -582,7 +589,8 @@ def process_multipart_video(
         print(f"  Skipping (up to date): {part_names}")
         return (0, 1, 0)
 
-    print(f"  Multi-part video: {base_name}")
+    quality_note = " (high quality)" if crf < DEFAULT_CRF else ""
+    print(f"  Multi-part video: {base_name}{quality_note}")
     for i, p in enumerate(parts, 1):
         print(f"    Part {i}: {p.name}")
 
@@ -599,7 +607,7 @@ def process_multipart_video(
                 return (0, 0, 1)
             preprocessed_paths.append(preprocessed_path)
 
-        success = concatenate_preprocessed_videos(preprocessed_paths, output_path)
+        success = concatenate_preprocessed_videos(preprocessed_paths, output_path, crf)
 
     finally:
         for p in preprocessed_paths:
@@ -687,11 +695,14 @@ def main():
     video_outputs = []
 
     for base_name, parts in sorted(multipart_groups.items()):
-        p, s, e = process_multipart_video(base_name, parts, output_dir, args.force)
+        output_path = get_multipart_output_path(base_name, output_dir)
+        slug = output_path.stem
+        crf = HIGH_QUALITY_CRF if slug in high_quality_videos else DEFAULT_CRF
+        p, s, e = process_multipart_video(base_name, parts, output_dir, args.force, crf)
         processed += p
         skipped += s
         errors += e
-        video_outputs.append(get_multipart_output_path(base_name, output_dir))
+        video_outputs.append(output_path)
 
     for raw_path in sorted(single_files):
         output_path = get_output_path(raw_path, output_dir)
