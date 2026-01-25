@@ -16,7 +16,7 @@ last_updated: 2026-01-24T18:42:00
 # Alex Pretti Shot and Killed by Federal Agents
 
 ## Updates
-- **Jan 24, 6:42 PM** - Pretti's parents, Michael and Susan Pretti, release [statement](#family-statement) calling their son "a good man" and demanding the truth be told.
+- **Jan 24, 6:42 PM** - Pretti's parents, Michael and Susan Pretti, release [statement](https://bsky.app/profile/jeffrueter.bsky.social/post/3md7iqqr5622i) calling their son "a good man" and demanding the truth be told.
 - **Jan 24** - [New video evidence](https://bsky.app/profile/joshuaeakle.com/post/3md76ihzrg22y) appears to show Pretti was holding a phone, not a weapon, and that an agent removed his gun before the shooting.
 
 ***Note: DHS Secretary Kristi Noem, White House advisor Stephen Miller, and other administration officials have consistently claimed Pretti approached agents with a firearm and "violently resisted" disarming. Video from multiple angles shows Pretti was holding a phone, not a weapon, and that an agent removed his holstered gun before the shooting. Analysis by [Bellingcat](https://bsky.app/profile/bellingcat.com/post/3md6vleoxks2t) and independent posts on Bluesky and X corroborate this. Hennepin County Attorney Mary Moriarty and Minnesota Attorney General Keith Ellison have announced a joint state investigation and are asking residents to [submit evidence](https://www.kare11.com/article/news/local/ice-in-minnesota/mn-attorney-general-hennepin-county-attorney-ask-residents-to-submit-evidence-in-ice-shooting-investigation/89-9dda09e8-f299-4f3a-bc5f-a938dba30fb1). The FBI has cut the Minnesota Bureau of Criminal Apprehension off from the federal investigation.***
