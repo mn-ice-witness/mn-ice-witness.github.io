@@ -25,6 +25,8 @@ from pathlib import Path
 
 
 DEFAULT_OG_TIMESTAMP = 2.0
+DEFAULT_CRF = 35  # Higher = more compression, lower = better quality
+HIGH_QUALITY_CRF = 23  # For videos marked as "high-quality"
 
 
 # Video extensions to process
@@ -64,6 +66,32 @@ def load_og_tweaks(project_root: Path) -> dict[str, float]:
                 pass
 
     return tweaks
+
+
+def load_high_quality_videos(project_root: Path) -> set[str]:
+    """Load list of videos that should use higher quality encoding from docs/data/og-tweaks.md."""
+    tweaks_path = project_root / "docs" / "data" / "og-tweaks.md"
+    high_quality = set()
+
+    if not tweaks_path.exists():
+        return high_quality
+
+    in_quality_section = False
+    in_code_block = False
+    for line in tweaks_path.read_text().splitlines():
+        if "High Quality" in line or "high-quality" in line.lower():
+            in_quality_section = True
+            continue
+        if in_quality_section:
+            if line.strip() == "```":
+                in_code_block = not in_code_block
+                continue
+            if in_code_block and line.strip() and not line.strip().startswith("#"):
+                high_quality.add(line.strip())
+            if line.startswith("## ") and in_quality_section and not in_code_block:
+                in_quality_section = False
+
+    return high_quality
 
 
 def parse_multipart_filename(path: Path) -> tuple[str, int] | None:
@@ -345,9 +373,10 @@ def multipart_needs_processing(parts: list[Path], output_path: Path) -> bool:
     return any(p.stat().st_mtime > output_mtime for p in parts)
 
 
-def process_video(input_path: Path, output_path: Path) -> bool:
+def process_video(input_path: Path, output_path: Path, crf: int = DEFAULT_CRF) -> bool:
     """Process video: compress with H.264, normalize audio, crop edges, optimize for web."""
-    print(f"  Processing video: {input_path.name}")
+    quality_note = " (high quality)" if crf < DEFAULT_CRF else ""
+    print(f"  Processing video: {input_path.name}{quality_note}")
 
     cmd = [
         "ffmpeg",
@@ -357,7 +386,7 @@ def process_video(input_path: Path, output_path: Path) -> bool:
         "-vcodec",
         "libx264",
         "-crf",
-        "35",  # Quality (higher = smaller, 35 balances size/quality)
+        str(crf),  # Quality (higher = smaller, lower = better quality)
         "-preset",
         "slow",  # Better compression
         "-vf",
@@ -604,6 +633,13 @@ def main():
         print("Force mode: reprocessing all files")
     print()
 
+    high_quality_videos = load_high_quality_videos(project_root)
+    if high_quality_videos:
+        print(
+            f"High quality videos: {len(high_quality_videos)} configured (CRF {HIGH_QUALITY_CRF})"
+        )
+        print()
+
     processed = 0
     skipped = 0
     errors = 0
@@ -632,7 +668,9 @@ def main():
             continue
 
         if is_video:
-            success = process_video(raw_path, output_path)
+            slug = output_path.stem
+            crf = HIGH_QUALITY_CRF if slug in high_quality_videos else DEFAULT_CRF
+            success = process_video(raw_path, output_path, crf)
             video_outputs.append(output_path)
         else:
             success = process_image(raw_path, output_path)
