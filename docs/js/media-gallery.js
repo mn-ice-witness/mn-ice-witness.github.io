@@ -135,7 +135,8 @@ const MediaGallery = {
         gallery.appendChild(footer);
 
         this.setupScrollToPlay(gallery);
-        this.setupPrefetchObserver(gallery);
+        // Prefetch disabled - videos load on-demand when play() is triggered at 40% visibility
+        // this.setupPrefetchObserver(gallery);
     },
 
     /**
