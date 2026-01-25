@@ -328,6 +328,9 @@ const MediaGallery = {
      * Preload top videos in background (call while in list view)
      * Creates hidden video elements with preload="auto" for reliable cross-browser loading
      * Note: <link rel="preload" as="video"> is not supported in Chrome/Safari
+     *
+     * Videos are loaded SEQUENTIALLY (one at a time) so the first video gets
+     * 100% of available bandwidth and is ready as fast as possible.
      */
     async preloadTopVideos(count = 6) {
         if (typeof App === 'undefined' || !App.incidents) return;
@@ -341,10 +344,20 @@ const MediaGallery = {
 
         const toPreload = mediaIncidents.slice(0, count);
 
-        toPreload.forEach(incident => {
+        for (const incident of toPreload) {
             const mediaUrl = App.getMediaUrl(incident.localMediaPath, incident.mediaVersion);
-            if (this.preloadedVideos.has(mediaUrl)) return;
+            if (this.preloadedVideos.has(mediaUrl)) continue;
 
+            await this.preloadSingleVideo(mediaUrl);
+        }
+    },
+
+    /**
+     * Preload a single video and wait for it to be ready
+     * Returns a Promise that resolves when video is playable or times out
+     */
+    preloadSingleVideo(mediaUrl) {
+        return new Promise((resolve) => {
             const video = document.createElement('video');
             video.preload = 'auto';
             video.muted = true;
@@ -353,13 +366,15 @@ const MediaGallery = {
             video.style.cssText = 'position:absolute;width:1px;height:1px;opacity:0;pointer-events:none;';
             document.body.appendChild(video);
 
-            video.addEventListener('canplaythrough', () => {
-                video.remove();
-            }, { once: true });
-
-            setTimeout(() => video.remove(), 30000);
-
             this.preloadedVideos.add(mediaUrl);
+
+            const cleanup = () => {
+                video.remove();
+                resolve();
+            };
+
+            video.addEventListener('canplaythrough', cleanup, { once: true });
+            setTimeout(cleanup, 30000);
         });
     },
 

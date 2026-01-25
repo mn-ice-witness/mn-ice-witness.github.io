@@ -57,16 +57,22 @@ if ('requestIdleCallback' in window) {
 1. App loads and renders list view (default)
 2. Browser goes idle (user is reading list)
 3. `requestIdleCallback` fires, calling `preloadTopVideos()`
-4. Creates hidden `<video preload="auto">` elements for first 6 videos
-5. Browser fetches videos in background
-6. Hidden videos self-remove after `canplaythrough` or 30s timeout
+4. Creates hidden `<video preload="auto">` elements **one at a time**
+5. Waits for each video to reach `canplaythrough` before starting the next
+6. Hidden videos self-remove after loaded or 30s timeout
 
 **Why `requestIdleCallback`?**
 - Doesn't block main thread or initial render
 - Uses spare CPU/network capacity
 - Falls back to `setTimeout(fn, 1000)` on older browsers
 
-Location: `docs/js/media-gallery.js` → `preloadTopVideos()`
+**Why sequential (not parallel) preloading?**
+- Video #1 gets 100% of available bandwidth
+- First video is ready as fast as possible
+- No bandwidth competition between multiple videos
+- Users see video #1 load quickly, others follow
+
+Location: `docs/js/media-gallery.js` → `preloadTopVideos()` and `preloadSingleVideo()`
 
 ```javascript
 async preloadTopVideos(count = 6) {
@@ -76,12 +82,19 @@ async preloadTopVideos(count = 6) {
         mediaIncidents = await this.sortByOrder(mediaIncidents);
     }
 
-    // Create hidden video elements for top N
     const toPreload = mediaIncidents.slice(0, count);
-    toPreload.forEach(incident => {
-        const mediaUrl = App.getMediaUrl(incident.localMediaPath, incident.mediaVersion);
-        if (this.preloadedVideos.has(mediaUrl)) return;
 
+    // Load videos SEQUENTIALLY - wait for each to be ready before starting next
+    for (const incident of toPreload) {
+        const mediaUrl = App.getMediaUrl(incident.localMediaPath, incident.mediaVersion);
+        if (this.preloadedVideos.has(mediaUrl)) continue;
+
+        await this.preloadSingleVideo(mediaUrl);
+    }
+}
+
+preloadSingleVideo(mediaUrl) {
+    return new Promise((resolve) => {
         const video = document.createElement('video');
         video.preload = 'auto';
         video.muted = true;
@@ -90,11 +103,15 @@ async preloadTopVideos(count = 6) {
         video.style.cssText = 'position:absolute;width:1px;height:1px;opacity:0;pointer-events:none;';
         document.body.appendChild(video);
 
-        // Self-remove after loaded or timeout
-        video.addEventListener('canplaythrough', () => video.remove(), { once: true });
-        setTimeout(() => video.remove(), 30000);
-
         this.preloadedVideos.add(mediaUrl);
+
+        const cleanup = () => {
+            video.remove();
+            resolve();
+        };
+
+        video.addEventListener('canplaythrough', cleanup, { once: true });
+        setTimeout(cleanup, 30000);
     });
 }
 ```
@@ -285,19 +302,15 @@ Despite appearing in some documentation, `as="video"` is **not supported**:
 
 ## Known Limitations
 
-1. **No prioritization within preload**
-   - All 6 background videos load with same priority
-   - Could potentially prioritize video 1 > 2 > 3 > 4 > 5 > 6
-
-2. **Column layout affects visibility order**
+1. **Column layout affects visibility order**
    - Masonry layout means "first" video might not be top-left
    - Prefetch observer handles this dynamically
 
-3. **No cancellation of in-flight requests**
+2. **No cancellation of in-flight requests**
    - If user quickly switches views, preloads continue
    - Browser handles this reasonably well
 
-4. **Hidden video elements use some memory**
+3. **Hidden video elements use some memory**
    - 6 videos × ~few MB each during preload
    - Self-remove after `canplaythrough` or 30s timeout
 
@@ -308,14 +321,6 @@ Despite appearing in some documentation, `as="video"` is **not supported**:
 // Adjust based on connection speed
 const count = navigator.connection?.effectiveType === '4g' ? 8 : 3;
 MediaGallery.preloadTopVideos(count);
-```
-
-### Prioritized preloading
-```javascript
-// Load first video immediately, stagger the rest
-toPreload.forEach((incident, index) => {
-    setTimeout(() => preloadVideo(incident), index * 500);
-});
 ```
 
 ### Save-Data header respect
