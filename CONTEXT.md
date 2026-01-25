@@ -85,6 +85,9 @@ Icons are defined in `docs/index.html`. See `dev-docs/ui-patterns.md` for the fu
 ### Sources Must Have Links
 **No link = not a source.** Every source in an incident file must link to a specific page about that incident. General homepages or profile pages don't count.
 
+### No Circular Links
+**Never link to the same page.** Links in Updates or elsewhere must point to external sources, not internal anchors on the same page (e.g., `#family-statement`). If you can't find an external source, **ask the user** to provide one rather than creating a self-referential link.
+
 ### Neutral Language
 Use documentary tone. Let facts speak for themselves.
 
