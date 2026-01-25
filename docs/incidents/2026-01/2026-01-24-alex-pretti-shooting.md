@@ -16,11 +16,7 @@ last_updated: 2026-01-25T10:54:50
 # Alex Pretti Shot and Killed by Federal Agents
 
 ## Updates
-- **Jan 25** - [CNN video analysis](https://www.cnn.com/2026/01/25/us/video/minneapolis-ice-shooting-alex-pretti-visual-analysis-digvid) contradicts DHS claims, showing Pretti holding phone, not weapon.
-- **Jan 25** - When asked if Pretti reached for his gun, Commander Bovino [defers to investigation](#2026-01-25-bovino-pretti-had-gun-response): "Let's take a look at the gun." Gun rights groups raise concerns.
-- **Jan 25** - Vice President Vance [claims on X](#2026-01-25-vance-engineered-chaos-unique) that "engineered chaos" in Minneapolis is "unique" and caused by "far left agitators, working with local authorities." Vance provided no evidence for this assertion.
-- **Jan 24** - U.S. District Judge Eric Tostrud [grants temporary restraining order](https://www.foxnews.com/politics/judge-blocks-trump-admin-destroying-altering-evidence-deadly-minneapolis-shooting) barring DHS from destroying or altering evidence.
-- **Jan 24, 6:42 PM** - Pretti's parents, Michael and Susan Pretti, release [statement](https://bsky.app/profile/jeffrueter.bsky.social/post/3md7iqqr5622i) calling their son "a good man" and demanding the truth be told.
+- **Jan 24** - Pretti's parents release [statement](https://bsky.app/profile/jeffrueter.bsky.social/post/3md7iqqr5622i) calling their son "a good man" and demanding the truth be told.
 - **Jan 24** - [New video evidence](https://bsky.app/profile/joshuaeakle.com/post/3md76ihzrg22y) appears to show Pretti was holding a phone, not a weapon, and that an agent removed his gun before the shooting.
 
 ***Note: DHS Secretary Kristi Noem, White House advisor Stephen Miller, and other administration officials have consistently claimed Pretti approached agents with a firearm and "violently resisted" disarming. Video from multiple angles shows Pretti was holding a phone, not a weapon, and that an agent removed his holstered gun before the shooting. Analysis by [Bellingcat](https://bsky.app/profile/bellingcat.com/post/3md6vleoxks2t), [CNN video analysis](https://www.cnn.com/2026/01/25/us/video/minneapolis-ice-shooting-alex-pretti-visual-analysis-digvid), and independent posts on Bluesky and X corroborate this. Hennepin County Attorney Mary Moriarty and Minnesota Attorney General Keith Ellison have announced a joint state investigation and are asking residents to [submit evidence](https://www.kare11.com/article/news/local/ice-in-minnesota/mn-attorney-general-hennepin-county-attorney-ask-residents-to-submit-evidence-in-ice-shooting-investigation/89-9dda09e8-f299-4f3a-bc5f-a938dba30fb1). The FBI has cut the Minnesota Bureau of Criminal Apprehension off from the federal investigation. U.S. District Judge Eric Tostrud granted a temporary restraining order barring DHS from destroying or altering evidence.***
@@ -51,6 +47,12 @@ Federal agents fatally shot Alex Jeffrey Pretti, a 37-year-old U.S. citizen, lic
 20. NPR (Jan 25, 2026): [5 things to know about the latest Minneapolis shooting](https://www.npr.org/2026/01/25/nx-s1-5687361/minneapolis-shooting-latest-alex-pretti)
 21. Wikipedia: [Killing of Alex Pretti](https://en.wikipedia.org/wiki/Killing_of_Alex_Pretti)
 
+## Related Incidents
+
+- [DHS Response: Pretti "Violently Resisted"](#2026-01-24-dhs-response-pretti-shooting)
+- [Bovino Defers on Whether Pretti Reached for Gun](#2026-01-25-bovino-pretti-had-gun-response)
+- [Vice President Vance: "Engineered Chaos" in Minneapolis](#2026-01-25-vance-engineered-chaos-unique)
+
 ## Affected Individual(s)
 - **Name:** Alex Jeffrey Pretti
 - **Age:** 37
@@ -75,8 +77,6 @@ Video recorded by a woman in a pink coat (shared by Dropsite News) shows the mom
 
 ### DHS Statement
 DHS Secretary Kristi Noem, White House advisor Stephen Miller, and other administration officials claim Pretti "approached US Border Patrol officers with a 9 mm semi-automatic handgun" and "violently resisted" officers' attempts to disarm him. Video from multiple angles shows Pretti was holding a phone, not a weapon, and that his holstered gun was removed by an agent before the shooting. DHS stated the agent fired "defensive shots" and that Pretti possessed two additional magazines and no identification. DHS provided a photo of the alleged firearm, identified by CNN as a SIG Sauer Emperor Scorpion.
-
-See related: [DHS Response: Pretti "Violently Resisted"](#2026-01-24-dhs-response-pretti-shooting)
 
 ### Local Officials
 

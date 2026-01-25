@@ -166,11 +166,35 @@ This allows us to make editorial judgments about incidents worth documenting whi
 
 ### Updates Section
 
+The Updates section is for **substantive story developments** - things that happened in the real world that change the story. Most incidents won't have an Updates section.
+
+**What GOES in Updates:**
+- Court rulings, judge decisions
+- Person released or deported
+- Autopsy results, medical examiner findings
+- Lawsuit filed
+- Status changes (ongoing → resolved)
+- Major new facts emerge (identity confirmed, new charges)
+- Family/affected individual statements
+
+**What does NOT go in Updates:**
+- Adding more news sources (just add to Sources)
+- Adding video/photo links (just add to Sources)
+- Federal response incidents (link in Related Incidents section instead)
+- CNN/Bellingcat video analysis (add to Sources, optionally mention in italic note)
+- Trustworthiness rating changes
+- Formatting fixes
+
+**Format:**
+- Date format: **Jan 24** (no times, no year)
+- Newest updates first
+- Brief description with hyperlink to source
+- End each item with a period
+
 ```markdown
 ## Updates
-(ONLY for incidents with major story updates - omit for most incidents)
-- **Jan 19** - Brief description of major update
-- **Jan 18** - Earlier major update
+- **Jan 24** - Brief description of [major update](URL).
+- **Jan 22** - Earlier [major update](URL).
 
 ## Summary
 Brief 2-3 sentence summary. First sentence appears in card preview.
@@ -183,6 +207,18 @@ All sources numbered. Best/most compelling source first (original reporting, key
 3. FOX 9 (Jan 15, 2026): [6 children hospitalized after flash bang](URL)
 4. Star Tribune (Jan 14, 2026): [ICE agents clash with residents](URL)
 5. CNN (Jan 15, 2026): [Minneapolis family describes attack](URL)
+
+## Related Incidents
+(Optional - include when there are DHS/federal response incidents or closely connected incidents)
+
+- [DHS Response: Statement Title](#2026-01-XX-dhs-response-incident-id)
+- [Related Incident Title](#2026-01-XX-related-incident-id)
+
+Use this section to link to:
+- Federal response incidents (type: `response`) that address this incident
+- Closely related incidents (same person, same event series)
+
+Do NOT use this section to link to general news sources - those go in Sources.
 
 ## Affected Individual(s)
 - **Name:** (if public, else "Not disclosed")
