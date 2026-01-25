@@ -380,8 +380,8 @@ const MediaGallery = {
 
     /**
      * Setup prefetch observer for videos approaching viewport
-     * Uses large root margin (500px) to start loading well before visible
-     * This gives time for videos to buffer during scrolling
+     * Uses large root margin (1000px) to start loading well before visible
+     * This gives 2-3 cards of lead time on mobile for buffering during scroll
      */
     setupPrefetchObserver(gallery) {
         const videos = gallery.querySelectorAll('.media-card-video');
@@ -398,7 +398,7 @@ const MediaGallery = {
                     prefetchObserver.unobserve(video);
                 }
             });
-        }, { rootMargin: '500px 0px' });
+        }, { rootMargin: '1000px 0px' });
 
         videos.forEach(video => prefetchObserver.observe(video));
     }

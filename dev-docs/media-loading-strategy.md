@@ -145,7 +145,7 @@ setupPrefetchObserver(gallery) {
                 prefetchObserver.unobserve(video);  // Only trigger once
             }
         });
-    }, { rootMargin: '500px 0px' });  // 500px ahead of viewport
+    }, { rootMargin: '1000px 0px' });  // 1000px ahead of viewport
 
     videos.forEach(video => prefetchObserver.observe(video));
 }
@@ -153,16 +153,16 @@ setupPrefetchObserver(gallery) {
 
 **How it works:**
 1. When gallery renders, observer watches all videos
-2. When a video is 500px from viewport, observer fires
+2. When a video is 1000px from viewport, observer fires
 3. Changes `preload` from `metadata` to `auto`
 4. Browser starts loading actual video data
 5. Observer unobserves (one-time trigger)
 
-**Why 500px root margin?**
-- Gives ~2-4 seconds of scroll time to load
+**Why 1000px root margin?**
+- On mobile (iPhone 16 Pro: ~852px viewport), gives 2-3 cards of lead time
 - Accounts for fast scrolling on mobile
 - Ensures videos are buffered before they become visible
-- Balances responsiveness vs bandwidth
+- Large enough margin to handle variable scroll speeds
 
 ### Stage 4: Play on Visibility
 
@@ -255,8 +255,8 @@ Both `preloadTopVideos()` and `setupPrefetchObserver()` track URLs in `preloaded
 
 | Setting | Location | Current Value | Notes |
 |---------|----------|---------------|-------|
-| Background preload count | `media-gallery.js` | 6 | Number of videos to preload on init |
-| Prefetch root margin | `media-gallery.js` | 500px | How far ahead to start loading |
+| Background preload count | `media-gallery.js` | 4 | Number of videos to preload on init (sequential) |
+| Prefetch root margin | `media-gallery.js` | 1000px | How far ahead to start loading (~2-3 cards on mobile) |
 | Play threshold | `media-gallery.js` | 0.4 (40%) | Visibility ratio to trigger play |
 
 ## Bandwidth Considerations
