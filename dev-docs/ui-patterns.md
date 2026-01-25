@@ -146,3 +146,50 @@ When adding new icons, add them to `docs/index.html` and document here.
 | `.incident-note` | incident files | Styled inline notes |
 | `.media-icon` | various | Camera icon color |
 | `.viewed-icon` | various | Eye icon color |
+
+## iOS CSS Gotchas
+
+iOS Safari and Chrome (which uses WebKit) have quirks with `position: sticky` and `position: fixed`. Follow these rules to avoid issues.
+
+### Sticky Positioning
+
+**Always use both prefixed and unprefixed:**
+```css
+.sticky-element {
+    position: -webkit-sticky;  /* Required for iOS */
+    position: sticky;
+    top: 0;
+}
+```
+
+**Avoid these sticky-breaking patterns:**
+- `overflow: hidden`, `overflow: auto`, or `overflow: scroll` on parent elements (use `overflow: visible`)
+- If horizontal scroll is needed, explicitly set `overflow-y: visible`:
+  ```css
+  .scrollable-nav {
+      overflow-x: auto;
+      overflow-y: visible;  /* Prevents sticky from breaking */
+      position: -webkit-sticky;
+      position: sticky;
+  }
+  ```
+- `transform` on any ancestor element
+- Certain `contain` values on ancestors
+
+### Fixed Positioning
+
+**Use hardware acceleration for stable fixed elements on iOS:**
+```css
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+```
+
+This forces GPU compositing which prevents the element from "jumping" during momentum scrolling on iOS.
+
+### Testing
+
+Always test on a real iOS device (or at minimum iOS Simulator). Chrome DevTools mobile emulation does NOT replicate iOS WebKit rendering quirks.
