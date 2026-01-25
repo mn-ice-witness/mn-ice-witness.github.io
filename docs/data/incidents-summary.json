@@ -21,15 +21,15 @@
       "hasLocalMedia": true,
       "localMediaType": "video",
       "localMediaPath": "media/2026-01-24-alex-pretti-shooting.mp4",
-      "localMediaOgPath": "media/2026-01-24-alex-pretti-shooting-og-2s-1769295039.jpg",
+      "localMediaOgPath": "media/2026-01-24-alex-pretti-shooting-og-2s-1769302496.jpg",
       "localMediaFiles": [
         {
           "type": "video",
           "path": "media/2026-01-24-alex-pretti-shooting.mp4"
         }
       ],
-      "aspectRatio": 0.6055555555555555,
-      "mediaVersion": 1769295039
+      "aspectRatio": 0.5861111111111111,
+      "mediaVersion": 1769302496
     },
     {
       "filePath": "incidents/2026-01/2026-01-24-jana-shortal-journalist-pepper-sprayed.md",
