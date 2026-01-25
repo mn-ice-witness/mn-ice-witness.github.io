@@ -1,6 +1,6 @@
 # High Quality Videos
 
-Videos that should use less compression (CRF 23 instead of default 35).
+Videos that should use less compression (CRF 30 instead of default 35).
 One slug per line.
 
 ```
