@@ -6,13 +6,13 @@
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
+alex-pretti-shooting
+dhs-response-pretti-shooting
 target-richfield-employees
 observer-pinned-pepper-sprayed-face
 brooklyn-park-officer-citizen-check
 observer-shoved-into-traffic
 teenager-tackled-snow
-alex-pretti-shooting
-dhs-response-pretti-shooting
 mankato-women-sprayed
 bovino-hexachloroethane-playground
 silva-sosa-inver-grove-heights
