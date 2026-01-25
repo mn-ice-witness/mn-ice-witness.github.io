@@ -26,7 +26,7 @@ from pathlib import Path
 
 DEFAULT_OG_TIMESTAMP = 2.0
 DEFAULT_CRF = 35  # Higher = more compression, lower = better quality
-HIGH_QUALITY_CRF = 23  # For videos marked as "high-quality"
+HIGH_QUALITY_CRF = 26  # For videos marked as "high-quality"
 
 
 # Video extensions to process
