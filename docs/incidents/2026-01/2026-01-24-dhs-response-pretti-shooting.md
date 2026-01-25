@@ -14,9 +14,6 @@ last_updated: 2026-01-24T16:54:42
 
 # DHS Response: Pretti "Violently Resisted"
 
-## Updates
-- **Jan 24** - Video from multiple angles shows Pretti was holding a phone, not a weapon, and that an agent removed his holstered gun before the shooting.
-
 ## Summary
 Following the fatal shooting of Alex Pretti by federal agents, DHS Secretary Kristi Noem, White House advisor Stephen Miller, and other administration officials have consistently claimed Pretti approached officers with a handgun and "violently resisted" attempts to disarm him. Video from multiple angles shows Pretti was holding a phone, not a weapon, and that his gun was removed from its holster by an agent before he was shot. At a press conference, Border Patrol Commander Greg Bovino defended the shooting, claiming the officer fired "defensive shots" and that federal law enforcement had been "under attack" in Minneapolis. Bovino described the officer as "highly trained" with eight years of experience. Video shows multiple agents had Pretti on the ground when he was shot.
 
