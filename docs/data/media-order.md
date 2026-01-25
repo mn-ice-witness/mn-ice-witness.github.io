@@ -3,11 +3,13 @@
 
 
 
+
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
 alex-pretti-shooting
 dhs-response-pretti-shooting
+dhs-response-bovino-gun-deflection
 target-richfield-employees
 observer-pinned-pepper-sprayed-face
 brooklyn-park-officer-citizen-check

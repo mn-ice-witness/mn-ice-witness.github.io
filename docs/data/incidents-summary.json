@@ -1,6 +1,37 @@
 {
   "incidents": [
     {
+      "filePath": "incidents/2026-01/2026-01-25-dhs-response-bovino-gun-deflection.md",
+      "title": "Bovino: \"Let's Take a Look at the Gun\"; Second Amendment Groups Demand Answers",
+      "summary": "At a press conference following the fatal shooting of Alex Pretti, Border Patrol Commander Greg Bovino deflected a reporter's question about whether Pretti ever reached for or brandished his weapon. When asked directly, Bovino pivoted: \"This is under investigation. Those facts will come to light, but let's take a look at the gun.\" He then displayed a photo of Pretti's firearm and described it as \"semi-automatic high capacity type, possibly a SIG Sauer.\" The deflection sparked concern from Second Amendment advocacy groups, who argue that merely possessing a legal firearm does not justify lethal force. Gun Owners of America, Second Amendment Foundation, and Minnesota Gun Owners Caucus have all called for a full investigation.",
+      "latestUpdate": null,
+      "date": "2026-01-25",
+      "time": "unknown",
+      "location": "Bishop Henry Whipple Federal Building",
+      "city": "Minneapolis",
+      "type": "response",
+      "status": "under-investigation",
+      "affectedIndividualCitizenship": "us-citizen",
+      "injuries": "fatal",
+      "trustworthiness": "high",
+      "created": "2026-01-25T08:10:21",
+      "lastUpdated": "2026-01-25",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01-25-dhs-response-bovino-gun-deflection.mp4",
+      "localMediaOgPath": "media/2026-01-25-dhs-response-bovino-gun-deflection-og-2s-1769350319.jpg",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01-25-dhs-response-bovino-gun-deflection.mp4"
+        }
+      ],
+      "aspectRatio": 1.8026905829596414,
+      "mediaVersion": 1769350319
+    },
+    {
       "filePath": "incidents/2026-01/2026-01-25-vance-engineered-chaos-unique.md",
       "title": "Vance: \"Engineered Chaos\" Unique to Minneapolis",
       "summary": "Following the fatal shooting of Alex Pretti, Vice President JD Vance posted on X claiming \"this level of engineered chaos is unique to Minneapolis\" and is \"the direct consequence of far left agitators, working with local authorities.\" Vance provided no evidence to support his assertion that Minneapolis resistance was organized differently than other cities or that local authorities coordinated with protesters.",
@@ -30,7 +61,7 @@
       "filePath": "incidents/2026-01/2026-01-24-alex-pretti-shooting.md",
       "title": "Alex Pretti Shot and Killed by Federal Agents",
       "summary": "Federal agents fatally shot Alex Jeffrey Pretti, a 37-year-old U.S. citizen, licensed nurse, and lawful gun owner, in south Minneapolis. This is the second fatal shooting involving federal agents in Minnesota in three weeks, following the killing of Renee Good. Video shows multiple agents wrestling Pretti to the ground before shooting him multiple times.",
-      "latestUpdate": "Vice President Vance [claims on X](#2026-01-25-vance-engineered-chaos-unique) that \"engineered chaos\" in Minneapolis is \"unique\" and caused by \"far left agitators, working with local authorities.\" Vance provided no evidence for this assertion.",
+      "latestUpdate": "When asked if Pretti reached for his gun, Commander Bovino [deflects](#2026-01-25-dhs-response-bovino-gun-deflection): \"Let's take a look at the gun.\" Gun rights groups demand answers.",
       "date": "2026-01-24",
       "time": "09:05",
       "location": "26th Street and Nicollet Avenue",
