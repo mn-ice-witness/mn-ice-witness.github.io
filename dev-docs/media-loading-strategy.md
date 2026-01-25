@@ -57,8 +57,8 @@ if ('requestIdleCallback' in window) {
 1. App loads and renders list view (default)
 2. Browser goes idle (user is reading list)
 3. `requestIdleCallback` fires, calling `preloadTopVideos()`
-4. Creates hidden `<video preload="auto">` elements **one at a time**
-5. Waits for each video to reach `canplaythrough` before starting the next
+4. Creates hidden `<video preload="auto">` elements in parallel
+5. Browser manages bandwidth allocation via HTTP/2 multiplexing
 6. Hidden videos self-remove after loaded or 30s timeout
 
 **Why `requestIdleCallback`?**
@@ -66,16 +66,18 @@ if ('requestIdleCallback' in window) {
 - Uses spare CPU/network capacity
 - Falls back to `setTimeout(fn, 1000)` on older browsers
 
-**Why sequential (not parallel) preloading?**
-- Video #1 gets 100% of available bandwidth
-- First video is ready as fast as possible
-- No bandwidth competition between multiple videos
-- Users see video #1 load quickly, others follow
+**Why parallel (not sequential) preloading?**
+- HTTP/2 multiplexing handles concurrent requests efficiently
+- Cloudflare edge caching means parallel requests don't compete for origin bandwidth
+- All videos start loading immediately, browser manages prioritization
+- In practice, parallel loading performed better than sequential
 
-Location: `docs/js/media-gallery.js` → `preloadTopVideos()` and `preloadSingleVideo()`
+> **Note:** We tried sequential loading (one video at a time, waiting for each to buffer before starting the next). The theory was that video #1 would get 100% bandwidth. In practice, it performed worse - parallel loading with HTTP/2 and CDN edge caching is faster. Don't re-implement sequential loading.
+
+Location: `docs/js/media-gallery.js` → `preloadTopVideos()`
 
 ```javascript
-async preloadTopVideos(count = 6) {
+preloadTopVideos(count = 6) {
     // Get video incidents in display order
     let mediaIncidents = App.incidents.filter(i => i.hasLocalMedia && i.localMediaType === 'video');
     if (!ViewState.sortByUpdated) {
@@ -84,17 +86,11 @@ async preloadTopVideos(count = 6) {
 
     const toPreload = mediaIncidents.slice(0, count);
 
-    // Load videos SEQUENTIALLY - wait for each to be ready before starting next
-    for (const incident of toPreload) {
+    // Load videos in PARALLEL - browser and CDN handle prioritization
+    toPreload.forEach(incident => {
         const mediaUrl = App.getMediaUrl(incident.localMediaPath, incident.mediaVersion);
-        if (this.preloadedVideos.has(mediaUrl)) continue;
+        if (this.preloadedVideos.has(mediaUrl)) return;
 
-        await this.preloadSingleVideo(mediaUrl);
-    }
-}
-
-preloadSingleVideo(mediaUrl) {
-    return new Promise((resolve) => {
         const video = document.createElement('video');
         video.preload = 'auto';
         video.muted = true;
@@ -103,15 +99,10 @@ preloadSingleVideo(mediaUrl) {
         video.style.cssText = 'position:absolute;width:1px;height:1px;opacity:0;pointer-events:none;';
         document.body.appendChild(video);
 
+        video.addEventListener('canplaythrough', () => video.remove(), { once: true });
+        setTimeout(() => video.remove(), 30000);
+
         this.preloadedVideos.add(mediaUrl);
-
-        const cleanup = () => {
-            video.remove();
-            resolve();
-        };
-
-        video.addEventListener('canplaythrough', cleanup, { once: true });
-        setTimeout(cleanup, 30000);
     });
 }
 ```
@@ -145,7 +136,7 @@ setupPrefetchObserver(gallery) {
                 prefetchObserver.unobserve(video);  // Only trigger once
             }
         });
-    }, { rootMargin: '1000px 0px' });  // 1000px ahead of viewport
+    }, { rootMargin: '500px 0px' });  // 500px ahead of viewport
 
     videos.forEach(video => prefetchObserver.observe(video));
 }
@@ -153,16 +144,15 @@ setupPrefetchObserver(gallery) {
 
 **How it works:**
 1. When gallery renders, observer watches all videos
-2. When a video is 1000px from viewport, observer fires
+2. When a video is 500px from viewport, observer fires
 3. Changes `preload` from `metadata` to `auto`
 4. Browser starts loading actual video data
 5. Observer unobserves (one-time trigger)
 
-**Why 1000px root margin?**
-- On mobile (iPhone 16 Pro: ~852px viewport), gives 2-3 cards of lead time
-- Accounts for fast scrolling on mobile
-- Ensures videos are buffered before they become visible
-- Large enough margin to handle variable scroll speeds
+**Why 500px root margin?**
+- Gives ~1 card of lead time before video enters viewport
+- Balances early loading with not over-fetching
+- Works well with parallel preloading strategy
 
 ### Stage 4: Play on Visibility
 
@@ -255,8 +245,8 @@ Both `preloadTopVideos()` and `setupPrefetchObserver()` track URLs in `preloaded
 
 | Setting | Location | Current Value | Notes |
 |---------|----------|---------------|-------|
-| Background preload count | `media-gallery.js` | 4 | Number of videos to preload on init (sequential) |
-| Prefetch root margin | `media-gallery.js` | 1000px | How far ahead to start loading (~2-3 cards on mobile) |
+| Background preload count | `media-gallery.js` | 4 | Number of videos to preload on init (parallel) |
+| Prefetch root margin | `media-gallery.js` | 500px | How far ahead to start loading (~1 card) |
 | Play threshold | `media-gallery.js` | 0.4 (40%) | Visibility ratio to trigger play |
 
 ## Bandwidth Considerations
