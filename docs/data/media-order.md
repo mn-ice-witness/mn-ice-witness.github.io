@@ -9,7 +9,6 @@ aliya-rahman-car-window-hospitalized
 speedway-st-paul
 alex-pretti-shooting
 dhs-response-pretti-shooting
-bovino-pretti-had-gun-response
 target-richfield-employees
 observer-pinned-pepper-sprayed-face
 brooklyn-park-officer-citizen-check
@@ -64,6 +63,7 @@ mercado-central-mother-children
 christina-rank-teacher
 francis-burger-joint-manager
 fridley-schools-closure
+bovino-pretti-had-gun-response
 saly-hmong-citizen-shirtless
 dhs-response-accent-detention
 dhs-response-saly-detention
