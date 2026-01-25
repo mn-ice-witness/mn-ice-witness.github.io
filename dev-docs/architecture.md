@@ -299,6 +299,27 @@ This section describes what each JavaScript file does. For LLMs: read this befor
 
 **Used by:** `scripts/process_media.py`
 
+**Note:** For complete control over OG images, use custom OG sources instead (see below).
+
+---
+
+### Custom OG Sources (`raw_media/*.raw_og.png`)
+
+**Purpose:** Use a custom image as the OG/social preview instead of extracting a frame from video.
+
+**How it works:**
+1. Add a file named `{slug}.raw_og.png` (or `.jpg`) to `raw_media/`
+2. Run `process_media.py`
+3. The custom image is scaled to 1200x630 and used as the OG image
+
+**Example:** `raw_media/2026-01-24-alex-pretti-shooting.raw_og.png`
+
+**Output:** `docs/media/2026-01-24-alex-pretti-shooting-og-custom-{mtime}.jpg`
+
+**When to use:** When the best frame for social sharing isn't in the video, or you want a specific cropped/edited image.
+
+**Used by:** `scripts/process_media.py`
+
 ---
 
 ### `docs/data/high-quality-videos.md`

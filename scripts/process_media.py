@@ -446,6 +446,52 @@ def process_image(input_path: Path, output_path: Path) -> bool:
         return False
 
 
+def find_custom_og_source(slug: str, raw_dir: Path) -> Path | None:
+    """Find a custom OG source image (slug.raw_og.png/jpg) in raw_media/."""
+    for ext in [".png", ".jpg", ".jpeg"]:
+        custom_path = raw_dir / f"{slug}.raw_og{ext}"
+        if custom_path.exists():
+            return custom_path
+    return None
+
+
+def process_custom_og_image(input_path: Path, og_path: Path) -> bool:
+    """Process a custom OG image: scale to 1200x630 with letterboxing."""
+    print(f"  Processing custom OG: {input_path.name} -> {og_path.name}")
+
+    cmd = [
+        "ffmpeg",
+        "-y",
+        "-i",
+        str(input_path),
+        "-vf",
+        "scale=1200:630:force_original_aspect_ratio=decrease,pad=1200:630:(ow-iw)/2:(oh-ih)/2:black",
+        "-q:v",
+        "2",
+        str(og_path),
+    ]
+
+    try:
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        if result.returncode != 0:
+            print(f"    Error: {result.stderr[:200]}")
+            return False
+
+        output_size = og_path.stat().st_size / 1024
+        print(f"    Processed: {output_size:.0f}KB")
+        return True
+    except FileNotFoundError:
+        print("    Error: ffmpeg not found. Install with: brew install ffmpeg")
+        return False
+
+
+def get_custom_og_path(video_output_path: Path, source_mtime: int) -> Path:
+    """Get OG image path for a custom OG source (e.g., incident-og-custom-1769026840.jpg)."""
+    return video_output_path.with_name(
+        f"{video_output_path.stem}-og-custom-{source_mtime}.jpg"
+    )
+
+
 def generate_og_image(video_path: Path, og_path: Path, timestamp: float) -> bool:
     """Generate OG image (1200x630) from video at specified timestamp."""
     print(f"  Generating OG image: {og_path.name} (at {timestamp}s)")
@@ -598,6 +644,7 @@ def main():
         if f.is_file()
         and f.suffix.lower() in all_extensions
         and not f.name.startswith("Screen")
+        and ".raw_og" not in f.name  # Exclude custom OG sources (processed separately)
     ]
 
     if not raw_files:
@@ -695,6 +742,27 @@ def main():
             continue
 
         slug = video_path.stem
+
+        # Check for custom OG source first
+        custom_og_source = find_custom_og_source(slug, raw_dir)
+        if custom_og_source:
+            source_mtime = int(custom_og_source.stat().st_mtime)
+            og_path = get_custom_og_path(video_path, source_mtime)
+
+            og_cleaned += cleanup_wrong_og_images(video_path, og_path, output_dir)
+
+            if not args.force and og_path.exists():
+                print(f"  Skipping OG (up to date): {og_path.name}")
+                og_skipped += 1
+                continue
+
+            if process_custom_og_image(custom_og_source, og_path):
+                og_processed += 1
+            else:
+                og_errors += 1
+            continue
+
+        # Fall back to extracting frame from video
         timestamp = og_tweaks.get(slug, DEFAULT_OG_TIMESTAMP)
         video_mtime = int(video_path.stat().st_mtime)
         og_path = get_og_path(video_path, timestamp, video_mtime)
