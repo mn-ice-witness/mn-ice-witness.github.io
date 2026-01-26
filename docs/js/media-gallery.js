@@ -237,7 +237,12 @@ const MediaGallery = {
             `;
         }
 
+        // Format incident date (when it occurred)
+        const incidentDate = new Date(incident.date + 'T12:00:00');
+        const incidentDateStr = incidentDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+
         const timestampLabel = App.getTimestampLabel(incident);
+        const metaLine = timestampLabel ? `${incidentDateStr} | ${timestampLabel}` : incidentDateStr;
 
         return `
             <article class="media-card" role="button" tabindex="0">
@@ -247,7 +252,7 @@ const MediaGallery = {
                 </div>
                 <div class="media-card-info">
                     <h3 class="media-card-title">${categoryPrefix}${incident.title}</h3>
-                    ${timestampLabel ? `<span class="media-card-timestamp">${timestampLabel}</span>` : ''}
+                    <span class="media-card-timestamp">${metaLine}</span>
                 </div>
             </article>
         `;
