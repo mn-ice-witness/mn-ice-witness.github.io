@@ -28,7 +28,6 @@ const ViewState = {
 
     /**
      * Sync URL to match sortByUpdated state (call after route handling)
-     * If localStorage has filter on but URL doesn't, update URL
      */
     syncUrlWithFilterState() {
         const route = Router.parseUrl();

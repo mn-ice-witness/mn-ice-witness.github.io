@@ -74,7 +74,7 @@ const App = {
         // Handle initial route
         this.handleInitialRoute();
 
-        // Sync URL with filter state (localStorage -> URL if needed)
+        // Sync URL with filter state
         ViewState.syncUrlWithFilterState();
 
         // Render based on route
