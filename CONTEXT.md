@@ -56,15 +56,21 @@ This is not optional. Do not type `2026-01-22T12:00:00` or any other time from m
 
 ### Incident Types (Categories)
 **Exactly 5 types exist — these are the ONLY categories shown in UI:**
-- `citizens` - U.S. citizens racially profiled or mistakenly targeted
+- `citizens` - U.S. citizens **OR anyone with valid legal status** (green cards, work visas, work permits, refugees with authorization)
 - `observers` - People targeted for filming/observing/protesting ICE
-- `immigrants` - Non-criminal immigrants detained
+- `immigrants` - People **without legal status** (undocumented, pending asylum, removal orders)
 - `schools-hospitals` - Actions at/near schools or hospitals
 - `response` - DHS/ICE official statements
 
+**⚠️ CRITICAL: citizens vs immigrants distinction:**
+| `citizens` | Has legal right to be here | US citizens, green card, valid work visa/permit, authorized refugees |
+| `immigrants` | Does NOT have legal status | Undocumented, asylum pending, removal orders, overstayed visas |
+
+**Simple test:** Does the person have VALID LEGAL STATUS? YES → `citizens`. NO → `immigrants`.
+
 Multiple types allowed via comma: `type: citizens, schools-hospitals`
 
-**Note:** `affected_individual_citizenship` (us-citizen, asylum-seeker, etc.) is metadata, NOT a category. It is not displayed in the UI header.
+**Note:** `affected_individual_citizenship` (us-citizen, legal-resident, asylum-seeker, undocumented) is metadata, NOT a category.
 
 ### Unverified Incidents
 Incidents with `trustworthiness: unverified` are **hidden from the main page** (both media gallery and list view). They appear only at `/unverified`, sorted by update date.

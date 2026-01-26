@@ -216,9 +216,10 @@ These provide incontrovertible evidence and should be documented with HIGH trust
 
 **DOCUMENT** if:
 - U.S. citizen detained, arrested, or harmed
+- Legal resident (green card, work visa, work permit) detained, arrested, or harmed
 - U.S. citizen subjected to citizenship check (stopped, questioned)
 - Bystander/observer arrested for filming or watching
-- Non-criminal community member detained
+- Non-criminal immigrants without legal status — business owners, workers, asylum seekers
 - ICE activity at schools, hospitals, churches
 - Video/photo evidence of abuse
 
@@ -228,6 +229,27 @@ These provide incontrovertible evidence and should be documented with HIGH trust
 - Detainees with criminal convictions
 - Single unverified social media posts
 - Rumors without any news pickup
+
+### Categorizing Incidents: citizens vs immigrants
+
+**⚠️ CRITICAL DISTINCTION — Get this right when creating incident files:**
+
+| Category | Who belongs here | Examples |
+|----------|------------------|----------|
+| `citizens` | **Has legal right to be in U.S.** | U.S. citizens, green card holders, valid work visa/permit holders, refugees with work authorization |
+| `immigrants` | **Does NOT have legal status** | Undocumented, asylum-seekers awaiting decision, people with removal orders, overstayed visas |
+
+**Simple test:** Does the person have VALID LEGAL STATUS?
+- **YES** → `type: citizens` (even if they're not a U.S. citizen)
+- **NO** → `type: immigrants`
+
+**Common mistakes to avoid:**
+- ❌ Legal resident with valid visa → DON'T put in `immigrants`
+- ❌ Asylum seeker with pending case (no work authorization) → DON'T put in `citizens`
+- ❌ H-2A temporary agricultural workers → These are `citizens` (valid work visa)
+- ❌ Person with final removal order → This is `immigrants` (no longer has legal status)
+
+**When in doubt:** Search for the person's immigration status in the sources. If a source says "valid visa," "green card," "legal resident," "work permit" → `citizens`. If it says "undocumented," "removal order," "pending asylum," "overstayed" → `immigrants`.
 
 ## Output Format
 

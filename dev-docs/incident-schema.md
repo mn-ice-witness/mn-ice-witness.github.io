@@ -106,11 +106,22 @@ citizens | observers | immigrants | schools-hospitals | response
 
 | Value | Use For |
 |-------|---------|
-| `citizens` | U.S. citizens or legal residents **racially profiled or mistakenly targeted while going about daily life** — targeted for who they are |
+| `citizens` | U.S. citizens **OR anyone with valid legal status** (green cards, work visas, work permits, refugees with authorization) — people who have the RIGHT to be here |
 | `observers` | People **detained or attacked for filming, observing, or protesting** ICE — targeted for what they were doing |
-| `immigrants` | Non-criminal immigrants detained (includes workplace raids) |
+| `immigrants` | People **without legal status**: undocumented, asylum-seekers with pending cases, those with removal/deportation orders, overstayed visas |
 | `schools-hospitals` | Actions at/near schools or hospitals, including patient targeting and workplace audits |
 | `response` | **FEDERAL GOVERNMENT ONLY:** DHS/ICE/CBP official statements (e.g., Trump, Noem, Bovino, @DHSgov). NOT for local police, mayors, governors, or other non-federal officials. |
+
+**⚠️ CRITICAL: citizens vs immigrants — THE KEY DISTINCTION:**
+
+| Category | Who belongs here | Examples |
+|----------|------------------|----------|
+| `citizens` | **Has legal right to be in U.S.** | U.S. citizens (born or naturalized), green card holders, valid work visa holders, valid work permit holders, refugees with work authorization, TPS holders with authorization |
+| `immigrants` | **Does NOT have legal status** | Undocumented, asylum-seekers still waiting for decision, people with final removal orders, overstayed visas, pending applications without current authorization |
+
+**Simple test:** Does the person have VALID LEGAL STATUS to be in the U.S.?
+- **YES** → `citizens` (even if they're not a U.S. citizen)
+- **NO** → `immigrants`
 
 **Do NOT invent types.** Values like `schools`, `workplace-raid`, `citizen-detained`, or any other variation will break filtering.
 
