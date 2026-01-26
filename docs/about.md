@@ -34,9 +34,13 @@ Incidents are organized into five categories:
 - **Observers** — People detained while filming, observing, following, or protesting ICE enforcement operations
 - **Immigrants** — Non-criminal immigrants detained, including workplace raids
 - **Schools/Hospitals** — Actions at or near schools, hospitals, and healthcare institutions
-- **Response** — Official DHS/ICE statements about specific incidents. The federal government has put forward two main arguments: (1) that enforcement targets dangerous criminals and the "worst of the worst," and (2) that local sanctuary city policies, rhetoric from state and city officials, and community "obstruction" are to blame for confrontational scenes. Both are explored in detail below.
+- **Response** — Official DHS/ICE statements about specific incidents.
 
 *Note: "Citizens" and "Observers" may both involve U.S. citizens. The distinction is whether they were targeted in racially-profiled enforcement operations (Citizens) or detained while filming or protesting (Observers). A few Citizens incidents involve other circumstances.*
+
+### A Note on Federal Position/Responses
+
+The federal government has put forward two main arguments: (1) that enforcement targets dangerous criminals and the "worst of the worst," and (2) that local sanctuary city policies, rhetoric from state and city officials, and community "obstruction" are to blame for the confrontations and chaos seen in the streets of Minneapolis. Both are explored in detail below.
 
 <h2 id="the-focus-on-criminals">Federal Position: Targeting Criminals and the "Worst of the Worst" <a href="#the-focus-on-criminals" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
