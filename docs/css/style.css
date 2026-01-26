@@ -476,6 +476,7 @@ body {
 /* ==================== VIEW TOGGLE ==================== */
 
 .view-toggle {
+    position: relative;
     display: flex;
     justify-content: center;
     gap: 0;
