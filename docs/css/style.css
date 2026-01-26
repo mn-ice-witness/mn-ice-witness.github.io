@@ -871,6 +871,10 @@ body {
     color: var(--color-text-secondary);
 }
 
+.media-card-added {
+    color: var(--color-text-muted);
+}
+
 .media-gallery-note {
     width: 100%;
     text-align: center;
