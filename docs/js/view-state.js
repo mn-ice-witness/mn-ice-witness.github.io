@@ -17,11 +17,10 @@ const ViewState = {
     currentView: 'list',
 
     /**
-     * Initialize view state from localStorage
+     * Initialize view state
      */
     init() {
         this.loadViewedState();
-        this.loadSortPreference();
         this.initSortToggle();
         this.initViewToggle();
         this.initClearViewed();
@@ -142,20 +141,6 @@ const ViewState = {
     // ==================== SORT PREFERENCE ====================
 
     /**
-     * Load sort preference from localStorage
-     */
-    loadSortPreference() {
-        this.sortByUpdated = localStorage.getItem('sortByUpdated') === 'true';
-    },
-
-    /**
-     * Save sort preference to localStorage
-     */
-    saveSortPreference() {
-        localStorage.setItem('sortByUpdated', this.sortByUpdated.toString());
-    },
-
-    /**
      * Initialize sort toggle checkbox
      */
     initSortToggle() {
@@ -166,7 +151,6 @@ const ViewState = {
 
         checkbox.addEventListener('change', () => {
             this.sortByUpdated = checkbox.checked;
-            this.saveSortPreference();
 
             // Update toggle visual state
             const toggle = document.getElementById('view-toggle');
@@ -209,7 +193,6 @@ const ViewState = {
      */
     disableSortByUpdated() {
         this.sortByUpdated = false;
-        this.saveSortPreference();
         const checkbox = document.getElementById('sort-updated-checkbox');
         if (checkbox) checkbox.checked = false;
     },
@@ -219,7 +202,6 @@ const ViewState = {
      */
     enableSortByUpdated() {
         this.sortByUpdated = true;
-        this.saveSortPreference();
         const checkbox = document.getElementById('sort-updated-checkbox');
         if (checkbox) checkbox.checked = true;
 
@@ -298,20 +280,15 @@ const ViewState = {
      * Update URL to reflect current view (preserves filter param)
      */
     updateUrlView(view) {
-        localStorage.setItem('preferredView', view);
         const basePath = view === 'list' ? Router.buildUrl('list') : Router.buildUrl('media');
         const newUrl = Router.buildUrlWithFilter(basePath, this.sortByUpdated);
         window.history.replaceState({}, '', newUrl);
     },
 
     /**
-     * Get preferred view from localStorage
-     * First-time visitors: desktop -> media, mobile -> list
+     * Get preferred view - always list
      */
     getPreferredView() {
-        const stored = localStorage.getItem('preferredView');
-        if (stored) return stored;
-        const isMobile = window.innerWidth < 768;
-        return isMobile ? 'list' : 'media';
+        return 'list';
     }
 };
