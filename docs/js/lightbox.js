@@ -708,7 +708,6 @@ const Lightbox = {
             restartBtn: this.bodyElement.querySelector('.restart-btn'),
             audioToggle: this.bodyElement.querySelector('.audio-toggle'),
             fullscreenBtn: this.bodyElement.querySelector('.fullscreen-btn'),
-            getScrollElement: () => this.bodyElement,
             showEndedOverlay: true
         });
     },
@@ -725,8 +724,7 @@ const Lightbox = {
         MediaControls.setupImageControls({
             image,
             container,
-            fullscreenBtn: container?.querySelector('.fullscreen-btn'),
-            getScrollElement: () => this.bodyElement
+            fullscreenBtn: container?.querySelector('.fullscreen-btn')
         });
     },
 

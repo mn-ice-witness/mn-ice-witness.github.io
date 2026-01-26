@@ -289,7 +289,6 @@ const MediaGallery = {
             restartBtn: cardEl.querySelector('.restart-btn'),
             audioToggle: cardEl.querySelector('.audio-toggle'),
             fullscreenBtn: cardEl.querySelector('.fullscreen-btn'),
-            getScrollElement: () => window,
             showEndedOverlay: false
         });
     },
@@ -303,8 +302,7 @@ const MediaGallery = {
         MediaControls.setupImageControls({
             image,
             container,
-            fullscreenBtn: cardEl.querySelector('.fullscreen-btn'),
-            getScrollElement: () => window
+            fullscreenBtn: cardEl.querySelector('.fullscreen-btn')
         });
     },
 

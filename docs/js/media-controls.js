@@ -75,7 +75,6 @@ const MediaControls = {
      * @param {HTMLElement} options.restartBtn - Restart button (optional)
      * @param {HTMLElement} options.audioToggle - Mute toggle button (optional)
      * @param {HTMLElement} options.fullscreenBtn - Fullscreen button (optional)
-     * @param {Function} options.getScrollElement - Function returning scroll container for position restore
      * @param {boolean} options.showEndedOverlay - Show "scroll for sources" overlay on end
      */
     setupVideoControls(options) {
@@ -90,7 +89,6 @@ const MediaControls = {
             restartBtn,
             audioToggle,
             fullscreenBtn,
-            getScrollElement,
             showEndedOverlay = false
         } = options;
 
@@ -226,20 +224,11 @@ const MediaControls = {
         if (fullscreenBtn) {
             const enterIcon = fullscreenBtn.querySelector('.fullscreen-enter');
             const exitIcon = fullscreenBtn.querySelector('.fullscreen-exit');
-            let savedScrollY = 0;
 
             const onFullscreenChange = () => {
                 const isFs = this.isFullscreen(container);
                 if (!isFs) {
                     container.classList.remove('fullscreen-exiting');
-                    if (savedScrollY > 0) {
-                        const scrollEl = getScrollElement ? getScrollElement() : window;
-                        if (scrollEl === window) {
-                            window.scrollTo(0, savedScrollY);
-                        } else {
-                            scrollEl.scrollTop = savedScrollY;
-                        }
-                    }
                 }
                 this.updateFullscreenIcons(enterIcon, exitIcon, isFs);
             };
@@ -250,8 +239,6 @@ const MediaControls = {
                     container.classList.add('fullscreen-exiting');
                     this.exitFullscreen();
                 } else {
-                    const scrollEl = getScrollElement ? getScrollElement() : window;
-                    savedScrollY = scrollEl === window ? window.scrollY : scrollEl.scrollTop;
                     // Try container first, fall back to video for iOS
                     if (container.requestFullscreen || container.webkitRequestFullscreen) {
                         this.requestFullscreen(container);
@@ -272,29 +259,19 @@ const MediaControls = {
      * @param {HTMLImageElement} options.image - The image element
      * @param {HTMLElement} options.container - Container for fullscreen
      * @param {HTMLElement} options.fullscreenBtn - Fullscreen button
-     * @param {Function} options.getScrollElement - Function returning scroll container
      */
     setupImageControls(options) {
-        const { image, container, fullscreenBtn, getScrollElement } = options;
+        const { image, container, fullscreenBtn } = options;
 
         if (!fullscreenBtn) return;
 
         const enterIcon = fullscreenBtn.querySelector('.fullscreen-enter');
         const exitIcon = fullscreenBtn.querySelector('.fullscreen-exit');
-        let savedScrollY = 0;
 
         const onFullscreenChange = () => {
             const isFs = this.isFullscreen(container);
             if (!isFs) {
                 container.classList.remove('fullscreen-exiting');
-                if (savedScrollY > 0) {
-                    const scrollEl = getScrollElement ? getScrollElement() : window;
-                    if (scrollEl === window) {
-                        window.scrollTo(0, savedScrollY);
-                    } else {
-                        scrollEl.scrollTop = savedScrollY;
-                    }
-                }
             }
             this.updateFullscreenIcons(enterIcon, exitIcon, isFs);
         };
@@ -305,8 +282,6 @@ const MediaControls = {
                 container.classList.add('fullscreen-exiting');
                 this.exitFullscreen();
             } else {
-                const scrollEl = getScrollElement ? getScrollElement() : window;
-                savedScrollY = scrollEl === window ? window.scrollY : scrollEl.scrollTop;
                 this.requestFullscreen(container);
             }
         });
