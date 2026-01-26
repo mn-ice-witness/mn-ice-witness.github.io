@@ -12,7 +12,7 @@ created: 2026-01-26T15:10:02
 last_updated: 2026-01-26T15:10:02
 ---
 
-# Legal Visa Holder Hospitalized With Skull Fractures After ICE Detention
+# Legal Visa Holder Hospitalized With Skull Fractures; ICE Claims He "Purposely Ran Headfirst Into a Brick Wall"
 
 ## Updates
 - **Jan 24** - Federal Judge Donovan Frank [orders immediate release](https://www.yahoo.com/news/articles/judge-orders-immediate-release-minnesota-014048216.html) from ICE custody. Unclear if ICE has complied.
