@@ -114,6 +114,55 @@ const LightboxContent = {
     },
 
     /**
+     * Format timestamp for incident page display
+     */
+    formatTimestampForPage(isoTimestamp) {
+        if (!isoTimestamp) return null;
+        const date = new Date(isoTimestamp);
+        if (isNaN(date.getTime())) return null;
+
+        const month = date.toLocaleDateString('en-US', { month: 'short' });
+        const day = date.getDate();
+        let hours = date.getHours();
+        const minutes = date.getMinutes().toString().padStart(2, '0');
+        const ampm = hours >= 12 ? 'pm' : 'am';
+        hours = hours % 12 || 12;
+
+        return `${month} ${day}, ${hours}:${minutes}${ampm}`;
+    },
+
+    /**
+     * Get upload/update info for incident page
+     */
+    getIncidentTimestampInfo(summaryData) {
+        if (!summaryData) return { uploadLabel: null, updateLabel: null };
+
+        const created = summaryData.created;
+        const lastUpdated = summaryData.lastUpdated;
+
+        let uploadLabel = null;
+        let updateLabel = null;
+
+        if (created) {
+            uploadLabel = 'Uploaded: ' + this.formatTimestampForPage(created);
+        }
+
+        // Show update time if different from created
+        if (lastUpdated && created && lastUpdated !== created) {
+            if (lastUpdated.includes('T')) {
+                updateLabel = 'Updated: ' + this.formatTimestampForPage(lastUpdated);
+            } else {
+                const date = new Date(lastUpdated + 'T12:00:00');
+                const month = date.toLocaleDateString('en-US', { month: 'short' });
+                const day = date.getDate();
+                updateLabel = `Updated: ${month} ${day}`;
+            }
+        }
+
+        return { uploadLabel, updateLabel };
+    },
+
+    /**
      * Render full incident content
      */
     renderIncident(incident, summaryData = null) {
@@ -126,6 +175,15 @@ const LightboxContent = {
 
         const localMedia = this.renderLocalMedia(summaryData);
 
+        const timestampInfo = this.getIncidentTimestampInfo(summaryData);
+        let timestampHtml = '';
+        if (timestampInfo.uploadLabel || timestampInfo.updateLabel) {
+            const parts = [];
+            if (timestampInfo.uploadLabel) parts.push(timestampInfo.uploadLabel);
+            if (timestampInfo.updateLabel) parts.push(timestampInfo.updateLabel);
+            timestampHtml = `<div class="lightbox-timestamps">${parts.join(' · ')}</div>`;
+        }
+
         const header = `
             <div class="lightbox-header">
                 ${shareButton}
@@ -135,6 +193,7 @@ const LightboxContent = {
                 <span class="tag">${incident.location}</span>
                 <span class="tag">${IncidentParser.formatDate(incident.date)}</span>
             </div>
+            ${timestampHtml}
         `;
 
         const trustFooter = `

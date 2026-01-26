@@ -480,6 +480,52 @@ const App = {
     },
 
     /**
+     * Format timestamp for display (e.g., "Jan 25, 10:21am")
+     */
+    formatTimestamp(isoTimestamp) {
+        if (!isoTimestamp) return null;
+        const date = new Date(isoTimestamp);
+        if (isNaN(date.getTime())) return null;
+
+        const month = date.toLocaleDateString('en-US', { month: 'short' });
+        const day = date.getDate();
+        let hours = date.getHours();
+        const minutes = date.getMinutes().toString().padStart(2, '0');
+        const ampm = hours >= 12 ? 'pm' : 'am';
+        hours = hours % 12 || 12;
+
+        return `${month} ${day}, ${hours}:${minutes}${ampm}`;
+    },
+
+    /**
+     * Get upload/update label for an incident
+     */
+    getTimestampLabel(incident) {
+        const created = incident.created;
+        const lastUpdated = incident.lastUpdated;
+
+        // If lastUpdated is different from created (and both exist with times), show "Updated"
+        if (lastUpdated && created && lastUpdated !== created) {
+            // Check if lastUpdated has a time component (not just date)
+            if (lastUpdated.includes('T')) {
+                return 'Updated ' + this.formatTimestamp(lastUpdated);
+            }
+            // lastUpdated is date-only, use that date
+            const date = new Date(lastUpdated + 'T12:00:00');
+            const month = date.toLocaleDateString('en-US', { month: 'short' });
+            const day = date.getDate();
+            return `Updated ${month} ${day}`;
+        }
+
+        // Otherwise show "Uploaded" with created timestamp
+        if (created) {
+            return 'Uploaded ' + this.formatTimestamp(created);
+        }
+
+        return null;
+    },
+
+    /**
      * Render a single incident row
      */
     renderRow(incident, showCategory = false) {
@@ -504,6 +550,9 @@ const App = {
             <svg class="viewed-icon" viewBox="0 0 24 24" width="16" height="16"><use href="#icon-eye"/></svg>
         ` : '';
 
+        const timestampLabel = this.getTimestampLabel(incident);
+        const timestampSuffix = timestampLabel ? ` · ${timestampLabel}` : '';
+
         return `
             <article class="incident-row${viewed ? ' viewed' : ''}" data-incident-id="${id}" role="button" tabindex="0">
                 <div class="row-date">
@@ -512,7 +561,7 @@ const App = {
                 </div>
                 <div class="row-content">
                     <h3 class="row-title">${categoryPrefix}${incident.title}</h3>
-                    <span class="row-location">${incident.location}</span>
+                    <span class="row-location">${incident.location}${timestampSuffix}</span>
                 </div>
                 <div class="row-meta">
                     ${mediaIcon}
