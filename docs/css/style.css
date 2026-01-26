@@ -866,9 +866,9 @@ body {
     margin-bottom: 4px;
 }
 
-.media-card-location {
-    font-size: 0.7rem;
-    color: var(--color-text-muted);
+.media-card-timestamp {
+    font-size: 0.65rem;
+    color: var(--color-text-secondary);
 }
 
 .media-gallery-note {

@@ -237,6 +237,8 @@ const MediaGallery = {
             `;
         }
 
+        const timestampLabel = App.getTimestampLabel(incident);
+
         return `
             <article class="media-card" role="button" tabindex="0">
                 <div class="media-card-media">
@@ -245,7 +247,7 @@ const MediaGallery = {
                 </div>
                 <div class="media-card-info">
                     <h3 class="media-card-title">${categoryPrefix}${incident.title}</h3>
-                    <span class="media-card-location">${incident.city}</span>
+                    ${timestampLabel ? `<span class="media-card-timestamp">${timestampLabel}</span>` : ''}
                 </div>
             </article>
         `;
