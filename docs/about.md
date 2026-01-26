@@ -16,7 +16,7 @@
 
 - **NEW/UPDATED toggle** — When enabled, incidents are sorted by when they were added or last updated (e.g., judge ruling, person released). With this off, incidents are sorted by category and then by date.
 - <svg viewBox="0 0 24 24" width="16" height="16" class="media-icon"><use href="#icon-camera"/></svg> **Camera icon** — Incident has video or photo evidence in the media gallery.
-- <svg viewBox="0 0 24 24" width="16" height="16" class="viewed-icon"><use href="#icon-eye"/></svg> **Eye icon** — You've viewed this incident. Viewed incidents are greyed out. <a href="#clear-viewed">Clear history</a>.
+- **Greyed out rows** — Incidents you've already viewed appear greyed out to help you track what you've read. <a href="#clear-viewed">Clear history</a>.
 
 <h2 id="background">Background <a href="#background" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 

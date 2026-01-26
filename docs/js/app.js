@@ -546,10 +546,6 @@ const App = {
             <svg class="media-icon" viewBox="0 0 24 24" width="16" height="16"><use href="#icon-camera"/></svg>
         ` : '';
 
-        const viewedIcon = viewed ? `
-            <svg class="viewed-icon" viewBox="0 0 24 24" width="16" height="16"><use href="#icon-eye"/></svg>
-        ` : '';
-
         const timestampLabel = this.getTimestampLabel(incident);
 
         return `
@@ -564,7 +560,6 @@ const App = {
                 </div>
                 <div class="row-meta">
                     ${mediaIcon}
-                    ${viewedIcon}
                 </div>
             </article>
         `;
