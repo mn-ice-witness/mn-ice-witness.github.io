@@ -12,8 +12,6 @@
  */
 
 const MediaGallery = {
-    preloadedVideos: new Set(),
-
     /**
      * Get number of columns based on viewport width
      */
@@ -135,8 +133,6 @@ const MediaGallery = {
         gallery.appendChild(footer);
 
         this.setupScrollToPlay(gallery);
-        // Prefetch disabled - videos load on-demand when play() is triggered at 40% visibility
-        // this.setupPrefetchObserver(gallery);
     },
 
     /**
@@ -322,69 +318,5 @@ const MediaGallery = {
         document.querySelectorAll('.media-card .audio-toggle').forEach(btn => {
             btn.classList.add('muted');
         });
-    },
-
-    /**
-     * Preload top videos in background (call while in list view)
-     * Creates hidden video elements with preload="auto" for reliable cross-browser loading
-     * Note: <link rel="preload" as="video"> is not supported in Chrome/Safari
-     */
-    async preloadTopVideos(count = 6) {
-        if (typeof App === 'undefined' || !App.incidents) return;
-
-        let mediaIncidents = App.incidents.filter(i => i.hasLocalMedia && i.localMediaType === 'video');
-        if (mediaIncidents.length === 0) return;
-
-        if (!ViewState.sortByUpdated) {
-            mediaIncidents = await this.sortByOrder(mediaIncidents);
-        }
-
-        const toPreload = mediaIncidents.slice(0, count);
-
-        toPreload.forEach(incident => {
-            const mediaUrl = App.getMediaUrl(incident.localMediaPath, incident.mediaVersion);
-            if (this.preloadedVideos.has(mediaUrl)) return;
-
-            const video = document.createElement('video');
-            video.preload = 'auto';
-            video.muted = true;
-            video.playsInline = true;
-            video.src = mediaUrl;
-            video.style.cssText = 'position:absolute;width:1px;height:1px;opacity:0;pointer-events:none;';
-            document.body.appendChild(video);
-
-            video.addEventListener('canplaythrough', () => {
-                video.remove();
-            }, { once: true });
-
-            setTimeout(() => video.remove(), 30000);
-
-            this.preloadedVideos.add(mediaUrl);
-        });
-    },
-
-    /**
-     * Setup prefetch observer for videos approaching viewport
-     * Uses large root margin (500px) to start loading well before visible
-     * This gives time for videos to buffer during scrolling
-     */
-    setupPrefetchObserver(gallery) {
-        const videos = gallery.querySelectorAll('.media-card-video');
-
-        const prefetchObserver = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const video = entry.target;
-                    const src = video.src.split('#')[0];
-                    if (!this.preloadedVideos.has(src)) {
-                        video.preload = 'auto';
-                        this.preloadedVideos.add(src);
-                    }
-                    prefetchObserver.unobserve(video);
-                }
-            });
-        }, { rootMargin: '500px 0px' });
-
-        videos.forEach(video => prefetchObserver.observe(video));
     }
 };
