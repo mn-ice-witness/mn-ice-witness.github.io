@@ -10,12 +10,13 @@ injuries: fatal
 trustworthiness: high
 media: 2026-01-24-alex-pretti-shooting.mp4
 created: 2026-01-24T13:40:15
-last_updated: 2026-01-25T10:54:50
+last_updated: 2026-01-26T14:59:52
 ---
 
 # Alex Pretti Shot and Killed by Federal Agents
 
 ## Updates
+- **Jan 26** - BCA Superintendent Drew Evans says DHS [blocked state investigators](https://www.kare11.com/article/news/local/ice-in-minnesota/bca-blocked-from-scene-where-federal-agents-fatally-shot-man-south-minneapolis/89-2d4bf800-d146-49ee-8eb8-4ff5e09f02c8) from the scene despite having a warrant — in 20+ years he's "never been denied access to a scene."
 - **Jan 24** - Pretti's parents release [statement](https://bsky.app/profile/jeffrueter.bsky.social/post/3md7iqqr5622i) calling their son "a good man" and demanding the truth be told.
 - **Jan 24** - [New video evidence](https://bsky.app/profile/joshuaeakle.com/post/3md76ihzrg22y) appears to show Pretti was holding a phone, not a weapon, and that an agent removed his gun before the shooting.
 
@@ -46,6 +47,8 @@ Federal agents fatally shot Alex Jeffrey Pretti, a 37-year-old U.S. citizen, lic
 19. Al Jazeera (Jan 25, 2026): [Who was Alex Pretti?](https://www.aljazeera.com/news/2026/1/25/who-was-alex-pretti-the-nurse-shot-dead-by-federal-agents-in-minneapolis)
 20. NPR (Jan 25, 2026): [5 things to know about the latest Minneapolis shooting](https://www.npr.org/2026/01/25/nx-s1-5687361/minneapolis-shooting-latest-alex-pretti)
 21. Wikipedia: [Killing of Alex Pretti](https://en.wikipedia.org/wiki/Killing_of_Alex_Pretti)
+22. KARE 11 (Jan 26, 2026): [BCA blocked from scene despite warrant](https://www.kare11.com/article/news/local/ice-in-minnesota/bca-blocked-from-scene-where-federal-agents-fatally-shot-man-south-minneapolis/89-2d4bf800-d146-49ee-8eb8-4ff5e09f02c8)
+23. Fox 9 (Jan 26, 2026): [BCA says DHS blocked them from shooting scene](https://www.fox9.com/news/minneapolis-shooting-minnesota-bca-says-dhs-blocked-shooting-scene)
 
 ## Related Incidents
 

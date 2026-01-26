@@ -2,6 +2,66 @@
 
 Step-by-step guide for AI assistants to search for and document new ICE incidents.
 
+## Daily Search Command
+
+When the user says **"do our daily search"** or similar, follow this exact procedure:
+
+### Phase 1: Gather Context (Before Searching)
+1. **Read existing incidents** - Use Explore agent to get current incident count and recent additions
+2. **Read `dev-docs/not_use.md`** - Know what stories have been rejected and why
+3. **Read unverified incidents** - Check `docs/incidents/` for files with `trustworthiness: unverified` to see if news has broken
+
+### Phase 2: Launch Parallel Search Agents
+Launch **4-6 agents simultaneously** with different search strategies:
+
+| Agent | Focus Area | Search Terms |
+|-------|------------|--------------|
+| 1 | BMTN Daily Lists | `site:bringmethenews.com ICE Minnesota [today/yesterday dates]` |
+| 2 | Local TV News | `KARE 11 OR KSTP OR Fox 9 OR CBS Minnesota ICE Minneapolis [dates]` |
+| 3 | Sahan Journal + MPR | `site:sahanjournal.com OR site:mprnews.org ICE Minnesota January 2026` |
+| 4 | Social Media | `site:x.com OR site:bsky.app ICE Minneapolis Minnesota [dates]` |
+| 5 | Video Evidence | `ICE Minnesota video footage January 2026` |
+| 6 | Unverified Follow-up | Search for specific unverified incident details (names, locations) |
+
+### Phase 3: Cross-Reference and Report
+Each agent should:
+1. Cross-reference findings against existing `docs/incidents/` files
+2. Cross-reference against `dev-docs/not_use.md`
+3. Return structured report with:
+   - **New incidents found** (date, location, description, sources)
+   - **Already documented** (incident matched existing file)
+   - **Add to not_use.md** (evaluated and rejected, with reason)
+   - **Updates to existing** (new sources, status changes)
+   - **Unverified upgrades** (news found for unverified incidents)
+
+### Phase 4: Output
+After agents complete, produce summary table:
+
+```markdown
+## Daily Search Results - [Date]
+
+### New Incidents Found
+| Date | Location | Description | Video? | Sources | Action |
+|------|----------|-------------|--------|---------|--------|
+
+### Existing Incidents Updated
+| Incident | Update Type | Details |
+|----------|-------------|---------|
+
+### Added to not_use.md
+| Story | Reason |
+|-------|--------|
+
+### Unverified Status Changes
+| Incident | Old Status | New Status | Evidence |
+|----------|------------|------------|----------|
+
+### Search Terms Used
+[List all search queries run]
+```
+
+---
+
 ## Daily/Recurring Search Mode
 
 This procedure is designed to be run **1-2 times daily**. For efficient recurring searches:

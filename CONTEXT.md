@@ -100,6 +100,13 @@ Use documentary tone. Let facts speak for themselves.
 | horrific, shocking | (describe facts instead) |
 | exclusive, breaking | (omit) |
 
+### Daily Search Command
+When user says **"do our daily search"**, follow `dev-docs/llm-search-procedure.md` exactly:
+1. Read existing incidents, `not_use.md`, and unverified incidents first
+2. Launch 4-6 parallel search agents with different strategies
+3. Cross-reference all findings against existing files
+4. Report: new incidents, updates to existing, additions to not_use.md, unverified upgrades
+
 ### Before Adding Incidents
 **Always check `dev-docs/not_use.md`** for stories already evaluated and rejected. This prevents re-adding stories that don't fit the project scope.
 
@@ -125,6 +132,7 @@ Use documentary tone. Let facts speak for themselves.
 
 | If you're doing... | Read these dev-docs |
 |-------------------|---------------------|
+| **"Do our daily search"** | `llm-search-procedure.md` (has exact steps), `not_use.md` |
 | **Adding a new incident** | `adding-incidents.md`, `incident-schema.md`, `not_use.md` |
 | **Renaming an incident ID** | `id-reassignment.md` |
 | **Hiding/drafting an incident** | `hiding-incidents.md` |

@@ -18,6 +18,62 @@ Stories are excluded when they don't meet the project's core focus:
 
 ### January 2026
 
+**Home2 Suites Hotel Tear Gas (Jan 26)**
+- Sources: [MPR News](https://www.mprnews.org/story/2026/01/26/federal-agents-deploy-tear-gas-protest-vandalism-minneapolis-hotel), [KARE 11](https://www.kare11.com/article/news/local/ice-in-minnesota/minnesota-state-patrol-responds-to-anti-ice-protest-at-minneapolis-hotel/89-41ac60e3-6f98-4a7a-b389-ffafb3132b15), [Fox News](https://www.foxnews.com/us/anti-ice-agitators-clash-federal-agents-minneapolis-hotel-agents-deploy-tear-gas-flashbangs)
+- Date: January 26, 2026
+- Details: Federal agents (Bureau of Prisons and Border Patrol) deployed tear gas and flashbangs at Home2 Suites hotel in Dinkytown after protesters broke windows following Alex Pretti's killing. MPD and State Patrol said federal agents arrived "without notice or communication" while local officers were de-escalating.
+- Reason: **Protest coverage only** - no specific individual victim detained or targeted for observing ICE. Documents crowd control after property damage.
+- Date evaluated: 2026-01-26
+
+**FBI Agent Mergen Resigns Over Renee Good Investigation (Jan 24-26)**
+- Sources: [NBC News](https://www.nbcnews.com/news/us-news/fbi-agent-resigns-investigation-shooting-renee-good-minneapolis-source-rcna255702), [CBS News](https://www.cbsnews.com/news/fbi-agent-minneapolis-renee-good-resigns/), [KARE 11](https://www.kare11.com/article/news/local/ice-in-minnesota/fbi-agent-renee-goods-death-resigns-cnn/89-f877f336-1c18-427a-906d-c14f0ab1d2be)
+- Date: January 24-26, 2026
+- Details: FBI acting supervisor Tracee Mergen resigned after bureau leadership in Washington pressured her to reclassify/discontinue the civil rights investigation into ICE agent Jonathan Ross who shot Renee Good.
+- Reason: **Political/institutional story** - documents federal investigative conflicts, not a civil rights incident. Similar to "Federal Prosecutors Resign" story already excluded.
+- Date evaluated: 2026-01-26
+
+**Minnesota DOC Commissioner Refutes ICE Claims (Jan 22)**
+- Sources: [KARE 11](https://www.kare11.com/article/news/local/ice-in-minnesota/mn-dept-of-corrections-refutes-ice-claims-on-number-of-arrests/89-20804605-15d4-4a75-b08b-246c8cb49389), [KSTP](https://kstp.com/kstp-news/local-news/minnesota-prisons-head-calls-out-ice-misinformation-on-arrests-cooperation/), [Star Tribune](https://www.startribune.com/paul-schnell-prisons-head-disputes-ice-claims/601568598)
+- Date: January 22, 2026
+- Details: DOC Commissioner Paul Schnell held press conference accusing DHS of misinformation, showing only 301 people have ICE detainers statewide vs. DHS claim of 1,360.
+- Reason: **Policy/institutional story** - documents DHS misinformation but not a specific civil rights incident.
+- Date evaluated: 2026-01-26
+
+**Tom Homan Sent to Minnesota (Jan 26)**
+- Sources: [MPR News](https://www.mprnews.org/story/2026/01/26/border-czar-tom-homan-being-sent-to-minnesota-trump-says), [CBS News](https://www.cbsnews.com/minnesota/live-updates/reported-shooting-south-minneapolis-federal-agents-protesters/)
+- Date: January 26, 2026
+- Details: Trump announced he is sending "border czar" Tom Homan to Minnesota to lead ICE operations following Alex Pretti's killing.
+- Reason: **Political/policy story** - administrative decision, not a civil rights incident.
+- Date evaluated: 2026-01-26
+
+**HCAPE EMS Union Statement (Jan 26)**
+- Sources: [BMTN](https://bringmethenews.com/minnesota-news/list-of-ice-raids-major-updates-in-minnesota-on-monday-jan-26), [EMS1](https://www.ems1.com/labor-issues/minn-ems-union-warns-ice-activity-is-straining-minneapolis-911-system)
+- Date: January 26, 2026
+- Details: HCAPE (Hennepin County paramedics/EMTs union) issued statement saying ICE surge led to "steep increase in calls" and is "pushing emergency medical system past the breaking point."
+- Reason: **Community/institutional response story** - documents impact on emergency services but no specific civil rights incident.
+- Date evaluated: 2026-01-26
+
+**Modern Times Cafe Free Food Protest (Jan 26)**
+- Sources: [BMTN](https://bringmethenews.com/minnesota-news/list-of-ice-raids-major-updates-in-minnesota-on-monday-jan-26)
+- Date: January 26, 2026
+- Details: Owner of Modern Times Cafe announced business will offer free food to everyone except federal agents until "occupation of Minneapolis is over." Now operating as donation-based "Post Modern Times."
+- Reason: **Community response story** - documents business response to ICE presence but no enforcement incident.
+- Date evaluated: 2026-01-26
+
+**60+ CEO Open Letter for De-escalation (Jan 25)**
+- Sources: [CBS News](https://www.cbsnews.com/news/minneapolis-trump-immigration-ice-border-patrol-arrests-protests-shootings/), Minnesota Chamber of Commerce
+- Date: January 25, 2026
+- Details: 60+ CEOs of Minnesota companies (3M, Cargill, Mayo Clinic, Target, Best Buy, UnitedHealth Group, General Mills) signed open letter calling for "immediate de-escalation."
+- Reason: **Political/business response story** - documents corporate response, not a civil rights incident.
+- Date evaluated: 2026-01-26
+
+**Evidence Preservation Order / Walz-Trump Call (Jan 26)**
+- Sources: [Fox News](https://www.foxnews.com/politics/judge-blocks-trump-admin-destroying-altering-evidence-deadly-minneapolis-shooting), [FOX 9](https://www.fox9.com/news/ice-mn-updates-jan-26-2026), [ABC News](https://abcnews.go.com/US/live-updates/minneapolis-ice-shooting-live-updates-doj-investigating-apparent/?id=129340693)
+- Date: January 26, 2026
+- Details: Federal judge granted TRO barring DHS from destroying evidence in Pretti shooting. Gov. Walz and President Trump spoke about scaling down federal presence.
+- Reason: **Legal/political story** - documents court proceedings and negotiations, not a new enforcement incident. Pretti shooting is documented separately.
+- Date evaluated: 2026-01-26
+
 **Cabin 61 Employees Detained White Bear Lake (Jan 25)**
 - Sources: [Bring Me The News](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-sunday-jan-25) mention
 - Date: January 25, 2026
