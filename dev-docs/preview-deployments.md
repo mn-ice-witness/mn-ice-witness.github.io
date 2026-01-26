@@ -2,6 +2,14 @@
 
 This document explains how to test changes on feature branches without affecting the production site.
 
+## Quick Reference: Preview URL Format
+
+**Pattern:** `<branch-name>.mn-ice-witness-github-io.pages.dev`
+
+Example: `feature/path-based-urls` → **https://feature-path-based-urls.mn-ice-witness-github-io.pages.dev**
+
+Note: The domain includes `-github-io` (not just `mn-ice-files`).
+
 ## Cloudflare Pages Configuration
 
 | Setting | Value |
