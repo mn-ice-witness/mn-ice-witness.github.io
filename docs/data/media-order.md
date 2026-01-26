@@ -5,6 +5,7 @@
 
 
 
+
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -32,6 +33,7 @@ noem-pepper-spray-denial-backtrack
 oglala-sioux-still-detained
 nimco-omar-citizen-check
 garrison-gibson-battering-ram
+nur-d-rapper-detained
 roosevelt-high-school
 circle-pines-restaurant-worker
 ryan-ecklund-filming-detained
@@ -53,16 +55,12 @@ columbia-heights-4-students-detained
 clergy-pepper-sprayed
 christian-molina-car-rammed
 st-paul-public-works-snowplow-driver
-kong-vang-frogtown
 nasra-ahmed-st-paul-citizen
 lyn-lake-tear-gas
-brandon-saenz-doordash
 hani-duglof-medical
 tipan-toddler-father-detained
 pickup-truck-rams-protesters
 mercado-central-mother-children
-christina-rank-teacher
-francis-burger-joint-manager
 fridley-schools-closure
 bovino-pretti-had-gun-response
 saly-hmong-citizen-shirtless
@@ -72,7 +70,10 @@ william-vermie-veteran-detained
 trump-vicious-animals-statement
 dhs-response-crowd-control
 south-mpls-teenagers-detained
-sullivan-elementary-ice-food-flyers
-nadya-moldovan-refugee
 vance-response-5-year-old-detention
-nur-d-rapper-detained
+brandon-saenz-doordash
+christina-rank-teacher
+kong-vang-frogtown
+francis-burger-joint-manager
+nadya-moldovan-refugee
+sullivan-elementary-ice-food-flyers
