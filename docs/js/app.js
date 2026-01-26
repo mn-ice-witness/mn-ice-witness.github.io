@@ -13,6 +13,7 @@
 
 const App = {
     incidents: [],
+    isScrollingToSection: false,
 
     // Category labels for display
     categoryLabels: {
@@ -229,15 +230,18 @@ const App = {
     /**
      * Scroll to a section in list view
      * Maps URL category names to section type IDs (e.g., 'schools' -> 'schools-hospitals')
+     * Sets isScrollingToSection flag to prevent scroll listener from clearing URL during programmatic scroll
      */
     scrollToSection(category) {
         const sectionId = this.categoryToSectionId(category);
+        this.isScrollingToSection = true;
         setTimeout(() => {
             const el = document.getElementById(sectionId);
             if (!el) return;
             const offset = this.getStickyOffset();
             const targetY = el.getBoundingClientRect().top + window.scrollY - offset;
             window.scrollTo({ top: targetY, behavior: 'smooth' });
+            setTimeout(() => { this.isScrollingToSection = false; }, 1500);
         }, 100);
     },
 
@@ -402,6 +406,15 @@ const App = {
                 e.target.value = '';
             });
         }
+
+        // Clear category from URL when user starts scrolling manually
+        window.addEventListener('scroll', () => {
+            if (this.isScrollingToSection || ViewState.currentView !== 'list') return;
+            const route = Router.parseUrl();
+            if (route.type === 'list' && route.category) {
+                history.replaceState({}, '', Router.buildUrl('list'));
+            }
+        }, { passive: true });
     },
 
     /**

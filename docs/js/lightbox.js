@@ -386,12 +386,13 @@ const Lightbox = {
 
         await this.renderAboutContent();
 
-        if (anchor) {
-            const el = this.bodyElement.querySelector('#' + anchor);
-            if (el) el.scrollIntoView({ behavior: 'smooth' });
-        } else if (this.savedScrollPositions['about']) {
+        // Prioritize saved scroll position (returning from incident), otherwise scroll to anchor
+        if (this.savedScrollPositions['about']) {
             this.bodyElement.scrollTop = this.savedScrollPositions['about'];
             delete this.savedScrollPositions['about'];
+        } else if (anchor) {
+            const el = this.bodyElement.querySelector('#' + anchor);
+            if (el) el.scrollIntoView({ behavior: 'smooth' });
         }
     },
 
@@ -638,7 +639,9 @@ const Lightbox = {
      */
     async openIncidentBySlug(slug) {
         if (this.currentSlug) {
-            this.savedScrollPositions[this.currentSlug] = this.bodyElement.scrollTop;
+            // About page sections (legal-observation, etc.) should save under 'about'
+            const saveKey = Router.aboutSections.includes(this.currentSlug) ? 'about' : this.currentSlug;
+            this.savedScrollPositions[saveKey] = this.bodyElement.scrollTop;
         }
 
         const incident = App.incidents.find(i => {
