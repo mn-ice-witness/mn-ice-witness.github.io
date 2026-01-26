@@ -95,18 +95,6 @@ const ViewState = {
         const row = document.querySelector(`.incident-row[data-incident-id="${id}"]`);
         if (row) {
             row.classList.add('viewed');
-            const meta = row.querySelector('.row-meta');
-            if (meta && !meta.querySelector('.viewed-icon')) {
-                const eyeIcon = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
-                eyeIcon.setAttribute('class', 'viewed-icon');
-                eyeIcon.setAttribute('viewBox', '0 0 24 24');
-                eyeIcon.setAttribute('width', '16');
-                eyeIcon.setAttribute('height', '16');
-                const useEl = document.createElementNS('http://www.w3.org/2000/svg', 'use');
-                useEl.setAttributeNS('http://www.w3.org/1999/xlink', 'href', '#icon-eye');
-                eyeIcon.appendChild(useEl);
-                meta.appendChild(eyeIcon);
-            }
         }
     },
 
@@ -118,9 +106,6 @@ const ViewState = {
         this.saveViewedState();
         document.querySelectorAll('.incident-row.viewed').forEach(row => {
             row.classList.remove('viewed');
-        });
-        document.querySelectorAll('.viewed-icon').forEach(icon => {
-            icon.remove();
         });
     },
 
