@@ -3,9 +3,9 @@ date: 2026-01-12
 time: morning
 location: 49th and Russell Avenue North
 city: Minneapolis
-type: citizens
+type: immigrants
 status: ongoing
-affected_individual_citizenship: legal-resident
+affected_individual_citizenship: undocumented
 injuries: none
 trustworthiness: high
 created: 2026-01-14T08:27:46
