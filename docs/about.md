@@ -31,7 +31,7 @@ This site compiles sourced, verified incidents from Minnesota during Operation M
 Incidents are organized into five categories:
 
 - **Citizens** — U.S. citizens/legal residents detained while going about daily life (working, driving, shopping)
-- **Observers** — People detained while filming, observing, or protesting ICE operations
+- **Observers** — People detained while filming, observing, following, or protesting ICE enforcement operations
 - **Immigrants** — Non-criminal immigrants detained, including workplace raids
 - **Schools/Hospitals** — Actions at or near schools, hospitals, and healthcare institutions
 - **Response** — Official DHS/ICE statements about specific incidents. The federal government has put forward two main arguments: (1) that enforcement targets dangerous criminals and the "worst of the worst," and (2) that local sanctuary city policies, rhetoric from state and city officials, and community "obstruction" are to blame for confrontational scenes. Both are explored in detail below.
@@ -58,9 +58,9 @@ Secretary Noem stated on October 30, 2025: "No American citizens have been arres
 
 Administration officials have also blamed the rhetoric of local leaders for inciting dangerous confrontations. Following the [fatal shooting of Alex Pretti](#2026-01-24-alex-pretti-shooting), Vice President Vance called it "engineered chaos... the direct consequence of far left agitators, working with local authorities."
 
-**What this site documents:** People arrested, detained, or physically confronted for filming, observing, or protesting ICE operations.
+**What this site documents:** People arrested, detained, or physically confronted for filming, observing, following, or protesting ICE enforcement operations.
 
-Many Minnesotans believe ICE has shown a pattern of civil rights violations and abuses of power, and feel compelled to document operations for accountability. Others strongly disagree with the administration's immigration policy and believe it is their right to protest — often loudly and profanely.
+Many Minnesotans believe ICE has shown a pattern of civil rights violations and abuses of power, and feel compelled to document operations for accountability. Others strongly disagree with the administration's immigration policy and enforcement strategy and believe it is their right to protest — often loudly and profanely.
 
 The core dispute is where observation ends and obstruction begins. DHS argues that peacefully following agents constitutes obstruction because it "[summons crowds of antagonists](https://www.ktvu.com/news/ice-says-recording-agents-illegal-federal-judge-says-dhs-policy-unlawful-jan-2026)." Documented incidents show agents snatching phones from people filming at a distance, detaining U.S. citizens for hours for filming, and deploying chemical agents on people not physically interfering with operations.
 
