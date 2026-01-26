@@ -48,7 +48,7 @@ Incidents are organized into five categories:
 
 Aaron Reichlin-Melnick of the American Immigration Council noted: "DHS is implicitly admitting that less than 5% of the people it arrests are people they believe are 'the worst of the worst.'"
 
-**Regarding U.S. citizens:** Secretary Noem stated on October 30, 2025: "No American citizens have been arrested or detained." [PolitiFact](https://www.politifact.com/factchecks/2025/oct/31/kristi-noem/immigration-ICE-arrest-US-citizen-Chicago/), [NPR](https://www.npr.org/2025/11/05/nx-s1-5598373/npr-fact-checks-kristi-noem-on-ice-detaining-us-citizens), and [Poynter](https://www.poynter.org/fact-checking/2025/has-ice-arrested-american-citizens/) found this statement to be inaccurate. ProPublica documented over 170 cases of U.S. citizens detained by immigration agents. [See full details](#2025-10-30-noem-no-citizens-arrested-claim).
+Secretary Noem stated on October 30, 2025: "No American citizens have been arrested or detained." [PolitiFact](https://www.politifact.com/factchecks/2025/oct/31/kristi-noem/immigration-ICE-arrest-US-citizen-Chicago/), [NPR](https://www.npr.org/2025/11/05/nx-s1-5598373/npr-fact-checks-kristi-noem-on-ice-detaining-us-citizens), and [Poynter](https://www.poynter.org/fact-checking/2025/has-ice-arrested-american-citizens/) found this statement to be inaccurate. ProPublica documented over 170 cases of U.S. citizens detained by immigration agents. [See full details](#2025-10-30-noem-no-citizens-arrested-claim).
 
 <p class="about-note">Note: Even non-citizens accused of crimes have the right to have their civil rights respected and to be given due process under the law.</p>
 
