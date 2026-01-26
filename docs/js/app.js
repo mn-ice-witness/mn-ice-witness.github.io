@@ -531,7 +531,7 @@ const App = {
         const incidentDateStr = incidentDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 
         const timestampLabel = this.getTimestampLabel(incident);
-        const metaLine = timestampLabel ? `${incidentDateStr}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="row-added">|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${timestampLabel}</span>` : incidentDateStr;
+        const metaLine = timestampLabel ? `Occurred ${incidentDateStr}&nbsp;&nbsp;&nbsp;&nbsp;<span class="row-added">|&nbsp;&nbsp;&nbsp;&nbsp;${timestampLabel}</span>` : `Occurred ${incidentDateStr}`;
 
         return `
             <article class="incident-row${viewed ? ' viewed' : ''}" data-incident-id="${id}" role="button" tabindex="0">

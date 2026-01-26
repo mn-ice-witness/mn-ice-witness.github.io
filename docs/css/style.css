@@ -867,7 +867,7 @@ body {
 }
 
 .media-card-timestamp {
-    font-size: 0.585rem;
+    font-size: 0.715rem;
     color: var(--color-text-secondary);
 }
 
@@ -1065,7 +1065,7 @@ body {
 }
 
 .row-timestamp {
-    font-size: 0.585rem;
+    font-size: 0.715rem;
     color: var(--color-text-secondary);
     line-height: 1.2;
 }
