@@ -67,6 +67,7 @@ const App = {
 
         // Setup section navigation
         this.initSectionNav();
+        this.initScrollUrlClear();
 
         // Set scroll offset CSS variable and update on resize
         this.updateScrollOffset();
@@ -406,8 +407,12 @@ const App = {
                 e.target.value = '';
             });
         }
+    },
 
-        // Clear category from URL when user starts scrolling manually
+    /**
+     * Clear category from URL when user scrolls manually
+     */
+    initScrollUrlClear() {
         window.addEventListener('scroll', () => {
             if (this.isScrollingToSection || ViewState.currentView !== 'list') return;
             const route = Router.parseUrl();

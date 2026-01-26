@@ -387,13 +387,16 @@ const Lightbox = {
         await this.renderAboutContent();
 
         // Prioritize saved scroll position (returning from incident), otherwise scroll to anchor
-        if (this.savedScrollPositions['about']) {
-            this.bodyElement.scrollTop = this.savedScrollPositions['about'];
-            delete this.savedScrollPositions['about'];
-        } else if (anchor) {
-            const el = this.bodyElement.querySelector('#' + anchor);
-            if (el) el.scrollIntoView({ behavior: 'smooth' });
-        }
+        // Use requestAnimationFrame to ensure DOM has rendered before scrolling
+        requestAnimationFrame(() => {
+            if (this.savedScrollPositions['about']) {
+                this.bodyElement.scrollTop = this.savedScrollPositions['about'];
+                delete this.savedScrollPositions['about'];
+            } else if (anchor) {
+                const el = this.bodyElement.querySelector('#' + anchor);
+                if (el) el.scrollIntoView({ behavior: 'smooth' });
+            }
+        });
     },
 
     /**
@@ -639,8 +642,9 @@ const Lightbox = {
      */
     async openIncidentBySlug(slug) {
         if (this.currentSlug) {
-            // About page sections (legal-observation, etc.) should save under 'about'
-            const saveKey = Router.aboutSections.includes(this.currentSlug) ? 'about' : this.currentSlug;
+            // About page and its sections should all save under 'about'
+            const isAboutPage = this.currentSlug === 'about' || Router.aboutSections.includes(this.currentSlug);
+            const saveKey = isAboutPage ? 'about' : this.currentSlug;
             this.savedScrollPositions[saveKey] = this.bodyElement.scrollTop;
         }
 
