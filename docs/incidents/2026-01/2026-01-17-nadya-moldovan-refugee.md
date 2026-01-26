@@ -3,7 +3,7 @@ date: 2026-01-17
 time: unknown
 location: Unknown
 city: Unknown
-type: immigrants
+type: citizens
 status: detained
 affected_individual_citizenship: legal-resident
 injuries: none

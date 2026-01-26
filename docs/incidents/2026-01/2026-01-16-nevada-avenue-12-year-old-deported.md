@@ -3,7 +3,7 @@ date: 2026-01-16
 time: afternoon
 location: Nevada Avenue East
 city: St. Paul
-type: immigrants
+type: citizens
 status: ongoing
 affected_individual_citizenship: legal-resident
 injuries: none

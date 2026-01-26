@@ -3,7 +3,7 @@ date: 2025-12-02
 time: morning
 location: Minneapolis
 city: Minneapolis
-type: immigrants
+type: citizens
 status: resolved
 affected_individual_citizenship: legal-resident
 injuries: none
