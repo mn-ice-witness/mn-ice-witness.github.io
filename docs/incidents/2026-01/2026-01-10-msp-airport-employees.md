@@ -3,9 +3,9 @@ date: 2026-01-10
 time: unknown
 location: Minneapolis-St. Paul International Airport
 city: Minneapolis
-type: immigrants
+type: citizens
 status: unknown
-affected_individual_citizenship: unknown
+affected_individual_citizenship: legal-resident
 injuries: none
 trustworthiness: medium
 created: 2026-01-14T08:01:12

@@ -3,7 +3,7 @@ date: 2026-01-14
 time: "17:00"
 location: Pancho's Taqueria and Mexican Cafe, Circle Pines
 city: Circle Pines
-type: citizens
+type: immigrants
 status: ongoing
 affected_individual_citizenship: legal-resident
 injuries: none

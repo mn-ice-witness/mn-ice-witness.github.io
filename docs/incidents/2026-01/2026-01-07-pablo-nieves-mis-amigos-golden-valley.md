@@ -3,9 +3,9 @@ date: 2026-01-07
 time: unknown
 location: Golden Valley area
 city: Golden Valley
-type: immigrants
+type: citizens
 status: ongoing
-affected_individual_citizenship: work-permit-holder
+affected_individual_citizenship: legal-resident
 injuries: none
 trustworthiness: medium
 created: 2026-01-25T21:18:19

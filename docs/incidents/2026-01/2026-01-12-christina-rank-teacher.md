@@ -12,7 +12,7 @@ created: 2026-01-14T08:01:12
 last_updated: 2026-01-14T08:01:12
 ---
 
-# Special Education Teacher Detained for Nearly 12 Hours
+# U.S. Citizen Special Education Teacher Detained for Nearly 12 Hours
 
 ## Summary
 Christina Rank, a 25-year-old special education paraprofessional and U.S. citizen, was detained by ICE for nearly 12 hours after an apparent vehicle collision with a federal agent's car in the parking lot of Concord Education Center, a school serving students with special needs.

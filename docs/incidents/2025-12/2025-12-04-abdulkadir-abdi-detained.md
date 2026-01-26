@@ -3,7 +3,7 @@ date: 2025-12-04
 time: unknown
 location: Twin Cities area
 city: Minneapolis
-type: citizens
+type: immigrants
 status: ongoing
 affected_individual_citizenship: legal-resident
 injuries: none

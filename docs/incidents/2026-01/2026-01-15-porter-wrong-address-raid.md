@@ -12,7 +12,7 @@ created: 2026-01-16T16:02:47
 last_updated: 2026-01-16T16:02:47
 ---
 
-# Federal Agents Execute Search Warrant at Wrong Address
+# Federal Agents Execute Search Warrant at Wrong Address; U.S. Citizen's Daughter Handcuffed
 
 ## Summary
 FBI, ATF, and Hennepin County Sheriff's Office agents used a battering ram to enter Alisa Porter's South Minneapolis apartment, handcuffing her daughter and searching the home. The warrant was for a different address—the man they sought had lived in the unit above Porter's but moved out two months prior. The search was connected to items stolen from FBI vehicles during protests over recent ICE shootings.

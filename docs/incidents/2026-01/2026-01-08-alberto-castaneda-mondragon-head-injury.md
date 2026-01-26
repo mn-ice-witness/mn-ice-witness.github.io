@@ -3,7 +3,7 @@ date: 2026-01-08
 time: unknown
 location: St. Paul (arrest), Whipple Federal Building (processing), HCMC (hospitalized)
 city: St. Paul
-type: citizens
+type: immigrants
 status: ongoing
 affected_individual_citizenship: legal-resident
 injuries: serious

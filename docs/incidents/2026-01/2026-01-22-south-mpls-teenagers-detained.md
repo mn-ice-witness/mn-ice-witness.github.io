@@ -12,7 +12,7 @@ created: 2026-01-22T08:35:32
 last_updated: 2026-01-22T08:35:32
 ---
 
-# CBP Detains Two Teenagers After Rear-Ending Their Vehicle, Deploys Tear Gas on Bystanders
+# CBP Detains Two U.S. Citizen Teenagers After Rear-Ending Their Vehicle, Deploys Tear Gas on Bystanders
 
 ## Summary
 U.S. Customs and Border Protection officers handcuffed and detained two teenagers in south Minneapolis on Wednesday afternoon after allegedly rear-ending their silver SUV. The teenage girl driver, who presented a U.S. passport to agents, was still placed in handcuffs and was seen crying in the back of a federal vehicle. At least two bystanders were arrested and agents deployed tear gas and pepper spray as crowds gathered to film and protest the arrest.

@@ -3,7 +3,7 @@ date: 2026-01-13
 time: afternoon
 location: Downtown Willmar
 city: Willmar
-type: citizens, schools-hospitals
+type: immigrants, schools-hospitals
 status: resolved
 affected_individual_citizenship: legal-resident
 injuries: none

@@ -3,9 +3,9 @@ date: 2026-01-19
 time: unknown
 location: Hilton Homewood Suites
 city: St. Louis Park
-type: immigrants
+type: citizens
 status: resolved
-affected_individual_citizenship: refugee
+affected_individual_citizenship: legal-resident
 injuries: none
 trustworthiness: high
 created: 2026-01-25T21:18:19
