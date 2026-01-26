@@ -144,7 +144,7 @@ const LightboxContent = {
         let updateLabel = null;
 
         if (created) {
-            uploadLabel = 'Uploaded: ' + this.formatTimestampForPage(created);
+            uploadLabel = 'Added: ' + this.formatTimestampForPage(created);
         }
 
         // Show update time if different from created

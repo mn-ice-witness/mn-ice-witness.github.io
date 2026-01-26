@@ -517,9 +517,9 @@ const App = {
             return `Updated ${month} ${day}`;
         }
 
-        // Otherwise show "Uploaded" with created timestamp
+        // Otherwise show "Added" with created timestamp
         if (created) {
-            return 'Uploaded ' + this.formatTimestamp(created);
+            return 'Added ' + this.formatTimestamp(created);
         }
 
         return null;
