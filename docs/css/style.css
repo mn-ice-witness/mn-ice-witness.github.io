@@ -414,10 +414,6 @@ body {
     overflow-x: auto;
     overflow-y: visible;
     -webkit-overflow-scrolling: touch;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 49px;
-    z-index: 100;
 }
 
 .nav-inner {
@@ -486,10 +482,6 @@ body {
     padding: 12px 0;
     border-bottom: 1px solid var(--color-border);
     background: var(--color-surface);
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 101;
 }
 
 .view-btn {
