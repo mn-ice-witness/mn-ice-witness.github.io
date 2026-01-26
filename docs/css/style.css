@@ -1092,11 +1092,11 @@ body {
 
 /* Viewed Row State */
 .incident-row.viewed {
-    opacity: 0.45;
+    opacity: 0.35;
 }
 
 .incident-row.viewed:hover {
-    opacity: 0.65;
+    opacity: 0.55;
 }
 
 .trust-badge {
