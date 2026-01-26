@@ -1,0 +1,72 @@
+---
+date: 2026-01-08
+time: unknown
+location: St. Paul (arrest), Whipple Federal Building (processing), HCMC (hospitalized)
+city: St. Paul
+type: immigrants
+status: ongoing
+affected_individual_citizenship: legal-resident
+injuries: serious
+trustworthiness: high
+created: 2026-01-26T15:10:02
+last_updated: 2026-01-26T15:10:02
+---
+
+# Legal Visa Holder Hospitalized With Skull Fractures After ICE Detention
+
+## Updates
+- **Jan 24** - Federal Judge Donovan Frank [orders immediate release](https://www.yahoo.com/news/articles/judge-orders-immediate-release-minnesota-014048216.html) from ICE custody. Unclear if ICE has complied.
+
+## Summary
+Alberto Castaneda Mondragon, who entered the U.S. legally on a temporary worker visa in 2022, was detained in St. Paul on January 8, 2026 during Operation Metro Surge. He sustained catastrophic head injuries including skull fractures and brain hemorrhages while in ICE custody. ICE claims he "purposely ran headfirst into a brick wall" while handcuffed. Hospital records show Alberto told staff he was "dragged and mistreated by federal agents." He has been hospitalized at Hennepin County Medical Center for nearly two weeks, is "only minimally responsive," and his condition is declining. Attorneys allege ICE has interfered with his medical care by shackling his legs to the hospital bed despite warnings from medical staff. A federal judge ordered his immediate release on January 24, 2026, noting he "was in the wrong place at the wrong time."
+
+## Sources
+1. MPR News (Jan 22, 2026): [Man with severe head wounds in ICE custody after being detained in St. Paul](https://www.mprnews.org/story/2026/01/22/man-with-severe-head-wounds-in-ice-custody-after-being-detained-in-st-paul)
+2. MPR News (Jan 22, 2026): [Man injured in ICE custody "purposely ran head first into a brick wall," agents say](https://www.mprnews.org/story/2026/01/22/man-injured-in-ice-custody-purposely-ran-head-first-into-a-brick-wall-agents-say)
+3. Sahan Journal (Jan 2026): [ICE detainee hospitalized with head injury, lawsuit filed](https://sahanjournal.com/health/ice-detainee-hospitalized-head-injury-lawsuit/)
+4. Yahoo News / AP (Jan 24-25, 2026): [Judge orders immediate release of Minnesota ICE detainee](https://www.yahoo.com/news/articles/judge-orders-immediate-release-minnesota-014048216.html)
+
+## Affected Individual(s)
+- **Name:** Alberto Castaneda Mondragon (referred to as "Alberto C.M." in court documents)
+- **Citizenship:** Legal visa holder (entered U.S. on temporary worker visa in 2022)
+- **Criminal Record:** None indicated
+- **Current Condition:** "Only minimally responsive," declining
+
+## Timeline
+- **2022** - Alberto enters U.S. legally on temporary worker visa
+- **Jan 8, 2026** - Arrested in St. Paul during Operation Metro Surge
+- **Jan 8, 2026** - Head injury noticed during intake processing at Whipple Federal Building
+- **Jan 8-22, 2026** - Hospitalized at HCMC with skull fractures and brain hemorrhages
+- **During hospitalization** - Shackled to hospital bed despite medical staff warnings; family denied visitation
+- **Jan 22, 2026** - Lawsuit filed; MPR News reports on case
+- **Jan 24, 2026** - Federal Judge Donovan Frank orders immediate release
+
+## Injuries
+- Skull fractures
+- Brain hemorrhages
+- Described as "catastrophic" and "life-threatening"
+
+## ICE's Explanation
+ICE officers told hospital staff that Alberto was "laying down in handcuffs when he attempted to flee, and then, for unknown reasons, purposefully ran headfirst into a brick wall." One ICE statement described what happened as: he "got his s*** rocked."
+
+After 15 days, ICE had still not completed intake processing.
+
+## Alberto's Account
+Hospital records show Alberto told HCMC staff he was "dragged and mistreated by federal agents."
+
+## Attorney Allegations
+- ICE has "interfered" with his medical care
+- Agents shackled his legs to the hospital bed despite warnings from medical staff
+- Family members were prevented from visiting
+- ICE has "largely refused to provide information" about what happened
+
+## Judge's Ruling (Jan 24, 2026)
+District Judge Donovan Frank ordered immediate release from ICE custody, noting Alberto "was in the wrong place at the wrong time."
+
+The lawsuit alleges: "There is no reason to believe that Mr. Castaneda Mondragon was arrested for any other reason than that he was a brown-skinned Latino Spanish-speaker at a location that immigration agents arbitrarily decided to target."
+
+## Related Incidents
+- [HCMC Patient Shackled](/entry/2025-12-31-hcmc-patient-shackled) - Same hospital, same pattern of shackling patients despite medical concerns
+
+## Editorial Assessment
+**HIGH** - Multiple Tier 1 sources (MPR News, Sahan Journal, AP syndication), federal court filings, named affected individual, specific timeline, hospital records cited as evidence. ICE's explanation that a handcuffed man "purposefully ran headfirst into a brick wall" strains credibility. Federal judge found sufficient cause to order immediate release.
