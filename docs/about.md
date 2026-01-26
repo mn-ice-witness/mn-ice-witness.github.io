@@ -14,7 +14,7 @@
 
 <h2 id="using-this-site">Using This Site <a href="#using-this-site" class="header-link" title="Copy link"><svg width="16" height="16"><use href="#icon-link"/></svg></a></h2>
 
-- **NEW/UPDATED toggle** — When enabled, incidents are sorted by when they were added or last updated (e.g., judge ruling, person released). With this off, incidents are sorted by category and then by date.
+- **NEW/UPDATED toggle** — When enabled, incidents are sorted by when they were added or last updated (e.g., judge ruling, person released). With this off, incidents in list view are sorted by category and then by the date the incident occurred.
 - <svg viewBox="0 0 24 24" width="16" height="16" class="media-icon"><use href="#icon-camera"/></svg> **Camera icon** — Incident has video or photo evidence in the media gallery.
 - **Greyed out rows** — Incidents you've already viewed appear greyed out to help you track what you've read. <a href="#clear-viewed">Clear history</a>.
 

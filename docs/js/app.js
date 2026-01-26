@@ -480,46 +480,31 @@ const App = {
     },
 
     /**
-     * Format timestamp for display (e.g., "Jan 25, 10:21am")
+     * Format date for display (e.g., "Jan 25")
      */
-    formatTimestamp(isoTimestamp) {
+    formatDate(isoTimestamp) {
         if (!isoTimestamp) return null;
-        const date = new Date(isoTimestamp);
+        const date = new Date(isoTimestamp.includes('T') ? isoTimestamp : isoTimestamp + 'T12:00:00');
         if (isNaN(date.getTime())) return null;
 
         const month = date.toLocaleDateString('en-US', { month: 'short' });
         const day = date.getDate();
-        let hours = date.getHours();
-        const minutes = date.getMinutes().toString().padStart(2, '0');
-        const ampm = hours >= 12 ? 'pm' : 'am';
-        hours = hours % 12 || 12;
-
-        return `${month} ${day}, ${hours}:${minutes}${ampm}`;
+        return `${month} ${day}`;
     },
 
     /**
-     * Get upload/update label for an incident
+     * Get upload/update label for an incident (date only, no time)
      */
     getTimestampLabel(incident) {
         const created = incident.created;
         const lastUpdated = incident.lastUpdated;
 
-        // If lastUpdated is different from created (and both exist with times), show "Updated"
         if (lastUpdated && created && lastUpdated !== created) {
-            // Check if lastUpdated has a time component (not just date)
-            if (lastUpdated.includes('T')) {
-                return 'Updated ' + this.formatTimestamp(lastUpdated);
-            }
-            // lastUpdated is date-only, use that date
-            const date = new Date(lastUpdated + 'T12:00:00');
-            const month = date.toLocaleDateString('en-US', { month: 'short' });
-            const day = date.getDate();
-            return `Updated ${month} ${day}`;
+            return 'Updated ' + this.formatDate(lastUpdated);
         }
 
-        // Otherwise show "Added" with created timestamp
         if (created) {
-            return 'Added ' + this.formatTimestamp(created);
+            return 'Added ' + this.formatDate(created);
         }
 
         return null;
@@ -529,10 +514,6 @@ const App = {
      * Render a single incident row
      */
     renderRow(incident, showCategory = false) {
-        const date = new Date(incident.date + 'T12:00:00');
-        const month = date.toLocaleDateString('en-US', { month: 'short' }).toUpperCase();
-        const day = date.getDate();
-
         const id = this.getIncidentId(incident);
         const viewed = ViewState.isViewed(incident);
 
@@ -546,17 +527,17 @@ const App = {
             <svg class="media-icon" viewBox="0 0 24 24" width="16" height="16"><use href="#icon-camera"/></svg>
         ` : '';
 
+        const incidentDate = new Date(incident.date + 'T12:00:00');
+        const incidentDateStr = incidentDate.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+
         const timestampLabel = this.getTimestampLabel(incident);
+        const metaLine = timestampLabel ? `${incidentDateStr}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="row-added">|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;${timestampLabel}</span>` : incidentDateStr;
 
         return `
             <article class="incident-row${viewed ? ' viewed' : ''}" data-incident-id="${id}" role="button" tabindex="0">
-                <div class="row-date">
-                    <span class="row-date-day">${day}</span>
-                    ${month}
-                </div>
                 <div class="row-content">
                     <h3 class="row-title">${categoryPrefix}${incident.title}</h3>
-                    ${timestampLabel ? `<span class="row-timestamp">${timestampLabel}</span>` : ''}
+                    <span class="row-timestamp">${metaLine}</span>
                 </div>
                 <div class="row-meta">
                     ${mediaIcon}

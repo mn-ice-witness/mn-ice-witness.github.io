@@ -867,7 +867,7 @@ body {
 }
 
 .media-card-timestamp {
-    font-size: 0.65rem;
+    font-size: 0.585rem;
     color: var(--color-text-secondary);
 }
 
@@ -1005,7 +1005,7 @@ body {
 /* Table Row */
 .incident-row {
     display: grid;
-    grid-template-columns: 42px 1fr auto;
+    grid-template-columns: 1fr auto;
     gap: 2px;
     padding: 1px 6px;
     border-bottom: 1px solid var(--color-border);
@@ -1065,9 +1065,13 @@ body {
 }
 
 .row-timestamp {
-    font-size: 0.65rem;
+    font-size: 0.585rem;
     color: var(--color-text-secondary);
     line-height: 1.2;
+}
+
+.row-added {
+    color: var(--color-text-muted);
 }
 
 /* Meta Column */
@@ -1864,13 +1868,9 @@ body {
     }
 
     .incident-row {
-        grid-template-columns: 54px 1fr auto;
+        grid-template-columns: 1fr auto;
         gap: 10px;
         padding: 10px 12px;
-    }
-
-    .row-date-day {
-        font-size: 1rem;
     }
 
     .row-title {
@@ -1888,7 +1888,7 @@ body {
 
 @media (min-width: 768px) {
     .incident-row {
-        grid-template-columns: 80px 1fr 120px;
+        grid-template-columns: 1fr auto;
         padding: 4px 20px;
     }
 
