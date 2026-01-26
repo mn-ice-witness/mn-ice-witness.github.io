@@ -1067,8 +1067,8 @@ body {
     letter-spacing: 0.03em;
 }
 
-.row-location {
-    font-size: 0.7rem;
+.row-timestamp {
+    font-size: 0.65rem;
     color: var(--color-text-secondary);
     line-height: 1.2;
 }

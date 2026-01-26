@@ -551,7 +551,6 @@ const App = {
         ` : '';
 
         const timestampLabel = this.getTimestampLabel(incident);
-        const timestampSuffix = timestampLabel ? ` · ${timestampLabel}` : '';
 
         return `
             <article class="incident-row${viewed ? ' viewed' : ''}" data-incident-id="${id}" role="button" tabindex="0">
@@ -561,7 +560,7 @@ const App = {
                 </div>
                 <div class="row-content">
                     <h3 class="row-title">${categoryPrefix}${incident.title}</h3>
-                    <span class="row-location">${incident.location}${timestampSuffix}</span>
+                    ${timestampLabel ? `<span class="row-timestamp">${timestampLabel}</span>` : ''}
                 </div>
                 <div class="row-meta">
                     ${mediaIcon}
