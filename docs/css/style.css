@@ -856,6 +856,11 @@ body {
     height: 18px;
 }
 
+/* Hide content during fullscreen exit to prevent animation */
+.fullscreen-exiting {
+    visibility: hidden;
+}
+
 .media-card-info {
     padding: 12px;
 }

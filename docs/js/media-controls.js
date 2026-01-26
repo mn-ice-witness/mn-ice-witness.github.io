@@ -230,15 +230,16 @@ const MediaControls = {
 
             const onFullscreenChange = () => {
                 const isFs = this.isFullscreen(container);
-                if (!isFs && savedScrollY > 0) {
-                    requestAnimationFrame(() => {
+                if (!isFs) {
+                    container.classList.remove('fullscreen-exiting');
+                    if (savedScrollY > 0) {
                         const scrollEl = getScrollElement ? getScrollElement() : window;
                         if (scrollEl === window) {
                             window.scrollTo(0, savedScrollY);
                         } else {
                             scrollEl.scrollTop = savedScrollY;
                         }
-                    });
+                    }
                 }
                 this.updateFullscreenIcons(enterIcon, exitIcon, isFs);
             };
@@ -246,6 +247,7 @@ const MediaControls = {
             fullscreenBtn.addEventListener('click', (e) => {
                 e.stopPropagation();
                 if (this.isFullscreen(container)) {
+                    container.classList.add('fullscreen-exiting');
                     this.exitFullscreen();
                 } else {
                     const scrollEl = getScrollElement ? getScrollElement() : window;
@@ -283,15 +285,16 @@ const MediaControls = {
 
         const onFullscreenChange = () => {
             const isFs = this.isFullscreen(container);
-            if (!isFs && savedScrollY > 0) {
-                requestAnimationFrame(() => {
+            if (!isFs) {
+                container.classList.remove('fullscreen-exiting');
+                if (savedScrollY > 0) {
                     const scrollEl = getScrollElement ? getScrollElement() : window;
                     if (scrollEl === window) {
                         window.scrollTo(0, savedScrollY);
                     } else {
                         scrollEl.scrollTop = savedScrollY;
                     }
-                });
+                }
             }
             this.updateFullscreenIcons(enterIcon, exitIcon, isFs);
         };
@@ -299,6 +302,7 @@ const MediaControls = {
         fullscreenBtn.addEventListener('click', (e) => {
             e.stopPropagation();
             if (this.isFullscreen(container)) {
+                container.classList.add('fullscreen-exiting');
                 this.exitFullscreen();
             } else {
                 const scrollEl = getScrollElement ? getScrollElement() : window;
