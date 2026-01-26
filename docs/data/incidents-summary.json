@@ -58,6 +58,32 @@
       "mediaVersion": null
     },
     {
+      "filePath": "incidents/2026-01/2026-01-24-javier-witness-detained.md",
+      "title": "Minneapolis Man Detained for Hours After Witnessing Pretti Shooting",
+      "summary": "A Minneapolis man using the pseudonym \"Javier\" for safety reasons was among dozens of U.S. citizens detained by federal agents after witnessing the shooting of Alex Pretti. He overheard agents referring to detainees as \"USCs\" (United States citizens). Javier was taken to the Bishop Henry Whipple Federal Building and held for several hours, first alone, then with almost two dozen other observers from the scene. He was given water, food, and medical attention before being released with no charges filed.",
+      "latestUpdate": null,
+      "date": "2026-01-24",
+      "time": "morning",
+      "location": "26th Street and Nicollet Avenue, then Whipple Federal Building",
+      "city": "Minneapolis",
+      "type": "observers",
+      "status": "resolved",
+      "affectedIndividualCitizenship": "us-citizen",
+      "injuries": "none",
+      "trustworthiness": "high",
+      "created": "2026-01-26T11:42:27",
+      "lastUpdated": "2026-01-26T11:42:27",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaOgPath": null,
+      "localMediaFiles": [],
+      "aspectRatio": null,
+      "mediaVersion": null
+    },
+    {
       "filePath": "incidents/2026-01/2026-01-24-alex-pretti-shooting.md",
       "title": "Alex Pretti Shot and Killed by Federal Agents",
       "summary": "Federal agents fatally shot Alex Jeffrey Pretti, a 37-year-old U.S. citizen, licensed nurse, and lawful gun owner, in south Minneapolis. This is the second fatal shooting involving federal agents in Minnesota in three weeks, following the killing of Renee Good. Video shows multiple agents wrestling Pretti to the ground before shooting him multiple times.",
@@ -122,6 +148,37 @@
       ],
       "aspectRatio": 0.5689424364123159,
       "mediaVersion": 1769378403
+    },
+    {
+      "filePath": "incidents/2026-01/2026-01-24-nur-d-rapper-detained.md",
+      "title": "Minneapolis Rapper Nur-D Detained at Pretti Scene: \"You're Gonna Kill Me. That's What You Want?\"",
+      "summary": "Matthew James Obadiah Allen, known as Twin Cities hip-hop artist Nur-D, was violently detained by federal agents at the scene of the Alex Pretti shooting. According to witnesses, he was gassed, shot with rubber bullets and/or pepper balls, and tackled while his back was turned. After being subdued and handcuffed, he was maced at point blank range. His wife could be heard screaming at the scene. Nur-D alleges ICE stole his cell phone while in custody. He was released the same day and reunited with his wife. In a statement after his release, he said: \"As long as ICE can openly murder people in the streets with impunity, there is no justice.\"",
+      "latestUpdate": null,
+      "date": "2026-01-24",
+      "time": "morning",
+      "location": "26th Street and Nicollet Avenue",
+      "city": "Minneapolis",
+      "type": "observers",
+      "status": "resolved",
+      "affectedIndividualCitizenship": "us-citizen",
+      "injuries": "minor",
+      "trustworthiness": "high",
+      "created": "2026-01-26T11:42:27",
+      "lastUpdated": "2026-01-26T11:42:27",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01/24/2026-01-24-nur-d-rapper-detained.mp4",
+      "localMediaOgPath": "media/2026-01/24/2026-01-24-nur-d-rapper-detained-og-2s-1769449938.jpg",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01/24/2026-01-24-nur-d-rapper-detained.mp4"
+        }
+      ],
+      "aspectRatio": 1.8128342245989304,
+      "mediaVersion": 1769449938
     },
     {
       "filePath": "incidents/2026-01/2026-01-24-dhs-response-pretti-shooting.md",

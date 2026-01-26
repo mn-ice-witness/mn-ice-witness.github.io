@@ -139,6 +139,7 @@ Use documentary tone. Let facts speak for themselves.
 | **Video loading/performance** | `media-loading-strategy.md` |
 | **Adding icons or UI elements** | `ui-patterns.md` |
 | **Processing media files** | `architecture.md` (media pipeline), `adding-video-audio.md` |
+| **Moving screen recordings** | `screen-recording-workflow.md` |
 | **Testing on preview branch** | `preview-deployments.md` |
 | **Understanding deployment** | `DEPLOYMENT.md` |
 | **Cloudflare settings/CDN** | `cloudflare-configuration.md` |
@@ -217,6 +218,7 @@ GIT_MN_ICE_FILES/
 | `media-controls.md` | Video player, fullscreen |
 | `media-loading-strategy.md` | Video preloading, scroll-ahead prefetch, bandwidth optimization |
 | `adding-video-audio.md` | System audio capture |
+| `screen-recording-workflow.md` | Moving/renaming screen recordings, cleanup |
 | `media-candidates.md` | Videos to research |
 | `og-image.md` | Social sharing image generation |
 | `custom-og-images.md` | Replace auto-generated OG images with custom screenshots |

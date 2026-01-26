@@ -18,6 +18,13 @@ Stories are excluded when they don't meet the project's core focus:
 
 ### January 2026
 
+**Cabin 61 Employees Detained White Bear Lake (Jan 25)**
+- Sources: [Bring Me The News](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-sunday-jan-25) mention
+- Date: January 25, 2026
+- Details: Two employees at Cabin 61 restaurant in White Bear Lake were arrested by ICE agents on Sunday morning. The restaurant closed its kitchen for lunch that day due to the arrests.
+- Reason: **Insufficient details** - no affected individual names, no citizenship/legal status information, no details about circumstances of arrest. Brief mention only. May revisit if affected individuals come forward with details.
+- Date evaluated: 2026-01-26
+
 **Class Action Lawsuit Against Operation PARRIS (Jan 24)**
 - Sources: [Star Tribune](https://www.startribune.com/class-action-lawsuit-filed-against-federal-operation-targeting-minnesotas-legal-refugees/601570032), [IRAP](https://refugeerights.org/news-resources/refugees-sue-trump-administration-to-stop-ice-terror-campaign)
 - Date: January 24, 2026
