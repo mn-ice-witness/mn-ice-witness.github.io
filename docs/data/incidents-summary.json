@@ -58,6 +58,37 @@
       "mediaVersion": 1769378403
     },
     {
+      "filePath": "incidents/2026-01/2026-01-25-bovino-vilify-law-enforcement.md",
+      "title": "Bovino Blames \"So-Called Journalists\" for \"Tragic Consequences\"",
+      "summary": "At a press conference the day after Alex Pretti was fatally shot by federal agents, Border Patrol Commander Gregory Bovino blamed politicians, community leaders, and journalists for what he called \"tragic consequences.\" Bovino stated that those who \"vilify law enforcement\" by calling agents \"Gestapo\" bear responsibility for \"consequences\" and \"what we saw yesterday\" \u2014 an apparent reference to the Pretti shooting \u2014 though he never explicitly articulated how criticism of law enforcement caused the shooting. When asked directly if DHS would take responsibility for the fatal shootings, Bovino declined to answer.",
+      "latestUpdate": null,
+      "date": "2026-01-25",
+      "time": "unknown",
+      "location": "Press Conference",
+      "city": "Minneapolis",
+      "type": "response",
+      "status": "ongoing",
+      "affectedIndividualCitizenship": "various",
+      "injuries": "none",
+      "trustworthiness": "high",
+      "created": "2026-01-27T10:15:00",
+      "lastUpdated": "2026-01-27T10:15:00",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01/25/2026-01-25-bovino-vilify-law-enforcement.mp4",
+      "localMediaOgPath": "media/2026-01/25/2026-01-25-bovino-vilify-law-enforcement-og-2s-1769530078.jpg",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01/25/2026-01-25-bovino-vilify-law-enforcement.mp4"
+        }
+      ],
+      "aspectRatio": 1.8162393162393162,
+      "mediaVersion": 1769530078
+    },
+    {
       "filePath": "incidents/2026-01/2026-01-25-vance-engineered-chaos-unique.md",
       "title": "Vance on Pretti: \"Engineered Chaos\" Unique to Minneapolis",
       "summary": "Following the fatal shooting of Alex Pretti, Vice President JD Vance posted on X claiming \"this level of engineered chaos is unique to Minneapolis\" and is \"the direct consequence of far left agitators, working with local authorities.\" Vance provided no evidence to support his assertion that Minneapolis resistance was organized differently than other cities or that local authorities coordinated with protesters.",
@@ -2459,7 +2490,7 @@
       "injuries": "minor",
       "trustworthiness": "high",
       "created": "2026-01-14T08:01:12",
-      "lastUpdated": "2026-01-14T08:01:12",
+      "lastUpdated": "2026-01-27T11:00:00",
       "mediaCount": 0,
       "notable": false,
       "hasLocalMedia": true,

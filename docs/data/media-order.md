@@ -3,6 +3,7 @@
 
 
 
+
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -29,6 +30,7 @@ william-vermie-veteran-detained
 eden-prairie-13-year-old
 noem-pepper-spray-denial-backtrack
 saly-hmong-citizen-shirtless
+bovino-vilify-law-enforcement
 oglala-sioux-still-detained
 nimco-omar-citizen-check
 garrison-gibson-battering-ram
