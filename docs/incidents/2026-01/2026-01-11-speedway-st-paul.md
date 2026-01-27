@@ -47,7 +47,7 @@ Posted on X (@DHSgov):
 
 > "One U.S. citizen did not comply with the lawfully given order, and instead responded by hitting an officer and was arrested."
 
-**Note:** Video evidence appears to contradict this. Multiple videos show the citizen complying before being shoved. See full analysis: [DHS Response: Speedway Bystander "Hit an Officer"](/entry/2026-01-11-dhs-response-speedway-bystander)
+**Note:** Video evidence appears to contradict this. Multiple videos show the citizen complying before being shoved. See full analysis: [DHS Response: Speedway Bystander "Hit an Officer"](#2026-01-11-dhs-response-speedway-bystander)
 
 ## Editorial Assessment
 **HIGH** - Extensive video evidence, national news coverage, DHS official statement.

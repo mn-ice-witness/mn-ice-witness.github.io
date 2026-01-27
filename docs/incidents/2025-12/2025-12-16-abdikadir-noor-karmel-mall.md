@@ -4,9 +4,9 @@ time: unknown
 location: Karmel Mall, Lake Street
 city: Minneapolis
 type: citizens
-status: resolved-released
+status: resolved
 affected_individual_citizenship: us-citizen
-injuries: none-physical
+injuries: none
 trustworthiness: high
 created: 2026-01-14T08:43:07
 last_updated: 2026-01-14T08:43:07

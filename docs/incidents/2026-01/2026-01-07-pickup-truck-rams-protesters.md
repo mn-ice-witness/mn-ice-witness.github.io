@@ -6,7 +6,7 @@ city: Minneapolis
 type: observers
 status: resolved
 affected_individual_citizenship: unknown
-injuries: unknown
+injuries: none
 trustworthiness: medium
 created: 2026-01-19T19:14:34
 last_updated: 2026-01-19T19:14:34
@@ -49,7 +49,7 @@ The video post received approximately 9,655 likes, 209 replies, and 3,524 shares
 From their on-scene coverage: "The situation occasionally escalated as federal agents attempted to drive away and onlookers blocked their vehicles. In one incident, we watched officers drive a pickup truck into protesters as they turned into an alley off of 34th."
 
 ## Related Incidents
-- [Renee Good shooting](/entry/2026-01-07-renee-good-shooting) - The fatal shooting that preceded this incident
+- [Renee Good shooting](#2026-01-07-renee-good-shooting) - The fatal shooting that preceded this incident
 
 ## Editorial Assessment
 **MEDIUM** - Eyewitness account from credible local journalist with video evidence. Corroborated by Racket's written reporting. However, mainstream news outlets did not separately report on this specific vehicle incident amid the larger coverage of the Renee Good shooting and subsequent protests. The video exists on Bluesky but has not been independently analyzed by major outlets.

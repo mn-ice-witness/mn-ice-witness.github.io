@@ -4,7 +4,7 @@ time: unknown
 location: Unknown
 city: Unknown
 type: immigrants
-status: detained
+status: ongoing
 affected_individual_citizenship: legal-resident
 injuries: none
 trustworthiness: unverified

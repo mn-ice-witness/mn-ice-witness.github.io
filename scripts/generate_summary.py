@@ -205,11 +205,45 @@ def count_media(content):
 
 REQUIRED_FIELDS = ["date", "type", "status", "trustworthiness", "created", "last_updated"]
 
+VALID_STATUS = {"ongoing", "resolved", "under-investigation"}
+VALID_INJURIES = {"none", "minor", "serious", "fatal"}
+VALID_TRUSTWORTHINESS = {"high", "medium", "low", "unverified"}
+VALID_TYPES = {"citizens", "observers", "immigrants", "schools-hospitals", "response"}
+VALID_CITIZENSHIP = {"us-citizen", "legal-resident", "asylum-seeker", "undocumented", "unknown", "n/a", "various"}
+
 
 def validate_frontmatter(meta, file_path):
+    errors = []
+
     missing = [field for field in REQUIRED_FIELDS if not meta.get(field)]
     if missing:
-        raise ValueError(f"{file_path.name}: missing required fields: {', '.join(missing)}")
+        errors.append(f"missing required fields: {', '.join(missing)}")
+
+    status = meta.get("status", "").strip().lower()
+    if status and status not in VALID_STATUS:
+        errors.append(f"invalid status '{status}' (must be: {', '.join(sorted(VALID_STATUS))})")
+
+    injuries = meta.get("injuries", "").strip().lower()
+    if injuries and injuries not in VALID_INJURIES:
+        errors.append(f"invalid injuries '{injuries}' (must be: {', '.join(sorted(VALID_INJURIES))})")
+
+    trust = meta.get("trustworthiness", "").strip().lower()
+    if trust and trust not in VALID_TRUSTWORTHINESS:
+        errors.append(f"invalid trustworthiness '{trust}' (must be: {', '.join(sorted(VALID_TRUSTWORTHINESS))})")
+
+    type_value = meta.get("type", "").strip().lower()
+    if type_value:
+        types = [t.strip() for t in type_value.split(",")]
+        for t in types:
+            if t not in VALID_TYPES:
+                errors.append(f"invalid type '{t}' (must be: {', '.join(sorted(VALID_TYPES))})")
+
+    citizenship = meta.get("affected_individual_citizenship", "").strip().lower()
+    if citizenship and citizenship not in VALID_CITIZENSHIP:
+        errors.append(f"invalid citizenship '{citizenship}' (must be: {', '.join(sorted(VALID_CITIZENSHIP))})")
+
+    if errors:
+        raise ValueError(f"{file_path.name}: " + "; ".join(errors))
 
 
 def process_incident(file_path, docs_dir, media_dir):

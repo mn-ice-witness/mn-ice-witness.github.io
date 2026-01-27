@@ -6,7 +6,7 @@ city: Minneapolis
 type: immigrants
 status: ongoing
 affected_individual_citizenship: unknown
-injuries: unknown
+injuries: none
 trustworthiness: high
 created: 2026-01-15T20:00:44
 last_updated: 2026-01-15T20:00:44

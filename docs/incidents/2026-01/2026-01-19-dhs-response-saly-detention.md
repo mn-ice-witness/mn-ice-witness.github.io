@@ -19,7 +19,7 @@ A DHS response posted on X defends the detention of a U.S. citizen (ChongLy Scot
 
 **The same day, the family issued a formal press release categorically disputing DHS claims as false.** The family states that no other men live at the home (only Mr. Thao, his son, daughter-in-law, and grandson), that they don't know the individuals DHS references, that no warrant was presented, and that ICE agents forcibly entered with weapons drawn without asking for identification. The family has filed complaints with the ACLU of Minnesota and Minnesota AG Keith Ellison.
 
-**Related incident:** [Hmong U.S. Citizen Detained Shirtless in Freezing Weather](/entry/2026-01-18-saly-hmong-citizen-shirtless)
+**Related incident:** [Hmong U.S. Citizen Detained Shirtless in Freezing Weather](#2026-01-18-saly-hmong-citizen-shirtless)
 
 ## Sources
 1. X Post (Jan 19, 2026): [@TriciaOhio statement](https://x.com/TriciaOhio/status/2013317071342317918) - Tricia McLaughlin, Assistant Secretary, Department of Homeland Security

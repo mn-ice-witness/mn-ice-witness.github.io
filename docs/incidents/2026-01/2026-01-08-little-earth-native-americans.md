@@ -4,7 +4,7 @@ time: unknown
 location: Under bridge near Little Earth Housing Project
 city: Minneapolis
 type: citizens
-status: resolved-released
+status: resolved
 affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: high

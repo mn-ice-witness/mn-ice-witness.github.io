@@ -4,7 +4,7 @@ time: unknown
 location: Rosemount
 city: Rosemount
 type: observers
-status: unknown
+status: under-investigation
 affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: low

@@ -4,7 +4,7 @@ time: morning
 location: St. Gabriel the Archangel Catholic Church, 13th Avenue South
 city: Hopkins
 type: immigrants
-status: resolved-deported
+status: resolved
 affected_individual_citizenship: undocumented
 injuries: none
 trustworthiness: high

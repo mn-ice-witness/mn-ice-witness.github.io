@@ -4,7 +4,7 @@ time: 09:00
 location: Wilderness Inquiry, 930 E., Bloomington
 city: Bloomington
 type: immigrants
-status: resolved-detained
+status: resolved
 affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: high

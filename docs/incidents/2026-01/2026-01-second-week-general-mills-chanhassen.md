@@ -4,7 +4,7 @@ time: unknown
 location: General Mills manufacturing facility parking lot
 city: Chanhassen
 type: immigrants
-status: unknown
+status: under-investigation
 affected_individual_citizenship: undocumented
 injuries: none
 trustworthiness: high

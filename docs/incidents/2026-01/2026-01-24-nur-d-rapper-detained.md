@@ -26,8 +26,8 @@ Matthew James Obadiah Allen, known as Twin Cities hip-hop artist Nur-D, was viol
 
 ## Related Incidents
 
-- [Alex Pretti Shot and Killed by Federal Agents](/entry/2026-01-24-alex-pretti-shooting)
-- [Minneapolis Witness Detained for Hours at Whipple Building](/entry/2026-01-24-javier-witness-detained)
+- [Alex Pretti Shot and Killed by Federal Agents](#2026-01-24-alex-pretti-shooting)
+- [Minneapolis Witness Detained for Hours at Whipple Building](#2026-01-24-javier-witness-detained)
 
 ## Affected Individual(s)
 - **Name:** Matthew James Obadiah Allen (stage name: Nur-D)

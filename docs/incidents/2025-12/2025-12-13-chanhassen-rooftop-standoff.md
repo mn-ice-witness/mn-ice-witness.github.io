@@ -4,7 +4,7 @@ time: unknown
 location: Construction site
 city: Chanhassen
 type: immigrants
-status: resolved-detained
+status: resolved
 affected_individual_citizenship: unknown
 injuries: none
 trustworthiness: medium

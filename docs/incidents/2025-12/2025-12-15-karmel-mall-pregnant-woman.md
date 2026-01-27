@@ -4,9 +4,9 @@ time: afternoon
 location: Karmel Mall, Lake Street
 city: Minneapolis
 type: citizens
-status: unknown
+status: under-investigation
 affected_individual_citizenship: legal-resident
-injuries: unknown
+injuries: none
 trustworthiness: high
 created: 2026-01-14T08:01:12
 last_updated: 2026-01-14T08:01:12

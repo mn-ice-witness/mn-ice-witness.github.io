@@ -6,7 +6,7 @@ city: Minneapolis
 type: schools-hospitals
 status: under-investigation
 affected_individual_citizenship: unknown
-injuries: unknown
+injuries: none
 trustworthiness: high
 created: 2026-01-21T17:37:01
 last_updated: 2026-01-21T18:01:29
@@ -47,7 +47,7 @@ Bovino serves as Border Patrol Commander at Large. A federal judge found him ["o
 
 ## Related Incidents
 
-- [DHS Response: Agents "Harassed" at Gas Stations, Used "Crowd Control Measures"](/entry/2026-01-21-dhs-response-crowd-control) (Jan 21)
+- [DHS Response: Agents "Harassed" at Gas Stations, Used "Crowd Control Measures"](#2026-01-21-dhs-response-crowd-control) (Jan 21)
 
 ## Editorial Assessment
 

@@ -21,7 +21,7 @@ DHS posted on X stating that a U.S. citizen bystander at the Speedway gas statio
 1. X Video (Jan 12, 2026): [DHS official statement](https://x.com/DHSgov/status/2010802240517521519)
 
 ## Related Incident
-See full incident details: [Bystander Filming ICE Arrest Tackled and Detained at Speedway](/entry/2026-01-11-speedway-st-paul)
+See full incident details: [Bystander Filming ICE Arrest Tackled and Detained at Speedway](#2026-01-11-speedway-st-paul)
 
 ## Official Statement
 

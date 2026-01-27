@@ -66,7 +66,7 @@ District Judge Donovan Frank ordered immediate release from ICE custody, noting 
 The lawsuit alleges: "There is no reason to believe that Mr. Castaneda Mondragon was arrested for any other reason than that he was a brown-skinned Latino Spanish-speaker at a location that immigration agents arbitrarily decided to target."
 
 ## Related Incidents
-- [HCMC Patient Shackled](/entry/2025-12-31-hcmc-patient-shackled) - Same hospital, same pattern of shackling patients despite medical concerns
+- [HCMC Patient Shackled](#2025-12-31-hcmc-patient-shackled) - Same hospital, same pattern of shackling patients despite medical concerns
 
 ## Editorial Assessment
 **HIGH** - Multiple Tier 1 sources (MPR News, Sahan Journal, AP syndication), federal court filings, named affected individual, specific timeline, hospital records cited as evidence. ICE's explanation that a handcuffed man "purposefully ran headfirst into a brick wall" strains credibility. Federal judge found sufficient cause to order immediate release.

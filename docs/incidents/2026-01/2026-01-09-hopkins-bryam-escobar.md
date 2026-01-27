@@ -4,7 +4,7 @@ time: morning
 location: Hopkins
 city: Hopkins
 type: immigrants
-status: resolved-released
+status: resolved
 affected_individual_citizenship: undocumented
 injuries: none
 trustworthiness: high

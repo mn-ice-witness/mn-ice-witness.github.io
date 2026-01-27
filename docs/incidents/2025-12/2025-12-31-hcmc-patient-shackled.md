@@ -6,7 +6,7 @@ city: Minneapolis
 type: immigrants, schools-hospitals
 status: resolved
 affected_individual_citizenship: undocumented
-injuries: unknown
+injuries: none
 trustworthiness: high
 created: 2026-01-14T08:27:46
 last_updated: 2026-01-14T08:27:46

@@ -6,7 +6,7 @@ city: Minneapolis
 type: citizens
 status: ongoing
 affected_individual_citizenship: us-citizen
-injuries: unknown
+injuries: none
 trustworthiness: high
 created: 2026-01-14T12:18:26
 last_updated: 2026-01-14T12:18:26

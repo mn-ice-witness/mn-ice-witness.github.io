@@ -6,7 +6,7 @@ city: Minneapolis
 type: observers
 status: resolved
 affected_individual_citizenship: us-citizen
-injuries: pepper-spray-exposure
+injuries: minor
 trustworthiness: high
 created: 2026-01-14T08:41:37
 last_updated: 2026-01-14T08:41:37

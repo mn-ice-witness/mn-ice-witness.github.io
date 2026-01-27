@@ -4,9 +4,9 @@ time: evening
 location: Walmart, Maple Grove
 city: Maple Grove
 type: immigrants
-status: unknown
+status: under-investigation
 affected_individual_citizenship: unknown
-injuries: unknown
+injuries: none
 trustworthiness: medium
 created: 2026-01-14T08:01:12
 last_updated: 2026-01-14T08:01:12

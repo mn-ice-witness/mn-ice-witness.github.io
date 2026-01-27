@@ -4,7 +4,7 @@ time: unknown
 location: Near Target store
 city: Minneapolis
 type: citizens
-status: resolved-released
+status: resolved
 affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: medium

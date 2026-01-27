@@ -6,7 +6,7 @@ city: Mankato
 type: observers
 status: resolved
 affected_individual_citizenship: unknown
-injuries: chemical irritant exposure
+injuries: minor
 trustworthiness: medium
 created: 2026-01-14T09:04:50
 last_updated: 2026-01-14T09:04:50

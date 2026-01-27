@@ -6,7 +6,7 @@ city: Rochester
 type: immigrants
 status: ongoing
 affected_individual_citizenship: various
-injuries: possible (hammer used on window)
+injuries: none
 trustworthiness: high
 created: 2026-01-14T09:04:50
 last_updated: 2026-01-14T09:04:50

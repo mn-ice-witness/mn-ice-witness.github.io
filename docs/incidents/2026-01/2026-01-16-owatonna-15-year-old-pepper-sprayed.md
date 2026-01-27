@@ -4,7 +4,7 @@ time: evening
 location: Skyline Gardens housing development
 city: Owatonna
 type: observers
-status: unknown
+status: under-investigation
 affected_individual_citizenship: unknown
 injuries: minor
 trustworthiness: medium

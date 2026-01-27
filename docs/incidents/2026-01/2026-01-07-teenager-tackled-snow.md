@@ -4,9 +4,9 @@ time: unknown
 location: Minneapolis
 city: Minneapolis
 type: immigrants
-status: unknown
+status: under-investigation
 affected_individual_citizenship: unknown
-injuries: unknown
+injuries: none
 trustworthiness: medium
 created: 2026-01-23T13:00:29
 last_updated: 2026-01-23T13:00:29

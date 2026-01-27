@@ -25,7 +25,7 @@ When asked about video showing a Border Patrol agent kneeing a man in the face a
 5. Threads (Jan 10, 2026): [Viral post with "legal resident" claim](https://www.threads.com/@hereswhykevin/post/DTWJwHNiYw8)
 
 ## Related Incident
-See full incident details: [Border Patrol Agent Knees Man in Face While Pinned Down](/entry/2026-01-09-juan-carlos-brutality)
+See full incident details: [Border Patrol Agent Knees Man in Face While Pinned Down](#2026-01-09-juan-carlos-brutality)
 
 ## Official Statement
 

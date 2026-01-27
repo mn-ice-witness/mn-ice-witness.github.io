@@ -6,7 +6,7 @@ city: St. Paul
 type: immigrants
 status: ongoing
 affected_individual_citizenship: undocumented
-injuries: none-physical
+injuries: none
 trustworthiness: high
 created: 2026-01-14T08:38:51
 last_updated: 2026-01-14T08:38:51

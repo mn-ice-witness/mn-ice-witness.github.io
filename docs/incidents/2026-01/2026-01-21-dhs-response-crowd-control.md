@@ -6,7 +6,7 @@ city: Minneapolis
 type: response
 status: resolved
 affected_individual_citizenship: unknown
-injuries: unknown
+injuries: none
 trustworthiness: high
 created: 2026-01-21T21:54:31
 last_updated: 2026-01-21T21:54:31
@@ -29,8 +29,8 @@ DHS posted on X claiming Border Patrol agents were "repeatedly harassed and bloc
 
 ## Related Incidents
 
-- [Observer Pinned to Ground, Chemical Irritant Sprayed Directly Into Face](/entry/2026-01-21-observer-pinned-pepper-sprayed-face)
-- [Border Patrol Commander Greg Bovino Deploys Hexachloroethane Gas Near School at Dismissal](/entry/2026-01-21-bovino-hexachloroethane-playground)
+- [Observer Pinned to Ground, Chemical Irritant Sprayed Directly Into Face](#2026-01-21-observer-pinned-pepper-sprayed-face)
+- [Border Patrol Commander Greg Bovino Deploys Hexachloroethane Gas Near School at Dismissal](#2026-01-21-bovino-hexachloroethane-playground)
 
 ## Official Statement
 

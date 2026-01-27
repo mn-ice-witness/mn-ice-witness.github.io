@@ -4,7 +4,7 @@ time: unknown
 location: Minneapolis-St. Paul International Airport
 city: Minneapolis
 type: citizens
-status: unknown
+status: under-investigation
 affected_individual_citizenship: legal-resident
 injuries: none
 trustworthiness: medium

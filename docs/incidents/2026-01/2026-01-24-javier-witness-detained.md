@@ -23,8 +23,8 @@ A Minneapolis man using the pseudonym "Javier" for safety reasons was among doze
 
 ## Related Incidents
 
-- [Alex Pretti Shot and Killed by Federal Agents](/entry/2026-01-24-alex-pretti-shooting)
-- [Nur-D Detained at Pretti Shooting Scene](/entry/2026-01-24-nur-d-rapper-detained)
+- [Alex Pretti Shot and Killed by Federal Agents](#2026-01-24-alex-pretti-shooting)
+- [Nur-D Detained at Pretti Shooting Scene](#2026-01-24-nur-d-rapper-detained)
 
 ## Affected Individual(s)
 - **Name:** "Javier" (pseudonym used for safety)

@@ -44,7 +44,7 @@ Menera says that ICE doesn't care if you're a citizen or not, and feels he is a 
 ### DHS/ICE Statement
 On January 18, 2026, DHS posted a statement on X defending the detention. DHS confirmed the agent "recognized one individual's accent as being from Mexico" and claimed the citizen "at first lied about where he was born, claiming Minnesota" before changing his answer to Mexico. DHS acknowledged that records confirmed he was a naturalized U.S. citizen and he was "immediately released."
 
-**See full DHS response:** [DHS Statement: Defends Accent-Based Detention](/entry/2026-01-18-dhs-response-accent-detention)
+**See full DHS response:** [DHS Statement: Defends Accent-Based Detention](#2026-01-18-dhs-response-accent-detention)
 
 ## Legal Context
 This incident is cited in the ACLU's class-action lawsuit filed January 15, 2026, alleging widespread racial profiling, warrantless stops, and unconstitutional arrests by federal immigration agents. The ACLU argues that arrests based solely on ethnic appearance or accent violate the Fifth Amendment's Due Process Clause and the Equal Protection Clause.

@@ -5,7 +5,7 @@ location: Jardin Spanish Immersion Academy
 city: Minneapolis
 type: schools-hospitals, immigrants
 status: ongoing
-affected_individual_citizenship: work-permit-holder
+affected_individual_citizenship: legal-resident
 injuries: none
 trustworthiness: medium
 created: 2026-01-25T21:18:19

@@ -72,7 +72,7 @@ DHS did not address Vermie's detention specifically but issued a general stateme
 > "Any claim that there are subprime conditions at ICE facilities are FALSE. All detainees are provided with proper meals, medical treatment, and have opportunities to communicate with their family members and lawyers. Ensuring the safety, security, and well-being of individuals in our custody is a top priority at ICE."
 
 ## Related Incidents
-- [Attorneys denied access at Whipple Building](/entry/2026-01-15-whipple-lawyers-denied-access)
+- [Attorneys denied access at Whipple Building](#2026-01-15-whipple-lawyers-denied-access)
 
 ## Editorial Assessment
 **HIGH** - ABC News video interview with Vermie, KARE 11 investigation, named affected individual and attorney with direct quotes, specific location and details. National news coverage including syndication to multiple outlets.
