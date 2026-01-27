@@ -29,7 +29,7 @@ Bryam Escobar Martinez, a father of two from Hopkins, was detained by ICE while 
 
 ## Timeline
 - **Jan 9, 2026 (morning)** - Martinez detained by ICE while commuting to work
-- **Jan 9** - Wife Estefany speaks to MPR News about family disruption
+- **Jan 9** - Wife Estefany speaks to MPR News about family disruption.
 - **Days later** - Martinez files legal challenge to detention
 - **Jan 12, 2026** - Court orders Martinez released from custody
 

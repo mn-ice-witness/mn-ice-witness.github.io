@@ -32,8 +32,8 @@ Federal ICE agents pulled over two St. Paul Public Schools contract vans while s
 - **First stop** - ICE agents approach van; staff keep doors closed per protocol
 - **Both incidents** - Staff communicate through windows, follow district protocols
 - **Resolution** - Both vans allowed to continue to school without further disruption
-- **Jan 15** - SPPS confirms incidents, announces virtual learning option
-- **Jan 22** - Virtual learning begins for families who opt in
+- **Jan 15** - SPPS confirms incidents, announces virtual learning option.
+- **Jan 22** - Virtual learning begins for families who opt in.
 
 ## District Response
 

@@ -15,7 +15,7 @@ last_updated: 2026-01-20T15:16:31
 # U.S. Citizen Aliya Rahman Dragged From Car, Hospitalized After ICE Assault
 
 ## Updates
-- **Jan 20** - Aliya Rahman speaks exclusively to CNN in her first on-camera interview about the assault
+- **Jan 20** - Aliya Rahman speaks exclusively to CNN in her first on-camera interview about the assault.
 
 ## Summary
 Aliya Rahman, a 43-year-old U.S. citizen and software engineer, was dragged from her car by ICE agents after they smashed her window. She was driving to an appointment at the Traumatic Brain Injury Center when agents blocked her path. After being taken into custody, Rahman repeatedly requested medical attention but was denied. She lost consciousness in her cell and was finally taken to a hospital, where she was treated for injuries consistent with assault. The video went viral with millions of views.

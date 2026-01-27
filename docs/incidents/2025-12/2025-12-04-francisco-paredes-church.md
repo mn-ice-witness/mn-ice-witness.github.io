@@ -37,7 +37,7 @@ Francisco Paredes, a 46-year-old church maintenance worker and choir member who 
   - Initially: Bloomington immigration office (40 people in one cell, one bathroom)
   - Then: Crow Wing County Jail, Brainerd, MN
   - Finally: Webb County Detention Center, Laredo, TX
-- **Dec 25** - Spent Christmas imprisoned with no access to religious services
+- **Dec 25** - Spent Christmas imprisoned with no access to religious services.
 - **~Jan 4, 2026** - Deported to Mexico
 - **Jan 4, 2026** - ICE agents observed surveilling St. Gabriel's Church during Epiphany Mass
 

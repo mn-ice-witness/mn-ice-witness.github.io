@@ -32,7 +32,7 @@ A St. Paul Public Works employee working as a snowplow driver was detained by IC
 - **Week of Jan 11-17** - Worker detained by ICE outside a work site
 - **After detention** - Taken to Whipple Building in Minneapolis
 - **Later** - Transferred to detention facility in El Paso, Texas
-- **Jan 18** - Public Works Director Sean Kershaw publicly condemns detention; GoFundMe launched
+- **Jan 18** - Public Works Director Sean Kershaw publicly condemns detention; GoFundMe launched.
 
 ## Official Accounts
 

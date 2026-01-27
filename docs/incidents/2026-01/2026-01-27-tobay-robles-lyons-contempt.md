@@ -38,8 +38,8 @@ Federal Judge Patrick Schiltz ordered ICE's acting director Todd Lyons to person
 
 ## Timeline
 
-- **Jan 6** - Tobay Robles detained by immigration agents
-- **Jan 14** - Judge Schiltz orders ICE to allow Tobay Robles to challenge detention at a hearing within one week, or release him; determines ICE is holding him under improper reading of federal law
+- **Jan 6** - Tobay Robles detained by immigration agents.
+- **Jan 14** - Judge Schiltz orders ICE to allow Tobay Robles to challenge detention at a hearing within one week, or release him; determines ICE is holding him under improper reading of federal law.
 - **Jan 27 (evening)** - Judge Schiltz issues ruling summoning ICE Acting Director Todd Lyons to appear in court Friday to explain why he should not be held in contempt
 - **Jan 31 (Friday, 1:00 p.m.)** - Scheduled contempt hearing in Minneapolis (will be canceled if ICE releases Tobay Robles)
 

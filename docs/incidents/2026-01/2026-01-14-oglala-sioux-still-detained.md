@@ -43,7 +43,7 @@ Four days after ICE detained four Oglala Sioux tribal members from a Minneapolis
 
 ## Timeline
 - **Jan 10 (Fri)** - Four Oglala Lakota men detained from homeless encampment under bridge near Little Earth
-- **Jan 13** - Axios, MPR report on tribe's demands; tribe locates detainees
+- **Jan 13** - Axios, MPR report on tribe's demands; tribe locates detainees.
 - **Jan 14 (Tue)** - President Frank Star Comes Out issues formal memorandum to DHS Sec. Noem and Interior Sec. Burgum demanding release
 - **Jan 16-17 (upcoming)** - Oglala Sioux Tribe enrollment office organizing assistance at Minneapolis American Indian Center to help tribal members obtain documentation and IDs
 

@@ -15,7 +15,7 @@ last_updated: 2026-01-20T22:44:32
 # ICE Blocks Physician From Helping Shooting Victim
 
 ## Updates
-- **Jan 20** - Credible evidence emerges that Good was alive for 8 minutes after being shot
+- **Jan 20** - Credible evidence emerges that Good was alive for 8 minutes after being shot.
 
 ## Summary
 After ICE agent Jonathan Ross shot Renee Good, a bystander who identified himself as a physician attempted to provide medical assistance. ICE agents refused to let him near the affected individual. When the bystander said "I'm a physician," an agent replied "I don't care." Agents claimed they had their own medics on the way, but witness Emily Heller reported it was at least 15 minutes before an ambulance arrived. ICE vehicles abandoned at the scene blocked the ambulance's access.

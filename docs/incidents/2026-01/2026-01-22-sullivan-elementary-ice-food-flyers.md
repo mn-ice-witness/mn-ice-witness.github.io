@@ -43,14 +43,14 @@ The message read:
 - **No official Minneapolis Public Schools statement** beyond the TalkingPoints message
 - **No ICE/DHS response** confirming or denying
 
-## Media Coverage
+## Sources
 
 The story has been covered by partisan/advocacy media but not by mainstream Minnesota outlets:
 
-1. [MeidasTouch News](https://meidasnews.com/news/minnesota-elementary-school-sends-urgent-message-as-ice-sends-flyers-offering-food-support-to-families) (Jan 22, 2026) - Original report by Aaron Parnas
-2. [Raw Story](https://www.rawstory.com/ice-minnesota/) (Jan 23, 2026) - "Fury as elementary school warns ICE trying to lure parents by using food flyers as bait"
-3. [AOL News](https://www.aol.com/news/minnesota-elementary-school-sends-urgent-225350988.html) - Syndicated from MeidasTouch
-4. [Instagram Reel](https://www.instagram.com/reel/DT1KQoWEqbN/) - Video coverage
+1. MeidasTouch News (Jan 22, 2026): [Minnesota Elementary School Sends Urgent Message](https://meidasnews.com/news/minnesota-elementary-school-sends-urgent-message-as-ice-sends-flyers-offering-food-support-to-families)
+2. Raw Story (Jan 23, 2026): [Fury as elementary school warns ICE trying to lure parents](https://www.rawstory.com/ice-minnesota/)
+3. AOL News (Jan 22, 2026): [Syndicated from MeidasTouch](https://www.aol.com/news/minnesota-elementary-school-sends-urgent-225350988.html)
+4. Instagram Reel (Jan 22, 2026): [Video coverage](https://www.instagram.com/reel/DT1KQoWEqbN/)
 
 ## Context: Operation Metro Surge
 

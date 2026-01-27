@@ -15,7 +15,7 @@ last_updated: 2026-01-20T10:45:22
 # Venezuelan Family Detained, Including 12-Year-Old Sent to Texas
 
 ## Updates
-- **Jan 20** - Federal judge orders all six family members released after DHS failed to produce warrant by deadline; must be returned to Minnesota within 72 hours
+- **Jan 20** - Federal judge orders all six family members released after DHS failed to produce warrant by deadline; must be returned to Minnesota within 72 hours.
 
 ## Summary
 Federal agents used a battering ram to enter a home on Nevada Avenue East in St. Paul, detaining six residents including a 12-year-old boy. The family immigrated from Venezuela in 2023, and the detained adults possessed work permits and state-issued IDs. The 12-year-old was flown to an immigration detention facility in San Antonio, Texas. Agents claimed to have a search warrant but never displayed one; a warrant that appeared on the doorstep the next day had no case number or file stamp and no record of being filed with the court.

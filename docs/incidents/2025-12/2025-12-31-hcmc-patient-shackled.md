@@ -33,11 +33,11 @@ ICE agents entered Hennepin County Medical Center's emergency department without
 
 ## Timeline
 - **Dec 31, 2025** - Patient arrives at HCMC Emergency Department
-- **Dec 31** - ICE agents enter ER without judicial warrant
+- **Dec 31** - ICE agents enter ER without judicial warrant.
 - **Dec 31-Jan 1** - Six ICE officers present, two rotating at bedside every four hours
 - **During stay** - Patient handcuffed/shackled to bed; agents given access to staff-only areas
 - **~28 hours later** - County commissioners and hospital leadership confront agents
-- **Jan 1** - After confirming no judicial warrant, agents ordered to leave; they comply
+- **Jan 1** - After confirming no judicial warrant, agents ordered to leave; they comply.
 - **Jan 6, 2026** - Rally held outside HCMC demanding policy changes
 
 ## What Healthcare Workers Reported

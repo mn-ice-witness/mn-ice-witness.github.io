@@ -41,12 +41,12 @@ ICE detained Maria Velasco Hurtado while she was driving to work, then went to t
 
 ## Timeline
 - **Jan 22 (morning)** - Maria Velasco Hurtado detained while driving to work
-- **Jan 22** - ICE agents go to family home on Mainstreet, use mother's detention to convince Luis and children to come outside; all detained
+- **Jan 22** - ICE agents go to family home on Mainstreet, use mother's detention to convince Luis and children to come outside; all detained.
 - **Jan 22 (morning)** - Attorney Brian Clark files habeas petition
 - **Jan 22 (2:00 PM)** - Judge issues order for government to show cause
-- **Jan 23** - Federal judge orders family must remain in Minnesota
+- **Jan 23** - Federal judge orders family must remain in Minnesota.
 - **After court order** - ICE transports family to Texas in violation of order
-- **Jan 24** - Attorney files motion for contempt
+- **Jan 24** - Attorney files motion for contempt.
 - **Jan 27 (~1:00 AM)** - Family returned to Minnesota and released
 
 ## What Happened

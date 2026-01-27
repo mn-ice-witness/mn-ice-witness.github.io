@@ -22,8 +22,8 @@ DHS posted on X claiming Border Patrol agents were "repeatedly harassed and bloc
 
 1. X Post (Jan 21, 2026): [@DHSgov statement](https://x.com/DHSgov/status/2014137749125693840)
 2. Fox News (Jan 22, 2026): [Minnesota agitators stalk, pelt Border Patrol agents with food and spit at gas stations, DHS says](https://www.foxnews.com/us/minnesota-agitators-stalk-pelt-border-patrol-agents-food-spit-gas-stations-dhs-says)
-3. Video (Instagram): [Gas station confrontation footage](https://www.instagram.com/reels/DTyrnFdkRSK/)
-4. Video (Facebook): [Gas station confrontation footage](https://www.facebook.com/reel/1439489157581713/)
+3. Instagram Video (Jan 21, 2026): [Gas station confrontation footage](https://www.instagram.com/reels/DTyrnFdkRSK/)
+4. Facebook Video (Jan 21, 2026): [Gas station confrontation footage](https://www.facebook.com/reel/1439489157581713/)
 5. Mediaite (Jan 22, 2026): [DHS Says Protesters Won't Let Immigration Agents Pee in Peace](https://www.mediaite.com/media/news/dhs-says-protesters-wont-let-immigration-agents-pee-in-peace-simply-trying-to-take-bathroom-breaks/)
 6. New Republic (Jan 22, 2026): [CBP chief confronted at Minnesota gas station](https://newrepublic.com/post/205524/customs-border-protection-cbp-bovino-minnesota-gas-station)
 

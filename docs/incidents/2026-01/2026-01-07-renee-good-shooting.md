@@ -16,7 +16,7 @@ last_updated: 2026-01-23T17:00:00
 
 ## Updates
 - **Jan 23** - FBI agent Tracee Mergen, a supervisor in the Minneapolis field office, [resigned](https://www.nytimes.com/2026/01/23/us/fbi-agent-ice-shooting-renee-good.html) after bureau leadership in Washington pressured her to discontinue a civil rights inquiry into Jonathan Ross.
-- **Jan 22** - [Hennepin County Medical Examiner](https://www.fox9.com/news/minneapolis-ice-shooting-renee-goods-death-homicide-hennepin-medical-examiner-jan-23) officially ruled death a homicide, cause "multiple gunshot wounds" from being "shot by a law enforcement officer."
+- **Jan 22** - [Hennepin County Medical Examiner](https://www.fox9.com/news/minneapolis-ice-shooting-renee-goods-death-homicide-hennepin-medical-examiner-jan-23) officially ruled death a homicide, cause "multiple gunshot wounds" from being "shot by a law enforcement officer.".
 - **Jan 22** - [Autopsy commissioned by family](https://www.nbcnews.com/news/us-news/renee-good-was-shot-head-autopsy-commissioned-family-finds-rcna255335) found cause of death was multiple gunshot wounds.
 - **Jan 21** - [Independent autopsy](https://www.startribune.com/law-firm-independent-autopsy/601568258) released by family attorneys (Romanucci & Blandin) reveals three gunshot wounds: left forearm, right breast (both non-life-threatening), and fatal head wound with entrance near left temple and exit on right side.
 
