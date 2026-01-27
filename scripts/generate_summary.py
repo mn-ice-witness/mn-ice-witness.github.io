@@ -203,9 +203,20 @@ def count_media(content):
     return videos + photos + analysis
 
 
+REQUIRED_FIELDS = ["date", "type", "status", "trustworthiness", "created", "last_updated"]
+
+
+def validate_frontmatter(meta, file_path):
+    missing = [field for field in REQUIRED_FIELDS if not meta.get(field)]
+    if missing:
+        raise ValueError(f"{file_path.name}: missing required fields: {', '.join(missing)}")
+
+
 def process_incident(file_path, docs_dir, media_dir):
     content = file_path.read_text()
     meta, body = parse_frontmatter(content)
+
+    validate_frontmatter(meta, file_path)
 
     relative_path = str(file_path.relative_to(docs_dir))
 
@@ -232,8 +243,8 @@ def process_incident(file_path, docs_dir, media_dir):
         "affectedIndividualCitizenship": meta.get("affected_individual_citizenship", "unknown"),
         "injuries": meta.get("injuries", "unknown"),
         "trustworthiness": meta.get("trustworthiness", "unverified"),
-        "created": meta.get("created"),
-        "lastUpdated": meta.get("last_updated", meta.get("date", "Unknown")),
+        "created": meta["created"],
+        "lastUpdated": meta["last_updated"],
         "mediaCount": count_media(content),
         "notable": is_notable,
         "hasLocalMedia": local_media["hasLocalMedia"],

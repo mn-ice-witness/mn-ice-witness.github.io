@@ -9,6 +9,7 @@ affected_individual_citizenship: us-citizen
 injuries: fatal
 trustworthiness: high
 created: 2026-01-25T08:10:21
+last_updated: 2026-01-25T08:10:21
 ---
 
 # Bovino on Pretti: "Let's Take a Look at the Gun"; Second Amendment Groups Raise Concerns
