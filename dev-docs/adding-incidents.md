@@ -64,6 +64,32 @@ Before adding, ensure:
 2. **Assign trustworthiness based on criteria below**
 3. **Avoid**: Single social media posts without corroboration
 
+## Step 1.5: Search for Additional Sources (ALWAYS DO THIS)
+
+**⚠️ CRITICAL:** Even when the user provides a source, ALWAYS search for additional coverage before creating the incident file. Do not create an incident with only the source the user gave you.
+
+**Why this matters:**
+- Major stories are typically covered by multiple outlets
+- Additional sources improve trustworthiness rating
+- Different outlets may have different details (names, times, quotes)
+- Video evidence may exist that the user didn't find
+
+**Search procedure:**
+1. Take key details from the provided source (names, location, date, agency involved)
+2. Run 2-3 parallel web searches:
+   - `"[affected individual name]" ICE Minnesota [date]`
+   - `[location] ICE [month year]`
+   - `[key phrase from story] Minnesota`
+3. Check if major outlets covered it (NYT, WaPo, NBC, CBS, ABC, PBS, local TV)
+4. Add all discovered sources to the incident file
+
+**Example from actual session:**
+- User provided: 1 NYT article about contempt order
+- After searching: Found 8 sources (NBC, WaPo, CBS, ABC, PBS, NewsNation, Inquirer)
+- Result: Much stronger incident file with comprehensive sourcing
+
+**Do NOT skip this step** just because the user gave you a link. The user expects you to do the research.
+
 ### Citizen Checks Are Valid Incidents
 
 Well-sourced stories from major news outlets documenting U.S. citizens being stopped and subjected to citizenship checks are valid incidents, even if the citizen was not ultimately detained. These incidents demonstrate the pattern of racial profiling affecting American citizens. If a citizen was surrounded, stopped, questioned, or had to prove their citizenship, that qualifies as an incident.

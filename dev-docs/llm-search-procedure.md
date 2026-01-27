@@ -2,6 +2,27 @@
 
 Step-by-step guide for AI assistants to search for and document new ICE incidents.
 
+## Ad-Hoc Incident Additions (User Provides a Link)
+
+**⚠️ CRITICAL:** When a user provides a news link and asks you to add an incident, **DO NOT just use that one source.** Always search for additional coverage first.
+
+**Procedure:**
+1. Read the provided source to extract key details (names, location, date)
+2. Run 2-3 parallel web searches for additional coverage
+3. Check major outlets: NYT, WaPo, NBC, CBS, ABC, PBS, AP, local TV
+4. Create the incident file with ALL discovered sources
+
+**Why:** Major stories typically have 5-10+ sources. A single-source incident file looks poorly researched. The user expects you to find comprehensive coverage, not just use what they gave you.
+
+**Example:**
+- User provides: 1 NYT link about judge ordering ICE director to court
+- You should find: NBC, WaPo, CBS, ABC, PBS, local coverage = 8+ sources
+- Then create the incident with all sources
+
+See `adding-incidents.md` Step 1.5 for full details.
+
+---
+
 ## Daily Search Command
 
 When the user says **"do our daily search"** or similar, follow this exact procedure:

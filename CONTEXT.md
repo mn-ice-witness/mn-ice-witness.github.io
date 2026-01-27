@@ -113,8 +113,18 @@ When user says **"do our daily search"**, follow `dev-docs/llm-search-procedure.
 3. Cross-reference all findings against existing files
 4. Report: new incidents, updates to existing, additions to not_use.md, unverified upgrades
 
-### Before Adding Incidents
-**Always check `dev-docs/not_use.md`** for stories already evaluated and rejected. This prevents re-adding stories that don't fit the project scope.
+### When User Provides a Link to Add
+**⚠️ CRITICAL:** Do NOT just use the source the user gave you. **Always search for additional coverage first.**
+
+1. Read the provided source to extract key details (names, location, date)
+2. Run 2-3 parallel web searches for more coverage
+3. Check major outlets: NYT, WaPo, NBC, CBS, ABC, PBS, AP, local TV
+4. Create the incident file with ALL discovered sources
+
+**The user expects you to do the research**, not just copy what they gave you. See `adding-incidents.md` Step 1.5.
+
+### Before Adding Any Incident
+Read `adding-incidents.md` first. Check `not_use.md` for rejected stories.
 
 ### last_updated Field
 **Only update for substantive story changes:**
@@ -139,6 +149,7 @@ When user says **"do our daily search"**, follow `dev-docs/llm-search-procedure.
 | If you're doing... | Read these dev-docs |
 |-------------------|---------------------|
 | **"Do our daily search"** | `llm-search-procedure.md` (has exact steps), `not_use.md` |
+| **User provides a link to add** | `adding-incidents.md` Step 1.5 (always search for more sources first) |
 | **Adding a new incident** | `adding-incidents.md`, `incident-schema.md`, `not_use.md` |
 | **Renaming an incident ID** | `id-reassignment.md` |
 | **Hiding/drafting an incident** | `hiding-incidents.md` |

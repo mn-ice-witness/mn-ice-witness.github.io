@@ -119,6 +119,7 @@ A rule belongs in CONTEXT.md's Critical Rules section if it meets ALL of these c
 | Neutral language | Credibility depends on this |
 | Check not_use.md | Prevents re-adding rejected stories |
 | last_updated rules | Wrong updates break "Sort by Updated" feature |
+| Search for sources (read adding-incidents.md) | LLMs skip source searching; point to Step 1.5 |
 
 ### Rules That Don't Belong
 
