@@ -212,24 +212,11 @@ If the incident involves a refugee or immigrant with **pending legal status** (I
 - GoFundMe pages
 - Single witness accounts
 
-### Source Formatting Quick Reference
+### Source Formatting
 
 **Format:** `N. Outlet Name (Mon DD, YYYY): [Title](URL)`
 
-**Platform-specific formats:**
-
-| Platform | Video | Non-Video |
-|----------|-------|-----------|
-| Instagram | `Instagram Video (Jan 15, 2026): [description](URL)` | `Instagram Post (Jan 15, 2026): [description](URL)` |
-| TikTok | `TikTok Video (Jan 15, 2026): [description](URL)` | (rare - TikTok is usually video) |
-| X/Twitter | `X Video (Jan 15, 2026): [description](URL)` | `X Post (Jan 15, 2026): [@handle thread](URL)` |
-| Facebook | `Facebook Video (Jan 15, 2026): [description](URL)` | `Facebook Post (Jan 15, 2026): [description](URL)` |
-| Threads | N/A | `Threads (Jan 15, 2026): [@handle post](URL)` |
-| Bluesky | N/A | `Bluesky (Jan 15, 2026): [@handle.bsky.social post](URL)` |
-| YouTube | `YouTube Video (Jan 15, 2026): [description](URL)` | N/A |
-| News sites | `FOX 9 Video (Jan 15, 2026): [description](URL)` | `FOX 9 (Jan 15, 2026): [Headline](URL)` |
-
-**See `incident-schema.md` for full formatting rules and examples of common mistakes.**
+**See `incident-schema.md` for full formatting rules and platform-specific examples.**
 
 ## Common Mistakes to Avoid
 
@@ -527,23 +514,6 @@ We want ALL valid sources documented. Let users decide what they care about. If 
 - Proven false or misleading
 - From unreliable/disreputable sources
 - Permanently broken links (not just temporarily down)
-
-## Cache Busting (Important!)
-
-When updating HTML, CSS, or JS files, **bump the version number** to force browser cache refresh:
-
-1. In `docs/index.html`, update all `?v=X` to `?v=X+1`:
-   ```html
-   <link rel="stylesheet" href="css/style.css?v=4">
-   <script src="js/app.js?v=4"></script>
-   ```
-
-2. If updating CSS with image references, update versions there too:
-   ```css
-   background: url('../images/splash-1.jpg?v=4') center/cover;
-   ```
-
-**Why?** Cloudflare and browsers cache aggressively. Without version bumps, users may see stale content.
 
 ## Bulk Research Tips
 

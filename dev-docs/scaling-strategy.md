@@ -2,23 +2,14 @@
 
 This document tracks our data scaling decisions, current metrics, and future considerations.
 
-## Current State (Jan 15, 2026)
+## Current State (Jan 27, 2026)
 
-**Project age:** 2 days (launched Dec 2025, active documentation started Jan 13, 2026)
+**Project age:** ~2 weeks (launched Dec 2025, active documentation started Jan 13, 2026)
 
 ### Data Metrics
-- **Total incidents:** 81
-- **Summary file size:** 88 KB (`docs/data/incidents-summary.json`)
-- **Individual incident files:** 81 markdown files in `docs/incidents/`
-
-### By Category
-| Category | Count | Est. Size |
-|----------|-------|-----------|
-| immigrants | 31 | ~29 KB |
-| observers | 18 | ~16 KB |
-| citizens | 17 | ~17 KB |
-| response | 9 | ~7 KB |
-| schools-hospitals | 9 | ~8 KB |
+- **Total incidents:** 147
+- **Summary file size:** 205 KB (`docs/data/incidents-summary.json`)
+- **Individual incident files:** 147 markdown files in `docs/incidents/`
 
 ## Current Architecture Decision
 
@@ -37,10 +28,10 @@ Consider revisiting architecture when:
 
 | Metric | Current | Threshold | Action |
 |--------|---------|-----------|--------|
-| Total incidents | 81 | 500+ | Consider splitting by category |
-| File size | 88 KB | 500 KB+ | Consider splitting or pagination |
-| Single category | 31 | 200+ | Consider sub-categorization |
-| Load time | ~100ms | 1s+ | Add loading indicators, consider lazy load |
+| Total incidents | 147 | 500+ | Consider splitting by category |
+| File size | 205 KB | 500 KB+ | Consider splitting or pagination |
+| Single category | ~50 | 200+ | Consider sub-categorization |
+| Load time | ~150ms | 1s+ | Add loading indicators, consider lazy load |
 
 ## Future Options (Not Implemented)
 
@@ -90,7 +81,8 @@ LLMs can:
 | Date | Decision | Rationale |
 |------|----------|-----------|
 | 2026-01-15 | Keep single JSON file | 88KB is small, splitting adds complexity without meaningful benefit |
+| 2026-01-27 | Continue single file | 205KB still well under threshold, no performance issues |
 
 ---
 
-*Last updated: 2026-01-15*
+*Last updated: 2026-01-27*

@@ -1,5 +1,7 @@
 # Media Candidates for Video/Photo Research
 
+*Last updated: January 2026. Statuses may have changed — verify against current incident files.*
+
 This file tracks incidents involving brutality or force that need compelling video/photo evidence researched, plus candidates that were evaluated and rejected.
 
 ---

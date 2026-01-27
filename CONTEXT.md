@@ -13,6 +13,17 @@ This file is a **table of contents** for AI assistants. It tells you WHERE to fi
 
 ---
 
+## For LLMs: Learning from Corrections
+
+**⚠️ IMPORTANT:** When the user corrects your behavior or gives you specific instructions that aren't in the dev-docs, this is an opportunity to improve the documentation.
+
+**After each correction, ask:**
+> "I noticed you told me to [X]. This wasn't in the dev-docs. Should I update [specific doc] or create a new doc for this?"
+
+This ensures project-specific knowledge accumulates in the docs rather than being lost between sessions.
+
+---
+
 ## Project Overview
 
 **MN ICE Files** documents civil rights incidents involving ICE/CBP in Minnesota during Operation Metro Surge (Dec 2025 - present). Mobile-first static site hosted on Cloudflare Pages.
@@ -157,19 +168,18 @@ Read `adding-incidents.md` first. Check `not_use.md` for rejected stories.
 | **Assessing source credibility** | `source-tiers.md`, `adding-incidents.md` |
 | **Handling unverified incidents** | `unverified-incidents.md` |
 | **Status/citizenship values** | `status-categories.md` |
-| **Modifying JavaScript** | `architecture.md` (JS module reference), `code-review-findings.md` |
+| **Modifying JavaScript** | `architecture.md` (JS module reference) |
 | **Modifying CSS** | `architecture.md` (CSS structure section) |
-| **URL/routing work** | `url-routing.md`, `single-page-navigation.md` |
-| **Video player changes** | `media-controls.md` |
-| **Video loading/performance** | `media-loading-strategy.md` |
+| **URL/routing work** | `navigation.md` |
+| **Video player/media** | `media-playback.md` |
 | **Adding icons or UI elements** | `ui-patterns.md` |
 | **Processing media files** | `architecture.md` (media pipeline), `adding-video-audio.md` |
 | **Moving screen recordings** | `screen-recording-workflow.md` |
 | **Testing on preview branch** | `preview-deployments.md` |
 | **Understanding deployment** | `DEPLOYMENT.md` |
 | **Cloudflare settings/CDN** | `cloudflare-configuration.md` |
-| **Analytics/tracking** | `analytics-decision.md`, `removed-tracking.md` |
-| **Refactoring code** | `refactoring-plan.md`, `code-review-findings.md` |
+| **Analytics/tracking** | `analytics.md` |
+| **Refactoring code** | `archive/refactoring-plan.md`, `archive/code-review-findings.md` |
 | **Social media posts** | `social-media-listing-procedure.md` |
 | **Official DHS responses** | `researching-responses.md` |
 | **Scaling concerns** | `scaling-strategy.md` |
@@ -223,26 +233,24 @@ GIT_MN_ICE_FILES/
 | `adding-incidents.md` | Step-by-step guide, duplicate checking, trustworthiness criteria |
 | `hiding-incidents.md` | Temporarily hide drafts/unpublished incidents using underscore prefix |
 
-### Code Quality
+### Code Quality (Archived)
 | Doc | Contents |
 |-----|----------|
-| `code-review-findings.md` | File size analysis, dead code, duplication |
-| `refactoring-plan.md` | Modular split, new file structure |
+| `archive/code-review-findings.md` | File size analysis, dead code, duplication |
+| `archive/refactoring-plan.md` | Completed Jan 2026 modular split |
 
 ### URL & Navigation
 | Doc | Contents |
 |-----|----------|
-| `url-routing.md` | Path-based URLs, Cloudflare Functions, OG tags |
-| `single-page-navigation.md` | Hash navigation, section links |
+| `navigation.md` | Path URLs, hash URLs, Cloudflare Functions, local dev |
 | `id-reassignment.md` | Renaming incident IDs with redirects |
 
 ### UI & Media
 | Doc | Contents |
 |-----|----------|
 | `ui-patterns.md` | SVG icon pattern, available icons |
-| `media-controls.md` | Video player, fullscreen |
-| `media-loading-strategy.md` | Video preloading, scroll-ahead prefetch, bandwidth optimization |
-| `adding-video-audio.md` | System audio capture |
+| `media-playback.md` | Video controls, loading strategy, fullscreen |
+| `adding-video-audio.md` | System audio capture
 | `screen-recording-workflow.md` | Moving/renaming screen recordings, cleanup |
 | `media-candidates.md` | Videos to research |
 | `og-image.md` | Social sharing image generation |
@@ -269,7 +277,6 @@ GIT_MN_ICE_FILES/
 | `cloudflare-configuration.md` | Pro plan settings, CDN vs Stream, cost decisions |
 | `preview-deployments.md` | Testing branches |
 | `scaling-strategy.md` | Data metrics, thresholds |
-| `project-status.md` | Current state |
 
 ### Social & Outreach
 | Doc | Contents |
@@ -283,11 +290,7 @@ GIT_MN_ICE_FILES/
 |-----|----------|
 | `context-maintenance.md` | How to maintain this TOC system |
 | `meta-not-use.md` | About page story exclusions |
-| `social-posts-discussion.md` | Social posts ideas |
-| `media-complications-ice-tactics.md` | Media coverage links |
-| `analytics-decision.md` | Analytics options and tradeoffs (GA vs Cloudflare vs none) |
-| `removed-tracking.md` | Preserves removed GA/tracking code for reference |
-| `google-analytics.md` | GA property ID and code snippet (currently disabled) |
+| `analytics.md` | Analytics options, GA code preserved (currently disabled) |
 
 ---
 
