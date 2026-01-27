@@ -8,7 +8,6 @@ status: under-investigation
 affected_individual_citizenship: us-citizen
 injuries: fatal
 trustworthiness: high
-media: 2026-01-24-alex-pretti-shooting.mp4
 created: 2026-01-24T13:40:15
 last_updated: 2026-01-26T14:59:52
 ---

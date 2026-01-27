@@ -8,7 +8,6 @@ status: resolved
 affected_individual_citizenship: us-citizen
 injuries: minor
 trustworthiness: high
-media: 2026-01-24-nur-d-rapper-detained.mov
 created: 2026-01-26T11:42:27
 last_updated: 2026-01-26T11:42:27
 ---
