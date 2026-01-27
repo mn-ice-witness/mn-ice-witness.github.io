@@ -12,17 +12,17 @@ created: 2026-01-27T10:15:00
 last_updated: 2026-01-27T10:15:00
 ---
 
-# Bovino Blames "So-Called Journalists" for "Tragic Consequences"
+# Bovino Blames Politicians, Community Leaders, and Journalists for "Tragic Consequences"
 
 ## Summary
 At a press conference the day after Alex Pretti was fatally shot by federal agents, Border Patrol Commander Gregory Bovino blamed politicians, community leaders, and journalists for what he called "tragic consequences." Bovino stated that those who "vilify law enforcement" by calling agents "Gestapo" bear responsibility for "consequences" and "what we saw yesterday" — an apparent reference to the Pretti shooting — though he never explicitly articulated how criticism of law enforcement caused the shooting. When asked directly if DHS would take responsibility for the fatal shootings, Bovino declined to answer.
 
 ## Sources
-1. Yahoo News Canada (Jan 26, 2026): [Border Patrol chief blames Democrats and journalists for Minneapolis chaos](https://ca.news.yahoo.com/border-patrol-chief-blames-democrats-002126534.html)
-2. The Hill (Jan 26, 2026): [Border Patrol commander Greg Bovino to leave Minnesota](https://thehill.com/homenews/administration/5707812-greg-bovino-border-patrol-minnesota-shootings/)
-3. AOL (Jan 27, 2026): [Border Patrol commander Greg Bovino's rise and fall](https://www.aol.com/articles/greg-bovino-viral-star-behind-095246776.html)
-4. Salon (Jan 25, 2026): [Bovino says Pretti forfeited 2nd Amendment rights](https://www.salon.com/2026/01/25/those-rights-dont-count-bovino-says-pretti-forfeited-2nd-amendment-rights-in-fatal-shooting/)
-5. YouTube (Jan 26, 2026): [Gregory Bovino speaks on 'choice to vilify law enforcement'](https://www.youtube.com/watch?v=_YWM3PZY7eg)
+1. YouTube (Jan 26, 2026): [Gregory Bovino speaks on 'choice to vilify law enforcement'](https://www.youtube.com/watch?v=_YWM3PZY7eg)
+2. Yahoo News Canada (Jan 26, 2026): [Border Patrol chief blames Democrats and journalists for Minneapolis chaos](https://ca.news.yahoo.com/border-patrol-chief-blames-democrats-002126534.html)
+3. The Hill (Jan 26, 2026): [Border Patrol commander Greg Bovino to leave Minnesota](https://thehill.com/homenews/administration/5707812-greg-bovino-border-patrol-minnesota-shootings/)
+4. AOL (Jan 27, 2026): [Border Patrol commander Greg Bovino's rise and fall](https://www.aol.com/articles/greg-bovino-viral-star-behind-095246776.html)
+5. Salon (Jan 25, 2026): [Bovino says Pretti forfeited 2nd Amendment rights](https://www.salon.com/2026/01/25/those-rights-dont-count-bovino-says-pretti-forfeited-2nd-amendment-rights-in-fatal-shooting/)
 
 ## Key Statements
 
