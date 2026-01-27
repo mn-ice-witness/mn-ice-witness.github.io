@@ -6,6 +6,7 @@
 
 
 
+
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -77,3 +78,4 @@ kong-vang-frogtown
 francis-burger-joint-manager
 nadya-moldovan-refugee
 sullivan-elementary-ice-food-flyers
+velasco-family-hopkins
