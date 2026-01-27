@@ -947,7 +947,16 @@ body {
     align-items: stretch;
     gap: 8px;
     margin-bottom: 6px;
-    padding: 0 4px;
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.15s;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.section-header:hover {
+    background: rgba(0, 0, 0, 0.03);
 }
 
 .section-header-content {
@@ -958,17 +967,9 @@ body {
 .section-chevron {
     flex-shrink: 0;
     align-self: center;
-    color: var(--color-border);
-    opacity: 0.6;
-    cursor: pointer;
-    padding: 4px;
-    border-radius: 4px;
-    transition: transform 0.2s ease, opacity 0.15s, background 0.15s;
-}
-
-.section-chevron:hover {
-    opacity: 1;
-    background: rgba(0, 0, 0, 0.05);
+    color: var(--color-text-muted);
+    opacity: 0.5;
+    transition: transform 0.2s ease;
 }
 
 .incident-section.collapsed .section-chevron {
