@@ -9,12 +9,13 @@ affected_individual_citizenship: us-citizen
 injuries: fatal
 trustworthiness: high
 created: 2026-01-24T13:40:15
-last_updated: 2026-01-26T14:59:52
+last_updated: 2026-01-27T08:38:44
 ---
 
 # Alex Pretti Shot and Killed by Federal Agents
 
 ## Updates
+- **Jan 27** - [Court filings](https://kstp.com/kstp-news/top-news/court-filings-witnesses-say-they-didnt-see-pretti-with-a-gun-give-more-details-of-deadly-ice-shooting/) reveal witness testimony: "The man did not approach the agents with a gun. He approached them with a camera." A pediatrician witness counted at least 4 gunshot wounds—3 to his back, 1 to his upper left chest. Audio analysis: 10 shots in less than 5 seconds.
 - **Jan 26** - BCA Superintendent Drew Evans says DHS [blocked state investigators](https://www.kare11.com/article/news/local/ice-in-minnesota/bca-blocked-from-scene-where-federal-agents-fatally-shot-man-south-minneapolis/89-2d4bf800-d146-49ee-8eb8-4ff5e09f02c8) from the scene despite having a warrant — in 20+ years he's "never been denied access to a scene."
 - **Jan 24** - Pretti's parents release [statement](https://bsky.app/profile/jeffrueter.bsky.social/post/3md7iqqr5622i) calling their son "a good man" and demanding the truth be told.
 - **Jan 24** - [New video evidence](https://bsky.app/profile/joshuaeakle.com/post/3md76ihzrg22y) appears to show Pretti was holding a phone, not a weapon, and that an agent removed his gun before the shooting.
@@ -48,6 +49,9 @@ Federal agents fatally shot Alex Jeffrey Pretti, a 37-year-old U.S. citizen, lic
 21. Wikipedia: [Killing of Alex Pretti](https://en.wikipedia.org/wiki/Killing_of_Alex_Pretti)
 22. KARE 11 (Jan 26, 2026): [BCA blocked from scene despite warrant](https://www.kare11.com/article/news/local/ice-in-minnesota/bca-blocked-from-scene-where-federal-agents-fatally-shot-man-south-minneapolis/89-2d4bf800-d146-49ee-8eb8-4ff5e09f02c8)
 23. Fox 9 (Jan 26, 2026): [BCA says DHS blocked them from shooting scene](https://www.fox9.com/news/minneapolis-shooting-minnesota-bca-says-dhs-blocked-shooting-scene)
+24. KSTP (Jan 27, 2026): [Court filings: Witnesses say they didn't see Pretti with a gun](https://kstp.com/kstp-news/top-news/court-filings-witnesses-say-they-didnt-see-pretti-with-a-gun-give-more-details-of-deadly-ice-shooting/)
+25. Washington Post (Jan 25, 2026): [Videos show agent secured gun from Pretti before fatal shooting](https://www.washingtonpost.com/investigations/2026/01/25/minneapolis-shooting-video-gun/) - **VIDEO**
+26. Bring Me The News (Jan 27, 2026): [Lawsuit says federal agents let crime scene collapse](https://bringmethenews.com/minnesota-news/alex-pretti-minnesota-lawsuit-says-fed-agents-let-crime-scene-collapse-in-astonishing-behavior)
 
 ## Related Incidents
 
@@ -74,6 +78,12 @@ Federal agents fatally shot Alex Jeffrey Pretti, a 37-year-old U.S. citizen, lic
 
 ## Witness Accounts
 Video recorded by a woman in a pink coat (shared by Dropsite News) shows the moments leading up to and during the shooting. The footage shows several agents wrestling the man to the ground and shooting him multiple times.
+
+### Court Filing Witness Statements (Jan 27)
+One witness stated in court documents:
+> "I have read the statement from DHS about what happened and it is wrong. The man did not approach the agents with a gun. He approached them with a camera. He was just trying to help a woman get up and they took him to the ground."
+
+A pediatrician who witnessed the aftermath counted at least four gunshot wounds: three to Pretti's back, one to his upper left chest, and a possible wound to his neck. Forensic audio analysis of the video determined 10 shots were fired in less than five seconds.
 
 ## Official Accounts
 
