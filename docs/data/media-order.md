@@ -22,11 +22,12 @@ ramon-menera-accent-detained
 ahmed-hassan-uber-driver
 mubashir-wrongful-detention
 jose-ramirez-native-american
-bovino-cbs-interview
+owatonna-15-year-old-pepper-sprayed
 amundson-zemien-seizure-first-responders
-agriculture-press-conference
+william-vermie-veteran-detained
 eden-prairie-13-year-old
 noem-pepper-spray-denial-backtrack
+saly-hmong-citizen-shirtless
 oglala-sioux-still-detained
 nimco-omar-citizen-check
 garrison-gibson-battering-ram
@@ -39,6 +40,8 @@ trump-mistakes-happen
 emmanuel-sackie-brooklyn-park
 jesse-ventura-roosevelt
 jana-shortal-journalist-pepper-sprayed
+bovino-cbs-interview
+agriculture-press-conference
 rogelio-jimenez-brooklyn-park
 el-tapatio-willmar
 phil-maddox-did-you-not-learn
@@ -60,10 +63,8 @@ pickup-truck-rams-protesters
 mercado-central-mother-children
 fridley-schools-closure
 bovino-pretti-had-gun-response
-saly-hmong-citizen-shirtless
 dhs-response-accent-detention
 dhs-response-saly-detention
-william-vermie-veteran-detained
 trump-vicious-animals-statement
 dhs-response-crowd-control
 south-mpls-teenagers-detained
@@ -75,4 +76,3 @@ francis-burger-joint-manager
 nadya-moldovan-refugee
 sullivan-elementary-ice-food-flyers
 velasco-family-hopkins
-owatonna-15-year-old-pepper-sprayed
