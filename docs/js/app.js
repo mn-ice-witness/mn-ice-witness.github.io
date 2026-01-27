@@ -464,12 +464,15 @@ const App = {
             sectionEl.id = section.type;
             sectionEl.className = 'incident-section';
             sectionEl.innerHTML = `
-                <header class="section-header">
+                <header class="section-header" role="button" tabindex="0" aria-expanded="true">
                     <div class="section-marker marker-${section.type}"></div>
-                    <div>
+                    <div class="section-header-content">
                         <h2 class="section-title">${section.title} <span class="section-count">(${sectionIncidents.length})</span></h2>
                         <p class="section-desc">${section.desc}</p>
                     </div>
+                    <svg class="section-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
                 </header>
                 <div class="incident-table">
                     ${sectionIncidents.map(i => this.renderRow(i)).join('')}
@@ -480,6 +483,7 @@ const App = {
         });
 
         this.setupRowHandlers(container);
+        this.setupSectionCollapseHandlers(container);
     },
 
     /**
@@ -581,6 +585,27 @@ const App = {
                     }
                 });
             }
+        });
+    },
+
+    /**
+     * Setup collapse/expand handlers for section headers
+     */
+    setupSectionCollapseHandlers(container) {
+        container.querySelectorAll('.section-header').forEach(header => {
+            const toggleCollapse = () => {
+                const section = header.closest('.incident-section');
+                const isCollapsed = section.classList.toggle('collapsed');
+                header.setAttribute('aria-expanded', !isCollapsed);
+            };
+
+            header.addEventListener('click', toggleCollapse);
+            header.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    toggleCollapse();
+                }
+            });
         });
     }
 };

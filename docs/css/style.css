@@ -947,7 +947,34 @@ body {
     align-items: stretch;
     gap: 8px;
     margin-bottom: 6px;
-    padding: 0 4px;
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background 0.15s;
+}
+
+.section-header:hover {
+    background: rgba(0, 0, 0, 0.03);
+}
+
+.section-header-content {
+    flex: 1;
+    min-width: 0;
+}
+
+.section-chevron {
+    flex-shrink: 0;
+    align-self: center;
+    color: var(--color-text-muted);
+    transition: transform 0.2s ease;
+}
+
+.incident-section.collapsed .section-chevron {
+    transform: rotate(-90deg);
+}
+
+.incident-section.collapsed .incident-table {
+    display: none;
 }
 
 .section-marker {
