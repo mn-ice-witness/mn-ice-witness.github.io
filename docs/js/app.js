@@ -464,13 +464,13 @@ const App = {
             sectionEl.id = section.type;
             sectionEl.className = 'incident-section';
             sectionEl.innerHTML = `
-                <header class="section-header" role="button" tabindex="0" aria-expanded="true">
+                <header class="section-header" aria-expanded="true">
                     <div class="section-marker marker-${section.type}"></div>
                     <div class="section-header-content">
                         <h2 class="section-title">${section.title} <span class="section-count">(${sectionIncidents.length})</span></h2>
                         <p class="section-desc">${section.desc}</p>
                     </div>
-                    <svg class="section-chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <svg class="section-chevron" role="button" tabindex="0" aria-label="Toggle section" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                         <polyline points="6 9 12 15 18 9"></polyline>
                     </svg>
                 </header>
@@ -589,18 +589,19 @@ const App = {
     },
 
     /**
-     * Setup collapse/expand handlers for section headers
+     * Setup collapse/expand handlers for section chevrons
      */
     setupSectionCollapseHandlers(container) {
-        container.querySelectorAll('.section-header').forEach(header => {
+        container.querySelectorAll('.section-chevron').forEach(chevron => {
             const toggleCollapse = () => {
-                const section = header.closest('.incident-section');
+                const section = chevron.closest('.incident-section');
+                const header = section.querySelector('.section-header');
                 const isCollapsed = section.classList.toggle('collapsed');
                 header.setAttribute('aria-expanded', !isCollapsed);
             };
 
-            header.addEventListener('click', toggleCollapse);
-            header.addEventListener('keydown', (e) => {
+            chevron.addEventListener('click', toggleCollapse);
+            chevron.addEventListener('keydown', (e) => {
                 if (e.key === 'Enter' || e.key === ' ') {
                     e.preventDefault();
                     toggleCollapse();

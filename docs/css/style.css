@@ -947,14 +947,7 @@ body {
     align-items: stretch;
     gap: 8px;
     margin-bottom: 6px;
-    padding: 4px;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background 0.15s;
-}
-
-.section-header:hover {
-    background: rgba(0, 0, 0, 0.03);
+    padding: 0 4px;
 }
 
 .section-header-content {
@@ -965,8 +958,17 @@ body {
 .section-chevron {
     flex-shrink: 0;
     align-self: center;
-    color: var(--color-text-muted);
-    transition: transform 0.2s ease;
+    color: var(--color-border);
+    opacity: 0.6;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 4px;
+    transition: transform 0.2s ease, opacity 0.15s, background 0.15s;
+}
+
+.section-chevron:hover {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.05);
 }
 
 .incident-section.collapsed .section-chevron {
