@@ -9,6 +9,7 @@ affected_individual_citizenship: us-citizen
 injuries: fatal
 trustworthiness: high
 created: 2026-01-27T11:27:42
+last_updated: 2026-01-27T11:32:34
 ---
 
 # Bovino Tells CNN Agents Are "The Victims" in Pretti Shooting; Says Second Amendment Rights "Don't Count"
