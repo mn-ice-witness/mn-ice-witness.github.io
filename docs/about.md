@@ -30,7 +30,7 @@ This site compiles sourced, verified incidents from Minnesota during Operation M
 
 Incidents are organized into five categories:
 
-- **Citizens / Legal Residents** — U.S. citizens, green card holders, work visa holders, and authorized refugees detained while going about daily life (working, driving, shopping). The key factor is having approved legal status.
+- **Citizens / Legal Residents** — U.S. citizens, green card holders, work visa holders, and authorized refugees detained while going about daily life (working, driving, shopping) — anyone with approved legal status
 - **Observers** — People detained while filming, observing, following, or protesting ICE enforcement operations
 - **Immigrants** — People without approved legal status, including undocumented immigrants and asylum-seekers with pending cases
 - **Schools/Hospitals** — Actions at or near schools, hospitals, and healthcare institutions
