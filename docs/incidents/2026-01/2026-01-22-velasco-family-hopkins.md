@@ -8,7 +8,6 @@ status: resolved
 affected_individual_citizenship: asylum-seeker
 injuries: none
 trustworthiness: high
-media: 2026-01-22-velasco-family-hopkins.png
 created: 2026-01-26T21:16:54
 last_updated: 2026-01-26T21:16:54
 ---

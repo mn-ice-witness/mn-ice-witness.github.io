@@ -59,19 +59,9 @@ For screenshots/images, use `--type png`:
 python-main bin/run-media-pipeline.py INCIDENT_ID
 ```
 
-This compresses the video and generates an OG image for social sharing.
+This compresses the video/image and generates an OG image for social sharing. The summary generator automatically detects media by matching filenames to incident slugs — no need to update the incident file.
 
-### Step 4: Update Incident File
-
-Add the `media` field to the incident's frontmatter:
-
-```yaml
-media: 2026-01-24-nur-d-rapper-detained.mov
-```
-
-Note: Use the processed filename (without `.raw`).
-
-### Step 5: Verify
+### Step 4: Verify
 
 Check that:
 - `docs/media/` contains the processed file
