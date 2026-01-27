@@ -30,28 +30,11 @@ This site compiles sourced, verified incidents from Minnesota during Operation M
 
 Incidents are organized into five categories:
 
-- **Citizens / Legal Residents** — People with legal status detained while going about daily life (working, driving, shopping)
+- **Citizens / Legal Residents** — U.S. citizens, green card holders, work visa holders, and authorized refugees detained while going about daily life (working, driving, shopping). The key factor is having approved legal status.
 - **Observers** — People detained while filming, observing, following, or protesting ICE enforcement operations
-- **Immigrants** — People without legal status detained, including workplace raids and asylum-seekers with pending cases
+- **Immigrants** — People without approved legal status, including undocumented immigrants and asylum-seekers with pending cases
 - **Schools/Hospitals** — Actions at or near schools, hospitals, and healthcare institutions
 - **Response** — Official DHS/ICE statements about specific incidents
-
-#### Citizens / Legal Residents vs. Immigrants: The Key Distinction
-
-The distinction between these two categories is **legal status**, not citizenship:
-
-| Citizens / Legal Residents | Immigrants |
-|---------------------------|------------|
-| **Has approved legal status** | **Does not have approved legal status** |
-| U.S. citizens (born or naturalized) | Undocumented immigrants |
-| Green card holders | Asylum-seekers with pending cases |
-| Valid work visa holders | People with removal/deportation orders |
-| Authorized refugees | Overstayed visas |
-| TPS holders with work authorization | Pending applications without current authorization |
-
-**Why this matters:** The "Citizens / Legal Residents" category documents people who have every legal right to be in the United States but were nonetheless detained, questioned, or had their rights violated. This includes not just U.S. citizens, but also green card holders, work visa holders, and authorized refugees — all of whom have legal status.
-
-The "Immigrants" category documents people who do not currently have approved legal status. This includes asylum-seekers whose cases are still pending — even if they entered legally and filed proper paperwork, they do not yet have approved status. Many of these individuals have lived in Minnesota for years, raised families, paid taxes, and followed the rules while waiting for their cases to be processed.
 
 *Note: "Citizens / Legal Residents" and "Observers" may both involve U.S. citizens. The distinction is whether they were targeted in racially-profiled enforcement operations (Citizens) or detained while filming or protesting (Observers).*
 
