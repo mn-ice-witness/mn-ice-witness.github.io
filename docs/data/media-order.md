@@ -23,6 +23,7 @@ ahmed-hassan-uber-driver
 mubashir-wrongful-detention
 jose-ramirez-native-american
 owatonna-15-year-old-pepper-sprayed
+emmanuel-sackie-brooklyn-park
 amundson-zemien-seizure-first-responders
 william-vermie-veteran-detained
 eden-prairie-13-year-old
@@ -37,7 +38,6 @@ circle-pines-restaurant-worker
 ryan-ecklund-filming-detained
 renee-good-shooting
 trump-mistakes-happen
-emmanuel-sackie-brooklyn-park
 jesse-ventura-roosevelt
 jana-shortal-journalist-pepper-sprayed
 bovino-cbs-interview
