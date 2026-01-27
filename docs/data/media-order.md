@@ -3,10 +3,6 @@
 
 
 
-
-
-
-
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -79,3 +75,4 @@ francis-burger-joint-manager
 nadya-moldovan-refugee
 sullivan-elementary-ice-food-flyers
 velasco-family-hopkins
+owatonna-15-year-old-pepper-sprayed
