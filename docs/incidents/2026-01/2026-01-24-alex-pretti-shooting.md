@@ -43,14 +43,14 @@ Federal agents fatally shot Alex Jeffrey Pretti, a 37-year-old U.S. citizen, lic
 15. Bluesky Video (Jan 24, 2026): [@joshuaeakle.com video analysis](https://bsky.app/profile/joshuaeakle.com/post/3md76ihzrg22y)
 16. Fox News (Jan 24, 2026): [Judge blocks Trump admin from destroying evidence](https://www.foxnews.com/politics/judge-blocks-trump-admin-destroying-altering-evidence-deadly-minneapolis-shooting)
 17. The Hill (Jan 24, 2026): [Judge orders DHS to preserve evidence](https://thehill.com/regulation/court-battles/5705220-judge-blocks-destroying-altering-evidence-minneapolis-shooting/)
-18. CNN (Jan 25, 2026): [Video analysis sheds new light on killing](https://www.cnn.com/2026/01/25/us/video/minneapolis-ice-shooting-alex-pretti-visual-analysis-digvid) - **VIDEO**
+18. CNN (Jan 25, 2026): [Video analysis sheds new light on killing](https://www.cnn.com/2026/01/25/us/video/minneapolis-ice-shooting-alex-pretti-visual-analysis-digvid)
 19. Al Jazeera (Jan 25, 2026): [Who was Alex Pretti?](https://www.aljazeera.com/news/2026/1/25/who-was-alex-pretti-the-nurse-shot-dead-by-federal-agents-in-minneapolis)
 20. NPR (Jan 25, 2026): [5 things to know about the latest Minneapolis shooting](https://www.npr.org/2026/01/25/nx-s1-5687361/minneapolis-shooting-latest-alex-pretti)
 21. Wikipedia: [Killing of Alex Pretti](https://en.wikipedia.org/wiki/Killing_of_Alex_Pretti)
 22. KARE 11 (Jan 26, 2026): [BCA blocked from scene despite warrant](https://www.kare11.com/article/news/local/ice-in-minnesota/bca-blocked-from-scene-where-federal-agents-fatally-shot-man-south-minneapolis/89-2d4bf800-d146-49ee-8eb8-4ff5e09f02c8)
 23. Fox 9 (Jan 26, 2026): [BCA says DHS blocked them from shooting scene](https://www.fox9.com/news/minneapolis-shooting-minnesota-bca-says-dhs-blocked-shooting-scene)
 24. KSTP (Jan 27, 2026): [Court filings: Witnesses say they didn't see Pretti with a gun](https://kstp.com/kstp-news/top-news/court-filings-witnesses-say-they-didnt-see-pretti-with-a-gun-give-more-details-of-deadly-ice-shooting/)
-25. Washington Post (Jan 25, 2026): [Videos show agent secured gun from Pretti before fatal shooting](https://www.washingtonpost.com/investigations/2026/01/25/minneapolis-shooting-video-gun/) - **VIDEO**
+25. Washington Post (Jan 25, 2026): [Videos show agent secured gun from Pretti before fatal shooting](https://www.washingtonpost.com/investigations/2026/01/25/minneapolis-shooting-video-gun/)
 26. Bring Me The News (Jan 27, 2026): [Lawsuit says federal agents let crime scene collapse](https://bringmethenews.com/minnesota-news/alex-pretti-minnesota-lawsuit-says-fed-agents-let-crime-scene-collapse-in-astonishing-behavior)
 
 ## Related Incidents

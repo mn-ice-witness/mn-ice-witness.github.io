@@ -22,7 +22,7 @@ A couple who have lived in Minnesota since 1999 were detained by ICE during a tr
 2. CBS Minnesota Video (Jan 19, 2026): [Sisters fighting to get parents back after ICE arrest](https://www.cbsnews.com/minnesota/video/sisters-fighting-to-get-parents-back-after-ice-arrest/)
 3. Fox 9 (Jan 9, 2026): [DHS launching 'Operation PARRIS' to target Minnesota refugees](https://www.fox9.com/news/minnesota-fraud-dhs-launching-operation-parris-target-refugees-jan-9) - Context on refugee targeting
 4. Twin Cities Pioneer Press (Jan 18, 2026): [5,600 Green Card applicants in Minnesota targeted through Operation PARRIS](https://www.twincities.com/2026/01/18/5600-green-card-applicants-in-minnesota-targeted-through-operation-parris/)
-5. Global Refuge (Jan 2026): [Global Refuge statement on refugee arrests in Minnesota](https://www.globalrefuge.org/news/refugee-arrests-minnesota/)
+5. Global Refuge (Jan 15, 2026): [Global Refuge statement on refugee arrests in Minnesota](https://www.globalrefuge.org/news/refugee-arrests-minnesota/)
 
 ## Affected Individual(s)
 

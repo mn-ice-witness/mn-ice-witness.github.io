@@ -19,8 +19,8 @@ Ramon Menera, a U.S. citizen, was detained by Border Patrol agents outside his h
 
 ## Sources
 1. CNN Video (Jan 17, 2026): [Border Patrol agent questions if man is US citizen 'because of your accent'](https://www.cnn.com/2026/01/17/us/video/border-patrol-detain-citizen-accent-vrtc)
-2. Threads Video (Jan 2026): [Video of Ramon Menera detention](https://www.threads.com/@cnn/post/DTn1FDrCmbM/)
-3. TikTok Video (Jan 2026): [Video coverage](https://www.tiktok.com/@cnn/video/7596362207516953911)
+2. Threads Video (Jan 15, 2026): [Video of Ramon Menera detention](https://www.threads.com/@cnn/post/DTn1FDrCmbM/)
+3. TikTok Video (Jan 15, 2026): [Video coverage](https://www.tiktok.com/@cnn/video/7596362207516953911)
 
 ## Affected Individual(s)
 - **Name:** Ramon Menera

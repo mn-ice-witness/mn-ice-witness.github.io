@@ -19,8 +19,8 @@ A 15-year-old girl was pepper sprayed by an ICE agent while observing an immigra
 
 ## Sources
 1. Southern Minnesota News / Owatonna People's Press (Jan 16, 2026): [Witnesses accuse ICE of pepper spraying a minor](https://www.southernminn.com/owatonna_peoples_press/news/witnesses-accuse-ice-of-pepper-spraying-a-minor-as-videos-emerge-of-raids-in-owatonna/article_333509da-58bf-415c-b2f5-ab64cdbb21de.html)
-2. Facebook (Jan 2026): [Eyewitness video](https://www.facebook.com/share/v/1G5B62T9kv/) - **VIDEO**
-3. Facebook (Jan 2026): [Additional eyewitness video](https://www.facebook.com/reel/2421022668354360) - **VIDEO**
+2. Facebook (Jan 15, 2026): [Eyewitness video](https://www.facebook.com/share/v/1G5B62T9kv/)
+3. Facebook (Jan 15, 2026): [Additional eyewitness video](https://www.facebook.com/reel/2421022668354360)
 
 ## Affected Individual(s)
 - **Name:** Not identified

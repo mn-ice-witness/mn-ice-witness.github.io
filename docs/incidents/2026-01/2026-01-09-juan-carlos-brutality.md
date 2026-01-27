@@ -32,7 +32,7 @@ A Border Patrol agent kneed a man in the face at least five times while other ag
 7. Yahoo News (Jan 10, 2026): [U.S. Border Patrol agent knees man in face](https://www.yahoo.com/news/articles/u-border-patrol-knees-man-231145132.html)
 8. Snopes Fact Check (Jan 16, 2026): [Investigation into the images of Juan Carlos](https://www.snopes.com/news/2026/01/16/juan-carlos-ice-images/)
 9. TMZ (Jan 16, 2026): [CBP officer knee man in face Minneapolis](https://www.tmz.com/2026/01/16/cbp-officer-knee-man-in-face-minneapolis/)
-10. News From The States (Jan 2026): [US Border Patrol agent knees man in face in Minneapolis](https://www.newsfromthestates.com/article/us-border-patrol-agent-knees-man-face-minneapolis-other-agents-hold-him-down)
+10. News From The States (Jan 15, 2026): [US Border Patrol agent knees man in face in Minneapolis](https://www.newsfromthestates.com/article/us-border-patrol-agent-knees-man-face-minneapolis-other-agents-hold-him-down)
 11. CNN Video (Jan 18, 2026): [Video appears to show DHS agent kneeing person in face](https://www.cnn.com/2026/01/18/world/video/man-kneed-by-ice-sandoval-rdr-011812aseg1-cnni-us-fast)
 12. WALB/Gray TV (Jan 18, 2026): [ICE officer seen kneeing detained man in the head](https://www.walb.com/2026/01/18/ice-officer-seen-kneeing-detained-man-head/)
 

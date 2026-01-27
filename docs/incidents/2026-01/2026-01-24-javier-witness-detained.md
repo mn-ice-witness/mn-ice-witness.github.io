@@ -19,7 +19,7 @@ A Minneapolis man using the pseudonym "Javier" for safety reasons was among doze
 
 ## Sources
 1. CBS Minnesota (Jan 25, 2026): [Minneapolis man says he was detained for hours after witnessing Alex Pretti shooting](https://www.cbsnews.com/minnesota/news/minneapolis-alex-pretti-shooting-witness-arrested/)
-2. CBS Minnesota Video (Jan 25, 2026): [Alex Pretti shooting witness describes being detained by federal agents](https://www.cbsnews.com/minnesota/video/alex-pretti-shooting-witness-describes-being-detained-by-federal-agents/) - **VIDEO**
+2. CBS Minnesota Video (Jan 25, 2026): [Alex Pretti shooting witness describes being detained by federal agents](https://www.cbsnews.com/minnesota/video/alex-pretti-shooting-witness-describes-being-detained-by-federal-agents/)
 
 ## Related Incidents
 

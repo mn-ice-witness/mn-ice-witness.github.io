@@ -18,10 +18,10 @@ last_updated: 2026-01-18T00:00:00
 The kitchen manager at Francis Burger Joint's East Lake Street location in Minneapolis was tackled, punched repeatedly, and detained by federal agents on January 13 while acting as a legal observer during a nearby ICE operation. The manager, a white U.S. citizen, had his shoes knocked off during the violent arrest. He was detained despite having no connection to the enforcement action other than observing it.
 
 ## Sources
-1. Mpls.St.Paul Magazine (Jan 2026): [When ICE Targets Your Restaurant](https://mspmag.com/eat-and-drink/foodie/when-ice-targets-your-restaurant/)
+1. Mpls.St.Paul Magazine (Jan 15, 2026): [When ICE Targets Your Restaurant](https://mspmag.com/eat-and-drink/foodie/when-ice-targets-your-restaurant/)
 2. Yahoo News (Jan 7, 2026): [Twin Cities businesses close early after ICE agent kills woman in Minneapolis](https://www.yahoo.com/news/articles/twin-cities-businesses-close-early-233845670.html)
-3. [Instagram post](https://www.instagram.com/p/DTdqQFSksuR/) - Francis Burger Joint
-4. [Facebook post](https://www.facebook.com/share/p/1C8XtJe1Ec/) - Francis Burger Joint
+3. Francis Burger Joint (Jan 15, 2026): [Instagram post](https://www.instagram.com/p/DTdqQFSksuR/)
+4. Francis Burger Joint (Jan 15, 2026): [Facebook post](https://www.facebook.com/share/p/1C8XtJe1Ec/)
 
 ## Affected Individual(s)
 - **Name:** Not disclosed

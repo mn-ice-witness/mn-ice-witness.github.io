@@ -20,7 +20,7 @@ A 12th-grade student at Hiawatha Academies, a public charter school in Minneapol
 ## Sources
 1. KARE 11 (Jan 15, 2026): [Minneapolis student detained by federal officers at bus stop](https://www.kare11.com/article/news/local/ice-in-minnesota/minneapolis-student-detained-by-federal-officers-at-bus-stop/89-29352662-cb85-4249-b69b-2e85aaae7a8a)
 2. Bring Me The News (Jan 15, 2026): [List of major ICE raids, updates in Minnesota on Thursday, Jan. 15](https://bringmethenews.com/minnesota-news/list-of-major-ice-raids-updates-in-minnesota-on-thursday-jan-15)
-3. Bring Me The News (Jan 2026): [Rising anger over ICE raids near Minnesota schools](https://bringmethenews.com/minnesota-news/rising-anger-over-ice-raids-near-minnesota-schools)
+3. Bring Me The News (Jan 15, 2026): [Rising anger over ICE raids near Minnesota schools](https://bringmethenews.com/minnesota-news/rising-anger-over-ice-raids-near-minnesota-schools)
 
 ## Affected Individual(s)
 - **Grade:** 12th grade

@@ -24,8 +24,8 @@ Ryan Ecklund, a U.S. citizen and real estate agent, was detained by ICE for over
 4. Bring Me The News (Jan 14, 2026): [Twin Cities realtor, a US citizen, held by ICE for almost 10 hours](https://bringmethenews.com/minnesota-news/twin-cities-realtor-a-us-citizen-held-by-ice-for-almost-10-hours)
 5. KTVU (Jan 14, 2026): [ICE says it's illegal to record agents, but is DHS policy actually unlawful?](https://www.ktvu.com/news/ice-says-recording-agents-illegal-federal-judge-says-dhs-policy-unlawful-jan-2026)
 6. CBS Minnesota Video (Jan 14, 2026): [Minnesotan says ICE arrested him for recording agents](https://www.cbsnews.com/minnesota/video/minnesotan-says-ice-arrested-him-for-recording-agents/)
-7. CBS Minnesota (Jan 2026): [US citizens in Minnesota share their stories of ICE detainments, intimidation](https://www.cbsnews.com/minnesota/news/us-citizen-in-minnesota-detained-intimidated-by-ice-federal-agents-operation-metro-surge/)
-8. The Nerd Stash (Jan 2026): [Minnesota realtor gets detained and injured for recording ICE activity](https://thenerdstash.com/minnesota-realtor-gets-detained-and-injured-for-simply-recording-ice-activity-all-five-of-them-forcibly-removed-me-from-my-car/) - **VIDEO**
+7. CBS Minnesota (Jan 15, 2026): [US citizens in Minnesota share their stories of ICE detainments, intimidation](https://www.cbsnews.com/minnesota/news/us-citizen-in-minnesota-detained-intimidated-by-ice-federal-agents-operation-metro-surge/)
+8. The Nerd Stash (Jan 15, 2026): [Minnesota realtor gets detained and injured for recording ICE activity](https://thenerdstash.com/minnesota-realtor-gets-detained-and-injured-for-simply-recording-ice-activity-all-five-of-them-forcibly-removed-me-from-my-car/)
 
 ## Affected Individual(s)
 - **Name:** Ryan Ecklund

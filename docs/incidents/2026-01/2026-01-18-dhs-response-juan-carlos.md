@@ -20,7 +20,7 @@ When asked about video showing a Border Patrol agent kneeing a man in the face a
 ## Sources
 1. Snopes Fact Check (Jan 16, 2026): [What to know about images claiming to show man named Juan Carlos after ICE assault](https://www.snopes.com/news/2026/01/16/juan-carlos-ice-images/)
 2. CNN Video (Jan 18, 2026): [Video appears to show DHS agent knee detainee](https://www.cnn.com/2026/01/18/us/video/dhs-agents-department-of-homeland-security-knee-a-man-in-face-minneapolis-minnesota-digvid)
-3. Yahoo News (Jan 2026): [Border Patrol agent knees man in face](https://www.yahoo.com/news/articles/u-border-patrol-knees-man-231145132.html)
+3. Yahoo News (Jan 15, 2026): [Border Patrol agent knees man in face](https://www.yahoo.com/news/articles/u-border-patrol-knees-man-231145132.html)
 4. Facebook Video (Jan 10, 2026): [Ismael Cordová-Clough original post with photos](https://www.facebook.com/ismael.cordovaclough)
 5. Threads (Jan 10, 2026): [Viral post with "legal resident" claim](https://www.threads.com/@hereswhykevin/post/DTWJwHNiYw8)
 

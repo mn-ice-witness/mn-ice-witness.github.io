@@ -26,7 +26,7 @@ At a Speedway gas station, federal agents smashed a man's car window to arrest h
 6. Twin Cities (Jan 12, 2026): [St. Paul ICE activity](https://www.twincities.com/2026/01/12/st-paul-ice-activity/)
 7. CNN Video (Jan 13, 2026): [Tackle from different angle](https://www.cnn.com/2026/01/13/us/video/border-patrol-agents-tackle-anti-ice-protester-digvid)
 8. Mediaite Video (Jan 13, 2026): [Fox News airs footage](https://www.mediaite.com/media/tv/fox-news-airs-footage-of-man-mauled-by-feds-at-gas-station-as-graphic-says-ice-agents-are-doing-their-jobs/)
-9. Facebook Reel (Jan 2026): [Speedway arrest footage](https://www.facebook.com/reel/2019008555624601)
+9. Facebook Reel (Jan 15, 2026): [Speedway arrest footage](https://www.facebook.com/reel/2019008555624601)
 
 ## Affected Individual(s)
 

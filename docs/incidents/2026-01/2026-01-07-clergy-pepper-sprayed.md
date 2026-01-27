@@ -24,9 +24,9 @@ At least two pastors were shoved, shot at with pepper rounds, and exposed to pep
 4. The Christian Century (Jan 8, 2026): [Minneapolis clergy exposed to pepper spray](https://www.christiancentury.org/news/minneapolis-clergy-exposed-pepper-spray-after-rushing-scene-deadly-ice-shooting)
 5. Word & Way (Jan 8, 2026): [Minneapolis Clergy Exposed to Pepper-Spray](https://wordandway.org/2026/01/08/minneapolis-clergy-exposed-to-pepper-spray-after-rushing-to-scene-of-deadly-ice-shooting/)
 6. Sight Magazine Australia (Jan 8, 2026): [Minneapolis clergy exposed to pepper-spray](https://sightmagazine.com.au/news/minneapolis-clergy-exposed-to-pepper-spray-after-rushing-to-scene-of-deadly-ice-shooting/)
-7. Anabaptist World (Jan 2026): ['She could have been any of us' - Faith leaders mourn Renee Good](https://anabaptistworld.org/she-could-have-been-any-of-us-faith-leaders-mourn-renee-good-in-minneapolis/)
-8. Sojourners (Jan 2026): [Minneapolis Faith Leaders Amplify Demands for ICE to Repent](https://sojo.net/articles/news/minneapolis-faith-leaders-amplify-demands-ice-repent)
-9. UU World Magazine (Jan 2026): [Unitarian Universalists in Minneapolis Protest ICE Killing](https://www.uuworld.org/articles/renee-nicole-good-minneapolis-mutual-aid-unitarian-universalism)
+7. Anabaptist World (Jan 15, 2026): ['She could have been any of us' - Faith leaders mourn Renee Good](https://anabaptistworld.org/she-could-have-been-any-of-us-faith-leaders-mourn-renee-good-in-minneapolis/)
+8. Sojourners (Jan 15, 2026): [Minneapolis Faith Leaders Amplify Demands for ICE to Repent](https://sojo.net/articles/news/minneapolis-faith-leaders-amplify-demands-ice-repent)
+9. UU World Magazine (Jan 15, 2026): [Unitarian Universalists in Minneapolis Protest ICE Killing](https://www.uuworld.org/articles/renee-nicole-good-minneapolis-mutual-aid-unitarian-universalism)
 10. Facebook Video (Jan 7, 2026): [Full livestream from scene](https://www.facebook.com/ashley.a.p.horan/videos/2047488219423690)
 11. Facebook Video (Jan 7, 2026): [Rev. Ashley Horan reel](https://www.facebook.com/reel/898902369494951)
 

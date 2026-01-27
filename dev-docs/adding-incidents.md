@@ -292,7 +292,11 @@ These are mistakes that LLMs frequently make when adding incidents. Read this se
 
 **Why?** "Victim" carries emotional weight and implies a judgment. "Affected individual" is neutral and factual — it describes someone involved in an incident without prejudging the situation. This aligns with our goal of documentary journalism that presents facts and lets readers draw their own conclusions.
 
-**Exception:** Direct quotes from sources (news articles, officials, witnesses) may contain "victim" — preserve the original language in quotes.
+**Exceptions where "victim" is acceptable:**
+- Direct quotes from sources (news articles, officials, witnesses) — preserve the original language
+- When discussing the terminology itself (e.g., "Bovino claimed agents were 'the victims'")
+- When referencing how others frame the situation (e.g., "officials blamed the victim")
+- In titles/headlines that quote official statements about victimhood
 
 #### Neutral Language Table
 

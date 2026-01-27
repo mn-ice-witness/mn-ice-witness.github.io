@@ -23,7 +23,7 @@ Alberto Castaneda Mondragon, who entered the U.S. legally on a temporary worker 
 ## Sources
 1. MPR News (Jan 22, 2026): [Man with severe head wounds in ICE custody after being detained in St. Paul](https://www.mprnews.org/story/2026/01/22/man-with-severe-head-wounds-in-ice-custody-after-being-detained-in-st-paul)
 2. MPR News (Jan 22, 2026): [Man injured in ICE custody "purposely ran head first into a brick wall," agents say](https://www.mprnews.org/story/2026/01/22/man-injured-in-ice-custody-purposely-ran-head-first-into-a-brick-wall-agents-say)
-3. Sahan Journal (Jan 2026): [ICE detainee hospitalized with head injury, lawsuit filed](https://sahanjournal.com/health/ice-detainee-hospitalized-head-injury-lawsuit/)
+3. Sahan Journal (Jan 15, 2026): [ICE detainee hospitalized with head injury, lawsuit filed](https://sahanjournal.com/health/ice-detainee-hospitalized-head-injury-lawsuit/)
 4. Yahoo News / AP (Jan 24-25, 2026): [Judge orders immediate release of Minnesota ICE detainee](https://www.yahoo.com/news/articles/judge-orders-immediate-release-minnesota-014048216.html)
 
 ## Affected Individual(s)

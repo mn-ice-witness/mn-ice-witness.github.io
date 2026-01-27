@@ -27,14 +27,14 @@ Four ICE agents ate lunch at El Tapatio, a family-owned Mexican restaurant in Wi
 7. Salon (Jan 16, 2026): [Dine and detain: A new ICE arrest tactic](https://www.salon.com/2026/01/16/dine-and-detain-a-new-ice-arrest-tactic/)
 8. Daily Beast (Jan 16, 2026): [ICE Agents Detain Mexican Migrant Workers Who Had Just Served Them Lunch](https://www.thedailybeast.com/ice-dhs-department-of-homeland-security-cretins-detain-mexican-migrant-workers-who-had-just-served-them-lunch/)
 9. HuffPost (Jan 16, 2026): [Workers At Family-Run Mexican Restaurant Were Arrested After Serving A Meal To ICE Agents](https://www.huffpost.com/entry/ice-agents-restaurant_n_6969e117e4b018dc941d3eea)
-10. IBTimes UK (Jan 2026): [Minnesota restaurant workers fed ICE agents then got arrested by them](https://www.ibtimes.co.uk/minnesota-restaurant-workers-fed-ice-agents-then-got-arrested-them-same-night-1771457)
-11. IBTimes US (Jan 2026): [Minnesota restaurant workers fed ICE agents then got arrested](https://www.ibtimes.com/minnesota-restaurant-workers-fed-ice-agents-then-got-arrested-them-same-night-3795497)
-12. Complex (Jan 2026): [Minnesota restaurant workers ICE detained](https://www.complex.com/life/a/markelibert/minnesota-restaurant-workers-ice-detained)
-13. Daily Kos (Jan 2026): [ICE reconned the Willmar Minnesota Mexican restaurant, ate, then returned to arrest workers](https://www.dailykos.com/stories/2026/1/16/2363839/-ICE-reconned-the-Wilmar-Minnesota-Mexican-restaurant-ate-then-returned-to-arrest-workers)
-14. Crooks and Liars (Jan 2026): [ICE agents eat Mexican restaurant then return](https://crooksandliars.com/2026/01/ice-agents-eat-mexican-restaurant-then)
-15. Mediaite (Jan 2026): [ICE agents arrest workers from Mexican restaurant where they just ate](https://www.mediaite.com/media/news/ice-agents-arrest-workers-from-mexican-restaurant-where-they-just-ate/)
-16. DNYUZ (Jan 2026): [ICE agents detain workers who had just served them lunch](https://dnyuz.com/2026/01/16/ice-agents-detain-workers-who-had-just-served-them-lunch/)
-17. [GoFundMe: Liborio Parral & Bonfilia Sanchez](https://www.gofundme.com/f/LiborioParralBonfiliaSanchez) - Family fundraiser confirming owner identities
+10. IBTimes UK (Jan 15, 2026): [Minnesota restaurant workers fed ICE agents then got arrested by them](https://www.ibtimes.co.uk/minnesota-restaurant-workers-fed-ice-agents-then-got-arrested-them-same-night-1771457)
+11. IBTimes US (Jan 15, 2026): [Minnesota restaurant workers fed ICE agents then got arrested](https://www.ibtimes.com/minnesota-restaurant-workers-fed-ice-agents-then-got-arrested-them-same-night-3795497)
+12. Complex (Jan 15, 2026): [Minnesota restaurant workers ICE detained](https://www.complex.com/life/a/markelibert/minnesota-restaurant-workers-ice-detained)
+13. Daily Kos (Jan 15, 2026): [ICE reconned the Willmar Minnesota Mexican restaurant, ate, then returned to arrest workers](https://www.dailykos.com/stories/2026/1/16/2363839/-ICE-reconned-the-Wilmar-Minnesota-Mexican-restaurant-ate-then-returned-to-arrest-workers)
+14. Crooks and Liars (Jan 15, 2026): [ICE agents eat Mexican restaurant then return](https://crooksandliars.com/2026/01/ice-agents-eat-mexican-restaurant-then)
+15. Mediaite (Jan 15, 2026): [ICE agents arrest workers from Mexican restaurant where they just ate](https://www.mediaite.com/media/news/ice-agents-arrest-workers-from-mexican-restaurant-where-they-just-ate/)
+16. DNYUZ (Jan 15, 2026): [ICE agents detain workers who had just served them lunch](https://dnyuz.com/2026/01/16/ice-agents-detain-workers-who-had-just-served-them-lunch/)
+17. Family fundraiser confirming owner identities (Jan 15, 2026): [GoFundMe: Liborio Parral & Bonfilia Sanchez](https://www.gofundme.com/f/LiborioParralBonfiliaSanchez)
 
 ## Affected Individual(s)
 - **Name:** Liborio Parral Ortiz and Bonfilia Sanchez Dominguez (owners); third person (dishwasher) not identified

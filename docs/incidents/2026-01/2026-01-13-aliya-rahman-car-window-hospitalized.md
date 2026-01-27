@@ -21,7 +21,7 @@ last_updated: 2026-01-20T15:16:31
 Aliya Rahman, a 43-year-old U.S. citizen and software engineer, was dragged from her car by ICE agents after they smashed her window. She was driving to an appointment at the Traumatic Brain Injury Center when agents blocked her path. After being taken into custody, Rahman repeatedly requested medical attention but was denied. She lost consciousness in her cell and was finally taken to a hospital, where she was treated for injuries consistent with assault. The video went viral with millions of views.
 
 ## Sources
-1. TikTok Video (Jan 2026): [Disabled woman pulled from car](https://www.tiktok.com/@hubbandtheheavyhearts/video/7595071988637519134)
+1. TikTok Video (Jan 15, 2026): [Disabled woman pulled from car](https://www.tiktok.com/@hubbandtheheavyhearts/video/7595071988637519134)
 2. CNN Video (Jan 20, 2026): [Rahman's first on-camera interview after the assault](https://www.cnn.com/2026/01/20/us/video/woman-dragged-from-car-by-ice-ldn-digvid-vrtc)
 3. Reuters Photo (Jan 13, 2026): [Reuters photo by Tim Evans](https://archive.ph/helw8/image)
 4. Sahan Journal Video (Jan 13, 2026): [Sahan Journal footage](https://sahanjournal.com/public-safety/minneapolis-ice-confront-observers-door-knocking-powderhorn/)
@@ -35,18 +35,18 @@ Aliya Rahman, a 43-year-old U.S. citizen and software engineer, was dragged from
 12. Raw Story (Jan 13, 2026): ['I'm disabled!' Woman screams as masked ICE agents pull her through car window](https://www.rawstory.com/ice-disabled-woman/)
 13. New Republic (Jan 13, 2026): [ICE Violently Arrests Woman Trying to Pass Them to Get to the Doctor](https://newrepublic.com/post/205252/ice-arrests-minneapolis-woman-car-doctor)
 14. Sahan Journal (Jan 13, 2026): [Crowd confronts immigration agents door-knocking in south Minneapolis](https://sahanjournal.com/public-safety/minneapolis-ice-confront-observers-door-knocking-powderhorn/)
-15. X - Eric Michael Garcia (Jan 2026): [Tweet identifying Rahman as autistic](https://x.com/EricMGarcia/status/2011907383690224015)
-16. ABC7 Los Angeles (Jan 2026): [Woman seen pulled from car speaks out: 'Lucky to be alive'](https://abc7.com/live-updates/minneapolis-ice-shooting-live-updates/18410867/entry/18415918/)
-17. Border Report (Jan 2026): [Immigration agents filmed dragging citizen from her car](https://www.borderreport.com/hot-topics/border-crime/immigration-agents-filmed-dragging-citizen-from-her-car-in-minneapolis/)
-18. The Daily Star Bangladesh (Jan 2026): [Bangladeshi origin woman pulled from car by ICE agents](https://www.thedailystar.net/historical/news/news/bangladeshi-origin-woman-pulled-car-ice-agents-minneapolis-says-new-york-post-4081596)
-19. NewsNation (Jan 2026): [Disabled woman dragged from car by ICE speaks out](https://www.newsnationnow.com/us-news/immigration/border-coverage/disabled-woman-dragged-from-car-by-ice-speaks-out/)
-20. Instagram Reel (Jan 2026): [ICE's arrest of Aliya Rahman](https://www.instagram.com/reel/DTlpr7-kR9K/)
-21. Instagram Reel (Jan 2026): [Video coverage of incident](https://www.instagram.com/reel/DTiIM3EjLXR/)
-22. Instagram Reel (Jan 2026): [ICE agents forcibly pulled US-born...](https://www.instagram.com/reel/DThmDpuj7b7/)
-23. CBS News / 60 Minutes (Jan 2026): [Minneapolis police chief responds to ICE enforcement](https://www.cbsnews.com/news/minneapolis-police-chief-responds-to-ice-enforcement-60-minutes/)
+15. X - Eric Michael Garcia (Jan 15, 2026): [Tweet identifying Rahman as autistic](https://x.com/EricMGarcia/status/2011907383690224015)
+16. ABC7 Los Angeles (Jan 15, 2026): [Woman seen pulled from car speaks out: 'Lucky to be alive'](https://abc7.com/live-updates/minneapolis-ice-shooting-live-updates/18410867/entry/18415918/)
+17. Border Report (Jan 15, 2026): [Immigration agents filmed dragging citizen from her car](https://www.borderreport.com/hot-topics/border-crime/immigration-agents-filmed-dragging-citizen-from-her-car-in-minneapolis/)
+18. The Daily Star Bangladesh (Jan 15, 2026): [Bangladeshi origin woman pulled from car by ICE agents](https://www.thedailystar.net/historical/news/news/bangladeshi-origin-woman-pulled-car-ice-agents-minneapolis-says-new-york-post-4081596)
+19. NewsNation (Jan 15, 2026): [Disabled woman dragged from car by ICE speaks out](https://www.newsnationnow.com/us-news/immigration/border-coverage/disabled-woman-dragged-from-car-by-ice-speaks-out/)
+20. Instagram Reel (Jan 15, 2026): [ICE's arrest of Aliya Rahman](https://www.instagram.com/reel/DTlpr7-kR9K/)
+21. Instagram Reel (Jan 15, 2026): [Video coverage of incident](https://www.instagram.com/reel/DTiIM3EjLXR/)
+22. Instagram Reel (Jan 15, 2026): [ICE agents forcibly pulled US-born...](https://www.instagram.com/reel/DThmDpuj7b7/)
+23. CBS News / 60 Minutes (Jan 15, 2026): [Minneapolis police chief responds to ICE enforcement](https://www.cbsnews.com/news/minneapolis-police-chief-responds-to-ice-enforcement-60-minutes/)
 24. Salon (Jan 17, 2026): ["I thought I was going to die": US citizen forced from her car by ICE](https://www.salon.com/2026/01/17/i-thought-i-was-going-to-die-us-citizen-forced-from-her-car-by-ice/)
 25. KSAT San Antonio (Jan 16, 2026): [Federal immigration agents filmed dragging a woman from her car](https://www.ksat.com/news/national/2026/01/16/federal-immigration-agents-filmed-dragging-a-woman-from-her-car-in-minneapolis/)
-26. Facebook Video (Jan 2026): [Video coverage](https://www.facebook.com/reel/1298284502358086/)
+26. Facebook Video (Jan 15, 2026): [Video coverage](https://www.facebook.com/reel/1298284502358086/)
 
 ## Affected Individual(s)
 - **Name:** Aliya Rahman
