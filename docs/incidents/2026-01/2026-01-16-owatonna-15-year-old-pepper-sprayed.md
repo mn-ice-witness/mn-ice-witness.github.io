@@ -18,7 +18,7 @@ last_updated: 2026-01-26T15:10:02
 A 15-year-old girl was pepper sprayed by an ICE agent while observing an immigration enforcement operation at Skyline Gardens, a manufactured home community in Owatonna. Video shows the girl seated on the pavement, coughing, with orange blotches on her face consistent with pepper spray. Witnesses can be heard yelling "Why would you pepper spray a 15-year-old kid?" The girl had approached the scene with her mother to observe the operation. When asked if the incident report would document the pepper spray use on a minor, an agent replied: "We're not going to get into the details now."
 
 ## Sources
-1. Southern Minnesota News / Owatonna People's Press (Jan 16, 2026): [Witnesses accuse ICE of pepper spraying a minor as videos emerge of raids in Owatonna](https://www.southernminn.com/owatonna_peoples_press/news/witnesses-accuse-ice-of-pepper-spraying-a-minor-as-videos-emerge-of-raids-in-owatonna/article_333509da-58bf-415c-b2f5-ab64cdbb21de.html)
+1. Southern Minnesota News / Owatonna People's Press (Jan 16, 2026): [Witnesses accuse ICE of pepper spraying a minor](https://www.southernminn.com/owatonna_peoples_press/news/witnesses-accuse-ice-of-pepper-spraying-a-minor-as-videos-emerge-of-raids-in-owatonna/article_333509da-58bf-415c-b2f5-ab64cdbb21de.html)
 2. Facebook (Jan 2026): [Eyewitness video](https://www.facebook.com/share/v/1G5B62T9kv/) - **VIDEO**
 3. Facebook (Jan 2026): [Additional eyewitness video](https://www.facebook.com/reel/2421022668354360) - **VIDEO**
 
