@@ -18,6 +18,13 @@ Stories are excluded when they don't meet the project's core focus:
 
 ### January 2026
 
+**Rep. Ilhan Omar Attacked at Town Hall (Jan 27)**
+- Sources: [NBC News](https://www.nbcnews.com/politics/congress/man-lunges-ilhan-omar-town-hall-try-spray-unknown-substance-rcna256247), [NPR](https://www.npr.org/2026/01/27/g-s1-107625/rep-ilhan-omar-sprayed-town-hall), [Washington Post](https://www.washingtonpost.com/politics/2026/01/27/ilhan-omar-town-hall-attack/)
+- Date: January 27, 2026
+- Details: Anthony James Kazmierczak, 55, rushed the stage at Rep. Omar's ICE-focused town hall in Minneapolis and sprayed her with an unknown liquid from a syringe while shouting "you must resign." He was tackled by security and arrested on suspicion of third-degree assault. Omar was unharmed and continued her remarks.
+- Reason: **Not ICE enforcement** - assault on congresswoman by private citizen during ICE-related event. While it occurred during a town hall about ICE, this is not an ICE enforcement action or civil rights violation by federal agents.
+- Date evaluated: 2026-01-28
+
 **Maple Grove SpringHill Suites Protest Arrests (Jan 26-27)**
 - Sources: [MPR News](https://www.mprnews.org/story/2026/01/27/several-arrested-after-antiice-protest-outside-maple-grove-hotel), [FOX 9](https://www.fox9.com/news/maple-grove-hotel-protests-arrest-charges-jan-27-2026), [KARE 11](https://www.kare11.com/article/news/local/ice-in-minnesota/multiple-people-arrested-for-protesting-outside-bovinos-maple-grove-hotel/89-f3ec1462-271f-4bb4-8371-f4b070aecfd3)
 - Date: January 26-27, 2026
