@@ -18,6 +18,14 @@ Stories are excluded when they don't meet the project's core focus:
 
 ### January 2026
 
+**Ecuadorian Consulate Attempted Entry (Jan 27)**
+- Sources: [MPR News](https://www.mprnews.org/story/2026/01/27/ice-agent-rebuffed-after-attempting-to-enter-ecuadorian-consulate-in-minneapolis), [KARE 11/AP](https://www.kare11.com/article/syndication/associatedpress/federal-immigration-officers-tried-to-enter-ecuadorian-consulate-in-minneapolis-but-were-stopped-foreign-minister-says/616-7a870633-d4a2-4388-a84d-3dd05208e49b)
+- Date: January 27, 2026
+- Details: ICE agents attempted to enter the Ecuadorian Consulate in Minneapolis without permission. A staffer blocked entry saying "This is the Ecuadorian consulate. You're not allowed to enter." ICE officer threatened to "grab" the staffer. Ecuador filed diplomatic protest with U.S. Embassy citing Vienna Convention violation.
+- Reason: **Does not fit categories** - no specific affected individual detained or targeted. Story is about diplomatic/international law violation, not a civil rights incident against a person. No information on who ICE was pursuing.
+- Note: Hidden incident file exists at `docs/incidents/2026-01/_2026-01-27-ecuadorian-consulate-attempted-entry.md` - may revisit if we learn who was targeted or decide to expand categories.
+- Date evaluated: 2026-01-28
+
 **La Perlita Market Detention Columbia Heights (Jan 27)**
 - Sources: [Bring Me The News](https://bringmethenews.com/minnesota-news/list-of-ice-raids-major-updates-in-minnesota-on-tuesday-jan-27)
 - Date: January 27, 2026
