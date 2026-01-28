@@ -34,6 +34,18 @@ Keep it brief and factual:
 **UNVERIFIED** - [One sentence stating what we have and what's missing.]
 ```
 
+## Upgrading to Verified
+
+When an incident is upgraded from `trustworthiness: unverified` to `low`, `medium`, or `high`:
+
+1. **Update the trustworthiness field** in frontmatter
+2. **Remove the (UNVERIFIED) suffix** from the title
+3. **Remove the italic plea for information** at the top
+4. **Update the Editorial Assessment** to reflect the new rating
+5. **If the incident has local media**, manually add its slug to `docs/data/media-order.md`
+
+⚠️ **Important:** The `generate_summary.py` script excludes unverified incidents from media-order.md. When upgrading, you must **manually add the slug** to media-order.md or the video won't appear in the media gallery.
+
 ## What NOT to Include
 
 - Speculation like "this could represent (1)... (2)... (3)..."
