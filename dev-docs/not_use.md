@@ -18,6 +18,13 @@ Stories are excluded when they don't meet the project's core focus:
 
 ### January 2026
 
+**La Perlita Market Detention Columbia Heights (Jan 27)**
+- Sources: [Bring Me The News](https://bringmethenews.com/minnesota-news/list-of-ice-raids-major-updates-in-minnesota-on-tuesday-jan-27)
+- Date: January 27, 2026
+- Details: Two men detained by ICE outside La Perlita Market. A woman with a baby was present and asked agents "why?" One detained man fled from ICE vehicle and was chased by agents.
+- Reason: **Insufficient details** - no affected individual names, no citizenship or legal status information, no criminal history information. Cannot verify these individuals fit the project's focus on non-criminal community members.
+- Date evaluated: 2026-01-28
+
 **Rep. Ilhan Omar Attacked at Town Hall (Jan 27)**
 - Sources: [NBC News](https://www.nbcnews.com/politics/congress/man-lunges-ilhan-omar-town-hall-try-spray-unknown-substance-rcna256247), [NPR](https://www.npr.org/2026/01/27/g-s1-107625/rep-ilhan-omar-sprayed-town-hall), [Washington Post](https://www.washingtonpost.com/politics/2026/01/27/ilhan-omar-town-hall-attack/)
 - Date: January 27, 2026
