@@ -4,7 +4,7 @@ time: unknown
 location: Under bridge near Little Earth Housing Project
 city: Minneapolis
 type: citizens
-status: resolved
+status: ongoing
 affected_individual_citizenship: us-citizen
 injuries: none
 trustworthiness: high
@@ -13,6 +13,9 @@ last_updated: 2026-01-14T08:01:12
 ---
 
 # Four Homeless Oglala Sioux Citizens Detained Near Little Earth
+
+## Updates
+- **Jan 25-27** - [Oglala Sioux Tribe continues search](https://bringmethenews.com/minnesota-news/oglala-sioux-tribe-continues-search-for-members-believed-to-be-in-ice-custody) for detained members. Tribal officials were granted access to Whipple Federal Building but unable to locate the men. Tribe refused to enter immigration agreement with DHS.
 
 ## Summary
 Four homeless men, all enrolled members of the Oglala Sioux Tribe and U.S. citizens, were detained by ICE while sheltering under a bridge near the Little Earth Housing Project in the East Phillips neighborhood. They were taken into custody without their names being recorded by authorities. At least one was held for 12 hours before release. The tribe sent attorneys and leadership to Minneapolis to locate the men.

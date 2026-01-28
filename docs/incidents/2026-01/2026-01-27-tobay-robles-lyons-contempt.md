@@ -4,15 +4,18 @@ time: evening
 location: Federal District Court
 city: Minneapolis
 type: immigrants
-status: ongoing
+status: resolved
 affected_individual_citizenship: undocumented
 injuries: none
 trustworthiness: high
 created: 2026-01-27T08:47:47
-last_updated: 2026-01-27T08:47:47
+last_updated: 2026-01-27T20:15:51
 ---
 
 # Ecuadorean Man Held 3 Weeks Despite Court Order; Judge Orders ICE Director to Appear for Contempt
+
+## Updates
+- **Jan 27** - [Tobay Robles released](https://www.mprnews.org/story/2026/01/27/judge-orders-ice-director-to-appear-federal-court-minneapolis) shortly after 1 p.m. following judge's contempt order against ICE director.
 
 ## Summary
 
@@ -41,7 +44,8 @@ Federal Judge Patrick Schiltz ordered ICE's acting director Todd Lyons to person
 - **Jan 6** - Tobay Robles detained by immigration agents.
 - **Jan 14** - Judge Schiltz orders ICE to allow Tobay Robles to challenge detention at a hearing within one week, or release him; determines ICE is holding him under improper reading of federal law.
 - **Jan 27 (evening)** - Judge Schiltz issues ruling summoning ICE Acting Director Todd Lyons to appear in court Friday to explain why he should not be held in contempt
-- **Jan 31 (Friday, 1:00 p.m.)** - Scheduled contempt hearing in Minneapolis (will be canceled if ICE releases Tobay Robles)
+- **Jan 27 (~1:00 p.m.)** - Tobay Robles released from detention
+- **Jan 31 (Friday, 1:00 p.m.)** - Contempt hearing canceled due to release
 
 ## Court Order Details
 

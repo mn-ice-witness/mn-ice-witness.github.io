@@ -9,10 +9,13 @@ affected_individual_citizenship: asylum-seeker
 injuries: none
 trustworthiness: high
 created: 2026-01-22T12:00:00
-last_updated: 2026-01-22T12:00:00
+last_updated: 2026-01-27T20:15:51
 ---
 
 # Four Columbia Heights Students Detained by ICE, Including 5-Year-Old Sent to Texas
+
+## Updates
+- **Jan 27** - [Federal judge issues temporary restraining order](https://www.mprnews.org/story/2026/01/27/judge-issues-temporary-order-barring-removal-of-5-year-old-detained) barring removal of Liam Conejo Ramos and his father Adrian Alexander Conejo Arias.
 
 ## Summary
 Four students from Columbia Heights Public School District have been detained by ICE, including a 5-year-old kindergartner and a 10-year-old fourth grader who are now held in a Texas detention center with their parents. Superintendent Zena Stenvik held an emotional press conference on January 22, 2026, asking "Why detain a 5-year-old? You can't tell me that this child is going to be classified as a violent criminal."
@@ -45,7 +48,7 @@ Four students from Columbia Heights Public School District have been detained by
 - **Date detained:** January 20, 2026 (afternoon)
 - **Location:** Family driveway after arriving home from school
 - **Circumstances:** Taken with his father. School officials say the child was used as "bait" to knock on the door, letting officers see if anyone else was home
-- **Current status:** Detained in Texas
+- **Current status:** Detained in Texas; temporary restraining order issued Jan 27 barring removal
 - **Legal status:** Family following U.S. legal parameters with active asylum case; no deportation order
 
 ### 10-year-old girl (name not released)
@@ -68,6 +71,7 @@ Four students from Columbia Heights Public School District have been detained by
 - **January 20, 2026 (morning)** - 17-year-old boy detained from car on way to school
 - **January 20, 2026 (afternoon)** - 5-year-old Liam Ramos detained with father in driveway
 - **January 22, 2026** - Superintendent Zena Stenvik holds press conference
+- **January 27, 2026** - Judge Fred Biery issues temporary restraining order barring removal of Liam and his father
 
 ## Official Accounts
 

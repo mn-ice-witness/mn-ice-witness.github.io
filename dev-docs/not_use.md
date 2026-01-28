@@ -18,6 +18,34 @@ Stories are excluded when they don't meet the project's core focus:
 
 ### January 2026
 
+**Maple Grove SpringHill Suites Protest Arrests (Jan 26-27)**
+- Sources: [MPR News](https://www.mprnews.org/story/2026/01/27/several-arrested-after-antiice-protest-outside-maple-grove-hotel), [FOX 9](https://www.fox9.com/news/maple-grove-hotel-protests-arrest-charges-jan-27-2026), [KARE 11](https://www.kare11.com/article/news/local/ice-in-minnesota/multiple-people-arrested-for-protesting-outside-bovinos-maple-grove-hotel/89-f3ec1462-271f-4bb4-8371-f4b070aecfd3)
+- Date: January 26-27, 2026
+- Details: 26 people arrested during noise protest at SpringHill Suites where Border Patrol Commander Gregory Bovino was believed to be staying. Police declared unlawful assembly after property damage and objects thrown at officers. 13 charged with gross misdemeanor riot, 13 with misdemeanor unlawful assembly.
+- Reason: **Protest arrests** - protesters charged for riot/unlawful assembly during anti-ICE protest, not targeted for observing ICE enforcement or civil rights work.
+- Date evaluated: 2026-01-27
+
+**8th Circuit Ruling Lifts Protest Restrictions (Jan 27)**
+- Sources: [Fox News](https://www.foxnews.com/politics/trump-admin-wins-court-victory-freeing-ice-agents-minnesota-protest-restrictions)
+- Date: January 27, 2026
+- Details: 8th Circuit Court of Appeals sided with Trump administration, lifting restrictions on ICE tactics including pepper spray and non-lethal munitions against protesters.
+- Reason: **Legal/policy story** - court ruling on protest tactics, not a civil rights incident.
+- Date evaluated: 2026-01-27
+
+**Rachel Sayre Conflict Zone Comparison (Jan 25)**
+- Sources: [BMTN](https://bringmethenews.com/minnesota-news/minneapolis-official-compares-ice-surge-to-humanitarian-crises-in-conflict-zones)
+- Date: January 25, 2026
+- Details: Minneapolis Emergency Management Director Rachel Sayre compared Operation Metro Surge impacts to humanitarian crises she witnessed in Syria, Ukraine, Yemen, Iraq, and Haiti. Quote: "What I've seen here is what I've seen there: a powerful entity violently and intentionally terrorizing people."
+- Reason: **Official statement** - documents official's comparison, not a specific civil rights incident.
+- Date evaluated: 2026-01-27
+
+**Anti-ICE Chants at Sporting Events (Jan 25)**
+- Sources: [BMTN](https://bringmethenews.com/minnesota-sports/fans-echo-anti-ice-chants-at-minnesota-sporting-events-as-pro-athletes-speak-out)
+- Date: January 25, 2026
+- Details: Fans at Target Center (Timberwolves) and Grand Casino Arena (Minnesota Frost) chanted "F*** ICE" and "Go home ICE" following moments of silence for Alex Pretti. Frost captain Kelly Pannek and Timberwolves coach Chris Finch made statements against federal actions.
+- Reason: **Community response story** - documents public reaction at sporting events, not an enforcement incident.
+- Date evaluated: 2026-01-27
+
 **Home2 Suites Hotel Tear Gas (Jan 26)**
 - Sources: [MPR News](https://www.mprnews.org/story/2026/01/26/federal-agents-deploy-tear-gas-protest-vandalism-minneapolis-hotel), [KARE 11](https://www.kare11.com/article/news/local/ice-in-minnesota/minnesota-state-patrol-responds-to-anti-ice-protest-at-minneapolis-hotel/89-41ac60e3-6f98-4a7a-b389-ffafb3132b15), [Fox News](https://www.foxnews.com/us/anti-ice-agitators-clash-federal-agents-minneapolis-hotel-agents-deploy-tear-gas-flashbangs)
 - Date: January 26, 2026
