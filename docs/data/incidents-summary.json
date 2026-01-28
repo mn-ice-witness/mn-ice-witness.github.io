@@ -18,13 +18,18 @@
       "lastUpdated": "2026-01-27T12:00:00",
       "mediaCount": 0,
       "notable": false,
-      "hasLocalMedia": false,
-      "localMediaType": null,
-      "localMediaPath": null,
-      "localMediaOgPath": null,
-      "localMediaFiles": [],
-      "aspectRatio": null,
-      "mediaVersion": null
+      "hasLocalMedia": true,
+      "localMediaType": "video",
+      "localMediaPath": "media/2026-01/27/2026-01-27-raise-voice-erase-voice.mp4",
+      "localMediaOgPath": "media/2026-01/27/2026-01-27-raise-voice-erase-voice-og-2s-1769567667.jpg",
+      "localMediaFiles": [
+        {
+          "type": "video",
+          "path": "media/2026-01/27/2026-01-27-raise-voice-erase-voice.mp4"
+        }
+      ],
+      "aspectRatio": 1.8018018018018018,
+      "mediaVersion": 1769567667
     },
     {
       "filePath": "incidents/2026-01/2026-01-27-tobay-robles-lyons-contempt.md",
