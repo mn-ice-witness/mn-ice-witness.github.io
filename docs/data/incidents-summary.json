@@ -1,6 +1,32 @@
 {
   "incidents": [
     {
+      "filePath": "incidents/2026-01/2026-01-27-raise-voice-erase-voice.md",
+      "title": "ICE Agent Tells Person \"You Raise Your Voice, I Erase Your Voice\" (UNVERIFIED)",
+      "summary": "A video circulating on social media shows an ICE agent telling someone \"You raise your voice, I erase your voice\" during an encounter in Minneapolis. The video is being shared by MinnMax with the caption describing ICE \"erasing your rights.\"",
+      "latestUpdate": null,
+      "date": "2026-01-27",
+      "time": "unknown",
+      "location": "Minneapolis",
+      "city": "Minneapolis",
+      "type": "observers",
+      "status": "ongoing",
+      "affectedIndividualCitizenship": "unknown",
+      "injuries": "none",
+      "trustworthiness": "unverified",
+      "created": "2026-01-27T12:00:00",
+      "lastUpdated": "2026-01-27T12:00:00",
+      "mediaCount": 0,
+      "notable": false,
+      "hasLocalMedia": false,
+      "localMediaType": null,
+      "localMediaPath": null,
+      "localMediaOgPath": null,
+      "localMediaFiles": [],
+      "aspectRatio": null,
+      "mediaVersion": null
+    },
+    {
       "filePath": "incidents/2026-01/2026-01-27-tobay-robles-lyons-contempt.md",
       "title": "Ecuadorean Man Held 3 Weeks Despite Court Order; Judge Orders ICE Director to Appear for Contempt",
       "summary": "Federal Judge Patrick Schiltz ordered ICE's acting director Todd Lyons to personally appear in court Friday to explain why he should not be held in contempt for violating court orders. The case stems from Juan Hugo Tobay Robles, an Ecuadorean man who entered the United States illegally in 1999 as a minor and has been in custody at Fort Snelling since January 6. Judge Schiltz ordered on January 14 that ICE allow Tobay Robles to challenge his detention at a hearing within a week or release him, finding ICE was holding him under an improper reading of federal law. ICE failed to comply. The judge, appointed by President George W. Bush, wrote that his \"patience is at an end\" and that while summoning the ICE director was \"an extraordinary step,\" it was necessary because \"the extent of ICE's violation of court orders is likewise extraordinary.\"",
