@@ -121,7 +121,11 @@ def get_local_media(slug: str, media_dir: Path) -> dict:
         media_path = search_dir / f"{slug}{ext}"
         if media_path.exists():
             media_files.append(
-                {"type": "video", "path": f"{path_prefix}/{slug}{ext}", "file": media_path}
+                {
+                    "type": "video",
+                    "path": f"{path_prefix}/{slug}{ext}",
+                    "file": media_path,
+                }
             )
 
     # Collect all matching image files
@@ -129,7 +133,11 @@ def get_local_media(slug: str, media_dir: Path) -> dict:
         media_path = search_dir / f"{slug}{ext}"
         if media_path.exists():
             media_files.append(
-                {"type": "image", "path": f"{path_prefix}/{slug}{ext}", "file": media_path}
+                {
+                    "type": "image",
+                    "path": f"{path_prefix}/{slug}{ext}",
+                    "file": media_path,
+                }
             )
 
     if media_files:
@@ -203,13 +211,28 @@ def count_media(content):
     return videos + photos + analysis
 
 
-REQUIRED_FIELDS = ["date", "type", "status", "trustworthiness", "created", "last_updated"]
+REQUIRED_FIELDS = [
+    "date",
+    "type",
+    "status",
+    "trustworthiness",
+    "created",
+    "last_updated",
+]
 
 VALID_STATUS = {"ongoing", "resolved", "under-investigation"}
 VALID_INJURIES = {"none", "minor", "serious", "fatal"}
 VALID_TRUSTWORTHINESS = {"high", "medium", "low", "unverified"}
 VALID_TYPES = {"citizens", "observers", "immigrants", "schools-hospitals", "response"}
-VALID_CITIZENSHIP = {"us-citizen", "legal-resident", "asylum-seeker", "undocumented", "unknown", "n/a", "various"}
+VALID_CITIZENSHIP = {
+    "us-citizen",
+    "legal-resident",
+    "asylum-seeker",
+    "undocumented",
+    "unknown",
+    "n/a",
+    "various",
+}
 
 
 def validate_frontmatter(meta, file_path):
@@ -221,26 +244,36 @@ def validate_frontmatter(meta, file_path):
 
     status = meta.get("status", "").strip().lower()
     if status and status not in VALID_STATUS:
-        errors.append(f"invalid status '{status}' (must be: {', '.join(sorted(VALID_STATUS))})")
+        errors.append(
+            f"invalid status '{status}' (must be: {', '.join(sorted(VALID_STATUS))})"
+        )
 
     injuries = meta.get("injuries", "").strip().lower()
     if injuries and injuries not in VALID_INJURIES:
-        errors.append(f"invalid injuries '{injuries}' (must be: {', '.join(sorted(VALID_INJURIES))})")
+        errors.append(
+            f"invalid injuries '{injuries}' (must be: {', '.join(sorted(VALID_INJURIES))})"
+        )
 
     trust = meta.get("trustworthiness", "").strip().lower()
     if trust and trust not in VALID_TRUSTWORTHINESS:
-        errors.append(f"invalid trustworthiness '{trust}' (must be: {', '.join(sorted(VALID_TRUSTWORTHINESS))})")
+        errors.append(
+            f"invalid trustworthiness '{trust}' (must be: {', '.join(sorted(VALID_TRUSTWORTHINESS))})"
+        )
 
     type_value = meta.get("type", "").strip().lower()
     if type_value:
         types = [t.strip() for t in type_value.split(",")]
         for t in types:
             if t not in VALID_TYPES:
-                errors.append(f"invalid type '{t}' (must be: {', '.join(sorted(VALID_TYPES))})")
+                errors.append(
+                    f"invalid type '{t}' (must be: {', '.join(sorted(VALID_TYPES))})"
+                )
 
     citizenship = meta.get("affected_individual_citizenship", "").strip().lower()
     if citizenship and citizenship not in VALID_CITIZENSHIP:
-        errors.append(f"invalid citizenship '{citizenship}' (must be: {', '.join(sorted(VALID_CITIZENSHIP))})")
+        errors.append(
+            f"invalid citizenship '{citizenship}' (must be: {', '.join(sorted(VALID_CITIZENSHIP))})"
+        )
 
     if errors:
         raise ValueError(f"{file_path.name}: " + "; ".join(errors))
@@ -274,7 +307,9 @@ def process_incident(file_path, docs_dir, media_dir):
         "city": meta.get("city", "Minneapolis"),
         "type": parse_type(meta.get("type", "unknown")),
         "status": meta.get("status", "unknown"),
-        "affectedIndividualCitizenship": meta.get("affected_individual_citizenship", "unknown"),
+        "affectedIndividualCitizenship": meta.get(
+            "affected_individual_citizenship", "unknown"
+        ),
         "injuries": meta.get("injuries", "unknown"),
         "trustworthiness": meta.get("trustworthiness", "unverified"),
         "created": meta["created"],
@@ -354,8 +389,11 @@ def main():
     incidents_with_media = [i for i in incidents if i["hasLocalMedia"]]
     media_count = len(incidents_with_media)
 
-    # Update media order file with new items
-    update_media_order(incidents_with_media, docs_dir / "data")
+    # Update media order file with new items (exclude unverified incidents)
+    verified_with_media = [
+        i for i in incidents_with_media if i["trustworthiness"] != "unverified"
+    ]
+    update_media_order(verified_with_media, docs_dir / "data")
 
     # Output incidents (each has its own mediaVersion based on file mtime)
     output_data = {"incidents": incidents}
