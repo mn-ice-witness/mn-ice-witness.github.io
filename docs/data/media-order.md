@@ -10,6 +10,7 @@
 
 
 
+
 juan-carlos-brutality
 aliya-rahman-car-window-hospitalized
 speedway-st-paul
@@ -86,3 +87,4 @@ sullivan-elementary-ice-food-flyers
 velasco-family-hopkins
 bovino-agents-are-victims
 raise-voice-erase-voice
+biestman-lee-guns-pointed
