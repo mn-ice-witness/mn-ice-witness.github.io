@@ -9,12 +9,13 @@ affected_individual_citizenship: us-citizen
 injuries: fatal
 trustworthiness: high
 created: 2026-01-24T13:40:15
-last_updated: 2026-01-27T08:38:44
+last_updated: 2026-01-28T18:06:43
 ---
 
 # Alex Pretti Shot and Killed by Federal Agents
 
 ## Updates
+- **Jan 28** - [Video from January 13](https://www.realclearpolitics.com/video/2026/01/28/video_filmed_11_days_before_shooting_appears_to_show_alex_pretti_fighting_with_federal_agents.html) (11 days before the shooting) shows Pretti in a prior confrontation with federal agents—kicking out their vehicle's taillight, being tackled, then walking away without arrest. [CNN reports](https://www.cnn.com/2026/01/27/us/alex-pretti-protesters-minneapolis-invs) Pretti suffered a broken rib in this encounter. The footage was released by The News Movement, an independent journalism outlet.
 - **Jan 27** - [Court filings](https://kstp.com/kstp-news/top-news/court-filings-witnesses-say-they-didnt-see-pretti-with-a-gun-give-more-details-of-deadly-ice-shooting/) reveal witness testimony: "The man did not approach the agents with a gun. He approached them with a camera." A pediatrician witness counted at least 4 gunshot wounds—3 to his back, 1 to his upper left chest. Audio analysis: 10 shots in less than 5 seconds.
 - **Jan 26** - BCA Superintendent Drew Evans says DHS [blocked state investigators](https://www.kare11.com/article/news/local/ice-in-minnesota/bca-blocked-from-scene-where-federal-agents-fatally-shot-man-south-minneapolis/89-2d4bf800-d146-49ee-8eb8-4ff5e09f02c8) from the scene despite having a warrant — in 20+ years he's "never been denied access to a scene.".
 - **Jan 24** - Pretti's parents release [statement](https://bsky.app/profile/jeffrueter.bsky.social/post/3md7iqqr5622i) calling their son "a good man" and demanding the truth be told.
@@ -52,6 +53,8 @@ Federal agents fatally shot Alex Jeffrey Pretti, a 37-year-old U.S. citizen, lic
 24. KSTP (Jan 27, 2026): [Court filings: Witnesses say they didn't see Pretti with a gun](https://kstp.com/kstp-news/top-news/court-filings-witnesses-say-they-didnt-see-pretti-with-a-gun-give-more-details-of-deadly-ice-shooting/)
 25. Washington Post (Jan 25, 2026): [Videos show agent secured gun from Pretti before fatal shooting](https://www.washingtonpost.com/investigations/2026/01/25/minneapolis-shooting-video-gun/)
 26. Bring Me The News (Jan 27, 2026): [Lawsuit says federal agents let crime scene collapse](https://bringmethenews.com/minnesota-news/alex-pretti-minnesota-lawsuit-says-fed-agents-let-crime-scene-collapse-in-astonishing-behavior)
+27. RealClearPolitics (Jan 28, 2026): [Video filmed 11 days before shooting shows Pretti fighting with federal agents](https://www.realclearpolitics.com/video/2026/01/28/video_filmed_11_days_before_shooting_appears_to_show_alex_pretti_fighting_with_federal_agents.html) - **VIDEO**
+28. CNN (Jan 27, 2026): [Pretti suffered broken rib in prior confrontation](https://www.cnn.com/2026/01/27/us/alex-pretti-protesters-minneapolis-invs)
 
 ## Related Incidents
 
@@ -69,7 +72,8 @@ Federal agents fatally shot Alex Jeffrey Pretti, a 37-year-old U.S. citizen, lic
 - **Residence:** South Minneapolis
 
 ## Timeline
-- **~9:05 AM** - Federal agents conducting a targeted operation encounter Pretti near 26th Street and Nicollet Avenue (near Glam Doll Donuts)
+- **Jan 13** - Pretti confronts federal agents during a protest—video shows him kicking out a vehicle taillight before being tackled. He walks away without arrest but suffers a broken rib.
+- **Jan 24, ~9:05 AM** - Federal agents conducting a targeted operation encounter Pretti near 26th Street and Nicollet Avenue (near Glam Doll Donuts)
 - **During encounter** - Video shows multiple agents wrestling Pretti to the ground
 - **Shooting** - Agent fires multiple shots into Pretti's chest while agents have him on the ground
 - **Aftermath** - Pretti pronounced dead; over 100 protesters assemble at scene

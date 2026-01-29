@@ -39,18 +39,19 @@ The message read:
 
 - **No one has produced, photographed, or described an actual flyer** - not a single flyer has been shown to journalists or the public
 - **We don't know how the school learned about the flyers** - did a parent report receiving one? Did someone see them being distributed? The school's message says "we have learned" but doesn't say how
-- **No major Minnesota media has investigated or confirmed the claim** (Star Tribune, MPR News, KARE11, KSTP, WCCO, Fox9 have not reported on this)
+- **No major Minnesota media has independently investigated the flyer claim** - MPR mentioned the warning in broader coverage, but no outlet has confirmed ICE actually distributed flyers
 - **No official Minneapolis Public Schools statement** beyond the TalkingPoints message
 - **No ICE/DHS response** confirming or denying
 
 ## Sources
 
-The story has been covered by partisan/advocacy media but not by mainstream Minnesota outlets:
+The story has been covered by partisan/advocacy media. Some mainstream outlets mention the school warning in broader ICE/schools coverage, but none have independently investigated whether ICE actually distributed flyers:
 
 1. MeidasTouch News (Jan 22, 2026): [Minnesota Elementary School Sends Urgent Message](https://meidasnews.com/news/minnesota-elementary-school-sends-urgent-message-as-ice-sends-flyers-offering-food-support-to-families)
 2. Raw Story (Jan 23, 2026): [Fury as elementary school warns ICE trying to lure parents](https://www.rawstory.com/ice-minnesota/)
 3. AOL News (Jan 22, 2026): [Syndicated from MeidasTouch](https://www.aol.com/news/minnesota-elementary-school-sends-urgent-225350988.html)
 4. Instagram Reel (Jan 22, 2026): [Video coverage](https://www.instagram.com/reel/DT1KQoWEqbN/)
+5. MPR News (Jan 23, 2026): [How schools and students are affected by ICE enforcement](https://www.mprnews.org/story/2026/01/23/how-schools-and-students-are-affected-by-ice-enforcement) - mentions warning in broader context
 
 ## Context: Operation Metro Surge
 
